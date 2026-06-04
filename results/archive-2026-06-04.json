@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-04T10:56:39.567Z",
+  "timestamp": "2026-06-04T17:28:37.466Z",
   "date": "2026-06-04",
   "universe_size": 45,
   "insiders": {
@@ -1063,91 +1063,91 @@
     ]
   },
   "sectors": {
-    "summary": "Leader: XLE +1.29%",
+    "summary": "Leader: XLV +2.74%",
     "results": [
       {
         "t": "XLK",
         "n": "Tech",
-        "c": 196.23,
-        "dp": -0.9989
+        "c": 193.48,
+        "dp": -1.4014
       },
       {
         "t": "XLF",
         "n": "Financials",
-        "c": 50.87,
-        "dp": -1.1465
+        "c": 52.14,
+        "dp": 2.4966
       },
       {
         "t": "XLE",
         "n": "Energy",
-        "c": 58.71,
-        "dp": 1.294
+        "c": 58.9,
+        "dp": 0.3236
       },
       {
         "t": "XLV",
         "n": "Healthcare",
-        "c": 147.55,
-        "dp": 0.7855
+        "c": 151.6,
+        "dp": 2.7448
       },
       {
         "t": "XLY",
         "n": "Cons disc",
-        "c": 116.73,
-        "dp": -0.7314
+        "c": 117.34,
+        "dp": 0.5226
       },
       {
         "t": "XLP",
         "n": "Cons staples",
-        "c": 82.16,
-        "dp": 0.4033
+        "c": 82.34,
+        "dp": 0.2191
       },
       {
         "t": "XLI",
         "n": "Industrials",
-        "c": 174.05,
-        "dp": -0.0804
+        "c": 175.49,
+        "dp": 0.8273
       },
       {
         "t": "XLB",
         "n": "Materials",
-        "c": 51.63,
-        "dp": 0.2135
+        "c": 51.59,
+        "dp": -0.0775
       },
       {
         "t": "XLU",
         "n": "Utilities",
-        "c": 43.71,
-        "dp": -0.4328
+        "c": 43.79,
+        "dp": 0.183
       },
       {
         "t": "XLRE",
         "n": "Real estate",
-        "c": 43.51,
-        "dp": 0.046
+        "c": 43.95,
+        "dp": 1.0113
       },
       {
         "t": "XLC",
         "n": "Comm svcs",
-        "c": 112.08,
-        "dp": -1.312
+        "c": 113.04,
+        "dp": 0.8565
       },
       {
         "t": "SPY",
         "n": "S&P 500",
-        "c": 754.24,
-        "dp": -0.7017
+        "c": 756.97,
+        "dp": 0.362
       },
       {
         "t": "QQQ",
         "n": "Nasdaq 100",
-        "c": 744.21,
-        "dp": -0.2613
+        "c": 741.25,
+        "dp": -0.3977
       },
       {
         "t": "IWM",
         "n": "Russell 2k",
-        "c": 287.67,
-        "dp": -1.368
+        "c": 291.42,
+        "dp": 1.3036
       }
     ]
   },
@@ -1155,18 +1155,90 @@
     "summary": "25 headlines",
     "results": [
       {
-        "headline": "Eli Manning's private equity firm acquires licensing company for NFL Flag in bet on youth sports",
-        "url": "https://www.cnbc.com/2026/06/04/eli-manning-private-equity-rcx-youth-sports.html",
-        "source": "CNBC",
-        "datetime": 1780569441,
+        "headline": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaC1FUm1UYy1rOVFvcUI1MGY3T1U2VVQtMkVKandMNGZ1WHIxSC00blRhLWhtdDFUellNNXBJTWpMOUV5SmlfbkRmV0FGYkptYnBUZ3pndldld2VvYnF5TGtUN2cxLVhsVG9kcXlLaGRwbThxdTIzS1pOOEZLT2NJTV9WaG9GMG5aWEJTSGhfcXJGeUpic1VQY0Q2bGM0YWQyYVRtYg?oc=5",
+        "source": "Reuters",
+        "datetime": 1780588203,
         "category": "business",
         "related": ""
       },
       {
-        "headline": "Indian shares muted ahead of crucial RBI policy decision - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUVotcUdyRVdLVnM3MWVzMkNRSGFwekdicC1SalB4Tm91WEVveHUzUHVWU2doTXQ5TEdhT0w0dlNDdHlsUmdObkYteHprNURhamJNNFhnUlA0eVhIOUhqR3g4THZ3VWktaW51Q2Y2X2ExS0NNUVZMcXlYbTdPOS1uelgwVTZaNW5JWmxhczNqRDhKRnlkQ3N6VzdEVFpId2JnZGpnWExpMGxXTHRDd3lraEln?oc=5",
+        "headline": "Oil falls as traders eye Iran deal following Lebanon-Israel ceasefire - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVjFnWWJPa2JCQmk0aWtNQ0VrdVdDellpTDRJLUk2ckpvcV9GZGdxVEJkNEJmZ25BU3Rwd3NXV0ZmNkNjOEZSdVllSTl1cWx2bVFjVUV0bXBST3RXU01pSGxWb19qVGpsdjFzRHdBYUxablpCZXg2WGdnOUFVN21zRjlzZVBWeUh3YlFzVUdEZEhTanBTNDdFdFZZSV9ubG9qemN1TQ?oc=5",
         "source": "Reuters",
-        "datetime": 1780567907,
+        "datetime": 1780588038,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "We're selling an out-of-favor stock into strength to raise cash for better buys",
+        "url": "https://www.cnbc.com/2026/06/04/were-selling-an-out-of-favor-stock-into-strength-to-raise-cash-.html",
+        "source": "CNBC",
+        "datetime": 1780587715,
+        "category": "top news",
+        "related": ""
+      },
+      {
+        "headline": "First IAEA report on Iran's nuclear programme since February shows little change despite war - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd0ljYkZKSjRhZ3B4bHVaYXY3eTdSUlhwWEJ5M1FFTmxMOU9NLUVVWVhuT1pZaDdPSmhlZGd3eUhoWkZ6OGx3UVU3SS13VVM3dnNnU2gzSkpMVXdfUU5NRU9DRVgxd2wxZk04UlNjalVScEtYdUlud3JUS3U5UUdsaF9UaXlRMkhrQVZKbGRRbUI5V2diNkZDaURDVndJS3NjSHJyRHBYYzFPUko2bGdsTGNoTmFJd2gweE1aNXRfUmNyVF9RdS1CcUpn?oc=5",
+        "source": "Reuters",
+        "datetime": 1780587154,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "US Supreme Court backs SEC in fight over 'disgorgement' power - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ1BqZHVHYUVXZHlOb0stcFVUUUd2Y0s5UGYtdktfZEQ1Q254Y1dPRl9aV093S3ZfYVZnM29UMEhqalJzMjlDcGV6dzZ0dFVld1RQN1IyN041Y2wzSXpKVEZKdDJuaXdoM1NXRWgweFBpcGRxOENIMGZyZTRxTnk0elVVVmxMWndjNVhMc0xKWmFYN0ZDc2ZuUHl0cndjX28?oc=5",
+        "source": "Reuters",
+        "datetime": 1780583285,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "Dollar slips from two-month high amid Iran talks, yen trades near 160 - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUpUQ2NGcHQ1d3dnX3FrTjB3d0g5Y0J4ZHI1UGJZWlBVOEJrVzdnN1EwZ0hmQWh6YXg3bHRtenZTSVEzM2dJZTFJYXh1dnhWQ2pmaW45NUhEZlRwSHFWbjJsQV9nOEhmSHlZdnNqcGZXV2xNRWp6T2xpV1JYSElHdzJnNTlSSmhWTjRQTFpKM1ZOcXl5VGZ1VFVyS3Qwa0lxdGl6Y0J2YzhpX2dxUlByLTR4WDU4ZHpHRy1XNmJySkRpZEJ4ZTJDNGdsOTZ3MlU?oc=5",
+        "source": "Reuters",
+        "datetime": 1780582857,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+        "url": "https://www.cnbc.com/2026/06/04/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+        "source": "CNBC",
+        "datetime": 1780579001,
+        "category": "top news",
+        "related": ""
+      },
+      {
+        "headline": "Trafigura profit, volumes, surge in first results since Hormuz closure - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY002cVN5dW5qZXNCOWJ4OGNvSlBwYV9pcDZCTUwxYUZlSmtvRzNueUR5QXMzMHI5bjNmanZnTXZEMHpoZEw1b0tRQ1JxdmxtN1ZmMVc1ZzhOVVNmd3o3REdTcW5xZWdSVm9iMzNKTGZQOXlHOEF1RUg3TkN2ejlIUXE1U2cybVpDWUF2RzlubDJieGpUSVNjU2R4Y21ueHRDZmJ3NWdZaVoyYklyeGc?oc=5",
+        "source": "Reuters",
+        "datetime": 1780578053,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "Inside Wealth: Trump's 'big beautiful bill' has a 'double taxation' trap for top earners, tax lawyers say",
+        "url": "https://www.cnbc.com/2026/06/04/trump-tax-bill-double-taxation-trusts.html",
+        "source": "CNBC",
+        "datetime": 1780574069,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "Marjane Satrapi, Iranian-French author of graphic novel 'Persepolis', dies aged 56 - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVUV6WWw0Smx4TF9DRzdYdVJTdlJHMnlWWlAxLXlMSWpjQ1dNWjkyTmlrN0d2RFluZGQzWmFjYTBLZWYwdlFjNmduNDFhTElYM1VoRDRyZTRoMEoxX19UNm1DdDQwT3I4Z3FSMWMwUGp4WEprdldtV29SaUFVYnMySk1Vb3NGN1BCVEtqczhnOXFwb3ZLd3JZZUFPYW9OZHRfTmVhMjQtRmlrU21HaGRBMHBhZmpoS2R2VHZuQUhaVXZXdUlCYTNleVJTR1VuTFU?oc=5",
+        "source": "Reuters",
+        "datetime": 1780572973,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "Eli Manning's private equity firm acquires licensing company for NFL Flag in bet on youth sports",
+        "url": "https://www.cnbc.com/2026/06/04/eli-manning-private-equity-rcx-youth-sports.html",
+        "source": "CNBC",
+        "datetime": 1780569441,
         "category": "business",
         "related": ""
       },
@@ -1203,18 +1275,18 @@
         "related": ""
       },
       {
-        "headline": "Israel strikes in Lebanon despite ceasefire deal - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc0tZZnRwemFBYWROV0xINzJVYVdzUjFuOXVvZTBCbktuTnM2T01kYnozQmFBSVJIak1GdG5vNzdPNV9sdUVuSDZBTGFWbTlTa2FWRzBzNEhTYUJucmtwRjdIU05HWm9fWFlwVmpLT1M4QnoxeHlSc2htYWVsTTlxTXJ6b0ZDU05RdEFZZ2pyUW9VTjVGd1A3akFzZVNTa0JYYlljVzlVaUVrOGxpeWlVbk1zUi1KdG5ITXRyOVJoRTVnclVCZ0lnUnRJeWU?oc=5",
+        "headline": "Bank of Japan expected to raise rates this month, sources say - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSmt0aDh5UWQyWFlydUlQWFllRGM5azV5blgxSE5yQWZHcThOWFR3UkhxajVHaF9CSXU3Sl9TVnJkMFlRNk9fT29IaFVwc3c2alFSLXdiZ2toZnNPclBtR2ZQWDcwYlc4MmU2WS1rRC1kUjdvNHlYUm1SVEZNVVNXS0I5RzVNS01QemR2cHJWMWJ6ZFJHQlhwMExGNS04MFRZMFU2cXM2b3E?oc=5",
         "source": "Reuters",
-        "datetime": 1780554240,
+        "datetime": 1780555980,
         "category": "business",
         "related": ""
       },
       {
-        "headline": "Global airline chiefs to confront Iran war fuel shock at industry summit - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVFHS0wzMVlmdG0tdGF1X0RNX0hjMkRRSHdlZERfREIxZkZxNHB2UW1BM3d1dk1wVXJiMjdJVUxqYnRWNE1MQ2laQ1dBRjhfWENGRzZyU21hd2I5TmFiSVdENzdHdVBVd2cxWTVMMnVkM242OVhFV003d0NjRDc4bV9FSjhfUGQxczh6a2V6Tnk2YWd1Sk14UmJ5d09QMm1GRkRGZTFOOG5ZUkhhSU45alpIWmNFR1pxUWg2dEdQRF9GVGlZYkFaTA?oc=5",
+        "headline": "Hezbollah rejects ceasefire plan declared in Washington, Israel keeps up strikes - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc0tZZnRwemFBYWROV0xINzJVYVdzUjFuOXVvZTBCbktuTnM2T01kYnozQmFBSVJIak1GdG5vNzdPNV9sdUVuSDZBTGFWbTlTa2FWRzBzNEhTYUJucmtwRjdIU05HWm9fWFlwVmpLT1M4QnoxeHlSc2htYWVsTTlxTXJ6b0ZDU05RdEFZZ2pyUW9VTjVGd1A3akFzZVNTa0JYYlljVzlVaUVrOGxpeWlVbk1zUi1KdG5ITXRyOVJoRTVnclVCZ0lnUnRJeWU?oc=5",
         "source": "Reuters",
-        "datetime": 1780553383,
+        "datetime": 1780554240,
         "category": "business",
         "related": ""
       },
@@ -1235,7 +1307,23 @@
         "related": ""
       },
       {
-        "headline": "Gold gains as Middle East peace optimism pushes dollar, oil prices lower - Reuters",
+        "headline": "Global airline chiefs to confront Iran war fuel shock at industry summit - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVFHS0wzMVlmdG0tdGF1X0RNX0hjMkRRSHdlZERfREIxZkZxNHB2UW1BM3d1dk1wVXJiMjdJVUxqYnRWNE1MQ2laQ1dBRjhfWENGRzZyU21hd2I5TmFiSVdENzdHdVBVd2cxWTVMMnVkM242OVhFV003d0NjRDc4bV9FSjhfUGQxczh6a2V6Tnk2YWd1Sk14UmJ5d09QMm1GRkRGZTFOOG5ZUkhhSU45alpIWmNFR1pxUWg2dEdQRF9GVGlZYkFaTA?oc=5",
+        "source": "Reuters",
+        "datetime": 1780552920,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "Indian shares muted ahead of crucial RBI policy decision - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUVotcUdyRVdLVnM3MWVzMkNRSGFwekdicC1SalB4Tm91WEVveHUzUHVWU2doTXQ5TEdhT0w0dlNDdHlsUmdObkYteHprNURhamJNNFhnUlA0eVhIOUhqR3g4THZ3VWktaW51Q2Y2X2ExS0NNUVZMcXlYbTdPOS1uelgwVTZaNW5JWmxhczNqRDhKRnlkQ3N6VzdEVFpId2JnZGpnWExpMGxXTHRDd3lraEln?oc=5",
+        "source": "Reuters",
+        "datetime": 1780540500,
+        "category": "business",
+        "related": ""
+      },
+      {
+        "headline": "Gold climbs as Middle East ceasefire hopes pressure dollar, bond yields - Reuters",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSjhKMVBpMWNDenNvOHdVMjYtaTN3NEZLeWVsR0MyLWtxNGY0WjV2Z1libmZLOFRscU5RaUhtWnZka0JHRWpYbDZpNTJIUzJzRkdpV2Z0YVRyTUctMEVqUWtHVG1VMVlPMmhNWlJNMGNRUlQ4eWtiYlhQVkhWdFE5dnJkdzR6STlEakQ5bTRHUFlHbXUyYVNfSnRKTFltSE53eU9QZ1E0X0pHUHJMNXlB?oc=5",
         "source": "Reuters",
         "datetime": 1780536240,
@@ -1243,7 +1331,7 @@
         "related": ""
       },
       {
-        "headline": "Stocks struggle after Broadcom dive; oil eases off highs - Reuters",
+        "headline": "Stocks struggle after Broadcom dive; oil drops off highs - Reuters",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMGphS3NPLVBWc1FHMDZFdklTMS1VQ2tzOE5zQnlOaXJaUTdwcW13VjNfUkowNnljUmhDTUhuNy0xS05sdVNkTmZqS1F0dDVCYkoyR053M05IR1c5QWFyR0RrY3BDcEtFS0NaRFZxTkhER0N6eHByMlJLTzdBeW8yOFFYSQ?oc=5",
         "source": "Reuters",
         "datetime": 1780533780,
@@ -1251,10 +1339,10 @@
         "related": ""
       },
       {
-        "headline": "Oil falls as Lebanon and Israel agree to implement ceasefire - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVjFnWWJPa2JCQmk0aWtNQ0VrdVdDellpTDRJLUk2ckpvcV9GZGdxVEJkNEJmZ25BU3Rwd3NXV0ZmNkNjOEZSdVllSTl1cWx2bVFjVUV0bXBST3RXU01pSGxWb19qVGpsdjFzRHdBYUxablpCZXg2WGdnOUFVN21zRjlzZVBWeUh3YlFzVUdEZEhTanBTNDdFdFZZSV9ubG9qemN1TQ?oc=5",
+        "headline": "Trump says Vance and Rubio teaming up for 2028 run would be unbeatable - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcHBwbHBfWExIb3JNV2MyQnRDZmtHZ0xld3U0ekdzcGtXMWJ2bDBmVkJ6X0FNVlRqZi1zT3dlVVo4cEFaUEsxS1RZNXlaTjhFNjliX2NyU3p4dzQxbVZOMjltSGJSclhodmQ3NjZEd0xpcFBVZjd2ZWxLTXpOVkV0TzVQNTBLZWFESWdiZlBKT0JQc3I0VkNyaHBIRVhQcVNBTVJMcXFjVXFHSEE?oc=5",
         "source": "Reuters",
-        "datetime": 1780533780,
+        "datetime": 1780529965,
         "category": "business",
         "related": ""
       },
@@ -1263,94 +1351,6 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHZVSDV2aHBYOHM1bjdsRUdfWGFMSzNySlMxNElEaUhvWElEVmdBdnlXd2dKekZsSnB0RHNpbXMzV2o0ZEhESjJGYUlpZjgwT2x5NWEwUHZ0UnB5bV9zOEhFUEROQlJtZkM3LXdGSG9fLTFJa2RnSk40V3ZVWUNnSnRoa0N2STlsYi1aT0JQckpkM05nSml0VA?oc=5",
         "source": "Reuters",
         "datetime": 1780527900,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "Trump confirms he called Netanyahu crazy in phone call - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYXBGWXJkR0NIUGdJVW9WZjFkeEpvZkxxQXJCUGNfbVQzbF9OQkdEUEVab052cEpuYmNuM3drVWdaTUlmbG1wYzJsTEFFYU8xNm5qMXN5SjYzQ3BiMnowYWtLTTh2Y09Bdl9hMjljUGV2Q1FESnZfT1FMeWhaVnRjbERfY2o0anVINUhQMjd0VU96UDJGdU9lRzJpZE9ObnE3TndDUkEtekQ?oc=5",
-        "source": "Reuters",
-        "datetime": 1780525129,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "War may end in interim deal that leaves Iran battered but unbowed - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeWdyX05aazdhNHJWc01EdWx6SUEybEJmUGZweERVVkpsYjltZG5vUTE3MkdiQWNrQ0U0VWZkSHZyeUswN1ZnbVAtQnhXWGNzamJoOVk1RFlKQ2h6UGNhS1hJYzQ5OTBuQ0tLZmpYc3Z3REtEQjlET0NmM0VhMkExVmN4UTRGb0lMaXNGU2VJM2JjMXdUWWRyYldvLTlPeWIxN0FyczFmZ2N4YkhPQ2tBMXdn?oc=5",
-        "source": "Reuters",
-        "datetime": 1780522060,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "US House votes for measure that would end Iran war, in blow to Trump - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaXZBVGtQRWNUQXJnZ1ZIRy1ESnlmMTR6MXZMeGotWEJEV0JwTnJmVXdHYUJZazB3cjhrU2FLN0gyMk0tUlNPZDVYYUpLMzhhTUZFam9aLWpNWjNManFDVzFVTGFudDBCQnJja0V4YXFLNldHRUtvYTZBdVR5eTlZaHFKb1dHSjBHSXNMRHpZR3JGY21Kb1NONEJ3ckoxR3N4d3c?oc=5",
-        "source": "Reuters",
-        "datetime": 1780521840,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "World shares drop, oil jumps as Middle East unrest deepens - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeVllVU5TSEVpajhKb3hSRUx6NDY3bWU2cDJpaUtOMllscG9lckFqZzJrMEowQ0IxSENhamFtNjZuOXVGb2Ywd0VfSUhlTnUzRkR5dlJlNHI1ME02YnhJV1RWRk5PZml5QlRIRlRQWEZIMzNUYlBmQ183aGEzNXFZU3V3ZFFXb0dw?oc=5",
-        "source": "Reuters",
-        "datetime": 1780519764,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "Broadcom stock slip on revenue miss",
-        "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html",
-        "source": "CNBC",
-        "datetime": 1780518540,
-        "category": "top news",
-        "related": ""
-      },
-      {
-        "headline": "Trump will attend the NATO summit in Turkey in July, Rubio says - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTTd4ZnpHSWg1UEgwa09WTEVFbW92cEVaUVNEdDlKa1FIZWhFUGRTYWgtbUc5Q0hTQVZGZGJEdmZaVVBaSFF5clk1Rk9oVXVrd1Q5d3RiejE2OFV4ZGxfd2p5bnd5U3BsZkdnNDFJaW1YRldTNDlyNGVCVEE0OHZpSXRHbHM3RVpzcGgtbWY4Tm1ya3RXNkROSXl0UGpKT3pWVW9n?oc=5",
-        "source": "Reuters",
-        "datetime": 1780516343,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "Senate GOP strips up to $1B for Trump ballroom security from immigration enforcement bill",
-        "url": "https://www.cnbc.com/2026/06/03/senate-gop-trump-ballroom-security-funding-immigration-bill.html",
-        "source": "CNBC",
-        "datetime": 1780516293,
-        "category": "top news",
-        "related": ""
-      },
-      {
-        "headline": "As Honeywell Aerospace readies for its standalone debut, its CEO is forecasting big growth",
-        "url": "https://www.cnbc.com/2026/06/03/honeywell-aerospace-ceo-earnings-growth.html",
-        "source": "CNBC",
-        "datetime": 1780516136,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "Kalshi wants small businesses to hedge like Wall Street. A NYC bar is trying it with Knicks promotion",
-        "url": "https://www.cnbc.com/2026/06/03/kalshi-wants-small-businesses-to-hedge-like-wall-street-a-nyc-bar-is-trying-it-with-knicks-promotion.html",
-        "source": "CNBC",
-        "datetime": 1780515335,
-        "category": "top news",
-        "related": ""
-      },
-      {
-        "headline": "Oil gains as Middle East hostilities flare - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRktPRENWZHRDVGluSHgybDl4djZHUEhxNDJOdzVFRjR0NzFNV3BlemJvLUxCSTBfeElPN0lBQ2FWVnNra1owTi0tR05NM3JaVnhDQzBxMDVUTVJhQ2ZPQUY5QldBa3hfbnJRLTlINk5BQkN3djFuVWlUVTFSUFJjd0Y4eWpCbXFmZ2k4b0xoRFhjcVAzLXd1MFZlSXJ0b0kxOUppUEwtN0JSdU91ZWVzM1RtMA?oc=5",
-        "source": "Reuters",
-        "datetime": 1780513954,
-        "category": "business",
-        "related": ""
-      },
-      {
-        "headline": "Iran to play World Cup warm-up behind closed doors, head to Mexico on Saturday - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVzFaU0tydTlFNW9Rc2c4R2ZLbWpGeEsyRGZ4MVFldmVRalNDaXNhZ3FNV0lHQ3JRRDlkNXdRVS1hSEVCNk9vbEFIYzk0SWlUc1FHRVBFVlllT2g0Q3NBTllkNUV5LVFoc2pHV2JIeUY4MEhrVU9NV2h3dTRHaWs2Yl82XzViLWcyenprOHdQREs1cGFzOVd0TVkwSzkyQmJvdU55OU9aV2JlTlo5TUpRZy1oOGZNX0lJcXc?oc=5",
-        "source": "Reuters",
-        "datetime": 1780513063,
         "category": "business",
         "related": ""
       }
