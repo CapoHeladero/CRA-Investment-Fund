@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-01T00:00:00.000Z",
+  "date": "2026-06-01",
+  "universe_size": 45,
+  "_note": "Placeholder file. Will be replaced by the first GitHub Actions run.",
+  "insiders": {
+    "summary": "Awaiting first scan",
+    "results": { "clusters": [], "watchable": [] }
+  },
+  "earnings": {
+    "summary": "Awaiting first scan",
+    "results": []
+  },
+  "sectors": {
+    "summary": "Awaiting first scan",
+    "results": []
+  },
+  "news": {
+    "summary": "Awaiting first scan",
+    "results": []
+  }
+}

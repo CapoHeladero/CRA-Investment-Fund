@@ -1,0 +1,16 @@
+{
+  "name": "cra-investment-fund-scanner",
+  "version": "1.0.0",
+  "description": "Daily scanner for CRA Investment Fund dashboard",
+  "type": "module",
+  "main": "scanner.js",
+  "scripts": {
+    "scan": "node scanner.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
