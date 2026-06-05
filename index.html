@@ -2708,5 +2708,53 @@ window.addEventListener('DOMContentLoaded', async () => {
   }
 });
 </script>
+
+<!-- CRA CHARTS ADD-ON (added 2026-06-05) -->
+<script>
+(function () {
+  function $(id){ return document.getElementById(id); }
+  if (document.getElementById('s-charts')) return;
+  try { if (window.titles) window.titles.charts = 'Charts'; } catch (e) {}
+  var anchorSec = document.getElementById('s-sizer') || document.querySelector('.section');
+  if (!anchorSec) return;
+  var sec = document.createElement('div');
+  sec.className = 'section'; sec.id = 's-charts';
+  sec.innerHTML =
+    '<div class="card"><div class="card-h">Charts</div>'+
+    '<div class="card-sub">Visualize a setup — entry, stop, target and 50-day MA drawn as price levels. Live quote from Finnhub; price line illustrative on the free tier.</div>'+
+    '<div class="f2">'+
+    '<div><label class="lbl">Ticker</label><input type="text" id="ch-tkr" placeholder="EOG"></div>'+
+    '<div><label class="lbl">50-day MA ($, optional)</label><input type="number" id="ch-ma" step="0.01"></div>'+
+    '<div><label class="lbl">Entry ($)</label><input type="number" id="ch-entry" step="0.01"></div>'+
+    '<div><label class="lbl">Stop loss ($)</label><input type="number" id="ch-stop" step="0.01"></div>'+
+    '<div><label class="lbl">Target ($)</label><input type="number" id="ch-target" step="0.01"></div>'+
+    '<div style="display:flex;align-items:flex-end;"><button class="btn-sec" type="button" id="ch-pull">Pull from Position Sizer</button></div>'+
+    '</div><button type="button" id="ch-draw">Draw chart</button><div id="ch-out" style="margin-top:16px;"></div></div>';
+  anchorSec.parentNode.appendChild(sec);
+  var sizerNav = document.querySelector('.nav-item[data-section="sizer"]');
+  var nav = document.createElement('div');
+  nav.className = 'nav-item'; nav.setAttribute('data-section','charts');
+  nav.innerHTML = '<span class="nav-icon">▩</span> Charts';
+  if (sizerNav) sizerNav.parentNode.insertBefore(nav, sizerNav.nextSibling);
+  function show(){
+    var all=document.querySelectorAll('.section'); for(var i=0;i<all.length;i++) all[i].classList.remove('active');
+    sec.classList.add('active');
+    var it=document.querySelectorAll('.nav-item'); for(var j=0;j<it.length;j++) it[j].classList.toggle('active', it[j].getAttribute('data-section')==='charts');
+    setTimeout(function(){ var t=$('page-title'); if(t) t.textContent='Charts'; },0);
+    window.scrollTo(0,0);
+  }
+  nav.addEventListener('click', show);
+  $('ch-pull').addEventListener('click', function(){ if($('ps-entry'))$('ch-entry').value=$('ps-entry').value; if($('ps-stop'))$('ch-stop').value=$('ps-stop').value; if($('ps-target'))$('ch-target').value=$('ps-target').value; });
+  function hashSeed(s){var h=2166136261;for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return (h>>>0)||12345;}
+  function seeded(s){return function(){s=(s*9301+49297)%233280;return s/233280;};}
+  function series(anchor,lo,hi,seed){var n=110,rnd=seeded(seed),arr=[],mid=(lo+hi)/2,p=mid;for(var i=0;i<n;i++){var prog=i/(n-1);var d=mid+(anchor-mid)*prog;p+=(d-p)*0.2+(rnd()-0.5)*((hi-lo)*0.07);p=Math.max(lo,Math.min(hi,p));arr.push(p);}arr[n-1]=anchor;return arr;}
+  function fmt(v){return '$'+(Math.round(v*100)/100).toFixed(2);}
+  function buildSVG(data,lo,hi,L){var W=900,H=250,padL=8,padR=70,padT=14,padB=14,plotW=W-padL-padR,plotH=H-padT-padB,n=data.length;var X=function(i){return padL+i/(n-1)*plotW;};var Y=function(v){return padT+(1-(v-lo)/(hi-lo))*plotH;};var path='',area='';for(var i=0;i<n;i++){var x=X(i).toFixed(1),y=Y(data[i]).toFixed(1);path+=(i?'L':'M')+x+' '+y+' ';area+=(i?'L':'M'+x+' '+Y(lo).toFixed(1)+' L')+x+' '+y+' ';}area+='L'+X(n-1).toFixed(1)+' '+Y(lo).toFixed(1)+' Z';var g='';for(var k=0;k<=3;k++){var gy=Y(lo+(hi-lo)*k/3).toFixed(1);g+='<line x1="'+padL+'" y1="'+gy+'" x2="'+(padL+plotW)+'" y2="'+gy+'" stroke="#ece5d6"/>';}function hl(v,c,d){if(!(v>0))return '';var y=Y(v).toFixed(1);return '<line x1="'+padL+'" y1="'+y+'" x2="'+(padL+plotW)+'" y2="'+y+'" stroke="'+c+'" stroke-width="1.6"'+(d?' stroke-dasharray="'+d+'"':'')+'/><text x="'+(padL+plotW+6)+'" y="'+(+y+4).toFixed(1)+'" font-size="11" fill="'+c+'">'+fmt(v)+'<'+'/text>';}return '<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" style="width:100%;height:240px;display:block" xmlns="http://www.w3.org/2000/svg">'+g+'<path d="'+area+'" fill="rgba(15,42,71,.07)"/><path d="'+path+'" fill="none" stroke="#0f2a47" stroke-width="1.8"/>'+hl(L.ma,'#9f7e26','3,3')+hl(L.entry,'#0f2a47','')+hl(L.stop,'#7c1f2c','6,4')+hl(L.target,'#1f4d2b','6,4')+'<'+'/svg>';}
+  function stat(k,v,c){return '<div style="flex:1;min-width:92px"><div style="font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--text-tert)">'+k+'<'+'/div><div style="font-size:16px;font-weight:600;margin-top:2px'+(c?';color:'+c:'')+'">'+v+'<'+'/div><'+'/div>';}
+  function render(tkr,entry,stop,target,ma,liveP,badge){var vals=[entry,stop,target,liveP];if(ma>0)vals.push(ma);var lo=Math.min.apply(null,vals),hi=Math.max.apply(null,vals);var pad=(hi-lo)*0.1||1;lo-=pad;hi+=pad;var data=series(liveP,Math.min(stop,liveP)-pad*0.3,Math.max(target,liveP),hashSeed(tkr||'CRA'));var rr=((target-entry)/(entry-stop));var toT=((target-liveP)/liveP*100),toS=((liveP-stop)/liveP*100);var legend='<div style="display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--text-tert);margin:2px 0 8px"><span style="color:var(--navy)">Entry</span><span style="color:var(--neg)">Stop</span><span style="color:var(--pos)">Target</span><span style="color:var(--brass)">50-day MA</span><'+'/div>';var head='<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px"><div style="font-family:var(--serif);font-size:20px;font-weight:600">'+(tkr||'-')+'<'+'/div><div style="font-size:12.5px;color:var(--text-tert)">'+badge+' R:R '+(isFinite(rr)?rr.toFixed(2):'-')+':1<'+'/div><'+'/div>';var stats='<div style="display:flex;flex-wrap:wrap;border-top:1px solid var(--border);margin-top:12px;padding-top:12px">'+stat('Entry',fmt(entry),'var(--navy)')+stat('Stop',fmt(stop),'var(--neg)')+stat('Target',fmt(target),'var(--pos)')+stat('Upside','+'+toT.toFixed(1)+'%','')+stat('Risk to stop','-'+Math.abs(toS).toFixed(1)+'%','')+'<'+'/div>';$('ch-out').innerHTML=head+legend+buildSVG(data,lo,hi,{entry:entry,stop:stop,target:target,ma:ma})+stats+'<div class="muted" style="font-size:12px;margin-top:10px">Price path is illustrative for layout - the level lines are your real numbers.<'+'/div>';}
+  $('ch-draw').addEventListener('click', function(){var tkr=($('ch-tkr').value||'').trim().toUpperCase();var entry=parseFloat($('ch-entry').value),stop=parseFloat($('ch-stop').value),target=parseFloat($('ch-target').value);var ma=parseFloat($('ch-ma').value);if(isNaN(ma))ma=0;if(!(entry>0)||!(stop>0)||!(target>0)){$('ch-out').innerHTML='<div class="notice notice-warn">Enter entry, stop and target - or click Pull from Position Sizer.<'+'/div>';return;}$('ch-out').innerHTML='<div class="muted">Loading...<'+'/div>';var liveP=entry,badge='entry-anchored';if(window.API&&typeof API.quote==='function'&&tkr){Promise.resolve(API.quote(tkr)).then(function(q){if(q&&q.c){liveP=q.c;badge='live ~'+fmt(q.c);}render(tkr,entry,stop,target,ma,liveP,badge);}).catch(function(){render(tkr,entry,stop,target,ma,liveP,badge);});}else{render(tkr,entry,stop,target,ma,liveP,badge);}});
+})();
+</script>
+<!-- END CRA CHARTS ADD-ON -->
 </body>
 </html>
