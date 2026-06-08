@@ -1812,9 +1812,12 @@ const opportunities = [
 ];
 
 const Opp = {
+  __data:null, __fresh:null, __tried:false,
+  fromFlat(flat){ const groups={},order=[]; flat.forEach(it=>{ const th=it.theme||'Daily Opportunities'; if(!groups[th]){groups[th]={theme:th,sub:'Auto-refreshed from the daily research book',ideas:[]};order.push(th);} const lv=(it.entry!=null&&it.stop!=null&&it.target!=null)?('Entry $'+it.entry+' · Stop $'+it.stop+' · Target $'+it.target+'. '):''; groups[th].ideas.push({t:it.t,n:it.n,type:it.type||'Swing',size:it.size||'',a:it.a||'',why:lv+(it.why||''),bull:it.bull||[],bear:it.bear||[],v:it.v||[],inv:it.inv||''}); }); return order.map(k=>groups[k]); },
+  loadDaily(){ fetch('opportunities-latest.json?cb='+Date.now(),{cache:'no-store'}).then(r=>r.ok?Promise.all([r.json(),r.headers.get('Last-Modified')]):null).then(o=>{ if(o&&Array.isArray(o[0])&&o[0].length){ Opp.__data=Opp.fromFlat(o[0]); Opp.__fresh=o[1]; Opp.render(); } }).catch(()=>{}); },
   render() {
-    const el = document.getElementById('opp-list');
-    el.innerHTML = opportunities.map((th, i) => `
+    const el = document.getElementById('opp-list'); if(Opp.__data===null && !Opp.__tried){Opp.__tried=true; Opp.loadDaily();}
+    el.innerHTML = (Opp.__fresh?('<div style="margin:0 0 14px;padding:8px 12px;border-left:3px solid var(--brass,#c8a24a);background:rgba(200,162,74,.10);font-size:12.5px;color:var(--text-sec,#9a9);border-radius:4px;">⟳ Live daily book · updated '+Opp.__fresh+'</div>'):'') + (Opp.__data||opportunities).map((th, i) => `
       <div class="opp-theme${i === 0 ? ' open' : ''}" data-i="${i}">
         <div class="opp-theme-header" onclick="Opp.toggle(${i})">
           <div>
