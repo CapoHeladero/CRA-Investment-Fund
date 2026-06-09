@@ -1403,6 +1403,8 @@ const Nav = {
     if (sec === 'opportunities') Opp.render();
     if (sec === 'scanners') Scan.renderMeta();
     if (sec === 'insider') Insider.renderFeed();
+    if (sec === 'scorecard') Score.autoload();
+    if (sec === 'macro') Macro.autoload();
     if (sec === 'positions') Pos.render();
     if (sec === 'watchlist') Watch.render();
     if (sec === 'signals') Sig.render();
@@ -2388,6 +2390,24 @@ const Insider = {
 
 // ==================== SCORECARD ====================
 const Score = {
+  __tried:false,
+  async autoload(){
+    if(Score.__tried) return; Score.__tried=true;
+    var j=null; try{ j=await fetch('scorecards-latest.json?cb='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}); }catch(e){}
+    if(!j||(!j.names&&!j.worst)) return;
+    var sec=document.getElementById('s-scorecard'); if(!sec) return;
+    var board=document.getElementById('sc-board');
+    if(!board){ board=document.createElement('div'); board.id='sc-board'; board.className='card'; sec.insertBefore(board, sec.firstChild); }
+    var bcls=function(g){ var c='bdg-info'; if(g&&g[0]==='A')c='bdg-pos'; if(g&&(g[0]==='D'||g[0]==='F'))c='bdg-neg'; return c; };
+    var row=function(n){ return '<tr><td><span class="row-ticker">'+n.t+'</span> <span class="muted">'+F.esc(n.n||'')+'</span></td><td>'+F.esc(n.sector||'')+'</td><td class="ta-r"><span class="bdg '+bcls(n.grade)+'">'+n.grade+'</span></td><td class="ta-r">'+n.score+'</td><td class="muted" style="font-size:11px;">'+F.esc(n.note||'')+'</td></tr>'; };
+    var list=(j.names||[]).concat(j.worst||[]);
+    var top=list.filter(function(x){return x.tier!=='worst';});
+    var bot=list.filter(function(x){return x.tier==='worst';});
+    var html='<div class="card-h">Scorecard leaderboard <span class="muted" style="font-size:11px;">- auto-ranked - '+(j.asof||'')+'</span></div><div class="card-sub">Composite of valuation, growth, quality, leverage &amp; momentum. Classification, not a buy/sell call.</div>';
+    html+='<div class="sub-hd">Top rated</div><table class="t"><thead><tr><th>Name</th><th>Sector</th><th class="ta-r">Grade</th><th class="ta-r">Score</th><th></th></tr></thead><tbody>'+top.map(row).join('')+'</tbody></table>';
+    if(bot.length){ html+='<div class="sub-hd">Lowest rated / handle with care</div><table class="t"><tbody>'+bot.map(row).join('')+'</tbody></table>'; }
+    board.innerHTML=html;
+  },
   async loadFromAPI() {
     const t = document.getElementById('s-tick').value.trim().toUpperCase();
     const msg = document.getElementById('s-load-msg');
@@ -2626,6 +2646,17 @@ const Backtest = {
 
 // ==================== MACRO ====================
 const Macro = {
+  __tried:false,
+  async autoload(){
+    if(Macro.__tried) return; Macro.__tried=true;
+    var j=null; try{ j=await fetch('macro-latest.json?cb='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}); }catch(e){}
+    if(!j) return;
+    var setv=function(id,v){ var el=document.getElementById(id); if(el&&v!=null&&v!=='') el.value=v; };
+    setv('m-vix',j.vix); setv('m-10y',j.y10); setv('m-2y',j.y2); setv('m-ff',j.ff); setv('m-sp',j.spVs200); setv('m-oil',j.brent);
+    try{ Macro.regime(); }catch(e){}
+    if(Array.isArray(j.checklist)){ var boxes=document.querySelectorAll('#chk-list input[type=checkbox]'); j.checklist.forEach(function(on,i){ if(boxes[i]){ boxes[i].checked=!!on; boxes[i].dispatchEvent(new Event('change',{bubbles:true})); } }); }
+    var mo=document.getElementById('m-out'); if(mo&&j.note){ mo.innerHTML += '<div class="muted" style="margin-top:8px;font-size:12px;">Auto-filled from live data - '+(j.asof||'')+' - '+j.note+'</div>'; }
+  },
   regime() {
     const v = id => parseFloat(document.getElementById(id).value);
     const vix = v('m-vix'), y10 = v('m-10y'), y2 = v('m-2y'), sp = v('m-sp');

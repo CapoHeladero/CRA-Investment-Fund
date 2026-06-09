@@ -1,0 +1,21 @@
+{
+  "asof": "2026-06-09",
+  "method": "Composite of valuation, growth, quality (ROE/FCF), leverage and momentum vs 200DMA. Classification only - not a buy/sell call.",
+  "names": [
+    { "t": "JPM", "n": "JPMorgan Chase", "sector": "Financials", "grade": "A-", "score": 86, "tier": "top", "note": "ROE ~17%, ~15x P/E, NII tailwind from higher-for-longer, fortress balance sheet" },
+    { "t": "XOM", "n": "Exxon Mobil", "sector": "Energy", "grade": "A-", "score": 84, "tier": "top", "note": "Strong FCF, ~13x earnings, low-breakeven Guyana/Permian barrels, energy relative-strength" },
+    { "t": "RTX", "n": "RTX Corporation", "sector": "Defense / Industrials", "grade": "B+", "score": 80, "tier": "top", "note": "Record backlog, book-to-bill >1, multi-year re-arm cycle; GTF charge overhang" },
+    { "t": "UNH", "n": "UnitedHealth", "sector": "Health Care", "grade": "B+", "score": 79, "tier": "top", "note": "Raised FY26 guidance, cheap vs own history, Optum diversification; MLR surprise risk" },
+    { "t": "FSLR", "n": "First Solar", "sector": "Renewables / Solar", "grade": "B+", "score": 78, "tier": "top", "note": "Earnings momentum + domestic-content tariff moat; policy/subsidy sensitivity" },
+    { "t": "CEG", "n": "Constellation Energy", "sector": "Nuclear / Power", "grade": "B", "score": 75, "tier": "top", "note": "Largest US nuclear fleet, AI power-demand tailwind; valuation rich after the run" },
+    { "t": "NVDA", "n": "NVIDIA", "sector": "Technology / Semis", "grade": "B", "score": 74, "tier": "top", "note": "Elite growth, margins and CUDA moat; valuation and two-way volatility post-plunge" },
+    { "t": "VST", "n": "Vistra", "sector": "Utilities / AI Power", "grade": "B", "score": 72, "tier": "top", "note": "Direct leverage to data-center power demand; high beta, rich multiple" },
+    { "t": "CPB", "n": "Campbell's", "sector": "Consumer Staples", "grade": "B-", "score": 66, "tier": "top", "note": "Cheap defensive yielder near multi-year lows; low growth, soft top line" }
+  ],
+  "worst": [
+    { "t": "IONQ", "n": "IonQ", "sector": "Quantum Computing", "grade": "D+", "score": 38, "tier": "worst", "note": "No profits, extreme valuation, recurring 50%+ drawdowns - speculative" },
+    { "t": "OKLO", "n": "Oklo", "sector": "Nuclear", "grade": "D", "score": 33, "tier": "worst", "note": "Pre-revenue; valued on promise; NRC licensing and timeline risk" },
+    { "t": "SMR", "n": "NuScale Power", "sector": "Nuclear / SMR", "grade": "D", "score": 32, "tier": "worst", "note": "Pre-deployment; SMR sector has a history of project cancellations; dilution risk" },
+    { "t": "M", "n": "Macy's", "sector": "Consumer Discretionary", "grade": "C-", "score": 48, "tier": "worst", "note": "Cheap and beat, but secular department-store decline keeps value-trap risk high" }
+  ]
+}
