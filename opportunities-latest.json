@@ -258,5 +258,135 @@
     "entry": 22,
     "stop": 20,
     "target": 26
+  },
+  {
+    "t": "OKLO",
+    "n": "Oklo",
+    "theme": "Nuclear / AI Power",
+    "type": "swing",
+    "size": "~$500 (7 sh)",
+    "a": "Advanced-fission developer building small modular 'microreactors' to power data centers directly.",
+    "why": "AI-driven power demand + a recent Meta deal for a 1.2GW system in Ohio; nuclear is a defining 2026 theme as data-center load surges.",
+    "bull": [
+      "Direct exposure to the AI-power scarcity trade",
+      "Marquee customer deals (Meta) validate demand",
+      "First-mover in SMR/microreactor commercialization",
+      "Analyst avg target near $92 vs spot"
+    ],
+    "bear": [
+      "Pre-revenue / pre-deployment; valuation on promise not earnings",
+      "Regulatory (NRC) and execution timelines can slip for years",
+      "High-beta, dilutive funding risk",
+      "Sells off hard in risk-off tape"
+    ],
+    "v": ["NRC licensing milestones", "new customer PPAs", "cash runway / dilution", "first-reactor timeline"],
+    "inv": "Major licensing setback or close below ~$64 support",
+    "entry": 72,
+    "stop": 64,
+    "target": 92
+  },
+  {
+    "t": "IONQ",
+    "n": "IonQ",
+    "theme": "Quantum Computing",
+    "type": "swing",
+    "size": "~$440 (7 sh)",
+    "a": "Pure-play trapped-ion quantum computing leader; the cleanest large-cap quantum name.",
+    "why": "Quantum stocks re-rallied into June; IonQ is the only pure-play with positive YTD returns and first to clear $100M GAAP revenue.",
+    "bull": [
+      "Leading contract pipeline and strongest balance sheet in quantum",
+      "First quantum name past $100M GAAP revenue",
+      "Secular, multi-year compute paradigm optionality",
+      "Institutional/strategic interest building"
+    ],
+    "bear": [
+      "Routinely swings 10-15% on no news; 50%+ drawdowns recur",
+      "Valuation detached from near-term fundamentals",
+      "Commercial quantum advantage still years away",
+      "Dilution risk to fund R&D"
+    ],
+    "v": ["bookings / contract pipeline", "GAAP revenue trajectory", "cash burn", "hardware roadmap milestones"],
+    "inv": "Close below ~$55; a broken quantum-sector rally",
+    "entry": 63,
+    "stop": 55,
+    "target": 80
+  },
+  {
+    "t": "RKLB",
+    "n": "Rocket Lab",
+    "theme": "Space / Defense",
+    "type": "swing",
+    "size": "~$455 (4 sh)",
+    "a": "Small-launch + space-systems provider scaling toward the larger Neutron rocket; space/defense pure-play.",
+    "why": "Buy consensus and defense/space tailwinds; pulled back from a $150 May ATH with Friday's volatility, improving entry.",
+    "bull": [
+      "Vertically integrated launch + space systems revenue",
+      "Neutron rocket opens larger TAM",
+      "Defense/national-security demand tailwind",
+      "Pullback from ATH offers better risk/reward"
+    ],
+    "bear": [
+      "High-beta, richly valued, profitless growth",
+      "Launch cadence / Neutron timeline execution risk",
+      "Sensitive to risk-off and rate-driven de-rating",
+      "Single-mishap headline risk"
+    ],
+    "v": ["launch cadence", "Neutron development milestones", "backlog / bookings", "space-systems margins"],
+    "inv": "Close below ~$100; a launch failure or Neutron slip",
+    "entry": 114,
+    "stop": 100,
+    "target": 140
+  },
+  {
+    "t": "SMR",
+    "n": "NuScale Power",
+    "theme": "Nuclear / SMR",
+    "type": "swing",
+    "size": "~$375 (30 sh)",
+    "a": "Grid-scale small modular reactor designer; cheaper sizing makes it the affordable nuclear pure-play for a small book.",
+    "why": "Nuclear renaissance for AI/grid power; TVA 6GW deal with a power-purchase agreement targeted to close this year.",
+    "bull": [
+      "Grid-scale SMR exposure to the power-demand supercycle",
+      "TVA partnership a potential anchor catalyst",
+      "Low share price = easy, granular sizing",
+      "Policy tailwinds for domestic nuclear"
+    ],
+    "bear": [
+      "Pre-deployment; revenue years out",
+      "History of project cancellations in the SMR space",
+      "Dilution and funding risk",
+      "Highly speculative / volatile"
+    ],
+    "v": ["TVA PPA close", "new orders", "cash runway", "NRC design approvals"],
+    "inv": "Close below ~$10.5; a major project cancellation",
+    "entry": 12.5,
+    "stop": 10.5,
+    "target": 16
+  },
+  {
+    "t": "FSLR",
+    "n": "First Solar",
+    "theme": "Renewables / Solar",
+    "type": "core",
+    "size": "~$485 (2 sh) - approx price, verify live",
+    "a": "Largest US thin-film (CdTe) solar manufacturer with a domestic-content and tariff-protected moat.",
+    "why": "Up ~25% in the past month on strong earnings and policy momentum; US-made supply chain benefits from tariffs on imports.",
+    "bull": [
+      "Domestic manufacturing + tariff protection vs Chinese imports",
+      "Large multi-year contracted backlog",
+      "IRA / domestic-content tax-credit tailwinds",
+      "Strong recent earnings momentum"
+    ],
+    "bear": [
+      "Recent insider selling flags caution after the run",
+      "Policy/subsidy reversal risk",
+      "Rate-sensitive long-duration cash flows",
+      "Price estimate approximate - confirm live before sizing"
+    ],
+    "v": ["bookings / backlog", "policy & tariff headlines", "ASP and margin trend", "live price confirmation"],
+    "inv": "Close below ~$218; a subsidy/policy reversal",
+    "entry": 242,
+    "stop": 218,
+    "target": 285
   }
 ]

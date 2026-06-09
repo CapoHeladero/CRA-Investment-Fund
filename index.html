@@ -2316,13 +2316,17 @@ const DD = {
 
 // ==================== INSIDER ====================
 const Insider = {
+  __feed:null, __tried:false,
+  loadFeed(){ fetch('insiders-latest.json?cb='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{ if(j&&(j.clusters||j.watchable||j.politicians)){ Insider.__feed={ts:(j.asof?Date.parse(j.asof):Date.now()), curated:true, asof:j.asof||'', results:{clusters:j.clusters||[], watchable:j.watchable||[]}, politicians:j.politicians||[]}; Insider.renderFeed(); } }).catch(function(){}); },
+  polHTML(){ var d=Insider.__feed; var p=d&&d.politicians; if(!p||!p.length) return ''; var h='<div class="sub-hd">Politician / Congress trades</div><table class="t"><thead><tr><th>Politician</th><th>Ticker</th><th class="ta-r">Type</th><th class="ta-r">Size</th><th></th></tr></thead><tbody>'; h+=p.map(function(r){return '<tr><td>'+F.esc(r.who)+'<div class="muted" style="font-size:11px;">'+F.esc(r.party||'')+'</div></td><td><span class="row-ticker">'+r.t+'</span></td><td class="ta-r">'+r.type+'</td><td class="ta-r">'+F.esc(r.size||'')+'</td><td class="muted" style="font-size:11px;">'+F.esc(r.note||'')+'</td></tr>';}).join(''); h+='</tbody></table>'; return h; },
   renderFeed() {
     const el = document.getElementById('ins-feed');
     if (!el) return;
-    const d = S.get('scan.insiders');
+    if(!Insider.__tried){Insider.__tried=true; Insider.loadFeed();}
+    const d = Insider.__feed || S.get('scan.insiders');
     if (!d || !d.results) { el.innerHTML = '<div class="empty">No scan results yet. Click "Refresh universe scan" or use Live Scanners.</div>'; return; }
     const { clusters, watchable } = d.results;
-    let html = `<div class="muted" style="margin-bottom:12px; font-size:11px;">Last scanned: ${F.age(d.ts)} · ${clusters.length} clusters · ${watchable.length} single buys</div>`;
+    let html = (d&&d.curated?('<div style="margin:0 0 12px;padding:8px 12px;border-left:3px solid var(--brass,#c8a24a);background:rgba(200,162,74,.10);font-size:12px;border-radius:4px;">⟳ Curated daily insider & politician feed · updated '+(d.asof||'')+'</div>'):'') + `<div class="muted" style="margin-bottom:12px; font-size:11px;">Last scanned: ${F.age(d.ts)} · ${clusters.length} clusters · ${watchable.length} single buys</div>`;
     if (clusters.length) {
       html += '<div class="sub-hd" style="margin-top:0;">Insider clusters (3+ buyers, last 30d)</div>';
       html += '<table class="t"><thead><tr><th>Ticker</th><th class="ta-r">Buyers</th><th class="ta-r">$ value</th><th class="ta-r">Txns</th><th></th></tr></thead><tbody>';
@@ -2337,6 +2341,7 @@ const Insider = {
       html += watchable.slice(0, 15).map(r => `<tr><td><span class="row-ticker">${r.t}</span></td><td class="ta-r">${r.buyers}</td><td class="ta-r">${F.money(r.total)}</td><td class="ta-r"><button class="btn-sec btn-sm" onclick="Insider.fromFeed('${r.t}')">Drill in</button></td></tr>`).join('');
       html += '</tbody></table>';
     }
+    html += Insider.polHTML();
     el.innerHTML = html;
   },
   async runUniverse() {

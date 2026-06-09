@@ -1,0 +1,24 @@
+{
+  "asof": "2026-06-09",
+  "clusters": [
+    { "t": "QNT", "n": "Quantinuum", "buyers": 11, "total": 40000000, "buys": 11, "note": "Massive board/officer cluster at $60 (Barron $15M, Jimenez $4M, CFO Sharan, +8 more) on 6/5 - quantum" },
+    { "t": "INIO", "n": "Innio Group", "buyers": 3, "total": 4499982, "buys": 3, "note": "Three directors bought at $27 - industrial gas / energy tech" },
+    { "t": "SMMT", "n": "Summit Therapeutics", "buyers": 3, "total": 3642250, "buys": 3, "note": "Both Co-CEOs (Duggan, Zanganeh) + COO/CFO bought ~$14.50 - biotech" },
+    { "t": "AADX", "n": "Applied Aerospace & Defense", "buyers": 2, "total": 1000000, "buys": 2, "note": "Director + CFO each $500K at $20 - defense/space" },
+    { "t": "PODD", "n": "Insulet", "buyers": 2, "total": 897883, "buys": 2, "note": "Two directors bought ~$144 - medtech (insulin delivery)" }
+  ],
+  "watchable": [
+    { "t": "NCLH", "n": "Norwegian Cruise Line", "buyers": 1, "total": 24992300, "note": "Bain's Stephen Pagliuca (Dir) bought $25M at $18.11" },
+    { "t": "HOOD", "n": "Robinhood", "buyers": 1, "total": 15103853, "note": "Director Meyer Malka bought $15.1M at $83.45" },
+    { "t": "WGS", "n": "GeneDx Holdings", "buyers": 1, "total": 11109565, "note": "Casdin Capital (10% holder) +$11.1M at $55.55 - genomics" },
+    { "t": "NSP", "n": "Insperity", "buyers": 1, "total": 7933650, "note": "Chairman & CEO Sarvadi bought $7.9M at $34.05 - CEO conviction buy" },
+    { "t": "EXE", "n": "Expand Energy", "buyers": 1, "total": 185760, "note": "CFO bought at $92.88 - natural gas" }
+  ],
+  "politicians": [
+    { "who": "Rep. April McClain Delaney", "party": "D-MD", "t": "BWXT", "n": "BWX Technologies", "type": "BUY", "size": "$30-115K (4 buys)", "note": "Repeated buys $204-211 around a $1.4B naval-nuclear contract - nuclear" },
+    { "who": "Rep. Jefferson Shreve", "party": "R-IN", "t": "JPM", "n": "JPMorgan Chase", "type": "BUY", "size": "$5M-25M", "note": "Large buy disclosed; financials" },
+    { "who": "Rep. Jefferson Shreve", "party": "R-IN", "t": "MS", "n": "Morgan Stanley", "type": "BUY", "size": "$1M-5M", "note": "Large buy disclosed; financials" },
+    { "who": "Rep. Tim Moore", "party": "R-NC", "t": "T", "n": "AT&T", "type": "BUY", "size": "$50-100K", "note": "Bought 6/4 at $22.77 after trimming - telecom" },
+    { "who": "Rep. Bob Latta", "party": "R-OH", "t": "FMAO", "n": "Farmers & Merchants Bancorp", "type": "BUY", "size": "$15-50K", "note": "Spouse buy at $27.86 - small-cap bank" }
+  ]
+}
