@@ -1405,6 +1405,9 @@ const Nav = {
     if (sec === 'insider') Insider.renderFeed();
     if (sec === 'scorecard') Score.autoload();
     if (sec === 'macro') Macro.autoload();
+    if (sec === 'sizer') Sizer.autoload();
+    if (sec === 'charts') Sizer.chartsAuto();
+    if (sec === 'dcf') DCF.autoload();
     if (sec === 'positions') Pos.render();
     if (sec === 'watchlist') Watch.render();
     if (sec === 'signals') Sig.render();
@@ -2480,6 +2483,19 @@ const Score = {
 
 // ==================== DCF ====================
 const DCF = {
+  __cands:null, __tried:false,
+  async autoload(){
+    if(DCF.__tried) return; DCF.__tried=true;
+    var j=null; try{ j=await fetch('dcf-latest.json?cb='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}); }catch(e){}
+    if(!j||!j.names) return;
+    var sec=document.getElementById('s-dcf'); if(!sec) return;
+    DCF.__cands=j.names;
+    var board=document.getElementById('dcf-board');
+    if(!board){ board=document.createElement('div'); board.id='dcf-board'; board.className='card'; sec.insertBefore(board, sec.firstChild); }
+    var rows=j.names.map(function(n,i){ return '<tr><td><span class="row-ticker">'+n.t+'</span> <span class="muted">'+F.esc(n.n||'')+'</span></td><td class="ta-r">'+n.implied+'%/yr</td><td class="muted" style="font-size:11px;">'+F.esc(n.note||'')+'</td><td class="ta-r"><button class="btn-sec btn-sm" onclick="DCF.useCand('+i+')">Load</button></td></tr>'; }).join('');
+    board.innerHTML='<div class="card-h">Reverse-DCF quick reads <span class="muted" style="font-size:11px;">- '+(j.asof||'')+'</span></div><div class="card-sub">Annual FCF growth the price implies (10yr, 10% discount, 2.5% terminal). Inputs approximate TTM - verify.</div><table class="t"><thead><tr><th>Name</th><th class="ta-r">Implied growth</th><th>Read</th><th></th></tr></thead><tbody>'+rows+'</tbody></table>';
+  },
+  useCand(i){ var n=DCF.__cands&&DCF.__cands[i]; if(!n) return; var set=function(id,v){var el=document.getElementById(id); if(el!=null&&v!=null) el.value=v;}; try{DCF.setMode('rev');}catch(e){} set('dcf-fcf',n.fcf); set('dcf-sh',n.shares); set('dcf-cash',n.cash); set('dcf-disc',n.disc); set('dcf-term',n.term); set('dcf-yrs',n.years); set('dcf-price',n.price); try{ DCF.run(); }catch(e){} var o=document.getElementById('dcf-out'); if(o) o.scrollIntoView({behavior:'smooth',block:'center'}); },
   mode: 'rev',
   setMode(m) {
     this.mode = m;
@@ -2577,6 +2593,24 @@ const Sector = {
 
 // ==================== SIZER ====================
 const Sizer = {
+  __cands:null, __tried:false,
+  async autoload(){
+    if(Sizer.__tried) return; Sizer.__tried=true;
+    var j=null; try{ j=await fetch('opportunities-latest.json?cb='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}); }catch(e){}
+    if(!j||!j.length) return;
+    var sec=document.getElementById('s-sizer'); if(!sec) return;
+    Sizer.__cands=j;
+    var board=document.getElementById('ps-board');
+    if(!board){ board=document.createElement('div'); board.id='ps-board'; board.className='card'; sec.insertBefore(board, sec.firstChild); }
+    var rows=j.map(function(n,i){ var rps=Math.abs(n.entry-n.stop); var sh=rps>0?Math.floor(60/rps):0; var risk=(sh*rps); var rr=rps>0?(Math.abs(n.target-n.entry)/rps):0; return '<tr><td><span class="row-ticker">'+n.t+'</span></td><td class="ta-r">'+(n.entry)+'</td><td class="ta-r">'+(n.stop)+'</td><td class="ta-r">'+(n.target)+'</td><td class="ta-r">'+sh+'</td><td class="ta-r">$'+risk.toFixed(0)+'</td><td class="ta-r">'+rr.toFixed(1)+':1</td><td class="ta-r"><button class="btn-sec btn-sm" onclick="Sizer.useCand('+i+')">Load</button></td></tr>'; }).join('');
+    board.innerHTML='<div class="card-h">Suggested sizing <span class="muted" style="font-size:11px;">- $4,000 book @ 1.5% risk</span></div><div class="card-sub">Shares = floor(($4,000 x 1.5%) / (entry - stop)). Re-check live prices before trading.</div><table class="t"><thead><tr><th>Ticker</th><th class="ta-r">Entry</th><th class="ta-r">Stop</th><th class="ta-r">Target</th><th class="ta-r">Shares</th><th class="ta-r">$ Risk</th><th class="ta-r">R:R</th><th></th></tr></thead><tbody>'+rows+'</tbody></table>';
+  },
+  useCand(i){ var n=Sizer.__cands&&Sizer.__cands[i]; if(!n) return; var set=function(id,v){var el=document.getElementById(id); if(el) el.value=v;}; set('ps-acct',4000); set('ps-risk',1.5); set('ps-entry',n.entry); set('ps-stop',n.stop); set('ps-target',n.target); try{ Sizer.run(); }catch(e){} var o=document.getElementById('ps-out'); if(o) o.scrollIntoView({behavior:'smooth',block:'center'}); },
+  chartsAuto(){
+    var go=function(list){ var sec=document.getElementById('s-charts'); if(!sec) return; var board=document.getElementById('ch-board'); if(!board){ board=document.createElement('div'); board.id='ch-board'; board.className='card'; sec.insertBefore(board, sec.firstChild);} var rows=list.map(function(n,i){ return '<tr><td><span class="row-ticker">'+n.t+'</span></td><td class="ta-r">'+n.entry+'</td><td class="ta-r">'+n.stop+'</td><td class="ta-r">'+n.target+'</td><td class="ta-r"><button class="btn-sec btn-sm" onclick="Sizer.chartsUse('+i+')">Load &amp; draw</button></td></tr>'; }).join(''); board.innerHTML='<div class="card-h">Book setups <span class="muted" style="font-size:11px;">- one-click chart</span></div><table class="t"><thead><tr><th>Ticker</th><th class="ta-r">Entry</th><th class="ta-r">Stop</th><th class="ta-r">Target</th><th></th></tr></thead><tbody>'+rows+'</tbody></table>'; };
+    if(Sizer.__cands){ go(Sizer.__cands); } else { fetch('opportunities-latest.json?cb='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(d){ if(d&&d.length){ Sizer.__cands=d; go(d);} }).catch(function(){}); }
+  },
+  chartsUse(i){ var n=Sizer.__cands&&Sizer.__cands[i]; if(!n) return; var set=function(id,v){var el=document.getElementById(id); if(el) el.value=v;}; set('ch-tkr',n.t); set('ch-entry',n.entry); set('ch-stop',n.stop); set('ch-target',n.target); var b=document.getElementById('ch-draw'); if(b) b.click(); var o=document.getElementById('ch-out'); if(o) o.scrollIntoView({behavior:'smooth',block:'center'}); },
   run() {
     const v = id => parseFloat(document.getElementById(id).value);
     const acct = v('ps-acct'), risk = v('ps-risk'), entry = v('ps-entry'), stop = v('ps-stop'), target = v('ps-target'), wr = v('ps-wr');
