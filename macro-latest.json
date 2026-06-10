@@ -1,11 +1,11 @@
 {
-  "asof": "2026-06-09",
-  "vix": 19,
-  "y10": 4.55,
+  "asof": "2026-06-10",
+  "vix": 20.45,
+  "y10": 4.57,
   "y2": 4.17,
-  "ff": 4.33,
-  "spVs200": 7.7,
-  "brent": 96.5,
-  "note": "Systematic read constructive (VIX off its spike, curve normal, S&P ~7.7% over its 200DMA) but offset by live Middle-East/oil risk and a tech-distribution signal after Friday's chip plunge",
+  "ff": 3.63,
+  "spVs200": 7.6,
+  "brent": 93.0,
+  "note": "Risk tone constructive but maturing. S&P 500 ~7,387 (Jun 9 close), ~7.6% above its rising 200DMA, though breadth is only middling (~57% of members above their own 200DMA). Yield curve positive (10Y 4.57% vs 2Y 4.17%); stronger jobs data has markets pricing ~70% odds of a December Fed hike after the Fed cut the target range to 3.50-3.75% in April (effective ~3.63%). VIX ~20 (elevated, not stressed). Brent ~$93 after spiking toward $98 on the Iran-Israel flare-up, now easing on de-escalation. Leadership has rotated out of mega-cap tech into Energy (+~22% YTD), Industrials (+~16%) and Consumer Staples (+~13%); CrowdStrike's post-earnings drop cooled the cyber/AI momentum trade. Two of nine bear-checklist flags are up: active geopolitical risk and signs of mega-cap/tech distribution.",
   "checklist": [false, false, false, false, false, false, false, true, true]
 }

@@ -1,8 +1,10 @@
 {
-  "asof": "2026-06-09",
-  "method": "Reverse DCF - the annual FCF growth the current price implies (10yr horizon, 10% discount, 2.5% terminal growth). Higher implied growth = richer expectations baked in.",
+  "asof": "2026-06-10",
+  "method": "Reverse-DCF: solve for the constant annual FCF growth the current price implies. 10-yr explicit FCF + Gordon terminal; discount 10%, terminal growth 2.5%. value(g)=sum_i fcf*(1+g)^i/(1.10)^i + [fcf*(1+g)^10*1.025/0.075]/(1.10)^10; implied g solved (bisection) so (value+netcash)/shares = price. FCF/shares/net-cash are real TTM figures (Q1 2026). Higher implied g = more growth already priced in.",
   "names": [
-    { "t": "NVDA", "n": "NVIDIA", "fcf": 119078, "shares": 24451, "cash": 30000, "price": 208, "disc": 10, "term": 2.5, "years": 10, "implied": 18.0, "note": "~18%/yr FCF growth priced in for a decade on $119B TTM FCF - demanding but plausible if AI capex holds" },
-    { "t": "XOM", "n": "Exxon Mobil", "fcf": 18792, "shares": 4140, "cash": -39230, "price": 150, "disc": 10, "term": 2.5, "years": 10, "implied": 15.4, "note": "~15%/yr implied on cyclically-depressed TTM FCF ($18.8B) - looks rich unless oil/FCF recovers" }
+    {"t": "QCOM", "n": "Qualcomm", "fcf": 12.50, "shares": 1.072, "cash": -9.1, "price": 204.11, "disc": 10, "term": 2.5, "years": 10, "implied": 6.45, "note": "Undemanding: price implies only ~6.5%/yr FCF growth for a decade. Supports the value read; handset/licensing cyclicality is the main risk to even that bar."},
+    {"t": "CVX", "n": "Chevron", "fcf": 13.78, "shares": 1.98, "cash": -40.1, "price": 188.10, "disc": 10, "term": 2.5, "years": 10, "implied": 13.19, "note": "Implies ~13%/yr FCF growth. Demanding for an integrated major when FCF is cyclically aided by ~$90 Brent; a normalization in oil would pressure the math."},
+    {"t": "XOM", "n": "Exxon Mobil", "fcf": 18.79, "shares": 4.14, "cash": -39.3, "price": 151.75, "disc": 10, "term": 2.5, "years": 10, "implied": 15.52, "note": "Implies ~15.5%/yr FCF growth, the richest of the four. TTM FCF is boosted by elevated oil; embeds optimism on Guyana/Permian volumes and sustained prices."},
+    {"t": "NVDA", "n": "NVIDIA", "fcf": 119.08, "shares": 24.3, "cash": 34.0, "price": 201.00, "disc": 10, "term": 2.5, "years": 10, "implied": 17.39, "note": "Implies ~17%/yr FCF growth off a ~$119B base plus net cash. High in absolute dollars yet a historically modest growth rate for NVDA; reasonable only if AI-datacenter capex stays robust."}
   ]
 }

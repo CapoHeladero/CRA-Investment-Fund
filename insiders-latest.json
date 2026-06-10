@@ -1,24 +1,28 @@
 {
-  "asof": "2026-06-09",
+  "asof": "2026-06-10",
   "clusters": [
-    { "t": "QNT", "n": "Quantinuum", "buyers": 11, "total": 40000000, "buys": 11, "note": "Massive board/officer cluster at $60 (Barron $15M, Jimenez $4M, CFO Sharan, +8 more) on 6/5 - quantum" },
-    { "t": "INIO", "n": "Innio Group", "buyers": 3, "total": 4499982, "buys": 3, "note": "Three directors bought at $27 - industrial gas / energy tech" },
-    { "t": "SMMT", "n": "Summit Therapeutics", "buyers": 3, "total": 3642250, "buys": 3, "note": "Both Co-CEOs (Duggan, Zanganeh) + COO/CFO bought ~$14.50 - biotech" },
-    { "t": "AADX", "n": "Applied Aerospace & Defense", "buyers": 2, "total": 1000000, "buys": 2, "note": "Director + CFO each $500K at $20 - defense/space" },
-    { "t": "PODD", "n": "Insulet", "buyers": 2, "total": 897883, "buys": 2, "note": "Two directors bought ~$144 - medtech (insulin delivery)" }
+    {"t": "QNT", "n": "Quantinuum Inc.", "buyers": 11, "total": "~$24.7M", "buys": 11, "note": "Standout cluster of the week: ~11 directors and officers (incl. Chair Hal Barron $15.0M, dir Joseph Jimenez $4.0M, CFO Nitesh Sharan, Chief Strategy Officer Kevin Dehoff) all bought at exactly $60.00 on 6/5. Quantum-computing pure play; coordinated insider conviction but uniform price suggests a structured/IPO-adjacent purchase rather than open-market accumulation — verify."},
+    {"t": "INIO", "n": "Innio N.V.", "buyers": 3, "total": "~$4.5M", "buys": 3, "note": "Three directors (Linebarger $2.5M, Yetman $1.0M, Banks $1.0M) bought at $27.00 on 6/5. Industrial gas engines / distributed power (Jenbacher) — fits the power-for-AI/grid theme."},
+    {"t": "SMMT", "n": "Summit Therapeutics Inc.", "buyers": 3, "total": "~$3.6M", "buys": 3, "note": "Co-CEOs Robert Duggan and Mahkam Zanganeh ($1.46M each) plus COO/CFO Manmeet Soni bought near $14.45-14.60 on 6/4. Ivonescimab (PD-1/VEGF) bispecific story; binary clinical risk."},
+    {"t": "NVRI", "n": "Enviri Corp", "buyers": 3, "total": "~$1.4M", "buys": 3, "note": "CEO Russell Hochman ($1.0M), CFO Peter Minan ($160k) and dir Edgar Purvis bought $18.10-19.43. Environmental/steel-byproduct services; CEO+CFO combo is a quality signal."},
+    {"t": "AADX", "n": "Applied Aerospace & Defense, Inc.", "buyers": 3, "total": "~$1.2M", "buys": 3, "note": "CFO McRae and dirs Katzman/Lynch bought $20.00 on 6/4. Defense theme, but very small/new issuer with thin float — treat as speculative, verify liquidity."}
   ],
   "watchable": [
-    { "t": "NCLH", "n": "Norwegian Cruise Line", "buyers": 1, "total": 24992300, "note": "Bain's Stephen Pagliuca (Dir) bought $25M at $18.11" },
-    { "t": "HOOD", "n": "Robinhood", "buyers": 1, "total": 15103853, "note": "Director Meyer Malka bought $15.1M at $83.45" },
-    { "t": "WGS", "n": "GeneDx Holdings", "buyers": 1, "total": 11109565, "note": "Casdin Capital (10% holder) +$11.1M at $55.55 - genomics" },
-    { "t": "NSP", "n": "Insperity", "buyers": 1, "total": 7933650, "note": "Chairman & CEO Sarvadi bought $7.9M at $34.05 - CEO conviction buy" },
-    { "t": "EXE", "n": "Expand Energy", "buyers": 1, "total": 185760, "note": "CFO bought at $92.88 - natural gas" }
+    {"t": "HOOD", "n": "Robinhood Markets, Inc.", "buyers": 1, "total": "$20.2M", "note": "Director Meyer Malka bought 250,000 shares at $80.74 on 6/5 — a conviction-sized single buy in a name riding the retail/crypto/fintech tape."},
+    {"t": "NSP", "n": "Insperity, Inc.", "buyers": 1, "total": "$7.9M", "note": "Chairman/CEO Paul Sarvadi bought 233,000 shares at $34.05, lifting his stake +15% — large CEO open-market buy in a beaten-down PEO/HR-services name."},
+    {"t": "RYAN", "n": "Ryan Specialty Holdings, Inc.", "buyers": 2, "total": "$4.1M", "note": "Exec Chair Patrick Ryan ($3.9M @ $32.50) and CFO Janice Hamilton bought together — insurance-brokerage cluster led by the founder."},
+    {"t": "XMTR", "n": "Xometry, Inc.", "buyers": 1, "total": "$4.0M", "note": "Director Lukas Biewald bought 47,058 shares at $85.00, increasing his holding ~6x — AI-enabled manufacturing marketplace."},
+    {"t": "FCNCA", "n": "First Citizens BancShares", "buyers": 1, "total": "~$2.3M", "note": "Chairman/CEO Frank Holding Jr. made several open-market buys 6/4-6/5 at $1,752-$2,019 — repeated CEO buying in a regional bank. Very high share price (fractional preferred)."},
+    {"t": "PODD", "n": "Insulet Corp", "buyers": 1, "total": "$0.4M", "note": "Director Timothy Stonesifer bought at $143.51, +45% to his stake — insulin-pump med-tech leader."}
   ],
   "politicians": [
-    { "who": "Rep. April McClain Delaney", "party": "D-MD", "t": "BWXT", "n": "BWX Technologies", "type": "BUY", "size": "$30-115K (4 buys)", "note": "Repeated buys $204-211 around a $1.4B naval-nuclear contract - nuclear" },
-    { "who": "Rep. Jefferson Shreve", "party": "R-IN", "t": "JPM", "n": "JPMorgan Chase", "type": "BUY", "size": "$5M-25M", "note": "Large buy disclosed; financials" },
-    { "who": "Rep. Jefferson Shreve", "party": "R-IN", "t": "MS", "n": "Morgan Stanley", "type": "BUY", "size": "$1M-5M", "note": "Large buy disclosed; financials" },
-    { "who": "Rep. Tim Moore", "party": "R-NC", "t": "T", "n": "AT&T", "type": "BUY", "size": "$50-100K", "note": "Bought 6/4 at $22.77 after trimming - telecom" },
-    { "who": "Rep. Bob Latta", "party": "R-OH", "t": "FMAO", "n": "Farmers & Merchants Bancorp", "type": "BUY", "size": "$15-50K", "note": "Spouse buy at $27.86 - small-cap bank" }
+    {"who": "Maria Elvira Salazar", "party": "R", "t": "QCOM", "n": "Qualcomm Inc", "type": "BUY", "size": "15K-50K", "note": "Disclosed 6/9; traded 5/13 at $213.17. Part of a broad tech/healthcare buy basket."},
+    {"who": "Maria Elvira Salazar", "party": "R", "t": "IBM", "n": "International Business Machines", "type": "BUY", "size": "15K-50K", "note": "Two buys disclosed 6/9; traded 5/21 at $252.97."},
+    {"who": "Maria Elvira Salazar", "party": "R", "t": "DDOG", "n": "Datadog Inc", "type": "BUY", "size": "1K-50K", "note": "Traded 5/19 at $215.15; observability/AI-monitoring software."},
+    {"who": "Maria Elvira Salazar", "party": "R", "t": "BIIB", "n": "Biogen Inc", "type": "BUY", "size": "1K-100K", "note": "Multiple buys, traded 5/11-5/12 near $198 — deep-value large-cap biotech."},
+    {"who": "Maria Elvira Salazar", "party": "R", "t": "BEP", "n": "Brookfield Renewable Partners", "type": "BUY", "size": "1K-15K", "note": "Traded 5/29 at $37.09 — renewables/yield."},
+    {"who": "Gil Cisneros", "party": "D", "t": "AMD", "n": "Advanced Micro Devices", "type": "BUY", "size": "1K-15K", "note": "Two buys, traded 5/14-5/15 at $424-450 — added AI-accelerator exposure."},
+    {"who": "Gil Cisneros", "party": "D", "t": "APP", "n": "AppLovin Corp", "type": "BUY", "size": "1K-15K", "note": "Traded 5/15 at $501.00 — adtech/AI ad-engine momentum name."},
+    {"who": "Gil Cisneros", "party": "D", "t": "ARQT", "n": "Arcutis Biotherapeutics", "type": "BUY", "size": "1K-15K", "note": "Traded 5/29 at $21.46 — small-cap dermatology biotech."}
   ]
 }

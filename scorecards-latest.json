@@ -1,21 +1,26 @@
 {
-  "asof": "2026-06-09",
-  "method": "Composite of valuation, growth, quality (ROE/FCF), leverage and momentum vs 200DMA. Classification only - not a buy/sell call.",
+  "asof": "2026-06-10",
+  "method": "Composite classification (not advice): equal-ish blend of valuation, growth, quality (ROE/FCF margin), leverage and 6-12m momentum. Letter grade + 0-100 score. Tilted to reward the 2026 rotation into cash-generative real-economy leaders and to penalize richly-valued momentum names showing distribution.",
   "names": [
-    { "t": "JPM", "n": "JPMorgan Chase", "sector": "Financials", "grade": "A-", "score": 86, "tier": "top", "note": "ROE ~17%, ~15x P/E, NII tailwind from higher-for-longer, fortress balance sheet" },
-    { "t": "XOM", "n": "Exxon Mobil", "sector": "Energy", "grade": "A-", "score": 84, "tier": "top", "note": "Strong FCF, ~13x earnings, low-breakeven Guyana/Permian barrels, energy relative-strength" },
-    { "t": "RTX", "n": "RTX Corporation", "sector": "Defense / Industrials", "grade": "B+", "score": 80, "tier": "top", "note": "Record backlog, book-to-bill >1, multi-year re-arm cycle; GTF charge overhang" },
-    { "t": "UNH", "n": "UnitedHealth", "sector": "Health Care", "grade": "B+", "score": 79, "tier": "top", "note": "Raised FY26 guidance, cheap vs own history, Optum diversification; MLR surprise risk" },
-    { "t": "FSLR", "n": "First Solar", "sector": "Renewables / Solar", "grade": "B+", "score": 78, "tier": "top", "note": "Earnings momentum + domestic-content tariff moat; policy/subsidy sensitivity" },
-    { "t": "CEG", "n": "Constellation Energy", "sector": "Nuclear / Power", "grade": "B", "score": 75, "tier": "top", "note": "Largest US nuclear fleet, AI power-demand tailwind; valuation rich after the run" },
-    { "t": "NVDA", "n": "NVIDIA", "sector": "Technology / Semis", "grade": "B", "score": 74, "tier": "top", "note": "Elite growth, margins and CUDA moat; valuation and two-way volatility post-plunge" },
-    { "t": "VST", "n": "Vistra", "sector": "Utilities / AI Power", "grade": "B", "score": 72, "tier": "top", "note": "Direct leverage to data-center power demand; high beta, rich multiple" },
-    { "t": "CPB", "n": "Campbell's", "sector": "Consumer Staples", "grade": "B-", "score": 66, "tier": "top", "note": "Cheap defensive yielder near multi-year lows; low growth, soft top line" }
+    {"t": "XOM", "n": "Exxon Mobil", "sector": "Energy", "grade": "A-", "score": 88, "tier": "top", "note": "Sector leadership, ~$19B TTM FCF, fortress balance sheet, dividend + buyback; price up with oil."},
+    {"t": "CAT", "n": "Caterpillar", "sector": "Industrials", "grade": "A-", "score": 87, "tier": "top", "note": "Industrial-cycle and electrification/datacenter capex beneficiary; strong FCF and pricing power."},
+    {"t": "COST", "n": "Costco", "sector": "Cons. Staples", "grade": "A-", "score": 86, "tier": "top", "note": "Best-in-class defensive compounder; membership moat, steady comps, low leverage. Rich multiple is the only knock."},
+    {"t": "CVX", "n": "Chevron", "sector": "Energy", "grade": "A-", "score": 85, "tier": "top", "note": "Integrated major with ~$14B FCF, low net debt, high shareholder returns; momentum with energy leadership."},
+    {"t": "QCOM", "n": "Qualcomm", "sector": "Technology", "grade": "B+", "score": 84, "tier": "top", "note": "Cheapest mega-cap chip name (DCF implies only ~6.5% FCF growth), strong FCF/buyback; handset cyclicality the risk."},
+    {"t": "NVDA", "n": "NVIDIA", "sector": "Technology", "grade": "B+", "score": 83, "tier": "top", "note": "Unmatched ~$119B TTM FCF and net cash; quality elite, but momentum cooling as AI-capex payback is questioned."},
+    {"t": "CCJ", "n": "Cameco", "sector": "Energy/Uranium", "grade": "B+", "score": 82, "tier": "top", "note": "Uranium up-cycle leader, +~100% 1y, real contracts (India, Cigar Lake stake up); momentum strong, valuation full."},
+    {"t": "ANET", "n": "Arista Networks", "sector": "Technology", "grade": "B+", "score": 81, "tier": "top", "note": "High-margin AI-datacenter networking, net cash, strong ROE; off its highs, reasonable vs peers."},
+    {"t": "AVGO", "n": "Broadcom", "sector": "Technology", "grade": "B+", "score": 80, "tier": "top", "note": "Custom-AI-silicon + software, huge FCF and dividend growth; leverage from VMware and rich multiple temper it."},
+    {"t": "FSLR", "n": "First Solar", "sector": "Renewables", "grade": "B", "score": 79, "tier": "top", "note": "Domestic solar with policy tailwind and large backlog; net cash. Volatile and policy-sensitive."},
+    {"t": "HOOD", "n": "Robinhood", "sector": "Financials", "grade": "B", "score": 78, "tier": "top", "note": "Operating leverage + crypto/retail tape, $20M insider buy; profitability improving but tape-dependent."},
+    {"t": "FCNCA", "n": "First Citizens", "sector": "Financials", "grade": "B+", "score": 80, "tier": "top", "note": "Well-capitalized regional bank, repeated CEO buying, reasonable valuation on tangible book."},
+    {"t": "CEG", "n": "Constellation Energy", "sector": "Utilities/Power", "grade": "B", "score": 75, "tier": "top", "note": "Nuclear baseload for AI/datacenter demand; down ~25% YTD makes it the relative-value play in the power theme."}
   ],
   "worst": [
-    { "t": "IONQ", "n": "IonQ", "sector": "Quantum Computing", "grade": "D+", "score": 38, "tier": "worst", "note": "No profits, extreme valuation, recurring 50%+ drawdowns - speculative" },
-    { "t": "OKLO", "n": "Oklo", "sector": "Nuclear", "grade": "D", "score": 33, "tier": "worst", "note": "Pre-revenue; valued on promise; NRC licensing and timeline risk" },
-    { "t": "SMR", "n": "NuScale Power", "sector": "Nuclear / SMR", "grade": "D", "score": 32, "tier": "worst", "note": "Pre-deployment; SMR sector has a history of project cancellations; dilution risk" },
-    { "t": "M", "n": "Macy's", "sector": "Consumer Discretionary", "grade": "C-", "score": 48, "tier": "worst", "note": "Cheap and beat, but secular department-store decline keeps value-trap risk high" }
+    {"t": "CRWD", "n": "CrowdStrike", "sector": "Cybersecurity", "grade": "C", "score": 46, "tier": "worst", "note": "Premier franchise but extreme valuation; ~9% post-earnings drop signals a momentum break despite beat-and-raise."},
+    {"t": "PLTR", "n": "Palantir", "sector": "Technology", "grade": "C", "score": 44, "tier": "worst", "note": "Among the most expensive large-caps on sales/FCF; price rolling over from highs — valuation risk dominates."},
+    {"t": "IONQ", "n": "IonQ", "sector": "Quantum", "grade": "C-", "score": 38, "tier": "worst", "note": "Pre-profit quantum; fell ~10% on Rigetti competition. Story stock, no FCF, high dilution risk."},
+    {"t": "GEV", "n": "GE Vernova", "sector": "Industrials/Power", "grade": "C+", "score": 52, "tier": "worst", "note": "Great franchise, but after a massive run trades at a stretched multiple; reward/risk poor near highs."},
+    {"t": "UEC", "n": "Uranium Energy", "sector": "Energy/Uranium", "grade": "C", "score": 42, "tier": "worst", "note": "Leveraged uranium beta with negative EPS (-$0.11 latest Q); speculative vs CCJ's cash flows."}
   ]
 }
