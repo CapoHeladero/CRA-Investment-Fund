@@ -57,7 +57,7 @@
     var t=(document.getElementById('w-tick').value||'').trim().toUpperCase();
     var msg=document.getElementById('wl-suggest-msg');
     if(!t){ msg.textContent='Type a ticker first.'; return; }
-    var key=localStorage.getItem('cra.apikey')||'';
+    var key=(function(){var k=localStorage.getItem('cra.apikey')||'';try{k=JSON.parse(k);}catch(e){}return (''+(k||'')).replace(/^"|"$/g,'').trim();})();
     if(!key){ msg.innerHTML='<span class="txt-neg">Add your Finnhub key in Settings to auto-suggest.</span>'; return; }
     msg.textContent='Computing '+t+' from live data…';
     Promise.all([

@@ -7,7 +7,7 @@
   function gp(){ try{ return JSON.parse(LS.getItem('cra.positions')||'[]'); }catch(e){ return []; } }
   function gw(){ try{ return JSON.parse(LS.getItem('cra.watchlist')||'[]'); }catch(e){ return []; } }
   function gs(){ try{ return JSON.parse(LS.getItem('cra.signals')||'[]'); }catch(e){ return []; } }
-  function apikey(){ return LS.getItem('cra.apikey')||''; }
+  function apikey(){ var k=LS.getItem('cra.apikey')||''; try{ k=JSON.parse(k); }catch(e){} return (''+(k||'')).replace(/^"|"$/g,'').trim(); }
   function acct(){ return parseFloat(LS.getItem('cra.risk.acct'))||4000; }
   function money(v){ return '$'+(Math.round(v)).toLocaleString(); }
   var SECT={AAPL:'Tech',MSFT:'Tech',NVDA:'Tech',AVGO:'Tech',AMD:'Tech',TSM:'Tech',MU:'Tech',ASML:'Tech',ADBE:'Tech',CRM:'Tech',ORCL:'Tech',PANW:'Tech',CRWD:'Tech',IONQ:'Tech',RGTI:'Tech',QBTS:'Tech',
