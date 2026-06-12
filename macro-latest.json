@@ -1,11 +1,21 @@
 {
-  "asof": "2026-06-11",
-  "vix": 21.0,
-  "y10": 4.52,
-  "y2": 4.15,
-  "ff": 3.63,
-  "spVs200": 5.9,
-  "brent": 93.1,
-  "note": "Risk-off turn. S&P 500 closed 7,266.99 on Jun 10 (-1.62%), ~5.9% above its rising 200DMA (6,863) — the cushion is shrinking. The Dow fell ~953 pts (-1.87%) and the Nasdaq -1.98%; chips have led the slide after Broadcom's softer-than-hoped AI guidance (the Nasdaq's worst day since Apr 2025 came Jun 4 as ~$1T was wiped from semis). Two real drivers: a hotter-than-expected May CPI (+4.2% YoY, a 3-year high) and renewed Iran tension after President Trump signaled negotiations were taking 'too long' and threatened more action — pushing WTI to ~$90 and Brent to ~$93. Yield curve positive (10Y 4.52% vs 2Y 4.15%); the Fed is expected to hold the 3.50-3.75% range at the Jun 16-17 FOMC (effective ~3.63%). VIX has firmed back toward ~21 with the selloff. Leadership remains in Energy (+~22% YTD), Materials, Industrials and Consumer Staples while mega-cap tech/semis lag. Two of nine bear-checklist flags are up: active geopolitical risk and signs of mega-cap/tech distribution.",
-  "checklist": [false, false, false, false, false, false, false, true, true]
+  "asof": "2026-06-12",
+  "vix": 19.44,
+  "y10": 4.55,
+  "y2": 4.17,
+  "ff": 3.625,
+  "spVs200": 7.6,
+  "brent": 89.25,
+  "note": "Risk-on tape: S&P 7394 (+1.75%), Dow +930, Nasdaq +2.5% after Trump suspended Iran strikes and signaled a deal. VIX fell to 19.4; Brent down ~4% to ~$89. Curve normal (10Y 4.55% > 2Y 4.17%), Fed on hold at 3.50-3.75%. S&P ~7.6% above its 200DMA (~6872); breadth moderate (58.8% of names above 200DMA). No recession-checklist triggers active.",
+  "checklist": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
 }

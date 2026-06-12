@@ -1,14 +1,86 @@
 {
-  "asof": "2026-06-11",
-  "method": "Momentum / technical setups in the leading sectors. Target buy = level to accumulate (support or breakout retest); target sell = realistic resistance/measured target; conviction 1-5. Technical read, not advice - confirm live before acting.",
+  "asof": "2026-06-12",
+  "method": "Momentum/technical setups in leading sectors (AI power, semis, cyber, nuclear, space). buy=accumulate support/breakout-retest; sell=resistance/target. conv 1-5.",
   "ideas": [
-    {"t": "XOM", "n": "Exxon Mobil", "conv": 4, "buy": 150, "sell": 170, "thesis": "Energy is 2026 leadership (+~22% YTD). Buys into the $148-150 area while oil holds the risk premium; momentum intact above the 50DMA, target $170. Invalid below ~$140."},
-    {"t": "CVX", "n": "Chevron", "conv": 4, "buy": 186, "sell": 208, "thesis": "Second leg of the energy trade with a 39-yr dividend-growth base. Accumulate pullbacks to ~$186 support; target $208. Invalid on a close below ~$174."},
-    {"t": "CCJ", "n": "Cameco", "conv": 3, "buy": 100, "sell": 128, "thesis": "Uranium up-cycle momentum, +~100% 1y. Buy dips toward ~$100 support rather than chasing; target $128. Invalid if uranium rolls and CCJ loses ~$96."},
-    {"t": "NEM", "n": "Newmont", "conv": 3, "buy": 100, "sell": 120, "thesis": "Gold momentum + haven bid into sticky inflation/geopolitics. Buy ~$100, sell into $120 resistance. Invalid on gold breaking down through recent lows."},
-    {"t": "CAT", "n": "Caterpillar", "conv": 3, "buy": 880, "sell": 980, "thesis": "Industrial breakout on electrification/datacenter capex; buy strength holding above ~$880, momentum strong. Invalid on a close back below ~$850."},
-    {"t": "LMT", "n": "Lockheed Martin", "conv": 3, "buy": 470, "sell": 520, "thesis": "Defense momentum on the geopolitical bid; record backlog. Buy above ~$470 with reliable capital returns; target $520. Invalid below ~$450."},
-    {"t": "PANW", "n": "Palo Alto Networks", "conv": 3, "buy": 200, "sell": 240, "thesis": "Cleaner cyber momentum than CRWD post-earnings; platformization growth. Buy near ~$200 support, target $240. Invalid on a close below ~$185."},
-    {"t": "GEV", "n": "GE Vernova", "conv": 2, "buy": 1000, "sell": 1240, "thesis": "Best-in-theme power/grid franchise but extended after a huge run - momentum buy ONLY on pullbacks toward ~$1,000. Invalid below ~$950."}
+    {
+      "t": "NVDA",
+      "n": "NVIDIA",
+      "conv": 5,
+      "buy": 200,
+      "sell": 240,
+      "thesis": "Reclaimed 50DMA on risk-on snap; accumulate dips to $200, resistance ~$240."
+    },
+    {
+      "t": "VRT",
+      "n": "Vertiv",
+      "conv": 5,
+      "buy": 280,
+      "sell": 335,
+      "thesis": "Uptrend leader; buy pullbacks to $280 breakout-retest, measured move ~$335."
+    },
+    {
+      "t": "GEV",
+      "n": "GE Vernova",
+      "conv": 4,
+      "buy": 880,
+      "sell": 1050,
+      "thesis": "Higher-highs on record orders; add near $880, next resistance ~$1050."
+    },
+    {
+      "t": "CRWD",
+      "n": "CrowdStrike",
+      "conv": 4,
+      "buy": 490,
+      "sell": 560,
+      "thesis": "Coiling below highs into 4:1 split; buy $490 support, target prior high zone."
+    },
+    {
+      "t": "VST",
+      "n": "Vistra",
+      "conv": 4,
+      "buy": 155,
+      "sell": 185,
+      "thesis": "Power-demand breakout; accumulate $155, resistance ~$185."
+    },
+    {
+      "t": "CCJ",
+      "n": "Cameco",
+      "conv": 4,
+      "buy": 112,
+      "sell": 140,
+      "thesis": "Uranium uptrend; buy $112 retest, measured target ~$140."
+    },
+    {
+      "t": "RKLB",
+      "n": "Rocket Lab",
+      "conv": 3,
+      "buy": 108,
+      "sell": 140,
+      "thesis": "Holding above prior base post-pullback from $150; buy $108, resistance $140."
+    },
+    {
+      "t": "CEG",
+      "n": "Constellation",
+      "conv": 3,
+      "buy": 238,
+      "sell": 285,
+      "thesis": "Bull flag on nuclear-PPA theme; buy $238, breakout target ~$285."
+    },
+    {
+      "t": "PLTR",
+      "n": "Palantir",
+      "conv": 3,
+      "buy": 122,
+      "sell": 160,
+      "thesis": "High-beta; only on $122 shelf hold, resistance $160. Tight risk."
+    },
+    {
+      "t": "FSLR",
+      "n": "First Solar",
+      "conv": 3,
+      "buy": 262,
+      "sell": 320,
+      "thesis": "Uptrend with backlog support; buy $262, target $320."
+    }
   ]
 }

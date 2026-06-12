@@ -1,29 +1,151 @@
 {
-  "asof": "2026-06-11",
+  "asof": "2026-06-12",
   "clusters": [
-    {"t":"QNT","n":"Quantinuum","buyers":10,"total":"$24.6M","buys":"10 directors/officers @ $60.00 (6/5): Chair Barron $15M, Jimenez $4M, Bhatia $1.2M, CSO Dehoff $900k, Denman $840k, Stepniak $800k, Kapur $780k, CFO Sharan $390k, Daugherty $240k, Branderiz $500k","note":"Largest cluster of the week but every buy is at an identical $60.00 — almost certainly a structured/offering allocation, not classic open-market conviction. Treat with caution; verify before sizing."},
-    {"t":"NCLH","n":"Norwegian Cruise Line","buyers":7,"total":"$29.2M","buys":"7 insiders @ ~$17.85 (6/1)","note":"Broad, large open-market cluster in a travel name as cruise demand holds — high-quality breadth signal."},
-    {"t":"IFF","n":"International Flavors & Fragrances","buyers":2,"total":"$32.3M","buys":"2 insiders @ $72.68 (6/1)","note":"Very large dollar cluster in a materials/ingredients turnaround."},
-    {"t":"GEHC","n":"GE HealthCare","buyers":8,"total":"$6.4M","buys":"8 insiders @ ~$61.97 (filed 5/26)","note":"Broad 8-insider cluster in a defensive medical-imaging franchise."},
-    {"t":"RYAN","n":"Ryan Specialty","buyers":3,"total":"$4.2M","buys":"Exec COB Patrick Ryan + 2 @ ~$32.50 (6/5)","note":"Chairman-led cluster in a fee-based specialty-insurance compounder."},
-    {"t":"ADC","n":"Agree Realty","buyers":4,"total":"$2.9M","buys":"4 insiders @ ~$74.46 (filed 6/8)","note":"Cluster in a high-quality net-lease REIT — rate/yield play."},
-    {"t":"GRNT","n":"Granite Ridge Resources","buyers":5,"total":"$0.80M","buys":"5 insiders @ $5.35 (6/9)","note":"Fresh 5-insider cluster in a small-cap oil & gas name."},
-    {"t":"SSMR","n":"Sunshine Silver Mining","buyers":5,"total":"$0.80M","buys":"5 insiders @ $13.50 (6/5)","note":"Precious-metals cluster aligned with the gold/silver hedge theme."},
-    {"t":"NVRI","n":"Enviri","buyers":3,"total":"$1.4M","buys":"CFO Minan + 2 @ $18.10-19.43 (6/5)","note":"CFO-led cluster in a leveraged environmental-services turnaround."},
-    {"t":"INIO","n":"Innio","buyers":3,"total":"$4.5M","buys":"3 directors @ $27.00 (6/5)","note":"Distributed-power (gas-engine) cluster tied to the AI-power theme."}
+    {
+      "t": "NCLH",
+      "n": "Norwegian Cruise Line",
+      "buyers": 7,
+      "total": 29163646,
+      "buys": "7 insiders @ ~$17.85, +136% holdings",
+      "note": "Large 7-insider cluster, biggest conviction signal of the week"
+    },
+    {
+      "t": "IFF",
+      "n": "Intl Flavors & Fragrances",
+      "buyers": 2,
+      "total": 32284388,
+      "buys": "$32.3M @ ~$72.68",
+      "note": "Largest dollar cluster among S&P names"
+    },
+    {
+      "t": "GEHC",
+      "n": "GE HealthCare",
+      "buyers": 8,
+      "total": 6423136,
+      "buys": "8 insiders @ ~$61.97",
+      "note": "Broad 8-person cluster in quality imaging name"
+    },
+    {
+      "t": "PLSE",
+      "n": "Pulse Biosciences",
+      "buyers": 2,
+      "total": 26590676,
+      "buys": "$26.6M @ ~$19.69",
+      "note": "Large-dollar med-device conviction"
+    },
+    {
+      "t": "ONON",
+      "n": "On Holding",
+      "buyers": 3,
+      "total": 6594300,
+      "buys": "3 insiders @ ~$36.64",
+      "note": "Premium athletic-footwear cluster"
+    },
+    {
+      "t": "FLUT",
+      "n": "Flutter Entertainment",
+      "buyers": 7,
+      "total": 1045576,
+      "buys": "7 insiders @ ~$100.03",
+      "note": "Broad gaming cluster"
+    },
+    {
+      "t": "CHTR",
+      "n": "Charter Communications",
+      "buyers": 4,
+      "total": 3764457,
+      "buys": "4 insiders @ ~$159.56",
+      "note": "Beaten-down cable name buying"
+    },
+    {
+      "t": "MTDR",
+      "n": "Matador Resources",
+      "buyers": 2,
+      "total": 133535,
+      "buys": "2 insiders @ ~$53.41 (Jun 9)",
+      "note": "Permian E&P insider conviction"
+    }
   ],
   "watchable": [
-    {"t":"HOOD","n":"Robinhood","buyers":1,"total":"$20.2M","note":"Director Meyer Malka single $20M buy at $80.74 (6/5) — conviction-sized."},
-    {"t":"WGS","n":"GeneDx Holdings","buyers":1,"total":"$11.1M","note":"Casdin Capital (10% holder) bought $55.55 (6/4) — genomics."},
-    {"t":"FCNCA","n":"First Citizens BancShares","buyers":1,"total":"$2.3M","note":"Chair/CEO Frank Holding multiple buys $1,752-2,019 (6/4-6/5) — banking conviction."},
-    {"t":"MP","n":"MP Materials","buyers":1,"total":"$0.54M","note":"COO Rosenthal bought $54.30 (6/9) into rare-earth weakness."},
-    {"t":"MTDR","n":"Matador Resources","buyers":1,"total":"$0.11M","note":"Founder-CEO Foran added at $56.25 (6/4), a repeat buy."},
-    {"t":"VFC","n":"V.F. Corp","buyers":1,"total":"$0.52M","note":"Director bought $17.17 (6/9) — consumer-discretionary turnaround."}
+    {
+      "t": "CAVA",
+      "n": "CAVA Group",
+      "buyers": 2,
+      "total": 661550,
+      "note": "Insider buy + UBS upgrade; fast-casual growth"
+    },
+    {
+      "t": "SHAK",
+      "n": "Shake Shack",
+      "buyers": 6,
+      "total": 3232568,
+      "note": "6-insider cluster @ ~$61.44"
+    },
+    {
+      "t": "TSM",
+      "n": "Taiwan Semiconductor",
+      "buyers": 3,
+      "total": 793210,
+      "note": "3 insiders; rare foundry-leader buying"
+    },
+    {
+      "t": "RYAN",
+      "n": "Ryan Specialty",
+      "buyers": 3,
+      "total": 4199917,
+      "note": "Insurance-broker cluster"
+    },
+    {
+      "t": "KBR",
+      "n": "KBR Inc",
+      "buyers": 4,
+      "total": 945166,
+      "note": "Gov-services/engineering cluster"
+    },
+    {
+      "t": "UPST",
+      "n": "Upstart Holdings",
+      "buyers": 2,
+      "total": 6374607,
+      "note": "Fintech-lending insider buying"
+    }
   ],
   "politicians": [
-    {"who":"Tom Suozzi","party":"D","t":"AFAXX","n":"American Funds US Govt Money Market","type":"BUY","size":"$1k-15k","note":"Money-market fund — defensive cash parking, not a stock signal."},
-    {"who":"Sheri Biggs","party":"R","t":"N/A","n":"Apollo/KKR/Oaktree private credit & RE funds (spouse)","type":"BUY","size":"$1k-15k each","note":"Several private-credit/real-estate fund buys via spouse — alternatives tilt, no listed-equity signal."},
-    {"who":"Richard Blumenthal","party":"D","t":"N/A","n":"Family LLCs / Commodore Capital (spouse)","type":"BUY/SELL","size":"$1k-250k","note":"Private LLC and fund moves via spouse — not actionable single-name trades."}
-  ],
-  "note": "Politician disclosures this week were dominated by funds, money-market and private LLC/credit vehicles rather than individual stocks — low single-name signal. The actionable conviction is in the corporate-insider clusters (QNT caveated, NCLH, IFF, GEHC, RYAN) and the $20M HOOD director buy."
+    {
+      "who": "Gary Peters",
+      "party": "Democrat",
+      "t": "KHC",
+      "n": "Kraft Heinz",
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "Senate MI; value/staples buy @ ~$23.54 (traded 21 May)"
+    },
+    {
+      "who": "John McGuire",
+      "party": "Republican",
+      "t": "META",
+      "n": "Meta Platforms",
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "House VA (spouse) @ ~$627.57 (traded 4 Jun)"
+    },
+    {
+      "who": "John McGuire",
+      "party": "Republican",
+      "t": "DELL",
+      "n": "Dell Technologies",
+      "type": "SELL",
+      "size": "1K-15K",
+      "note": "House VA (spouse) @ ~$422.05 (traded 4 Jun)"
+    },
+    {
+      "who": "Chip Roy",
+      "party": "Republican",
+      "t": "AESI",
+      "n": "Atlas Energy Solutions",
+      "type": "SELL",
+      "size": "100K-250K",
+      "note": "House TX (spouse) @ ~$18.95 (traded 13 May)"
+    }
+  ]
 }

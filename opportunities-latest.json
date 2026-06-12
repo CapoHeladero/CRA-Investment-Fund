@@ -1,970 +1,920 @@
 [
   {
-    "t": "XOM",
-    "n": "Exxon Mobil",
-    "theme": "Energy",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Sector leadership + fortress FCF",
-    "why": "Energy is 2026's leadership sector (+~22% YTD) and XOM is the cash-flow anchor (~$19B TTM FCF). Iran tensions and ~$90 WTI/$93 Brent keep oil bid; buy strength as capital returns rise.",
+    "t": "NVDA",
+    "n": "NVIDIA",
+    "theme": "AI Infra / Semis",
+    "type": "Core",
+    "size": "Full",
+    "a": "2026-06-12",
+    "why": "AI accelerator monopoly; rebounded with risk-on tape after Iran de-escalation.",
     "bull": [
-      "Best-in-class balance sheet, Guyana/Permian growth",
-      "Large buyback + growing dividend",
-      "Oil leadership and geopolitical risk premium"
+      "Blackwell/next-gen demand backlog",
+      "~75% datacenter share",
+      "FCF machine funding buybacks"
     ],
     "bear": [
-      "Reverse-DCF implies a demanding ~15.4%/yr FCF growth",
-      "FCF cyclically inflated by high oil; a pullback hits the thesis",
-      "Crowded sector after a big run"
+      "Customer concentration (hyperscalers)",
+      "China export-policy whipsaw",
+      "Peak-margin risk"
     ],
     "v": [
-      "Energy/XLE relative-strength leader",
-      "Near-record FCF",
-      "Brent/WTI risk premium on Iran"
+      "Fwd P/E rich but growth-justified",
+      "Best-in-class ROIC"
     ],
-    "inv": "Brent breaks back below ~$80 or XOM loses the $140 area",
-    "entry": 150.0,
-    "stop": 140.0,
-    "target": 170.0
+    "inv": "Loss of 50DMA + AI-capex cut headlines",
+    "entry": 201,
+    "stop": 184,
+    "target": 240
   },
   {
-    "t": "CVX",
-    "n": "Chevron",
-    "theme": "Energy",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Integrated major, high shareholder yield",
-    "why": "Second leg of the energy trade: ~$14B FCF, ~39-year dividend-growth streak (~3.6-3.9% yield) and one of the highest combined dividend+buyback yields among majors. Trading ~$187.",
+    "t": "AVGO",
+    "n": "Broadcom",
+    "theme": "AI Infra / Semis",
+    "type": "Core",
+    "size": "Full",
+    "a": "2026-06-12",
+    "why": "Custom ASIC + networking second leg of AI buildout; recovering from early-June chip selloff.",
     "bull": [
-      "Strong FCF and disciplined capex",
-      "High and growing capital returns",
-      "Hess assets add long-life growth"
+      "Custom XPU design wins",
+      "VMware software annuity",
+      "Dividend grower"
     ],
     "bear": [
-      "~11%/yr implied FCF growth is full for an oil major",
-      "Oil-price beta cuts both ways",
-      "Refining margins volatile"
+      "Lumpy hyperscaler orders",
+      "Valuation re-rate risk",
+      "Debt from VMware"
     ],
     "v": [
-      "Energy sector momentum",
-      "Oil risk premium on Iran"
+      "High-teens FCF yield on software",
+      "Backlog visibility"
     ],
-    "inv": "Loss of $174 support or a sustained oil breakdown",
-    "entry": 186.5,
-    "stop": 174.0,
-    "target": 208.0
+    "inv": "Break of $360 support",
+    "entry": 380,
+    "stop": 352,
+    "target": 440
   },
   {
-    "t": "EXE",
-    "n": "Expand Energy",
-    "theme": "Energy / Nat-gas",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Gas leverage to LNG + AI-power demand",
-    "why": "Largest US natural-gas producer; gas is the swing fuel for LNG exports and datacenter/AI electricity. Two insiders bought ~$472k at $94.40 (6/4).",
+    "t": "AMD",
+    "n": "Advanced Micro Devices",
+    "theme": "AI Infra / Semis",
+    "type": "Growth",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "MI-series GPU share gains; rallied 6%+ on geopolitics relief.",
     "bull": [
-      "Structural gas demand from LNG + power",
-      "Low-cost Appalachia/Haynesville scale",
-      "Insider cluster confirms valuation comfort"
+      "MI accelerator ramp",
+      "Server CPU share gains",
+      "Open-ecosystem alternative to NVDA"
     ],
     "bear": [
-      "Gas prices notoriously volatile",
-      "Weather/storage-driven swings",
-      "Capital-intensive"
+      "Priced for perfection at ~$770B cap",
+      "Gross-margin gap vs NVDA",
+      "Execution risk on roadmap"
     ],
     "v": [
-      "Insider cluster 6/4 at $94.40",
-      "Rising US LNG export capacity"
+      "Implied growth very high",
+      "Rich vs current FCF"
     ],
-    "inv": "Gas rolls over and EXE loses ~$84",
-    "entry": 92.5,
-    "stop": 84.0,
-    "target": 110.0
+    "inv": "Failure to hold $440",
+    "entry": 470,
+    "stop": 432,
+    "target": 545
   },
   {
-    "t": "MTDR",
-    "n": "Matador Resources",
-    "theme": "Energy / E&P",
-    "type": "Stock",
-    "size": "Mid-cap",
-    "a": "Permian E&P with CEO conviction buy",
-    "why": "Delaware Basin oil-and-gas producer; Chairman/CEO Joseph Foran bought $112k at $56.25 (6/4) on top of a prior buy — repeated insider conviction in a beaten-down quality E&P.",
+    "t": "TSM",
+    "n": "Taiwan Semiconductor (ADR)",
+    "theme": "AI Infra / Semis",
+    "type": "Core",
+    "size": "Full",
+    "a": "2026-06-12",
+    "why": "Sole leading-edge foundry; insider cluster buy noted. Pulled back from $428.",
     "bull": [
-      "Founder-CEO open-market buying",
-      "Low-cost Permian inventory",
-      "Leverage to firm oil prices"
+      "2nm/3nm pricing power",
+      "AI + HPC demand",
+      "Capacity moat"
     ],
     "bear": [
-      "Oil-price dependent cash flow",
-      "Mid-cap volatility",
-      "Capex/return swings"
+      "Taiwan geopolitical tail risk",
+      "Capex intensity",
+      "FX/ADR translation"
     ],
     "v": [
-      "CEO buys 5/28 and 6/4",
-      "Energy sector leadership"
+      "Reasonable P/E vs growth",
+      "Strong FCF ex-capex cycles"
     ],
-    "inv": "Loses $49",
-    "entry": 55.5,
-    "stop": 49.0,
-    "target": 67.0
+    "inv": "Geopolitical escalation; loss of $385",
+    "entry": 404,
+    "stop": 372,
+    "target": 470
   },
   {
-    "t": "CEG",
-    "n": "Constellation Energy",
-    "theme": "Nuclear / AI-power",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Relative-value play on power-for-AI",
-    "why": "Largest US nuclear fleet supplying carbon-free baseload to datacenters. Down ~14% from its last report (~$304), it is among the cheaper ways into the power theme. Fractional preferred.",
+    "t": "MU",
+    "n": "Micron Technology",
+    "theme": "AI Infra / Memory",
+    "type": "Growth",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "HBM super-cycle; memory pricing inflected sharply higher.",
     "bull": [
-      "Nuclear baseload is the scarce input for AI compute",
-      "Long-term datacenter PPAs",
-      "Pullback resets valuation"
+      "HBM sold out into 2027",
+      "DRAM/NAND pricing up",
+      "AI memory content per server rising"
     ],
     "bear": [
-      "Down-trend not fully reversed",
-      "Power-price and regulatory risk",
-      "Rich vs traditional utilities"
+      "Historically cyclical/commodity",
+      "Vertiginous run-up",
+      "Capex discipline risk"
     ],
     "v": [
-      "Datacenter power-deal headlines",
-      "Theme breadth (VST, GEV, OKLO)"
+      "Cyclical-peak earnings risk",
+      "Watch inventory turns"
     ],
-    "inv": "New lows below $278",
-    "entry": 301.5,
-    "stop": 278.0,
-    "target": 355.0
+    "inv": "Memory price roll-over; break $850",
+    "entry": 910,
+    "stop": 835,
+    "target": 1050
   },
   {
-    "t": "VST",
-    "n": "Vistra",
-    "theme": "Nuclear / AI-power",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Merchant power + nuclear optionality",
-    "why": "Independent power producer with nuclear and gas fleet leveraged to surging electricity demand; ~$148 after a >10% recent rise. Held up better than CEG.",
+    "t": "VRT",
+    "n": "Vertiv Holdings",
+    "theme": "AI Power / Data Center",
+    "type": "Growth",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Thermal + power for AI racks; +81% YTD, leadership name.",
     "bull": [
-      "Merchant power pricing power",
-      "Nuclear + retail mix",
-      "Aggressive buybacks"
+      "Liquid-cooling demand surge",
+      "Backlog/book-to-bill >1",
+      "Margin expansion"
     ],
     "bear": [
-      "Commodity/weather exposure",
-      "Leverage higher than regulated utys",
-      "Theme is crowded; valuation full"
+      "Cyclicality to capex cycle",
+      "Valuation stretched",
+      "Supply-chain"
     ],
     "v": [
-      "Power-demand growth data",
-      "Relative strength vs CEG"
+      "Premium multiple",
+      "FCF inflecting"
     ],
-    "inv": "Breaks $133 support",
-    "entry": 148.0,
-    "stop": 133.0,
-    "target": 180.0
+    "inv": "Order slowdown; break $260",
+    "entry": 286,
+    "stop": 262,
+    "target": 335
   },
   {
     "t": "GEV",
     "n": "GE Vernova",
-    "theme": "Electrification / Power",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Grid + gas-turbine + nuclear supplier",
-    "why": "Picks-and-shovels of the power build-out (turbines, grid equipment, SMR optionality) at ~$1,040. Best-in-theme franchise. Fractional preferred; only on pullbacks given the run.",
+    "theme": "AI Power / Grid",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Gas turbines + grid equipment; one quarter of orders exceeded all of prior year.",
     "bull": [
-      "Multi-year grid/gas-turbine backlog",
-      "Electrification + AI-power tailwind",
-      "Margin expansion underway"
+      "Power-demand super-cycle",
+      "Order backlog records",
+      "Grid electrification"
     ],
     "bear": [
-      "Valuation stretched after a huge rally",
-      "Reward/risk poor near highs",
-      "Execution/warranty risk"
+      "Heavy execution/warranty risk",
+      "Rich valuation",
+      "Long project cycles"
     ],
     "v": [
-      "Order backlog growth",
-      "Power-theme leadership"
+      "Avg target ~$1210",
+      "Backlog-rich"
     ],
-    "inv": "Loss of the $950 area",
-    "entry": 1000.0,
-    "stop": 950.0,
-    "target": 1240.0
+    "inv": "Order air-pocket; loss of $820",
+    "entry": 890,
+    "stop": 818,
+    "target": 1050
+  },
+  {
+    "t": "MSFT",
+    "n": "Microsoft",
+    "theme": "Mega-cap Tech",
+    "type": "Core",
+    "size": "Full",
+    "a": "2026-06-12",
+    "why": "Azure AI + Copilot monetization; defensive megacap, dipped 1.8%.",
+    "bull": [
+      "Azure reacceleration",
+      "Copilot attach",
+      "Fortress balance sheet"
+    ],
+    "bear": [
+      "AI capex weighing on FCF",
+      "Antitrust noise",
+      "Mature core"
+    ],
+    "v": [
+      "Premium but durable",
+      "Wide moat"
+    ],
+    "inv": "Azure growth decel; break $370",
+    "entry": 386,
+    "stop": 362,
+    "target": 430
+  },
+  {
+    "t": "GOOGL",
+    "n": "Alphabet",
+    "theme": "Mega-cap Tech",
+    "type": "Core",
+    "size": "Full",
+    "a": "2026-06-12",
+    "why": "Search + Gemini + Cloud; cheapest Mag-7 on FCF.",
+    "bull": [
+      "Cloud profitability inflection",
+      "Gemini traction",
+      "Waymo optionality"
+    ],
+    "bear": [
+      "Search disruption fear",
+      "Antitrust remedies",
+      "Ad cyclicality"
+    ],
+    "v": [
+      "Lowest P/E of Mag-7",
+      "Huge buybacks"
+    ],
+    "inv": "Search share loss; break $330",
+    "entry": 345,
+    "stop": 322,
+    "target": 390
+  },
+  {
+    "t": "META",
+    "n": "Meta Platforms",
+    "theme": "Mega-cap Tech",
+    "type": "Core",
+    "size": "Full",
+    "a": "2026-06-12",
+    "why": "AI-driven ad efficiency + cost discipline. Congressman (McGuire) spouse bought early June.",
+    "bull": [
+      "Ad ROAS gains from AI",
+      "Reels/WhatsApp monetization",
+      "Buyback + FCF"
+    ],
+    "bear": [
+      "Reality Labs cash burn",
+      "Reg/antitrust",
+      "AI-capex step-up"
+    ],
+    "v": [
+      "Reasonable vs growth",
+      "FCF strong"
+    ],
+    "inv": "Engagement/ad softness; break $540",
+    "entry": 566,
+    "stop": 528,
+    "target": 640
+  },
+  {
+    "t": "PLTR",
+    "n": "Palantir",
+    "theme": "AI Software",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "US commercial + government AI; high-beta, plunged ~4% June 9 on valuation.",
+    "bull": [
+      "AIP land-and-expand",
+      "Gov backlog",
+      "Rule-of-40 elite"
+    ],
+    "bear": [
+      "Extreme valuation",
+      "Stock-based comp",
+      "Volatility"
+    ],
+    "v": [
+      "Among priciest in software",
+      "Implied growth enormous"
+    ],
+    "inv": "Loss of $115 shelf",
+    "entry": 128,
+    "stop": 114,
+    "target": 160
+  },
+  {
+    "t": "VST",
+    "n": "Vistra",
+    "theme": "Nuclear / AI Power",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Nuclear + gas merchant power into AI demand; +5% on the session.",
+    "bull": [
+      "Tightening power markets",
+      "Nuclear PPA optionality",
+      "Buybacks"
+    ],
+    "bear": [
+      "Power-price sensitivity",
+      "Regulatory",
+      "Leverage"
+    ],
+    "v": [
+      "FCF yield attractive",
+      "Re-rating underway"
+    ],
+    "inv": "Power prices roll; break $145",
+    "entry": 158,
+    "stop": 144,
+    "target": 185
+  },
+  {
+    "t": "CEG",
+    "n": "Constellation Energy",
+    "theme": "Nuclear / AI Power",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Largest US nuclear fleet; data-center PPAs the thesis.",
+    "bull": [
+      "Behind-the-meter nuclear deals",
+      "Clean baseload scarcity",
+      "Policy tailwinds"
+    ],
+    "bear": [
+      "Valuation rich for a utility",
+      "Outage risk",
+      "Rate/regulatory"
+    ],
+    "v": [
+      "Premium utility multiple",
+      "Growth optionality"
+    ],
+    "inv": "PPA momentum stalls; break $225",
+    "entry": 242,
+    "stop": 222,
+    "target": 285
+  },
+  {
+    "t": "TLN",
+    "n": "Talen Energy",
+    "theme": "Nuclear / AI Power",
+    "type": "Growth",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Nuclear merchant with hyperscaler data-center adjacency.",
+    "bull": [
+      "AWS/data-center campus deals",
+      "Nuclear scarcity value",
+      "Buyback"
+    ],
+    "bear": [
+      "Single-asset concentration",
+      "Volatile power prices",
+      "High beta"
+    ],
+    "v": [
+      "Re-rated hard YTD",
+      "FCF inflection"
+    ],
+    "inv": "Loss of $315",
+    "entry": 343,
+    "stop": 312,
+    "target": 400
   },
   {
     "t": "OKLO",
     "n": "Oklo",
-    "theme": "Nuclear / SMR",
-    "type": "Stock",
-    "size": "Spec",
-    "a": "High-beta SMR optionality",
-    "why": "Pre-revenue advanced-fission developer at ~$72, a higher-beta way to play AI-power/nuclear. Speculative — size small; no earnings.",
+    "theme": "Nuclear / SMR (story)",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Pre-revenue advanced-fission story; pure optionality on SMR buildout.",
     "bull": [
-      "SMR/AI-power narrative tailwind",
-      "Datacenter power-purchase optionality",
-      "High beta to the theme"
+      "Aurora reactor pipeline",
+      "DOE site + fuel access",
+      "AI-power narrative"
     ],
     "bear": [
-      "Pre-revenue, cash-burning, dilution risk",
-      "Regulatory/build timeline long",
-      "Very high volatility"
+      "Pre-revenue, cash burn",
+      "Licensing timeline risk",
+      "Dilution"
     ],
     "v": [
-      "Power-deal/regulatory headlines",
-      "Theme momentum"
+      "No earnings; story stock",
+      "Binary outcomes"
     ],
-    "inv": "Breaks $60",
-    "entry": 69.5,
-    "stop": 60.0,
-    "target": 95.0
+    "inv": "Capital raise overhang; break $46",
+    "entry": 55,
+    "stop": 46,
+    "target": 75
   },
   {
     "t": "SMR",
     "n": "NuScale Power",
-    "theme": "Nuclear / SMR",
-    "type": "Stock",
-    "size": "Spec",
-    "a": "Account-friendly SMR expression",
-    "why": "Licensed small-modular-reactor developer at ~$12.55 — low absolute price suits a small account for the nuclear theme. Speculative.",
+    "theme": "Nuclear / SMR (story)",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Licensed SMR design; speculative AI-power optionality.",
     "bull": [
-      "First-mover NRC-approved SMR design",
-      "AI-power demand for clean baseload",
-      "Low share price for position sizing"
+      "NRC-approved design",
+      "Order pipeline optionality",
+      "Theme tailwind"
     ],
     "bear": [
-      "Pre-scale, negative earnings",
-      "Project/financing/dilution risk",
-      "Sentiment-driven swings"
+      "History of delays",
+      "Cash burn/dilution",
+      "Customer attrition"
     ],
     "v": [
-      "SMR order/permit news",
-      "Nuclear theme flows"
+      "Pre-profit",
+      "Low-priced/volatile"
     ],
-    "inv": "Loses $10.3",
-    "entry": 12.25,
-    "stop": 10.3,
-    "target": 17.0
+    "inv": "Order cancellation; break $8",
+    "entry": 9.6,
+    "stop": 8,
+    "target": 13.5
   },
   {
     "t": "CCJ",
     "n": "Cameco",
     "theme": "Uranium",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Uranium up-cycle leader with real contracts",
-    "why": "Top Western uranium producer (~$100) with long-term contracts and the Westinghouse stake; structural deficit + nuclear restarts underpin the trade.",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Tier-1 uranium miner + Westinghouse stake on nuclear renaissance.",
     "bull": [
-      "Structural uranium deficit + nuclear restarts",
-      "Long-term contracts and Westinghouse stake",
-      "Strong momentum and balance sheet"
+      "Uranium price uptrend",
+      "Westinghouse services",
+      "Long-term contracts"
     ],
     "bear": [
-      "Full valuation after a big run",
-      "Uranium-price and project risk",
-      "Sentiment-driven volatility"
+      "Commodity price swings",
+      "Production hiccups",
+      "Sentiment-driven"
     ],
     "v": [
-      "Nuclear/AI-power theme",
-      "Strong 1-yr momentum"
+      "Leveraged to U3O8",
+      "Westinghouse optionality"
     ],
-    "inv": "Loss of $90 support",
-    "entry": 102.0,
-    "stop": 90.0,
-    "target": 128.0
+    "inv": "Uranium roll-over; break $100",
+    "entry": 114,
+    "stop": 100,
+    "target": 140
   },
   {
     "t": "FSLR",
     "n": "First Solar",
     "theme": "Renewables / Solar",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Domestic solar with policy moat",
-    "why": "US thin-film leader (~$249) with a multi-year backlog and net cash; benefits from domestic-content incentives. Pulled back ~20% from its early-June ATH ($321), offering entry.",
+    "type": "Growth",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "US-made thin-film with IRA tailwinds and full backlog; +51% YoY.",
     "bull": [
-      "Large contracted backlog",
-      "Domestic-manufacturing tax credits",
-      "Net cash, expanding capacity"
+      "Domestic-content premium",
+      "Sold-out backlog to 2027",
+      "Pricing power"
     ],
     "bear": [
-      "Policy-sensitive (subsidy changes)",
-      "Lumpy quarterly results",
-      "High volatility"
+      "Policy/tariff reversal risk",
+      "Capex-heavy",
+      "Lumpy FCF"
     ],
     "v": [
-      "Backlog/bookings updates",
-      "Strong analyst Buy consensus"
+      "Backlog visibility",
+      "Cheaper than peers on earnings"
     ],
-    "inv": "Loss of $232",
-    "entry": 255.0,
-    "stop": 232.0,
-    "target": 300.0
+    "inv": "Policy shock; break $245",
+    "entry": 268,
+    "stop": 246,
+    "target": 320
+  },
+  {
+    "t": "ENPH",
+    "n": "Enphase Energy",
+    "theme": "Renewables / Solar",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Microinverter leader (new IQ9N launch); beaten-down turnaround bet.",
+    "bull": [
+      "New product cycle",
+      "Residential recovery optionality",
+      "Margin resilience"
+    ],
+    "bear": [
+      "Demand still soft",
+      "Rate-sensitive resi solar",
+      "Competition"
+    ],
+    "v": [
+      "Down hard from highs",
+      "Turnaround unproven"
+    ],
+    "inv": "Resi demand worsens; break $46",
+    "entry": 51,
+    "stop": 46,
+    "target": 64
   },
   {
     "t": "NEE",
     "n": "NextEra Energy",
-    "theme": "Renewables / Yield",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Diversified renewables + utility income",
-    "why": "Largest US renewables developer plus regulated FPL utility at ~$85; lower-volatility way to own electrification/renewables with a growing dividend. Pressured recently on a Dominion-acquisition report.",
+    "theme": "Renewables / Utility",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Largest renewables developer + regulated utility; lower-beta income+growth.",
     "bull": [
-      "Scale renewables pipeline + regulated base",
-      "Reliable dividend growth",
-      "Electrification demand tailwind"
+      "Renewables backlog",
+      "Regulated cashflow",
+      "Dividend growth"
     ],
     "bear": [
-      "Rate-sensitive (yield proxy)",
-      "M&A/integration overhang",
-      "Slower growth than merchant peers"
+      "Rate-sensitive",
+      "Policy on tax credits",
+      "Leverage"
     ],
     "v": [
-      "Electrification demand data",
-      "Defensive renewables income"
+      "Premium utility",
+      "Steady FCF"
     ],
-    "inv": "Breaks $77",
-    "entry": 84.5,
-    "stop": 77.0,
-    "target": 98.0
-  },
-  {
-    "t": "QNT",
-    "n": "Quantinuum",
-    "theme": "Quantum computing",
-    "type": "Stock",
-    "size": "Spec",
-    "a": "Largest insider cluster of the week",
-    "why": "Quantum-computing pure play where 10 directors/officers (Chair $15M, a director $4M, CFO, CSO) all bought at $60.00 on 6/5 (~$24.6M total). Note: identical $60 price implies a structured/offering buy, not classic open-market conviction — verify before sizing.",
-    "bull": [
-      "Unusually broad 10-insider cluster",
-      "Leading trapped-ion quantum IP",
-      "Quantum/AI theme tailwind"
-    ],
-    "bear": [
-      "Uniform $60 price = likely structured, not open-market",
-      "Pre-commercial economics",
-      "Very high volatility/dilution"
-    ],
-    "v": [
-      "10-insider cluster 6/5 (~$24.6M)"
-    ],
-    "inv": "Loses $50 (below insider price)",
-    "entry": 60.0,
-    "stop": 50.0,
-    "target": 80.0
+    "inv": "Rate spike / break $80",
+    "entry": 84,
+    "stop": 79,
+    "target": 96
   },
   {
     "t": "IONQ",
     "n": "IonQ",
-    "theme": "Quantum computing",
-    "type": "Stock",
-    "size": "Spec",
-    "a": "Liquid quantum momentum name",
-    "why": "Most-traded quantum pure play (~$56); pulled back from its $84 high on competition/dilution worries, offering a higher-beta thematic entry for a small position.",
+    "theme": "Quantum",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Trapped-ion quantum leader; +33% YTD on revenue growth/acquisitions.",
     "bull": [
-      "Pure-play quantum optionality",
-      "High liquidity vs peers",
-      "Government/enterprise pilots"
+      "Revenue scaling fast",
+      "Acquisition roll-up",
+      "Gov/enterprise pilots"
     ],
     "bear": [
-      "No profits, heavy cash burn",
-      "Competitive leapfrog risk (RGTI)",
-      "Extreme price-to-sales, dilution"
+      "Pre-profit, heavy losses",
+      "Quantum timeline uncertain",
+      "Dilution"
     ],
     "v": [
-      "Theme flows",
-      "Bounce setups off support"
+      "Story/optionality only",
+      "No FCF"
     ],
-    "inv": "Breaks $46",
-    "entry": 54.0,
-    "stop": 46.0,
-    "target": 72.0
+    "inv": "Funding/te chnical setback; break $48",
+    "entry": 56,
+    "stop": 48,
+    "target": 75
   },
   {
-    "t": "NVDA",
-    "n": "NVIDIA",
-    "theme": "AI infrastructure / Semis",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Quality anchor of the AI trade",
-    "why": "~$119B TTM FCF, net cash, dominant AI accelerators (~$199). Chips sold off after AVGO's soft AI guidance; reverse-DCF (~17%/yr implied) is not extreme for this franchise — a quality add on weakness.",
+    "t": "RGTI",
+    "n": "Rigetti Computing",
+    "theme": "Quantum",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Superconducting-qubit play; quantum-funding momentum, but insider sale noted.",
     "bull": [
-      "Unmatched FCF and net cash",
-      "AI-datacenter demand still growing",
-      "Reasonable implied growth vs history"
+      "US quantum funding tailwind",
+      "198% rev growth YoY",
+      "Roadmap milestones"
     ],
     "bear": [
-      "Momentum rolling over with tech (AVGO guide)",
-      "AI-capex-payback skepticism",
-      "Customer concentration"
+      "Ongoing losses",
+      "Insider selling",
+      "High volatility/dilution"
     ],
     "v": [
-      "Hyperscaler capex guides",
-      "FCF strength"
+      "Pre-profit",
+      "Binary"
     ],
-    "inv": "Loss of $182",
-    "entry": 200.5,
-    "stop": 182.0,
-    "target": 235.0
-  },
-  {
-    "t": "AVGO",
-    "n": "Broadcom",
-    "theme": "AI infrastructure / Semis",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Custom AI silicon + software (on the dip)",
-    "why": "Custom-ASIC and networking leader (~$372) sold off on softer-than-hoped AI guidance — the catalyst that knocked the group. Strong FCF/dividend make it a buy-the-dip candidate once it bases. Fractional preferred.",
-    "bull": [
-      "Custom-AI-chip wins with hyperscalers",
-      "Software (VMware) recurring revenue",
-      "Strong FCF/dividend growth"
-    ],
-    "bear": [
-      "Soft AI guidance dented the thesis near-term",
-      "Rich multiple",
-      "Tech-momentum drawdown risk"
-    ],
-    "v": [
-      "AI-ASIC bookings",
-      "Networking demand"
-    ],
-    "inv": "Breaks $335",
-    "entry": 367.5,
-    "stop": 335.0,
-    "target": 430.0
-  },
-  {
-    "t": "TSM",
-    "n": "Taiwan Semiconductor",
-    "theme": "AI infrastructure / Foundry",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "The indispensable AI foundry",
-    "why": "Manufactures the leading-edge silicon for NVDA/AVGO/AAPL (~$409). The picks-and-shovels of AI compute with scale, pricing power and strong FCF; three insiders added in May. Fractional preferred.",
-    "bull": [
-      "Monopoly-like leading-edge foundry share",
-      "AI-driven pricing and utilization",
-      "Strong FCF, expanding capacity"
-    ],
-    "bear": [
-      "Geopolitical (Taiwan/China) tail risk",
-      "Capex-intensive, cyclical",
-      "Tech-sentiment beta"
-    ],
-    "v": [
-      "AI-chip demand",
-      "Insider buying in May"
-    ],
-    "inv": "Loses $375",
-    "entry": 407.5,
-    "stop": 375.0,
-    "target": 470.0
-  },
-  {
-    "t": "MSFT",
-    "n": "Microsoft",
-    "theme": "Mega-cap tech / AI cloud",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Diversified AI-cloud compounder",
-    "why": "Azure + Copilot monetization with fortress FCF (~$402). The most diversified mega-cap AI play and relative ballast within tech during the rotation. Fractional preferred.",
-    "bull": [
-      "Azure AI growth + enterprise software moat",
-      "Massive, durable FCF",
-      "Lower beta than pure semis"
-    ],
-    "bear": [
-      "Heavy AI capex pressures near-term FCF",
-      "Premium multiple",
-      "Cloud-growth deceleration risk"
-    ],
-    "v": [
-      "Azure growth prints",
-      "Copilot adoption"
-    ],
-    "inv": "Breaks $372",
-    "entry": 402.0,
-    "stop": 372.0,
-    "target": 450.0
-  },
-  {
-    "t": "GOOGL",
-    "n": "Alphabet",
-    "theme": "Mega-cap tech / Value",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Cheapest mega-cap AI platform",
-    "why": "Search + Cloud + Gemini at ~$353; FCF (~$64B TTM) is depressed by heavy AI capex, so the headline multiple overstates the bar. Among the better risk/rewards in big tech.",
-    "bull": [
-      "Search/Cloud/YouTube cash engines",
-      "Gemini + TPU AI optionality",
-      "FCF set to inflect as capex normalizes"
-    ],
-    "bear": [
-      "Reverse-DCF ~24%/yr looks rich on depressed FCF",
-      "Heavy capex + antitrust overhang",
-      "AI-search disruption risk"
-    ],
-    "v": [
-      "Cloud growth, capex trajectory",
-      "Ad-revenue resilience"
-    ],
-    "inv": "Breaks $325",
-    "entry": 351.5,
-    "stop": 325.0,
-    "target": 400.0
-  },
-  {
-    "t": "PANW",
-    "n": "Palo Alto Networks",
-    "theme": "Cybersecurity",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Platform leader, less extended than CRWD",
-    "why": "Platformization story (~$265, +48% YTD) with durable growth; the cleaner risk/reward in cyber after CRWD's post-earnings break dented the group.",
-    "bull": [
-      "Platform-consolidation tailwind",
-      "Durable ARR growth + FCF",
-      "Best-positioned large-cap in cyber"
-    ],
-    "bear": [
-      "Group sentiment hit by CRWD drop",
-      "Premium valuation",
-      "Deal-timing lumpiness"
-    ],
-    "v": [
-      "Platformization metrics",
-      "Goldman PT raised to $330"
-    ],
-    "inv": "Loses $240",
-    "entry": 263.0,
-    "stop": 240.0,
-    "target": 310.0
-  },
-  {
-    "t": "CRWD",
-    "n": "CrowdStrike",
-    "theme": "Cybersecurity",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Buy-the-break only after it stabilizes",
-    "why": "Premier endpoint/AI-security franchise (~$679) that beat and raised but fell ~9% on lofty expectations; a 4-for-1 split is effective July 2. Wait for a base; don't chase. Fractional preferred.",
-    "bull": [
-      "Best-in-class platform and retention",
-      "Beat-and-raise fundamentals intact",
-      "Upcoming 4:1 split broadens access"
-    ],
-    "bear": [
-      "Extreme valuation",
-      "Momentum break post-earnings",
-      "High expectations bar"
-    ],
-    "v": [
-      "Watch for stabilization/base",
-      "ARR durability"
-    ],
-    "inv": "Fails to hold $615",
-    "entry": 682.5,
-    "stop": 615.0,
-    "target": 780.0
+    "inv": "Momentum fades; break $16.5",
+    "entry": 20,
+    "stop": 16.5,
+    "target": 28
   },
   {
     "t": "RKLB",
     "n": "Rocket Lab",
     "theme": "Space",
-    "type": "Stock",
-    "size": "Mid-cap",
-    "a": "Launch + space-systems momentum",
-    "why": "Leading small-launch + space-systems company (~$124, off a $150 ATH) with rising cadence and Neutron progress; the primary liquid way to play space — but the group is under a Jefferies-led 'short space vs SpaceX' bearish trade.",
+    "type": "Growth",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Small-launch + Neutron; analyst upgrades on Neutron progress. Off the $150 high.",
     "bull": [
-      "Rising launch cadence + Neutron optionality",
+      "Neutron first launch nearing",
       "Space-systems backlog",
-      "Strong 1-yr relative strength"
+      "Vertical integration"
     ],
     "bear": [
-      "Not yet profitable",
-      "SpaceX-dominance bear thesis weighing on group",
-      "Volatile, momentum-driven"
+      "Pre-profit / cash burn",
+      "Neutron execution risk",
+      "Rich multiple"
     ],
     "v": [
-      "Launch manifest growth",
-      "Neutron milestones"
+      "Revenue scaling",
+      "No FCF yet"
     ],
-    "inv": "Breaks $105",
-    "entry": 119.0,
-    "stop": 105.0,
-    "target": 155.0
+    "inv": "Neutron slip; break $98",
+    "entry": 112,
+    "stop": 98,
+    "target": 140
   },
   {
     "t": "ASTS",
     "n": "AST SpaceMobile",
-    "theme": "Space / Satellite",
-    "type": "Stock",
-    "size": "Spec",
-    "a": "Direct-to-cell satellite optionality",
-    "why": "Satellite-to-phone broadband developer (~$103) — high-beta space spec that sold off ~9% with the sector. Small position only; pre-revenue with big addressable market.",
+    "theme": "Space",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Direct-to-cell satellite constellation; high-beta optionality.",
     "bull": [
-      "Direct-to-device addressable market is huge",
       "Carrier partnerships",
-      "High beta to space-theme upside"
+      "Constellation deployment",
+      "First-mover D2C"
     ],
     "bear": [
-      "Pre-revenue, heavy capex/dilution",
-      "Launch/technical execution risk",
-      "SpaceX/Starlink competition"
+      "Massive capex/dilution",
+      "Execution + launch cadence",
+      "Pre-revenue scale"
     ],
     "v": [
-      "Satellite deployment milestones",
-      "Carrier deal headlines"
+      "Story stock",
+      "Binary outcomes"
     ],
-    "inv": "Breaks $88",
-    "entry": 101.5,
-    "stop": 88.0,
-    "target": 135.0
+    "inv": "Launch delay; break $82",
+    "entry": 95,
+    "stop": 82,
+    "target": 125
   },
   {
-    "t": "CAT",
-    "n": "Caterpillar",
-    "theme": "Industrials",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Industrial-cycle + datacenter capex",
-    "why": "Largest contributor to industrials leadership (~$915); benefits from electrification, datacenter power-gen and infrastructure. Strong FCF and pricing power. Fractional preferred.",
+    "t": "CRWD",
+    "n": "CrowdStrike",
+    "theme": "Cybersecurity",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Endpoint+platform leader; 4:1 split July 2. ~10% below highs.",
     "bull": [
-      "Electrification + datacenter power demand",
-      "Pricing power and backlog",
-      "Robust FCF and buybacks"
+      "Platform consolidation",
+      "Module attach rates",
+      "Strong FCF margin"
     ],
     "bear": [
-      "Late-cycle/construction sensitivity",
-      "Valuation full near highs",
-      "FX and dealer-inventory swings"
+      "Premium valuation",
+      "Outage-reputation memory",
+      "Comp from MSFT"
     ],
     "v": [
-      "Industrials sector leadership",
-      "Backlog/orders"
+      "High FCF margin",
+      "Rule-of-40 strong"
     ],
-    "inv": "Loss of $850",
-    "entry": 912.5,
-    "stop": 850.0,
-    "target": 1020.0
+    "inv": "Net-new ARR decel; break $460",
+    "entry": 498,
+    "stop": 458,
+    "target": 575
   },
   {
-    "t": "NVRI",
-    "n": "Enviri",
-    "theme": "Industrials / Environmental",
-    "type": "Stock",
-    "size": "Small-cap",
-    "a": "CEO+CFO insider-cluster turnaround",
-    "why": "Environmental and steel-byproduct services name where the CFO and other insiders bought $18.10-19.43 in early June (3-insider cluster) — a quality cluster in a beaten-down small-cap turnaround.",
+    "t": "PANW",
+    "n": "Palo Alto Networks",
+    "theme": "Cybersecurity",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Platformization strategy; ~28% rev growth guide.",
     "bull": [
-      "CFO-led open-market cluster",
-      "Recurring environmental-services revenue",
-      "Deleveraging/turnaround optionality"
+      "Platformization momentum",
+      "Next-gen ARR growth",
+      "FCF strong"
     ],
     "bear": [
-      "Elevated leverage",
-      "Small-cap liquidity",
-      "Cyclically tied to steel"
+      "Deferred-revenue optics",
+      "Valuation",
+      "Integration risk"
     ],
     "v": [
-      "3-insider cluster early June"
+      "Premium multiple",
+      "Durable FCF"
     ],
-    "inv": "Closes below $16.5",
-    "entry": 19.15,
+    "inv": "NGS ARR miss; break $258",
+    "entry": 274,
+    "stop": 257,
+    "target": 315
+  },
+  {
+    "t": "FTNT",
+    "n": "Fortinet",
+    "theme": "Cybersecurity",
+    "type": "Growth",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Firewall refresh + OT/secure-networking; +3.4% on the day.",
+    "bull": [
+      "Firewall refresh cycle",
+      "OT/SASE expansion",
+      "High margins"
+    ],
+    "bear": [
+      "Billings lumpiness",
+      "Hardware exposure",
+      "Competition"
+    ],
+    "v": [
+      "Reasonable vs peers",
+      "Strong FCF"
+    ],
+    "inv": "Billings miss; break $132",
+    "entry": 141,
+    "stop": 131,
+    "target": 165
+  },
+  {
+    "t": "S",
+    "n": "SentinelOne",
+    "theme": "Cybersecurity",
+    "type": "Speculative",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "AI-native endpoint challenger; beaten-down, takeout-chatter name.",
+    "bull": [
+      "AI/Purple-AI differentiation",
+      "Share gains vs legacy",
+      "M&A optionality"
+    ],
+    "bear": [
+      "Still GAAP-unprofitable",
+      "CRWD/MSFT competition",
+      "Margin path"
+    ],
+    "v": [
+      "Cheap vs cyber peers",
+      "Turn-to-FCF watch"
+    ],
+    "inv": "ARR decel; break $16.5",
+    "entry": 18.4,
     "stop": 16.5,
-    "target": 24.0
+    "target": 23
   },
   {
-    "t": "LMT",
-    "n": "Lockheed Martin",
-    "theme": "Defense",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Record backlog amid rising geopolitical risk",
-    "why": "Defense prime (~$525) with record order intake and excellent earnings visibility as Iran/Mideast risk lifts defense spending. Fractional preferred.",
+    "t": "XOM",
+    "n": "ExxonMobil",
+    "theme": "Energy",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Integrated major; Brent fell ~4% to ~$89 on Iran de-escalation - cheaper entry.",
     "bull": [
-      "Record backlog and order intake",
-      "Geopolitical spending tailwind",
-      "Reliable dividend + buyback"
+      "Permian + Guyana low-cost barrels",
+      "Dividend aristocrat",
+      "Buybacks"
     ],
     "bear": [
-      "Trades at a premium to history (~17-18x fwd)",
-      "Program-execution/charge risk",
-      "Budget-timing dependence"
+      "Oil-price downside ($89 Brent)",
+      "Energy-transition overhang",
+      "Cyclical"
     ],
     "v": [
-      "Backlog/order growth",
-      "Defense sector new highs"
+      "FCF yield solid",
+      "Low-cost reserves"
     ],
-    "inv": "Loses $488",
-    "entry": 522.5,
-    "stop": 488.0,
-    "target": 590.0
+    "inv": "Brent breaks $75; stock $134",
+    "entry": 145,
+    "stop": 134,
+    "target": 162
   },
   {
-    "t": "RTX",
-    "n": "RTX Corp",
-    "theme": "Defense / Aerospace",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Account-friendly defense + aero-aftermarket",
-    "why": "Diversified defense + commercial-aero aftermarket (~$177) at a lower absolute price than the other primes; benefits from the same geopolitical spending surge plus air-travel demand.",
+    "t": "MTDR",
+    "n": "Matador Resources",
+    "theme": "Energy / E&P",
+    "type": "Growth",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Permian E&P; insider cluster buy June 9 at ~$53.",
     "bull": [
-      "Defense + aftermarket dual tailwinds",
-      "Lower price aids position sizing",
-      "Large backlog"
+      "Insider conviction buying",
+      "Delaware Basin acreage",
+      "FCF + dividend"
     ],
     "bear": [
-      "GTF-engine/charge overhang history",
-      "Premium defense multiple",
-      "Program-execution risk"
+      "Oil-price leverage",
+      "Single-basin",
+      "Cyclical"
     ],
     "v": [
-      "Defense spending surge",
-      "Aftermarket strength"
+      "Cheap on EV/EBITDA",
+      "Insider-backed"
     ],
-    "inv": "Loses $163",
-    "entry": 176.0,
-    "stop": 163.0,
-    "target": 205.0
-  },
-  {
-    "t": "MP",
-    "n": "MP Materials",
-    "theme": "Materials / Rare earth",
-    "type": "Stock",
-    "size": "Mid-cap",
-    "a": "US rare-earth play with COO buy",
-    "why": "Only scaled US rare-earth miner/processor (~$54); COO Michael Rosenthal bought 10,000 shares at $54.30 (6/9) into sector weakness — domestic-supply/critical-minerals policy tailwind.",
-    "bull": [
-      "Strategic US rare-earth supply",
-      "COO insider buy at $54.30",
-      "Magnet/processing expansion + policy support"
-    ],
-    "bear": [
-      "Rare-earth prices set by China",
-      "Pre-scale magnet economics",
-      "High volatility"
-    ],
-    "v": [
-      "COO buy 6/9",
-      "Critical-minerals policy push"
-    ],
-    "inv": "Loses $47",
-    "entry": 53.5,
-    "stop": 47.0,
-    "target": 67.0
-  },
-  {
-    "t": "NEM",
-    "n": "Newmont",
-    "theme": "Materials / Gold",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Gold leverage as a hedge",
-    "why": "Largest gold miner (~$98) — a portfolio hedge against sticky inflation (May CPI +4.2% YoY) and geopolitical risk, with improving FCF as gold holds firm.",
-    "bull": [
-      "Gold hedge vs inflation + geopolitics",
-      "Improving FCF and capital returns",
-      "Cost discipline underway"
-    ],
-    "bear": [
-      "Gold-price dependent",
-      "Mine-cost inflation/execution",
-      "Project/permitting risk"
-    ],
-    "v": [
-      "Gold strength on risk-off/inflation",
-      "52-wk range $52-135"
-    ],
-    "inv": "Loses $89",
-    "entry": 97.5,
-    "stop": 89.0,
-    "target": 120.0
+    "inv": "Brent breakdown; break $47",
+    "entry": 53,
+    "stop": 47,
+    "target": 64
   },
   {
     "t": "GEHC",
     "n": "GE HealthCare",
-    "theme": "Healthcare / Med-tech",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Eight-insider cluster in imaging",
-    "why": "Medical-imaging leader (~$62) where eight insiders bought ~$6.4M around $61.97 (cluster filed 5/26) — a broad, aligned cluster in a defensive med-tech franchise.",
+    "theme": "Healthcare",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Imaging leader; large 8-insider cluster buy in May at ~$62.",
     "bull": [
-      "8-insider open-market cluster",
-      "Recurring imaging/service revenue",
-      "Defensive growth + AI-imaging optionality"
+      "Strong insider cluster buy",
+      "Imaging install base + AI",
+      "Margin expansion"
     ],
     "bear": [
-      "Hospital-capex cyclicality",
-      "Tariff/supply-chain exposure",
-      "Moderate growth"
+      "China exposure",
+      "Hospital-capex cycle",
+      "FX"
     ],
     "v": [
-      "8-insider cluster ~$6.4M",
-      "Defensive med-tech"
+      "Reasonable P/E",
+      "Insider-validated"
     ],
-    "inv": "Loses $54",
-    "entry": 61.5,
-    "stop": 54.0,
-    "target": 74.0
+    "inv": "Orders soften; break $58",
+    "entry": 63,
+    "stop": 57.5,
+    "target": 74
   },
   {
-    "t": "UNH",
-    "n": "UnitedHealth Group",
-    "theme": "Healthcare / Value",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Beaten-down defensive value",
-    "why": "Managed-care leader (~$355) deeply out of favor after a tough year; a defensive value re-rating candidate if medical-cost trends stabilize. Fractional preferred.",
+    "t": "LLY",
+    "n": "Eli Lilly",
+    "theme": "Healthcare / GLP-1",
+    "type": "Core",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "GLP-1/obesity franchise leader; retatrutide upgrade cycle.",
     "bull": [
-      "Cheap vs history if margins recover",
-      "Scale + Optum cash flows",
-      "Defensive demand"
+      "Zepbound/Mounjaro demand",
+      "Retatrutide pipeline",
+      "Pricing power"
     ],
     "bear": [
-      "Medical-cost-trend and regulatory overhang",
-      "Headline/political risk",
-      "Earnings-visibility low near-term"
+      "Valuation rich",
+      "Manufacturing capacity",
+      "Competition (NVO + orals)"
     ],
     "v": [
-      "Margin-trend stabilization",
-      "Defensive rotation"
+      "Premium pharma multiple",
+      "Strong FCF"
     ],
-    "inv": "Loses $322",
-    "entry": 352.5,
-    "stop": 322.0,
-    "target": 410.0
+    "inv": "Trial/data setback; break $1100",
+    "entry": 1150,
+    "stop": 1080,
+    "target": 1320
   },
   {
-    "t": "COST",
-    "n": "Costco",
-    "theme": "Consumer Staples",
-    "type": "Stock",
-    "size": "Mega-cap",
-    "a": "Defensive compounder for ballast",
-    "why": "Best-in-class membership retailer (~$977) leading the staples rotation; steady comps, membership moat, low leverage. Portfolio ballast against tech drawdowns. Fractional preferred.",
+    "t": "ISRG",
+    "n": "Intuitive Surgical",
+    "theme": "Healthcare / Medtech",
+    "type": "Growth",
+    "size": "Half",
+    "a": "2026-06-12",
+    "why": "Robotic surgery franchise; down ~27% YTD - mean-reversion bet near 2-yr low.",
     "bull": [
-      "Membership-fee moat and loyalty",
-      "Consistent comps + traffic",
-      "Low leverage, reliable compounding"
+      "da Vinci 5 upgrade cycle",
+      "Recurring instrument revenue",
+      "Procedure growth"
     ],
     "bear": [
-      "Premium valuation",
-      "Low dividend yield",
-      "Slow grower for the price"
+      "Capital-spend sensitivity",
+      "Valuation still full",
+      "Tariff/China"
     ],
     "v": [
-      "Staples leadership",
-      "Steady monthly comps"
+      "Quality compounder on sale",
+      "Recurring mix"
     ],
-    "inv": "Breaks $905",
-    "entry": 967.5,
-    "stop": 905.0,
-    "target": 1090.0
-  },
-  {
-    "t": "NCLH",
-    "n": "Norwegian Cruise Line",
-    "theme": "Consumer / Travel",
-    "type": "Stock",
-    "size": "Mid-cap",
-    "a": "Seven-insider conviction cluster",
-    "why": "Cruise operator (~$18) where seven insiders bought ~$29M near $17.85 (6/1) — one of the largest, broadest open-market clusters of the period as travel demand stays resilient.",
-    "bull": [
-      "7-insider ~$29M cluster at $17.85",
-      "Strong cruise demand/pricing",
-      "Deleveraging as bookings hold"
-    ],
-    "bear": [
-      "High leverage; rate-sensitive",
-      "Fuel-cost (oil-spike) and consumer risk",
-      "Cyclical discretionary demand"
-    ],
-    "v": [
-      "7-insider cluster ~$29M (6/1)"
-    ],
-    "inv": "Loses $15.5",
-    "entry": 17.75,
-    "stop": 15.5,
-    "target": 22.0
+    "inv": "Procedure growth slows; break $400",
+    "entry": 415,
+    "stop": 398,
+    "target": 480
   },
   {
     "t": "CAVA",
     "n": "CAVA Group",
     "theme": "Consumer / Restaurants",
-    "type": "Stock",
-    "size": "Mid-cap",
-    "a": "Growth restaurant with insider buys",
-    "why": "Fast-casual Mediterranean grower (~$78) where two insiders bought ~$662k near $77.83 (6/3) after a pullback — unit-growth story with insider confirmation.",
+    "type": "Growth",
+    "size": "Starter",
+    "a": "2026-06-12",
+    "why": "Mediterranean fast-casual growth; insider buy + UBS upgrade to Buy.",
     "bull": [
-      "Rapid unit growth + strong comps",
-      "Insider buying on the dip",
-      "Category-leading brand"
+      "Unit-growth runway",
+      "Strong comps + AUVs",
+      "Insider + analyst support"
     ],
     "bear": [
+      "Rich valuation",
+      "Consumer-spend cyclicality",
+      "Execution at scale"
+    ],
+    "v": [
       "Premium growth multiple",
-      "Consumer-spending sensitivity",
-      "Execution/expansion risk"
+      "Improving FCF"
     ],
-    "v": [
-      "2-insider cluster 6/3",
-      "Unit-growth runway"
-    ],
-    "inv": "Loses $68",
-    "entry": 77.0,
-    "stop": 68.0,
-    "target": 95.0
-  },
-  {
-    "t": "HOOD",
-    "n": "Robinhood",
-    "theme": "Financials / Fintech",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "$20M director buy + retail/crypto tape",
-    "why": "Director Meyer Malka bought $20.2M at $80.74 (6/5) — a conviction-sized buy as profitability and crypto/retail engagement improve. Trading ~$81.",
-    "bull": [
-      "$20M director buy at $80.74",
-      "Operating leverage as activity rises",
-      "Crypto + product expansion"
-    ],
-    "bear": [
-      "Revenue tied to volatile retail/crypto activity",
-      "Regulatory overhang",
-      "Momentum can reverse fast"
-    ],
-    "v": [
-      "$20M insider buy 6/5"
-    ],
-    "inv": "Breaks $70 (below insider cost)",
-    "entry": 80.5,
-    "stop": 70.0,
-    "target": 98.0
-  },
-  {
-    "t": "RYAN",
-    "n": "Ryan Specialty",
-    "theme": "Financials / Insurance",
-    "type": "Stock",
-    "size": "Large-cap",
-    "a": "Insurance-broker cluster buy",
-    "why": "Specialty-insurance distributor (~$32) where the Exec Chairman and other insiders bought ~$4.2M around $32.50 (6/5) — a 3-insider cluster in a steady, fee-based compounder.",
-    "bull": [
-      "Exec-Chairman-led 3-insider cluster",
-      "Recurring specialty-brokerage fees",
-      "Secular E&S-market growth"
-    ],
-    "bear": [
-      "Insurance-pricing cycle risk",
-      "Premium valuation for a broker",
-      "Integration/M&A execution"
-    ],
-    "v": [
-      "3-insider cluster ~$4.2M (6/5)"
-    ],
-    "inv": "Loses $29",
-    "entry": 32.0,
-    "stop": 29.0,
-    "target": 38.0
+    "inv": "Comp slowdown; break $80",
+    "entry": 87,
+    "stop": 79.5,
+    "target": 104
   }
 ]
