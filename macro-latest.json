@@ -1,12 +1,12 @@
 {
-  "asof": "2026-06-12",
-  "vix": 19.44,
-  "y10": 4.55,
-  "y2": 4.17,
+  "asof": "2026-06-15",
+  "vix": 17.7,
+  "y10": 4.48,
+  "y2": 4.09,
   "ff": 3.625,
-  "spVs200": 7.6,
-  "brent": 89.25,
-  "note": "Risk-on tape: S&P 7394 (+1.75%), Dow +930, Nasdaq +2.5% after Trump suspended Iran strikes and signaled a deal. VIX fell to 19.4; Brent down ~4% to ~$89. Curve normal (10Y 4.55% > 2Y 4.17%), Fed on hold at 3.50-3.75%. S&P ~7.6% above its 200DMA (~6872); breadth moderate (58.8% of names above 200DMA). No recession-checklist triggers active.",
+  "spVs200": 8.3,
+  "brent": 84.4,
+  "note": "Risk-on tape. S&P ~7,430, ~+8% above 200DMA; VIX sub-18. Curve positively sloped (10s-2s +39bp). Fed on hold at 3.50-3.75%. Brent slid to ~$84 on Mideast de-escalation. Leadership: AI infra/semis, power & nuclear, defense. No recession signals firing.",
   "checklist": [
     false,
     false,
@@ -16,6 +16,6 @@
     false,
     false,
     false,
-    false
+    true
   ]
 }

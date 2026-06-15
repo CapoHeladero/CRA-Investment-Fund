@@ -1,86 +1,70 @@
 {
-  "asof": "2026-06-12",
-  "method": "Momentum/technical setups in leading sectors (AI power, semis, cyber, nuclear, space). buy=accumulate support/breakout-retest; sell=resistance/target. conv 1-5.",
+  "asof": "2026-06-15",
+  "method": "Momentum/technical setups in leading sectors. buy = accumulate (support/breakout retest), sell = resistance/target. Levels are technical, not fundamental.",
   "ideas": [
     {
       "t": "NVDA",
       "n": "NVIDIA",
-      "conv": 5,
-      "buy": 200,
+      "conv": 4,
+      "buy": 198,
       "sell": 240,
-      "thesis": "Reclaimed 50DMA on risk-on snap; accumulate dips to $200, resistance ~$240."
-    },
-    {
-      "t": "VRT",
-      "n": "Vertiv",
-      "conv": 5,
-      "buy": 280,
-      "sell": 335,
-      "thesis": "Uptrend leader; buy pullbacks to $280 breakout-retest, measured move ~$335."
+      "thesis": "Reclaimed trend after Iran-driven dip; buy retest of ~$198, resistance ~$240."
     },
     {
       "t": "GEV",
       "n": "GE Vernova",
       "conv": 4,
-      "buy": 880,
-      "sell": 1050,
-      "thesis": "Higher-highs on record orders; add near $880, next resistance ~$1050."
-    },
-    {
-      "t": "CRWD",
-      "n": "CrowdStrike",
-      "conv": 4,
-      "buy": 490,
-      "sell": 560,
-      "thesis": "Coiling below highs into 4:1 split; buy $490 support, target prior high zone."
-    },
-    {
-      "t": "VST",
-      "n": "Vistra",
-      "conv": 4,
-      "buy": 155,
-      "sell": 185,
-      "thesis": "Power-demand breakout; accumulate $155, resistance ~$185."
-    },
-    {
-      "t": "CCJ",
-      "n": "Cameco",
-      "conv": 4,
-      "buy": 112,
-      "sell": 140,
-      "thesis": "Uranium uptrend; buy $112 retest, measured target ~$140."
-    },
-    {
-      "t": "RKLB",
-      "n": "Rocket Lab",
-      "conv": 3,
-      "buy": 108,
-      "sell": 140,
-      "thesis": "Holding above prior base post-pullback from $150; buy $108, resistance $140."
+      "buy": 900,
+      "sell": 1080,
+      "thesis": "Uptrend intact; accumulate pullbacks to ~$900 support, measured move ~$1,080."
     },
     {
       "t": "CEG",
       "n": "Constellation",
-      "conv": 3,
-      "buy": 238,
-      "sell": 285,
-      "thesis": "Bull flag on nuclear-PPA theme; buy $238, breakout target ~$285."
+      "conv": 4,
+      "buy": 245,
+      "sell": 295,
+      "thesis": "Nuclear leader basing; buy ~$245 shelf, breakout target ~$295."
     },
     {
-      "t": "PLTR",
-      "n": "Palantir",
+      "t": "PANW",
+      "n": "Palo Alto",
       "conv": 3,
-      "buy": 122,
-      "sell": 160,
-      "thesis": "High-beta; only on $122 shelf hold, resistance $160. Tight risk."
+      "buy": 285,
+      "sell": 340,
+      "thesis": "Post-earnings gap holding; buy ~$285 gap-fill, resistance near ATH ~$300 then $340."
     },
     {
-      "t": "FSLR",
-      "n": "First Solar",
+      "t": "CCJ",
+      "n": "Cameco",
       "conv": 3,
-      "buy": 262,
-      "sell": 320,
-      "thesis": "Uptrend with backlog support; buy $262, target $320."
+      "buy": 100,
+      "sell": 125,
+      "thesis": "Uranium firm ~$85/lb; buy ~$100 support, prior high ~$125."
+    },
+    {
+      "t": "MP",
+      "n": "MP Materials",
+      "conv": 3,
+      "buy": 54,
+      "sell": 70,
+      "thesis": "Insider buy near support; accumulate ~$54, resistance ~$70."
+    },
+    {
+      "t": "AVGO",
+      "n": "Broadcom",
+      "conv": 4,
+      "buy": 370,
+      "sell": 440,
+      "thesis": "AI-ASIC leader; buy ~$370 trend support, extension ~$440."
+    },
+    {
+      "t": "FANG",
+      "n": "Diamondback",
+      "conv": 2,
+      "buy": 196,
+      "sell": 240,
+      "thesis": "Energy value; buy ~$196 support if Brent stabilizes, resistance ~$240 (52wk high zone)."
     }
   ]
 }

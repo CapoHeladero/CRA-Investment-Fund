@@ -1,151 +1,138 @@
 {
-  "asof": "2026-06-12",
+  "asof": "2026-06-15",
   "clusters": [
     {
-      "t": "NCLH",
-      "n": "Norwegian Cruise Line",
-      "buyers": 7,
-      "total": 29163646,
-      "buys": "7 insiders @ ~$17.85, +136% holdings",
-      "note": "Large 7-insider cluster, biggest conviction signal of the week"
-    },
-    {
-      "t": "IFF",
-      "n": "Intl Flavors & Fragrances",
+      "t": "SMMT",
+      "n": "Summit Therapeutics",
       "buyers": 2,
-      "total": 32284388,
-      "buys": "$32.3M @ ~$72.68",
-      "note": "Largest dollar cluster among S&P names"
+      "total": 99974400,
+      "buys": 2,
+      "note": "Co-CEOs Duggan & Zanganeh each ~$50M @ $13.12 — major conviction."
     },
     {
-      "t": "GEHC",
-      "n": "GE HealthCare",
-      "buyers": 8,
-      "total": 6423136,
-      "buys": "8 insiders @ ~$61.97",
-      "note": "Broad 8-person cluster in quality imaging name"
+      "t": "QNT",
+      "n": "Quantinuum",
+      "buyers": 9,
+      "total": 24700000,
+      "buys": 11,
+      "note": "Broad director/officer cluster @ $60 (CFO, CSO, multiple Dirs) — newly public quantum."
     },
     {
-      "t": "PLSE",
-      "n": "Pulse Biosciences",
-      "buyers": 2,
-      "total": 26590676,
-      "buys": "$26.6M @ ~$19.69",
-      "note": "Large-dollar med-device conviction"
-    },
-    {
-      "t": "ONON",
-      "n": "On Holding",
-      "buyers": 3,
-      "total": 6594300,
-      "buys": "3 insiders @ ~$36.64",
-      "note": "Premium athletic-footwear cluster"
-    },
-    {
-      "t": "FLUT",
-      "n": "Flutter Entertainment",
-      "buyers": 7,
-      "total": 1045576,
-      "buys": "7 insiders @ ~$100.03",
-      "note": "Broad gaming cluster"
-    },
-    {
-      "t": "CHTR",
-      "n": "Charter Communications",
+      "t": "INIO",
+      "n": "INNIO Group",
       "buyers": 4,
-      "total": 3764457,
-      "buys": "4 insiders @ ~$159.56",
-      "note": "Beaten-down cable name buying"
+      "total": 5499981,
+      "buys": 4,
+      "note": "Four directors @ $27 — gas-engine/energy IPO insiders stepping in."
     },
     {
-      "t": "MTDR",
-      "n": "Matador Resources",
-      "buyers": 2,
-      "total": 133535,
-      "buys": "2 insiders @ ~$53.41 (Jun 9)",
-      "note": "Permian E&P insider conviction"
-    }
-  ],
-  "watchable": [
-    {
-      "t": "CAVA",
-      "n": "CAVA Group",
-      "buyers": 2,
-      "total": 661550,
-      "note": "Insider buy + UBS upgrade; fast-casual growth"
-    },
-    {
-      "t": "SHAK",
-      "n": "Shake Shack",
-      "buyers": 6,
-      "total": 3232568,
-      "note": "6-insider cluster @ ~$61.44"
-    },
-    {
-      "t": "TSM",
-      "n": "Taiwan Semiconductor",
-      "buyers": 3,
-      "total": 793210,
-      "note": "3 insiders; rare foundry-leader buying"
+      "t": "FCNCA",
+      "n": "First Citizens BancShares",
+      "buyers": 1,
+      "total": 3315000,
+      "buys": 5,
+      "note": "CEO Frank Holding repeated buys @ ~$1,750-2,019."
     },
     {
       "t": "RYAN",
       "n": "Ryan Specialty",
-      "buyers": 3,
-      "total": 4199917,
-      "note": "Insurance-broker cluster"
-    },
-    {
-      "t": "KBR",
-      "n": "KBR Inc",
-      "buyers": 4,
-      "total": 945166,
-      "note": "Gov-services/engineering cluster"
-    },
-    {
-      "t": "UPST",
-      "n": "Upstart Holdings",
       "buyers": 2,
-      "total": 6374607,
-      "note": "Fintech-lending insider buying"
+      "total": 4163468,
+      "buys": 2,
+      "note": "Founder Patrick Ryan @ $32.50 + Dir John Rogers @ $35.16."
+    },
+    {
+      "t": "NMM",
+      "n": "Navios Maritime Partners",
+      "buyers": 1,
+      "total": 502534,
+      "buys": 2,
+      "note": "Chair Frangou added twice @ $71-73."
+    },
+    {
+      "t": "INR",
+      "n": "Infinity Natural Resources",
+      "buyers": 2,
+      "total": 900381,
+      "buys": 2,
+      "note": "Two directors @ $12.81-13.19 — Appalachia E&P."
+    }
+  ],
+  "watchable": [
+    {
+      "t": "FBIN",
+      "n": "Fortune Brands Innovations",
+      "buyers": 1,
+      "total": 12994720,
+      "note": "Activist Edward Garden (Trian) +320,067 sh @ $40.60."
+    },
+    {
+      "t": "HOOD",
+      "n": "Robinhood Markets",
+      "buyers": 1,
+      "total": 20184200,
+      "note": "Ribbit/Dir Meyer Malka +250,000 sh @ $80.74."
+    },
+    {
+      "t": "MP",
+      "n": "MP Materials",
+      "buyers": 1,
+      "total": 543000,
+      "note": "COO Rosenthal +10,000 sh @ $54.30 into weakness."
+    },
+    {
+      "t": "BRC",
+      "n": "Brady Corp",
+      "buyers": 1,
+      "total": 1000025,
+      "note": "CEO Nargolwala +13,011 sh @ $76.86 (+20% to stake)."
     }
   ],
   "politicians": [
     {
-      "who": "Gary Peters",
-      "party": "Democrat",
-      "t": "KHC",
-      "n": "Kraft Heinz",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "Senate MI; value/staples buy @ ~$23.54 (traded 21 May)"
-    },
-    {
       "who": "John McGuire",
-      "party": "Republican",
+      "party": "R",
       "t": "META",
       "n": "Meta Platforms",
       "type": "BUY",
       "size": "1K-15K",
-      "note": "House VA (spouse) @ ~$627.57 (traded 4 Jun)"
+      "note": "Spouse bought META @ $627.57 (filed 11 Jun)."
     },
     {
-      "who": "John McGuire",
-      "party": "Republican",
-      "t": "DELL",
-      "n": "Dell Technologies",
-      "type": "SELL",
+      "who": "Ro Khanna",
+      "party": "D",
+      "t": "JPM",
+      "n": "JPMorgan Chase",
+      "type": "BUY",
       "size": "1K-15K",
-      "note": "House VA (spouse) @ ~$422.05 (traded 4 Jun)"
+      "note": "Child acct; also bought ISRG, ALLY, COF — financials cluster."
+    },
+    {
+      "who": "Gary Peters",
+      "party": "D",
+      "t": "KHC",
+      "n": "Kraft Heinz",
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "Self bought KHC @ $23.54."
     },
     {
       "who": "Chip Roy",
-      "party": "Republican",
+      "party": "R",
       "t": "AESI",
       "n": "Atlas Energy Solutions",
       "type": "SELL",
       "size": "100K-250K",
-      "note": "House TX (spouse) @ ~$18.95 (traded 13 May)"
+      "note": "Spouse sold AESI @ $18.95 — largest reported trade."
+    },
+    {
+      "who": "Mike Kelly",
+      "party": "R",
+      "t": "BMY",
+      "n": "Bristol-Myers Squibb",
+      "type": "SELL",
+      "size": "15K-50K",
+      "note": "Spouse trimmed BMY @ $56.25 and CMCSA."
     }
   ]
 }
