@@ -1,188 +1,197 @@
 {
-  "asof": "2026-06-15",
-  "method": "Composite of trend (vs 200DMA), momentum, FCF quality, theme tailwind, and risk/reward at current levels. 0-100; letter grade mapped.",
+  "asof": "2026-06-17",
+  "method": "Composite of insider conviction, momentum vs 200DMA, earnings/guidance trend, FCF quality, and thematic tailwind. Grades A-F, score 0-100. Not a recommendation.",
   "names": [
+    {
+      "t": "AVGO",
+      "n": "Broadcom",
+      "sector": "AI Infra",
+      "grade": "A",
+      "score": 91.0,
+      "tier": "top",
+      "note": "ASIC wins + insider buy + FCF"
+    },
+    {
+      "t": "GEV",
+      "n": "GE Vernova",
+      "sector": "AI Power",
+      "grade": "A",
+      "score": 90.0,
+      "tier": "top",
+      "note": "Record orders, electrification supercycle"
+    },
+    {
+      "t": "META",
+      "n": "Meta",
+      "sector": "Mega-cap Tech",
+      "grade": "A",
+      "score": 89.0,
+      "tier": "top",
+      "note": "Upgrades on capex absorption"
+    },
+    {
+      "t": "CEG",
+      "n": "Constellation Energy",
+      "sector": "AI Power",
+      "grade": "A",
+      "score": 88.0,
+      "tier": "top",
+      "note": "Nuclear + data-center PPAs"
+    },
     {
       "t": "NVDA",
       "n": "NVIDIA",
       "sector": "AI Infra",
       "grade": "A",
-      "score": 92,
+      "score": 88.0,
       "tier": "top",
-      "note": "Best-in-class FCF + AI demand; rich multiple priced for growth."
-    },
-    {
-      "t": "MSFT",
-      "n": "Microsoft",
-      "sector": "Mega Tech",
-      "grade": "A",
-      "score": 90,
-      "tier": "top",
-      "note": "Durable FCF, Azure AI; capex bears watching."
-    },
-    {
-      "t": "META",
-      "n": "Meta",
-      "sector": "Mega Tech",
-      "grade": "A-",
-      "score": 88,
-      "tier": "top",
-      "note": "Ad engine funds AI; Reality Labs drag."
+      "note": "AI demand intact on pullback"
     },
     {
       "t": "GOOGL",
       "n": "Alphabet",
-      "sector": "Mega Tech",
-      "grade": "A-",
-      "score": 86,
+      "sector": "Mega-cap Tech",
+      "grade": "A",
+      "score": 86.0,
       "tier": "top",
-      "note": "Cloud inflection; equity raise dilution a watch item."
+      "note": "Cheapest mega-cap, Cloud margin"
     },
     {
-      "t": "AVGO",
-      "n": "Broadcom",
-      "sector": "AI Infra",
-      "grade": "A-",
-      "score": 86,
+      "t": "VRT",
+      "n": "Vertiv",
+      "sector": "Data-Center Power",
+      "grade": "A",
+      "score": 85.0,
       "tier": "top",
-      "note": "Custom AI + software; high debt."
+      "note": "Cooling/power backlog"
     },
     {
-      "t": "GEV",
-      "n": "GE Vernova",
-      "sector": "Power",
-      "grade": "A-",
-      "score": 85,
+      "t": "LLY",
+      "n": "Eli Lilly",
+      "sector": "Healthcare",
+      "grade": "A",
+      "score": 85.0,
       "tier": "top",
-      "note": "Electrification backlog supercycle."
+      "note": "Zepbound demand, raised outlook"
     },
     {
-      "t": "CEG",
-      "n": "Constellation",
-      "sector": "Nuclear",
-      "grade": "B+",
-      "score": 83,
+      "t": "GEHC",
+      "n": "GE HealthCare",
+      "sector": "Healthcare",
+      "grade": "B",
+      "score": 82.0,
       "tier": "top",
-      "note": "Datacenter PPA demand; power-price sensitivity."
+      "note": "8-insider cluster buy"
     },
     {
-      "t": "PANW",
-      "n": "Palo Alto",
-      "sector": "Cyber",
-      "grade": "B+",
-      "score": 82,
+      "t": "FISV",
+      "n": "Fiserv",
+      "sector": "Fintech",
+      "grade": "B",
+      "score": 80.0,
       "tier": "top",
-      "note": "Platformization + strong FCF."
+      "note": "4-insider cluster on derating"
     },
     {
-      "t": "LMT",
-      "n": "Lockheed Martin",
-      "sector": "Defense",
-      "grade": "B+",
-      "score": 80,
+      "t": "MSFT",
+      "n": "Microsoft",
+      "sector": "Mega-cap Tech",
+      "grade": "B",
+      "score": 84.0,
       "tier": "top",
-      "note": "Cheap vs history; FCF recovery needed."
+      "note": "Azure AI, durable FCF"
     },
     {
       "t": "CCJ",
       "n": "Cameco",
       "sector": "Uranium",
-      "grade": "B+",
-      "score": 80,
-      "tier": "top",
-      "note": "Structural U deficit; spot volatility."
-    },
-    {
-      "t": "MP",
-      "n": "MP Materials",
-      "sector": "Critical Minerals",
       "grade": "B",
-      "score": 77,
+      "score": 79.0,
       "tier": "top",
-      "note": "US rare-earth scarcity + insider buy."
+      "note": "PT raise, structural deficit"
     },
     {
-      "t": "AMD",
-      "n": "AMD",
-      "sector": "AI Infra",
+      "t": "PYPL",
+      "n": "PayPal",
+      "sector": "Fintech",
       "grade": "B",
-      "score": 76,
+      "score": 77.0,
       "tier": "top",
-      "note": "MI ramp + upgrade; #2 to NVDA."
+      "note": "CFO buy, cheap FCF"
     },
     {
-      "t": "FANG",
-      "n": "Diamondback",
+      "t": "EXE",
+      "n": "Expand Energy",
       "sector": "Energy",
       "grade": "B",
-      "score": 75,
+      "score": 76.0,
       "tier": "top",
-      "note": "Low-cost Permian, capital returns; oil beta."
+      "note": "Insider cluster, LNG demand"
     },
     {
-      "t": "FTNT",
-      "n": "Fortinet",
-      "sector": "Cyber",
+      "t": "SOFI",
+      "n": "SoFi",
+      "sector": "Fintech",
       "grade": "B",
-      "score": 74,
+      "score": 75.0,
       "tier": "top",
-      "note": "High FCF; billings volatility."
+      "note": "CEO open-market buy"
     }
   ],
   "worst": [
     {
-      "t": "ENPH",
-      "n": "Enphase",
-      "sector": "Solar",
-      "grade": "C-",
-      "score": 42,
-      "tier": "worst",
-      "note": "Weak US resi demand + policy clawback risk; falling knife."
-    },
-    {
       "t": "SMR",
-      "n": "NuScale",
+      "n": "NuScale Power",
       "sector": "Nuclear SMR",
-      "grade": "D+",
-      "score": 35,
+      "grade": "D",
+      "score": 38.0,
       "tier": "worst",
-      "note": "Pre-revenue SMR story; valuation detached from cashflow."
+      "note": "Pre-revenue, headline-driven, cash burn"
     },
     {
-      "t": "RGTI",
-      "n": "Rigetti",
+      "t": "IONQ",
+      "n": "IonQ",
       "sector": "Quantum",
       "grade": "D",
-      "score": 32,
+      "score": 36.0,
       "tier": "worst",
-      "note": "Pre-revenue; gov equity-stake dilution; hype-driven."
+      "note": "Pre-profit story stock, dilution risk"
     },
     {
-      "t": "QBTS",
-      "n": "D-Wave",
-      "sector": "Quantum",
+      "t": "PTON",
+      "n": "Peloton",
+      "sector": "Consumer",
       "grade": "D",
-      "score": 30,
+      "score": 34.0,
       "tier": "worst",
-      "note": "Tiny revenue, sentiment-driven 10-15% swings."
+      "note": "Politician sold; structural demand questions"
     },
     {
-      "t": "OKLO",
-      "n": "Oklo",
-      "sector": "Nuclear",
-      "grade": "D",
-      "score": 31,
+      "t": "WOK",
+      "n": "Work Medical Tech",
+      "sector": "Healthcare",
+      "grade": "F",
+      "score": 20.0,
       "tier": "worst",
-      "note": "No revenue near-term; story stock on AI-power narrative."
+      "note": "Sub-$0.15 micro-cap, ownership churn"
     },
     {
-      "t": "NEE",
-      "n": "NextEra",
-      "sector": "Utility",
-      "grade": "C",
-      "score": 55,
+      "t": "EDBL",
+      "n": "Edible Garden",
+      "sector": "Consumer",
+      "grade": "F",
+      "score": 18.0,
       "tier": "worst",
-      "note": "Dominion deal overhang; rate-sensitivity — included as caution, not a short."
+      "note": "Penny stock, dilution, going-concern risk"
+    },
+    {
+      "t": "CMND",
+      "n": "Clearmind Medicine",
+      "sector": "Healthcare",
+      "grade": "F",
+      "score": 17.0,
+      "tier": "worst",
+      "note": "Sub-$1 micro-cap, speculative"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "asof": "2026-06-15",
-  "vix": 17.7,
-  "y10": 4.48,
-  "y2": 4.09,
+  "asof": "2026-06-17",
+  "vix": 16.41,
+  "y10": 4.47,
+  "y2": 4.17,
   "ff": 3.625,
-  "spVs200": 8.3,
-  "brent": 84.4,
-  "note": "Risk-on tape. S&P ~7,430, ~+8% above 200DMA; VIX sub-18. Curve positively sloped (10s-2s +39bp). Fed on hold at 3.50-3.75%. Brent slid to ~$84 on Mideast de-escalation. Leadership: AI infra/semis, power & nuclear, defense. No recession signals firing.",
+  "spVs200": 9.4,
+  "brent": 78.6,
+  "note": "Risk-on but choppy. S&P ~7536, well above 200DMA (~6887). Curve positive (10s-2s +30bp). Fed expected on hold at 3.50-3.75% at June FOMC; hotter inflation from energy. Brent fell toward $80 as US-Iran MOU to reopen Strait of Hormuz expected Friday. Chip stocks saw profit-taking; leadership in AI-power, financials, energy value.",
   "checklist": [
     false,
     false,
@@ -15,7 +15,7 @@
     false,
     false,
     false,
-    false,
+    true,
     true
   ]
 }

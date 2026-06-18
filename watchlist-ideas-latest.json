@@ -1,70 +1,78 @@
 {
-  "asof": "2026-06-15",
-  "method": "Momentum/technical setups in leading sectors. buy = accumulate (support/breakout retest), sell = resistance/target. Levels are technical, not fundamental.",
+  "asof": "2026-06-17",
+  "method": "Momentum/technical setups in leading sectors. buy = accumulate level (support/breakout retest); sell = resistance/target. Levels are technical, not advice.",
   "ideas": [
     {
-      "t": "NVDA",
-      "n": "NVIDIA",
+      "t": "AVGO",
+      "n": "Broadcom",
       "conv": 4,
-      "buy": 198,
-      "sell": 240,
-      "thesis": "Reclaimed trend after Iran-driven dip; buy retest of ~$198, resistance ~$240."
+      "buy": 372.0,
+      "sell": 460.0,
+      "thesis": "Holding 20-day after insider buy; reclaim 400 targets new highs."
+    },
+    {
+      "t": "CEG",
+      "n": "Constellation Energy",
+      "conv": 4,
+      "buy": 250.0,
+      "sell": 320.0,
+      "thesis": "Basing above 240 support; AI-power theme leader on breakout over 275."
+    },
+    {
+      "t": "VRT",
+      "n": "Vertiv",
+      "conv": 4,
+      "buy": 290.0,
+      "sell": 370.0,
+      "thesis": "Bull flag under 310; data-center cooling momentum."
     },
     {
       "t": "GEV",
       "n": "GE Vernova",
-      "conv": 4,
-      "buy": 900,
-      "sell": 1080,
-      "thesis": "Uptrend intact; accumulate pullbacks to ~$900 support, measured move ~$1,080."
-    },
-    {
-      "t": "CEG",
-      "n": "Constellation",
-      "conv": 4,
-      "buy": 245,
-      "sell": 295,
-      "thesis": "Nuclear leader basing; buy ~$245 shelf, breakout target ~$295."
-    },
-    {
-      "t": "PANW",
-      "n": "Palo Alto",
       "conv": 3,
-      "buy": 285,
-      "sell": 340,
-      "thesis": "Post-earnings gap holding; buy ~$285 gap-fill, resistance near ATH ~$300 then $340."
+      "buy": 1060.0,
+      "sell": 1350.0,
+      "thesis": "Uptrend intact; buy pullbacks to rising 50-day near 1060."
+    },
+    {
+      "t": "FISV",
+      "n": "Fiserv",
+      "conv": 3,
+      "buy": 47.0,
+      "sell": 62.0,
+      "thesis": "Insider cluster at lows; reversal setup off 45 base."
+    },
+    {
+      "t": "SOFI",
+      "n": "SoFi",
+      "conv": 3,
+      "buy": 17.0,
+      "sell": 24.0,
+      "thesis": "CEO buy near support; breakout over 19 opens 24."
     },
     {
       "t": "CCJ",
       "n": "Cameco",
       "conv": 3,
-      "buy": 100,
-      "sell": 125,
-      "thesis": "Uranium firm ~$85/lb; buy ~$100 support, prior high ~$125."
+      "buy": 95.0,
+      "sell": 135.0,
+      "thesis": "Bought the 7% dip; 92-95 support, resistance 120 then 135."
     },
     {
-      "t": "MP",
-      "n": "MP Materials",
+      "t": "EXE",
+      "n": "Expand Energy",
       "conv": 3,
-      "buy": 54,
-      "sell": 70,
-      "thesis": "Insider buy near support; accumulate ~$54, resistance ~$70."
+      "buy": 88.0,
+      "sell": 115.0,
+      "thesis": "Insider cluster; gas-power demand, accumulate 88 support."
     },
     {
-      "t": "AVGO",
-      "n": "Broadcom",
-      "conv": 4,
-      "buy": 370,
-      "sell": 440,
-      "thesis": "AI-ASIC leader; buy ~$370 trend support, extension ~$440."
-    },
-    {
-      "t": "FANG",
-      "n": "Diamondback",
-      "conv": 2,
-      "buy": 196,
-      "sell": 240,
-      "thesis": "Energy value; buy ~$196 support if Brent stabilizes, resistance ~$240 (52wk high zone)."
+      "t": "PLTR",
+      "n": "Palantir",
+      "conv": 3,
+      "buy": 124.0,
+      "sell": 165.0,
+      "thesis": "High-beta momentum; buy 124 retest, resistance 145 then highs."
     }
   ]
 }

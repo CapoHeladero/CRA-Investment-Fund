@@ -1,111 +1,154 @@
 {
-  "asof": "2026-06-15",
+  "asof": "2026-06-17",
   "clusters": [
     {
-      "t": "SMMT",
-      "n": "Summit Therapeutics",
-      "buyers": 2,
-      "total": 99974400,
-      "buys": 2,
-      "note": "Co-CEOs Duggan & Zanganeh each ~$50M @ $13.12 — major conviction."
+      "t": "GEHC",
+      "n": "GE HealthCare",
+      "buyers": 8,
+      "total": 6423136.0,
+      "buys": 8,
+      "note": "8-insider cluster ~$61.97; imaging upgrade cycle"
     },
     {
-      "t": "QNT",
-      "n": "Quantinuum",
-      "buyers": 9,
-      "total": 24700000,
-      "buys": 11,
-      "note": "Broad director/officer cluster @ $60 (CFO, CSO, multiple Dirs) — newly public quantum."
-    },
-    {
-      "t": "INIO",
-      "n": "INNIO Group",
-      "buyers": 4,
-      "total": 5499981,
-      "buys": 4,
-      "note": "Four directors @ $27 — gas-engine/energy IPO insiders stepping in."
-    },
-    {
-      "t": "FCNCA",
-      "n": "First Citizens BancShares",
-      "buyers": 1,
-      "total": 3315000,
-      "buys": 5,
-      "note": "CEO Frank Holding repeated buys @ ~$1,750-2,019."
+      "t": "FUN",
+      "n": "Six Flags Entertainment",
+      "buyers": 3,
+      "total": 6174038.0,
+      "buys": 3,
+      "note": "3 insiders ~$23.30; turnaround/value"
     },
     {
       "t": "RYAN",
-      "n": "Ryan Specialty",
-      "buyers": 2,
-      "total": 4163468,
-      "buys": 2,
-      "note": "Founder Patrick Ryan @ $32.50 + Dir John Rogers @ $35.16."
+      "n": "Ryan Specialty Holdings",
+      "buyers": 5,
+      "total": 4568609.0,
+      "buys": 5,
+      "note": "5 insiders ~$32.63; specialty insurance broker"
     },
     {
-      "t": "NMM",
-      "n": "Navios Maritime Partners",
-      "buyers": 1,
-      "total": 502534,
-      "buys": 2,
-      "note": "Chair Frangou added twice @ $71-73."
+      "t": "LODE",
+      "n": "Comstock Inc.",
+      "buyers": 4,
+      "total": 4243906.0,
+      "buys": 4,
+      "note": "4 insiders ~$3.75; small-cap materials/recycling"
     },
     {
-      "t": "INR",
-      "n": "Infinity Natural Resources",
+      "t": "ECL",
+      "n": "Ecolab",
+      "buyers": 3,
+      "total": 2719511.0,
+      "buys": 3,
+      "note": "3 insiders ~$257.77 incl. director Doukeris"
+    },
+    {
+      "t": "AMRZ",
+      "n": "Amrize Ltd",
+      "buyers": 4,
+      "total": 2717314.0,
+      "buys": 4,
+      "note": "4 insiders ~$49.48; cement/building materials"
+    },
+    {
+      "t": "FISV",
+      "n": "Fiserv",
+      "buyers": 4,
+      "total": 1073673.0,
+      "buys": 4,
+      "note": "4 insiders ~$49.34; payments derating buy-the-dip"
+    },
+    {
+      "t": "CXT",
+      "n": "Crane NXT",
       "buyers": 2,
-      "total": 900381,
+      "total": 1160078.0,
       "buys": 2,
-      "note": "Two directors @ $12.81-13.19 — Appalachia E&P."
+      "note": "2 insiders incl. CEO ~$42.11"
+    },
+    {
+      "t": "EXE",
+      "n": "Expand Energy",
+      "buyers": 2,
+      "total": 560880.0,
+      "buys": 2,
+      "note": "2 insiders ~$93.48; nat-gas producer"
+    },
+    {
+      "t": "TSM",
+      "n": "Taiwan Semiconductor",
+      "buyers": 4,
+      "total": 868470.0,
+      "buys": 4,
+      "note": "4 insiders cluster; foundry leader"
     }
   ],
   "watchable": [
     {
-      "t": "FBIN",
-      "n": "Fortune Brands Innovations",
+      "t": "SOFI",
+      "n": "SoFi Technologies",
       "buyers": 1,
-      "total": 12994720,
-      "note": "Activist Edward Garden (Trian) +320,067 sh @ $40.60."
+      "total": 250787.0,
+      "note": "CEO Anthony Noto bought $250.8k at $18.06 (Jun 16)"
     },
     {
-      "t": "HOOD",
-      "n": "Robinhood Markets",
+      "t": "PYPL",
+      "n": "PayPal",
       "buyers": 1,
-      "total": 20184200,
-      "note": "Ribbit/Dir Meyer Malka +250,000 sh @ $80.74."
+      "total": 254537.0,
+      "note": "CFO Jamie Miller bought $254.5k at $41.53 (Jun 15)"
     },
     {
-      "t": "MP",
-      "n": "MP Materials",
+      "t": "AVGO",
+      "n": "Broadcom",
       "buyers": 1,
-      "total": 543000,
-      "note": "COO Rosenthal +10,000 sh @ $54.30 into weakness."
+      "total": 373570.0,
+      "note": "Director Harry You bought $373.6k at $373.57 (Jun 11)"
     },
     {
-      "t": "BRC",
-      "n": "Brady Corp",
-      "buyers": 1,
-      "total": 1000025,
-      "note": "CEO Nargolwala +13,011 sh @ $76.86 (+20% to stake)."
+      "t": "LULU",
+      "n": "Lululemon",
+      "buyers": 2,
+      "total": 1994953.0,
+      "note": "2 insiders ~$146.26; beaten-down apparel"
+    },
+    {
+      "t": "CELH",
+      "n": "Celsius Holdings",
+      "buyers": 3,
+      "total": 716358.0,
+      "note": "3 insiders ~$29.39; energy-drink growth"
+    },
+    {
+      "t": "CAVA",
+      "n": "CAVA Group",
+      "buyers": 2,
+      "total": 661550.0,
+      "note": "2 insiders ~$77.83; fast-casual growth"
+    },
+    {
+      "t": "NCLH",
+      "n": "Norwegian Cruise Line",
+      "buyers": 7,
+      "total": 29163646.0,
+      "note": "7-insider cluster ~$17.85; consumer reopening"
+    },
+    {
+      "t": "ADSK",
+      "n": "Autodesk",
+      "buyers": 2,
+      "total": 1288229.0,
+      "note": "CFO + insider bought ~$197-217 design software"
     }
   ],
   "politicians": [
     {
-      "who": "John McGuire",
-      "party": "R",
-      "t": "META",
-      "n": "Meta Platforms",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "Spouse bought META @ $627.57 (filed 11 Jun)."
-    },
-    {
-      "who": "Ro Khanna",
+      "who": "John Fetterman",
       "party": "D",
-      "t": "JPM",
-      "n": "JPMorgan Chase",
+      "t": "EXPE",
+      "n": "Expedia Group",
       "type": "BUY",
       "size": "1K-15K",
-      "note": "Child acct; also bought ISRG, ALLY, COF — financials cluster."
+      "note": "Reported Jun 12; travel/consumer"
     },
     {
       "who": "Gary Peters",
@@ -114,25 +157,25 @@
       "n": "Kraft Heinz",
       "type": "BUY",
       "size": "1K-15K",
-      "note": "Self bought KHC @ $23.54."
+      "note": "Reported Jun 11; defensive staples"
     },
     {
-      "who": "Chip Roy",
+      "who": "James Banks",
       "party": "R",
-      "t": "AESI",
-      "n": "Atlas Energy Solutions",
+      "t": "PTON",
+      "n": "Peloton Interactive",
       "type": "SELL",
-      "size": "100K-250K",
-      "note": "Spouse sold AESI @ $18.95 — largest reported trade."
+      "size": "1K-15K",
+      "note": "Reported Jun 7; trimmed"
     },
     {
-      "who": "Mike Kelly",
+      "who": "John Boozman",
       "party": "R",
-      "t": "BMY",
-      "n": "Bristol-Myers Squibb",
+      "t": "IVV",
+      "n": "iShares Core S&P 500 ETF",
       "type": "SELL",
-      "size": "15K-50K",
-      "note": "Spouse trimmed BMY @ $56.25 and CMCSA."
+      "size": "1K-15K",
+      "note": "Joint-account broad de-risking across ETFs (filed mid-June)"
     }
   ]
 }
