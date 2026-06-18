@@ -1,12 +1,12 @@
 {
-  "asof": "2026-06-17",
-  "vix": 16.41,
-  "y10": 4.47,
-  "y2": 4.17,
+  "asof": "2026-06-18",
+  "vix": 17.04,
+  "y10": 4.55,
+  "y2": 4.34,
   "ff": 3.625,
-  "spVs200": 9.4,
+  "spVs200": 7.7,
   "brent": 78.6,
-  "note": "Risk-on but choppy. S&P ~7536, well above 200DMA (~6887). Curve positive (10s-2s +30bp). Fed expected on hold at 3.50-3.75% at June FOMC; hotter inflation from energy. Brent fell toward $80 as US-Iran MOU to reopen Strait of Hormuz expected Friday. Chip stocks saw profit-taking; leadership in AI-power, financials, energy value.",
+  "note": "HAWKISH PIVOT. June 17 FOMC (Warsh's first) held at 3.50-3.75% but REMOVED the easing bias: the dot plot now shows a hike more likely than a cut this year (9 of 18 see >=1 hike; traders pricing a possible hike by October). Stocks sold off - S&P -1.2% to ~7,420, Nasdaq -1.3% to ~26,022, Dow -1.0%. Still above 200DMA (~6,887) but momentum cooled; VIX 17. Curve positive (~+20bp) but short end repriced higher. Implication: higher-for-longer pressures long-duration/high-multiple growth; relative tailwind to energy, financials and cash-rich quality. Brent ~$80 as US-Iran Hormuz MOU expected Fri. Watch ACN & KR earnings today.",
   "checklist": [
     false,
     false,

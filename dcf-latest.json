@@ -1,5 +1,5 @@
 {
-  "asof": "2026-06-17",
+  "asof": "2026-06-18",
   "method": "Reverse-DCF: solve via bisection for the 10-yr FCF growth rate the current price implies. value(g)=Σ fcf*(1+g)^i/(1+disc)^i + TV, where TV=fcf*(1+g)^10*(1+term)/((disc-term)); (value+cash)/shares=price. disc=10%, term=2.5%, 10y. FCF/shares/net-cash = latest reported TTM (approximate). Excludes pre-revenue/negative-FCF/story names (Oklo, NuScale, IonQ, Rigetti, D-Wave, Quantinuum, CoreWeave, Nebius, AST, Hertz) and banks/insurers where reverse-DCF is meaningless. Not advice.",
   "names": [
     {
