@@ -1,197 +1,188 @@
 {
-  "asof": "2026-06-18",
-  "method": "Composite of insider conviction, momentum vs 200DMA, earnings/guidance trend, FCF quality, and thematic tailwind. Grades A-F, score 0-100. Not a recommendation.",
+  "asof": "2026-06-19",
+  "method": "Composite 0-100: trend vs 200dma, sector-rotation quadrant, momentum, insider/analyst signal, valuation sanity. Grade maps to score.",
   "names": [
-    {
-      "t": "AVGO",
-      "n": "Broadcom",
-      "sector": "AI Infra",
-      "grade": "A",
-      "score": 91.0,
-      "tier": "top",
-      "note": "ASIC wins + insider buy + FCF"
-    },
     {
       "t": "GEV",
       "n": "GE Vernova",
-      "sector": "AI Power",
+      "sector": "Industrials",
       "grade": "A",
-      "score": 90.0,
+      "score": 92,
       "tier": "top",
-      "note": "Record orders, electrification supercycle"
-    },
-    {
-      "t": "META",
-      "n": "Meta",
-      "sector": "Mega-cap Tech",
-      "grade": "A",
-      "score": 89.0,
-      "tier": "top",
-      "note": "Upgrades on capex absorption"
+      "note": "AI-power picks-and-shovels in leading sector; strong trend."
     },
     {
       "t": "CEG",
       "n": "Constellation Energy",
-      "sector": "AI Power",
+      "sector": "Utilities",
       "grade": "A",
-      "score": 88.0,
+      "score": 90,
       "tier": "top",
-      "note": "Nuclear + data-center PPAs"
+      "note": "Nuclear baseload + data-center PPAs; analyst Buy."
+    },
+    {
+      "t": "CCJ",
+      "n": "Cameco",
+      "sector": "Energy/Uranium",
+      "grade": "A-",
+      "score": 88,
+      "tier": "top",
+      "note": "Uranium deficit + Westinghouse; PT raised."
     },
     {
       "t": "NVDA",
       "n": "NVIDIA",
-      "sector": "AI Infra",
-      "grade": "A",
-      "score": 88.0,
+      "sector": "Technology",
+      "grade": "A-",
+      "score": 87,
       "tier": "top",
-      "note": "AI demand intact on pullback"
+      "note": "AI compute leader; uptrend intact despite tech-sector pause."
     },
     {
-      "t": "GOOGL",
-      "n": "Alphabet",
-      "sector": "Mega-cap Tech",
-      "grade": "A",
-      "score": 86.0,
+      "t": "AVGO",
+      "n": "Broadcom",
+      "sector": "Technology",
+      "grade": "B+",
+      "score": 85,
       "tier": "top",
-      "note": "Cheapest mega-cap, Cloud margin"
+      "note": "Custom AI silicon + insider buy."
     },
     {
-      "t": "VRT",
-      "n": "Vertiv",
-      "sector": "Data-Center Power",
-      "grade": "A",
-      "score": 85.0,
+      "t": "XOM",
+      "n": "Exxon Mobil",
+      "sector": "Energy",
+      "grade": "B+",
+      "score": 84,
       "tier": "top",
-      "note": "Cooling/power backlog"
+      "note": "Energy leadership; cash returns."
+    },
+    {
+      "t": "ETN",
+      "n": "Eaton",
+      "sector": "Industrials",
+      "grade": "B+",
+      "score": 83,
+      "tier": "top",
+      "note": "Electrical equipment for data centers; leading quadrant."
+    },
+    {
+      "t": "FCX",
+      "n": "Freeport-McMoRan",
+      "sector": "Materials",
+      "grade": "B+",
+      "score": 82,
+      "tier": "top",
+      "note": "Copper leverage; materials leading."
+    },
+    {
+      "t": "VST",
+      "n": "Vistra",
+      "sector": "Utilities",
+      "grade": "B+",
+      "score": 82,
+      "tier": "top",
+      "note": "Merchant power + nuclear; data-center load."
     },
     {
       "t": "LLY",
       "n": "Eli Lilly",
       "sector": "Healthcare",
-      "grade": "A",
-      "score": 85.0,
+      "grade": "B+",
+      "score": 81,
       "tier": "top",
-      "note": "Zepbound demand, raised outlook"
+      "note": "GLP-1 secular growth; premium multiple."
     },
     {
-      "t": "GEHC",
-      "n": "GE HealthCare",
-      "sector": "Healthcare",
+      "t": "COST",
+      "n": "Costco",
+      "sector": "Consumer Staples",
       "grade": "B",
-      "score": 82.0,
+      "score": 79,
       "tier": "top",
-      "note": "8-insider cluster buy"
+      "note": "Defensive compounder in leading staples quadrant."
     },
     {
-      "t": "FISV",
-      "n": "Fiserv",
-      "sector": "Fintech",
+      "t": "PANW",
+      "n": "Palo Alto Networks",
+      "sector": "Technology",
       "grade": "B",
-      "score": 80.0,
+      "score": 78,
       "tier": "top",
-      "note": "4-insider cluster on derating"
+      "note": "Platform leader near ATH; tech sector lagging is the offset."
     },
     {
-      "t": "MSFT",
-      "n": "Microsoft",
-      "sector": "Mega-cap Tech",
+      "t": "MU",
+      "n": "Micron",
+      "sector": "Technology",
       "grade": "B",
-      "score": 84.0,
+      "score": 77,
       "tier": "top",
-      "note": "Azure AI, durable FCF"
+      "note": "HBM up-cycle; cyclical risk."
     },
     {
-      "t": "CCJ",
-      "n": "Cameco",
-      "sector": "Uranium",
-      "grade": "B",
-      "score": 79.0,
+      "t": "RKLB",
+      "n": "Rocket Lab",
+      "sector": "Industrials/Space",
+      "grade": "B-",
+      "score": 73,
       "tier": "top",
-      "note": "PT raise, structural deficit"
-    },
-    {
-      "t": "PYPL",
-      "n": "PayPal",
-      "sector": "Fintech",
-      "grade": "B",
-      "score": 77.0,
-      "tier": "top",
-      "note": "CFO buy, cheap FCF"
-    },
-    {
-      "t": "EXE",
-      "n": "Expand Energy",
-      "sector": "Energy",
-      "grade": "B",
-      "score": 76.0,
-      "tier": "top",
-      "note": "Insider cluster, LNG demand"
-    },
-    {
-      "t": "SOFI",
-      "n": "SoFi",
-      "sector": "Fintech",
-      "grade": "B",
-      "score": 75.0,
-      "tier": "top",
-      "note": "CEO open-market buy"
+      "note": "Strong momentum; Neutron execution is the swing."
     }
   ],
   "worst": [
     {
-      "t": "SMR",
-      "n": "NuScale Power",
-      "sector": "Nuclear SMR",
-      "grade": "D",
-      "score": 38.0,
-      "tier": "worst",
-      "note": "Pre-revenue, headline-driven, cash burn"
-    },
-    {
       "t": "IONQ",
       "n": "IonQ",
-      "sector": "Quantum",
+      "sector": "Technology/Quantum",
       "grade": "D",
-      "score": 36.0,
+      "score": 38,
       "tier": "worst",
-      "note": "Pre-profit story stock, dilution risk"
+      "note": "Down ~20% in 10 sessions; pre-profit, negative momentum."
     },
     {
-      "t": "PTON",
-      "n": "Peloton",
-      "sector": "Consumer",
+      "t": "SMR",
+      "n": "NuScale Power",
+      "sector": "Utilities/Nuclear",
       "grade": "D",
-      "score": 34.0,
+      "score": 36,
       "tier": "worst",
-      "note": "Politician sold; structural demand questions"
+      "note": "Pre-revenue, dilution risk; story-driven volatility."
     },
     {
-      "t": "WOK",
-      "n": "Work Medical Tech",
-      "sector": "Healthcare",
-      "grade": "F",
-      "score": 20.0,
+      "t": "ENPH",
+      "n": "Enphase Energy",
+      "sector": "Renewables",
+      "grade": "D+",
+      "score": 42,
       "tier": "worst",
-      "note": "Sub-$0.15 micro-cap, ownership churn"
+      "note": "Residential-solar slump; bounce is upgrade-driven not fundamental."
     },
     {
-      "t": "EDBL",
-      "n": "Edible Garden",
-      "sector": "Consumer",
-      "grade": "F",
-      "score": 18.0,
+      "t": "NRG",
+      "n": "NRG Energy",
+      "sector": "Utilities",
+      "grade": "C-",
+      "score": 48,
       "tier": "worst",
-      "note": "Penny stock, dilution, going-concern risk"
+      "note": "~20% YTD decline near 52-wk low; negative trend."
     },
     {
-      "t": "CMND",
-      "n": "Clearmind Medicine",
-      "sector": "Healthcare",
-      "grade": "F",
-      "score": 17.0,
+      "t": "NEE",
+      "n": "NextEra Energy",
+      "sector": "Utilities",
+      "grade": "C-",
+      "score": 49,
       "tier": "worst",
-      "note": "Sub-$1 micro-cap, speculative"
+      "note": "Negative FCF/high capex, rate-sensitive; range-bound."
+    },
+    {
+      "t": "CRWD",
+      "n": "CrowdStrike",
+      "sector": "Technology",
+      "grade": "C",
+      "score": 52,
+      "tier": "worst",
+      "note": "Priced for perfection; sold off on an in-line-ish beat."
     }
   ]
 }

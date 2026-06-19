@@ -1,181 +1,130 @@
 {
-  "asof": "2026-06-18",
+  "asof": "2026-06-19",
   "clusters": [
     {
-      "t": "GEHC",
-      "n": "GE HealthCare",
-      "buyers": 8,
-      "total": 6423136.0,
-      "buys": 8,
-      "note": "8-insider cluster ~$61.97; imaging upgrade cycle"
-    },
-    {
-      "t": "FUN",
-      "n": "Six Flags Entertainment",
-      "buyers": 3,
-      "total": 6174038.0,
-      "buys": 3,
-      "note": "3 insiders ~$23.30; turnaround/value"
-    },
-    {
-      "t": "RYAN",
-      "n": "Ryan Specialty Holdings",
-      "buyers": 5,
-      "total": 4568609.0,
-      "buys": 5,
-      "note": "5 insiders ~$32.63; specialty insurance broker"
-    },
-    {
-      "t": "LODE",
-      "n": "Comstock Inc.",
-      "buyers": 4,
-      "total": 4243906.0,
-      "buys": 4,
-      "note": "4 insiders ~$3.75; small-cap materials/recycling"
-    },
-    {
-      "t": "ECL",
-      "n": "Ecolab",
-      "buyers": 3,
-      "total": 2719511.0,
-      "buys": 3,
-      "note": "3 insiders ~$257.77 incl. director Doukeris"
-    },
-    {
-      "t": "AMRZ",
-      "n": "Amrize Ltd",
-      "buyers": 4,
-      "total": 2717314.0,
-      "buys": 4,
-      "note": "4 insiders ~$49.48; cement/building materials"
+      "t": "SMMT",
+      "n": "Summit Therapeutics",
+      "buyers": 2,
+      "total": 99974400,
+      "buys": 2,
+      "note": "Co-CEOs Duggan & Zanganeh each bought ~$50M at $13.12 (6/12)."
     },
     {
       "t": "FISV",
       "n": "Fiserv",
-      "buyers": 4,
-      "total": 1073673.0,
-      "buys": 4,
-      "note": "4 insiders ~$49.34; payments derating buy-the-dip"
-    },
-    {
-      "t": "CXT",
-      "n": "Crane NXT",
-      "buyers": 2,
-      "total": 1160078.0,
-      "buys": 2,
-      "note": "2 insiders incl. CEO ~$42.11"
-    },
-    {
-      "t": "EXE",
-      "n": "Expand Energy",
-      "buyers": 2,
-      "total": 560880.0,
-      "buys": 2,
-      "note": "2 insiders ~$93.48; nat-gas producer"
-    },
-    {
-      "t": "TSM",
-      "n": "Taiwan Semiconductor",
-      "buyers": 4,
-      "total": 868470.0,
-      "buys": 4,
-      "note": "4 insiders cluster; foundry leader"
-    }
-  ],
-  "watchable": [
-    {
-      "t": "SOFI",
-      "n": "SoFi Technologies",
-      "buyers": 1,
-      "total": 250787.0,
-      "note": "CEO Anthony Noto bought $250.8k at $18.06 (Jun 16)"
-    },
-    {
-      "t": "PYPL",
-      "n": "PayPal",
-      "buyers": 1,
-      "total": 254537.0,
-      "note": "CFO Jamie Miller bought $254.5k at $41.53 (Jun 15)"
-    },
-    {
-      "t": "AVGO",
-      "n": "Broadcom",
-      "buyers": 1,
-      "total": 373570.0,
-      "note": "Director Harry You bought $373.6k at $373.57 (Jun 11)"
-    },
-    {
-      "t": "LULU",
-      "n": "Lululemon",
-      "buyers": 2,
-      "total": 1994953.0,
-      "note": "2 insiders ~$146.26; beaten-down apparel"
-    },
-    {
-      "t": "CELH",
-      "n": "Celsius Holdings",
       "buyers": 3,
-      "total": 716358.0,
-      "note": "3 insiders ~$29.39; energy-drink growth"
-    },
-    {
-      "t": "CAVA",
-      "n": "CAVA Group",
-      "buyers": 2,
-      "total": 661550.0,
-      "note": "2 insiders ~$77.83; fast-casual growth"
-    },
-    {
-      "t": "NCLH",
-      "n": "Norwegian Cruise Line",
-      "buyers": 7,
-      "total": 29163646.0,
-      "note": "7-insider cluster ~$17.85; consumer reopening"
+      "total": 1372457,
+      "buys": 3,
+      "note": "CFO Todd, CAO Rosman & director Nixon bought ~$49.5 — beaten-down fintech."
     },
     {
       "t": "ADSK",
       "n": "Autodesk",
       "buyers": 2,
-      "total": 1288229.0,
-      "note": "CFO + insider bought ~$197-217 design software"
+      "total": 992719,
+      "buys": 2,
+      "note": "CEO Anagnost & CFO Moorjani bought ~$198-203 (6/15-16)."
+    },
+    {
+      "t": "AVO",
+      "n": "Mission Produce",
+      "buyers": 2,
+      "total": 2,
+      "buys": 5,
+      "note": "Directors Taylor & Pack added repeatedly near $11."
+    },
+    {
+      "t": "EQPT",
+      "n": "EquipmentShare",
+      "buyers": 2,
+      "total": 2129539,
+      "buys": 2,
+      "note": "Both co-founders bought ~$21 (6/15)."
+    },
+    {
+      "t": "HLNE",
+      "n": "Hamilton Lane",
+      "buyers": 2,
+      "total": 4149389,
+      "buys": 2,
+      "note": "Exec Co-COB Rogers & director Berkman bought $76-78."
+    }
+  ],
+  "watchable": [
+    {
+      "t": "AVGO",
+      "n": "Broadcom",
+      "buyers": 1,
+      "total": 373570,
+      "note": "Director Harry You bought 1,000 sh at $373.57 (6/11) — rare mega-cap open-market buy."
+    },
+    {
+      "t": "SOFI",
+      "n": "SoFi Technologies",
+      "buyers": 1,
+      "total": 250787,
+      "note": "CEO Anthony Noto bought ~$251K at $18.06 (6/16)."
+    },
+    {
+      "t": "PYPL",
+      "n": "PayPal",
+      "buyers": 1,
+      "total": 254537,
+      "note": "CFO Jamie Miller bought ~$255K at $41.53 (6/15)."
+    },
+    {
+      "t": "LULU",
+      "n": "Lululemon",
+      "buyers": 1,
+      "total": 500384,
+      "note": "Director Charles Bergh bought ~$500K at $117.05 (6/15)."
     }
   ],
   "politicians": [
     {
-      "who": "John Fetterman",
-      "party": "D",
-      "t": "EXPE",
-      "n": "Expedia Group",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "Reported Jun 12; travel/consumer"
-    },
-    {
-      "who": "Gary Peters",
-      "party": "D",
-      "t": "KHC",
-      "n": "Kraft Heinz",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "Reported Jun 11; defensive staples"
-    },
-    {
-      "who": "James Banks",
+      "who": "Matt Van Epps",
       "party": "R",
-      "t": "PTON",
-      "n": "Peloton Interactive",
+      "t": "NVDA",
+      "n": "NVIDIA",
       "type": "SELL",
       "size": "1K-15K",
-      "note": "Reported Jun 7; trimmed"
+      "note": "Disclosed 6/17 (traded 6/16) at ~$207 — part of broad mega-cap trim."
     },
     {
-      "who": "John Boozman",
+      "who": "Matt Van Epps",
       "party": "R",
-      "t": "IVV",
-      "n": "iShares Core S&P 500 ETF",
+      "t": "GEV",
+      "n": "GE Vernova",
       "type": "SELL",
       "size": "1K-15K",
-      "note": "Joint-account broad de-risking across ETFs (filed mid-June)"
+      "note": "Sold 6/16 at ~$982 reported price."
+    },
+    {
+      "who": "Matt Van Epps",
+      "party": "R",
+      "t": "XOM",
+      "n": "Exxon Mobil",
+      "type": "SELL",
+      "size": "1K-15K",
+      "note": "Sold 6/16 at ~$142."
+    },
+    {
+      "who": "Matt Van Epps",
+      "party": "R",
+      "t": "META",
+      "n": "Meta Platforms",
+      "type": "SELL",
+      "size": "1K-15K",
+      "note": "Sold 6/16 at ~$600."
+    },
+    {
+      "who": "Matt Van Epps",
+      "party": "R",
+      "t": "MSFT",
+      "n": "Microsoft",
+      "type": "SELL",
+      "size": "1K-15K",
+      "note": "Sold 6/16 at ~$394 — broad portfolio de-risking, not single-name signal."
     }
   ]
 }
