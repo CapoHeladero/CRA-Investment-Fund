@@ -1,21 +1,21 @@
 {
-  "asof": "2026-06-19",
-  "vix": 16.4,
-  "y10": 4.453,
-  "y2": 4.179,
-  "ff": 3.75,
-  "spVs200": 9.6,
-  "brent": 79,
-  "note": "Risk-on tone: S&P 7,500 (+9.6% vs 200dma), VIX ~16, HY OAS ~2.7% (tight). Curve positive (10Y 4.45% > 2Y 4.18%). New Fed chair Warsh struck a hawkish tone and removed cut-bias language — rate-hike risk is the main watch-item. US-Iran interim peace eased oil (Brent ~$79, -10% wk). Leadership: Energy, Industrials, Materials, Staples; Technology lagging on AI fatigue. All 9 recession-checklist items are currently FALSE.",
-  "checklist": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-  ]
+ "asof": "2026-06-23",
+ "vix": 16.4,
+ "y10": 4.5,
+ "y2": 4.24,
+ "ff": 3.63,
+ "spVs200": 0.08,
+ "brent": 77.2,
+ "note": "Risk-on/rotation tape: S&P ~7473 just above 200DMA, Fed on hold at 3.50-3.75%, curve positive (10Y 4.5% > 2Y 4.24%), Brent at 3-month low on US-Iran de-escalation. AI-capex worries hit some mega-cap tech (GOOGL -10%) while chips (MU/AVGO) and financials led. No recession flags triggered.",
+ "checklist": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false
+ ]
 }

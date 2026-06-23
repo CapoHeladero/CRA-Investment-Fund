@@ -1,130 +1,112 @@
 {
-  "asof": "2026-06-19",
-  "clusters": [
-    {
-      "t": "SMMT",
-      "n": "Summit Therapeutics",
-      "buyers": 2,
-      "total": 99974400,
-      "buys": 2,
-      "note": "Co-CEOs Duggan & Zanganeh each bought ~$50M at $13.12 (6/12)."
-    },
-    {
-      "t": "FISV",
-      "n": "Fiserv",
-      "buyers": 3,
-      "total": 1372457,
-      "buys": 3,
-      "note": "CFO Todd, CAO Rosman & director Nixon bought ~$49.5 — beaten-down fintech."
-    },
-    {
-      "t": "ADSK",
-      "n": "Autodesk",
-      "buyers": 2,
-      "total": 992719,
-      "buys": 2,
-      "note": "CEO Anagnost & CFO Moorjani bought ~$198-203 (6/15-16)."
-    },
-    {
-      "t": "AVO",
-      "n": "Mission Produce",
-      "buyers": 2,
-      "total": 2,
-      "buys": 5,
-      "note": "Directors Taylor & Pack added repeatedly near $11."
-    },
-    {
-      "t": "EQPT",
-      "n": "EquipmentShare",
-      "buyers": 2,
-      "total": 2129539,
-      "buys": 2,
-      "note": "Both co-founders bought ~$21 (6/15)."
-    },
-    {
-      "t": "HLNE",
-      "n": "Hamilton Lane",
-      "buyers": 2,
-      "total": 4149389,
-      "buys": 2,
-      "note": "Exec Co-COB Rogers & director Berkman bought $76-78."
-    }
-  ],
-  "watchable": [
-    {
-      "t": "AVGO",
-      "n": "Broadcom",
-      "buyers": 1,
-      "total": 373570,
-      "note": "Director Harry You bought 1,000 sh at $373.57 (6/11) — rare mega-cap open-market buy."
-    },
-    {
-      "t": "SOFI",
-      "n": "SoFi Technologies",
-      "buyers": 1,
-      "total": 250787,
-      "note": "CEO Anthony Noto bought ~$251K at $18.06 (6/16)."
-    },
-    {
-      "t": "PYPL",
-      "n": "PayPal",
-      "buyers": 1,
-      "total": 254537,
-      "note": "CFO Jamie Miller bought ~$255K at $41.53 (6/15)."
-    },
-    {
-      "t": "LULU",
-      "n": "Lululemon",
-      "buyers": 1,
-      "total": 500384,
-      "note": "Director Charles Bergh bought ~$500K at $117.05 (6/15)."
-    }
-  ],
-  "politicians": [
-    {
-      "who": "Matt Van Epps",
-      "party": "R",
-      "t": "NVDA",
-      "n": "NVIDIA",
-      "type": "SELL",
-      "size": "1K-15K",
-      "note": "Disclosed 6/17 (traded 6/16) at ~$207 — part of broad mega-cap trim."
-    },
-    {
-      "who": "Matt Van Epps",
-      "party": "R",
-      "t": "GEV",
-      "n": "GE Vernova",
-      "type": "SELL",
-      "size": "1K-15K",
-      "note": "Sold 6/16 at ~$982 reported price."
-    },
-    {
-      "who": "Matt Van Epps",
-      "party": "R",
-      "t": "XOM",
-      "n": "Exxon Mobil",
-      "type": "SELL",
-      "size": "1K-15K",
-      "note": "Sold 6/16 at ~$142."
-    },
-    {
-      "who": "Matt Van Epps",
-      "party": "R",
-      "t": "META",
-      "n": "Meta Platforms",
-      "type": "SELL",
-      "size": "1K-15K",
-      "note": "Sold 6/16 at ~$600."
-    },
-    {
-      "who": "Matt Van Epps",
-      "party": "R",
-      "t": "MSFT",
-      "n": "Microsoft",
-      "type": "SELL",
-      "size": "1K-15K",
-      "note": "Sold 6/16 at ~$394 — broad portfolio de-risking, not single-name signal."
-    }
-  ]
+ "asof": "2026-06-23",
+ "clusters": [
+  {
+   "t": "AVO",
+   "n": "Mission Produce",
+   "buyers": 3,
+   "total": 8907924.0,
+   "buys": 3,
+   "note": "Three insiders bought ~$8.9M near $11; avocado supplier."
+  },
+  {
+   "t": "EQPT",
+   "n": "EquipmentShare.com",
+   "buyers": 2,
+   "total": 2129539.0,
+   "buys": 2,
+   "note": "Cluster ~$2.1M near $21; equipment rental/tech."
+  },
+  {
+   "t": "FCBM",
+   "n": "First Carolina Financial",
+   "buyers": 6,
+   "total": 2123363.0,
+   "buys": 11,
+   "note": "Broad bank insider cluster near $12."
+  },
+  {
+   "t": "BORR",
+   "n": "Borr Drilling",
+   "buyers": 2,
+   "total": 2448500.0,
+   "buys": 2,
+   "note": "~$2.4M near $1-2; offshore drilling."
+  },
+  {
+   "t": "EML",
+   "n": "Eastern Co",
+   "buyers": 3,
+   "total": 150463.0,
+   "buys": 6,
+   "note": "Repeated insider buys near $21; industrial."
+  }
+ ],
+ "watchable": [
+  {
+   "t": "COR",
+   "n": "Cencora",
+   "buyers": 1,
+   "total": 1096760.0,
+   "note": "$1.1M buy near $274; pharma distribution down YTD."
+  },
+  {
+   "t": "ENR",
+   "n": "Energizer Holdings",
+   "buyers": 1,
+   "total": 1350011.0,
+   "note": "$1.35M near $20; consumer staple, stock popped 7%."
+  },
+  {
+   "t": "TUSK",
+   "n": "Mammoth Energy Services",
+   "buyers": 1,
+   "total": 10468177.0,
+   "note": "$10.5M near $2; energy services micro-cap."
+  },
+  {
+   "t": "VTS",
+   "n": "Vitesse Energy",
+   "buyers": 1,
+   "total": 660530.0,
+   "note": "$660k near $16; non-op oil & gas."
+  },
+  {
+   "t": "HNRG",
+   "n": "Hallador Energy",
+   "buyers": 1,
+   "total": 250314.0,
+   "note": "$250k near $16; coal-to-power pivot."
+  },
+  {
+   "t": "ADSK",
+   "n": "Autodesk",
+   "buyers": 1,
+   "total": 498544.0,
+   "note": "$499k near $202; design software."
+  },
+  {
+   "t": "FISV",
+   "n": "Fiserv",
+   "buyers": 1,
+   "total": 649728.0,
+   "note": "~$650k near $49-50; payments."
+  },
+  {
+   "t": "ABT",
+   "n": "Abbott Laboratories",
+   "buyers": 1,
+   "total": 173640.0,
+   "note": "$174k near $86; healthcare blue-chip."
+  },
+  {
+   "t": "MTDR",
+   "n": "Matador Resources",
+   "buyers": 1,
+   "total": 25720.0,
+   "note": "Small buy near $51; Permian E&P."
+  }
+ ],
+ "politicians": [],
+ "politicians_note": "CapitolTrades trade feed was not reachable in this automated run; no verified ticker-level congressional buys to report. Re-check capitoltrades.com/trades manually."
 }

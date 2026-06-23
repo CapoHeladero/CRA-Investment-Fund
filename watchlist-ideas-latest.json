@@ -1,70 +1,86 @@
 {
-  "asof": "2026-06-19",
-  "method": "Momentum/technical setups in leading sectors (energy, industrials, materials, nuclear/power, staples). buy=accumulate support/retest, sell=resistance/target.",
-  "ideas": [
-    {
-      "t": "GEV",
-      "n": "GE Vernova",
-      "conv": 5,
-      "buy": 1060,
-      "sell": 1280,
-      "thesis": "Uptrend; buy pullbacks to 20-day near 1060, momentum target 1280."
-    },
-    {
-      "t": "CEG",
-      "n": "Constellation Energy",
-      "conv": 4,
-      "buy": 240,
-      "sell": 290,
-      "thesis": "Base near 240 support; breakout extends to 290."
-    },
-    {
-      "t": "CCJ",
-      "n": "Cameco",
-      "conv": 4,
-      "buy": 100,
-      "sell": 130,
-      "thesis": "Holding above 100; reclaim of 110 opens 130."
-    },
-    {
-      "t": "XOM",
-      "n": "Exxon Mobil",
-      "conv": 4,
-      "buy": 134,
-      "sell": 155,
-      "thesis": "Energy leadership; accumulate 134 support, target 155."
-    },
-    {
-      "t": "FCX",
-      "n": "Freeport-McMoRan",
-      "conv": 4,
-      "buy": 65,
-      "sell": 82,
-      "thesis": "Copper breakout; buy 65 retest, measured move 82."
-    },
-    {
-      "t": "ETN",
-      "n": "Eaton",
-      "conv": 3,
-      "buy": 375,
-      "sell": 440,
-      "thesis": "Bull flag; 375 support, resistance/target 440."
-    },
-    {
-      "t": "VST",
-      "n": "Vistra",
-      "conv": 3,
-      "buy": 145,
-      "sell": 180,
-      "thesis": "Higher lows; buy 145, breakout target 180."
-    },
-    {
-      "t": "FSLR",
-      "n": "First Solar",
-      "conv": 3,
-      "buy": 248,
-      "sell": 310,
-      "thesis": "Reclaiming trend; 248 support, target 310 on backlog."
-    }
-  ]
+ "asof": "2026-06-23",
+ "method": "Momentum/technical setups in leading sectors; buy=accumulation support/retest, sell=resistance/target. Conviction 1-5.",
+ "ideas": [
+  {
+   "t": "GEV",
+   "n": "GE Vernova",
+   "conv": 5,
+   "buy": 1090.0,
+   "sell": 1280.0,
+   "thesis": "Strong uptrend; buy pullbacks to rising 20-day, target prior highs extension."
+  },
+  {
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "conv": 4,
+   "buy": 205.0,
+   "sell": 240.0,
+   "thesis": "Holding above 50-day; accumulate near 205 support, resistance at 240."
+  },
+  {
+   "t": "VST",
+   "n": "Vistra",
+   "conv": 4,
+   "buy": 160.0,
+   "sell": 195.0,
+   "thesis": "Breakout retest of 160; power-demand momentum intact above 200-day."
+  },
+  {
+   "t": "CCJ",
+   "n": "Cameco",
+   "conv": 4,
+   "buy": 104.0,
+   "sell": 130.0,
+   "thesis": "Uranium uptrend; buy 104 support zone, measured move to 130."
+  },
+  {
+   "t": "VRT",
+   "n": "Vertiv",
+   "conv": 4,
+   "buy": 326.0,
+   "sell": 390.0,
+   "thesis": "Momentum leader; buy dips to 326 breakout shelf, target 390."
+  },
+  {
+   "t": "CRWD",
+   "n": "CrowdStrike",
+   "conv": 4,
+   "buy": 670.0,
+   "sell": 780.0,
+   "thesis": "Bull flag above 50-day; add 670, resistance 780."
+  },
+  {
+   "t": "MU",
+   "n": "Micron",
+   "conv": 3,
+   "buy": 1210.0,
+   "sell": 1420.0,
+   "thesis": "Parabolic post-earnings; only buy controlled pullbacks to 1210, trim into 1420."
+  },
+  {
+   "t": "GOOGL",
+   "n": "Alphabet",
+   "conv": 3,
+   "buy": 332.0,
+   "sell": 390.0,
+   "thesis": "Oversold after capex selloff; mean-reversion buy near 332, gap-fill to 390."
+  },
+  {
+   "t": "RKLB",
+   "n": "Rocket Lab",
+   "conv": 3,
+   "buy": 96.0,
+   "sell": 125.0,
+   "thesis": "Pullback within uptrend; buy 96 support, Neutron catalyst toward 125."
+  },
+  {
+   "t": "LEU",
+   "n": "Centrus",
+   "conv": 3,
+   "buy": 178.0,
+   "sell": 220.0,
+   "thesis": "High-beta HALEU; accumulate 178, breakout target 220, tight risk."
+  }
+ ]
 }
