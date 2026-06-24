@@ -1,21 +1,21 @@
 {
- "asof": "2026-06-23",
- "vix": 16.4,
- "y10": 4.5,
- "y2": 4.24,
- "ff": 3.63,
- "spVs200": 0.08,
- "brent": 77.2,
- "note": "Risk-on/rotation tape: S&P ~7473 just above 200DMA, Fed on hold at 3.50-3.75%, curve positive (10Y 4.5% > 2Y 4.24%), Brent at 3-month low on US-Iran de-escalation. AI-capex worries hit some mega-cap tech (GOOGL -10%) while chips (MU/AVGO) and financials led. No recession flags triggered.",
- "checklist": [
-  false,
-  false,
-  false,
-  false,
-  false,
-  false,
-  false,
-  false,
-  false
- ]
+  "asof": "2026-06-24",
+  "vix": 17.3,
+  "y10": 4.49,
+  "y2": 4.18,
+  "ff": 3.75,
+  "spVs200": 6.5,
+  "brent": 77.2,
+  "note": "Risk tone cautious-neutral. S&P 7,365 / Nasdaq 25,587 (6/23 close) after AI-trade cooled and semis/memory sold off (MU -13%, AMD -6%, NVDA -3%). Warsh-led Fed turned hawkish (held 3.50-3.75% but dot-plot signals a possible 2026 hike), lifting 2Y to ~4.18%; 10Y eased to ~4.49% on US-Iran de-escalation, which also pushed Brent to ~$77. Curve positive (~+31bps). Leadership rotating toward Energy, Industrials, Materials, Staples; AI/semis consolidating.",
+  "checklist": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true
+  ]
 }

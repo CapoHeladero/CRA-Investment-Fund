@@ -1,112 +1,83 @@
 {
- "asof": "2026-06-23",
- "clusters": [
-  {
-   "t": "AVO",
-   "n": "Mission Produce",
-   "buyers": 3,
-   "total": 8907924.0,
-   "buys": 3,
-   "note": "Three insiders bought ~$8.9M near $11; avocado supplier."
-  },
-  {
-   "t": "EQPT",
-   "n": "EquipmentShare.com",
-   "buyers": 2,
-   "total": 2129539.0,
-   "buys": 2,
-   "note": "Cluster ~$2.1M near $21; equipment rental/tech."
-  },
-  {
-   "t": "FCBM",
-   "n": "First Carolina Financial",
-   "buyers": 6,
-   "total": 2123363.0,
-   "buys": 11,
-   "note": "Broad bank insider cluster near $12."
-  },
-  {
-   "t": "BORR",
-   "n": "Borr Drilling",
-   "buyers": 2,
-   "total": 2448500.0,
-   "buys": 2,
-   "note": "~$2.4M near $1-2; offshore drilling."
-  },
-  {
-   "t": "EML",
-   "n": "Eastern Co",
-   "buyers": 3,
-   "total": 150463.0,
-   "buys": 6,
-   "note": "Repeated insider buys near $21; industrial."
-  }
- ],
- "watchable": [
-  {
-   "t": "COR",
-   "n": "Cencora",
-   "buyers": 1,
-   "total": 1096760.0,
-   "note": "$1.1M buy near $274; pharma distribution down YTD."
-  },
-  {
-   "t": "ENR",
-   "n": "Energizer Holdings",
-   "buyers": 1,
-   "total": 1350011.0,
-   "note": "$1.35M near $20; consumer staple, stock popped 7%."
-  },
-  {
-   "t": "TUSK",
-   "n": "Mammoth Energy Services",
-   "buyers": 1,
-   "total": 10468177.0,
-   "note": "$10.5M near $2; energy services micro-cap."
-  },
-  {
-   "t": "VTS",
-   "n": "Vitesse Energy",
-   "buyers": 1,
-   "total": 660530.0,
-   "note": "$660k near $16; non-op oil & gas."
-  },
-  {
-   "t": "HNRG",
-   "n": "Hallador Energy",
-   "buyers": 1,
-   "total": 250314.0,
-   "note": "$250k near $16; coal-to-power pivot."
-  },
-  {
-   "t": "ADSK",
-   "n": "Autodesk",
-   "buyers": 1,
-   "total": 498544.0,
-   "note": "$499k near $202; design software."
-  },
-  {
-   "t": "FISV",
-   "n": "Fiserv",
-   "buyers": 1,
-   "total": 649728.0,
-   "note": "~$650k near $49-50; payments."
-  },
-  {
-   "t": "ABT",
-   "n": "Abbott Laboratories",
-   "buyers": 1,
-   "total": 173640.0,
-   "note": "$174k near $86; healthcare blue-chip."
-  },
-  {
-   "t": "MTDR",
-   "n": "Matador Resources",
-   "buyers": 1,
-   "total": 25720.0,
-   "note": "Small buy near $51; Permian E&P."
-  }
- ],
- "politicians": [],
- "politicians_note": "CapitolTrades trade feed was not reachable in this automated run; no verified ticker-level congressional buys to report. Re-check capitoltrades.com/trades manually."
+  "asof": "2026-06-24",
+  "clusters": [
+    {
+      "t": "BORR",
+      "n": "Borr Drilling",
+      "buyers": 2,
+      "total": 2448500,
+      "buys": "CEO Morand de Oliveira +275k @ $1.66; Dir Schorn +1.2M @ $1.66 (06/17)",
+      "note": "Two-insider cluster in offshore driller at depressed price; deep-value energy-services bet."
+    },
+    {
+      "t": "LILA",
+      "n": "Liberty Latin America",
+      "buyers": 2,
+      "total": 1489172,
+      "buys": "CEO Nair +164,914 @ $6.07; Dir Paddick +100k @ $4.88 (06/18)",
+      "note": "CEO + director cluster buy in beaten-down LatAm telecom."
+    },
+    {
+      "t": "ENR",
+      "n": "Energizer Holdings",
+      "buyers": 1,
+      "total": 2193843,
+      "buys": "10% holder Aqua Capital two buys +104k @ ~$21 (06/17-22)",
+      "note": "Repeated 10%-owner accumulation in consumer-staples turnaround."
+    }
+  ],
+  "watchable": [
+    {
+      "t": "AVO",
+      "n": "Mission Produce",
+      "buyers": 1,
+      "total": 4356110,
+      "buys": "Dir Taylor +386,410 @ ~$11.27 across two filings",
+      "note": "Director adding aggressively; avocado producer, ag/consumer."
+    },
+    {
+      "t": "COR",
+      "n": "Cencora",
+      "buyers": 1,
+      "total": 1096760,
+      "buys": "Dir Durcan +4,000 @ $274.19",
+      "note": "Director open-market buy in large-cap pharma distributor."
+    },
+    {
+      "t": "FISV",
+      "n": "Fiserv",
+      "buyers": 1,
+      "total": 499982,
+      "buys": "CFO Todd +10,060 @ $49.70",
+      "note": "CFO buy in fintech/payments after sharp derating — insider conviction signal."
+    },
+    {
+      "t": "ADSK",
+      "n": "Autodesk",
+      "buyers": 1,
+      "total": 378400,
+      "buys": "Dir Cahill +2,000 @ $189.20",
+      "note": "Director adding to design-software name."
+    }
+  ],
+  "politicians": [
+    {
+      "who": "Nancy/Paul Pelosi",
+      "party": "D",
+      "t": "NVDA",
+      "n": "NVIDIA",
+      "type": "Call options (LEAPS)",
+      "size": "~$1M+ notional",
+      "note": "Holds long-dated Jan-2027 deep-ITM NVDA calls ($80/$100 strikes); trimmed shares, kept upside via options."
+    },
+    {
+      "who": "Nancy/Paul Pelosi",
+      "party": "D",
+      "t": "AAPL",
+      "n": "Apple",
+      "type": "Reposition",
+      "size": "part of ~$69M tech reshuffle",
+      "note": "Part of early-2026 big-tech repositioning across NVDA/AAPL/GOOGL per Capitol Trades."
+    }
+  ]
 }

@@ -1,188 +1,188 @@
 {
- "asof": "2026-06-23",
- "method": "Composite of price momentum, theme tailwind, insider/earnings signal, balance-sheet quality (0-100).",
- "names": [
-  {
-   "t": "NVDA",
-   "n": "NVIDIA",
-   "sector": "AI Semis",
-   "grade": "A",
-   "score": 92.0,
-   "tier": "top",
-   "note": "FCF machine, demand-constrained."
-  },
-  {
-   "t": "GEV",
-   "n": "GE Vernova",
-   "sector": "AI Power",
-   "grade": "A",
-   "score": 90.0,
-   "tier": "top",
-   "note": "Electrification backlog supercycle."
-  },
-  {
-   "t": "AVGO",
-   "n": "Broadcom",
-   "sector": "AI Semis",
-   "grade": "A",
-   "score": 90.0,
-   "tier": "top",
-   "note": "Custom AI silicon, 8th EPS beat."
-  },
-  {
-   "t": "VRT",
-   "n": "Vertiv",
-   "sector": "AI Infra",
-   "grade": "A-",
-   "score": 89.0,
-   "tier": "top",
-   "note": "AI cooling demand, +90% YTD."
-  },
-  {
-   "t": "GE",
-   "n": "GE Aerospace",
-   "sector": "Aerospace",
-   "grade": "A-",
-   "score": 88.0,
-   "tier": "top",
-   "note": "Aftermarket + FCF guide raised."
-  },
-  {
-   "t": "CRWD",
-   "n": "CrowdStrike",
-   "sector": "Cyber",
-   "grade": "A-",
-   "score": 88.0,
-   "tier": "top",
-   "note": "Platform consolidation, +46% YTD."
-  },
-  {
-   "t": "MU",
-   "n": "Micron",
-   "sector": "Memory",
-   "grade": "B+",
-   "score": 87.0,
-   "tier": "top",
-   "note": "HBM tightness; cyclical, high beta."
-  },
-  {
-   "t": "CEG",
-   "n": "Constellation",
-   "sector": "Nuclear",
-   "grade": "B+",
-   "score": 87.0,
-   "tier": "top",
-   "note": "Nuclear baseload + AI PPAs."
-  },
-  {
-   "t": "CAT",
-   "n": "Caterpillar",
-   "sector": "Industrials",
-   "grade": "B+",
-   "score": 86.0,
-   "tier": "top",
-   "note": "+60% YTD; power/infra demand."
-  },
-  {
-   "t": "VST",
-   "n": "Vistra",
-   "sector": "AI Power",
-   "grade": "B+",
-   "score": 86.0,
-   "tier": "top",
-   "note": "Power-market tightening."
-  },
-  {
-   "t": "PANW",
-   "n": "Palo Alto",
-   "sector": "Cyber",
-   "grade": "B+",
-   "score": 85.0,
-   "tier": "top",
-   "note": "Platformization, durable FCF."
-  },
-  {
-   "t": "ANET",
-   "n": "Arista",
-   "sector": "AI Networking",
-   "grade": "B+",
-   "score": 84.0,
-   "tier": "top",
-   "note": "800G ramp, $12B net cash."
-  },
-  {
-   "t": "CCJ",
-   "n": "Cameco",
-   "sector": "Uranium",
-   "grade": "B",
-   "score": 83.0,
-   "tier": "top",
-   "note": "Uranium uptrend, earnings tripled."
-  },
-  {
-   "t": "COR",
-   "n": "Cencora",
-   "sector": "Healthcare",
-   "grade": "B",
-   "score": 80.0,
-   "tier": "top",
-   "note": "Insider buy; beaten-down value."
-  }
- ],
- "worst": [
-  {
-   "t": "OKLO",
-   "n": "Oklo",
-   "sector": "Nuclear",
-   "grade": "D",
-   "score": 40.0,
-   "tier": "worst",
-   "note": "Pre-revenue SMR; cash burn, binary."
-  },
-  {
-   "t": "ASTS",
-   "n": "AST SpaceMobile",
-   "sector": "Space",
-   "grade": "D",
-   "score": 42.0,
-   "tier": "worst",
-   "note": "Heavy dilution; deployment risk."
-  },
-  {
-   "t": "TUSK",
-   "n": "Mammoth Energy",
-   "sector": "Energy Svcs",
-   "grade": "D",
-   "score": 38.0,
-   "tier": "worst",
-   "note": "Low-quality micro-cap despite insider buy."
-  },
-  {
-   "t": "UAMY",
-   "n": "US Antimony",
-   "sector": "Materials",
-   "grade": "D+",
-   "score": 43.0,
-   "tier": "worst",
-   "note": "Speculative micro-cap, thin liquidity."
-  },
-  {
-   "t": "ENPH",
-   "n": "Enphase",
-   "sector": "Solar",
-   "grade": "C-",
-   "score": 45.0,
-   "tier": "worst",
-   "note": "US resi solar weak on rates."
-  },
-  {
-   "t": "AMZN",
-   "n": "Amazon",
-   "sector": "Mega-cap",
-   "grade": "C",
-   "score": 55.0,
-   "tier": "worst",
-   "note": "FCF crushed by AI capex (~$1B TTM)."
-  }
- ]
+  "asof": "2026-06-24",
+  "method": "Composite 0-100: momentum + fundamental quality (FCF/margins) + relative strength vs sector + insider/catalyst signal. Grades A-F. Heuristic, not a recommendation.",
+  "names": [
+    {
+      "t": "GEV",
+      "n": "GE Vernova",
+      "sector": "Electrification",
+      "grade": "A",
+      "score": 91,
+      "tier": "top",
+      "note": "Power-buildout leader, strong backlog + momentum."
+    },
+    {
+      "t": "CEG",
+      "n": "Constellation Energy",
+      "sector": "Nuclear/Power",
+      "grade": "A",
+      "score": 90,
+      "tier": "top",
+      "note": "AI-power demand + nuclear PTC floor."
+    },
+    {
+      "t": "AVGO",
+      "n": "Broadcom",
+      "sector": "Semis",
+      "grade": "A",
+      "score": 89,
+      "tier": "top",
+      "note": "Custom AI silicon + software, durable FCF."
+    },
+    {
+      "t": "LLY",
+      "n": "Eli Lilly",
+      "sector": "Healthcare",
+      "grade": "A",
+      "score": 89,
+      "tier": "top",
+      "note": "GLP-1 secular growth, pricing power."
+    },
+    {
+      "t": "TSM",
+      "n": "Taiwan Semi",
+      "sector": "Semis",
+      "grade": "A",
+      "score": 88,
+      "tier": "top",
+      "note": "Foundry monopoly on leading edge, reasonable multiple."
+    },
+    {
+      "t": "ETN",
+      "n": "Eaton",
+      "sector": "Industrials",
+      "grade": "A",
+      "score": 87,
+      "tier": "top",
+      "note": "Data-center electrical demand, record highs."
+    },
+    {
+      "t": "NVDA",
+      "n": "NVIDIA",
+      "sector": "Semis",
+      "grade": "A",
+      "score": 86,
+      "tier": "top",
+      "note": "AI compute leader; near-term capex-ROI overhang."
+    },
+    {
+      "t": "VST",
+      "n": "Vistra",
+      "sector": "Power",
+      "grade": "B",
+      "score": 84,
+      "tier": "top",
+      "note": "Power-demand leverage; pulled back from highs."
+    },
+    {
+      "t": "FANG",
+      "n": "Diamondback",
+      "sector": "Energy",
+      "grade": "B",
+      "score": 82,
+      "tier": "top",
+      "note": "Lowest-cost Permian, strong analyst support."
+    },
+    {
+      "t": "CCJ",
+      "n": "Cameco",
+      "sector": "Uranium",
+      "grade": "B",
+      "score": 81,
+      "tier": "top",
+      "note": "Uranium uptrend + Westinghouse optionality."
+    },
+    {
+      "t": "JPM",
+      "n": "JPMorgan",
+      "sector": "Financials",
+      "grade": "B",
+      "score": 80,
+      "tier": "top",
+      "note": "Rate tailwind under hawkish Warsh Fed."
+    },
+    {
+      "t": "AMZN",
+      "n": "Amazon",
+      "sector": "Cons. Disc/Cloud",
+      "grade": "B",
+      "score": 80,
+      "tier": "top",
+      "note": "AWS reaccel + retail margin + ads."
+    },
+    {
+      "t": "COST",
+      "n": "Costco",
+      "sector": "Staples",
+      "grade": "B",
+      "score": 79,
+      "tier": "top",
+      "note": "Defensive compounder amid AI-trade rotation."
+    },
+    {
+      "t": "FSLR",
+      "n": "First Solar",
+      "sector": "Renewables",
+      "grade": "B",
+      "score": 78,
+      "tier": "top",
+      "note": "Contracted backlog, domestic-content edge."
+    }
+  ],
+  "worst": [
+    {
+      "t": "IONQ",
+      "n": "IonQ",
+      "sector": "Quantum",
+      "grade": "D",
+      "score": 34,
+      "tier": "worst",
+      "note": "Pre-scale revenue, cash burn, narrative-driven."
+    },
+    {
+      "t": "ENPH",
+      "n": "Enphase",
+      "sector": "Renewables",
+      "grade": "D",
+      "score": 38,
+      "tier": "worst",
+      "note": "Resi-solar demand weak under higher-for-longer rates."
+    },
+    {
+      "t": "MU",
+      "n": "Micron",
+      "sector": "Memory",
+      "grade": "C",
+      "score": 45,
+      "tier": "worst",
+      "note": "Severe cyclicality; -13% in a session shows fragility despite strong fundamentals."
+    },
+    {
+      "t": "AMD",
+      "n": "AMD",
+      "sector": "Semis",
+      "grade": "C",
+      "score": 48,
+      "tier": "worst",
+      "note": "Rich valuation, software gap vs NVDA, high beta in selloff."
+    },
+    {
+      "t": "UEC",
+      "n": "Uranium Energy",
+      "sector": "Uranium",
+      "grade": "C",
+      "score": 49,
+      "tier": "worst",
+      "note": "Pre-major-cashflow, dilution history, spot-driven swings."
+    },
+    {
+      "t": "RKLB",
+      "n": "Rocket Lab",
+      "sector": "Space",
+      "grade": "C",
+      "score": 50,
+      "tier": "worst",
+      "note": "Not yet profitable; Neutron timing risk after +280% run."
+    }
+  ]
 }
