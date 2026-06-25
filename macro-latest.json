@@ -1,21 +1,21 @@
 {
-  "asof": "2026-06-24",
-  "vix": 17.3,
-  "y10": 4.49,
-  "y2": 4.18,
-  "ff": 3.75,
-  "spVs200": 6.5,
-  "brent": 77.2,
-  "note": "Risk tone cautious-neutral. S&P 7,365 / Nasdaq 25,587 (6/23 close) after AI-trade cooled and semis/memory sold off (MU -13%, AMD -6%, NVDA -3%). Warsh-led Fed turned hawkish (held 3.50-3.75% but dot-plot signals a possible 2026 hike), lifting 2Y to ~4.18%; 10Y eased to ~4.49% on US-Iran de-escalation, which also pushed Brent to ~$77. Curve positive (~+31bps). Leadership rotating toward Energy, Industrials, Materials, Staples; AI/semis consolidating.",
+  "asof": "2026-06-25",
+  "vix": 19.49,
+  "y10": 4.41,
+  "y2": 4.2,
+  "ff": 3.63,
+  "spVs200": 6.8,
+  "brent": 73.05,
+  "note": "Risk-on rebound: Micron's blowout earnings (+17% pre-mkt, 84.9% gross margin, $22B AI deals) revived the AI trade after a 3-day chip selloff. Oil fell to prewar levels on the Israel-Iran ceasefire. New Fed Chair Warsh held at 3.50-3.75% (4th hold) but the dot plot signals 1-2 hikes this year (hawkish). Yield curve positive (10Y 4.41 > 2Y 4.20), VIX ~19.5, S&P ~7% above its 200DMA. Recession checklist 0/9 \u2014 backdrop constructive. Main risks: hawkish Fed and AI/Mag7 concentration.",
   "checklist": [
     false,
     false,
     false,
     false,
     false,
-    true,
     false,
     false,
-    true
+    false,
+    false
   ]
 }

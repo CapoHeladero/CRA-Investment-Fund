@@ -1,83 +1,158 @@
 {
-  "asof": "2026-06-24",
+  "asof": "2026-06-25",
   "clusters": [
-    {
-      "t": "BORR",
-      "n": "Borr Drilling",
-      "buyers": 2,
-      "total": 2448500,
-      "buys": "CEO Morand de Oliveira +275k @ $1.66; Dir Schorn +1.2M @ $1.66 (06/17)",
-      "note": "Two-insider cluster in offshore driller at depressed price; deep-value energy-services bet."
-    },
     {
       "t": "LILA",
       "n": "Liberty Latin America",
-      "buyers": 2,
-      "total": 1489172,
-      "buys": "CEO Nair +164,914 @ $6.07; Dir Paddick +100k @ $4.88 (06/18)",
-      "note": "CEO + director cluster buy in beaten-down LatAm telecom."
+      "buyers": 3,
+      "total": 136650497,
+      "buys": 3,
+      "note": "$136.6M, +74% own change at $8.90 \u2014 outsized conviction in beaten-down telecom"
     },
     {
-      "t": "ENR",
-      "n": "Energizer Holdings",
-      "buyers": 1,
-      "total": 2193843,
-      "buys": "10% holder Aqua Capital two buys +104k @ ~$21 (06/17-22)",
-      "note": "Repeated 10%-owner accumulation in consumer-staples turnaround."
-    }
-  ],
-  "watchable": [
-    {
-      "t": "AVO",
-      "n": "Mission Produce",
-      "buyers": 1,
-      "total": 4356110,
-      "buys": "Dir Taylor +386,410 @ ~$11.27 across two filings",
-      "note": "Director adding aggressively; avocado producer, ag/consumer."
+      "t": "SMMT",
+      "n": "Summit Therapeutics",
+      "buyers": 3,
+      "total": 100696650,
+      "buys": 3,
+      "note": "$100.7M at $13.13 \u2014 large biotech insider buy on ivonescimab"
     },
     {
-      "t": "COR",
-      "n": "Cencora",
-      "buyers": 1,
-      "total": 1096760,
-      "buys": "Dir Durcan +4,000 @ $274.19",
-      "note": "Director open-market buy in large-cap pharma distributor."
+      "t": "NCLH",
+      "n": "Norwegian Cruise Line",
+      "buyers": 7,
+      "total": 29163646,
+      "buys": 7,
+      "note": "7 insiders, $29.2M at $17.85 \u2014 broad cluster, +136% own change"
+    },
+    {
+      "t": "GEHC",
+      "n": "GE HealthCare",
+      "buyers": 8,
+      "total": 6423136,
+      "buys": 8,
+      "note": "8-insider cluster ($6.4M) at ~$62 \u2014 strongest breadth among large caps"
     },
     {
       "t": "FISV",
       "n": "Fiserv",
-      "buyers": 1,
-      "total": 499982,
-      "buys": "CFO Todd +10,060 @ $49.70",
-      "note": "CFO buy in fintech/payments after sharp derating — insider conviction signal."
+      "buyers": 6,
+      "total": 1723401,
+      "buys": 6,
+      "note": "6 insiders at $49.55 \u2014 payments name reset"
     },
     {
       "t": "ADSK",
       "n": "Autodesk",
-      "buyers": 1,
-      "total": 378400,
-      "buys": "Dir Cahill +2,000 @ $189.20",
-      "note": "Director adding to design-software name."
+      "buyers": 4,
+      "total": 2165173,
+      "buys": 4,
+      "note": "4 insiders at $208.29 \u2014 software"
+    },
+    {
+      "t": "TSM",
+      "n": "Taiwan Semiconductor",
+      "buyers": 4,
+      "total": 891730,
+      "buys": 4,
+      "note": "4 insiders at $89.17 \u2014 semis"
+    },
+    {
+      "t": "LULU",
+      "n": "Lululemon",
+      "buyers": 2,
+      "total": 994975,
+      "buys": 2,
+      "note": "2 insiders at $131.78 near lows"
+    }
+  ],
+  "watchable": [
+    {
+      "t": "ECL",
+      "n": "Ecolab",
+      "buyers": 3,
+      "total": 2719511,
+      "note": "3 insiders at $257.77"
+    },
+    {
+      "t": "CDW",
+      "n": "CDW Corp",
+      "buyers": 2,
+      "total": 2505138,
+      "note": "2 insiders at $109.73"
+    },
+    {
+      "t": "CELH",
+      "n": "Celsius",
+      "buyers": 3,
+      "total": 716358,
+      "note": "3 insiders at $29.39"
+    },
+    {
+      "t": "CAVA",
+      "n": "Cava Group",
+      "buyers": 2,
+      "total": 661550,
+      "note": "2 insiders at $77.83"
+    },
+    {
+      "t": "KBR",
+      "n": "KBR",
+      "buyers": 4,
+      "total": 945166,
+      "note": "4 insiders at $31.64"
+    },
+    {
+      "t": "ACM",
+      "n": "AECOM",
+      "buyers": 3,
+      "total": 699391,
+      "note": "3 insiders at $70.87"
+    },
+    {
+      "t": "EXE",
+      "n": "Expand Energy",
+      "buyers": 2,
+      "total": 560880,
+      "note": "2 insiders at $93.48"
     }
   ],
   "politicians": [
     {
-      "who": "Nancy/Paul Pelosi",
+      "who": "Nancy Pelosi",
       "party": "D",
-      "t": "NVDA",
-      "n": "NVIDIA",
-      "type": "Call options (LEAPS)",
-      "size": "~$1M+ notional",
-      "note": "Holds long-dated Jan-2027 deep-ITM NVDA calls ($80/$100 strikes); trimmed shares, kept upside via options."
+      "t": "INTC",
+      "n": "Intel",
+      "type": "BUY",
+      "size": "1M-5M",
+      "note": "Spouse; lands amid INTC +250% YTD turnaround & upgrade wave"
     },
     {
-      "who": "Nancy/Paul Pelosi",
+      "who": "Nancy Pelosi",
       "party": "D",
-      "t": "AAPL",
-      "n": "Apple",
-      "type": "Reposition",
-      "size": "part of ~$69M tech reshuffle",
-      "note": "Part of early-2026 big-tech repositioning across NVDA/AAPL/GOOGL per Capitol Trades."
+      "t": "UBER",
+      "n": "Uber",
+      "type": "BUY",
+      "size": "500K-1M",
+      "note": "Spouse purchase"
+    },
+    {
+      "who": "Neal Dunn",
+      "party": "R",
+      "t": "T",
+      "n": "AT&T",
+      "type": "SELL",
+      "size": "15K-50K",
+      "note": "Trimming telecom"
+    },
+    {
+      "who": "Neal Dunn",
+      "party": "R",
+      "t": "RF",
+      "n": "Regions Financial",
+      "type": "SELL",
+      "size": "50K-100K",
+      "note": "Trimming regional bank"
     }
   ]
 }

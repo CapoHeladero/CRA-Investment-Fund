@@ -1,86 +1,78 @@
 {
-  "asof": "2026-06-24",
-  "method": "Momentum/technical setups in leading sectors (Energy, Power/Nuclear, Industrials, Materials). conv 1-5. buy=accumulate (support/breakout-retest), sell=resistance/target. Technical, not advice.",
+  "asof": "2026-06-25",
+  "method": "Momentum/technical setups in leading sectors (semis/AI, power & nuclear, industrials, materials). buy=accumulate level, sell=resistance/target. Not advice.",
   "ideas": [
     {
-      "t": "CEG",
-      "n": "Constellation Energy",
+      "t": "MU",
+      "n": "Micron",
       "conv": 5,
-      "buy": 265,
-      "sell": 320,
-      "thesis": "Uptrend intact; buy pullbacks to rising 50DMA ~265, resistance/target near prior high 320."
+      "buy": 1010.0,
+      "sell": 1213.0,
+      "thesis": "Gap-up on blowout earnings; buy the first pullback toward prior breakout, target Street-high PT zone."
     },
     {
-      "t": "VST",
-      "n": "Vistra",
+      "t": "AVGO",
+      "n": "Broadcom",
       "conv": 4,
-      "buy": 158,
-      "sell": 200,
-      "thesis": "Pulled back from 219 high to support ~158; reclaim of 175 opens path back toward 200."
+      "buy": 372.0,
+      "sell": 430.0,
+      "thesis": "Holding above rising 50DMA (~$413 ref); accumulate on dips, measured move toward $430."
     },
     {
-      "t": "GEV",
-      "n": "GE Vernova",
+      "t": "NVDA",
+      "n": "NVIDIA",
       "conv": 4,
-      "buy": 1080,
-      "sell": 1250,
-      "thesis": "Consolidating below 1149 ATH; accumulate on holds of 1080, breakout target 1250."
+      "buy": 192.0,
+      "sell": 225.0,
+      "thesis": "Reclaiming leadership with chip trade; buy retest of ~$192 support, resistance ~$225."
     },
     {
-      "t": "FANG",
-      "n": "Diamondback",
+      "t": "PANW",
+      "n": "Palo Alto",
       "conv": 4,
-      "buy": 183,
-      "sell": 215,
-      "thesis": "Energy rotation; basing near 183 support, target toward $215 / analyst $234 zone."
+      "buy": 278.0,
+      "sell": 303.0,
+      "thesis": "Breakout to ATHs; buy retest of $278 breakout, resistance at 52-wk high $302.95."
     },
     {
-      "t": "ETN",
-      "n": "Eaton",
-      "conv": 4,
-      "buy": 420,
-      "sell": 475,
-      "thesis": "At ATH 436; buy retests of 420 breakout, momentum target 475."
+      "t": "CEG",
+      "n": "Constellation",
+      "conv": 3,
+      "buy": 258.0,
+      "sell": 295.0,
+      "thesis": "AI-power leader basing; accumulate ~$258, breakout target ~$295."
+    },
+    {
+      "t": "VRT",
+      "n": "Vertiv",
+      "conv": 3,
+      "buy": 298.0,
+      "sell": 345.0,
+      "thesis": "Datacenter-power momentum; buy dip to $298 zone, resistance ~$345."
     },
     {
       "t": "CCJ",
       "n": "Cameco",
       "conv": 4,
-      "buy": 104,
-      "sell": 128,
-      "thesis": "Uranium momentum; support ~104, breakout above 112 targets 128."
+      "buy": 104.0,
+      "sell": 125.0,
+      "thesis": "Uptrend intact on uranium deficit; accumulate ~$104, target ~$125."
     },
     {
-      "t": "FCX",
-      "n": "Freeport-McMoRan",
+      "t": "NEM",
+      "n": "Newmont",
       "conv": 3,
-      "buy": 62,
-      "sell": 78,
-      "thesis": "Copper dip (-6.7% 6/23) to 62 support; reclaim of 67 targets 78."
+      "buy": 91.0,
+      "sell": 110.0,
+      "thesis": "Pullback from $110+ to support; gold-hedge accumulate ~$91, retest highs ~$110."
     },
     {
-      "t": "NUE",
-      "n": "Nucor",
+      "t": "GEV",
+      "n": "GE Vernova",
       "conv": 3,
-      "buy": 235,
-      "sell": 270,
-      "thesis": "Constructive Q2 guide; accumulate 235 support, resistance 270."
-    },
-    {
-      "t": "AMZN",
-      "n": "Amazon",
-      "conv": 3,
-      "buy": 230,
-      "sell": 270,
-      "thesis": "Holding 230 base into Prime Day; breakout above 245 targets 270."
-    },
-    {
-      "t": "NVDA",
-      "n": "NVIDIA",
-      "conv": 3,
-      "buy": 198,
-      "sell": 245,
-      "thesis": "AI-selloff retest of 200DMA ~198; needs reclaim of 210 to target prior high 245."
+      "buy": 995.0,
+      "sell": 1150.0,
+      "thesis": "Electrification leader; buy dips to ~$995, measured target ~$1,150."
     }
   ]
 }

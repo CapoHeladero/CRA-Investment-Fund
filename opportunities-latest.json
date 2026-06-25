@@ -1,834 +1,929 @@
 [
   {
-    "t": "NVDA",
-    "n": "NVIDIA",
-    "theme": "AI Infrastructure / Semis",
-    "type": "Core",
-    "size": "≤$250 starter; add on hold of 200DMA",
-    "why": "AI accelerator leader; selloff on AI-capex-ROI fears offers re-entry near support.",
+    "t": "MU",
+    "n": "Micron",
+    "theme": "Semis / AI Memory",
+    "type": "Catalyst-momentum",
+    "size": "Core",
+    "a": 1048.51,
+    "why": "Blowout Q3: rev quadrupled, 84.9% gross margin, $22B AI deals, supply tight to 2028.",
     "bull": [
-      "Data-center demand still secular",
-      "Networking + software widen moat",
-      "Buybacks support floor"
+      "HBM/DRAM supercycle with multi-year contracted demand",
+      "Margins now above Nvidia/Meta",
+      "KeyBanc PT $1,600"
     ],
     "bear": [
-      "AI-capex digestion risk from hyperscalers",
-      "Valuation premium",
-      "China export limits"
+      "Memory is cyclical \u2014 peak-margin risk",
+      "Gapping +17%, chasing the gap is risky",
+      "Capex arms race could oversupply by 2028"
     ],
     "v": [
-      "~30x fwd earnings post-pullback"
+      "Earnings beat + raised guidance",
+      "Street-high PT raises",
+      "Chip rally leadership"
     ],
-    "inv": "Accumulate on weakness",
-    "entry": 198,
-    "stop": 178,
-    "target": 245,
-    "a": "2026-06-24"
+    "inv": "Loss of HBM pricing power / break below stop",
+    "entry": 1017.05,
+    "stop": 895.0,
+    "target": 1271.31
+  },
+  {
+    "t": "NVDA",
+    "n": "NVIDIA",
+    "theme": "Semis / AI Hardware",
+    "type": "Quality compounder",
+    "size": "Core",
+    "a": 199.0,
+    "why": "AI compute monopoly; $119B FCF; rebounding with the chip trade.",
+    "bull": [
+      "Dominant data-center GPU share",
+      "Massive FCF funds buybacks",
+      "Reverse-DCF implies only ~17% growth"
+    ],
+    "bear": [
+      "Custom-silicon (AVGO) competition",
+      "Hyperscaler capex digestion risk",
+      "Valuation sensitive to AI sentiment"
+    ],
+    "v": [
+      "Sector leadership resumed post-MU",
+      "Analyst upgrades"
+    ],
+    "inv": "Hyperscaler capex cuts / break below stop",
+    "entry": 199.0,
+    "stop": 179.1,
+    "target": 242.78
   },
   {
     "t": "AVGO",
     "n": "Broadcom",
-    "theme": "AI Infrastructure / Semis",
-    "type": "Core",
-    "size": "≤$250",
-    "why": "Custom AI silicon + VMware software; recurring revenue cushions chip cyclicality.",
+    "theme": "Semis / AI Networking",
+    "type": "Quality compounder",
+    "size": "Core",
+    "a": 382.07,
+    "why": "Custom AI accelerators + networking; $32.8B FCF; PEG 0.53.",
     "bull": [
-      "Custom ASIC ramp at hyperscalers",
-      "Software mix lifts margins",
-      "Dividend growth"
+      "Hyperscaler XPU design wins ramping 2026-27",
+      "VMware cash engine",
+      "Reasonable PEG"
     ],
     "bear": [
       "Customer concentration",
-      "Rich multiple",
-      "Cyclical chip demand"
+      "Net debt from VMware",
+      "High absolute multiple"
     ],
     "v": [
-      "~30x fwd FCF"
+      "Upgrade cycle on design wins",
+      "Pre-mkt strength"
     ],
-    "inv": "Core hold",
-    "entry": 374,
-    "stop": 340,
-    "target": 430,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "TSM",
-    "n": "Taiwan Semiconductor (ADR)",
-    "theme": "AI Infrastructure / Semis",
-    "type": "Core",
-    "size": "≤$250",
-    "why": "Sole leading-edge foundry; every AI chip routes through it.",
-    "bull": [
-      "Pricing power on 3nm/2nm",
-      "AI demand backlog",
-      "Arizona capacity de-risks geo"
-    ],
-    "bear": [
-      "Taiwan geopolitical tail risk",
-      "Capex intensity",
-      "FX"
-    ],
-    "v": [
-      "~22x fwd earnings, reasonable for growth"
-    ],
-    "inv": "Core hold",
-    "entry": 455,
-    "stop": 415,
-    "target": 540,
-    "a": "2026-06-24"
+    "inv": "Design-win cadence slows / break below stop",
+    "entry": 382.07,
+    "stop": 343.86,
+    "target": 466.13
   },
   {
     "t": "AMD",
-    "n": "Advanced Micro Devices",
-    "theme": "AI Infrastructure / Semis",
-    "type": "Growth",
-    "size": "≤$200",
-    "why": "MI-series GPU share gains; sold off hard with semis (-5.8%).",
+    "n": "AMD",
+    "theme": "Semis / AI Hardware",
+    "type": "Momentum",
+    "size": "Tactical",
+    "a": 519.85,
+    "why": "MI-series AI GPUs gaining share; pulled back 6% from ATH into the selloff.",
     "bull": [
-      "MI accelerator traction",
+      "#2 AI accelerator with improving software",
       "Server CPU share gains",
-      "Optionality on AI"
+      "Re-accelerates with chip trade"
     ],
     "bear": [
-      "Trails NVDA in software",
-      "High valuation",
-      "Execution risk"
+      "Trails Nvidia on ecosystem",
+      "Rich valuation after huge run",
+      "High beta drawdowns"
     ],
     "v": [
-      "Premium to history"
+      "Chip-rally rebound",
+      "ATH just days ago"
     ],
-    "inv": "Trade the range",
-    "entry": 500,
-    "stop": 455,
-    "target": 600,
-    "a": "2026-06-24"
+    "inv": "Break below stop / share-loss data",
+    "entry": 504.25,
+    "stop": 438.7,
+    "target": 645.44
   },
   {
-    "t": "MU",
-    "n": "Micron Technology",
-    "theme": "AI Infrastructure / Memory",
-    "type": "Growth",
-    "size": "≤$150 (volatile)",
-    "why": "HBM memory super-cycle; -13% on AI-spend jitters into earnings.",
+    "t": "VRT",
+    "n": "Vertiv",
+    "theme": "AI Infra / Power & Cooling",
+    "type": "Momentum",
+    "size": "Core",
+    "a": 305.0,
+    "why": "Data-center power & liquid cooling pick-and-shovel on AI buildout.",
     "bull": [
-      "HBM sold out, pricing strong",
-      "AI memory content rising",
-      "Earnings catalyst"
+      "Liquid-cooling demand inflection",
+      "Backlog growth",
+      "Direct AI-capex beneficiary"
     ],
     "bear": [
-      "Memory is cyclical",
-      "Sharp drawdowns",
-      "Capacity additions"
+      "High multiple, high beta",
+      "Order timing lumpiness",
+      "Competition from Schneider/legacy"
     ],
     "v": [
-      "Cyclical — judge on through-cycle FCF"
+      "AI-capex tailwind",
+      "Datacenter theme leadership"
     ],
-    "inv": "Momentum, tight stop",
-    "entry": 1020,
-    "stop": 920,
-    "target": 1230,
-    "a": "2026-06-24"
+    "inv": "Order growth stalls / break below stop",
+    "entry": 295.85,
+    "stop": 257.39,
+    "target": 378.69
+  },
+  {
+    "t": "GEV",
+    "n": "GE Vernova",
+    "theme": "AI Power / Electrification",
+    "type": "Quality compounder",
+    "size": "Core",
+    "a": 1034.98,
+    "why": "Grid + gas + nuclear equipment for surging electricity demand.",
+    "bull": [
+      "Grid capex supercycle",
+      "Gas turbine backlog full",
+      "Nuclear (SMR) optionality"
+    ],
+    "bear": [
+      "Very high share price/multiple",
+      "Execution on backlog",
+      "Wind segment drag"
+    ],
+    "v": [
+      "Electrification demand",
+      "Industrials sector leadership"
+    ],
+    "inv": "Backlog conversion misses / break below stop",
+    "entry": 1034.98,
+    "stop": 921.13,
+    "target": 1283.38
+  },
+  {
+    "t": "ETN",
+    "n": "Eaton",
+    "theme": "Industrials / Datacenter Power",
+    "type": "Quality compounder",
+    "size": "Core",
+    "a": 404.59,
+    "why": "Electrical components levered to datacenter & reshoring capex.",
+    "bull": [
+      "Datacenter electrical demand",
+      "Reshoring tailwind",
+      "Steady FCF compounding"
+    ],
+    "bear": [
+      "Cyclical end-markets",
+      "Valuation full",
+      "Implied ~18% growth needed"
+    ],
+    "v": [
+      "Datacenter narrative",
+      "Industrials momentum"
+    ],
+    "inv": "Capex slowdown / break below stop",
+    "entry": 404.59,
+    "stop": 364.13,
+    "target": 485.51
   },
   {
     "t": "PLTR",
     "n": "Palantir",
-    "theme": "Software / AI Apps",
-    "type": "Growth",
-    "size": "≤$150",
-    "why": "Commercial AIP adoption accelerating; rich but high-growth.",
+    "theme": "AI Software",
+    "type": "High-beta growth",
+    "size": "Tactical",
+    "a": 113.5,
+    "why": "AIP commercial ramp; down 31% YTD resetting an extreme multiple.",
     "bull": [
-      "US commercial bookings surge",
-      "Gov backlog",
-      "FCF positive"
+      "Commercial AIP adoption accelerating",
+      "Rule-of-40 economics",
+      "Gov + commercial dual engine"
     ],
     "bear": [
-      "Extreme valuation",
-      "SBC dilution",
-      "Lumpy gov revenue"
+      "Still rich: reverse-DCF needs ~30% growth",
+      "Down 31% YTD \u2014 broken momentum",
+      "SBC dilution"
     ],
     "v": [
-      "Very high multiple — size small"
+      "Commercial bookings growth"
     ],
-    "inv": "Speculative growth",
-    "entry": 115,
-    "stop": 103,
-    "target": 140,
-    "a": "2026-06-24"
+    "inv": "Bookings decelerate / break below stop",
+    "entry": 110.09,
+    "stop": 93.58,
+    "target": 143.12
+  },
+  {
+    "t": "INTC",
+    "n": "Intel",
+    "theme": "Semis / Turnaround",
+    "type": "Turnaround",
+    "size": "Tactical",
+    "a": 134.1,
+    "why": "+250% YTD turnaround; Pelosi bought; broad analyst upgrade wave.",
+    "bull": [
+      "Foundry milestones + upgrade cycle",
+      "Notable politician buy (Pelosi)",
+      "Sentiment inflection"
+    ],
+    "bear": [
+      "Execution risk on foundry",
+      "Up huge \u2014 chasing risk",
+      "Margin recovery unproven"
+    ],
+    "v": [
+      "Pelosi BUY 1M-5M",
+      "Upgrade wave to Hold/Buy"
+    ],
+    "inv": "Foundry setback / break below stop",
+    "entry": 130.08,
+    "stop": 113.17,
+    "target": 162.6
+  },
+  {
+    "t": "PANW",
+    "n": "Palo Alto Networks",
+    "theme": "Cybersecurity",
+    "type": "Momentum",
+    "size": "Core",
+    "a": 285.26,
+    "why": "Platformization driving ARR; fresh ATHs on upgrades to $300 PTs.",
+    "bull": [
+      "Platform consolidation winning share",
+      "Strong FCF margins",
+      "Upgrade momentum (Jefferies/Wedbush)"
+    ],
+    "bear": [
+      "Valuation full",
+      "Implied ~23% growth",
+      "Competitive (CRWD/Zscaler)"
+    ],
+    "v": [
+      "Analyst upgrades to $300",
+      "All-time highs"
+    ],
+    "inv": "ARR growth slows / break below stop",
+    "entry": 285.26,
+    "stop": 253.88,
+    "target": 348.02
   },
   {
     "t": "CRWD",
     "n": "CrowdStrike",
     "theme": "Cybersecurity",
-    "type": "Core",
-    "size": "≤$200 (4:1 split Jul 2)",
-    "why": "Endpoint + platform consolidation; durable ARR growth.",
+    "type": "Momentum",
+    "size": "Tactical",
+    "a": 683.0,
+    "why": "Falcon platform leader; +46% YTD; 4-for-1 split pending (adjust levels post-split).",
     "bull": [
-      "Module cross-sell",
-      "Falcon platform stickiness",
-      "Strong NRR"
+      "Best-in-class endpoint/SIEM",
+      "High net retention",
+      "Post-outage recovery complete"
     ],
     "bear": [
-      "Premium multiple",
-      "Competition",
-      "Post-outage trust rebuild"
+      "Premium valuation",
+      "Split mechanics may alter levels",
+      "Macro IT-spend risk"
     ],
     "v": [
-      "High multiple, premium quality"
+      "YTD leadership",
+      "Split catalyst"
     ],
-    "inv": "Core hold",
-    "entry": 418,
-    "stop": 380,
-    "target": 507,
-    "a": "2026-06-24"
+    "inv": "NRR deterioration / break below stop. NOTE: levels pre-split.",
+    "entry": 683.0,
+    "stop": 601.04,
+    "target": 846.92
   },
   {
     "t": "CEG",
     "n": "Constellation Energy",
-    "theme": "Nuclear / AI Power",
-    "type": "Core",
-    "size": "≤$250",
-    "why": "Largest US nuclear fleet; data-center PPAs underpin growth.",
+    "theme": "Nuclear / AI-Power",
+    "type": "Quality + theme",
+    "size": "Core",
+    "a": 267.97,
+    "why": "Largest US nuclear fleet; data-center PPAs; reverse-DCF implies high growth though.",
     "bull": [
-      "AI/data-center power demand",
-      "Nuclear PTC floor",
-      "Long-term PPAs"
+      "AI datacenter power contracts",
+      "Clean baseload scarcity value",
+      "Policy tailwinds"
     ],
     "bear": [
-      "Regulatory/political",
-      "Rate sensitivity",
-      "Valuation re-rated"
+      "Reverse-DCF needs ~27% growth \u2014 priced for a lot",
+      "Power-price sensitivity",
+      "Regulatory risk"
     ],
     "v": [
-      "Re-rated on AI-power theme"
+      "AI-power demand",
+      "Sector (utilities) strength"
     ],
-    "inv": "Core hold",
-    "entry": 265,
-    "stop": 240,
-    "target": 320,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "TLN",
-    "n": "Talen Energy",
-    "theme": "Nuclear / AI Power",
-    "type": "Growth",
-    "size": "≤$200",
-    "why": "Susquehanna nuclear + hyperscaler colocation optionality.",
-    "bull": [
-      "Data-center colocation deals",
-      "Tight PJM capacity",
-      "Buybacks"
-    ],
-    "bear": [
-      "Single-asset concentration",
-      "Merchant power swings",
-      "Regulatory ruling risk"
-    ],
-    "v": [
-      "Cash-flow story, watch FERC"
-    ],
-    "inv": "Growth",
-    "entry": 400,
-    "stop": 360,
-    "target": 480,
-    "a": "2026-06-24"
+    "inv": "PPA pipeline stalls / break below stop",
+    "entry": 267.97,
+    "stop": 238.49,
+    "target": 326.92
   },
   {
     "t": "VST",
     "n": "Vistra",
-    "theme": "Nuclear / AI Power",
-    "type": "Growth",
-    "size": "≤$200",
-    "why": "Nuclear + gas fleet leveraged to rising power prices; pulled back from highs.",
+    "theme": "Nuclear / Power",
+    "type": "Momentum value",
+    "size": "Tactical",
+    "a": 165.68,
+    "why": "IPP with nuclear + gas; AI-demand re-rating, buybacks.",
     "bull": [
-      "Power-demand supercycle",
-      "Capital returns",
-      "Retail + generation mix"
+      "AI power-demand leverage",
+      "Aggressive buybacks",
+      "Nuclear PTC floor"
     ],
     "bear": [
-      "Commodity exposure",
-      "Leverage",
-      "Weather/demand variance"
+      "Merchant power volatility",
+      "High beta",
+      "Run-up already large"
     ],
     "v": [
-      "~mid-cycle, off 52w high 219"
+      "AI-power theme",
+      "Capital returns"
     ],
-    "inv": "Accumulate dips",
-    "entry": 158,
-    "stop": 140,
-    "target": 200,
-    "a": "2026-06-24"
+    "inv": "Power spreads compress / break below stop",
+    "entry": 165.68,
+    "stop": 144.14,
+    "target": 208.76
   },
   {
-    "t": "GEV",
-    "n": "GE Vernova",
-    "theme": "Electrification / AI Power",
-    "type": "Core",
-    "size": "≤$250",
-    "why": "Grid equipment + gas turbines; the 'picks and shovels' of power buildout.",
+    "t": "OKLO",
+    "n": "Oklo",
+    "theme": "Nuclear / SMR (spec)",
+    "type": "Speculative",
+    "size": "Speculative",
+    "a": 55.23,
+    "why": "Pre-revenue advanced-reactor story on AI-power hype.",
     "bull": [
-      "Turbine + grid backlog",
-      "Electrification capex wave",
-      "Margin expansion"
+      "SMR optionality on AI power",
+      "Strong narrative + sponsorship",
+      "DOE/site momentum"
     ],
     "bear": [
-      "Very high valuation",
-      "Execution on backlog",
-      "Off ATH ~1149"
+      "Pre-revenue, no FCF \u2014 story stock",
+      "Years from commercialization",
+      "Extreme volatility"
     ],
     "v": [
-      "Priced for strong growth"
+      "AI-power theme flows"
     ],
-    "inv": "Core hold",
-    "entry": 1080,
-    "stop": 980,
-    "target": 1250,
-    "a": "2026-06-24"
+    "inv": "Sentiment reversal / break below stop",
+    "entry": 55.23,
+    "stop": 43.08,
+    "target": 80.08
   },
   {
     "t": "CCJ",
     "n": "Cameco",
     "theme": "Uranium",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Tier-1 uranium producer + Westinghouse stake; nuclear restart tailwind.",
+    "type": "Theme core",
+    "size": "Core",
+    "a": 108.89,
+    "why": "Top-tier uranium producer; +56% in 12m on nuclear demand.",
     "bull": [
-      "Uranium price uptrend",
-      "Westinghouse services",
-      "Long-term contracts"
+      "Structural uranium deficit",
+      "Westinghouse stake",
+      "Long-term utility contracting"
     ],
     "bear": [
-      "Commodity volatility",
-      "Project ramp risk",
-      "Sentiment-driven"
+      "Uranium price volatility",
+      "Production/cost risk",
+      "Cyclical sentiment"
     ],
     "v": [
-      "Leveraged to U3O8 price"
+      "Nuclear buildout",
+      "Sector momentum"
     ],
-    "inv": "Core hold",
-    "entry": 104,
-    "stop": 93,
-    "target": 128,
-    "a": "2026-06-24"
+    "inv": "Uranium rolls over / break below stop",
+    "entry": 108.89,
+    "stop": 94.73,
+    "target": 137.2
   },
   {
     "t": "UEC",
     "n": "Uranium Energy",
-    "theme": "Uranium",
+    "theme": "Uranium (spec)",
     "type": "Speculative",
-    "size": "≤$120",
-    "why": "US ISR uranium pure-play; high-beta on uranium price.",
+    "size": "Speculative",
+    "a": 11.32,
+    "why": "US ISR uranium developer leveraged to spot prices.",
     "bull": [
-      "US supply security theme",
-      "Low-cost ISR",
-      "Unhedged spot leverage"
+      "US supply-security premium",
+      "Restart optionality",
+      "High beta to U price"
     ],
     "bear": [
-      "Pre-major-cashflow",
-      "Dilution history",
-      "Spot-price swings"
+      "Pre-meaningful-cash-flow",
+      "Spot-price dependent",
+      "Dilution risk"
     ],
     "v": [
-      "Speculative, spot-leveraged"
+      "Uranium theme"
     ],
-    "inv": "Speculative",
-    "entry": 10.8,
-    "stop": 9.2,
-    "target": 14.5,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "FSLR",
-    "n": "First Solar",
-    "theme": "Renewables / Solar",
-    "type": "Growth",
-    "size": "≤$200",
-    "why": "US-made thin-film; IRA/domestic-content backlog, pulled back from ATH 318.",
-    "bull": [
-      "Multi-year contracted backlog",
-      "Domestic-content credits",
-      "Tariff insulation"
-    ],
-    "bear": [
-      "Policy reversal risk",
-      "ASP pressure",
-      "Off recent highs"
-    ],
-    "v": [
-      "Backlog visibility, reasonable"
-    ],
-    "inv": "Accumulate dips",
-    "entry": 250,
-    "stop": 225,
-    "target": 310,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "NEE",
-    "n": "NextEra Energy",
-    "theme": "Renewables / Utility",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Largest US renewables developer + regulated utility; defensive growth.",
-    "bull": [
-      "Renewables backlog",
-      "Regulated earnings base",
-      "Dividend grower"
-    ],
-    "bear": [
-      "Rate sensitivity",
-      "Policy risk",
-      "Slower growth than peers"
-    ],
-    "v": [
-      "Reasonable for quality utility"
-    ],
-    "inv": "Core/defensive",
-    "entry": 84,
-    "stop": 76,
-    "target": 98,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "ENPH",
-    "n": "Enphase Energy",
-    "theme": "Renewables / Solar",
-    "type": "Speculative",
-    "size": "≤$120",
-    "why": "Microinverters/storage; deep value vs history but residential-demand sensitive.",
-    "bull": [
-      "Storage attach growth",
-      "Margin recovery",
-      "Intl expansion"
-    ],
-    "bear": [
-      "Resi solar weak on rates",
-      "Competition",
-      "Policy (net metering)"
-    ],
-    "v": [
-      "Beaten down vs 52w high 73"
-    ],
-    "inv": "Speculative turnaround",
-    "entry": 50,
-    "stop": 44,
-    "target": 65,
-    "a": "2026-06-24"
+    "inv": "U price drop / break below stop",
+    "entry": 11.32,
+    "stop": 9.06,
+    "target": 15.85
   },
   {
     "t": "IONQ",
     "n": "IonQ",
-    "theme": "Quantum Computing",
+    "theme": "Quantum (spec)",
     "type": "Speculative",
-    "size": "≤$100 (story stock)",
-    "why": "Trapped-ion quantum leader; pre-revenue-scale, pure optionality.",
+    "size": "Speculative",
+    "a": 58.32,
+    "why": "Trapped-ion quantum leader; Trump quantum EOs (Jun 22) lit the theme.",
     "bull": [
-      "Gov/enterprise contracts",
-      "Networking IP",
-      "First-mover brand"
+      "Policy tailwind (exec orders)",
+      "Northland PT $70",
+      "Theme leadership"
     ],
     "bear": [
-      "Pre-meaningful-revenue",
-      "Cash burn/dilution",
-      "Tech timeline risk"
+      "Pre-revenue, negative FCF",
+      "Volatile theme \u2014 fell 5-7% mid-June",
+      "Long road to scale"
     ],
     "v": [
-      "No earnings — pure narrative"
+      "Quantum EO catalyst"
     ],
-    "inv": "Lottery sleeve",
-    "entry": 54,
-    "stop": 46,
-    "target": 75,
-    "a": "2026-06-24"
+    "inv": "Theme unwinds / break below stop",
+    "entry": 58.32,
+    "stop": 45.49,
+    "target": 84.56
+  },
+  {
+    "t": "RGTI",
+    "n": "Rigetti",
+    "theme": "Quantum (spec)",
+    "type": "Speculative",
+    "size": "Speculative",
+    "a": 21.17,
+    "why": "Superconducting quantum; high-beta theme trade.",
+    "bull": [
+      "Quantum policy catalyst",
+      "+58% off April lows",
+      "Optionality"
+    ],
+    "bear": [
+      "Pre-revenue, dilutive",
+      "Extreme volatility",
+      "Concentrated theme risk"
+    ],
+    "v": [
+      "Quantum EO catalyst"
+    ],
+    "inv": "Theme unwinds / break below stop",
+    "entry": 21.17,
+    "stop": 15.88,
+    "target": 31.76
   },
   {
     "t": "RKLB",
     "n": "Rocket Lab",
     "theme": "Space",
-    "type": "Speculative",
-    "size": "≤$120",
-    "why": "Small-launch + Neutron rocket + space systems; up ~280% YoY, volatile.",
+    "type": "Momentum (spec)",
+    "size": "Tactical",
+    "a": 85.41,
+    "why": "Neutron ramp + launch cadence; pulled back 10% from highs.",
     "bull": [
-      "Neutron medium-lift catalyst",
-      "Space Systems backlog",
-      "Launch cadence"
+      "Neutron medium-lift optionality",
+      "Launch backlog growth",
+      "Space-economy leader ex-SpaceX"
     ],
     "bear": [
-      "Not yet profitable",
-      "Neutron timing risk",
-      "Off ATH 150"
+      "Not yet FCF-positive",
+      "-10% day shows volatility",
+      "Execution/launch risk"
     ],
     "v": [
-      "Growth-at-any-price, size small"
+      "Launch cadence",
+      "Space theme"
     ],
-    "inv": "Speculative growth",
-    "entry": 90,
-    "stop": 78,
-    "target": 120,
-    "a": "2026-06-24"
+    "inv": "Neutron slips / break below stop",
+    "entry": 83.7,
+    "stop": 68.63,
+    "target": 117.18
+  },
+  {
+    "t": "ASTS",
+    "n": "AST SpaceMobile",
+    "theme": "Space / Satellite",
+    "type": "Speculative",
+    "size": "Speculative",
+    "a": 68.01,
+    "why": "Direct-to-cell satellite; BlueBird launches driving hype, then -7%.",
+    "bull": [
+      "Direct-to-device TAM",
+      "Carrier partnerships",
+      "Launch milestones"
+    ],
+    "bear": [
+      "Pre-revenue, capital intensive",
+      "Dilution/financing risk",
+      "Execution on constellation"
+    ],
+    "v": [
+      "BlueBird launch news"
+    ],
+    "inv": "Launch/financing setback / break below stop",
+    "entry": 68.01,
+    "stop": 53.05,
+    "target": 98.61
+  },
+  {
+    "t": "FSLR",
+    "n": "First Solar",
+    "theme": "Renewables / Solar",
+    "type": "Value-momentum",
+    "size": "Tactical",
+    "a": 250.0,
+    "why": "US thin-film leader with IRA manufacturing credits and full backlog.",
+    "bull": [
+      "Domestic-content advantage",
+      "Multi-year sold-out backlog",
+      "Tariff-protected"
+    ],
+    "bear": [
+      "Policy/IRA headline risk",
+      "ASP pressure long-term",
+      "Cyclical demand"
+    ],
+    "v": [
+      "Backlog visibility"
+    ],
+    "inv": "Policy reversal / break below stop",
+    "entry": 250.0,
+    "stop": 217.5,
+    "target": 317.5
   },
   {
     "t": "XOM",
     "n": "Exxon Mobil",
     "theme": "Energy",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Integrated major; Permian + Guyana low-cost barrels, strong dividend.",
+    "type": "Quality value",
+    "size": "Core",
+    "a": 136.9,
+    "why": "Integrated major; cheapest reverse-DCF (~13%); FCF + dividend.",
     "bull": [
-      "Low-cost production growth",
-      "Capital discipline",
+      "Low implied-growth bar",
+      "Pioneer integration synergies",
       "Dividend aristocrat"
     ],
     "bear": [
-      "Oil price (Brent ~77, Iran supply)",
-      "Energy transition",
-      "Refining margins"
+      "Oil at prewar lows pressures FCF",
+      "Energy lagging in rotation",
+      "Capex discipline tested"
     ],
     "v": [
-      "Cheap vs market, high yield"
+      "Value screen",
+      "Defensive FCF"
     ],
-    "inv": "Core/income",
-    "entry": 137,
-    "stop": 126,
-    "target": 152,
-    "a": "2026-06-24"
+    "inv": "Sustained sub-$60 oil / break below stop",
+    "entry": 136.9,
+    "stop": 123.21,
+    "target": 164.28
   },
   {
-    "t": "CVX",
-    "n": "Chevron",
-    "theme": "Energy",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Integrated major; Hess assets + Permian, shareholder returns.",
+    "t": "EXE",
+    "n": "Expand Energy",
+    "theme": "Energy / Nat Gas",
+    "type": "Insider-led",
+    "size": "Tactical",
+    "a": 93.48,
+    "why": "Largest US gas producer; insider cluster buy; LNG/AI-power gas demand.",
     "bull": [
-      "Hess/Guyana growth",
-      "Buybacks + dividend",
-      "Balance sheet"
+      "Insider buying (recent)",
+      "LNG export + datacenter gas demand",
+      "Scale/cost leader"
     ],
     "bear": [
-      "Oil price weakness",
-      "Capex",
-      "Transition risk"
+      "Gas price volatility",
+      "Recent reference price may differ now",
+      "Cyclical"
     ],
     "v": [
-      "Attractive yield"
+      "Insider cluster buy"
     ],
-    "inv": "Core/income",
-    "entry": 172,
-    "stop": 160,
-    "target": 195,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "OXY",
-    "n": "Occidental",
-    "theme": "Energy",
-    "type": "Growth",
-    "size": "≤$150",
-    "why": "Permian leverage + carbon-capture optionality; Buffett-backed.",
-    "bull": [
-      "Permian scale",
-      "OxyChem cash flow",
-      "Debt paydown"
-    ],
-    "bear": [
-      "High oil-price sensitivity",
-      "Leverage",
-      "CCUS unproven economics"
-    ],
-    "v": [
-      "Leveraged to oil"
-    ],
-    "inv": "Growth/cyclical",
-    "entry": 51,
-    "stop": 46,
-    "target": 62,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "FANG",
-    "n": "Diamondback Energy",
-    "theme": "Energy",
-    "type": "Growth",
-    "size": "≤$150",
-    "why": "Lowest-cost Permian pure-play; 90% buy ratings, $234 avg target.",
-    "bull": [
-      "Low breakeven",
-      "Capital returns",
-      "Consolidation scale"
-    ],
-    "bear": [
-      "Single-basin",
-      "Oil price",
-      "Brent softness on Iran"
-    ],
-    "v": [
-      "Cheap FCF yield"
-    ],
-    "inv": "Growth/income",
-    "entry": 183,
-    "stop": 168,
-    "target": 215,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "ETN",
-    "n": "Eaton",
-    "theme": "Industrials / Electrification",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Electrical equipment for data centers + grid; hit ATH 6/22.",
-    "bull": [
-      "Data-center electrical demand",
-      "Reshoring capex",
-      "Backlog growth"
-    ],
-    "bear": [
-      "High valuation at ATH",
-      "Cyclical exposure",
-      "Supply chain"
-    ],
-    "v": [
-      "Premium for secular growth"
-    ],
-    "inv": "Core hold",
-    "entry": 420,
-    "stop": 385,
-    "target": 475,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "CAT",
-    "n": "Caterpillar",
-    "theme": "Industrials",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Global construction/mining + power-gen; pulled back from ATH 1022.",
-    "bull": [
-      "Power-gen/data-center engines",
-      "Infrastructure spend",
-      "Buybacks"
-    ],
-    "bear": [
-      "Late-cycle risk",
-      "China/EM demand",
-      "Valuation extended"
-    ],
-    "v": [
-      "Near record, watch entry"
-    ],
-    "inv": "Accumulate dips",
-    "entry": 960,
-    "stop": 880,
-    "target": 1080,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "FCX",
-    "n": "Freeport-McMoRan",
-    "theme": "Materials / Copper",
-    "type": "Growth",
-    "size": "≤$150",
-    "why": "Copper bellwether; electrification + AI-power demand, -6.7% on 6/23 dip.",
-    "bull": [
-      "Copper structural deficit",
-      "Electrification demand",
-      "Grasberg/US assets"
-    ],
-    "bear": [
-      "Copper price cyclicality",
-      "Indonesia policy",
-      "Capex"
-    ],
-    "v": [
-      "Possible discount to fair value"
-    ],
-    "inv": "Cyclical growth",
-    "entry": 62,
-    "stop": 55,
-    "target": 78,
-    "a": "2026-06-24"
-  },
-  {
-    "t": "NUE",
-    "n": "Nucor",
-    "theme": "Materials / Steel",
-    "type": "Core",
-    "size": "≤$150",
-    "why": "Low-cost US steel; Q2 guide $4.70-4.80 EPS, reshoring + infra demand.",
-    "bull": [
-      "Reshoring/infra steel demand",
-      "Low-cost mini-mills",
-      "Capital returns"
-    ],
-    "bear": [
-      "Steel price cyclicality",
-      "Imports",
-      "Demand sensitivity"
-    ],
-    "v": [
-      "Reasonable mid-cycle"
-    ],
-    "inv": "Cyclical core",
-    "entry": 235,
-    "stop": 215,
-    "target": 270,
-    "a": "2026-06-24"
+    "inv": "Gas prices collapse / break below stop",
+    "entry": 93.48,
+    "stop": 81.33,
+    "target": 117.78
   },
   {
     "t": "LLY",
     "n": "Eli Lilly",
     "theme": "Healthcare / GLP-1",
-    "type": "Core",
-    "size": "≤$250",
-    "why": "GLP-1 franchise (tirzepatide) + oral pipeline; secular obesity demand.",
+    "type": "Quality compounder",
+    "size": "Core",
+    "a": 1117.26,
+    "why": "GLP-1 franchise leader; oral orforglipron optionality.",
     "bull": [
-      "GLP-1 demand >> supply",
-      "Oral GLP-1 catalyst",
-      "Pipeline breadth"
+      "Massive obesity/diabetes TAM",
+      "Oral GLP-1 pipeline",
+      "Pricing power"
     ],
     "bear": [
-      "Very high valuation",
-      "Competition (NVO + others)",
-      "Pricing/political"
+      "Reverse-DCF needs ~27% growth",
+      "Capex/supply constraints",
+      "Competition (Novo) + policy"
     ],
     "v": [
-      "Premium for unmatched growth"
+      "Pipeline catalysts"
     ],
-    "inv": "Core hold",
-    "entry": 1080,
-    "stop": 990,
-    "target": 1230,
-    "a": "2026-06-24"
+    "inv": "Trial/supply setback / break below stop",
+    "entry": 1117.26,
+    "stop": 994.36,
+    "target": 1363.06
+  },
+  {
+    "t": "ISRG",
+    "n": "Intuitive Surgical",
+    "theme": "Healthcare / MedTech",
+    "type": "Quality compounder",
+    "size": "Core",
+    "a": 401.83,
+    "why": "da Vinci installed base + recurring instruments; da Vinci 5 ramp.",
+    "bull": [
+      "Razor/blade recurring revenue",
+      "da Vinci 5 upgrade cycle",
+      "High margins"
+    ],
+    "bear": [
+      "Premium multiple",
+      "Procedure-growth sensitivity",
+      "Implied ~20% growth"
+    ],
+    "v": [
+      "Install-base growth"
+    ],
+    "inv": "Procedure slowdown / break below stop",
+    "entry": 401.83,
+    "stop": 361.65,
+    "target": 482.2
+  },
+  {
+    "t": "GEHC",
+    "n": "GE HealthCare",
+    "theme": "Healthcare / Imaging",
+    "type": "Insider value",
+    "size": "Core",
+    "a": 64.88,
+    "why": "Imaging leader; 8-insider cluster buy; cheapest DCF bar (~6%).",
+    "bull": [
+      "Big insider cluster buy ($6.4M, 8 buyers)",
+      "Low implied-growth bar",
+      "Imaging AI upgrade cycle"
+    ],
+    "bear": [
+      "Hospital capex cyclicality",
+      "Slower grower",
+      "China exposure"
+    ],
+    "v": [
+      "8-insider cluster buy"
+    ],
+    "inv": "Capex slowdown / break below stop",
+    "entry": 64.88,
+    "stop": 58.39,
+    "target": 79.15
+  },
+  {
+    "t": "SMMT",
+    "n": "Summit Therapeutics",
+    "theme": "Healthcare / Biotech (spec)",
+    "type": "Speculative",
+    "size": "Speculative",
+    "a": 13.13,
+    "why": "Ivonescimab oncology; huge insider purchase ($100M+).",
+    "bull": [
+      "Massive insider buy",
+      "Ivonescimab data optionality",
+      "Large addressable oncology TAM"
+    ],
+    "bear": [
+      "Clinical binary risk",
+      "Pre-profit, cash burn",
+      "Volatility"
+    ],
+    "v": [
+      "$100M+ insider buy"
+    ],
+    "inv": "Trial failure / break below stop",
+    "entry": 13.13,
+    "stop": 9.85,
+    "target": 20.35
   },
   {
     "t": "JPM",
     "n": "JPMorgan",
     "theme": "Financials",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Best-in-class bank; benefits from higher-for-longer rates (Warsh Fed).",
+    "type": "Quality core",
+    "size": "Core",
+    "a": 335.46,
+    "why": "Best-in-class bank near ATHs; fortress balance sheet.",
     "bull": [
-      "NII tailwind from rates",
-      "Fortress balance sheet",
-      "Buybacks"
+      "Diversified earnings power",
+      "Strong capital returns",
+      "Rate environment supportive"
     ],
     "bear": [
-      "Credit cycle risk",
-      "Capital rules",
-      "Record valuation"
+      "Financials lagging rotation",
+      "Credit-cycle risk if Fed hikes",
+      "Near ATH"
     ],
     "v": [
-      "Premium bank multiple"
+      "Sector quality leader"
     ],
-    "inv": "Core hold",
-    "entry": 325,
-    "stop": 300,
-    "target": 365,
-    "a": "2026-06-24"
+    "inv": "Credit deterioration / break below stop",
+    "entry": 335.46,
+    "stop": 301.91,
+    "target": 395.84
   },
   {
     "t": "GS",
     "n": "Goldman Sachs",
     "theme": "Financials",
-    "type": "Growth",
-    "size": "≤$200",
-    "why": "Capital-markets rebound; M&A/IPO recovery + trading strength.",
+    "type": "Quality core",
+    "size": "Core",
+    "a": 1090.38,
+    "why": "IB/markets leader; capital-markets recovery tailwind.",
     "bull": [
-      "IB/M&A pipeline recovery",
-      "Trading revenue",
+      "M&A/IPO reacceleration",
+      "Markets revenue strength",
       "Buybacks"
     ],
     "bear": [
-      "Cyclical revenue",
-      "Markets-dependent",
-      "Rate volatility"
+      "Cyclical IB revenue",
+      "Rate/credit sensitivity",
+      "High absolute price"
     ],
     "v": [
-      "Reasonable vs book"
+      "Capital-markets recovery"
     ],
-    "inv": "Cyclical core",
-    "entry": 1070,
-    "stop": 990,
-    "target": 1200,
-    "a": "2026-06-24"
+    "inv": "Deal pipeline stalls / break below stop",
+    "entry": 1090.38,
+    "stop": 970.44,
+    "target": 1308.46
   },
   {
-    "t": "COST",
-    "n": "Costco",
-    "theme": "Consumer Staples",
-    "type": "Core",
-    "size": "≤$250",
-    "why": "Membership flywheel; defensive compounding amid AI-trade rotation.",
+    "t": "ACM",
+    "n": "AECOM",
+    "theme": "Industrials / Infra",
+    "type": "Insider-led",
+    "size": "Tactical",
+    "a": 70.87,
+    "why": "Infrastructure engineering; insider buying; public-works backlog.",
     "bull": [
-      "Membership renewal >90%",
-      "Traffic share gains",
-      "Special dividends"
+      "Insider buys",
+      "Infra-spend backlog",
+      "Asset-light margins"
     ],
     "bear": [
-      "Very high P/E for staple",
-      "Slow unit growth",
-      "Rich entry"
+      "Government-budget dependent",
+      "Recent ref price",
+      "Project timing"
     ],
     "v": [
-      "Premium defensive multiple"
+      "Insider buys"
     ],
-    "inv": "Core/defensive",
-    "entry": 930,
-    "stop": 860,
-    "target": 1020,
-    "a": "2026-06-24"
+    "inv": "Backlog softens / break below stop",
+    "entry": 70.87,
+    "stop": 63.07,
+    "target": 86.46
   },
   {
-    "t": "WMT",
-    "n": "Walmart",
-    "theme": "Consumer Staples",
-    "type": "Core",
-    "size": "≤$200",
-    "why": "Retail + advertising/e-commerce mix shift; defensive growth.",
+    "t": "CAVA",
+    "n": "Cava Group",
+    "theme": "Consumer / Restaurants",
+    "type": "Insider + growth",
+    "size": "Tactical",
+    "a": 77.83,
+    "why": "Mediterranean fast-casual unit-growth story; insider buying.",
     "bull": [
-      "Ad + marketplace margin mix",
-      "Grocery share gains",
-      "Automation"
+      "Strong unit economics + new-store ramp",
+      "Insider buying",
+      "Category leadership"
     ],
     "bear": [
-      "Multiple re-rated high",
-      "Consumer softness",
-      "Thin retail margins"
+      "High multiple",
+      "Same-store-sales sensitivity",
+      "Recent ref price"
     ],
     "v": [
-      "Premium for staple"
+      "Insider buys"
     ],
-    "inv": "Core/defensive",
-    "entry": 115,
-    "stop": 106,
-    "target": 130,
-    "a": "2026-06-24"
+    "inv": "SSS slowdown / break below stop",
+    "entry": 77.83,
+    "stop": 66.93,
+    "target": 99.62
   },
   {
-    "t": "AMZN",
-    "n": "Amazon",
-    "theme": "Consumer Discretionary / Cloud",
-    "type": "Core",
-    "size": "≤$250",
-    "why": "AWS reacceleration + retail margin expansion + ads; Prime Day catalyst.",
+    "t": "CELH",
+    "n": "Celsius",
+    "theme": "Consumer / Beverages",
+    "type": "Insider value",
+    "size": "Tactical",
+    "a": 29.39,
+    "why": "Energy-drink growth; insider buying after a sharp reset.",
     "bull": [
-      "AWS AI demand",
-      "Retail margin leverage",
-      "Ads growth"
+      "Insider buying",
+      "Distribution gains + Alani acquisition",
+      "International optionality"
     ],
     "bear": [
-      "AI-capex weighs on FCF",
-      "Consumer cyclicality",
-      "Regulatory"
+      "Category competition (Monster/Red Bull)",
+      "Shelf-velocity risk",
+      "Recent ref price"
     ],
     "v": [
-      "Reasonable vs FCF growth"
+      "Insider buys"
     ],
-    "inv": "Core hold",
-    "entry": 230,
-    "stop": 210,
-    "target": 270,
-    "a": "2026-06-24"
+    "inv": "Velocity declines / break below stop",
+    "entry": 29.39,
+    "stop": 24.98,
+    "target": 38.21
+  },
+  {
+    "t": "LULU",
+    "n": "Lululemon",
+    "theme": "Consumer / Apparel",
+    "type": "Insider value",
+    "size": "Tactical",
+    "a": 131.78,
+    "why": "Premium athleisure oversold; insider buying near multi-year lows.",
+    "bull": [
+      "Insider buying at lows",
+      "Brand pricing power",
+      "Intl growth runway"
+    ],
+    "bear": [
+      "US comp weakness",
+      "Competition (Alo/Vuori)",
+      "Recent ref price"
+    ],
+    "v": [
+      "Insider buys"
+    ],
+    "inv": "US comps worsen / break below stop",
+    "entry": 131.78,
+    "stop": 114.65,
+    "target": 167.36
+  },
+  {
+    "t": "NEM",
+    "n": "Newmont",
+    "theme": "Materials / Gold",
+    "type": "Theme core",
+    "size": "Core",
+    "a": 94.21,
+    "why": "Largest gold miner; strong margins; gold as macro hedge.",
+    "bull": [
+      "Record gold-price margins",
+      "FCF + dividend + buybacks",
+      "Q1 beat"
+    ],
+    "bear": [
+      "Gold-price reversal risk",
+      "Operational/cost inflation",
+      "Pulled back from highs"
+    ],
+    "v": [
+      "Earnings beat",
+      "Gold hedge"
+    ],
+    "inv": "Gold breaks down / break below stop",
+    "entry": 94.21,
+    "stop": 82.9,
+    "target": 117.76
+  },
+  {
+    "t": "FCX",
+    "n": "Freeport-McMoRan",
+    "theme": "Materials / Copper",
+    "type": "Theme core",
+    "size": "Tactical",
+    "a": 61.84,
+    "why": "Copper bellwether on electrification/AI grid demand.",
+    "bull": [
+      "Copper structural deficit",
+      "Electrification + grid demand",
+      "Operating leverage"
+    ],
+    "bear": [
+      "Copper-price cyclicality",
+      "Indonesia/regulatory risk",
+      "Capex sensitivity"
+    ],
+    "v": [
+      "Copper theme"
+    ],
+    "inv": "Copper rolls over / break below stop",
+    "entry": 61.84,
+    "stop": 53.8,
+    "target": 78.54
   }
 ]
