@@ -1,21 +1,11 @@
 {
-  "asof": "2026-06-25",
-  "vix": 19.49,
-  "y10": 4.41,
-  "y2": 4.2,
-  "ff": 3.63,
-  "spVs200": 6.8,
-  "brent": 73.05,
-  "note": "Risk-on rebound: Micron's blowout earnings (+17% pre-mkt, 84.9% gross margin, $22B AI deals) revived the AI trade after a 3-day chip selloff. Oil fell to prewar levels on the Israel-Iran ceasefire. New Fed Chair Warsh held at 3.50-3.75% (4th hold) but the dot plot signals 1-2 hikes this year (hawkish). Yield curve positive (10Y 4.41 > 2Y 4.20), VIX ~19.5, S&P ~7% above its 200DMA. Recession checklist 0/9 \u2014 backdrop constructive. Main risks: hawkish Fed and AI/Mag7 concentration.",
-  "checklist": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-  ]
+ "asof": "2026-06-26",
+ "vix": 18.41,
+ "y10": 4.38,
+ "y2": 4.07,
+ "ff": 3.75,
+ "spVs200": -1.5,
+ "brent": 71.99,
+ "note": "Risk tone mixed-to-defensive. S&P 7354 (-0.05% Fri, ~-2% week), Nasdaq 25,298 (5th straight down day, -4.6% week) as money rotated out of tech into Energy and Consumer Staples. S&P just slipped ~1.5% below its 200DMA (~7469). Curve positive (10s-2s +31bp). Fed on hold at 3.50-3.75% (Jun 17) with an easing bias; one dissent for a cut. Brent collapsed to ~$72 (-10% week) as a US-Iran peace deal and General License X uncapped Iranian crude and Saudi loadings ramped. VIX calm at 18.4. Leadership broadening away from Mag7 is the key signal to watch.",
+ "checklist": [false, false, true, false, false, false, false, false, true]
 }

@@ -1,78 +1,16 @@
 {
-  "asof": "2026-06-25",
-  "method": "Momentum/technical setups in leading sectors (semis/AI, power & nuclear, industrials, materials). buy=accumulate level, sell=resistance/target. Not advice.",
-  "ideas": [
-    {
-      "t": "MU",
-      "n": "Micron",
-      "conv": 5,
-      "buy": 1010.0,
-      "sell": 1213.0,
-      "thesis": "Gap-up on blowout earnings; buy the first pullback toward prior breakout, target Street-high PT zone."
-    },
-    {
-      "t": "AVGO",
-      "n": "Broadcom",
-      "conv": 4,
-      "buy": 372.0,
-      "sell": 430.0,
-      "thesis": "Holding above rising 50DMA (~$413 ref); accumulate on dips, measured move toward $430."
-    },
-    {
-      "t": "NVDA",
-      "n": "NVIDIA",
-      "conv": 4,
-      "buy": 192.0,
-      "sell": 225.0,
-      "thesis": "Reclaiming leadership with chip trade; buy retest of ~$192 support, resistance ~$225."
-    },
-    {
-      "t": "PANW",
-      "n": "Palo Alto",
-      "conv": 4,
-      "buy": 278.0,
-      "sell": 303.0,
-      "thesis": "Breakout to ATHs; buy retest of $278 breakout, resistance at 52-wk high $302.95."
-    },
-    {
-      "t": "CEG",
-      "n": "Constellation",
-      "conv": 3,
-      "buy": 258.0,
-      "sell": 295.0,
-      "thesis": "AI-power leader basing; accumulate ~$258, breakout target ~$295."
-    },
-    {
-      "t": "VRT",
-      "n": "Vertiv",
-      "conv": 3,
-      "buy": 298.0,
-      "sell": 345.0,
-      "thesis": "Datacenter-power momentum; buy dip to $298 zone, resistance ~$345."
-    },
-    {
-      "t": "CCJ",
-      "n": "Cameco",
-      "conv": 4,
-      "buy": 104.0,
-      "sell": 125.0,
-      "thesis": "Uptrend intact on uranium deficit; accumulate ~$104, target ~$125."
-    },
-    {
-      "t": "NEM",
-      "n": "Newmont",
-      "conv": 3,
-      "buy": 91.0,
-      "sell": 110.0,
-      "thesis": "Pullback from $110+ to support; gold-hedge accumulate ~$91, retest highs ~$110."
-    },
-    {
-      "t": "GEV",
-      "n": "GE Vernova",
-      "conv": 3,
-      "buy": 995.0,
-      "sell": 1150.0,
-      "thesis": "Electrification leader; buy dips to ~$995, measured target ~$1,150."
-    }
-  ]
+ "asof": "2026-06-26",
+ "method": "Momentum/technical setups in leading sectors (cyber, industrials/aerospace, power & nuclear, energy, materials). buy=accumulate level (support/breakout retest), sell=resistance/target. Not advice.",
+ "ideas": [
+  {"t":"PANW","n":"Palo Alto Networks","conv":5,"buy":292.0,"sell":335.0,"thesis":"Broke to ATH +3.95% on 6/26; buy the breakout retest near 290, momentum target 335."},
+  {"t":"GE","n":"GE Aerospace","conv":5,"buy":356.0,"sell":398.0,"thesis":"ATH ~371; accumulate pullbacks to 356 (prior breakout), resistance/target ~398."},
+  {"t":"CAT","n":"Caterpillar","conv":4,"buy":965.0,"sell":1055.0,"thesis":"Crossed 1000 on record backlog; buy dips to 965 support, target 1055."},
+  {"t":"GEV","n":"GE Vernova","conv":4,"buy":1005.0,"sell":1150.0,"thesis":"Uptrend intact ~67% YTD; accumulate near 1005 round-number support, target 1150."},
+  {"t":"CCJ","n":"Cameco","conv":4,"buy":102.0,"sell":122.0,"thesis":"Uranium uptrend; buy 102 support, target 122 prior high zone."},
+  {"t":"VST","n":"Vistra","conv":4,"buy":151.0,"sell":178.0,"thesis":"Power-demand leader; accumulate 151 support, breakout target 178."},
+  {"t":"XOM","n":"Exxon Mobil","conv":3,"buy":146.0,"sell":162.0,"thesis":"Energy rotation + oil washout; buy 146 value zone, target 162 on stabilization."},
+  {"t":"NVDA","n":"NVIDIA","conv":3,"buy":195.0,"sell":230.0,"thesis":"Pullback in leader; only buy 195 reclaim with volume given broken near-term tape, target 230."},
+  {"t":"NEM","n":"Newmont","conv":3,"buy":94.0,"sell":108.0,"thesis":"Gold hedge; accumulate 94 support, target 108 if macro/geopolitics re-escalate."},
+  {"t":"COST","n":"Costco","conv":3,"buy":925.0,"sell":1010.0,"thesis":"Defensive leadership; buy 925 support, target 1010 fresh highs."}
+ ]
 }
