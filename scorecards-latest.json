@@ -1,28 +1,188 @@
 {
- "asof": "2026-06-26",
- "method": "Composite 0-100 of momentum, fundamentals/FCF & valuation, catalyst (earnings/insider/upgrade) and risk. A/B/C grade. Not advice.",
- "names": [
-  {"t":"PANW","n":"Palo Alto Networks","sector":"Cyber","grade":"A","score":92,"tier":"top","note":"New ATH +3.95% on 6/26; relative strength vs software peers; platformization momentum."},
-  {"t":"GE","n":"GE Aerospace","sector":"Industrials","grade":"A","score":91,"tier":"top","note":"ATH ~371; aftermarket supercycle, pricing power, strong FCF."},
-  {"t":"CAT","n":"Caterpillar","sector":"Industrials","grade":"A","score":89,"tier":"top","note":"Record $63B backlog on AI-infra; raised 2026 outlook + 8% dividend hike."},
-  {"t":"GEV","n":"GE Vernova","sector":"Power","grade":"A","score":88,"tier":"top","note":"~67% YTD; electrification/grid + gas-turbine backlog; Strong Buy consensus."},
-  {"t":"AVGO","n":"Broadcom","sector":"Semis","grade":"A","score":87,"tier":"top","note":"Custom-ASIC AI design wins lifting 2026/27 estimates; dividend growth."},
-  {"t":"COST","n":"Costco","sector":"Cons Staples","grade":"A","score":85,"tier":"top","note":"Defensive leadership; membership model resilient amid rotation; ATH proximity."},
-  {"t":"VST","n":"Vistra","sector":"Power","grade":"B","score":83,"tier":"top","note":"IPP levered to datacenter power demand; nuclear+gas fleet; buybacks."},
-  {"t":"CCJ","n":"Cameco","sector":"Uranium","grade":"B","score":82,"tier":"top","note":"Uranium supply deficit + nuclear restart; Cigar Lake stake up."},
-  {"t":"MSFT","n":"Microsoft","sector":"Software","grade":"B","score":81,"tier":"top","note":"Azure AI + Copilot; most reasonable mega-cap reverse-DCF (~16% implied)."},
-  {"t":"GOOGL","n":"Alphabet","sector":"Software","grade":"B","score":80,"tier":"top","note":"Cloud margin expansion + Gemini; congressional buying; ~21% implied."},
-  {"t":"JPM","n":"JPMorgan","sector":"Financials","grade":"B","score":79,"tier":"top","note":"Positive curve aids NII; trading/IB strength; fortress balance sheet."},
-  {"t":"XOM","n":"Exxon Mobil","sector":"Energy","grade":"B","score":77,"tier":"top","note":"Cheapest big-cap reverse-DCF (~7%); value despite oil washout."},
-  {"t":"UNH","n":"UnitedHealth","sector":"Healthcare","grade":"B","score":74,"tier":"top","note":"Very low implied growth (~6%); recovery/value, Optum engine, but headline risk."},
-  {"t":"FSLR","n":"First Solar","sector":"Renewables","grade":"B","score":72,"tier":"top","note":"Domestic-content backlog visibility; tariff-protected; policy risk caps score."}
- ],
- "worst": [
-  {"t":"PLTR","n":"Palantir","sector":"Software","grade":"C","score":34,"tier":"worst","note":"52-wk low after 7-session selloff; reverse-DCF implies ~41% growth — extreme."},
-  {"t":"ENPH","n":"Enphase","sector":"Renewables","grade":"C","score":30,"tier":"worst","note":"Down ~32% in a month; weak resi-solar demand; falling knife."},
-  {"t":"OKLO","n":"Oklo","sector":"Power","grade":"C","score":28,"tier":"worst","note":"Pre-revenue SMR story; no FCF; regulatory timeline ~2028+; dilution risk."},
-  {"t":"CEG","n":"Constellation Energy","sector":"Power","grade":"C","score":40,"tier":"worst","note":"Down ~26% YTD; broken momentum/valuation reset despite good fleet."},
-  {"t":"RGTI","n":"Rigetti","sector":"Quantum","grade":"C","score":26,"tier":"worst","note":"Pre-profit quantum; extreme volatility; sentiment/policy-driven, not fundamentals."},
-  {"t":"CVX","n":"Chevron","sector":"Energy","grade":"C","score":44,"tier":"worst","note":"Down 20% from highs; oil rolling over on Iran License X — momentum negative."}
- ]
+  "asof": "2026-06-29",
+  "method": "Composite 0-100: momentum/trend, fundamental quality/FCF, insider & smart-money signal, and valuation (reverse-DCF). Higher = better risk/reward today. Not advice.",
+  "names": [
+    {
+      "t": "GEV",
+      "n": "GE Vernova",
+      "sector": "Nuclear/Power",
+      "grade": "A",
+      "score": 90,
+      "tier": "top",
+      "note": "Electrification supercycle; Strong Buy; +117% yr"
+    },
+    {
+      "t": "VST",
+      "n": "Vistra",
+      "sector": "Nuclear/Power",
+      "grade": "A",
+      "score": 88,
+      "tier": "top",
+      "note": "AI power demand; 19 buy ratings"
+    },
+    {
+      "t": "CEG",
+      "n": "Constellation Energy",
+      "sector": "Nuclear/Power",
+      "grade": "A",
+      "score": 87,
+      "tier": "top",
+      "note": "Data-center PPAs; PT ~360"
+    },
+    {
+      "t": "PANW",
+      "n": "Palo Alto Networks",
+      "sector": "Cyber",
+      "grade": "A",
+      "score": 86,
+      "tier": "top",
+      "note": "Platformization; +90% 3mo, near ATH"
+    },
+    {
+      "t": "FTNT",
+      "n": "Fortinet",
+      "sector": "Cyber",
+      "grade": "A",
+      "score": 84,
+      "tier": "top",
+      "note": "Refresh cycle; fresh ATH, strong FCF"
+    },
+    {
+      "t": "AVGO",
+      "n": "Broadcom",
+      "sector": "Semis",
+      "grade": "A",
+      "score": 84,
+      "tier": "top",
+      "note": "Custom AI silicon + software annuity"
+    },
+    {
+      "t": "GOOGL",
+      "n": "Alphabet",
+      "sector": "Mega Tech",
+      "grade": "A",
+      "score": 83,
+      "tier": "top",
+      "note": "Cloud+Gemini; $64B FCF"
+    },
+    {
+      "t": "GEHC",
+      "n": "GE HealthCare",
+      "sector": "Healthcare",
+      "grade": "B",
+      "score": 80,
+      "tier": "top",
+      "note": "8-insider cluster; cheap (~6% implied growth)"
+    },
+    {
+      "t": "CCJ",
+      "n": "Cameco",
+      "sector": "Uranium",
+      "grade": "B",
+      "score": 79,
+      "tier": "top",
+      "note": "Uranium tightness; Buy PT ~132"
+    },
+    {
+      "t": "FCX",
+      "n": "Freeport-McMoRan",
+      "sector": "Materials",
+      "grade": "B",
+      "score": 78,
+      "tier": "top",
+      "note": "Copper levered to grid/AI power"
+    },
+    {
+      "t": "EOG",
+      "n": "EOG Resources",
+      "sector": "Energy",
+      "grade": "B",
+      "score": 77,
+      "tier": "top",
+      "note": "Low-cost shale; $25B+ returns, cheap"
+    },
+    {
+      "t": "MSFT",
+      "n": "Microsoft",
+      "sector": "Mega Tech",
+      "grade": "B",
+      "score": 76,
+      "tier": "top",
+      "note": "Cheapest mega-cap (~16% implied); capex drag"
+    },
+    {
+      "t": "JPM",
+      "n": "JPMorgan",
+      "sector": "Financials",
+      "grade": "B",
+      "score": 75,
+      "tier": "top",
+      "note": "Best-in-class bank at highs"
+    },
+    {
+      "t": "CAVA",
+      "n": "CAVA Group",
+      "sector": "Consumer",
+      "grade": "B",
+      "score": 73,
+      "tier": "top",
+      "note": "Insider buy + UBS upgrade; premium multiple"
+    }
+  ],
+  "worst": [
+    {
+      "t": "MU",
+      "n": "Micron",
+      "sector": "Semis",
+      "grade": "C",
+      "score": 48,
+      "tier": "worst",
+      "note": "Priced for ~33% growth at cyclical memory peak"
+    },
+    {
+      "t": "OKLO",
+      "n": "Oklo",
+      "sector": "Nuclear",
+      "grade": "D",
+      "score": 35,
+      "tier": "worst",
+      "note": "Pre-revenue SMR; momentum reset 70->50, binary"
+    },
+    {
+      "t": "RKLB",
+      "n": "Rocket Lab",
+      "sector": "Space",
+      "grade": "D",
+      "score": 34,
+      "tier": "worst",
+      "note": "-40% in June; Neutron execution/dilution risk"
+    },
+    {
+      "t": "IONQ",
+      "n": "IonQ",
+      "sector": "Quantum",
+      "grade": "D",
+      "score": 32,
+      "tier": "worst",
+      "note": "No FCF; high beta, dilution"
+    },
+    {
+      "t": "RGTI",
+      "n": "Rigetti",
+      "sector": "Quantum",
+      "grade": "D",
+      "score": 30,
+      "tier": "worst",
+      "note": "CTO share sale; pre-revenue"
+    },
+    {
+      "t": "NEM",
+      "n": "Newmont",
+      "sector": "Materials/Gold",
+      "grade": "C",
+      "score": 45,
+      "tier": "worst",
+      "note": "Technical breakdown as gold fell to ~$4,074"
+    }
+  ]
 }

@@ -1,11 +1,21 @@
 {
- "asof": "2026-06-26",
- "vix": 18.41,
- "y10": 4.38,
- "y2": 4.07,
- "ff": 3.75,
- "spVs200": -1.5,
- "brent": 71.99,
- "note": "Risk tone mixed-to-defensive. S&P 7354 (-0.05% Fri, ~-2% week), Nasdaq 25,298 (5th straight down day, -4.6% week) as money rotated out of tech into Energy and Consumer Staples. S&P just slipped ~1.5% below its 200DMA (~7469). Curve positive (10s-2s +31bp). Fed on hold at 3.50-3.75% (Jun 17) with an easing bias; one dissent for a cut. Brent collapsed to ~$72 (-10% week) as a US-Iran peace deal and General License X uncapped Iranian crude and Saudi loadings ramped. VIX calm at 18.4. Leadership broadening away from Mag7 is the key signal to watch.",
- "checklist": [false, false, true, false, false, false, false, false, true]
+  "asof": "2026-06-29",
+  "vix": 18.4,
+  "y10": 4.37,
+  "y2": 4.1,
+  "ff": 3.625,
+  "spVs200": 6.7,
+  "brent": 72,
+  "note": "Risk-on/benign backdrop: 10Y-2Y curve positive (+0.27), VIX ~18, HY OAS ~2.78% (tight), Fed on hold at 3.50-3.75% (Warsh). S&P ~7,354, ~6.7% above 200DMA. Leadership rotating to Energy/Industrials/Materials & power/nuclear; mega-cap tech cooling on AI-capex worries. Brent ~$72 falling on US-Iran de-escalation. No recession flags triggered.",
+  "checklist": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
 }

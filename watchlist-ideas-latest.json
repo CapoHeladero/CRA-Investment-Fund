@@ -1,16 +1,70 @@
 {
- "asof": "2026-06-26",
- "method": "Momentum/technical setups in leading sectors (cyber, industrials/aerospace, power & nuclear, energy, materials). buy=accumulate level (support/breakout retest), sell=resistance/target. Not advice.",
- "ideas": [
-  {"t":"PANW","n":"Palo Alto Networks","conv":5,"buy":292.0,"sell":335.0,"thesis":"Broke to ATH +3.95% on 6/26; buy the breakout retest near 290, momentum target 335."},
-  {"t":"GE","n":"GE Aerospace","conv":5,"buy":356.0,"sell":398.0,"thesis":"ATH ~371; accumulate pullbacks to 356 (prior breakout), resistance/target ~398."},
-  {"t":"CAT","n":"Caterpillar","conv":4,"buy":965.0,"sell":1055.0,"thesis":"Crossed 1000 on record backlog; buy dips to 965 support, target 1055."},
-  {"t":"GEV","n":"GE Vernova","conv":4,"buy":1005.0,"sell":1150.0,"thesis":"Uptrend intact ~67% YTD; accumulate near 1005 round-number support, target 1150."},
-  {"t":"CCJ","n":"Cameco","conv":4,"buy":102.0,"sell":122.0,"thesis":"Uranium uptrend; buy 102 support, target 122 prior high zone."},
-  {"t":"VST","n":"Vistra","conv":4,"buy":151.0,"sell":178.0,"thesis":"Power-demand leader; accumulate 151 support, breakout target 178."},
-  {"t":"XOM","n":"Exxon Mobil","conv":3,"buy":146.0,"sell":162.0,"thesis":"Energy rotation + oil washout; buy 146 value zone, target 162 on stabilization."},
-  {"t":"NVDA","n":"NVIDIA","conv":3,"buy":195.0,"sell":230.0,"thesis":"Pullback in leader; only buy 195 reclaim with volume given broken near-term tape, target 230."},
-  {"t":"NEM","n":"Newmont","conv":3,"buy":94.0,"sell":108.0,"thesis":"Gold hedge; accumulate 94 support, target 108 if macro/geopolitics re-escalate."},
-  {"t":"COST","n":"Costco","conv":3,"buy":925.0,"sell":1010.0,"thesis":"Defensive leadership; buy 925 support, target 1010 fresh highs."}
- ]
+  "asof": "2026-06-29",
+  "method": "Momentum/technical setups in the leading sectors (power/nuclear, energy, industrials, materials, cyber). conv 1-5; buy=accumulate level, sell=resistance/target. Not advice.",
+  "ideas": [
+    {
+      "t": "GEV",
+      "n": "GE Vernova",
+      "conv": 5,
+      "buy": 1030,
+      "sell": 1200,
+      "thesis": "Uptrend intact above rising 50DMA; buy pullbacks to 1030, resistance ~1180-1200."
+    },
+    {
+      "t": "VST",
+      "n": "Vistra",
+      "conv": 4,
+      "buy": 160,
+      "sell": 205,
+      "thesis": "Holding 160 support after pullback; reclaim of 168 targets 205."
+    },
+    {
+      "t": "CEG",
+      "n": "Constellation",
+      "conv": 4,
+      "buy": 258,
+      "sell": 320,
+      "thesis": "Buy 255-260 demand zone; PPA news catalysts; PT zone ~320."
+    },
+    {
+      "t": "EOG",
+      "n": "EOG Resources",
+      "conv": 3,
+      "buy": 129,
+      "sell": 150,
+      "thesis": "Value base near 120-129; oil dip buy, resistance 150."
+    },
+    {
+      "t": "FCX",
+      "n": "Freeport",
+      "conv": 4,
+      "buy": 61,
+      "sell": 72,
+      "thesis": "Copper bid; coiling under 63, breakout targets 52w high 72."
+    },
+    {
+      "t": "CCJ",
+      "n": "Cameco",
+      "conv": 4,
+      "buy": 102,
+      "sell": 130,
+      "thesis": "Higher-low structure; accumulate 100-102, target prior high 130."
+    },
+    {
+      "t": "PWR",
+      "n": "Quanta Services",
+      "conv": 3,
+      "buy": 690,
+      "sell": 780,
+      "thesis": "Grid pure-play; buy 660-690 pullback, resistance 780."
+    },
+    {
+      "t": "PANW",
+      "n": "Palo Alto",
+      "conv": 4,
+      "buy": 296,
+      "sell": 345,
+      "thesis": "Breakout retest near 295; momentum leader, extension to 345."
+    }
+  ]
 }
