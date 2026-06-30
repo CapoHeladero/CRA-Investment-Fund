@@ -1,86 +1,342 @@
 {
   "asof": "2026-06-30",
-  "method": "Momentum/technical setups in leading sectors (AI power, semis, cyber, uranium). buy=accumulate support/retest, sell=resistance/target. Not advice.",
+  "method": "Daily watchlist ideas with full dossier: entry/stop/target + bull/bear + fundamentals (P/E, FCF, analyst target) and an Eden deep-dive check. Buy=accumulate level, Sell=resistance/analyst target. Not financial advice.",
   "ideas": [
     {
       "t": "CEG",
-      "n": "Constellation",
-      "conv": 5,
-      "buy": 248.0,
-      "sell": 300.0,
-      "thesis": "Uptrend AI-power leader; buy pullbacks to rising support, target prior-high extension."
+      "n": "Constellation Energy",
+      "theme": "AI Power / Nuclear",
+      "type": "Core",
+      "conv": 4,
+      "buy": 251.5,
+      "stop": 223.9,
+      "sell": 360.2,
+      "why": "Entry $251.5 \u00b7 Stop $223.9 \u00b7 Target $360.2. AI Power / Nuclear name at $259.32; P/E 22.15, fwd 22.17; analyst Buy, target $360.24 (+38.92%).",
+      "bull": [
+        "Largest US nuclear fleet; cleanest AI-electricity play",
+        "Hyperscaler PPA/colocation deals; ~39% target upside",
+        "Nuclear PTC floor supports cash flows"
+      ],
+      "bear": [
+        "Power-price sensitivity",
+        "Interconnection/regulatory timelines",
+        "Re-rating already large"
+      ],
+      "v": [
+        "Valuation: P/E 22.15 \u00b7 fwd 22.17 \u00b7 mkt cap 92.60B",
+        "Fundamentals: revenue 29.87B \u00b7 net income 3.79B",
+        "Eden deep-dive: run CEG for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Data-center power deals stall or power prices fall",
+      "thesis": "AI Power / Nuclear: Largest US nuclear fleet; cleanest AI-electricity play. Accumulate $251.5, stop $223.9, target $360.2. Fundamental+technical read."
     },
     {
       "t": "VST",
       "n": "Vistra",
-      "conv": 4,
-      "buy": 152.0,
-      "sell": 185.0,
-      "thesis": "Higher-highs structure; accumulate on dips to 20DMA, resistance near 185."
+      "theme": "AI Power / Nuclear",
+      "type": "Momentum",
+      "conv": 5,
+      "buy": 155.9,
+      "stop": 137.2,
+      "sell": 222.9,
+      "why": "Entry $155.9 \u00b7 Stop $137.2 \u00b7 Target $222.9. AI Power / Nuclear name at $162.38; P/E 27.41, fwd 15.66; analyst Strong Buy, target $222.89 (+37.26%).",
+      "bull": [
+        "Merchant + nuclear leveraged to surging power demand",
+        "Strong Buy, ~37% upside; fwd P/E ~16",
+        "Aggressive buybacks"
+      ],
+      "bear": [
+        "Merchant power-price volatility",
+        "Weather/commodity exposure",
+        "High beta on risk-off"
+      ],
+      "v": [
+        "Valuation: P/E 27.41 \u00b7 fwd 15.66 \u00b7 mkt cap 54.75B",
+        "Fundamentals: revenue 19.45B \u00b7 net income 2.05B",
+        "Eden deep-dive: run VST for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Power-price collapse or demand growth disappoints",
+      "thesis": "AI Power / Nuclear: Merchant + nuclear leveraged to surging power demand. Accumulate $155.9, stop $137.2, target $222.9. Fundamental+technical read."
     },
     {
       "t": "NVDA",
       "n": "NVIDIA",
+      "theme": "AI Semis",
+      "type": "Core",
       "conv": 5,
-      "buy": 188.0,
-      "sell": 230.0,
-      "thesis": "Bull trend intact above 200; buy ~188 support, measured-move toward 230."
+      "buy": 189.1,
+      "stop": 168.3,
+      "sell": 298.9,
+      "why": "Entry $189.1 \u00b7 Stop $168.3 \u00b7 Target $298.9. AI Semis name at $194.97; P/E 29.86, fwd 19.62; analyst Strong Buy, target $298.93 (+53.32%).",
+      "bull": [
+        "Dominant AI accelerator; data-center demand outrunning supply",
+        "Blackwell/next-gen ramp + CUDA software moat",
+        "Profitable at scale: ~$160B net income, Strong Buy with ~53% target upside"
+      ],
+      "bear": [
+        "~30x trailing earnings leaves little margin for error",
+        "Customer concentration in a few hyperscalers",
+        "First to fall on any AI-capex digestion"
+      ],
+      "v": [
+        "Valuation: P/E 29.86 \u00b7 fwd 19.62 \u00b7 mkt cap 4.72T",
+        "Fundamentals: revenue 253.49B \u00b7 net income 159.61B",
+        "Eden deep-dive: run NVDA for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Loss of data-center revenue growth or Blackwell delays",
+      "thesis": "AI Semis: Dominant AI accelerator; data-center demand outrunning supply. Accumulate $189.1, stop $168.3, target $298.9. Fundamental+technical read."
     },
     {
       "t": "AVGO",
       "n": "Broadcom",
-      "conv": 4,
-      "buy": 360.0,
-      "sell": 420.0,
-      "thesis": "Breakout retest at 360 holds; upside to 420 on AI ASIC momentum."
+      "theme": "AI Semis",
+      "type": "Core",
+      "conv": 5,
+      "buy": 361.3,
+      "stop": 321.5,
+      "sell": 523.7,
+      "why": "Entry $361.3 \u00b7 Stop $321.5 \u00b7 Target $523.7. AI Semis name at $372.45; P/E 61.99, fwd 23.65; analyst Strong Buy, target $523.73 (+40.62%).",
+      "bull": [
+        "Custom AI silicon (XPU) + networking \u2014 second pillar of the buildout",
+        "VMware software adds recurring high-margin revenue",
+        "Strong Buy, ~41% target upside; ~$29B net income"
+      ],
+      "bear": [
+        "~62x trailing earnings; rich",
+        "Lumpy custom-chip order timing",
+        "Debt from VMware deal"
+      ],
+      "v": [
+        "Valuation: P/E 61.99 \u00b7 fwd 23.65 \u00b7 mkt cap 1.77T",
+        "Fundamentals: revenue 75.47B \u00b7 net income 29.32B",
+        "Eden deep-dive: run AVGO for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "AI ASIC design-win losses or networking share erosion",
+      "thesis": "AI Semis: Custom AI silicon (XPU) + networking \u2014 second pillar of the buildout. Accumulate $361.3, stop $321.5, target $523.7. Fundamental+technical read."
+    },
+    {
+      "t": "MU",
+      "n": "Micron",
+      "theme": "AI Memory",
+      "type": "Momentum",
+      "conv": 5,
+      "buy": 1099.5,
+      "stop": 967.5,
+      "sell": 1457.7,
+      "why": "Entry $1099.5 \u00b7 Stop $967.5 \u00b7 Target $1457.7. AI Memory name at $1145.28; P/E 25.85, fwd 7.98; analyst Strong Buy, target $1457.68 (+27.28%).",
+      "bull": [
+        "HBM/DRAM super-cycle on AI demand; ~$50B net income",
+        "Fwd P/E ~8 \u2014 cheap on next-year earnings",
+        "Strong Buy, ~27% target upside"
+      ],
+      "bear": [
+        "Memory is cyclical \u2014 earnings can roll over fast",
+        "Capex-heavy; pricing-driven",
+        "Recent chip-sector volatility"
+      ],
+      "v": [
+        "Valuation: P/E 25.85 \u00b7 fwd 7.98 \u00b7 mkt cap 1.29T",
+        "Fundamentals: revenue 90.27B \u00b7 net income 50.47B",
+        "Eden deep-dive: run MU for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "DRAM/HBM pricing rolls over or AI memory demand stalls",
+      "thesis": "AI Memory: HBM/DRAM super-cycle on AI demand; ~$50B net income. Accumulate $1099.5, stop $967.5, target $1457.7. Fundamental+technical read."
     },
     {
       "t": "CCJ",
       "n": "Cameco",
+      "theme": "Uranium",
+      "type": "Value",
       "conv": 4,
-      "buy": 98.0,
-      "sell": 120.0,
-      "thesis": "Uranium uptrend; buy 98 support zone, resistance/target ~120."
+      "buy": 101.4,
+      "stop": 91.3,
+      "sell": 132.2,
+      "why": "Entry $101.4 \u00b7 Stop $91.3 \u00b7 Target $132.2. Uranium name at $103.47; P/E 96.94, fwd 82.78; analyst Buy, target $132.23 (+27.8%).",
+      "bull": [
+        "Structural uranium supply deficit; long-term contracting",
+        "Westinghouse stake adds AP1000/services optionality",
+        "~28% target upside"
+      ],
+      "bear": [
+        "~97x trailing earnings \u2014 sentiment-rich",
+        "Spot-price volatility",
+        "Operational/production risk"
+      ],
+      "v": [
+        "Valuation: P/E 96.94 \u00b7 fwd 82.78 \u00b7 mkt cap 45.03B",
+        "Fundamentals: revenue 2.53B \u00b7 net income 466.07M",
+        "Eden deep-dive: run CCJ for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Uranium price slump or major supply restart",
+      "thesis": "Uranium: Structural uranium supply deficit; long-term contracting. Accumulate $101.4, stop $91.3, target $132.2. Fundamental+technical read."
     },
     {
       "t": "CRWD",
       "n": "CrowdStrike",
-      "conv": 4,
-      "buy": 710.0,
-      "sell": 820.0,
-      "thesis": "Cyber leader holding above 50DMA; accumulate dips, target 820."
+      "theme": "Cybersecurity",
+      "type": "Core",
+      "conv": 3,
+      "buy": 720.6,
+      "stop": 641.4,
+      "sell": 876.6,
+      "why": "Entry $720.6 \u00b7 Stop $641.4 \u00b7 Target $876.6. Cybersecurity name at $742.91; fwd 142.19; analyst Buy, target $712.37 (-4.11%).",
+      "bull": [
+        "Platform consolidation; high net-revenue retention",
+        "Strong FCF margins despite GAAP near-breakeven",
+        "Cyber budgets defensive in a slowdown"
+      ],
+      "bear": [
+        "~142x fwd earnings \u2014 priced for perfection",
+        "Trades slightly above analyst target",
+        "Post-incident reputational watch"
+      ],
+      "v": [
+        "Valuation: P/E n/a \u00b7 fwd 142.19 \u00b7 mkt cap 189.12B",
+        "Fundamentals: revenue 5.09B \u00b7 net income -30.46M",
+        "Eden deep-dive: run CRWD for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "ARR growth deceleration or net-retention slip",
+      "thesis": "Cybersecurity: Platform consolidation; high net-revenue retention. Accumulate $720.6, stop $641.4, target $876.6. Fundamental+technical read."
     },
     {
-      "t": "RKLB",
-      "n": "Rocket Lab",
-      "conv": 3,
-      "buy": 90.0,
-      "sell": 120.0,
-      "thesis": "Volatile space momentum; buy 90 retest, sell into 120 resistance."
+      "t": "VRT",
+      "n": "Vertiv",
+      "theme": "AI Power / Cooling",
+      "type": "Momentum",
+      "conv": 5,
+      "buy": 294.7,
+      "stop": 259.3,
+      "sell": 377.0,
+      "why": "Entry $294.7 \u00b7 Stop $259.3 \u00b7 Target $377.0. AI Power / Cooling name at $306.97; P/E 77.14, fwd 44.99; analyst Strong Buy, target $376.96 (+22.8%).",
+      "bull": [
+        "Data-center power & thermal pick-and-shovel; Strong Buy",
+        "Backlog growth with AI buildout; ~$1.6B net income",
+        "~23% target upside"
+      ],
+      "bear": [
+        "~77x trailing earnings \u2014 expensive",
+        "Cyclical capex exposure",
+        "Execution/supply-chain risk at scale"
+      ],
+      "v": [
+        "Valuation: P/E 77.14 \u00b7 fwd 44.99 \u00b7 mkt cap 117.91B",
+        "Fundamentals: revenue 10.84B \u00b7 net income 1.56B",
+        "Eden deep-dive: run VRT for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Data-center capex slows or backlog growth stalls",
+      "thesis": "AI Power / Cooling: Data-center power & thermal pick-and-shovel; Strong Buy. Accumulate $294.7, stop $259.3, target $377.0. Fundamental+technical read."
     },
     {
       "t": "MELI",
       "n": "MercadoLibre",
+      "theme": "Consumer / E-comm",
+      "type": "Core",
       "conv": 4,
-      "buy": 1620.0,
-      "sell": 1850.0,
-      "thesis": "Long-term uptrend + insider buys; accumulate 1620, target 1850."
+      "buy": 1632.6,
+      "stop": 1453.0,
+      "sell": 2217.0,
+      "why": "Entry $1632.6 \u00b7 Stop $1453.0 \u00b7 Target $2217.0. Consumer / E-comm name at $1683.13; P/E 44.44, fwd 41.29; analyst Buy, target $2216.96 (+31.72%).",
+      "bull": [
+        "Commerce + fintech + ads flywheel; ~32% target upside",
+        "Durable double-digit growth; insider buying",
+        "LatAm structural runway"
+      ],
+      "bear": [
+        "FX/sovereign risk (Argentina/Brazil)",
+        "Credit-book risk",
+        "High absolute share price"
+      ],
+      "v": [
+        "Valuation: P/E 44.44 \u00b7 fwd 41.29 \u00b7 mkt cap 85.33B",
+        "Fundamentals: revenue 31.80B \u00b7 net income 1.92B",
+        "Eden deep-dive: run MELI for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Credit losses spike or FX shock",
+      "thesis": "Consumer / E-comm: Commerce + fintech + ads flywheel; ~32% target upside. Accumulate $1632.6, stop $1453.0, target $2217.0. Fundamental+technical read."
     },
     {
       "t": "FSLR",
       "n": "First Solar",
-      "conv": 3,
-      "buy": 222.0,
-      "sell": 265.0,
-      "thesis": "Range with rising base; buy 222 support, resistance 265."
+      "theme": "Renewables / Solar",
+      "type": "Value",
+      "conv": 4,
+      "buy": 228.1,
+      "stop": 205.3,
+      "sell": 247.3,
+      "why": "Entry $228.1 \u00b7 Stop $205.3 \u00b7 Target $247.3. Renewables / Solar name at $232.8; P/E 15.04, fwd 12.11; analyst Buy, target $247.3 (+6.23%).",
+      "bull": [
+        "US-made thin-film with sold-out, policy-protected backlog",
+        "Net cash; fwd P/E ~12",
+        "~$1.7B net income \u2014 profitable solar"
+      ],
+      "bear": [
+        "Policy/subsidy reversal risk",
+        "ASP/module-price pressure",
+        "Project-timing lumpiness"
+      ],
+      "v": [
+        "Valuation: P/E 15.04 \u00b7 fwd 12.11 \u00b7 mkt cap 25.02B",
+        "Fundamentals: revenue 5.42B \u00b7 net income 1.67B",
+        "Eden deep-dive: run FSLR for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Policy change or large backlog cancellations",
+      "thesis": "Renewables / Solar: US-made thin-film with sold-out, policy-protected backlog. Accumulate $228.1, stop $205.3, target $247.3. Fundamental+technical read."
     },
     {
-      "t": "GS",
-      "n": "Goldman Sachs",
-      "conv": 4,
-      "buy": 985.0,
-      "sell": 1120.0,
-      "thesis": "M&A-cycle uptrend; politician buying; accumulate 985, target 1120."
+      "t": "NOW",
+      "n": "ServiceNow",
+      "theme": "Software / AI Workflow",
+      "type": "Core",
+      "conv": 5,
+      "buy": 96.97,
+      "stop": 86.3,
+      "sell": 141.48,
+      "why": "Entry $96.97 \u00b7 Stop $86.3 \u00b7 Target $141.48. Software / AI Workflow name at $99.97; P/E 59.51, fwd 23.05; analyst Strong Buy, target $141.48 (+41.52%).",
+      "bull": [
+        "AI workflow automation; Strong Buy, ~42% upside",
+        "Durable enterprise ARR; ~$1.8B net income",
+        "Pro-Plus AI pricing tailwind"
+      ],
+      "bear": [
+        "~59x trailing earnings \u2014 premium",
+        "Large-base growth deceleration risk",
+        "Macro IT-budget sensitivity"
+      ],
+      "v": [
+        "Valuation: P/E 59.51 \u00b7 fwd 23.05 \u00b7 mkt cap 103.10B",
+        "Fundamentals: revenue 13.96B \u00b7 net income 1.76B",
+        "Eden deep-dive: run NOW for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Subscription growth slows or AI upsell disappoints",
+      "thesis": "Software / AI Workflow: AI workflow automation; Strong Buy, ~42% upside. Accumulate $96.97, stop $86.3, target $141.48. Fundamental+technical read."
+    },
+    {
+      "t": "RKLB",
+      "n": "Rocket Lab",
+      "theme": "Space",
+      "type": "Momentum",
+      "conv": 3,
+      "buy": 94.09,
+      "stop": 82.8,
+      "sell": 109.81,
+      "why": "Entry $94.09 \u00b7 Stop $82.8 \u00b7 Target $109.81. Space name at $98.01; no positive P/E (story/loss-making); analyst Buy, target $109.81 (+12.04%).",
+      "bull": [
+        "Launch cadence + Neutron rocket; growing space-systems backlog",
+        "Buy consensus; vertically integrated",
+        "~12% target upside"
+      ],
+      "bear": [
+        "Unprofitable; Neutron timeline/execution risk",
+        "Capital intensity",
+        "High beta to space sentiment"
+      ],
+      "v": [
+        "Valuation: P/E n/a \u00b7 fwd n/a \u00b7 mkt cap 56.73B",
+        "Fundamentals: revenue 679.58M \u00b7 net income -182.62M",
+        "Eden deep-dive: run RKLB for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
+      ],
+      "inv": "Neutron delays or launch failures",
+      "thesis": "Space: Launch cadence + Neutron rocket; growing space-systems backlog. Accumulate $94.09, stop $82.8, target $109.81. Fundamental+technical read."
     }
   ]
 }
