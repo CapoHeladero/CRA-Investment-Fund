@@ -32,16 +32,20 @@
       if(o.buy==null && w.buy!=null) o.buy=w.buy;
       if(o.sell==null && w.sell!=null) o.sell=w.sell;
     });
-    // fill any gaps from the dossier; attach fallback price
+    // Canonical levels: the daily dossier wins when present (fresh, coherent
+    // buy>stop / sell>buy triple). Saved values are used only when no dossier
+    // exists for that ticker — this prevents stale saved targets from producing
+    // incoherent rows (e.g. stop above buy).
     out.forEach(function(o){
       var dz=o.doss;
       if(dz){
-        if(o.buy==null)  o.buy=dz.buy;
-        if(o.sell==null) o.sell=dz.sell;
-        if(o.stop==null) o.stop=dz.stop;
-        if(!o.conv)      o.conv=dz.conv;
+        o.buy=dz.buy; o.stop=dz.stop; o.sell=dz.sell;
+        o.conv=Math.max(o.conv|0, dz.conv|0);
         o.fallbackPrice=dz.p!=null?dz.p:null;
         o.name=dz.n||'';
+        o.src='dossier';
+      } else {
+        o.src='saved';
       }
     });
     return out;
