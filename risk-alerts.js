@@ -10,6 +10,42 @@
   function apikey(){ var k=LS.getItem('cra.apikey')||''; try{ k=JSON.parse(k); }catch(e){} return (''+(k||'')).replace(/^"|"$/g,'').trim(); }
   function acct(){ return parseFloat(LS.getItem('cra.risk.acct'))||4000; }
   function money(v){ return '$'+(Math.round(v)).toLocaleString(); }
+  // ---- daily research dossiers (canonical levels + last-close fallback price) ----
+  var DOSS=null, DOSS_ASOF='';
+  function loadDoss(){
+    if(DOSS) return Promise.resolve(DOSS);
+    return fetch('watchlist-dossiers-latest.json?cb='+Date.now(),{cache:'no-store'})
+      .then(function(r){return r.ok?r.json():null;})
+      .then(function(j){ DOSS=(j&&j.dossiers)||{}; DOSS_ASOF=(j&&j.asof)||''; return DOSS; })
+      .catch(function(){ DOSS={}; return DOSS; });
+  }
+  // dedupe watchlist by ticker; merge with the daily dossier so each name has
+  // research-backed buy/stop/sell/conv. Saved buy/sell win if the user set them.
+  function mergedWatch(){
+    var wl=gw(), seen={}, out=[];
+    wl.forEach(function(w){
+      var t=(w.ticker||'').toUpperCase(); if(!t) return;
+      var dz=(DOSS&&DOSS[t])||null;
+      if(!seen[t]){ seen[t]={ticker:t, conv:0, buy:null, sell:null, stop:null, doss:dz}; out.push(seen[t]); }
+      var o=seen[t];
+      o.conv=Math.max(o.conv|0, w.conv|0, dz?(dz.conv|0):0);
+      if(o.buy==null && w.buy!=null) o.buy=w.buy;
+      if(o.sell==null && w.sell!=null) o.sell=w.sell;
+    });
+    // fill any gaps from the dossier; attach fallback price
+    out.forEach(function(o){
+      var dz=o.doss;
+      if(dz){
+        if(o.buy==null)  o.buy=dz.buy;
+        if(o.sell==null) o.sell=dz.sell;
+        if(o.stop==null) o.stop=dz.stop;
+        if(!o.conv)      o.conv=dz.conv;
+        o.fallbackPrice=dz.p!=null?dz.p:null;
+        o.name=dz.n||'';
+      }
+    });
+    return out;
+  }
   var SECT={AAPL:'Tech',MSFT:'Tech',NVDA:'Tech',AVGO:'Tech',AMD:'Tech',TSM:'Tech',MU:'Tech',ASML:'Tech',ADBE:'Tech',CRM:'Tech',ORCL:'Tech',PANW:'Tech',CRWD:'Tech',IONQ:'Tech',RGTI:'Tech',QBTS:'Tech',
     GOOGL:'Comm',META:'Comm',NFLX:'Comm',AMZN:'Cons Disc',HD:'Cons Disc',NKE:'Cons Disc',M:'Cons Disc',
     JPM:'Financials',BAC:'Financials',GS:'Financials',BX:'Financials',V:'Financials',MA:'Financials',
@@ -85,26 +121,52 @@
   }
 
   // ---- watchlist buy triggers + earnings ----
+  // throttled quotes (respect Finnhub free-tier burst limits) -> {ticker:price}
+  function quotesThrottled(tickers){
+    var out={}, i=0;
+    function step(){
+      if(i>=tickers.length) return Promise.resolve(out);
+      var t=tickers[i++];
+      return quote(t).then(function(q){ out[t]=(q&&q.c)||0; }, function(){ out[t]=0; })
+        .then(function(){ return new Promise(function(res){ setTimeout(res,120); }); })
+        .then(step);
+    }
+    return step();
+  }
   function refresh(){
-    var wl=gw(); var wEl=$('ra-watch'); var msg=$('ra-msg');
-    if(!apikey()){ wEl.innerHTML='<div class="notice notice-warn">No Finnhub key set — add it in Settings to load live prices.</div>'; $('ra-earn').innerHTML='<div class="muted">Needs Finnhub key.</div>'; return; }
-    if(!wl.length){ wEl.innerHTML='<div class="muted">Watchlist is empty.</div>'; }
-    msg.textContent='Loading live quotes…';
-    Promise.all(wl.map(function(w){ return quote(w.ticker).then(function(q){ return {w:w, c:(q&&q.c)||0}; }); })).then(function(rows){
-      var triggered=0;
-      rows.forEach(function(r){ if(r.c && r.w.buy && r.c<=r.w.buy) triggered++; });
-      rows.sort(function(a,b){ var da=a.w.buy?(a.c-a.w.buy)/a.w.buy:9; var db=b.w.buy?(b.c-b.w.buy)/b.w.buy:9; return da-db; });
-      var html='<table class="t"><thead><tr><th>Ticker</th><th class="ta-r">Conv</th><th class="ta-r">Price</th><th class="ta-r">Buy ≤</th><th class="ta-r">To buy</th><th class="ta-r">Sell ≥</th></tr></thead><tbody>'+
-        rows.map(function(r){ var c=r.c, b=r.w.buy, s=r.w.sell, conv=r.w.conv||'';
-          var toBuy = (c&&b)?((c-b)/b*100):null;
-          var inBuy = c&&b&&c<=b;
-          var tag = inBuy? '<span style="color:var(--pos);font-weight:700">BUY ZONE</span>' : (toBuy!=null? (toBuy>0?'+':'')+toBuy.toFixed(1)+'%' : '—');
-          var rowStyle = inBuy? ' style="background:var(--pos-bg)"':'';
-          return '<tr'+rowStyle+'><td>'+r.w.ticker+'</td><td class="ta-r">'+conv+'</td><td class="ta-r">'+(c?('$'+c.toFixed(2)):'—')+'</td><td class="ta-r">'+(b?('$'+b):'—')+'</td><td class="ta-r">'+tag+'</td><td class="ta-r">'+(s?('$'+s):'—')+'</td></tr>';
-        }).join('')+'</tbody></table>';
-      wEl.innerHTML=html;
-      var badge=$('ra-badge'); if(triggered>0){ badge.textContent=triggered; badge.style.display='inline-block'; } else { badge.style.display='none'; }
-      msg.textContent='Updated '+new Date().toLocaleTimeString();
+    var wEl=$('ra-watch'); var msg=$('ra-msg');
+    loadDoss().then(function(){
+      var list=mergedWatch();
+      if(!list.length){ wEl.innerHTML='<div class="muted">Watchlist is empty.</div>'; }
+      var haveKey=!!apikey();
+      msg.textContent=haveKey?'Loading live quotes…':'No Finnhub key — showing last-close prices from the daily book.';
+      var qp=haveKey?quotesThrottled(list.map(function(o){return o.ticker;})):Promise.resolve({});
+      qp.then(function(live){
+        var rows=list.map(function(o){
+          var lc=live[o.ticker]||0;
+          var c= lc>0? lc : (o.fallbackPrice||0);
+          var src= lc>0?'live':(o.fallbackPrice?'close':'none');
+          return {o:o, c:c, src:src};
+        });
+        var triggered=0;
+        rows.forEach(function(r){ if(r.c && r.o.buy && r.c<=r.o.buy) triggered++; });
+        function dist(r){ return (r.c&&r.o.buy)?(r.c-r.o.buy)/r.o.buy:99; }
+        rows.sort(function(a,b){ var na=a.c>0?0:1, nb=b.c>0?0:1; if(na!==nb) return na-nb; return dist(a)-dist(b); });
+        var html='<table class="t"><thead><tr><th>Ticker</th><th class="ta-r">Conv</th><th class="ta-r">Price</th><th class="ta-r">Buy ≤</th><th class="ta-r">To buy</th><th class="ta-r">Stop</th><th class="ta-r">Sell ≥</th><th class="ta-r">R:R</th></tr></thead><tbody>'+
+          rows.map(function(r){ var o=r.o, c=r.c, b=o.buy, s=o.sell, st=o.stop, conv=o.conv||'';
+            var toBuy=(c&&b)?((c-b)/b*100):null;
+            var inBuy=c&&b&&c<=b;
+            var tag=inBuy?'<span style="color:var(--pos);font-weight:700">BUY ZONE</span>':(toBuy!=null?((toBuy>0?'+':'')+toBuy.toFixed(1)+'%'):'—');
+            var rr=(b&&s&&st&&(b-st)>0)?((s-b)/(b-st)):null;
+            var rowStyle=inBuy?' style="background:var(--pos-bg)"':'';
+            var pxCell=c?('$'+c.toFixed(2)+(r.src==='close'?'<span class="muted" style="font-size:10px"> c</span>':'')):'—';
+            return '<tr'+rowStyle+'><td>'+o.ticker+'</td><td class="ta-r">'+conv+'</td><td class="ta-r">'+pxCell+'</td><td class="ta-r">'+(b?('$'+b):'—')+'</td><td class="ta-r">'+tag+'</td><td class="ta-r">'+(st?('$'+st):'—')+'</td><td class="ta-r">'+(s?('$'+s):'—')+'</td><td class="ta-r">'+(rr!=null?rr.toFixed(1)+':1':'—')+'</td></tr>';
+          }).join('')+'</tbody></table>'+
+          '<div class="muted" style="font-size:11px;margin-top:6px">Deduped by ticker · levels from the daily research dossiers '+(DOSS_ASOF?('('+DOSS_ASOF+')'):'')+'. Price "c" = last close (no live quote). R:R = reward (buy→sell) ÷ risk (buy→stop).</div>';
+        wEl.innerHTML=html;
+        var badge=$('ra-badge'); if(triggered>0){ badge.textContent=triggered; badge.style.display='inline-block'; } else { badge.style.display='none'; }
+        msg.textContent='Updated '+new Date().toLocaleTimeString()+(haveKey?'':' · last-close mode');
+      });
     });
     var names={}; gp().forEach(function(p){names[(p.ticker||'').toUpperCase()]=1;}); gw().forEach(function(w){names[(w.ticker||'').toUpperCase()]=1;}); gs().forEach(function(s){names[(s.ticker||'').toUpperCase()]=1;});
     var set=Object.keys(names).filter(Boolean);
@@ -121,5 +183,9 @@
   }
   $('ra-refresh').addEventListener('click', refresh);
 
-  setTimeout(function(){ if(apikey()){ try{ var wl=gw(); Promise.all(wl.map(function(w){return quote(w.ticker).then(function(q){return {b:w.buy,c:(q&&q.c)||0};});})).then(function(rows){var t=rows.filter(function(r){return r.c&&r.b&&r.c<=r.b;}).length;var badge=$('ra-badge');if(t>0){badge.textContent=t;badge.style.display='inline-block';}});}catch(e){} } }, 1500);
+  setTimeout(function(){ try{ loadDoss().then(function(){ var list=mergedWatch();
+    function mark(getPx){ var t=list.filter(function(o){ var c=getPx(o); return c&&o.buy&&c<=o.buy; }).length; var badge=$('ra-badge'); if(t>0){ badge.textContent=t; badge.style.display='inline-block'; } }
+    if(apikey()){ quotesThrottled(list.map(function(o){return o.ticker;})).then(function(live){ mark(function(o){ return live[o.ticker]||o.fallbackPrice||0; }); }); }
+    else { mark(function(o){ return o.fallbackPrice||0; }); }
+  }); }catch(e){} }, 1500);
 })();
