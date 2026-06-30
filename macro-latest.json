@@ -1,12 +1,12 @@
 {
-  "asof": "2026-06-29",
-  "vix": 18.4,
+  "asof": "2026-06-30",
+  "vix": 17.65,
   "y10": 4.37,
   "y2": 4.1,
-  "ff": 3.625,
-  "spVs200": 6.7,
-  "brent": 72,
-  "note": "Risk-on/benign backdrop: 10Y-2Y curve positive (+0.27), VIX ~18, HY OAS ~2.78% (tight), Fed on hold at 3.50-3.75% (Warsh). S&P ~7,354, ~6.7% above 200DMA. Leadership rotating to Energy/Industrials/Materials & power/nuclear; mega-cap tech cooling on AI-capex worries. Brent ~$72 falling on US-Iran de-escalation. No recession flags triggered.",
+  "ff": 3.63,
+  "spVs200": 7.4,
+  "brent": 72.0,
+  "note": "Risk-on: S&P 7,440 (~7.4% above 200DMA), VIX 17.6, curve positive (+27bps). Tech leadership (XLK +49% YTD) while energy lags; Brent ~$72 as US-Iran tensions ease. New Fed chair Warsh held 3.50-3.75% but raised year-end projections (hawkish tilt). Main caution: narrow, tech/AI-concentrated breadth.",
   "checklist": [
     false,
     false,
@@ -16,6 +16,6 @@
     false,
     false,
     false,
-    false
+    true
   ]
 }

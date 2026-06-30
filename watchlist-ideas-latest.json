@@ -1,70 +1,86 @@
 {
-  "asof": "2026-06-29",
-  "method": "Momentum/technical setups in the leading sectors (power/nuclear, energy, industrials, materials, cyber). conv 1-5; buy=accumulate level, sell=resistance/target. Not advice.",
+  "asof": "2026-06-30",
+  "method": "Momentum/technical setups in leading sectors (AI power, semis, cyber, uranium). buy=accumulate support/retest, sell=resistance/target. Not advice.",
   "ideas": [
     {
-      "t": "GEV",
-      "n": "GE Vernova",
+      "t": "CEG",
+      "n": "Constellation",
       "conv": 5,
-      "buy": 1030,
-      "sell": 1200,
-      "thesis": "Uptrend intact above rising 50DMA; buy pullbacks to 1030, resistance ~1180-1200."
+      "buy": 248.0,
+      "sell": 300.0,
+      "thesis": "Uptrend AI-power leader; buy pullbacks to rising support, target prior-high extension."
     },
     {
       "t": "VST",
       "n": "Vistra",
       "conv": 4,
-      "buy": 160,
-      "sell": 205,
-      "thesis": "Holding 160 support after pullback; reclaim of 168 targets 205."
+      "buy": 152.0,
+      "sell": 185.0,
+      "thesis": "Higher-highs structure; accumulate on dips to 20DMA, resistance near 185."
     },
     {
-      "t": "CEG",
-      "n": "Constellation",
+      "t": "NVDA",
+      "n": "NVIDIA",
+      "conv": 5,
+      "buy": 188.0,
+      "sell": 230.0,
+      "thesis": "Bull trend intact above 200; buy ~188 support, measured-move toward 230."
+    },
+    {
+      "t": "AVGO",
+      "n": "Broadcom",
       "conv": 4,
-      "buy": 258,
-      "sell": 320,
-      "thesis": "Buy 255-260 demand zone; PPA news catalysts; PT zone ~320."
-    },
-    {
-      "t": "EOG",
-      "n": "EOG Resources",
-      "conv": 3,
-      "buy": 129,
-      "sell": 150,
-      "thesis": "Value base near 120-129; oil dip buy, resistance 150."
-    },
-    {
-      "t": "FCX",
-      "n": "Freeport",
-      "conv": 4,
-      "buy": 61,
-      "sell": 72,
-      "thesis": "Copper bid; coiling under 63, breakout targets 52w high 72."
+      "buy": 360.0,
+      "sell": 420.0,
+      "thesis": "Breakout retest at 360 holds; upside to 420 on AI ASIC momentum."
     },
     {
       "t": "CCJ",
       "n": "Cameco",
       "conv": 4,
-      "buy": 102,
-      "sell": 130,
-      "thesis": "Higher-low structure; accumulate 100-102, target prior high 130."
+      "buy": 98.0,
+      "sell": 120.0,
+      "thesis": "Uranium uptrend; buy 98 support zone, resistance/target ~120."
     },
     {
-      "t": "PWR",
-      "n": "Quanta Services",
-      "conv": 3,
-      "buy": 690,
-      "sell": 780,
-      "thesis": "Grid pure-play; buy 660-690 pullback, resistance 780."
-    },
-    {
-      "t": "PANW",
-      "n": "Palo Alto",
+      "t": "CRWD",
+      "n": "CrowdStrike",
       "conv": 4,
-      "buy": 296,
-      "sell": 345,
-      "thesis": "Breakout retest near 295; momentum leader, extension to 345."
+      "buy": 710.0,
+      "sell": 820.0,
+      "thesis": "Cyber leader holding above 50DMA; accumulate dips, target 820."
+    },
+    {
+      "t": "RKLB",
+      "n": "Rocket Lab",
+      "conv": 3,
+      "buy": 90.0,
+      "sell": 120.0,
+      "thesis": "Volatile space momentum; buy 90 retest, sell into 120 resistance."
+    },
+    {
+      "t": "MELI",
+      "n": "MercadoLibre",
+      "conv": 4,
+      "buy": 1620.0,
+      "sell": 1850.0,
+      "thesis": "Long-term uptrend + insider buys; accumulate 1620, target 1850."
+    },
+    {
+      "t": "FSLR",
+      "n": "First Solar",
+      "conv": 3,
+      "buy": 222.0,
+      "sell": 265.0,
+      "thesis": "Range with rising base; buy 222 support, resistance 265."
+    },
+    {
+      "t": "GS",
+      "n": "Goldman Sachs",
+      "conv": 4,
+      "buy": 985.0,
+      "sell": 1120.0,
+      "thesis": "M&A-cycle uptrend; politician buying; accumulate 985, target 1120."
     }
   ]
 }

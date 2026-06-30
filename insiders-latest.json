@@ -1,194 +1,167 @@
 {
-  "asof": "2026-06-29",
+  "asof": "2026-06-30",
   "clusters": [
     {
-      "t": "NCLH",
-      "n": "Norwegian Cruise Line",
-      "buyers": 7,
-      "total": 29163646,
-      "buys": "P @ ~17.85 (Jun 1)",
-      "note": "Large 7-insider cluster incl 10% owner; +136% own change"
-    },
-    {
-      "t": "GEHC",
-      "n": "GE HealthCare",
-      "buyers": 8,
-      "total": 6423136,
-      "buys": "P @ ~61.97 (May)",
-      "note": "Broad officer cluster; RBC initiated Outperform PT 80"
-    },
-    {
-      "t": "HLNE",
-      "n": "Hamilton Lane",
-      "buyers": 3,
-      "total": 14241108,
-      "buys": "P @ ~86.05 (Jun 11)",
-      "note": "Private-markets manager; sizeable dollar buys"
-    },
-    {
-      "t": "SHAK",
-      "n": "Shake Shack",
+      "t": "FISV",
+      "n": "Fiserv",
       "buyers": 6,
-      "total": 3232568,
-      "buys": "P @ ~61.44 (May 15)",
-      "note": "6-insider cluster; restaurant turnaround"
+      "total": 1723401.0,
+      "buys": 6,
+      "note": "Payments processor; 6 insiders bought ~$49.55 after reset."
     },
     {
       "t": "RYAN",
       "n": "Ryan Specialty",
       "buyers": 5,
-      "total": 4568609,
-      "buys": "P @ ~32.63 (Jun)",
-      "note": "Specialty insurance broker cluster"
+      "total": 4568609.0,
+      "buys": 5,
+      "note": "Specialty insurance distributor; 5-insider cluster ~$32.63."
     },
     {
       "t": "KMX",
       "n": "CarMax",
       "buyers": 5,
-      "total": 1268037,
-      "buys": "P @ ~52.67 (Jun 25)",
-      "note": "Post-Q1-beat buying; new CEO strategy"
+      "total": 1268037.0,
+      "buys": 5,
+      "note": "Used-auto retailer; 5 insiders bought ~$52.67."
     },
     {
-      "t": "FISV",
-      "n": "Fiserv",
-      "buyers": 6,
-      "total": 1723401,
-      "buys": "P @ ~49.55 (Jun 16)",
-      "note": "6 insiders buy after sharp de-rating"
+      "t": "EVTC",
+      "n": "Evertec",
+      "buyers": 5,
+      "total": 2251252.0,
+      "buys": 5,
+      "note": "LatAm payments; 5 insiders ~$23.90."
+    },
+    {
+      "t": "ADSK",
+      "n": "Autodesk",
+      "buyers": 4,
+      "total": 2165173.0,
+      "buys": 4,
+      "note": "Design software; 4 insiders ~$208.29."
+    },
+    {
+      "t": "IBP",
+      "n": "Installed Building Products",
+      "buyers": 4,
+      "total": 1042804.0,
+      "buys": 4,
+      "note": "Insulation installer; 4 insiders ~$207."
     },
     {
       "t": "ECL",
       "n": "Ecolab",
       "buyers": 3,
-      "total": 2719511,
-      "buys": "P @ ~257.77 (Jun 11)",
-      "note": "Quality compounder; insider conviction"
+      "total": 2719511.0,
+      "buys": 3,
+      "note": "Water/hygiene; 3 insiders ~$257.77."
     },
     {
-      "t": "CELH",
-      "n": "Celsius Holdings",
+      "t": "HLNE",
+      "n": "Hamilton Lane",
       "buyers": 3,
-      "total": 716358,
-      "buys": "P @ ~29.39 (May 21)",
-      "note": "Energy-drink growth; buying near lows"
+      "total": 14241108.0,
+      "buys": 3,
+      "note": "Private-markets manager; ~$14.2M cluster ~$86."
     },
     {
-      "t": "CAVA",
-      "n": "CAVA Group",
-      "buyers": 2,
-      "total": 661550,
-      "buys": "P @ ~77.83 (Jun 3)",
-      "note": "Insider buy ahead of UBS upgrade"
-    },
-    {
-      "t": "TSM",
-      "n": "Taiwan Semiconductor",
-      "buyers": 4,
-      "total": 891730,
-      "buys": "P @ ~89.17",
-      "note": "Foundry leader; multi-insider buying"
+      "t": "SMMT",
+      "n": "Summit Therapeutics",
+      "buyers": 3,
+      "total": 100696650.0,
+      "buys": 3,
+      "note": "Oncology biotech; very large ~$100.7M insider cluster ~$13.13."
     },
     {
       "t": "MTDR",
       "n": "Matador Resources",
       "buyers": 3,
-      "total": 159255,
-      "buys": "P @ ~53.09 (Jun 9)",
-      "note": "Permian E&P insider buys"
+      "total": 159255.0,
+      "buys": 3,
+      "note": "Permian E&P; 3 insiders ~$53.09."
     }
   ],
   "watchable": [
     {
-      "t": "ADSK",
-      "n": "Autodesk",
-      "buyers": 4,
-      "total": 2165173,
-      "note": "Design software; 4-insider buy @ ~208"
-    },
-    {
-      "t": "CHTR",
-      "n": "Charter Communications",
-      "buyers": 4,
-      "total": 3764457,
-      "note": "Cable; cluster @ ~159 amid selloff"
-    },
-    {
-      "t": "CDW",
-      "n": "CDW Corp",
+      "t": "EXE",
+      "n": "Expand Energy",
       "buyers": 2,
-      "total": 2505138,
-      "note": "IT reseller buy @ ~109"
+      "total": 560880.0,
+      "note": "Largest US gas producer; 2 insiders ~$93.48."
     },
     {
       "t": "LULU",
       "n": "Lululemon",
       "buyers": 2,
-      "total": 994975,
-      "note": "Apparel; buy @ ~131 near lows"
+      "total": 994975.0,
+      "note": "Insiders bought the dip ~$131.78 (now lower)."
     },
     {
-      "t": "GRNT",
-      "n": "Granite Ridge Resources",
+      "t": "MELI",
+      "n": "MercadoLibre",
+      "buyers": 2,
+      "total": 1193556.0,
+      "note": "LatAm e-comm; 2 insiders ~$1646."
+    },
+    {
+      "t": "DINO",
+      "n": "HF Sinclair",
+      "buyers": 2,
+      "total": 1136661.0,
+      "note": "Refiner; 2 insiders ~$68.86."
+    },
+    {
+      "t": "ACM",
+      "n": "AECOM",
+      "buyers": 3,
+      "total": 699391.0,
+      "note": "Infrastructure engineering; 3 insiders ~$70.87."
+    },
+    {
+      "t": "MBC",
+      "n": "MasterBrand",
       "buyers": 4,
-      "total": 776048,
-      "note": "Energy minerals; 4-insider buy @ ~5.36"
+      "total": 696390.0,
+      "note": "Cabinets; 4 insiders ~$8.54."
     }
   ],
   "politicians": [
     {
-      "who": "Nancy Pelosi",
+      "who": "Cleo Fields",
       "party": "D",
-      "t": "INTC",
-      "n": "Intel",
-      "type": "BUY",
-      "size": "$1M-5M",
-      "note": "Spouse; large purchase filed Jun 24 (traded May 29)"
-    },
-    {
-      "who": "Nancy Pelosi",
-      "party": "D",
-      "t": "UBER",
-      "n": "Uber Technologies",
-      "type": "BUY",
-      "size": "$500K-1M",
-      "note": "Spouse; filed Jun 24"
-    },
-    {
-      "who": "Jerry Moran",
-      "party": "R",
-      "t": "BRK/B",
-      "n": "Berkshire Hathaway",
-      "type": "BUY",
-      "size": "$1K-15K",
-      "note": "Multiple buys @ ~479.92"
-    },
-    {
-      "who": "Jerry Moran",
-      "party": "R",
       "t": "GOOGL",
       "n": "Alphabet",
-      "type": "SELL",
-      "size": "$1K-15K",
-      "note": "Sold @ ~384.83"
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "House LA; bought ~$367 mid-June."
     },
     {
-      "who": "Dwight Evans",
+      "who": "Cleo Fields",
       "party": "D",
-      "t": "GD",
-      "n": "General Dynamics",
-      "type": "SELL",
-      "size": "$1K-15K",
-      "note": "Sold @ ~341.07"
+      "t": "MSFT",
+      "n": "Microsoft",
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "House LA; bought ~$390 mid-June."
     },
     {
-      "who": "Neal Dunn",
+      "who": "Dave McCormick",
       "party": "R",
-      "t": "RF",
-      "n": "Regions Financial",
+      "t": "GS",
+      "n": "Goldman Sachs",
+      "type": "BUY",
+      "size": "100K-250K",
+      "note": "Senate PA; spouse bought (two lots)."
+    },
+    {
+      "who": "Greg Stanton",
+      "party": "D",
+      "t": "TCNNF",
+      "n": "Trulieve Cannabis",
       "type": "SELL",
-      "size": "$50K-100K",
-      "note": "Trimmed financials"
+      "size": "100K-250K",
+      "note": "House AZ; spouse sale ~$9.67."
     }
   ]
 }
