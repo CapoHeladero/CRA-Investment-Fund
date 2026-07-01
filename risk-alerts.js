@@ -125,17 +125,25 @@
   }
 
   // ---- watchlist buy triggers + earnings ----
-  // throttled quotes (respect Finnhub free-tier burst limits) -> {ticker:price}
-  function quotesThrottled(tickers){
-    var out={}, i=0;
-    function step(){
-      if(i>=tickers.length) return Promise.resolve(out);
-      var t=tickers[i++];
-      return quote(t).then(function(q){ out[t]=(q&&q.c)||0; }, function(){ out[t]=0; })
-        .then(function(){ return new Promise(function(res){ setTimeout(res,120); }); })
-        .then(step);
-    }
-    return step();
+  // PARALLEL live quotes with a per-request timeout so one slow/hung request can
+  // never block the others (the old sequential version stalled the whole table).
+  // Primary source Finnhub; fields: c=current, pc=prev close, t=quote epoch.
+  function fetchQuote(sym, timeoutMs){
+    var k=apikey(); if(!k) return Promise.resolve(null);
+    var url='https://finnhub.io/api/v1/quote?symbol='+encodeURIComponent(sym)+'&token='+k;
+    var p=fetch(url,{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+    var to=new Promise(function(res){ setTimeout(function(){res(null);}, timeoutMs||5000); });
+    return Promise.race([p,to]);
+  }
+  function quotesAll(tickers){
+    return Promise.all(tickers.map(function(t){
+      return fetchQuote(t,5000).then(function(q){ return {t:t, c:(q&&q.c)||0, ts:(q&&q.t)||0}; });
+    })).then(function(arr){
+      var out={}, tsMax=0;
+      arr.forEach(function(o){ out[o.t]={c:o.c, ts:o.ts}; if(o.ts>tsMax) tsMax=o.ts; });
+      out.__tsMax=tsMax;
+      return out;
+    });
   }
   function refresh(){
     var wEl=$('ra-watch'); var msg=$('ra-msg');
@@ -144,12 +152,14 @@
       if(!list.length){ wEl.innerHTML='<div class="muted">Watchlist is empty.</div>'; }
       var haveKey=!!apikey();
       msg.textContent=haveKey?'Loading live quotes…':'No Finnhub key — showing last-close prices from the daily book.';
-      var qp=haveKey?quotesThrottled(list.map(function(o){return o.ticker;})):Promise.resolve({});
+      var qp=haveKey?quotesAll(list.map(function(o){return o.ticker;})):Promise.resolve({});
       qp.then(function(live){
+        var liveCount=0;
         var rows=list.map(function(o){
-          var lc=live[o.ticker]||0;
+          var q=live[o.ticker]; var lc=(q&&q.c)||0;
           var c= lc>0? lc : (o.fallbackPrice||0);
           var src= lc>0?'live':(o.fallbackPrice?'close':'none');
+          if(lc>0) liveCount++;
           return {o:o, c:c, src:src};
         });
         var triggered=0;
@@ -163,13 +173,14 @@
             var tag=inBuy?'<span style="color:var(--pos);font-weight:700">BUY ZONE</span>':(toBuy!=null?((toBuy>0?'+':'')+toBuy.toFixed(1)+'%'):'—');
             var rr=(b&&s&&st&&(b-st)>0)?((s-b)/(b-st)):null;
             var rowStyle=inBuy?' style="background:var(--pos-bg)"':'';
-            var pxCell=c?('$'+c.toFixed(2)+(r.src==='close'?'<span class="muted" style="font-size:10px"> c</span>':'')):'—';
+            var pxCell=c?('$'+c.toFixed(2)+(r.src==='close'?'<span class="muted" style="font-size:10px" title="last close — no live quote"> c</span>':'')):'—';
             return '<tr'+rowStyle+'><td>'+o.ticker+'</td><td class="ta-r">'+conv+'</td><td class="ta-r">'+pxCell+'</td><td class="ta-r">'+(b?('$'+b):'—')+'</td><td class="ta-r">'+tag+'</td><td class="ta-r">'+(st?('$'+st):'—')+'</td><td class="ta-r">'+(s?('$'+s):'—')+'</td><td class="ta-r">'+(rr!=null?rr.toFixed(1)+':1':'—')+'</td></tr>';
           }).join('')+'</tbody></table>'+
-          '<div class="muted" style="font-size:11px;margin-top:6px">Deduped by ticker · levels from the daily research dossiers '+(DOSS_ASOF?('('+DOSS_ASOF+')'):'')+'. Price "c" = last close (no live quote). R:R = reward (buy→sell) ÷ risk (buy→stop).</div>';
+          '<div class="muted" style="font-size:11px;margin-top:6px">'+liveCount+' of '+list.length+' live · deduped by ticker · levels from the daily research dossiers '+(DOSS_ASOF?('('+DOSS_ASOF+')'):'')+'. Price "c" = last close (no live quote). R:R = reward (buy→sell) ÷ risk (buy→stop).</div>';
         wEl.innerHTML=html;
         var badge=$('ra-badge'); if(triggered>0){ badge.textContent=triggered; badge.style.display='inline-block'; } else { badge.style.display='none'; }
-        msg.textContent='Updated '+new Date().toLocaleTimeString()+(haveKey?'':' · last-close mode');
+        var tsMax=live.__tsMax||0; var qts=tsMax?(' · quote '+new Date(tsMax*1000).toLocaleTimeString()):'';
+        msg.innerHTML='<span style="color:'+(liveCount?'var(--pos)':'var(--text-tert)')+'">●</span> Updated '+new Date().toLocaleTimeString()+' · '+liveCount+'/'+list.length+' live'+qts+(haveKey?'':' · last-close mode (add Finnhub key)')+(RA_AUTO?' · auto-refresh 60s':'');
       });
     });
     var names={}; gp().forEach(function(p){names[(p.ticker||'').toUpperCase()]=1;}); gw().forEach(function(w){names[(w.ticker||'').toUpperCase()]=1;}); gs().forEach(function(s){names[(s.ticker||'').toUpperCase()]=1;});
@@ -187,9 +198,16 @@
   }
   $('ra-refresh').addEventListener('click', refresh);
 
+  // ---- intraday auto-refresh: re-pull live quotes every 60s while this tab is
+  // open & visible; also refresh when the user returns to the tab. ----
+  var RA_AUTO=true;
+  function raActive(){ return sec.classList.contains('active') && document.visibilityState==='visible'; }
+  setInterval(function(){ if(RA_AUTO && raActive()) refresh(); }, 60000);
+  document.addEventListener('visibilitychange', function(){ if(RA_AUTO && raActive()) refresh(); });
+
   setTimeout(function(){ try{ loadDoss().then(function(){ var list=mergedWatch();
-    function mark(getPx){ var t=list.filter(function(o){ var c=getPx(o); return c&&o.buy&&c<=o.buy; }).length; var badge=$('ra-badge'); if(t>0){ badge.textContent=t; badge.style.display='inline-block'; } }
-    if(apikey()){ quotesThrottled(list.map(function(o){return o.ticker;})).then(function(live){ mark(function(o){ return live[o.ticker]||o.fallbackPrice||0; }); }); }
+    function mark(getPx){ var t=list.filter(function(o){ var c=getPx(o); return c&&o.buy&&c<=o.buy; }).length; var badge=$('ra-badge'); if(t>0){ badge.textContent=t; badge.style.display='inline-block'; } else { badge.style.display='none'; } }
+    if(apikey()){ quotesAll(list.map(function(o){return o.ticker;})).then(function(live){ mark(function(o){ var q=live[o.ticker]; return (q&&q.c)||o.fallbackPrice||0; }); }); }
     else { mark(function(o){ return o.fallbackPrice||0; }); }
   }); }catch(e){} }, 1500);
 })();
