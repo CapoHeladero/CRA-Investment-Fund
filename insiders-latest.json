@@ -1,167 +1,96 @@
 {
-  "asof": "2026-06-30",
-  "clusters": [
-    {
-      "t": "FISV",
-      "n": "Fiserv",
-      "buyers": 6,
-      "total": 1723401.0,
-      "buys": 6,
-      "note": "Payments processor; 6 insiders bought ~$49.55 after reset."
-    },
-    {
-      "t": "RYAN",
-      "n": "Ryan Specialty",
-      "buyers": 5,
-      "total": 4568609.0,
-      "buys": 5,
-      "note": "Specialty insurance distributor; 5-insider cluster ~$32.63."
-    },
-    {
-      "t": "KMX",
-      "n": "CarMax",
-      "buyers": 5,
-      "total": 1268037.0,
-      "buys": 5,
-      "note": "Used-auto retailer; 5 insiders bought ~$52.67."
-    },
-    {
-      "t": "EVTC",
-      "n": "Evertec",
-      "buyers": 5,
-      "total": 2251252.0,
-      "buys": 5,
-      "note": "LatAm payments; 5 insiders ~$23.90."
-    },
-    {
-      "t": "ADSK",
-      "n": "Autodesk",
-      "buyers": 4,
-      "total": 2165173.0,
-      "buys": 4,
-      "note": "Design software; 4 insiders ~$208.29."
-    },
-    {
-      "t": "IBP",
-      "n": "Installed Building Products",
-      "buyers": 4,
-      "total": 1042804.0,
-      "buys": 4,
-      "note": "Insulation installer; 4 insiders ~$207."
-    },
-    {
-      "t": "ECL",
-      "n": "Ecolab",
-      "buyers": 3,
-      "total": 2719511.0,
-      "buys": 3,
-      "note": "Water/hygiene; 3 insiders ~$257.77."
-    },
-    {
-      "t": "HLNE",
-      "n": "Hamilton Lane",
-      "buyers": 3,
-      "total": 14241108.0,
-      "buys": 3,
-      "note": "Private-markets manager; ~$14.2M cluster ~$86."
-    },
-    {
-      "t": "SMMT",
-      "n": "Summit Therapeutics",
-      "buyers": 3,
-      "total": 100696650.0,
-      "buys": 3,
-      "note": "Oncology biotech; very large ~$100.7M insider cluster ~$13.13."
-    },
-    {
-      "t": "MTDR",
-      "n": "Matador Resources",
-      "buyers": 3,
-      "total": 159255.0,
-      "buys": 3,
-      "note": "Permian E&P; 3 insiders ~$53.09."
-    }
-  ],
-  "watchable": [
-    {
-      "t": "EXE",
-      "n": "Expand Energy",
-      "buyers": 2,
-      "total": 560880.0,
-      "note": "Largest US gas producer; 2 insiders ~$93.48."
-    },
-    {
-      "t": "LULU",
-      "n": "Lululemon",
-      "buyers": 2,
-      "total": 994975.0,
-      "note": "Insiders bought the dip ~$131.78 (now lower)."
-    },
-    {
-      "t": "MELI",
-      "n": "MercadoLibre",
-      "buyers": 2,
-      "total": 1193556.0,
-      "note": "LatAm e-comm; 2 insiders ~$1646."
-    },
-    {
-      "t": "DINO",
-      "n": "HF Sinclair",
-      "buyers": 2,
-      "total": 1136661.0,
-      "note": "Refiner; 2 insiders ~$68.86."
-    },
-    {
-      "t": "ACM",
-      "n": "AECOM",
-      "buyers": 3,
-      "total": 699391.0,
-      "note": "Infrastructure engineering; 3 insiders ~$70.87."
-    },
-    {
-      "t": "MBC",
-      "n": "MasterBrand",
-      "buyers": 4,
-      "total": 696390.0,
-      "note": "Cabinets; 4 insiders ~$8.54."
-    }
-  ],
-  "politicians": [
-    {
-      "who": "Cleo Fields",
-      "party": "D",
-      "t": "GOOGL",
-      "n": "Alphabet",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "House LA; bought ~$367 mid-June."
-    },
-    {
-      "who": "Cleo Fields",
-      "party": "D",
-      "t": "MSFT",
-      "n": "Microsoft",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "House LA; bought ~$390 mid-June."
-    },
-    {
-      "who": "Dave McCormick",
-      "party": "R",
-      "t": "GS",
-      "n": "Goldman Sachs",
-      "type": "BUY",
-      "size": "100K-250K",
-      "note": "Senate PA; spouse bought (two lots)."
-    },
-    {
-      "who": "Greg Stanton",
-      "party": "D",
-      "t": "TCNNF",
-      "n": "Trulieve Cannabis",
-      "type": "SELL",
-      "size": "100K-250K",
-      "note": "House AZ; spouse sale ~$9.67."
-    }
-  ]
+ "asof": "2026-07-02",
+ "clusters": [
+  {
+   "t": "DPC",
+   "n": "DPC Holdings Ltd",
+   "buyers": 6,
+   "total": 74800000,
+   "buys": 6,
+   "note": "Broad C-suite + director cluster (CEO, CFO, COO, 3 directors) all buying at $33.00"
+  },
+  {
+   "t": "COE",
+   "n": "China Online (COE)",
+   "buyers": 1,
+   "total": 20800000,
+   "buys": 2,
+   "note": "CEO/10% owner added ~1.3M shares at $15.54–$17.25"
+  }
+ ],
+ "watchable": [
+  {
+   "t": "JEF",
+   "n": "Jefferies Financial Group",
+   "buyers": 1,
+   "total": 352500000,
+   "note": "SMBC (Sumitomo Mitsui) director purchased 6.43M shares at $54.83 (~$352M) — new strategic stake"
+  },
+  {
+   "t": "ADBE",
+   "n": "Adobe Inc.",
+   "buyers": 1,
+   "total": 1945000,
+   "note": "Insider bought 10,000 shares at $194.51 into weakness"
+  },
+  {
+   "t": "NXST",
+   "n": "Nexstar Media Group",
+   "buyers": 1,
+   "total": 1985000,
+   "note": "12,235 shares at $162.27"
+  },
+  {
+   "t": "RH",
+   "n": "RH",
+   "buyers": 1,
+   "total": 1832000,
+   "note": "11,388 shares at $160.90"
+  },
+  {
+   "t": "LILA",
+   "n": "Liberty Latin America",
+   "buyers": 1,
+   "total": 3394000,
+   "note": "John Malone added 399,699 shares at $8.49"
+  }
+ ],
+ "politicians": [
+  {
+   "who": "Keith Self",
+   "party": "R",
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Bought NVDA at $135.91 (filed this week)"
+  },
+  {
+   "who": "Keith Self",
+   "party": "R",
+   "t": "GPC",
+   "n": "Genuine Parts",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Bought GPC at $115.91"
+  },
+  {
+   "who": "Keith Self",
+   "party": "R",
+   "t": "PEP",
+   "n": "PepsiCo",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Bought PEP at $142.64; sold T and MRK"
+  },
+  {
+   "who": "John Curtis",
+   "party": "R",
+   "t": "UBS",
+   "n": "UBS Group",
+   "type": "BUY",
+   "size": "100K–250K",
+   "note": "Joint buy of UBS + JPMorgan/Citi structured notes (financials tilt)"
+  }
+ ]
 }

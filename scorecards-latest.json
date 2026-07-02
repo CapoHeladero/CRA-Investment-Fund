@@ -1,188 +1,188 @@
 {
-  "asof": "2026-06-30",
-  "method": "Composite of trend (vs 200DMA), insider signal, FCF/quality, and theme momentum. Grades A-F; score 0-100. Not advice.",
-  "names": [
-    {
-      "t": "NVDA",
-      "n": "NVIDIA",
-      "sector": "AI Semis",
-      "grade": "A",
-      "score": 92.0,
-      "tier": "top",
-      "note": "Theme leader, strong FCF, uptrend."
-    },
-    {
-      "t": "CEG",
-      "n": "Constellation",
-      "sector": "AI Power",
-      "grade": "A",
-      "score": 90.0,
-      "tier": "top",
-      "note": "Cleanest AI-electricity play; PPA deals."
-    },
-    {
-      "t": "AVGO",
-      "n": "Broadcom",
-      "sector": "AI Semis",
-      "grade": "A",
-      "score": 89.0,
-      "tier": "top",
-      "note": "Custom AI silicon + software FCF."
-    },
-    {
-      "t": "GOOGL",
-      "n": "Alphabet",
-      "sector": "Megacap",
-      "grade": "A",
-      "score": 88.0,
-      "tier": "top",
-      "note": "Cheapest megacap on FCF; cloud inflection."
-    },
-    {
-      "t": "MSFT",
-      "n": "Microsoft",
-      "sector": "Megacap",
-      "grade": "A",
-      "score": 87.0,
-      "tier": "top",
-      "note": "Azure/Copilot; politician buying."
-    },
-    {
-      "t": "CRWD",
-      "n": "CrowdStrike",
-      "sector": "Cyber",
-      "grade": "A",
-      "score": 86.0,
-      "tier": "top",
-      "note": "Platform consolidation, high FCF margin."
-    },
-    {
-      "t": "HLNE",
-      "n": "Hamilton Lane",
-      "sector": "Financials",
-      "grade": "A",
-      "score": 85.0,
-      "tier": "top",
-      "note": "Sticky fees + $14M insider cluster."
-    },
-    {
-      "t": "RYAN",
-      "n": "Ryan Specialty",
-      "sector": "Financials",
-      "grade": "B",
-      "score": 83.0,
-      "tier": "top",
-      "note": "E&S compounder; large insider cluster."
-    },
-    {
-      "t": "META",
-      "n": "Meta",
-      "sector": "Megacap",
-      "grade": "B",
-      "score": 82.0,
-      "tier": "top",
-      "note": "AI ad ROAS; strong FCF, RL drag."
-    },
-    {
-      "t": "CCJ",
-      "n": "Cameco",
-      "sector": "Uranium",
-      "grade": "B",
-      "score": 81.0,
-      "tier": "top",
-      "note": "Supply-deficit + Westinghouse optionality."
-    },
-    {
-      "t": "FSLR",
-      "n": "First Solar",
-      "sector": "Renewables",
-      "grade": "B",
-      "score": 80.0,
-      "tier": "top",
-      "note": "Sold-out backlog, net cash, policy edge."
-    },
-    {
-      "t": "VST",
-      "n": "Vistra",
-      "sector": "AI Power",
-      "grade": "B",
-      "score": 79.0,
-      "tier": "top",
-      "note": "Power demand + buybacks; higher beta."
-    },
-    {
-      "t": "XOM",
-      "n": "Exxon Mobil",
-      "sector": "Energy",
-      "grade": "B",
-      "score": 77.0,
-      "tier": "top",
-      "note": "Strong FCF; energy out of favor short-term."
-    },
-    {
-      "t": "FISV",
-      "n": "Fiserv",
-      "sector": "Fintech",
-      "grade": "B",
-      "score": 76.0,
-      "tier": "top",
-      "note": "6-insider cluster after reset; value."
-    }
-  ],
-  "worst": [
-    {
-      "t": "QUBT",
-      "n": "Quantum Computing Inc",
-      "sector": "Quantum",
-      "grade": "F",
-      "score": 18.0,
-      "tier": "worst",
-      "note": "Pre-revenue, extreme valuation/volatility."
-    },
-    {
-      "t": "SMR",
-      "n": "NuScale Power",
-      "sector": "Nuclear SMR",
-      "grade": "D",
-      "score": 28.0,
-      "tier": "worst",
-      "note": "Pre-commercial SMR; cash burn, dilution."
-    },
-    {
-      "t": "QBTS",
-      "n": "D-Wave Quantum",
-      "sector": "Quantum",
-      "grade": "D",
-      "score": 30.0,
-      "tier": "worst",
-      "note": "Sentiment-driven; minimal revenue."
-    },
-    {
-      "t": "RGTI",
-      "n": "Rigetti",
-      "sector": "Quantum",
-      "grade": "D",
-      "score": 32.0,
-      "tier": "worst",
-      "note": "Tiny revenue, large losses, high beta."
-    },
-    {
-      "t": "LUNR",
-      "n": "Intuitive Machines",
-      "sector": "Space",
-      "grade": "D",
-      "score": 35.0,
-      "tier": "worst",
-      "note": "Mission-dependent, lumpy, unprofitable."
-    },
-    {
-      "t": "ENPH",
-      "n": "Enphase",
-      "sector": "Renewables",
-      "grade": "D",
-      "score": 38.0,
-      "tier": "worst",
-      "note": "Demand/policy headwinds; downtrend."
-    }
-  ]
+ "asof": "2026-07-02",
+ "method": "Composite of analyst rating, upside-to-target, valuation (fwd P/E) and story-risk penalty. Directional gauge, not a price forecast.",
+ "names": [
+  {
+   "t": "MSFT",
+   "n": "Microsoft",
+   "sector": "Software / AI apps",
+   "grade": "A-",
+   "score": 83,
+   "tier": "top",
+   "note": "fwd P/E 20.8, Strong Buy, target 561 (+46%)"
+  },
+  {
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "sector": "AI infra",
+   "grade": "A",
+   "score": 86,
+   "tier": "top",
+   "note": "fwd P/E 19.9, Strong Buy, target 301.6 (+51%)"
+  },
+  {
+   "t": "AVGO",
+   "n": "Broadcom",
+   "sector": "AI infra",
+   "grade": "A-",
+   "score": 82,
+   "tier": "top",
+   "note": "fwd P/E 23.5, Strong Buy, target 523.7 (+42%)"
+  },
+  {
+   "t": "MU",
+   "n": "Micron",
+   "sector": "Semis / memory",
+   "grade": "A",
+   "score": 89,
+   "tier": "top",
+   "note": "fwd P/E 7.2, Strong Buy, target 1486 (+44%)"
+  },
+  {
+   "t": "VST",
+   "n": "Vistra",
+   "sector": "Nuclear / AI-power",
+   "grade": "A-",
+   "score": 83,
+   "tier": "top",
+   "note": "fwd P/E 16.9, Strong Buy, target 223 (+46%)"
+  },
+  {
+   "t": "CEG",
+   "n": "Constellation Energy",
+   "sector": "Nuclear / AI-power",
+   "grade": "A-",
+   "score": 79,
+   "tier": "top",
+   "note": "fwd P/E 20.4, Buy, target 358 (+51%)"
+  },
+  {
+   "t": "CRM",
+   "n": "Salesforce",
+   "sector": "Software / AI apps",
+   "grade": "A-",
+   "score": 84,
+   "tier": "top",
+   "note": "fwd P/E 11.7, Buy, target 246 (+51%)"
+  },
+  {
+   "t": "FSLR",
+   "n": "First Solar",
+   "sector": "Renewables",
+   "grade": "B",
+   "score": 67,
+   "tier": "top",
+   "note": "fwd P/E 12.1, Buy, target 247 (+7%)"
+  },
+  {
+   "t": "MELI",
+   "n": "MercadoLibre",
+   "sector": "Consumer / Intl",
+   "grade": "B",
+   "score": 69,
+   "tier": "top",
+   "note": "fwd P/E 42.7, Buy, target 2217 (+27%)"
+  },
+  {
+   "t": "NFLX",
+   "n": "Netflix",
+   "sector": "Consumer / Media",
+   "grade": "A-",
+   "score": 80,
+   "tier": "top",
+   "note": "fwd P/E 22.3, Buy, target 114 (+54%)"
+  },
+  {
+   "t": "XOM",
+   "n": "ExxonMobil",
+   "sector": "Energy",
+   "grade": "B+",
+   "score": 74,
+   "tier": "top",
+   "note": "fwd P/E 10.7, Buy, target 170 (+25%)"
+  },
+  {
+   "t": "CVX",
+   "n": "Chevron",
+   "sector": "Energy",
+   "grade": "B+",
+   "score": 76,
+   "tier": "top",
+   "note": "fwd P/E 10.2, Buy, target 217 (+31%)"
+  },
+  {
+   "t": "VRT",
+   "n": "Vertiv",
+   "sector": "AI infra",
+   "grade": "B+",
+   "score": 73,
+   "tier": "top",
+   "note": "fwd P/E 45.6, Strong Buy, target 377 (+21%)"
+  },
+  {
+   "t": "ETN",
+   "n": "Eaton",
+   "sector": "Industrials / electrification",
+   "grade": "B-",
+   "score": 62,
+   "tier": "top",
+   "note": "fwd P/E 29.3, Buy, target 454 (+10%)"
+  }
+ ],
+ "worst": [
+  {
+   "t": "ASTS",
+   "n": "AST SpaceMobile",
+   "sector": "Space",
+   "grade": "D",
+   "score": 34,
+   "tier": "worst",
+   "note": "No revenue, Hold, target 81 (-5%)"
+  },
+  {
+   "t": "OSCR",
+   "n": "Oscar Health",
+   "sector": "Healthcare / insurtech",
+   "grade": "D",
+   "score": 24,
+   "tier": "worst",
+   "note": "fwd P/E 31, Hold, target 22.6 (-29%)"
+  },
+  {
+   "t": "OPEN",
+   "n": "Opendoor",
+   "sector": "Real estate / fintech",
+   "grade": "D",
+   "score": 35,
+   "tier": "worst",
+   "note": "No P/E, Hold, target 4.8 (-2%)"
+  },
+  {
+   "t": "HTZ",
+   "n": "Hertz Global",
+   "sector": "Consumer / turnaround",
+   "grade": "B",
+   "score": 66,
+   "tier": "worst",
+   "note": "No P/E, Hold, target 4.4 (+101%)"
+  },
+  {
+   "t": "UA",
+   "n": "Under Armour",
+   "sector": "Consumer / turnaround",
+   "grade": "D",
+   "score": 38,
+   "tier": "worst",
+   "note": "fwd P/E 58, no consensus target"
+  },
+  {
+   "t": "SMCI",
+   "n": "Super Micro",
+   "sector": "AI infra / servers",
+   "grade": "B",
+   "score": 68,
+   "tier": "worst",
+   "note": "fwd P/E 9.4, Hold, target 37 (+35%)"
+  }
+ ]
 }

@@ -1,21 +1,21 @@
 {
-  "asof": "2026-06-30",
-  "vix": 17.65,
-  "y10": 4.37,
-  "y2": 4.1,
-  "ff": 3.63,
-  "spVs200": 7.4,
-  "brent": 72.0,
-  "note": "Risk-on: S&P 7,440 (~7.4% above 200DMA), VIX 17.6, curve positive (+27bps). Tech leadership (XLK +49% YTD) while energy lags; Brent ~$72 as US-Iran tensions ease. New Fed chair Warsh held 3.50-3.75% but raised year-end projections (hawkish tilt). Main caution: narrow, tech/AI-concentrated breadth.",
-  "checklist": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    true
-  ]
+ "asof": "2026-07-02",
+ "vix": 16.38,
+ "y10": 4.47,
+ "y2": 4.18,
+ "ff": 3.75,
+ "spVs200": 7.5,
+ "brent": 70.5,
+ "note": "Risk-on tone: S&P 7483 near record after best quarter since 2020; VIX subdued at 16.4. Yield curve positively sloped (10Y 4.47% vs 2Y 4.18%). Fed on hold at 3.50–3.75% but markets price ~60% odds of a September hike (hawkish risk). Brent fell ~25% on the month to ~$70 on US–Iran peace-talk optimism. One caution flag: semis sold off hard after a +80% H1 — narrow, crowded leadership. spVs200 is approximate (S&P well above a rising 200DMA).",
+ "checklist": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  true
+ ]
 }
