@@ -4,9 +4,9 @@
     "n": "NVIDIA Corp",
     "theme": "AI Infra & Data Centers",
     "type": "Momentum",
-    "size": 782.2,
+    "size": "~20% of book",
     "a": "Buy",
-    "why": "Entry $195.55 · Stop $176 · Target $301.62 — P/E 29.95x (fwd 19.68x), Strong Buy rating, analyst target $301.62.",
+    "why": "Entry $195.55 \u00b7 Stop $176 \u00b7 Target $301.62 \u2014 P/E 29.95x (fwd 19.68x), Strong Buy rating, analyst target $301.62.",
     "bull": [
       "Data-center revenue still compounding off a ~$253B TTM base as hyperscalers and sovereign AI build-outs order forward",
       "Blackwell/Rubin roadmap keeps NVDA the default merchant-silicon supplier for training and inference",
@@ -20,7 +20,7 @@
     "v": [
       "Mkt cap 4.74T, TTM revenue 253.49B, TTM net income 159.61B.",
       "P/E 29.95 / fwd P/E 19.68; analyst rating Strong Buy with $301.62 target (+54.24%).",
-      "Eden deep-dive: run NVDA for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run NVDA for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
     "entry": 195.55,
@@ -32,22 +32,22 @@
     "n": "Vertiv Holdings",
     "theme": "AI Infra & Data Centers",
     "type": "Core",
-    "size": 636.94,
+    "size": "~16% of book",
     "a": "Buy",
-    "why": "Entry $318.47 · Stop $292.99 · Target $377 — P/E 80.03x (fwd 46.65x), Strong Buy rating, analyst target $377.",
+    "why": "Entry $318.47 \u00b7 Stop $292.99 \u00b7 Target $377 \u2014 P/E 80.03x (fwd 46.65x), Strong Buy rating, analyst target $377.",
     "bull": [
       "Liquid-cooling and power-management leader as AI racks push past 100kW/rack, forcing a retrofit cycle",
       "Backlog visibility extends well into 2027 per management commentary",
       "Strong Buy rating, target $377 (+18%)"
     ],
     "bear": [
-      "Trades at 80x trailing earnings — priced for continued 40%+ backlog growth",
+      "Trades at 80x trailing earnings \u2014 priced for continued 40%+ backlog growth",
       "Customer concentration in a handful of hyperscalers/colos"
     ],
     "v": [
       "Mkt cap 122.33B, TTM revenue 10.84B, TTM net income 1.56B.",
       "P/E 80.03 / fwd P/E 46.65; analyst rating Strong Buy with $377 target (+18.38%).",
-      "Eden deep-dive: run VRT for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run VRT for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 318.47,
@@ -59,9 +59,9 @@
     "n": "CoreWeave Inc",
     "theme": "AI Infra & Data Centers",
     "type": "Speculative",
-    "size": 259.38,
+    "size": "~6% of book",
     "a": "Watch/Small",
-    "why": "Entry $86.46 · Stop $73.49 · Target $142.29 — P/E n/a (fwd n/a), Buy rating, analyst target $142.29.",
+    "why": "Entry $86.46 \u00b7 Stop $73.49 \u00b7 Target $142.29 \u2014 P/E n/a (fwd n/a), Buy rating, analyst target $142.29.",
     "bull": [
       "Pure-play GPU-cloud neocloud riding Microsoft/OpenAI-anchored demand, revenue +unclear but contracted backlog in the tens of billions",
       "Buy rating, target $142 (+65%) reflects scarcity value of contracted GPU capacity"
@@ -69,12 +69,12 @@
     "bear": [
       "Still burning cash (-$1.59B TTM net income) financing a capital-intensive build",
       "Customer concentration and lease-heavy balance sheet raise refinancing risk if AI capex slows",
-      "Story name — no positive FCF yet, valuation entirely narrative-driven"
+      "Story name \u2014 no positive FCF yet, valuation entirely narrative-driven"
     ],
     "v": [
       "Mkt cap 47.17B, TTM revenue 6.23B, TTM net income -1.59B.",
       "P/E n/a / fwd P/E n/a; analyst rating Buy with $142.29 target (+64.57%).",
-      "Eden deep-dive: run CRWV for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run CRWV for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 86.46,
@@ -86,12 +86,12 @@
     "n": "Applied Digital Corp",
     "theme": "AI Infra & Data Centers",
     "type": "Speculative",
-    "size": 234.5,
+    "size": "~6% of book",
     "a": "Watch/Small",
-    "why": "Entry $33.5 · Stop $28.48 · Target $43.55 — P/E n/a (fwd n/a), Strong Buy rating, analyst target $73.36.",
+    "why": "Entry $33.5 \u00b7 Stop $28.48 \u00b7 Target $43.55 \u2014 P/E n/a (fwd n/a), Strong Buy rating, analyst target $73.36.",
     "bull": [
       "Repositioning from bitcoin hosting to HPC/AI data-center leasing with hyperscaler-grade contracts",
-      "Strong Buy rating, target $73.36 (+119%) — biggest upside skew in the AI-infra bucket"
+      "Strong Buy rating, target $73.36 (+119%) \u2014 biggest upside skew in the AI-infra bucket"
     ],
     "bear": [
       "Pre-profitability (-$192M TTM net income), funding growth via dilution and debt",
@@ -100,7 +100,7 @@
     "v": [
       "Mkt cap 9.57B, TTM revenue 319.26M, TTM net income -192.49M.",
       "P/E n/a / fwd P/E n/a; analyst rating Strong Buy with $73.36 target (+118.99%).",
-      "Eden deep-dive: run APLD for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run APLD for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 33.5,
@@ -112,22 +112,22 @@
     "n": "Micron Technology",
     "theme": "Semiconductors",
     "type": "Core",
-    "size": 984.75,
+    "size": "~25% of book",
     "a": "Buy",
-    "why": "Entry $984.75 · Stop $905.97 · Target $1486 — P/E 22.22x (fwd 6.86x), Strong Buy rating, analyst target $1486.",
+    "why": "Entry $984.75 \u00b7 Stop $905.97 \u00b7 Target $1486 \u2014 P/E 22.22x (fwd 6.86x), Strong Buy rating, analyst target $1486.",
     "bull": [
-      "HBM demand tied to every AI accelerator cycle — memory pricing has turned sharply favorable",
+      "HBM demand tied to every AI accelerator cycle \u2014 memory pricing has turned sharply favorable",
       "Fwd P/E of just 6.9x vs 22x trailing prices in a full earnings re-rate as HBM margins scale",
       "Strong Buy, target $1,486 (+51%)"
     ],
     "bear": [
-      "Memory is a historically cyclical commodity business — pricing can reverse fast",
+      "Memory is a historically cyclical commodity business \u2014 pricing can reverse fast",
       "Heavy capex ($25B+ TTM) exposes FCF to a downturn"
     ],
     "v": [
       "Mkt cap 1.11T, TTM revenue 90.27B, TTM net income 50.47B.",
       "P/E 22.22 / fwd P/E 6.86; analyst rating Strong Buy with $1486 target (+50.9%).",
-      "Eden deep-dive: run MU for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run MU for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 984.75,
@@ -139,22 +139,22 @@
     "n": "ASML Holding",
     "theme": "Semiconductors",
     "type": "Core",
-    "size": 1825.07,
+    "size": "~46% of book",
     "a": "Buy",
-    "why": "Entry $1825.07 · Stop $1679.06 · Target $2098.83 — P/E 62.03x (fwd 46.99x), Strong Buy rating, analyst target $1830.83.",
+    "why": "Entry $1825.07 \u00b7 Stop $1679.06 \u00b7 Target $2098.83 \u2014 P/E 62.03x (fwd 46.99x), Strong Buy rating, analyst target $1830.83.",
     "bull": [
-      "Sole supplier of EUV lithography — irreplaceable chokepoint in the entire advanced-semiconductor supply chain",
+      "Sole supplier of EUV lithography \u2014 irreplaceable chokepoint in the entire advanced-semiconductor supply chain",
       "Strong Buy rating; High-NA EUV upgrade cycle just beginning at leading-edge fabs"
     ],
     "bear": [
       "62x trailing/47x forward P/E leaves little room for order softness",
       "China export restrictions cap a meaningful slice of the addressable market",
-      "Priced almost exactly at consensus target (+0.3%) — limited near-term re-rate left"
+      "Priced almost exactly at consensus target (+0.3%) \u2014 limited near-term re-rate left"
     ],
     "v": [
       "Mkt cap 715.48B, TTM revenue 38.82B, TTM net income 11.53B.",
       "P/E 62.03 / fwd P/E 46.99; analyst rating Strong Buy with $1830.83 target (+0.32%).",
-      "Eden deep-dive: run ASML for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run ASML for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 1825.07,
@@ -166,9 +166,9 @@
     "n": "Advanced Micro Devices",
     "theme": "Semiconductors",
     "type": "Momentum",
-    "size": 552.05,
+    "size": "~14% of book",
     "a": "Buy",
-    "why": "Entry $552.05 · Stop $496.85 · Target $662.46 — P/E 184.09x (fwd 63.17x), Strong Buy rating, analyst target $512.27.",
+    "why": "Entry $552.05 \u00b7 Stop $496.85 \u00b7 Target $662.46 \u2014 P/E 184.09x (fwd 63.17x), Strong Buy rating, analyst target $512.27.",
     "bull": [
       "MI350/MI400 series gives AMD a real #2 position in AI accelerators alongside NVDA",
       "Data-center and client CPU share gains continuing against Intel",
@@ -176,12 +176,12 @@
     ],
     "bear": [
       "184x trailing P/E is priced for near-flawless AI GPU ramp; consensus target of $512 is actually below spot (-7%)",
-      "AI accelerator share still single-digit vs NVDA — thesis depends on continued ramp"
+      "AI accelerator share still single-digit vs NVDA \u2014 thesis depends on continued ramp"
     ],
     "v": [
       "Mkt cap 900.17B, TTM revenue 37.45B, TTM net income 5.01B.",
       "P/E 184.09 / fwd P/E 63.17; analyst rating Strong Buy with $512.27 target (-7.21%).",
-      "Eden deep-dive: run AMD for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run AMD for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
     "entry": 552.05,
@@ -193,9 +193,9 @@
     "n": "Constellation Energy",
     "theme": "Nuclear / AI-Power",
     "type": "Core",
-    "size": 737.61,
+    "size": "~18% of book",
     "a": "Buy",
-    "why": "Entry $245.87 · Stop $226.2 · Target $357.81 — P/E 21x (fwd 21.18x), Buy rating, analyst target $357.81.",
+    "why": "Entry $245.87 \u00b7 Stop $226.2 \u00b7 Target $357.81 \u2014 P/E 21x (fwd 21.18x), Buy rating, analyst target $357.81.",
     "bull": [
       "Largest US nuclear fleet operator, direct beneficiary of hyperscaler power-purchase deals (Microsoft/Meta-style 20yr PPAs)",
       "Constellation's carbon-free baseload is the cleanest way to underwrite new AI data-center demand",
@@ -208,7 +208,7 @@
     "v": [
       "Mkt cap 87.80B, TTM revenue 29.87B, TTM net income 3.79B.",
       "P/E 21 / fwd P/E 21.18; analyst rating Buy with $357.81 target (+45.53%).",
-      "Eden deep-dive: run CEG for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run CEG for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 245.87,
@@ -220,9 +220,9 @@
     "n": "Vistra Corp",
     "theme": "Nuclear / AI-Power",
     "type": "Core",
-    "size": 628.88,
+    "size": "~16% of book",
     "a": "Buy",
-    "why": "Entry $157.22 · Stop $144.64 · Target $222.89 — P/E 26.54x (fwd 17.39x), Strong Buy rating, analyst target $222.89.",
+    "why": "Entry $157.22 \u00b7 Stop $144.64 \u00b7 Target $222.89 \u2014 P/E 26.54x (fwd 17.39x), Strong Buy rating, analyst target $222.89.",
     "bull": [
       "Texas/PJM generation fleet (nuclear+gas) squarely in the path of AI/data-center load growth",
       "Strong Buy, target $222.89 (+42%)",
@@ -235,7 +235,7 @@
     "v": [
       "Mkt cap 53.01B, TTM revenue 19.45B, TTM net income 2.05B.",
       "P/E 26.54 / fwd P/E 17.39; analyst rating Strong Buy with $222.89 target (+41.77%).",
-      "Eden deep-dive: run VST for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run VST for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 157.22,
@@ -247,21 +247,21 @@
     "n": "NuScale Power Corp",
     "theme": "Nuclear / AI-Power",
     "type": "Speculative",
-    "size": 259.47,
+    "size": "~6% of book",
     "a": "Watch/Small",
-    "why": "Entry $9.61 · Stop $8.17 · Target $15.36 — P/E n/a (fwd n/a), Hold rating, analyst target $15.36.",
+    "why": "Entry $9.61 \u00b7 Stop $8.17 \u00b7 Target $15.36 \u2014 P/E n/a (fwd n/a), Hold rating, analyst target $15.36.",
     "bull": [
       "NuScale is the only SMR design with NRC design certification, first-mover in a nascent SMR market",
-      "Hold rating still carries a $15.36 target (+60%) — sell-side sees optionality"
+      "Hold rating still carries a $15.36 target (+60%) \u2014 sell-side sees optionality"
     ],
     "bear": [
-      "Pre-revenue at scale ($18.7M TTM revenue) versus -$385.8M net loss — years from commercial deployment",
+      "Pre-revenue at scale ($18.7M TTM revenue) versus -$385.8M net loss \u2014 years from commercial deployment",
       "Story stock; dilution risk high, no near-term profitability path"
     ],
     "v": [
       "Mkt cap 3.51B, TTM revenue 18.67M, TTM net income -385.80M.",
       "P/E n/a / fwd P/E n/a; analyst rating Hold with $15.36 target (+59.83%).",
-      "Eden deep-dive: run SMR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run SMR for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 9.61,
@@ -273,11 +273,11 @@
     "n": "Cameco Corp",
     "theme": "Uranium",
     "type": "Core",
-    "size": 682.5,
+    "size": "~17% of book",
     "a": "Buy",
-    "why": "Entry $97.5 · Stop $89.7 · Target $132.39 — P/E 91.34x (fwd 78.06x), Buy rating, analyst target $132.39.",
+    "why": "Entry $97.5 \u00b7 Stop $89.7 \u00b7 Target $132.39 \u2014 P/E 91.34x (fwd 78.06x), Buy rating, analyst target $132.39.",
     "bull": [
-      "Uranium supply deficit thesis intact — Cameco is the largest Western pure-play producer with Cigar Lake/McArthur River leverage",
+      "Uranium supply deficit thesis intact \u2014 Cameco is the largest Western pure-play producer with Cigar Lake/McArthur River leverage",
       "Direct beneficiary of nuclear restart/SMR demand plus government stockpiling",
       "Buy rating, target $132.39 (+36%)"
     ],
@@ -288,7 +288,7 @@
     "v": [
       "Mkt cap 42.42B, TTM revenue 2.53B, TTM net income 466.07M.",
       "P/E 91.34 / fwd P/E 78.06; analyst rating Buy with $132.39 target (+35.79%).",
-      "Eden deep-dive: run CCJ for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run CCJ for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 97.5,
@@ -300,21 +300,21 @@
     "n": "Uranium Energy Corp",
     "theme": "Uranium",
     "type": "Speculative",
-    "size": 264.75,
+    "size": "~7% of book",
     "a": "Watch/Small",
-    "why": "Entry $10.59 · Stop $9 · Target $13.77 — P/E n/a (fwd n/a), Strong Buy rating, analyst target $18.25.",
+    "why": "Entry $10.59 \u00b7 Stop $9 \u00b7 Target $13.77 \u2014 P/E n/a (fwd n/a), Strong Buy rating, analyst target $18.25.",
     "bull": [
       "Pure-play US uranium producer positioned for domestic-supply-security premium and Section 232-style policy tailwinds",
-      "Strong Buy, target $18.25 (+72%) — highest-conviction rating in the uranium bucket"
+      "Strong Buy, target $18.25 (+72%) \u2014 highest-conviction rating in the uranium bucket"
     ],
     "bear": [
-      "Pre-profitability (-$103.7M TTM net income) on razor-thin $20.2M revenue — production still ramping",
+      "Pre-profitability (-$103.7M TTM net income) on razor-thin $20.2M revenue \u2014 production still ramping",
       "Uranium spot-price swings hit small-cap producers hardest"
     ],
     "v": [
       "Mkt cap 5.24B, TTM revenue 20.20M, TTM net income -103.67M.",
       "P/E n/a / fwd P/E n/a; analyst rating Strong Buy with $18.25 target (+72.33%).",
-      "Eden deep-dive: run UEC for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run UEC for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 10.59,
@@ -326,21 +326,21 @@
     "n": "IonQ Inc",
     "theme": "Quantum Computing",
     "type": "Speculative",
-    "size": 244.35,
+    "size": "~6% of book",
     "a": "Watch/Small",
-    "why": "Entry $48.87 · Stop $41.54 · Target $68.79 — P/E 53.04x (fwd n/a), Strong Buy rating, analyst target $68.79.",
+    "why": "Entry $48.87 \u00b7 Stop $41.54 \u00b7 Target $68.79 \u2014 P/E 53.04x (fwd n/a), Strong Buy rating, analyst target $68.79.",
     "bull": [
       "Trapped-ion architecture with genuine enterprise/government pilot revenue and a Strong Buy rating",
       "Target $68.79 (+41%)"
     ],
     "bear": [
-      "Reported net income positive largely on one-off/non-operating items, not core profitability — core quantum business still early",
+      "Reported net income positive largely on one-off/non-operating items, not core profitability \u2014 core quantum business still early",
       "Commercial quantum advantage still unproven at scale; extremely long runway to real cash generation"
     ],
     "v": [
       "Mkt cap 18.24B, TTM revenue 187.12M, TTM net income 308.51M.",
       "P/E 53.04 / fwd P/E n/a; analyst rating Strong Buy with $68.79 target (+40.76%).",
-      "Eden deep-dive: run IONQ for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run IONQ for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 48.87,
@@ -352,21 +352,21 @@
     "n": "Rigetti Computing",
     "theme": "Quantum Computing",
     "type": "Speculative",
-    "size": 251.44,
+    "size": "~6% of book",
     "a": "Watch/Small",
-    "why": "Entry $17.96 · Stop $15.27 · Target $29.65 — P/E n/a (fwd n/a), Buy rating, analyst target $29.65.",
+    "why": "Entry $17.96 \u00b7 Stop $15.27 \u00b7 Target $29.65 \u2014 P/E n/a (fwd n/a), Buy rating, analyst target $29.65.",
     "bull": [
       "Superconducting-qubit pure-play, Buy rating, target $29.65 (+65%)",
       "Rising defense/government contract flow supports near-term revenue visibility"
     ],
     "bear": [
-      "Revenue still tiny ($10M TTM) against a -$225.7M net loss — years from self-funding",
+      "Revenue still tiny ($10M TTM) against a -$225.7M net loss \u2014 years from self-funding",
       "Quantum computing commercialization timeline remains highly uncertain"
     ],
     "v": [
       "Mkt cap 5.97B, TTM revenue 10.02M, TTM net income -225.72M.",
       "P/E n/a / fwd P/E n/a; analyst rating Buy with $29.65 target (+65.09%).",
-      "Eden deep-dive: run RGTI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run RGTI for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 17.96,
@@ -378,9 +378,9 @@
     "n": "Rocket Lab Corp",
     "theme": "Space",
     "type": "Speculative",
-    "size": 186.18,
+    "size": "~5% of book",
     "a": "Watch/Small",
-    "why": "Entry $93.09 · Stop $79.13 · Target $111.86 — P/E n/a (fwd n/a), Buy rating, analyst target $111.86.",
+    "why": "Entry $93.09 \u00b7 Stop $79.13 \u00b7 Target $111.86 \u2014 P/E n/a (fwd n/a), Buy rating, analyst target $111.86.",
     "bull": [
       "Neutron medium-lift rocket plus growing satellite/components business diversifies beyond small-launch",
       "Buy rating, target $111.86 (+20%)"
@@ -392,7 +392,7 @@
     "v": [
       "Mkt cap 53.89B, TTM revenue 679.58M, TTM net income -182.62M.",
       "P/E n/a / fwd P/E n/a; analyst rating Buy with $111.86 target (+20.16%).",
-      "Eden deep-dive: run RKLB for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run RKLB for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 93.09,
@@ -404,21 +404,21 @@
     "n": "AST SpaceMobile",
     "theme": "Space",
     "type": "Speculative",
-    "size": 241.92,
+    "size": "~6% of book",
     "a": "Watch/Small",
-    "why": "Entry $80.64 · Stop $68.54 · Target $104.83 — P/E n/a (fwd n/a), Hold rating, analyst target $81.47.",
+    "why": "Entry $80.64 \u00b7 Stop $68.54 \u00b7 Target $104.83 \u2014 P/E n/a (fwd n/a), Hold rating, analyst target $81.47.",
     "bull": [
-      "Direct-to-cell satellite constellation with AT&T/Verizon partnerships — a genuine new market if it scales",
+      "Direct-to-cell satellite constellation with AT&T/Verizon partnerships \u2014 a genuine new market if it scales",
       "Hold rating but target essentially at spot, reflecting a fully-priced but real option"
     ],
     "bear": [
-      "Deeply unprofitable (-$487.3M TTM net income) versus $84.9M revenue — commercial scale still ahead",
-      "Satellite deployment/execution risk is binary — delays hit the stock hard"
+      "Deeply unprofitable (-$487.3M TTM net income) versus $84.9M revenue \u2014 commercial scale still ahead",
+      "Satellite deployment/execution risk is binary \u2014 delays hit the stock hard"
     ],
     "v": [
       "Mkt cap 31.30B, TTM revenue 84.94M, TTM net income -487.25M.",
       "P/E n/a / fwd P/E n/a; analyst rating Hold with $81.47 target (+1.03%).",
-      "Eden deep-dive: run ASTS for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run ASTS for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 80.64,
@@ -430,9 +430,9 @@
     "n": "CrowdStrike Holdings",
     "theme": "Cybersecurity",
     "type": "Momentum",
-    "size": 797.52,
+    "size": "~20% of book",
     "a": "Buy",
-    "why": "Entry $199.38 · Stop $179.44 · Target $239.26 — P/E n/a (fwd 152.61x), Buy rating, analyst target $179.69.",
+    "why": "Entry $199.38 \u00b7 Stop $179.44 \u00b7 Target $239.26 \u2014 P/E n/a (fwd 152.61x), Buy rating, analyst target $179.69.",
     "bull": [
       "Falcon platform consolidation continues to take share in endpoint/cloud security",
       "Buy rating and durable ARR growth despite the 2024 outage overhang fading"
@@ -444,7 +444,7 @@
     "v": [
       "Mkt cap 203.02B, TTM revenue 5.09B, TTM net income -30.46M.",
       "P/E n/a / fwd P/E 152.61; analyst rating Buy with $179.69 target (-9.88%).",
-      "Eden deep-dive: run CRWD for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run CRWD for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
     "entry": 199.38,
@@ -456,9 +456,9 @@
     "n": "Palo Alto Networks",
     "theme": "Cybersecurity",
     "type": "Core",
-    "size": 715.06,
+    "size": "~18% of book",
     "a": "Buy",
-    "why": "Entry $357.53 · Stop $328.93 · Target $411.16 — P/E 345.7x (fwd 91.23x), Buy rating, analyst target $318.32.",
+    "why": "Entry $357.53 \u00b7 Stop $328.93 \u00b7 Target $411.16 \u2014 P/E 345.7x (fwd 91.23x), Buy rating, analyst target $318.32.",
     "bull": [
       "Platformization strategy (bundling SASE/cloud/SOC) is driving durable ARR and net-income inflection to $842.9M TTM",
       "Buy rating with real, growing GAAP profits unlike many security peers"
@@ -470,7 +470,7 @@
     "v": [
       "Mkt cap 291.39B, TTM revenue 10.61B, TTM net income 842.90M.",
       "P/E 345.7 / fwd P/E 91.23; analyst rating Buy with $318.32 target (-10.97%).",
-      "Eden deep-dive: run PANW for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run PANW for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 357.53,
@@ -482,9 +482,9 @@
     "n": "Zscaler Inc",
     "theme": "Cybersecurity",
     "type": "Momentum",
-    "size": 752.1,
+    "size": "~19% of book",
     "a": "Buy",
-    "why": "Entry $150.42 · Stop $135.38 · Target $192.58 — P/E n/a (fwd 33.91x), Buy rating, analyst target $192.58.",
+    "why": "Entry $150.42 \u00b7 Stop $135.38 \u00b7 Target $192.58 \u2014 P/E n/a (fwd 33.91x), Buy rating, analyst target $192.58.",
     "bull": [
       "Zero-trust/SASE leader with Buy rating, target $192.58 (+28%)",
       "Still-elevated growth in cloud security spend as enterprises consolidate vendors"
@@ -496,7 +496,7 @@
     "v": [
       "Mkt cap 24.32B, TTM revenue 3.17B, TTM net income -77.39M.",
       "P/E n/a / fwd P/E 33.91; analyst rating Buy with $192.58 target (+28.03%).",
-      "Eden deep-dive: run ZS for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run ZS for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
     "entry": 150.42,
@@ -508,22 +508,22 @@
     "n": "First Solar Inc",
     "theme": "Renewables / Solar",
     "type": "Value",
-    "size": 699.18,
+    "size": "~17% of book",
     "a": "Buy",
-    "why": "Entry $233.06 · Stop $214.42 · Target $248.3 — P/E 15.06x (fwd 12.12x), Buy rating, analyst target $248.3.",
+    "why": "Entry $233.06 \u00b7 Stop $214.42 \u00b7 Target $248.3 \u2014 P/E 15.06x (fwd 12.12x), Buy rating, analyst target $248.3.",
     "bull": [
       "Only scaled US-based thin-film solar maker with IRA 45X tax-credit tailwind and full 2026-27 order book",
       "Cheapest name in the renewables bucket at 15x trailing / 12x forward with real GAAP profit ($1.67B TTM)",
       "Buy rating, target $248.30 (+7%)"
     ],
     "bear": [
-      "Policy risk — any rollback of IRA manufacturing credits directly hits margins",
+      "Policy risk \u2014 any rollback of IRA manufacturing credits directly hits margins",
       "Panel pricing/China oversupply remains a persistent industry risk"
     ],
     "v": [
       "Mkt cap 25.04B, TTM revenue 5.42B, TTM net income 1.67B.",
       "P/E 15.06 / fwd P/E 12.12; analyst rating Buy with $248.3 target (+6.54%).",
-      "Eden deep-dive: run FSLR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run FSLR for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
     "entry": 233.06,
@@ -535,9 +535,9 @@
     "n": "Enphase Energy",
     "theme": "Renewables / Solar",
     "type": "Value",
-    "size": 712.8,
+    "size": "~18% of book",
     "a": "Buy",
-    "why": "Entry $44.55 · Stop $40.99 · Target $48.51 — P/E 43.67x (fwd 22.15x), Hold rating, analyst target $48.51.",
+    "why": "Entry $44.55 \u00b7 Stop $40.99 \u00b7 Target $48.51 \u2014 P/E 43.67x (fwd 22.15x), Hold rating, analyst target $48.51.",
     "bull": [
       "Residential solar/storage leader positioned to benefit if rate-cut cycle revives housing/resi-solar demand",
       "Hold rating still carries modest upside to $48.51 (+9%)"
@@ -549,7 +549,7 @@
     "v": [
       "Mkt cap 5.87B, TTM revenue 1.40B, TTM net income 135.00M.",
       "P/E 43.67 / fwd P/E 22.15; analyst rating Hold with $48.51 target (+8.89%).",
-      "Eden deep-dive: run ENPH for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run ENPH for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
     "entry": 44.55,
@@ -561,21 +561,21 @@
     "n": "Goldman Sachs Group",
     "theme": "Financials",
     "type": "Value",
-    "size": 1055.29,
+    "size": "~26% of book",
     "a": "Buy",
-    "why": "Entry $1055.29 · Stop $970.87 · Target $1181.92 — P/E 19.32x (fwd 17.43x), Hold rating, analyst target $978.35.",
+    "why": "Entry $1055.29 \u00b7 Stop $970.87 \u00b7 Target $1181.92 \u2014 P/E 19.32x (fwd 17.43x), Hold rating, analyst target $978.35.",
     "bull": [
       "Investment-banking and trading recovery plus buybacks/dividend hikes post stress-test results",
       "Cheapest large-cap financial in the book at 19x trailing / 17x forward earnings on $17.07B TTM net income"
     ],
     "bear": [
-      "Hold rating — consensus target $978.35 is actually below spot (-7%), sell-side sees limited near-term upside",
+      "Hold rating \u2014 consensus target $978.35 is actually below spot (-7%), sell-side sees limited near-term upside",
       "Capital-markets revenue is inherently cyclical and rate-sensitive"
     ],
     "v": [
       "Mkt cap 323.55B, TTM revenue 61.53B, TTM net income 17.07B.",
       "P/E 19.32 / fwd P/E 17.43; analyst rating Hold with $978.35 target (-7.29%).",
-      "Eden deep-dive: run GS for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run GS for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
     "entry": 1055.29,
@@ -587,21 +587,21 @@
     "n": "SoFi Technologies",
     "theme": "Financials",
     "type": "Momentum",
-    "size": 800.23,
+    "size": "~20% of book",
     "a": "Buy",
-    "why": "Entry $18.61 · Stop $16.75 · Target $20.9 — P/E 41.83x (fwd 28.49x), Hold rating, analyst target $20.9.",
+    "why": "Entry $18.61 \u00b7 Stop $16.75 \u00b7 Target $20.9 \u2014 P/E 41.83x (fwd 28.49x), Hold rating, analyst target $20.9.",
     "bull": [
       "Fintech/neobank scaling loan originations and fee-based revenue beyond just lending",
       "Turned durably profitable ($576.9M TTM net income) after years of losses"
     ],
     "bear": [
-      "Hold rating, target $20.90 (+12%) — modest upside already reflected in the re-rate",
+      "Hold rating, target $20.90 (+12%) \u2014 modest upside already reflected in the re-rate",
       "41x trailing P/E leaves little room for a credit-cycle wobble"
     ],
     "v": [
       "Mkt cap 23.87B, TTM revenue 3.91B, TTM net income 576.94M.",
       "P/E 41.83 / fwd P/E 28.49; analyst rating Hold with $20.9 target (+12.31%).",
-      "Eden deep-dive: run SOFI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run SOFI for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
     "entry": 18.61,
@@ -613,21 +613,21 @@
     "n": "UnitedHealth Group",
     "theme": "Healthcare",
     "type": "Value",
-    "size": 417.99,
+    "size": "~10% of book",
     "a": "Buy",
-    "why": "Entry $417.99 · Stop $384.55 · Target $468.15 — P/E 31.55x (fwd 21.98x), Buy rating, analyst target $414.96.",
+    "why": "Entry $417.99 \u00b7 Stop $384.55 \u00b7 Target $468.15 \u2014 P/E 31.55x (fwd 21.98x), Buy rating, analyst target $414.96.",
     "bull": [
       "Scale leader in managed care/PBM with $449.7B TTM revenue and durable double-digit margins historically",
       "Buy rating; stock already reflects the 2025-26 medical-cost-ratio reset"
     ],
     "bear": [
-      "Hold-adjacent sentiment — target $414.96 is essentially at spot (-0.7%), limited near-term catalyst",
+      "Hold-adjacent sentiment \u2014 target $414.96 is essentially at spot (-0.7%), limited near-term catalyst",
       "Regulatory/DOJ scrutiny of UnitedHealth's PBM and Medicare Advantage practices remains an overhang"
     ],
     "v": [
       "Mkt cap 379.60B, TTM revenue 449.71B, TTM net income 12.04B.",
       "P/E 31.55 / fwd P/E 21.98; analyst rating Buy with $414.96 target (-0.72%).",
-      "Eden deep-dive: run UNH for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run UNH for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
     "entry": 417.99,
@@ -639,21 +639,21 @@
     "n": "Oscar Health",
     "theme": "Healthcare",
     "type": "Speculative",
-    "size": 251.52,
+    "size": "~6% of book",
     "a": "Watch/Small",
-    "why": "Entry $31.44 · Stop $26.72 · Target $40.87 — P/E n/a (fwd 30.7x), Hold rating, analyst target $22.6.",
+    "why": "Entry $31.44 \u00b7 Stop $26.72 \u00b7 Target $40.87 \u2014 P/E n/a (fwd 30.7x), Hold rating, analyst target $22.6.",
     "bull": [
       "ACA-exchange pure-play with rapid membership growth if subsidy extensions hold",
       "Hold rating still reflects a functioning, scaling insurtech"
     ],
     "bear": [
-      "Not yet consistently profitable (-$39.4M TTM net income); target $22.60 is actually below spot (-28%) — sell-side skeptical",
+      "Not yet consistently profitable (-$39.4M TTM net income); target $22.60 is actually below spot (-28%) \u2014 sell-side skeptical",
       "ACA subsidy-cliff/policy risk directly threatens the membership growth thesis"
     ],
     "v": [
       "Mkt cap 9.47B, TTM revenue 13.30B, TTM net income -39.43M.",
       "P/E n/a / fwd P/E 30.7; analyst rating Hold with $22.6 target (-28.12%).",
-      "Eden deep-dive: run OSCR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run OSCR for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 31.44,
@@ -665,9 +665,9 @@
     "n": "MercadoLibre Inc",
     "theme": "Consumer / LatAm",
     "type": "Core",
-    "size": 1805.68,
+    "size": "~45% of book",
     "a": "Buy",
-    "why": "Entry $1805.68 · Stop $1661.23 · Target $2216.96 — P/E 47.68x (fwd 44.3x), Buy rating, analyst target $2216.96.",
+    "why": "Entry $1805.68 \u00b7 Stop $1661.23 \u00b7 Target $2216.96 \u2014 P/E 47.68x (fwd 44.3x), Buy rating, analyst target $2216.96.",
     "bull": [
       "Dominant LatAm e-commerce + fintech (Mercado Pago) flywheel with $31.8B TTM revenue growing >30%",
       "Buy rating, target $2,216.96 (+23%)",
@@ -680,7 +680,7 @@
     "v": [
       "Mkt cap 91.54B, TTM revenue 31.80B, TTM net income 1.92B.",
       "P/E 47.68 / fwd P/E 44.3; analyst rating Buy with $2216.96 target (+22.78%).",
-      "Eden deep-dive: run MELI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run MELI for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 1805.68,
@@ -692,21 +692,21 @@
     "n": "Lululemon Athletica",
     "theme": "Consumer",
     "type": "Value",
-    "size": 693.84,
+    "size": "~17% of book",
     "a": "Buy",
-    "why": "Entry $115.64 · Stop $106.39 · Target $130.65 — P/E 9.33x (fwd 10.4x), Hold rating, analyst target $130.65.",
+    "why": "Entry $115.64 \u00b7 Stop $106.39 \u00b7 Target $130.65 \u2014 P/E 9.33x (fwd 10.4x), Hold rating, analyst target $130.65.",
     "bull": [
       "Cheapest apparel name in the book at just 9.3x trailing earnings after a hard de-rate",
       "International expansion (China, Europe) still a multi-year growth lever"
     ],
     "bear": [
-      "Hold rating — North American same-store growth has stalled amid tariff and competitive pressure (Alo, Vuori)",
+      "Hold rating \u2014 North American same-store growth has stalled amid tariff and competitive pressure (Alo, Vuori)",
       "Target $130.65 (+13%) reflects modest, not enthusiastic, sell-side conviction"
     ],
     "v": [
       "Mkt cap 13.13B, TTM revenue 11.20B, TTM net income 1.46B.",
       "P/E 9.33 / fwd P/E 10.4; analyst rating Hold with $130.65 target (+12.98%).",
-      "Eden deep-dive: run LULU for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run LULU for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
     "entry": 115.64,
@@ -718,9 +718,9 @@
     "n": "Cava Group Inc",
     "theme": "Consumer",
     "type": "Momentum",
-    "size": 791.01,
+    "size": "~20% of book",
     "a": "Buy",
-    "why": "Entry $71.91 · Stop $64.72 · Target $92.88 — P/E 138.31x (fwd 117.73x), Buy rating, analyst target $92.88.",
+    "why": "Entry $71.91 \u00b7 Stop $64.72 \u00b7 Target $92.88 \u2014 P/E 138.31x (fwd 117.73x), Buy rating, analyst target $92.88.",
     "bull": [
       "Fast-casual Mediterranean concept still early in its unit-growth curve versus Chipotle's build-out history",
       "Buy rating, target $92.88 (+29%)"
@@ -732,7 +732,7 @@
     "v": [
       "Mkt cap 8.37B, TTM revenue 1.29B, TTM net income 61.60M.",
       "P/E 138.31 / fwd P/E 117.73; analyst rating Buy with $92.88 target (+29.16%).",
-      "Eden deep-dive: run CAVA for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run CAVA for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
     "entry": 71.91,
@@ -744,9 +744,9 @@
     "n": "Eaton Corp plc",
     "theme": "Industrials / Power Infra",
     "type": "Core",
-    "size": 413.42,
+    "size": "~10% of book",
     "a": "Buy",
-    "why": "Entry $413.42 · Stop $380.35 · Target $455.79 — P/E 40.44x (fwd 29.39x), Buy rating, analyst target $455.79.",
+    "why": "Entry $413.42 \u00b7 Stop $380.35 \u00b7 Target $455.79 \u2014 P/E 40.44x (fwd 29.39x), Buy rating, analyst target $455.79.",
     "bull": [
       "Electrical equipment supplier riding the same grid/data-center capex cycle as Vertiv, with a more diversified end-market base",
       "Buy rating, target $455.79 (+10%)",
@@ -759,7 +759,7 @@
     "v": [
       "Mkt cap 160.53B, TTM revenue 28.52B, TTM net income 3.99B.",
       "P/E 40.44 / fwd P/E 29.39; analyst rating Buy with $455.79 target (+10.25%).",
-      "Eden deep-dive: run ETN for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run ETN for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
     "entry": 413.42,
@@ -771,21 +771,21 @@
     "n": "Argan Inc",
     "theme": "Industrials / Power Infra",
     "type": "Momentum",
-    "size": 725.23,
+    "size": "~18% of book",
     "a": "Buy",
-    "why": "Entry $725.23 · Stop $652.71 · Target $870.28 — P/E 63.74x (fwd 59.24x), Buy rating, analyst target $679.8.",
+    "why": "Entry $725.23 \u00b7 Stop $652.71 \u00b7 Target $870.28 \u2014 P/E 63.74x (fwd 59.24x), Buy rating, analyst target $679.8.",
     "bull": [
-      "Small-cap power/EPC contractor benefiting directly from gas-plant and grid buildout tied to data-center demand — stock up 218% over the past year",
+      "Small-cap power/EPC contractor benefiting directly from gas-plant and grid buildout tied to data-center demand \u2014 stock up 218% over the past year",
       "Buy rating; recent insider/politician buying attention (Rep. Gil Cisneros bought AGX in June 2026 per CapitolTrades)"
     ],
     "bear": [
-      "Target $679.80 is actually below spot (-6%) — sell-side thinks the re-rate is largely done",
+      "Target $679.80 is actually below spot (-6%) \u2014 sell-side thinks the re-rate is largely done",
       "63x trailing P/E on a small, project-lumpy backlog is a high bar to clear again"
     ],
     "v": [
       "Mkt cap 10.17B, TTM revenue 1.04B, TTM net income 161.29M.",
       "P/E 63.74 / fwd P/E 59.24; analyst rating Buy with $679.8 target (-6.26%).",
-      "Eden deep-dive: run AGX for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run AGX for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
     "entry": 725.23,
@@ -797,13 +797,13 @@
     "n": "Norwegian Cruise Line",
     "theme": "Travel Recovery",
     "type": "Value",
-    "size": 731.88,
+    "size": "~18% of book",
     "a": "Buy",
-    "why": "Entry $19.26 · Stop $17.72 · Target $21.33 — P/E 16.01x (fwd 12.63x), Buy rating, analyst target $21.33.",
+    "why": "Entry $19.26 \u00b7 Stop $17.72 \u00b7 Target $21.33 \u2014 P/E 16.01x (fwd 12.63x), Buy rating, analyst target $21.33.",
     "bull": [
       "Cruise demand and pricing remain resilient post-pandemic; NCLH cheapest of the major cruise lines at 16x trailing/12.6x forward",
       "Buy rating, target $21.33 (+11%)",
-      "7-insider cluster buy of $29.16M in early June 2026 at $17.85 — a notably clean signal"
+      "7-insider cluster buy of $29.16M in early June 2026 at $17.85 \u2014 a notably clean signal"
     ],
     "bear": [
       "High leverage from pandemic-era debt still constrains capital-return flexibility",
@@ -812,7 +812,7 @@
     "v": [
       "Mkt cap 8.84B, TTM revenue 10.03B, TTM net income 568.21M.",
       "P/E 16.01 / fwd P/E 12.63; analyst rating Buy with $21.33 target (+10.75%).",
-      "Eden deep-dive: run NCLH for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run NCLH for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
     "entry": 19.26,
@@ -824,12 +824,12 @@
     "n": "Hertz Global Holdings",
     "theme": "Travel Recovery",
     "type": "Speculative",
-    "size": 264.45,
+    "size": "~7% of book",
     "a": "Watch/Small",
-    "why": "Entry $2.05 · Stop $1.74 · Target $2.67 — P/E n/a (fwd n/a), Hold rating, analyst target $4.43.",
+    "why": "Entry $2.05 \u00b7 Stop $1.74 \u00b7 Target $2.67 \u2014 P/E n/a (fwd n/a), Hold rating, analyst target $4.43.",
     "bull": [
       "Deep restructuring (fleet, EV write-down cleanup) largely complete; any normalization of used-car residuals helps materially",
-      "Hold rating still carries a $4.43 target — more than double the current price (+116%)"
+      "Hold rating still carries a $4.43 target \u2014 more than double the current price (+116%)"
     ],
     "bear": [
       "Still deeply unprofitable (-$637M TTM net income) and balance-sheet-impaired post-bankruptcy emergence",
@@ -838,7 +838,7 @@
     "v": [
       "Mkt cap 647.32M, TTM revenue 8.70B, TTM net income -637.00M.",
       "P/E n/a / fwd P/E n/a; analyst rating Hold with $4.43 target (+116.1%).",
-      "Eden deep-dive: run HTZ for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+      "Eden deep-dive: run HTZ for WACC/DCF/EBITDA/peer check \u2192 eden-dashboard.streamlit.app"
     ],
     "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
     "entry": 2.05,

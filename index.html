@@ -538,7 +538,7 @@ function IdeaCard({ idea, i }) {
   const upside = idea.entry > 0 && idea.target > 0 ? ((idea.target / idea.entry - 1) * 100) : null;
   const [open, setOpen] = useState(false);
   const riskable = idea.entry > 0 && idea.stop > 0 && idea.entry > idea.stop;
-  const risk$ = 4000 * 0.015;
+  const risk$ = 10000 * 0.015; // example book, not the fund's actual account
   const shares = riskable ? Math.floor(risk$ / (idea.entry - idea.stop)) : 0;
   const rr = riskable && idea.target > 0 ? ((idea.target - idea.entry) / (idea.entry - idea.stop)).toFixed(1) : null;
   return (
@@ -590,7 +590,7 @@ function IdeaCard({ idea, i }) {
         <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }}
           transition={{ duration: 0.4, ease: "easeOut" }} className="overflow-hidden">
           <div className="mt-3 liquid-glass rounded-[0.75rem] p-4 text-xs font-body text-white/85 leading-relaxed">
-            At 1.5% risk on a $4,000 book (${risk$.toFixed(0)} at risk):
+            At 1.5% risk on an example $10,000 book (${risk$.toFixed(0)} at risk):
             buy <span className="text-emerald-300 font-semibold">{shares} share{shares === 1 ? "" : "s"}</span> ≈ ${(shares * idea.entry).toLocaleString(undefined, { maximumFractionDigits: 0 })} position.
             Stop-out costs ~${(shares * (idea.entry - idea.stop)).toFixed(0)}{rr ? <span> · reward:risk <span className="text-emerald-300 font-semibold">{rr}:1</span></span> : null}.
             <div className="mt-1 text-white/50">shares = (account × risk%) ÷ (entry − stop)</div>
@@ -736,7 +736,7 @@ const SizerField = ({ label, value, set, step, min }) => (
   </label>
 );
 function SizerWidget() {
-  const [acct, setAcct] = useState(4000);
+  const [acct, setAcct] = useState(10000);
   const [risk, setRisk] = useState(1.5);
   const [entry, setEntry] = useState(195.55);
   const [stop, setStop] = useState(176);
