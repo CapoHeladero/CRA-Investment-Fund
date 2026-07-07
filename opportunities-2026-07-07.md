@@ -40,9 +40,9 @@ Market pricing implies these FCF growth rates (10y, 10% discount / 2.5% terminal
 Tape turned mixed: Nasdaq -0.9%, S&P -0.14%, Dow +0.27% — rotation out of chips after Samsung's Q2 report (profit up 19-fold but below elevated expectations; stock -11% in Seoul) spooked the memory complex.
 
 **Actionable calls:**
-- **MU — DO NOT chase the morning entry ($984.75).** Stock traded $891–947, last ~$913 (-7%). Still +240% YTD and #2 in the S&P this year, so this is a pullback in the strongest tape, not a broken thesis — but let it stabilize. New entry logic: wait for a reclaim above ~$925 with stop $885 (below today's low). At 1.5% risk: 1 share.
-- **NVDA — entry stands.** $195.59, +1% after NVIDIA denied the Kyber NVL144 delay rumor. Entry $195.55 · Stop $176 · 1.5% risk → 3 shares (~$587, 15% of book).
-- **CEG — thesis intact, no news.** Entry $245.87 · Stop $226.20 → 3 shares max, but combined with NVDA that's 33% of book in two names; pick one this week, not both.
+- **MU — DO NOT chase the morning entry ($984.75).** Stock traded $891–947, last ~$913 (-7%). Still +240% YTD and #2 in the S&P this year, so this is a pullback in the strongest tape, not a broken thesis — but let it stabilize. New entry logic: wait for a reclaim above ~$925 with stop $885 (below today's low). Size at 1.5% of book.
+- **NVDA — entry stands.** $195.59, +1% after NVIDIA denied the Kyber NVL144 delay rumor. Entry $195.55 · Stop $176 · at 1.5% risk that's roughly a 15%-of-book position.
+- **CEG — thesis intact, no news.** Entry $245.87 · Stop $226.20 → ~18% of book max; combined with NVDA that's ~33% of book in two names — pick one this week, not both.
 - **Avoid**: OPEN, UA, OSCR (F-grade scorecards, negative TTM income). Don't bottom-fish the memory names (SNDK et al.) on day one of a sentiment break.
 
 ---
