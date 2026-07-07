@@ -1,96 +1,147 @@
 {
- "asof": "2026-07-02",
- "clusters": [
-  {
-   "t": "DPC",
-   "n": "DPC Holdings Ltd",
-   "buyers": 6,
-   "total": 74800000,
-   "buys": 6,
-   "note": "Broad C-suite + director cluster (CEO, CFO, COO, 3 directors) all buying at $33.00"
-  },
-  {
-   "t": "COE",
-   "n": "China Online (COE)",
-   "buyers": 1,
-   "total": 20800000,
-   "buys": 2,
-   "note": "CEO/10% owner added ~1.3M shares at $15.54–$17.25"
-  }
- ],
- "watchable": [
-  {
-   "t": "JEF",
-   "n": "Jefferies Financial Group",
-   "buyers": 1,
-   "total": 352500000,
-   "note": "SMBC (Sumitomo Mitsui) director purchased 6.43M shares at $54.83 (~$352M) — new strategic stake"
-  },
-  {
-   "t": "ADBE",
-   "n": "Adobe Inc.",
-   "buyers": 1,
-   "total": 1945000,
-   "note": "Insider bought 10,000 shares at $194.51 into weakness"
-  },
-  {
-   "t": "NXST",
-   "n": "Nexstar Media Group",
-   "buyers": 1,
-   "total": 1985000,
-   "note": "12,235 shares at $162.27"
-  },
-  {
-   "t": "RH",
-   "n": "RH",
-   "buyers": 1,
-   "total": 1832000,
-   "note": "11,388 shares at $160.90"
-  },
-  {
-   "t": "LILA",
-   "n": "Liberty Latin America",
-   "buyers": 1,
-   "total": 3394000,
-   "note": "John Malone added 399,699 shares at $8.49"
-  }
- ],
- "politicians": [
-  {
-   "who": "Keith Self",
-   "party": "R",
-   "t": "NVDA",
-   "n": "NVIDIA",
-   "type": "BUY",
-   "size": "1K–15K",
-   "note": "Bought NVDA at $135.91 (filed this week)"
-  },
-  {
-   "who": "Keith Self",
-   "party": "R",
-   "t": "GPC",
-   "n": "Genuine Parts",
-   "type": "BUY",
-   "size": "1K–15K",
-   "note": "Bought GPC at $115.91"
-  },
-  {
-   "who": "Keith Self",
-   "party": "R",
-   "t": "PEP",
-   "n": "PepsiCo",
-   "type": "BUY",
-   "size": "1K–15K",
-   "note": "Bought PEP at $142.64; sold T and MRK"
-  },
-  {
-   "who": "John Curtis",
-   "party": "R",
-   "t": "UBS",
-   "n": "UBS Group",
-   "type": "BUY",
-   "size": "100K–250K",
-   "note": "Joint buy of UBS + JPMorgan/Citi structured notes (financials tilt)"
-  }
- ]
+  "asof": "2026-07-07",
+  "clusters": [
+    {
+      "t": "NCLH",
+      "n": "Norwegian Cruise Line Holdings",
+      "buyers": 7,
+      "total": 29163646,
+      "buys": 7,
+      "note": "7 insiders bought a combined $29.16M at $17.85 (filed 2026-06-03) — directly overlaps our Travel-Recovery opportunity; one of the cleanest cluster signals of the past month."
+    },
+    {
+      "t": "QNT",
+      "n": "Quantinuum Inc.",
+      "buyers": 10,
+      "total": 24649920,
+      "buys": 10,
+      "note": "10 insiders bought $24.65M at $60.00 (filed 2026-06-08) shortly after the quantum-computing IPO — heavy post-IPO insider conviction."
+    },
+    {
+      "t": "LILA",
+      "n": "Liberty Latin America Ltd.",
+      "buyers": 5,
+      "total": 140345259,
+      "buys": 5,
+      "note": "5 insiders bought $140.3M (filed 2026-06-30) — the largest dollar cluster buy of the period, though outside our core sector list."
+    },
+    {
+      "t": "PSUS",
+      "n": "Pershing Square USA, Ltd.",
+      "buyers": 7,
+      "total": 70735390,
+      "buys": 7,
+      "note": "7 insiders bought $70.7M at $49.92 (filed 2026-06-17) — Bill Ackman's newly-listed closed-end vehicle seeding its own book."
+    },
+    {
+      "t": "SMMT",
+      "n": "Summit Therapeutics Inc.",
+      "buyers": 3,
+      "total": 100696650,
+      "buys": 3,
+      "note": "3 insiders bought $100.7M at $13.13 (filed 2026-06-12) — large biotech conviction buy, outside our sector focus."
+    },
+    {
+      "t": "DPC",
+      "n": "DPC Holdings Ltd",
+      "buyers": 9,
+      "total": 75821493,
+      "buys": 9,
+      "note": "9 insiders bought $75.8M at $33.00 (filed 2026-06-26) in a small industrial-materials name — high buyer count but thin liquidity, watch-only."
+    },
+    {
+      "t": "TSM",
+      "n": "Taiwan Semiconductor Manufacturing",
+      "buyers": 2,
+      "total": 446600,
+      "buys": 2,
+      "note": "2 insiders bought $446.6K at $74.43 (filed 2026-06-30) — modest size but notable given TSM's central role in the AI/semis supply chain."
+    }
+  ],
+  "watchable": [
+    {
+      "t": "LIME",
+      "n": "Neutron Holdings, Inc. (Lime)",
+      "buyers": 1,
+      "total": 20000000,
+      "note": "Uber Technologies (10% owner) bought $20M at $25.00 (filed 2026-07-02) — a strategic-investor add, not open-market retail buying."
+    },
+    {
+      "t": "GTLB",
+      "n": "GitLab Inc.",
+      "buyers": 1,
+      "total": 122960,
+      "note": "CEO William Staples bought $122,960 at $29.36 (filed 2026-07-01) — a modest but notable CEO buy after recent share weakness."
+    },
+    {
+      "t": "RH",
+      "n": "RH",
+      "buyers": 1,
+      "total": 1832322,
+      "note": "Director Carlos Alberini bought $1.83M at $160.90 (filed 2026-07-01)."
+    },
+    {
+      "t": "SPG",
+      "n": "Simon Property Group",
+      "buyers": 9,
+      "total": 429886,
+      "note": "Nine SPG directors each bought small stakes (~$10K-115K) around $223 in late June — looks like a recurring board purchase program rather than a fresh conviction signal."
+    }
+  ],
+  "politicians": [
+    {
+      "who": "Gil Cisneros",
+      "party": "D",
+      "t": "AGX",
+      "n": "Argan Inc",
+      "type": "BUY",
+      "size": "15K-50K",
+      "note": "Bought $15K-50K of Argan (filed 2026-07-03, traded 2026-06-30) — overlaps directly with our Industrials/Power-Infra opportunity (AGX)."
+    },
+    {
+      "who": "Gil Cisneros",
+      "party": "D",
+      "t": "AMD",
+      "n": "Advanced Micro Devices",
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "Bought $1K-15K (traded 2026-06-05, filed 2026-07-03) as part of a broad tech basket."
+    },
+    {
+      "who": "Gil Cisneros",
+      "party": "D",
+      "t": "AAPL",
+      "n": "Apple Inc",
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "Bought $1K-15K (traded 2026-06-05, filed 2026-07-03)."
+    },
+    {
+      "who": "Gil Cisneros",
+      "party": "D",
+      "t": "ACN",
+      "n": "Accenture PLC",
+      "type": "BUY",
+      "size": "1K-15K",
+      "note": "Bought $1K-15K (traded 2026-06-16, filed 2026-07-03)."
+    },
+    {
+      "who": "Dan Meuser",
+      "party": "R",
+      "t": "NVDA",
+      "n": "NVIDIA Corp",
+      "type": "SELL",
+      "size": "1K-15K",
+      "note": "Spouse account trimmed $1K-15K at $212.60 (traded 2026-05-27, filed 2026-07-03) — a partial profit-take, not a full exit."
+    },
+    {
+      "who": "Ann Wagner",
+      "party": "R",
+      "t": "N/A",
+      "n": "KKR Private Equity Conglomerate LLC",
+      "type": "BUY",
+      "size": "250K-500K",
+      "note": "Joint account bought $250K-500K (traded 2026-06-22, filed 2026-07-03) — a private-market vehicle, not exchange-traded."
+    }
+  ]
 }

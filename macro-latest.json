@@ -1,21 +1,21 @@
 {
- "asof": "2026-07-02",
- "vix": 16.38,
- "y10": 4.47,
- "y2": 4.18,
- "ff": 3.75,
- "spVs200": 7.5,
- "brent": 70.5,
- "note": "Risk-on tone: S&P 7483 near record after best quarter since 2020; VIX subdued at 16.4. Yield curve positively sloped (10Y 4.47% vs 2Y 4.18%). Fed on hold at 3.50–3.75% but markets price ~60% odds of a September hike (hawkish risk). Brent fell ~25% on the month to ~$70 on US–Iran peace-talk optimism. One caution flag: semis sold off hard after a +80% H1 — narrow, crowded leadership. spVs200 is approximate (S&P well above a rising 200DMA).",
- "checklist": [
-  false,
-  false,
-  false,
-  false,
-  false,
-  false,
-  false,
-  false,
-  true
- ]
+  "asof": "2026-07-07",
+  "vix": 15.57,
+  "y10": 4.46,
+  "y2": 4.14,
+  "ff": 3.63,
+  "spVs200": 0.91,
+  "brent": 72.07,
+  "note": "Risk-on tape: Dow closed above 53,000 for the first time (Jul 6) on revived AI-optimism, S&P 500 (7,537) and Nasdaq (26,121) both higher, VIX pinned near cycle lows at 15.57. Curve is mildly positive (10Y-2Y +0.32%), not inverted. Fed on hold at 3.50-3.75% after a soft June jobs report (+57k payrolls, unemployment 4.2%) reduced near-term hike odds; futures price gradual drift toward ~4% by year-end. HY credit spreads remain tight (2.75% OAS) — no distress signal. Sector rotation choppy day-to-day (financials/XLF strong on stress-test buybacks, tech/XLK volatile on chip profit-taking) but YTD leadership still broad (Energy, Materials, Industrials, Staples all +12-21%, Tech +11%).",
+  "checklist": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
 }
