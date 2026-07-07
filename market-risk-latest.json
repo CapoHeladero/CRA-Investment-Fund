@@ -1,0 +1,41 @@
+{
+  "asof": "2026-07-07",
+  "scope": "whole-market",
+  "items": [
+    {
+      "sev": "high",
+      "title": "Memory complex breakdown",
+      "detail": "Samsung Q2 profit up 19-fold but below elevated expectations (-11% in Seoul); MU -7% intraday to ~$913, SNDK and the memory trade under pressure. Day-one sentiment breaks rarely resolve in one session \u2014 no bottom-fishing yet."
+    },
+    {
+      "sev": "high",
+      "title": "AI-capex concentration",
+      "detail": "Q2 season's single swing factor is hyperscaler AI capex guidance. Any cut unwinds Tech and the adjacent Industrials/power trades in one print. AI-heavy books (ours included) carry correlated exposure across NVDA/VRT/CEG/VST/ETN."
+    },
+    {
+      "sev": "med",
+      "title": "Complacency: VIX at cycle lows",
+      "detail": "VIX 15.57 with the Dow at record highs \u2014 hedges are cheap and nobody wants them. Low-vol regimes end abruptly; respect position sizing while insurance costs little."
+    },
+    {
+      "sev": "med",
+      "title": "Tech/mega-cap rotation",
+      "detail": "Nasdaq -0.9% while the Dow rose +0.27% \u2014 chips giving back gains as financials lead on stress-test buybacks. Watch the equal-weight RSP vs SPY spread: divergence below SPY marks late-cycle distribution."
+    },
+    {
+      "sev": "med",
+      "title": "Soft labor market",
+      "detail": "June payrolls +57k with unemployment 4.2% \u2014 soft enough to keep the Fed on hold at 3.50\u20133.75%, but two more soft prints turn 'bad news is good' into plain bad news."
+    },
+    {
+      "sev": "low",
+      "title": "Credit: no stress signal",
+      "detail": "HY OAS at 2.75% remains tight; curve mildly positive (+0.32%). Zero of nine recession-checklist items triggered. Credit confirms the equity tape \u2014 for now."
+    },
+    {
+      "sev": "low",
+      "title": "Earnings season starts mid-July",
+      "detail": "Banks kick off Q2 season next week. Q1 closed with an 84% S&P beat rate; beats are being rewarded less and misses punished disproportionately \u2014 avoid holding oversized positions into prints."
+    }
+  ]
+}
