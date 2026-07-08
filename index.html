@@ -949,7 +949,12 @@ function Footer() {
 
 /* ---------------- App ---------------- */
 function App() {
-  const [intro, setIntro] = useState(() => { try { return !sessionStorage.getItem("cra.intro"); } catch (e) { return true; } });
+  const [intro, setIntro] = useState(() => {
+    try {
+      if (new URLSearchParams(window.location.search).has("intro")) return true;
+      return !sessionStorage.getItem("cra.intro");
+    } catch (e) { return true; }
+  });
   const done = () => { try { sessionStorage.setItem("cra.intro", "1"); } catch (e) {} setIntro(false); };
   return (
     <div className="bg-black">
