@@ -809,11 +809,25 @@ table.t .ta-r { text-align: right; }
   </div>
 
   <div class="card">
-    <div class="card-h">Market context — May 2026</div>
-    <div class="card-sub">Synthesized from current research</div>
-    <p style="font-size:13.5px; line-height:1.7; color:var(--text-sec);">Q1 2026 closed with an <strong>84% S&P 500 EPS beat rate</strong>, the strongest since 2021, with blended earnings growth around 27%. Leadership has broadened from pure mega-cap tech into <strong>energy</strong> (Iran tensions oil premium), <strong>industrials</strong> (AI data-center capex), <strong>utilities</strong> (power demand), and <strong>consumer defensives</strong> (flight to safety). Technology still has the strongest forward earnings growth (~42% expected) but is undergoing multiple compression — beats are rewarded less, misses punished disproportionately. The single biggest swing factor for Q2 is AI capex guidance from hyperscalers; any cut would unwind the Tech and adjacent Industrials trades in one print.</p>
-    <p style="font-size:13.5px; line-height:1.7; color:var(--text-sec); margin-top:12px;">The equal-weight S&P (RSP) vs cap-weighted (SPY) spread is the key tell. As long as RSP keeps pace, breadth is healthy. The day RSP starts diverging meaningfully below SPY is when late-cycle distribution begins.</p>
+    <div class="card-h" id="mktctx-title">Market context — July 2026</div>
+    <div class="card-sub">Synthesized from live daily research · <span id="mktctx-asof">2026-07-08</span></div>
+    <p style="font-size:13.5px; line-height:1.7; color:var(--text-sec);">The AI trade is in a sharp correction: semis have shed roughly <strong>$1.5T since late June</strong> on Samsung/DeepSeek efficiency fears, with the memory complex more than 20% off its highs — even as the Dow printed a record in early July. Leadership is broadening out of mega-cap AI into <strong>energy</strong> (Iran / Strait of Hormuz oil premium), <strong>AI-power &amp; utilities</strong> (data-center demand), <strong>industrials</strong>, <strong>financials</strong> and <strong>defensives</strong>. Technology still carries the strongest forward earnings growth but is de-rating: beats are rewarded less, misses punished harder. The single biggest swing factor remains hyperscaler <strong>AI-capex guidance</strong> — Q2 prints begin mid-July, and any cut would unwind Tech and adjacent Industrials in one session.</p>
+    <p style="font-size:13.5px; line-height:1.7; color:var(--text-sec); margin-top:12px;">With Brent back above $76 on renewed Iran strikes and the 10Y near 4.58%, an oil-driven inflation impulse is the fresh overhang; a 10Y above ~4.75% would force a broader de-rate. Breadth via equal-weight S&P (RSP) vs cap-weighted (SPY) is the key tell — the day RSP diverges meaningfully below SPY is when late-cycle distribution begins.</p>
+    <p id="mktctx-live" style="font-size:12px; line-height:1.6; color:var(--text-sec); margin-top:12px; padding-top:10px; border-top:1px solid rgba(255,255,255,.08);"></p>
   </div>
+  <script>
+  (function(){
+    var MO=["January","February","March","April","May","June","July","August","September","October","November","December"];
+    fetch('macro-latest.json?cb='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){
+      if(!j)return;
+      var a=j.asof||''; var d=a?new Date(a+'T00:00:00'):new Date();
+      var t=document.getElementById('mktctx-title'); if(t)t.textContent='Market context — '+MO[d.getMonth()]+' '+d.getFullYear();
+      var s=document.getElementById('mktctx-asof'); if(s)s.textContent=a;
+      var live=document.getElementById('mktctx-live');
+      if(live&&j.note){ live.innerHTML='<strong>Live tape ('+a+'):</strong> '+j.note; }
+    }).catch(function(){});
+  })();
+  </script>
 
   <div class="card">
     <div class="card-h">Today's actions</div>
