@@ -1,41 +1,46 @@
 {
-  "asof": "2026-07-07",
+  "asof": "2026-07-08",
   "scope": "whole-market",
   "items": [
     {
       "sev": "high",
-      "title": "Memory complex breakdown",
-      "detail": "Samsung Q2 profit up 19-fold but below elevated expectations (-11% in Seoul); MU -7% intraday to ~$913, SNDK and the memory trade under pressure. Day-one sentiment breaks rarely resolve in one session \u2014 no bottom-fishing yet."
+      "title": "Iran / Strait of Hormuz escalation",
+      "detail": "US struck 80+ targets in Iran overnight after attacks on three commercial vessels; Iranian oil-export waivers revoked. Brent +3% to ~$76.50 with the SPR at its weakest since 1983. Roughly a fifth of world oil transits the strait — any move toward closure is an inflation shock the Fed can't ease into."
+    },
+    {
+      "sev": "high",
+      "title": "Memory/semis in a bear market within the AI trade",
+      "detail": "MU, Samsung, SK Hynix and the memory ETF are >20% off highs; semis have lost ~$1.5T of market value since Jun 25. Samsung's 19x profit jump and Micron's +346% y/y revenue were sold — when blowout numbers get sold, the market is repricing the cycle top, not the quarter. No bottom-fishing on day two."
     },
     {
       "sev": "high",
       "title": "AI-capex concentration",
-      "detail": "Q2 season's single swing factor is hyperscaler AI capex guidance. Any cut unwinds Tech and the adjacent Industrials/power trades in one print. AI-heavy books (ours included) carry correlated exposure across NVDA/VRT/CEG/VST/ETN."
+      "detail": "Overnight selloff was explicitly attributed to stretched AI valuations and demand doubts. Q2 hyperscaler capex guidance remains the single swing factor for Tech and the adjacent power/industrial trades — AI-heavy books carry correlated exposure across chips, cooling, and generation names."
     },
     {
       "sev": "med",
-      "title": "Complacency: VIX at cycle lows",
-      "detail": "VIX 15.57 with the Dow at record highs \u2014 hedges are cheap and nobody wants them. Low-vol regimes end abruptly; respect position sizing while insurance costs little."
+      "title": "Rates backing up on oil",
+      "detail": "10Y at 4.56%, a one-month high, as the oil spike feeds inflation expectations. Higher discount rates pressure exactly the long-duration growth names that dominate this tape; a 10Y above 4.75% would force a broader de-rate."
     },
     {
       "sev": "med",
-      "title": "Tech/mega-cap rotation",
-      "detail": "Nasdaq -0.9% while the Dow rose +0.27% \u2014 chips giving back gains as financials lead on stress-test buybacks. Watch the equal-weight RSP vs SPY spread: divergence below SPY marks late-cycle distribution."
+      "title": "Vol regime shift",
+      "detail": "VIX +15.5% in a session, 15.57 → 18.63. Yesterday's complacency warning is triggering: hedges are no longer cheap, and low-vol-regime unwinds tend to run further than the first headline. Respect stops; don't add size into rising vol."
     },
     {
       "sev": "med",
-      "title": "Soft labor market",
-      "detail": "June payrolls +57k with unemployment 4.2% \u2014 soft enough to keep the Fed on hold at 3.50\u20133.75%, but two more soft prints turn 'bad news is good' into plain bad news."
+      "title": "FOMC minutes + inflation optics",
+      "detail": "Minutes due today with the Fed on hold at 3.50-3.75%. An oil-driven CPI impulse narrows the path to easing while growth data (June payrolls +57k) is already soft — the stagflation-lite combination the tape handles worst."
     },
     {
       "sev": "low",
-      "title": "Credit: no stress signal",
-      "detail": "HY OAS at 2.75% remains tight; curve mildly positive (+0.32%). Zero of nine recession-checklist items triggered. Credit confirms the equity tape \u2014 for now."
+      "title": "Credit still calm",
+      "detail": "HY spreads were tight (~2.75% OAS) at last check and the curve is positive (+0.42%). Zero of nine recession-checklist items triggered. Until credit confirms, this is a headline correction, not a cycle turn."
     },
     {
       "sev": "low",
-      "title": "Earnings season starts mid-July",
-      "detail": "Banks kick off Q2 season next week. Q1 closed with an 84% S&P beat rate; beats are being rewarded less and misses punished disproportionately \u2014 avoid holding oversized positions into prints."
+      "title": "Q2 earnings season starts next week",
+      "detail": "Banks kick off mid-July. Q1's pattern — beats rewarded less, misses punished disproportionately — argues against carrying oversized single-name positions into prints, especially in AI-linked names where the capex question hangs over every call."
     }
   ]
 }
