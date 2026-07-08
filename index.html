@@ -603,6 +603,8 @@ function IdeaCard({ idea, i }) {
 
 function Ideas() {
   const [ideas, setIdeas] = useState(FALLBACK_IDEAS);
+  const [whatsnew, setWhatsnew] = useState([]);
+  const [wnAsof, setWnAsof] = useState("");
   useEffect(() => {
     fetch("opportunities-latest.json")
       .then((r) => (r.ok ? r.json() : Promise.reject()))
@@ -616,6 +618,10 @@ function Ideas() {
         });
         setIdeas(merged);
       })
+      .catch(() => {});
+    fetch("macro-latest.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((d) => { if (Array.isArray(d.whatsnew)) setWhatsnew(d.whatsnew); if (d.asof) setWnAsof(d.asof); })
       .catch(() => {});
   }, []);
   return (
@@ -634,6 +640,22 @@ function Ideas() {
         Our highest-conviction names right now, with the exact levels we'd use. Risk is 1–2% of the book per trade —
         the position sizer does the math, the stop does the discipline.
       </motion.p>
+      {whatsnew.length > 0 && (
+        <motion.div {...enter(0.15)} className="mt-12 liquid-glass-strong rounded-[1.5rem] p-6 md:p-8 border border-emerald-400/20">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="inline-block rounded-full px-3 py-0.5 text-[10px] uppercase tracking-widest font-body bg-emerald-400/15 text-emerald-300">What's new today</span>
+            <span className="text-xs text-white/50 font-body">{wnAsof} · vs. yesterday's book</span>
+          </div>
+          <ul className="space-y-2.5">
+            {whatsnew.map((w, i) => (
+              <li key={i} className="flex gap-3 text-sm text-white/80 font-body font-light leading-snug">
+                <span className="text-emerald-300 mt-0.5">→</span>
+                <span>{w}</span>
+              </li>
+            ))}
+          </ul>
+        </motion.div>
+      )}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
         {ideas.map((idea, i) => <IdeaCard key={idea.t} idea={idea} i={i} />)}
       </div>
