@@ -1,147 +1,158 @@
 {
-  "asof": "2026-07-07",
-  "clusters": [
-    {
-      "t": "NCLH",
-      "n": "Norwegian Cruise Line Holdings",
-      "buyers": 7,
-      "total": 29163646,
-      "buys": 7,
-      "note": "7 insiders bought a combined $29.16M at $17.85 (filed 2026-06-03) — directly overlaps our Travel-Recovery opportunity; one of the cleanest cluster signals of the past month."
-    },
-    {
-      "t": "QNT",
-      "n": "Quantinuum Inc.",
-      "buyers": 10,
-      "total": 24649920,
-      "buys": 10,
-      "note": "10 insiders bought $24.65M at $60.00 (filed 2026-06-08) shortly after the quantum-computing IPO — heavy post-IPO insider conviction."
-    },
-    {
-      "t": "LILA",
-      "n": "Liberty Latin America Ltd.",
-      "buyers": 5,
-      "total": 140345259,
-      "buys": 5,
-      "note": "5 insiders bought $140.3M (filed 2026-06-30) — the largest dollar cluster buy of the period, though outside our core sector list."
-    },
-    {
-      "t": "PSUS",
-      "n": "Pershing Square USA, Ltd.",
-      "buyers": 7,
-      "total": 70735390,
-      "buys": 7,
-      "note": "7 insiders bought $70.7M at $49.92 (filed 2026-06-17) — Bill Ackman's newly-listed closed-end vehicle seeding its own book."
-    },
-    {
-      "t": "SMMT",
-      "n": "Summit Therapeutics Inc.",
-      "buyers": 3,
-      "total": 100696650,
-      "buys": 3,
-      "note": "3 insiders bought $100.7M at $13.13 (filed 2026-06-12) — large biotech conviction buy, outside our sector focus."
-    },
-    {
-      "t": "DPC",
-      "n": "DPC Holdings Ltd",
-      "buyers": 9,
-      "total": 75821493,
-      "buys": 9,
-      "note": "9 insiders bought $75.8M at $33.00 (filed 2026-06-26) in a small industrial-materials name — high buyer count but thin liquidity, watch-only."
-    },
-    {
-      "t": "TSM",
-      "n": "Taiwan Semiconductor Manufacturing",
-      "buyers": 2,
-      "total": 446600,
-      "buys": 2,
-      "note": "2 insiders bought $446.6K at $74.43 (filed 2026-06-30) — modest size but notable given TSM's central role in the AI/semis supply chain."
-    }
-  ],
-  "watchable": [
-    {
-      "t": "LIME",
-      "n": "Neutron Holdings, Inc. (Lime)",
-      "buyers": 1,
-      "total": 20000000,
-      "note": "Uber Technologies (10% owner) bought $20M at $25.00 (filed 2026-07-02) — a strategic-investor add, not open-market retail buying."
-    },
-    {
-      "t": "GTLB",
-      "n": "GitLab Inc.",
-      "buyers": 1,
-      "total": 122960,
-      "note": "CEO William Staples bought $122,960 at $29.36 (filed 2026-07-01) — a modest but notable CEO buy after recent share weakness."
-    },
-    {
-      "t": "RH",
-      "n": "RH",
-      "buyers": 1,
-      "total": 1832322,
-      "note": "Director Carlos Alberini bought $1.83M at $160.90 (filed 2026-07-01)."
-    },
-    {
-      "t": "SPG",
-      "n": "Simon Property Group",
-      "buyers": 9,
-      "total": 429886,
-      "note": "Nine SPG directors each bought small stakes (~$10K-115K) around $223 in late June — looks like a recurring board purchase program rather than a fresh conviction signal."
-    }
-  ],
-  "politicians": [
-    {
-      "who": "Gil Cisneros",
-      "party": "D",
-      "t": "AGX",
-      "n": "Argan Inc",
-      "type": "BUY",
-      "size": "15K-50K",
-      "note": "Bought $15K-50K of Argan (filed 2026-07-03, traded 2026-06-30) — overlaps directly with our Industrials/Power-Infra opportunity (AGX)."
-    },
-    {
-      "who": "Gil Cisneros",
-      "party": "D",
-      "t": "AMD",
-      "n": "Advanced Micro Devices",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "Bought $1K-15K (traded 2026-06-05, filed 2026-07-03) as part of a broad tech basket."
-    },
-    {
-      "who": "Gil Cisneros",
-      "party": "D",
-      "t": "AAPL",
-      "n": "Apple Inc",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "Bought $1K-15K (traded 2026-06-05, filed 2026-07-03)."
-    },
-    {
-      "who": "Gil Cisneros",
-      "party": "D",
-      "t": "ACN",
-      "n": "Accenture PLC",
-      "type": "BUY",
-      "size": "1K-15K",
-      "note": "Bought $1K-15K (traded 2026-06-16, filed 2026-07-03)."
-    },
-    {
-      "who": "Dan Meuser",
-      "party": "R",
-      "t": "NVDA",
-      "n": "NVIDIA Corp",
-      "type": "SELL",
-      "size": "1K-15K",
-      "note": "Spouse account trimmed $1K-15K at $212.60 (traded 2026-05-27, filed 2026-07-03) — a partial profit-take, not a full exit."
-    },
-    {
-      "who": "Ann Wagner",
-      "party": "R",
-      "t": "N/A",
-      "n": "KKR Private Equity Conglomerate LLC",
-      "type": "BUY",
-      "size": "250K-500K",
-      "note": "Joint account bought $250K-500K (traded 2026-06-22, filed 2026-07-03) — a private-market vehicle, not exchange-traded."
-    }
-  ]
+ "asof": "2026-07-08",
+ "clusters": [
+  {
+   "t": "LILA",
+   "n": "Liberty Latin America",
+   "buyers": 5,
+   "total": 140345259,
+   "buys": 5,
+   "note": "Largest cluster buy of the month (~$140.3M incl. 10% owner) — filed Jun 26"
+  },
+  {
+   "t": "FISV",
+   "n": "Fiserv",
+   "buyers": 6,
+   "total": 1723401,
+   "buys": 6,
+   "note": "Six insiders bought the June dip at ~$49.55 — stock now $52.71; on CR's watchlist"
+  },
+  {
+   "t": "KMX",
+   "n": "CarMax",
+   "buyers": 5,
+   "total": 1268037,
+   "buys": 5,
+   "note": "Five insiders at ~$52.67 after the guidance-cut washout"
+  },
+  {
+   "t": "ADSK",
+   "n": "Autodesk",
+   "buyers": 4,
+   "total": 2165173,
+   "buys": 4,
+   "note": "Four insiders ~$208 — software insiders rarely buy; notable"
+  },
+  {
+   "t": "WBX",
+   "n": "Wallbox",
+   "buyers": 4,
+   "total": 5458016,
+   "buys": 4,
+   "note": "Four directors bought ~$1.36M each at $2.72 — EV-charging microcap, high risk"
+  }
+ ],
+ "watchable": [
+  {
+   "t": "TSM",
+   "n": "Taiwan Semiconductor",
+   "buyers": 2,
+   "total": 446600,
+   "note": "Small but rare — TSM insiders bought Jun 29 at ~$74.43 (local shares)"
+  },
+  {
+   "t": "HDSN",
+   "n": "Hudson Technologies",
+   "buyers": 1,
+   "total": 4477207,
+   "note": "Hartree Partners (10% owner) added $4.5M at $5.86"
+  },
+  {
+   "t": "YPF",
+   "n": "YPF Sociedad Anonima",
+   "buyers": 2,
+   "total": 532930,
+   "note": "Argentine energy officers buying at $45.49"
+  },
+  {
+   "t": "LOVE",
+   "n": "Lovesac",
+   "buyers": 2,
+   "total": 465428,
+   "note": "Two insiders at $14.79 in beaten-down consumer"
+  }
+ ],
+ "politicians": [
+  {
+   "who": "Lloyd Doggett",
+   "party": "D",
+   "t": "HD",
+   "n": "Home Depot",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Filed Jul 7, traded Jun 18 at ~$334"
+  },
+  {
+   "who": "Lloyd Doggett",
+   "party": "D",
+   "t": "IBM",
+   "n": "IBM",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Traded Jun 10 ~$272; BofA raised IBM target to $330 this week"
+  },
+  {
+   "who": "Lloyd Doggett",
+   "party": "D",
+   "t": "JNJ",
+   "n": "Johnson & Johnson",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Traded Jun 9 at ~$237"
+  },
+  {
+   "who": "Gil Cisneros",
+   "party": "D",
+   "t": "AMD",
+   "n": "AMD",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Traded Jun 5 at ~$466 — before this week's chip pullback"
+  },
+  {
+   "who": "Gil Cisneros",
+   "party": "D",
+   "t": "ACN",
+   "n": "Accenture",
+   "type": "BUY",
+   "size": "1K–15K",
+   "note": "Traded Jun 16 at ~$166"
+  },
+  {
+   "who": "Ann Wagner",
+   "party": "R",
+   "t": "KKR-PE",
+   "n": "KKR Private Equity Conglomerate",
+   "type": "BUY",
+   "size": "250K–500K",
+   "note": "Large private-equity fund allocation, filed Jul 3"
+  },
+  {
+   "who": "Dan Meuser",
+   "party": "R",
+   "t": "NVDA",
+   "n": "Nvidia",
+   "type": "SELL",
+   "size": "1K–15K",
+   "note": "Spouse sold May 27 at ~$212.60 — above current $196.93"
+  },
+  {
+   "who": "Dan Meuser",
+   "party": "R",
+   "t": "SPACEX",
+   "n": "SpaceX (private)",
+   "type": "BUY",
+   "size": "15K–50K",
+   "note": "Child account bought private SpaceX exposure, filed Jul 3"
+  },
+  {
+   "who": "Shelley Moore Capito",
+   "party": "R",
+   "t": "C",
+   "n": "Citigroup",
+   "type": "SELL",
+   "size": "1K–15K",
+   "note": "Spouse sold Jun 16 at ~$143"
+  }
+ ]
 }

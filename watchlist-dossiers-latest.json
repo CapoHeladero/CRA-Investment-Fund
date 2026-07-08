@@ -1,839 +1,939 @@
 {
-  "asof": "2026-07-07",
-  "method": "One dossier per ticker covering CR's full saved watchlist (29 tickers) union the curated watchlist ideas (12 tickers) = 30 unique names. buy≈4% below last close; stop below buy by type (core -11%, value -10%, momentum -12%, spec -18%); sell=analyst target when upside is +4% to +70%, else resistance multiple (+18%, spec +30%). Conviction from analyst rating, capped at 3 for negative-net-income/story names.",
-  "dossiers": {
-    "SYM": {
-      "t": "SYM",
-      "n": "Symbotic Inc",
-      "theme": "Warehouse Robotics / AI Infra",
-      "type": "Momentum",
-      "conv": 3,
-      "p": 44.46,
-      "buy": 42.68,
-      "stop": 37.56,
-      "sell": 65.67,
-      "why": "Entry $42.68 · Stop $37.56 · Target $65.67 — P/E n/a (fwd 77.03), Buy rating (target $65.67).",
-      "bull": [
-        "Walmart-anchored automation backlog gives multi-year revenue visibility as warehouse robotics scales",
-        "Buy rating, target $65.67 (+48%)"
-      ],
-      "bear": [
-        "Not yet GAAP profitable (-$7.4M TTM net income); 77x forward P/E already prices in a strong ramp",
-        "Customer concentration risk with Walmart as anchor customer",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 26.80B, TTM revenue 2.52B, TTM net income -7.39M.",
-        "P/E n/a / fwd P/E 77.03; analyst rating Buy with $65.67 target (+47.71%).",
-        "Eden deep-dive: run SYM for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
-      "thesis": "Symbotic Inc (Warehouse Robotics / AI Infra) — Walmart-anchored automation backlog gives multi-year revenue visibility as warehouse robotics scales"
-    },
-    "MSFT": {
-      "t": "MSFT",
-      "n": "Microsoft Corp",
-      "theme": "AI Infra & Software",
-      "type": "Core",
-      "conv": 5,
-      "p": 386.74,
-      "buy": 371.27,
-      "stop": 330.43,
-      "sell": 560.21,
-      "why": "Entry $371.27 · Stop $330.43 · Target $560.21 — P/E 23.03 (fwd 20.89), Strong Buy rating (target $560.21).",
-      "bull": [
-        "Azure + Copilot monetization is the cleanest enterprise AI toolchain, backed by $125.2B TTM net income",
-        "Strong Buy, target $560.21 (+45%)"
-      ],
-      "bear": [
-        "23x trailing/21x forward is not expensive outright, but capex intensity (>$90B TTM) is compressing FCF margin",
-        "OpenAI relationship/antitrust dynamics are a long-tail governance risk"
-      ],
-      "v": [
-        "Mkt cap 2.87T, TTM revenue 318.27B, TTM net income 125.22B.",
-        "P/E 23.03 / fwd P/E 20.89; analyst rating Strong Buy with $560.21 target (+44.85%).",
-        "Eden deep-dive: run MSFT for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Microsoft Corp (AI Infra & Software) — Azure + Copilot monetization is the cleanest enterprise AI toolchain, backed by $125.2B TTM net income"
-    },
-    "NOW": {
-      "t": "NOW",
-      "n": "ServiceNow Inc",
-      "theme": "AI Infra & Software",
-      "type": "Core",
-      "conv": 5,
-      "p": 107.93,
-      "buy": 103.61,
-      "stop": 92.21,
-      "sell": 141.12,
-      "why": "Entry $103.61 · Stop $92.21 · Target $141.12 — P/E 64.25 (fwd 24.89), Strong Buy rating (target $141.12).",
-      "bull": [
-        "Workflow-automation platform layering AI agents onto an entrenched enterprise ITSM footprint",
-        "Strong Buy, target $141.12 (+31%) after the Dec-2025 4:1 split reset the share price"
-      ],
-      "bear": [
-        "64x trailing P/E (25x forward) still requires sustained 20%+ subscription growth",
-        "Enterprise IT budget scrutiny could slow new-module attach rates"
-      ],
-      "v": [
-        "Mkt cap 111.31B, TTM revenue 13.96B, TTM net income 1.76B.",
-        "P/E 64.25 / fwd P/E 24.89; analyst rating Strong Buy with $141.12 target (+30.75%).",
-        "Eden deep-dive: run NOW for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "ServiceNow Inc (AI Infra & Software) — Workflow-automation platform layering AI agents onto an entrenched enterprise ITSM footprint"
-    },
-    "FSLR": {
-      "t": "FSLR",
-      "n": "First Solar Inc",
-      "theme": "Renewables / Solar",
-      "type": "Value",
-      "conv": 4,
-      "p": 233.06,
-      "buy": 223.74,
-      "stop": 201.37,
-      "sell": 248.3,
-      "why": "Entry $223.74 · Stop $201.37 · Target $248.3 — P/E 15.06 (fwd 12.12), Buy rating (target $248.3).",
-      "bull": [
-        "Only scaled US-based thin-film solar maker with IRA 45X tax-credit tailwind and full 2026-27 order book",
-        "Cheapest name in the renewables bucket at 15x trailing / 12x forward with real GAAP profit ($1.67B TTM)",
-        "Buy rating, target $248.30 (+7%)"
-      ],
-      "bear": [
-        "Policy risk — any rollback of IRA manufacturing credits directly hits margins",
-        "Panel pricing/China oversupply remains a persistent industry risk"
-      ],
-      "v": [
-        "Mkt cap 25.04B, TTM revenue 5.42B, TTM net income 1.67B.",
-        "P/E 15.06 / fwd P/E 12.12; analyst rating Buy with $248.3 target (+6.54%).",
-        "Eden deep-dive: run FSLR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
-      "thesis": "First Solar Inc (Renewables / Solar) — Only scaled US-based thin-film solar maker with IRA 45X tax-credit tailwind and full 2026-27 order book"
-    },
-    "MELI": {
-      "t": "MELI",
-      "n": "MercadoLibre Inc",
-      "theme": "Consumer / LatAm",
-      "type": "Core",
-      "conv": 4,
-      "p": 1805.68,
-      "buy": 1733.45,
-      "stop": 1542.77,
-      "sell": 2216.96,
-      "why": "Entry $1733.45 · Stop $1542.77 · Target $2216.96 — P/E 47.68 (fwd 44.3), Buy rating (target $2216.96).",
-      "bull": [
-        "Dominant LatAm e-commerce + fintech (Mercado Pago) flywheel with $31.8B TTM revenue growing >30%",
-        "Buy rating, target $2,216.96 (+23%)",
-        "Genuinely profitable at scale ($1.92B TTM net income)"
-      ],
-      "bear": [
-        "47x trailing / 44x forward P/E requires sustained hyper-growth",
-        "FX/macro volatility across Argentina/Brazil is a recurring swing factor"
-      ],
-      "v": [
-        "Mkt cap 91.54B, TTM revenue 31.80B, TTM net income 1.92B.",
-        "P/E 47.68 / fwd P/E 44.3; analyst rating Buy with $2216.96 target (+22.78%).",
-        "Eden deep-dive: run MELI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "MercadoLibre Inc (Consumer / LatAm) — Dominant LatAm e-commerce + fintech (Mercado Pago) flywheel with $31.8B TTM revenue growing >30%"
-    },
-    "HTZ": {
-      "t": "HTZ",
-      "n": "Hertz Global Holdings",
-      "theme": "Travel Recovery",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 2.05,
-      "buy": 1.97,
-      "stop": 1.62,
-      "sell": 2.67,
-      "why": "Entry $1.97 · Stop $1.62 · Target $2.67 — P/E n/a (fwd n/a), Hold rating (target $4.43).",
-      "bull": [
-        "Deep restructuring (fleet, EV write-down cleanup) largely complete; any normalization of used-car residuals helps materially",
-        "Hold rating still carries a $4.43 target — more than double the current price (+116%)"
-      ],
-      "bear": [
-        "Still deeply unprofitable (-$637M TTM net income) and balance-sheet-impaired post-bankruptcy emergence",
-        "Rental pricing and fleet-residual risk remain structurally challenged",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 647.32M, TTM revenue 8.70B, TTM net income -637.00M.",
-        "P/E n/a / fwd P/E n/a; analyst rating Hold with $4.43 target (+116.1%).",
-        "Eden deep-dive: run HTZ for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "Hertz Global Holdings (Travel Recovery) — Deep restructuring (fleet, EV write-down cleanup) largely complete; any normalization of used-car residuals helps materially"
-    },
-    "GS": {
-      "t": "GS",
-      "n": "Goldman Sachs Group",
-      "theme": "Financials",
-      "type": "Value",
-      "conv": 3,
-      "p": 1055.29,
-      "buy": 1013.08,
-      "stop": 911.77,
-      "sell": 1245.24,
-      "why": "Entry $1013.08 · Stop $911.77 · Target $1245.24 — P/E 19.32 (fwd 17.43), Hold rating (target $978.35).",
-      "bull": [
-        "Investment-banking and trading recovery plus buybacks/dividend hikes post stress-test results",
-        "Cheapest large-cap financial in the book at 19x trailing / 17x forward earnings on $17.07B TTM net income"
-      ],
-      "bear": [
-        "Hold rating — consensus target $978.35 is actually below spot (-7%), sell-side sees limited near-term upside",
-        "Capital-markets revenue is inherently cyclical and rate-sensitive"
-      ],
-      "v": [
-        "Mkt cap 323.55B, TTM revenue 61.53B, TTM net income 17.07B.",
-        "P/E 19.32 / fwd P/E 17.43; analyst rating Hold with $978.35 target (-7.29%).",
-        "Eden deep-dive: run GS for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
-      "thesis": "Goldman Sachs Group (Financials) — Investment-banking and trading recovery plus buybacks/dividend hikes post stress-test results"
-    },
-    "ETN": {
-      "t": "ETN",
-      "n": "Eaton Corp plc",
-      "theme": "Industrials / Power Infra",
-      "type": "Core",
-      "conv": 4,
-      "p": 413.42,
-      "buy": 396.88,
-      "stop": 353.22,
-      "sell": 455.79,
-      "why": "Entry $396.88 · Stop $353.22 · Target $455.79 — P/E 40.44 (fwd 29.39), Buy rating (target $455.79).",
-      "bull": [
-        "Electrical equipment supplier riding the same grid/data-center capex cycle as Vertiv, with a more diversified end-market base",
-        "Buy rating, target $455.79 (+10%)",
-        "Real, growing profitability ($3.99B TTM net income)"
-      ],
-      "bear": [
-        "40x trailing P/E already prices in multi-year backlog growth",
-        "Exposure to broader industrial capex cycle if rates stay elevated"
-      ],
-      "v": [
-        "Mkt cap 160.53B, TTM revenue 28.52B, TTM net income 3.99B.",
-        "P/E 40.44 / fwd P/E 29.39; analyst rating Buy with $455.79 target (+10.25%).",
-        "Eden deep-dive: run ETN for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Eaton Corp plc (Industrials / Power Infra) — Electrical equipment supplier riding the same grid/data-center capex cycle as Vertiv, with a more diversified end-market base"
-    },
-    "VST": {
-      "t": "VST",
-      "n": "Vistra Corp",
-      "theme": "Nuclear / AI-Power",
-      "type": "Core",
-      "conv": 5,
-      "p": 157.22,
-      "buy": 150.93,
-      "stop": 134.33,
-      "sell": 222.89,
-      "why": "Entry $150.93 · Stop $134.33 · Target $222.89 — P/E 26.54 (fwd 17.39), Strong Buy rating (target $222.89).",
-      "bull": [
-        "Texas/PJM generation fleet (nuclear+gas) squarely in the path of AI/data-center load growth",
-        "Strong Buy, target $222.89 (+42%)",
-        "Net income of $2.05B on $19.45B revenue shows real, not story, earnings"
-      ],
-      "bear": [
-        "Merchant power exposure means earnings swing with wholesale power prices and weather",
-        "Leverage remains elevated versus regulated utility peers"
-      ],
-      "v": [
-        "Mkt cap 53.01B, TTM revenue 19.45B, TTM net income 2.05B.",
-        "P/E 26.54 / fwd P/E 17.39; analyst rating Strong Buy with $222.89 target (+41.77%).",
-        "Eden deep-dive: run VST for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Vistra Corp (Nuclear / AI-Power) — Texas/PJM generation fleet (nuclear+gas) squarely in the path of AI/data-center load growth"
-    },
-    "OSCR": {
-      "t": "OSCR",
-      "n": "Oscar Health",
-      "theme": "Healthcare",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 31.44,
-      "buy": 30.18,
-      "stop": 24.75,
-      "sell": 40.87,
-      "why": "Entry $30.18 · Stop $24.75 · Target $40.87 — P/E n/a (fwd 30.7), Hold rating (target $22.6).",
-      "bull": [
-        "ACA-exchange pure-play with rapid membership growth if subsidy extensions hold",
-        "Hold rating still reflects a functioning, scaling insurtech"
-      ],
-      "bear": [
-        "Not yet consistently profitable (-$39.4M TTM net income); target $22.60 is actually below spot (-28%) — sell-side skeptical",
-        "ACA subsidy-cliff/policy risk directly threatens the membership growth thesis",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 9.47B, TTM revenue 13.30B, TTM net income -39.43M.",
-        "P/E n/a / fwd P/E 30.7; analyst rating Hold with $22.6 target (-28.12%).",
-        "Eden deep-dive: run OSCR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "Oscar Health (Healthcare) — ACA-exchange pure-play with rapid membership growth if subsidy extensions hold"
-    },
-    "NVDA": {
-      "t": "NVDA",
-      "n": "NVIDIA Corp",
-      "theme": "AI Infra & Data Centers",
-      "type": "Momentum",
-      "conv": 5,
-      "p": 195.55,
-      "buy": 187.73,
-      "stop": 165.2,
-      "sell": 301.62,
-      "why": "Entry $187.73 · Stop $165.2 · Target $301.62 — P/E 29.95 (fwd 19.68), Strong Buy rating (target $301.62).",
-      "bull": [
-        "Data-center revenue still compounding off a ~$253B TTM base as hyperscalers and sovereign AI build-outs order forward",
-        "Blackwell/Rubin roadmap keeps NVDA the default merchant-silicon supplier for training and inference",
-        "Strong Buy consensus, 29 analysts, target $301.62 implies ~54% upside from here"
-      ],
-      "bear": [
-        "Valuation still prices in years of flawless execution; any hyperscaler capex pause hits hard",
-        "Custom-silicon efforts (Google TPU, Amazon Trainium, Broadcom ASICs) chip at long-run share",
-        "Export-control headlines remain a recurring overhang on China revenue"
-      ],
-      "v": [
-        "Mkt cap 4.74T, TTM revenue 253.49B, TTM net income 159.61B.",
-        "P/E 29.95 / fwd P/E 19.68; analyst rating Strong Buy with $301.62 target (+54.24%).",
-        "Eden deep-dive: run NVDA for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
-      "thesis": "NVIDIA Corp (AI Infra & Data Centers) — Data-center revenue still compounding off a ~$253B TTM base as hyperscalers and sovereign AI build-outs order forward"
-    },
-    "NFLX": {
-      "t": "NFLX",
-      "n": "Netflix Inc",
-      "theme": "Consumer / Media",
-      "type": "Core",
-      "conv": 4,
-      "p": 76.02,
-      "buy": 72.98,
-      "stop": 64.95,
-      "sell": 114.15,
-      "why": "Entry $72.98 · Stop $64.95 · Target $114.15 — P/E 24.56 (fwd 22.84), Buy rating (target $114.15).",
-      "bull": [
-        "Ad-tier and password-sharing crackdown monetization still ramping; $13.37B TTM net income shows scale profitability",
-        "Buy rating, target $114.15 (+50%) post the Nov-2025 10:1 split"
-      ],
-      "bear": [
-        "Content-cost inflation and competitive streaming landscape (Disney+, Max, Amazon) pressure margins",
-        "24.6x trailing P/E needs continued ARPU growth to hold"
-      ],
-      "v": [
-        "Mkt cap 320.10B, TTM revenue 46.89B, TTM net income 13.37B.",
-        "P/E 24.56 / fwd P/E 22.84; analyst rating Buy with $114.15 target (+50.16%).",
-        "Eden deep-dive: run NFLX for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Netflix Inc (Consumer / Media) — Ad-tier and password-sharing crackdown monetization still ramping; $13.37B TTM net income shows scale profitability"
-    },
-    "NCLH": {
-      "t": "NCLH",
-      "n": "Norwegian Cruise Line",
-      "theme": "Travel Recovery",
-      "type": "Value",
-      "conv": 4,
-      "p": 19.26,
-      "buy": 18.49,
-      "stop": 16.64,
-      "sell": 21.33,
-      "why": "Entry $18.49 · Stop $16.64 · Target $21.33 — P/E 16.01 (fwd 12.63), Buy rating (target $21.33).",
-      "bull": [
-        "Cruise demand and pricing remain resilient post-pandemic; NCLH cheapest of the major cruise lines at 16x trailing/12.6x forward",
-        "Buy rating, target $21.33 (+11%)",
-        "7-insider cluster buy of $29.16M in early June 2026 at $17.85 — a notably clean signal"
-      ],
-      "bear": [
-        "High leverage from pandemic-era debt still constrains capital-return flexibility",
-        "Fuel costs and consumer discretionary spending are swing factors"
-      ],
-      "v": [
-        "Mkt cap 8.84B, TTM revenue 10.03B, TTM net income 568.21M.",
-        "P/E 16.01 / fwd P/E 12.63; analyst rating Buy with $21.33 target (+10.75%).",
-        "Eden deep-dive: run NCLH for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
-      "thesis": "Norwegian Cruise Line (Travel Recovery) — Cruise demand and pricing remain resilient post-pandemic; NCLH cheapest of the major cruise lines at 16x trailing/12.6x forward"
-    },
-    "CRWD": {
-      "t": "CRWD",
-      "n": "CrowdStrike Holdings",
-      "theme": "Cybersecurity",
-      "type": "Momentum",
-      "conv": 3,
-      "p": 199.38,
-      "buy": 191.4,
-      "stop": 168.43,
-      "sell": 235.27,
-      "why": "Entry $191.4 · Stop $168.43 · Target $235.27 — P/E n/a (fwd 152.61), Buy rating (target $179.69).",
-      "bull": [
-        "Falcon platform consolidation continues to take share in endpoint/cloud security",
-        "Buy rating and durable ARR growth despite the 2024 outage overhang fading"
-      ],
-      "bear": [
-        "152x forward P/E remains rich; consensus target $179.69 is actually below spot (-10%)",
-        "Still GAAP-unprofitable on a TTM basis (-$30.5M net income)",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 203.02B, TTM revenue 5.09B, TTM net income -30.46M.",
-        "P/E n/a / fwd P/E 152.61; analyst rating Buy with $179.69 target (-9.88%).",
-        "Eden deep-dive: run CRWD for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
-      "thesis": "CrowdStrike Holdings (Cybersecurity) — Falcon platform consolidation continues to take share in endpoint/cloud security"
-    },
-    "CCJ": {
-      "t": "CCJ",
-      "n": "Cameco Corp",
-      "theme": "Uranium",
-      "type": "Core",
-      "conv": 4,
-      "p": 97.5,
-      "buy": 93.6,
-      "stop": 83.3,
-      "sell": 132.39,
-      "why": "Entry $93.6 · Stop $83.3 · Target $132.39 — P/E 91.34 (fwd 78.06), Buy rating (target $132.39).",
-      "bull": [
-        "Uranium supply deficit thesis intact — Cameco is the largest Western pure-play producer with Cigar Lake/McArthur River leverage",
-        "Direct beneficiary of nuclear restart/SMR demand plus government stockpiling",
-        "Buy rating, target $132.39 (+36%)"
-      ],
-      "bear": [
-        "91x trailing P/E leaves little room for a uranium-price pullback",
-        "Execution risk on Westinghouse JV integration"
-      ],
-      "v": [
-        "Mkt cap 42.42B, TTM revenue 2.53B, TTM net income 466.07M.",
-        "P/E 91.34 / fwd P/E 78.06; analyst rating Buy with $132.39 target (+35.79%).",
-        "Eden deep-dive: run CCJ for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Cameco Corp (Uranium) — Uranium supply deficit thesis intact — Cameco is the largest Western pure-play producer with Cigar Lake/McArthur River leverage"
-    },
-    "VRT": {
-      "t": "VRT",
-      "n": "Vertiv Holdings",
-      "theme": "AI Infra & Data Centers",
-      "type": "Core",
-      "conv": 5,
-      "p": 318.47,
-      "buy": 305.73,
-      "stop": 272.1,
-      "sell": 377,
-      "why": "Entry $305.73 · Stop $272.1 · Target $377 — P/E 80.03 (fwd 46.65), Strong Buy rating (target $377).",
-      "bull": [
-        "Liquid-cooling and power-management leader as AI racks push past 100kW/rack, forcing a retrofit cycle",
-        "Backlog visibility extends well into 2027 per management commentary",
-        "Strong Buy rating, target $377 (+18%)"
-      ],
-      "bear": [
-        "Trades at 80x trailing earnings — priced for continued 40%+ backlog growth",
-        "Customer concentration in a handful of hyperscalers/colos"
-      ],
-      "v": [
-        "Mkt cap 122.33B, TTM revenue 10.84B, TTM net income 1.56B.",
-        "P/E 80.03 / fwd P/E 46.65; analyst rating Strong Buy with $377 target (+18.38%).",
-        "Eden deep-dive: run VRT for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Vertiv Holdings (AI Infra & Data Centers) — Liquid-cooling and power-management leader as AI racks push past 100kW/rack, forcing a retrofit cycle"
-    },
-    "SOFI": {
-      "t": "SOFI",
-      "n": "SoFi Technologies",
-      "theme": "Financials",
-      "type": "Momentum",
-      "conv": 3,
-      "p": 18.61,
-      "buy": 17.87,
-      "stop": 15.73,
-      "sell": 20.9,
-      "why": "Entry $17.87 · Stop $15.73 · Target $20.9 — P/E 41.83 (fwd 28.49), Hold rating (target $20.9).",
-      "bull": [
-        "Fintech/neobank scaling loan originations and fee-based revenue beyond just lending",
-        "Turned durably profitable ($576.9M TTM net income) after years of losses"
-      ],
-      "bear": [
-        "Hold rating, target $20.90 (+12%) — modest upside already reflected in the re-rate",
-        "41x trailing P/E leaves little room for a credit-cycle wobble"
-      ],
-      "v": [
-        "Mkt cap 23.87B, TTM revenue 3.91B, TTM net income 576.94M.",
-        "P/E 41.83 / fwd P/E 28.49; analyst rating Hold with $20.9 target (+12.31%).",
-        "Eden deep-dive: run SOFI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
-      "thesis": "SoFi Technologies (Financials) — Fintech/neobank scaling loan originations and fee-based revenue beyond just lending"
-    },
-    "SMCI": {
-      "t": "SMCI",
-      "n": "Super Micro Computer",
-      "theme": "AI Infra / Servers",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 27.19,
-      "buy": 26.1,
-      "stop": 21.4,
-      "sell": 37.25,
-      "why": "Entry $26.1 · Stop $21.4 · Target $37.25 — P/E 14.25 (fwd 9.19), Hold rating (target $37.25).",
-      "bull": [
-        "AI server/rack integrator riding the same buildout as NVDA/Vertiv, now cheap at 14x trailing/9.2x forward after last year's accounting overhang faded",
-        "Hold rating, target $37.25 (+37%)"
-      ],
-      "bear": [
-        "Past accounting-control issues keep an overhang on investor trust",
-        "Thin server-assembly margins mean intense competition from Dell/HPE"
-      ],
-      "v": [
-        "Mkt cap 17.59B, TTM revenue 33.70B, TTM net income 1.25B.",
-        "P/E 14.25 / fwd P/E 9.19; analyst rating Hold with $37.25 target (+37%).",
-        "Eden deep-dive: run SMCI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "Super Micro Computer (AI Infra / Servers) — AI server/rack integrator riding the same buildout as NVDA/Vertiv, now cheap at 14x trailing/9.2x forward after last year's accounting overhang faded"
-    },
-    "LULU": {
-      "t": "LULU",
-      "n": "Lululemon Athletica",
-      "theme": "Consumer",
-      "type": "Value",
-      "conv": 3,
-      "p": 115.64,
-      "buy": 111.01,
-      "stop": 99.91,
-      "sell": 130.65,
-      "why": "Entry $111.01 · Stop $99.91 · Target $130.65 — P/E 9.33 (fwd 10.4), Hold rating (target $130.65).",
-      "bull": [
-        "Cheapest apparel name in the book at just 9.3x trailing earnings after a hard de-rate",
-        "International expansion (China, Europe) still a multi-year growth lever"
-      ],
-      "bear": [
-        "Hold rating — North American same-store growth has stalled amid tariff and competitive pressure (Alo, Vuori)",
-        "Target $130.65 (+13%) reflects modest, not enthusiastic, sell-side conviction"
-      ],
-      "v": [
-        "Mkt cap 13.13B, TTM revenue 11.20B, TTM net income 1.46B.",
-        "P/E 9.33 / fwd P/E 10.4; analyst rating Hold with $130.65 target (+12.98%).",
-        "Eden deep-dive: run LULU for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks if the value re-rate fails to materialize after 2-3 quarters and estimates keep drifting lower.",
-      "thesis": "Lululemon Athletica (Consumer) — Cheapest apparel name in the book at just 9.3x trailing earnings after a hard de-rate"
-    },
-    "UA": {
-      "t": "UA",
-      "n": "Under Armour Inc",
-      "theme": "Consumer / Turnaround",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 6.64,
-      "buy": 6.37,
-      "stop": 5.22,
-      "sell": 8.63,
-      "why": "Entry $6.37 · Stop $5.22 · Target $8.63 — P/E n/a (fwd 60.39), n/a rating.",
-      "bull": [
-        "Deep-value turnaround optionality if new management stabilizes North American wholesale declines",
-        "Trades near multi-year lows, giving asymmetric upside if brand resets"
-      ],
-      "bear": [
-        "Unprofitable (-$495.6M TTM net income) with no analyst rating/target currently published — thin coverage",
-        "Brand momentum continues to lag Nike/Lululemon/On/Hoka in performance-wear mindshare",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 2.87B, TTM revenue 4.97B, TTM net income -495.64M.",
-        "P/E n/a / fwd P/E 60.39; analyst rating n/a.",
-        "Eden deep-dive: run UA for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "Under Armour Inc (Consumer / Turnaround) — Deep-value turnaround optionality if new management stabilizes North American wholesale declines"
-    },
-    "OPEN": {
-      "t": "OPEN",
-      "n": "Opendoor Technologies",
-      "theme": "Real Estate / iBuying",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 5.09,
-      "buy": 4.89,
-      "stop": 4.01,
-      "sell": 6.62,
-      "why": "Entry $4.89 · Stop $4.01 · Target $6.62 — P/E n/a (fwd n/a), Hold rating (target $4.82).",
-      "bull": [
-        "Cost restructuring has shrunk the cash burn versus the 2022-23 iBuying unwind",
-        "Hold rating with a target near spot reflects a stabilizing, not collapsing, business"
-      ],
-      "bear": [
-        "Still unprofitable (-$1.39B TTM net income) in a capital-intensive, rate-sensitive housing-inventory model",
-        "Target $4.82 is actually below spot (-5%) — sell-side sees limited upside",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 4.91B, TTM revenue 3.94B, TTM net income -1.39B.",
-        "P/E n/a / fwd P/E n/a; analyst rating Hold with $4.82 target (-5.3%).",
-        "Eden deep-dive: run OPEN for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "Opendoor Technologies (Real Estate / iBuying) — Cost restructuring has shrunk the cash burn versus the 2022-23 iBuying unwind"
-    },
-    "ASML": {
-      "t": "ASML",
-      "n": "ASML Holding",
-      "theme": "Semiconductors",
-      "type": "Core",
-      "conv": 5,
-      "p": 1825.07,
-      "buy": 1752.07,
-      "stop": 1559.34,
-      "sell": 2153.58,
-      "why": "Entry $1752.07 · Stop $1559.34 · Target $2153.58 — P/E 62.03 (fwd 46.99), Strong Buy rating (target $1830.83).",
-      "bull": [
-        "Sole supplier of EUV lithography — irreplaceable chokepoint in the entire advanced-semiconductor supply chain",
-        "Strong Buy rating; High-NA EUV upgrade cycle just beginning at leading-edge fabs"
-      ],
-      "bear": [
-        "62x trailing/47x forward P/E leaves little room for order softness",
-        "China export restrictions cap a meaningful slice of the addressable market",
-        "Priced almost exactly at consensus target (+0.3%) — limited near-term re-rate left"
-      ],
-      "v": [
-        "Mkt cap 715.48B, TTM revenue 38.82B, TTM net income 11.53B.",
-        "P/E 62.03 / fwd P/E 46.99; analyst rating Strong Buy with $1830.83 target (+0.32%).",
-        "Eden deep-dive: run ASML for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "ASML Holding (Semiconductors) — Sole supplier of EUV lithography — irreplaceable chokepoint in the entire advanced-semiconductor supply chain"
-    },
-    "MU": {
-      "t": "MU",
-      "n": "Micron Technology",
-      "theme": "Semiconductors",
-      "type": "Core",
-      "conv": 5,
-      "p": 984.75,
-      "buy": 945.36,
-      "stop": 841.37,
-      "sell": 1486,
-      "why": "Entry $945.36 · Stop $841.37 · Target $1486 — P/E 22.22 (fwd 6.86), Strong Buy rating (target $1486).",
-      "bull": [
-        "HBM demand tied to every AI accelerator cycle — memory pricing has turned sharply favorable",
-        "Fwd P/E of just 6.9x vs 22x trailing prices in a full earnings re-rate as HBM margins scale",
-        "Strong Buy, target $1,486 (+51%)"
-      ],
-      "bear": [
-        "Memory is a historically cyclical commodity business — pricing can reverse fast",
-        "Heavy capex ($25B+ TTM) exposes FCF to a downturn"
-      ],
-      "v": [
-        "Mkt cap 1.11T, TTM revenue 90.27B, TTM net income 50.47B.",
-        "P/E 22.22 / fwd P/E 6.86; analyst rating Strong Buy with $1486 target (+50.9%).",
-        "Eden deep-dive: run MU for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Micron Technology (Semiconductors) — HBM demand tied to every AI accelerator cycle — memory pricing has turned sharply favorable"
-    },
-    "CEG": {
-      "t": "CEG",
-      "n": "Constellation Energy",
-      "theme": "Nuclear / AI-Power",
-      "type": "Core",
-      "conv": 4,
-      "p": 245.87,
-      "buy": 236.04,
-      "stop": 210.08,
-      "sell": 357.81,
-      "why": "Entry $236.04 · Stop $210.08 · Target $357.81 — P/E 21 (fwd 21.18), Buy rating (target $357.81).",
-      "bull": [
-        "Largest US nuclear fleet operator, direct beneficiary of hyperscaler power-purchase deals (20yr PPAs)",
-        "Constellation's carbon-free baseload is the cleanest way to underwrite new AI data-center demand",
-        "Buy rating, target $357.81 (+46%)"
-      ],
-      "bear": [
-        "Regulatory/rate-case risk around nuclear plant relicensing and PPA pricing",
-        "Valuation has already re-rated hard on the AI-power narrative"
-      ],
-      "v": [
-        "Mkt cap 87.80B, TTM revenue 29.87B, TTM net income 3.79B.",
-        "P/E 21 / fwd P/E 21.18; analyst rating Buy with $357.81 target (+45.53%).",
-        "Eden deep-dive: run CEG for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Constellation Energy (Nuclear / AI-Power) — Largest US nuclear fleet operator, direct beneficiary of hyperscaler power-purchase deals (20yr PPAs)"
-    },
-    "SMR": {
-      "t": "SMR",
-      "n": "NuScale Power Corp",
-      "theme": "Nuclear / AI-Power",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 9.61,
-      "buy": 9.23,
-      "stop": 7.57,
-      "sell": 15.36,
-      "why": "Entry $9.23 · Stop $7.57 · Target $15.36 — P/E n/a (fwd n/a), Hold rating (target $15.36).",
-      "bull": [
-        "NuScale is the only SMR design with NRC design certification, first-mover in a nascent SMR market",
-        "Hold rating still carries a $15.36 target (+60%) — sell-side sees optionality"
-      ],
-      "bear": [
-        "Pre-revenue at scale ($18.7M TTM revenue) versus -$385.8M net loss — years from commercial deployment",
-        "Story stock; dilution risk high, no near-term profitability path",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 3.51B, TTM revenue 18.67M, TTM net income -385.80M.",
-        "P/E n/a / fwd P/E n/a; analyst rating Hold with $15.36 target (+59.83%).",
-        "Eden deep-dive: run SMR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "NuScale Power Corp (Nuclear / AI-Power) — NuScale is the only SMR design with NRC design certification, first-mover in a nascent SMR market"
-    },
-    "TE": {
-      "t": "TE",
-      "n": "T1 Energy Inc",
-      "theme": "Renewables / Solar",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 8.65,
-      "buy": 8.3,
-      "stop": 6.81,
-      "sell": 10.07,
-      "why": "Entry $8.3 · Stop $6.81 · Target $10.07 — P/E n/a (fwd n/a), Strong Buy rating (target $10.07).",
-      "bull": [
-        "T1 Energy (formerly FREYR) pivoted to US solar module/cell manufacturing, positioned for IRA 45X credits and onshoring demand",
-        "Strong Buy rating, target $10.07 (+16%)"
-      ],
-      "bear": [
-        "Deeply unprofitable (-$385.1M TTM net income) on $879.5M revenue — still scaling manufacturing",
-        "Small-cap solar manufacturer execution risk is high; capital intensity requires continued external funding",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 2.42B, TTM revenue 879.49M, TTM net income -385.07M.",
-        "P/E n/a / fwd P/E n/a; analyst rating Strong Buy with $10.07 target (+16.42%).",
-        "Eden deep-dive: run TE for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "T1 Energy Inc (Renewables / Solar) — T1 Energy (formerly FREYR) pivoted to US solar module/cell manufacturing, positioned for IRA 45X credits and onshoring demand"
-    },
-    "CRWV": {
-      "t": "CRWV",
-      "n": "CoreWeave Inc",
-      "theme": "AI Infra & Data Centers",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 86.46,
-      "buy": 83,
-      "stop": 68.06,
-      "sell": 142.29,
-      "why": "Entry $83 · Stop $68.06 · Target $142.29 — P/E n/a (fwd n/a), Buy rating (target $142.29).",
-      "bull": [
-        "Pure-play GPU-cloud neocloud riding Microsoft/OpenAI-anchored demand, contracted backlog in the tens of billions",
-        "Buy rating, target $142 (+65%) reflects scarcity value of contracted GPU capacity"
-      ],
-      "bear": [
-        "Still burning cash (-$1.59B TTM net income) financing a capital-intensive build",
-        "Customer concentration and lease-heavy balance sheet raise refinancing risk if AI capex slows",
-        "Story name — no positive FCF yet, valuation entirely narrative-driven",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 47.17B, TTM revenue 6.23B, TTM net income -1.59B.",
-        "P/E n/a / fwd P/E n/a; analyst rating Buy with $142.29 target (+64.57%).",
-        "Eden deep-dive: run CRWV for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "CoreWeave Inc (AI Infra & Data Centers) — Pure-play GPU-cloud neocloud riding Microsoft/OpenAI-anchored demand, contracted backlog in the tens of billions"
-    },
-    "APLD": {
-      "t": "APLD",
-      "n": "Applied Digital Corp",
-      "theme": "AI Infra & Data Centers",
-      "type": "Speculative",
-      "conv": 3,
-      "p": 33.5,
-      "buy": 32.16,
-      "stop": 26.37,
-      "sell": 43.55,
-      "why": "Entry $32.16 · Stop $26.37 · Target $43.55 — P/E n/a (fwd n/a), Strong Buy rating (target $73.36).",
-      "bull": [
-        "Repositioning from bitcoin hosting to HPC/AI data-center leasing with hyperscaler-grade contracts",
-        "Strong Buy rating, target $73.36 (+119%) — biggest upside skew in the AI-infra bucket"
-      ],
-      "bear": [
-        "Pre-profitability (-$192M TTM net income), funding growth via dilution and debt",
-        "Execution risk converting land/power positions into leased capacity on schedule",
-        "Conviction capped at 3 given negative net income / story-stock risk profile."
-      ],
-      "v": [
-        "Mkt cap 9.57B, TTM revenue 319.26M, TTM net income -192.49M.",
-        "P/E n/a / fwd P/E n/a; analyst rating Strong Buy with $73.36 target (+118.99%).",
-        "Eden deep-dive: run APLD for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a dilutive capital raise at depressed prices or a material delay to the commercialization timeline.",
-      "thesis": "Applied Digital Corp (AI Infra & Data Centers) — Repositioning from bitcoin hosting to HPC/AI data-center leasing with hyperscaler-grade contracts"
-    },
-    "NBIS": {
-      "t": "NBIS",
-      "n": "Nebius Group NV",
-      "theme": "AI Infra & Data Centers",
-      "type": "Momentum",
-      "conv": 4,
-      "p": 213.02,
-      "buy": 204.5,
-      "stop": 179.96,
-      "sell": 244.21,
-      "why": "Entry $204.5 · Stop $179.96 · Target $244.21 — P/E 66.56 (fwd n/a), Buy rating (target $244.21).",
-      "bull": [
-        "Neocloud/GPU-cloud spinout from Yandex with genuinely positive TTM net income ($817.2M) — rare profitability among AI-infra neoclouds",
-        "Buy rating, target $244.21 (+15%)"
-      ],
-      "bear": [
-        "66x trailing P/E (no forward consensus yet) still reflects a young, fast-changing business model",
-        "Geopolitical/Russia-linked history remains a governance overhang for some investors"
-      ],
-      "v": [
-        "Mkt cap 54.54B, TTM revenue 877.90M, TTM net income 817.20M.",
-        "P/E 66.56 / fwd P/E n/a; analyst rating Buy with $244.21 target (+14.64%).",
-        "Eden deep-dive: run NBIS for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a close below the stop or a deceleration in the growth/backlog metrics driving the momentum.",
-      "thesis": "Nebius Group NV (AI Infra & Data Centers) — Neocloud/GPU-cloud spinout from Yandex with genuinely positive TTM net income ($817.2M) — rare profitability among AI-infra neoclouds"
-    },
-    "PANW": {
-      "t": "PANW",
-      "n": "Palo Alto Networks",
-      "theme": "Cybersecurity",
-      "type": "Core",
-      "conv": 4,
-      "p": 357.53,
-      "buy": 343.23,
-      "stop": 305.47,
-      "sell": 421.89,
-      "why": "Entry $343.23 · Stop $305.47 · Target $421.89 — P/E 345.7 (fwd 91.23), Buy rating (target $318.32).",
-      "bull": [
-        "Platformization strategy (bundling SASE/cloud/SOC) is driving durable ARR and net-income inflection to $842.9M TTM",
-        "Buy rating with real, growing GAAP profits unlike many security peers"
-      ],
-      "bear": [
-        "345x trailing P/E (fwd 91x) still rich even after the earnings inflection; consensus target $318.32 is below spot (-11%)",
-        "Bundling strategy raises win-rate but pressures per-product pricing"
-      ],
-      "v": [
-        "Mkt cap 291.39B, TTM revenue 10.61B, TTM net income 842.90M.",
-        "P/E 345.7 / fwd P/E 91.23; analyst rating Buy with $318.32 target (-10.97%).",
-        "Eden deep-dive: run PANW for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
-      ],
-      "inv": "Thesis breaks on a confirmed multi-quarter deceleration in the core growth driver or a guidance cut below consensus.",
-      "thesis": "Palo Alto Networks (Cybersecurity) — Platformization strategy (bundling SASE/cloud/SOC) is driving durable ARR and net-income inflection to $842.9M TTM"
-    }
+ "asof": "2026-07-08",
+ "method": "One dossier per saved-watchlist ticker ∪ curated ideas. p = last close 2026-07-08 (stockanalysis.com). buy≈support 4% below close; stop by type (core -11%, value -10%, momentum -12%, spec -18% from buy); sell = analyst target when +4%..+70% upside, else +18% (+30% spec). Conviction: Strong Buy 5 / Buy 4 / Hold 3, capped at 3 for negative-net-income names. Not financial advice.",
+ "dossiers": {
+  "NOW": {
+   "t": "NOW",
+   "n": "ServiceNow",
+   "theme": "Software / AI apps",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 110.73,
+   "buy": 106.3,
+   "stop": 93.54,
+   "sell": 141.12,
+   "why": "Entry $106.3 · Stop $93.54 · Target $141.12 — Agentic AI workflow leader; 25.5x forward after split-adjusted de-rate is the cheapest NOW has been in years (P/E 65.92 · fwd P/E 25.53 · net income $1.76B TTM · Strong Buy, target $141.12)",
+   "bull": [
+    "AI Pro Plus SKU driving 30%+ cRPO; Strong Buy consensus, +27% to target",
+    "Wall St consensus Strong Buy, avg target $141.12 (27.4% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Enterprise seat-based software faces AI headcount deflation questions",
+    "Valuation: 65.92x trailing / 25.53x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 65.92 · fwd P/E 25.53 · net income $1.76B TTM · Strong Buy, target $141.12",
+    "Last close $110.73 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run NOW for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $93.54; thesis break: Enterprise seat-based software faces AI headcount deflation questions",
+   "thesis": "Agentic AI workflow leader; 25.5x forward after split-adjusted de-rate is the cheapest NOW has been in years"
+  },
+  "MU": {
+   "t": "MU",
+   "n": "Micron",
+   "theme": "AI infra / memory",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 938.38,
+   "buy": 900.84,
+   "stop": 792.74,
+   "sell": 1486,
+   "why": "Entry $900.84 · Stop $792.74 · Target $1486 — HBM supply sold out; memory is the tightest bottleneck in AI compute — 6.5x forward earnings (P/E 21.18 · fwd P/E 6.54 · net income $50.5B TTM · Strong Buy, target $1486)",
+   "bull": [
+    "HBM4 pricing locked with margin step-up; $50.5B TTM net income in an up-cycle",
+    "Wall St consensus Strong Buy, avg target $1486 (58.4% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "Memory is cyclical: any AI capex digestion hits MU first and hardest; -4.7% today on chip rout",
+    "Valuation: 21.18x trailing / 6.54x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 21.18 · fwd P/E 6.54 · net income $50.5B TTM · Strong Buy, target $1486",
+    "Last close $938.38 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run MU for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $792.74; thesis break: Memory is cyclical: any AI capex digestion hits MU first and hardest",
+   "thesis": "HBM supply sold out; memory is the tightest bottleneck in AI compute — 6.5x forward earnings"
+  },
+  "FISV": {
+   "t": "FISV",
+   "n": "Fiserv",
+   "theme": "Financials / fintech",
+   "type": "Value",
+   "conv": 3,
+   "p": 52.71,
+   "buy": 50.6,
+   "stop": 45.54,
+   "sell": 68.85,
+   "why": "Entry $50.6 · Stop $45.54 · Target $68.85 — Broken-growth-stock pricing (6.5x forward) on a business still growing organically; 6 insiders bought the June dip (P/E 8.92 · fwd P/E 6.48 · net income $3.20B TTM · Hold, target $68.85)",
+   "bull": [
+    "Insider cluster buy Jun 16 ($1.7M, 6 buyers); Clover mix shift continues",
+    "Wall St consensus Hold, avg target $68.85 (30.6% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Street is Hold — Clover deceleration must stabilize for the re-rate",
+    "Valuation: 8.92x trailing / 6.48x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 8.92 · fwd P/E 6.48 · net income $3.20B TTM · Hold, target $68.85",
+    "Last close $52.71 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run FISV for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $45.54; thesis break: Street is Hold — Clover deceleration must stabilize for the re-rate",
+   "thesis": "Broken-growth-stock pricing (6.5x forward) on a business still growing organically; 6 insiders bought the June dip"
+  },
+  "SYM": {
+   "t": "SYM",
+   "n": "Symbotic",
+   "theme": "Robotics / automation",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 41.32,
+   "buy": 39.67,
+   "stop": 32.53,
+   "sell": 65.67,
+   "why": "Entry $39.67 · Stop $32.53 · Target $65.67 — Warehouse automation with Walmart anchor; backlog >$22B era (P/E n/a · fwd P/E 71.59 · net income -$7.4M TTM · Buy, target $65.67)",
+   "bull": [
+    "Deployment cadence improving; near breakeven (-$7.4M TTM)",
+    "Wall St consensus Buy, avg target $65.67 (58.9% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Customer concentration (Walmart); accounting restatement history",
+    "Not yet profitable (-$7.4M net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E 71.59 · net income -$7.4M TTM · Buy, target $65.67",
+    "Last close $41.32 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run SYM for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $32.53; thesis break: Customer concentration (Walmart)",
+   "thesis": "Warehouse automation with Walmart anchor; backlog >$22B era"
+  },
+  "MSFT": {
+   "t": "MSFT",
+   "n": "Microsoft",
+   "theme": "Software / AI apps",
+   "type": "Core",
+   "conv": 5,
+   "p": 388.84,
+   "buy": 373.29,
+   "stop": 332.23,
+   "sell": 560.21,
+   "why": "Entry $373.29 · Stop $332.23 · Target $560.21 — Cheapest mega-cap AI play after the de-rate: 21x forward for Azure AI + Copilot annuity (P/E 23.16 · fwd P/E 21 · net income $125.2B TTM · Strong Buy, target $560.21)",
+   "bull": [
+    "Azure re-accelerating; $72.9B FCF funds capex without leverage",
+    "Wall St consensus Strong Buy, avg target $560.21 (44.1% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "AI capex ($97B TTM) pressures margins; OpenAI relationship in flux",
+    "Valuation: 23.16x trailing / 21x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 23.16 · fwd P/E 21 · net income $125.2B TTM · Strong Buy, target $560.21",
+    "Last close $388.84 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run MSFT for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $332.23; thesis break: AI capex ($97B TTM) pressures margins",
+   "thesis": "Cheapest mega-cap AI play after the de-rate: 21x forward for Azure AI + Copilot annuity"
+  },
+  "MELI": {
+   "t": "MELI",
+   "n": "MercadoLibre",
+   "theme": "Consumer / LatAm",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 1813.61,
+   "buy": 1741.07,
+   "stop": 1532.14,
+   "sell": 2208.63,
+   "why": "Entry $1741.07 · Stop $1532.14 · Target $2208.63 — LatAm commerce + fintech duopoly-of-one; credit book scaling profitably (P/E 47.89 · fwd P/E 44.49 · net income $1.92B TTM · Buy, target $2208.63)",
+   "bull": [
+    "Argentina normalization tailwind; fintech take-rate expanding",
+    "Wall St consensus Buy, avg target $2208.63 (21.8% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "FX/politics always lurk; 44.5x forward needs execution",
+    "Valuation: 47.89x trailing / 44.49x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 47.89 · fwd P/E 44.49 · net income $1.92B TTM · Buy, target $2208.63",
+    "Last close $1813.61 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run MELI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $1532.14; thesis break: FX/politics always lurk",
+   "thesis": "LatAm commerce + fintech duopoly-of-one; credit book scaling profitably"
+  },
+  "HTZ": {
+   "t": "HTZ",
+   "n": "Hertz",
+   "theme": "Consumer / turnaround",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 2.1,
+   "buy": 2.02,
+   "stop": 1.66,
+   "sell": 2.63,
+   "why": "Entry $2.02 · Stop $1.66 · Target $2.63 — Bill-Ackman-backed fleet-rotation turnaround; equity is a levered option (P/E n/a · fwd P/E n/a · net income -$637M TTM · Hold, target $4.43)",
+   "bull": [
+    "Fleet costs falling; used-car residuals stabilizing",
+    "Wall St consensus Hold, avg target $4.43 (111% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "-$637M TTM, heavy debt; at $2.10 this is an option, not an investment — cap at 1% of account",
+    "Not yet profitable (-$637M net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E n/a · net income -$637M TTM · Hold, target $4.43",
+    "Last close $2.1 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run HTZ for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $1.66; thesis break: -$637M TTM, heavy debt",
+   "thesis": "Bill-Ackman-backed fleet-rotation turnaround; equity is a levered option"
+  },
+  "GS": {
+   "t": "GS",
+   "n": "Goldman Sachs",
+   "theme": "Financials",
+   "type": "Core",
+   "conv": 3,
+   "p": 1042.98,
+   "buy": 1001.26,
+   "stop": 891.12,
+   "sell": 1181.49,
+   "why": "Entry $1001.26 · Stop $891.12 · Target $1181.49 — M&A/IPO cycle recovery play; alternatives fee flywheel growing (P/E 19.1 · fwd P/E 17.18 · net income $17.1B TTM · Hold, target $1009.7)",
+   "bull": [
+    "Deal pipeline at multi-year highs; buyback capacity large",
+    "Wall St consensus Hold, avg target $1009.7 (-3.2% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Consensus target ~3% below price after huge run; trading revenue is volatile",
+    "Valuation: 19.1x trailing / 17.18x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 19.1 · fwd P/E 17.18 · net income $17.1B TTM · Hold, target $1009.7",
+    "Last close $1042.98 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run GS for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $891.12; thesis break: Consensus target ~3% below price after huge run",
+   "thesis": "M&A/IPO cycle recovery play; alternatives fee flywheel growing"
+  },
+  "FSLR": {
+   "t": "FSLR",
+   "n": "First Solar",
+   "theme": "Renewables",
+   "type": "Value",
+   "conv": 4,
+   "p": 227.72,
+   "buy": 218.61,
+   "stop": 196.75,
+   "sell": 248.3,
+   "why": "Entry $218.61 · Stop $196.75 · Target $248.3 — US-made thin-film with IRA moat; AI power demand needs every electron — 11.8x forward (P/E 14.71 · fwd P/E 11.81 · net income $1.67B TTM · Buy, target $248.3)",
+   "bull": [
+    "Bookings into 2029; domestic-content premium defensible",
+    "Wall St consensus Buy, avg target $248.3 (9% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Policy risk if IRA credits get trimmed; -2.3% today; series 7 ramp issues",
+    "Valuation: 14.71x trailing / 11.81x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 14.71 · fwd P/E 11.81 · net income $1.67B TTM · Buy, target $248.3",
+    "Last close $227.72 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run FSLR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $196.75; thesis break: Policy risk if IRA credits get trimmed",
+   "thesis": "US-made thin-film with IRA moat; AI power demand needs every electron — 11.8x forward"
+  },
+  "ETN": {
+   "t": "ETN",
+   "n": "Eaton",
+   "theme": "Datacenter hardware / electrification",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 395.68,
+   "buy": 379.85,
+   "stop": 334.27,
+   "sell": 455.79,
+   "why": "Entry $379.85 · Stop $334.27 · Target $455.79 — Electrical content in every datacenter, grid upgrade and reshoring project (P/E 38.71 · fwd P/E 28.13 · net income $3.99B TTM · Buy, target $455.79)",
+   "bull": [
+    "Record backlog; data center orders >30% of electrical Americas",
+    "Wall St consensus Buy, avg target $455.79 (15.2% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Fell 4.3% today; 28x forward embeds no macro slowdown",
+    "Valuation: 38.71x trailing / 28.13x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 38.71 · fwd P/E 28.13 · net income $3.99B TTM · Buy, target $455.79",
+    "Last close $395.68 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run ETN for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $334.27; thesis break: Fell 4.3% today",
+   "thesis": "Electrical content in every datacenter, grid upgrade and reshoring project"
+  },
+  "VST": {
+   "t": "VST",
+   "n": "Vistra",
+   "theme": "AI power",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 155.73,
+   "buy": 149.5,
+   "stop": 131.56,
+   "sell": 222.89,
+   "why": "Entry $149.5 · Stop $131.56 · Target $222.89 — Merchant power + nuclear fleet leveraged to datacenter electricity supercycle (P/E 26.29 · fwd P/E 17.22 · net income $2.05B TTM · Strong Buy, target $222.89)",
+   "bull": [
+    "Comanche Peak colocation deals; Strong Buy, +43% to consensus target",
+    "Wall St consensus Strong Buy, avg target $222.89 (43.1% vs last close)",
+    "Datacenter electricity demand is a multi-year supercycle; power is the new bottleneck"
+   ],
+   "bear": [
+    "Merchant power prices mean-revert; gas fleet carbon exposure",
+    "Valuation: 26.29x trailing / 17.22x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 26.29 · fwd P/E 17.22 · net income $2.05B TTM · Strong Buy, target $222.89",
+    "Last close $155.73 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run VST for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $131.56; thesis break: Merchant power prices mean-revert",
+   "thesis": "Merchant power + nuclear fleet leveraged to datacenter electricity supercycle"
+  },
+  "OSCR": {
+   "t": "OSCR",
+   "n": "Oscar Health",
+   "theme": "Healthcare / insurtech",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 31.12,
+   "buy": 29.88,
+   "stop": 24.5,
+   "sell": 38.84,
+   "why": "Entry $29.88 · Stop $24.5 · Target $38.84 — ACA exchange share winner if subsidy politics resolve (P/E n/a · fwd P/E 30.39 · net income -$39M TTM · Hold, target $22.6)",
+   "bull": [
+    "Membership growth strong; tech platform margin leverage",
+    "Wall St consensus Hold, avg target $22.6 (-27.4% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Consensus target 27% BELOW price; ACA subsidy cliff is existential risk",
+    "Not yet profitable (-$39M net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E 30.39 · net income -$39M TTM · Hold, target $22.6",
+    "Last close $31.12 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run OSCR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $24.5; thesis break: Consensus target 27% BELOW price",
+   "thesis": "ACA exchange share winner if subsidy politics resolve"
+  },
+  "NVDA": {
+   "t": "NVDA",
+   "n": "Nvidia",
+   "theme": "AI infra / semis",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 196.93,
+   "buy": 189.05,
+   "stop": 166.36,
+   "sell": 301.62,
+   "why": "Entry $189.05 · Stop $166.36 · Target $301.62 — Still the AI compute standard; Rubin ramp and $159.6B TTM net income at 19.8x forward is not bubble pricing (P/E 30.16 · fwd P/E 19.82 · net income $159.6B TTM · Strong Buy, target $301.62)",
+   "bull": [
+    "Rubin-generation demand sold out into 2027; networking + software attach expanding",
+    "Wall St consensus Strong Buy, avg target $301.62 (53.2% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "This week's chip sell-off (Samsung/DeepSeek efficiency fears) shows crowding; customer concentration in hyperscalers",
+    "Valuation: 30.16x trailing / 19.82x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 30.16 · fwd P/E 19.82 · net income $159.6B TTM · Strong Buy, target $301.62",
+    "Last close $196.93 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run NVDA for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $166.36; thesis break: This week's chip sell-off (Samsung/DeepSeek efficiency fears) shows crowding",
+   "thesis": "Still the AI compute standard; Rubin ramp and $159.6B TTM net income at 19.8x forward is not bubble pricing"
+  },
+  "NFLX": {
+   "t": "NFLX",
+   "n": "Netflix",
+   "theme": "Consumer / streaming",
+   "type": "Core",
+   "conv": 4,
+   "p": 76.18,
+   "buy": 73.13,
+   "stop": 65.09,
+   "sell": 113.71,
+   "why": "Entry $73.13 · Stop $65.09 · Target $113.71 — Post-split compounding: ads tier scaling, live events pricing power (P/E 24.61 · fwd P/E 22.9 · net income $13.4B TTM · Buy, target $113.71)",
+   "bull": [
+    "Ad-tier ARPU inflecting; +49% to consensus target",
+    "Wall St consensus Buy, avg target $113.71 (49.3% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Content spend discipline vs. engagement trade-off; competition for live rights",
+    "Valuation: 24.61x trailing / 22.9x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 24.61 · fwd P/E 22.9 · net income $13.4B TTM · Buy, target $113.71",
+    "Last close $76.18 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run NFLX for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $65.09; thesis break: Content spend discipline vs. engagement trade-off",
+   "thesis": "Post-split compounding: ads tier scaling, live events pricing power"
+  },
+  "NCLH": {
+   "t": "NCLH",
+   "n": "Norwegian Cruise Line",
+   "theme": "Consumer / travel",
+   "type": "Value",
+   "conv": 4,
+   "p": 18.83,
+   "buy": 18.08,
+   "stop": 16.27,
+   "sell": 21.33,
+   "why": "Entry $18.08 · Stop $16.27 · Target $21.33 — Cheapest cruise line (12.3x forward) with 2026 booked position at record pricing (P/E 15.65 · fwd P/E 12.26 · net income $568M TTM · Buy, target $21.33)",
+   "bull": [
+    "Onboard spend resilient; deleveraging story intact",
+    "Wall St consensus Buy, avg target $21.33 (13.3% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Fuel costs rise with Hormuz risk; high leverage remains",
+    "Valuation: 15.65x trailing / 12.26x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 15.65 · fwd P/E 12.26 · net income $568M TTM · Buy, target $21.33",
+    "Last close $18.83 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run NCLH for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $16.27; thesis break: Fuel costs rise with Hormuz risk",
+   "thesis": "Cheapest cruise line (12.3x forward) with 2026 booked position at record pricing"
+  },
+  "CRWD": {
+   "t": "CRWD",
+   "n": "CrowdStrike",
+   "theme": "Cybersecurity",
+   "type": "Momentum",
+   "conv": 3,
+   "p": 194.62,
+   "buy": 186.84,
+   "stop": 164.42,
+   "sell": 220.47,
+   "why": "Entry $186.84 · Stop $164.42 · Target $220.47 — Endpoint king expanding into SIEM/identity/cloud; Falcon Flex driving module adoption (P/E n/a · fwd P/E 148.97 · net income -$30M TTM · Buy, target $182.28)",
+   "bull": [
+    "Module attach >8 for large customers; brand fully recovered from 2024 outage",
+    "Wall St consensus Buy, avg target $182.28 (-6.3% vs last close)",
+    "Security budgets grow through any macro; AI expands the attack surface"
+   ],
+   "bear": [
+    "Consensus target ~6% BELOW price — richest name in security at 149x forward",
+    "Not yet profitable (-$30M net income TTM) — conviction capped, size small"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E 148.97 · net income -$30M TTM · Buy, target $182.28",
+    "Last close $194.62 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run CRWD for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $164.42; thesis break: Consensus target ~6% BELOW price — richest name in security at 149x forward",
+   "thesis": "Endpoint king expanding into SIEM/identity/cloud; Falcon Flex driving module adoption"
+  },
+  "CCJ": {
+   "t": "CCJ",
+   "n": "Cameco",
+   "theme": "Uranium / nuclear",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 94.67,
+   "buy": 90.88,
+   "stop": 79.97,
+   "sell": 132.39,
+   "why": "Entry $90.88 · Stop $79.97 · Target $132.39 — Western uranium supply anchor + Westinghouse stake; fuel cycle tightness persists (P/E 88.69 · fwd P/E 75.64 · net income $466M TTM · Buy, target $132.39)",
+   "bull": [
+    "Long-term contracting cycle repricing legacy book higher; +40% to target",
+    "Wall St consensus Buy, avg target $132.39 (39.8% vs last close)",
+    "Nuclear renaissance: bipartisan support, fuel-cycle onshoring, hyperscaler PPAs"
+   ],
+   "bear": [
+    "75.6x forward — the story is priced richly; uranium spot is volatile",
+    "Valuation: 88.69x trailing / 75.64x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 88.69 · fwd P/E 75.64 · net income $466M TTM · Buy, target $132.39",
+    "Last close $94.67 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run CCJ for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $79.97; thesis break: 75.6x forward — the story is priced richly",
+   "thesis": "Western uranium supply anchor + Westinghouse stake; fuel cycle tightness persists"
+  },
+  "VRT": {
+   "t": "VRT",
+   "n": "Vertiv",
+   "theme": "Datacenter hardware",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 305.58,
+   "buy": 293.36,
+   "stop": 258.16,
+   "sell": 377,
+   "why": "Entry $293.36 · Stop $258.16 · Target $377 — Thermal + power management for AI racks; liquid cooling attach rising every GPU generation (P/E 76.79 · fwd P/E 44.75 · net income $1.56B TTM · Strong Buy, target $377)",
+   "bull": [
+    "Orders growth reaccelerating; Strong Buy, +23% to target",
+    "Wall St consensus Strong Buy, avg target $377 (23.4% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "-4% today; 44.8x forward and competition from Schneider/ABB intensifying",
+    "Valuation: 76.79x trailing / 44.75x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 76.79 · fwd P/E 44.75 · net income $1.56B TTM · Strong Buy, target $377",
+    "Last close $305.58 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run VRT for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $258.16; thesis break: -4% today",
+   "thesis": "Thermal + power management for AI racks; liquid cooling attach rising every GPU generation"
+  },
+  "SOFI": {
+   "t": "SOFI",
+   "n": "SoFi",
+   "theme": "Financials / fintech",
+   "type": "Momentum",
+   "conv": 3,
+   "p": 17.75,
+   "buy": 17.04,
+   "stop": 15,
+   "sell": 20.9,
+   "why": "Entry $17.04 · Stop $15 · Target $20.9 — Deposit-funded fintech compounding members >30%/yr, now GAAP-profitable (P/E 39.9 · fwd P/E 27.19 · net income $577M TTM · Hold, target $20.9)",
+   "bull": [
+    "Loan platform fee model derisks balance sheet; $577M TTM NI",
+    "Wall St consensus Hold, avg target $20.9 (17.7% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Hold consensus; 27x forward for a lender-ish model; credit normalization",
+    "Valuation: 39.9x trailing / 27.19x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 39.9 · fwd P/E 27.19 · net income $577M TTM · Hold, target $20.9",
+    "Last close $17.75 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run SOFI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $15; thesis break: Hold consensus",
+   "thesis": "Deposit-funded fintech compounding members >30%/yr, now GAAP-profitable"
+  },
+  "SMCI": {
+   "t": "SMCI",
+   "n": "Super Micro",
+   "theme": "AI infra / servers",
+   "type": "Value",
+   "conv": 3,
+   "p": 26.25,
+   "buy": 25.2,
+   "stop": 22.68,
+   "sell": 37.25,
+   "why": "Entry $25.2 · Stop $22.68 · Target $37.25 — AI server assembler at 8.9x forward — deep value if governance is truly fixed (P/E 13.76 · fwd P/E 8.87 · net income $1.25B TTM · Hold, target $37.25)",
+   "bull": [
+    "DLC (liquid cooling) capacity leadership; Blackwell/Rubin cycles",
+    "Wall St consensus Hold, avg target $37.25 (41.9% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "Margin compression from Dell competition; governance history warrants discount",
+    "Valuation: 13.76x trailing / 8.87x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 13.76 · fwd P/E 8.87 · net income $1.25B TTM · Hold, target $37.25",
+    "Last close $26.25 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run SMCI for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $22.68; thesis break: Margin compression from Dell competition",
+   "thesis": "AI server assembler at 8.9x forward — deep value if governance is truly fixed"
+  },
+  "LULU": {
+   "t": "LULU",
+   "n": "Lululemon",
+   "theme": "Consumer / apparel",
+   "type": "Value",
+   "conv": 3,
+   "p": 115.07,
+   "buy": 110.47,
+   "stop": 99.42,
+   "sell": 130.65,
+   "why": "Entry $110.47 · Stop $99.42 · Target $130.65 — Brand intact, stock de-rated to 10.4x — international growth still >20% (P/E 9.28 · fwd P/E 10.35 · net income $1.46B TTM · Hold, target $130.65)",
+   "bull": [
+    "China compounding; buybacks aggressive at the low",
+    "Wall St consensus Hold, avg target $130.65 (13.5% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "US comps negative; athleisure competition (Alo, Vuori) taking share",
+    "Valuation: 9.28x trailing / 10.35x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 9.28 · fwd P/E 10.35 · net income $1.46B TTM · Hold, target $130.65",
+    "Last close $115.07 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run LULU for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $99.42; thesis break: US comps negative",
+   "thesis": "Brand intact, stock de-rated to 10.4x — international growth still >20%"
+  },
+  "UA": {
+   "t": "UA",
+   "n": "Under Armour",
+   "theme": "Consumer / apparel",
+   "type": "Speculative",
+   "conv": 2,
+   "p": 6.57,
+   "buy": 6.31,
+   "stop": 5.17,
+   "sell": 8.2,
+   "why": "Entry $6.31 · Stop $5.17 · Target $8.2 — Kevin Plank turnaround: brand elevation over discounting (P/E n/a · fwd P/E 59.76 · net income -$496M TTM · no analyst coverage)",
+   "bull": [
+    "Gross margin recovering; SKU rationalization working",
+    "Ignored by the Street — re-rating optionality if execution lands",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Still lossmaking (-$496M TTM incl. charges); no analyst target — show-me story",
+    "Not yet profitable (-$496M net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E 59.76 · net income -$496M TTM · no analyst coverage",
+    "Last close $6.57 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run UA for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $5.17; thesis break: Still lossmaking (-$496M TTM incl. charges)",
+   "thesis": "Kevin Plank turnaround: brand elevation over discounting"
+  },
+  "OPEN": {
+   "t": "OPEN",
+   "n": "Opendoor",
+   "theme": "Real estate / tech",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 4.79,
+   "buy": 4.6,
+   "stop": 3.77,
+   "sell": 5.98,
+   "why": "Entry $4.6 · Stop $3.77 · Target $5.98 — iBuying survivor with meme-fueled balance sheet raise (P/E n/a · fwd P/E n/a · net income -$1.39B TTM · Hold, target $4.82)",
+   "bull": [
+    "Housing turnover recovering off lows",
+    "Wall St consensus Hold, avg target $4.82 (0.6% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Burned $1.39B TTM; consensus target equals price; lottery ticket at best",
+    "Not yet profitable (-$1.39B net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E n/a · net income -$1.39B TTM · Hold, target $4.82",
+    "Last close $4.79 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run OPEN for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $3.77; thesis break: Burned $1.39B TTM",
+   "thesis": "iBuying survivor with meme-fueled balance sheet raise"
+  },
+  "ASML": {
+   "t": "ASML",
+   "n": "ASML",
+   "theme": "AI infra / semis",
+   "type": "Core",
+   "conv": 5,
+   "p": 1747.28,
+   "buy": 1677.39,
+   "stop": 1492.88,
+   "sell": 1830.83,
+   "why": "Entry $1677.39 · Stop $1492.88 · Target $1830.83 — EUV monopoly; every leading-edge fab expansion routes through Veldhoven (P/E 57.56 · fwd P/E 43.57 · net income $11.5B TTM · Strong Buy, target $1830.83)",
+   "bull": [
+    "High-NA adoption accelerating at Intel/TSMC/Samsung; backlog visibility into 2028",
+    "Wall St consensus Strong Buy, avg target $1830.83 (4.8% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "Fell hard today (-4.3%); China export restrictions and lumpy order timing",
+    "Valuation: 57.56x trailing / 43.57x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 57.56 · fwd P/E 43.57 · net income $11.5B TTM · Strong Buy, target $1830.83",
+    "Last close $1747.28 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run ASML for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $1492.88; thesis break: Fell hard today (-4.3%)",
+   "thesis": "EUV monopoly; every leading-edge fab expansion routes through Veldhoven"
+  },
+  "CEG": {
+   "t": "CEG",
+   "n": "Constellation Energy",
+   "theme": "AI power / nuclear",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 239.71,
+   "buy": 230.12,
+   "stop": 202.51,
+   "sell": 357.81,
+   "why": "Entry $230.12 · Stop $202.51 · Target $357.81 — Largest US nuclear fleet — the cleanest way to sell 24/7 power to hyperscalers (P/E 20.47 · fwd P/E 20.65 · net income $3.79B TTM · Buy, target $357.81)",
+   "bull": [
+    "Crane restart on track; more Meta/MSFT-style PPAs in pipeline; +49% to target",
+    "Wall St consensus Buy, avg target $357.81 (49.3% vs last close)",
+    "Datacenter electricity demand is a multi-year supercycle; power is the new bottleneck"
+   ],
+   "bear": [
+    "20.6x forward for a utility-adjacent name; PPA pace can disappoint",
+    "Valuation: 20.47x trailing / 20.65x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 20.47 · fwd P/E 20.65 · net income $3.79B TTM · Buy, target $357.81",
+    "Last close $239.71 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run CEG for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $202.51; thesis break: 20.6x forward for a utility-adjacent name",
+   "thesis": "Largest US nuclear fleet — the cleanest way to sell 24/7 power to hyperscalers"
+  },
+  "SMR": {
+   "t": "SMR",
+   "n": "NuScale Power",
+   "theme": "Nuclear / SMR",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 8.96,
+   "buy": 8.6,
+   "stop": 7.05,
+   "sell": 11.18,
+   "why": "Entry $8.6 · Stop $7.05 · Target $11.18 — Only NRC-approved SMR design; option on US reactor orders (P/E n/a · fwd P/E n/a · net income -$386M TTM · Hold, target $15.36)",
+   "bull": [
+    "RoPower + datacenter LOIs advancing",
+    "Wall St consensus Hold, avg target $15.36 (71.4% vs last close)",
+    "Nuclear renaissance: bipartisan support, fuel-cycle onshoring, hyperscaler PPAs"
+   ],
+   "bear": [
+    "Pre-revenue economics (-$386M TTM); dilution; Hold consensus",
+    "Not yet profitable (-$386M net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E n/a · net income -$386M TTM · Hold, target $15.36",
+    "Last close $8.96 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run SMR for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $7.05; thesis break: Pre-revenue economics (-$386M TTM)",
+   "thesis": "Only NRC-approved SMR design; option on US reactor orders"
+  },
+  "TE": {
+   "t": "TE",
+   "n": "T1 Energy",
+   "theme": "Renewables / storage",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 6.95,
+   "buy": 6.67,
+   "stop": 5.47,
+   "sell": 10.07,
+   "why": "Entry $6.67 · Stop $5.47 · Target $10.07 — US battery + solar manufacturing buildout play (ex-FREYR) (P/E n/a · fwd P/E n/a · net income -$385M TTM · Strong Buy, target $10.07)",
+   "bull": [
+    "G1 Dallas ramp; Strong Buy consensus, +45% to target",
+    "Wall St consensus Strong Buy, avg target $10.07 (44.9% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Lossmaking (-$385M TTM), funding needs; execution risk high",
+    "Not yet profitable (-$385M net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E n/a · net income -$385M TTM · Strong Buy, target $10.07",
+    "Last close $6.95 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run TE for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $5.47; thesis break: Lossmaking (-$385M TTM), funding needs",
+   "thesis": "US battery + solar manufacturing buildout play (ex-FREYR)"
+  },
+  "CRWV": {
+   "t": "CRWV",
+   "n": "CoreWeave",
+   "theme": "AI infra / neocloud",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 83.53,
+   "buy": 80.19,
+   "stop": 65.76,
+   "sell": 104.25,
+   "why": "Entry $80.19 · Stop $65.76 · Target $104.25 — GPU cloud landlord with Nvidia blessing; growth is spectacular, so is the leverage (P/E n/a · fwd P/E n/a · net income -$1.59B TTM · Buy, target $142.29)",
+   "bull": [
+    "Contracted backlog with hyperscale anchors; capacity sold out",
+    "Wall St consensus Buy, avg target $142.29 (70.3% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "Burned $1.59B TTM; debt-funded GPUs depreciate fast; -3.4% today",
+    "Not yet profitable (-$1.59B net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E n/a · net income -$1.59B TTM · Buy, target $142.29",
+    "Last close $83.53 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run CRWV for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $65.76; thesis break: Burned $1.59B TTM",
+   "thesis": "GPU cloud landlord with Nvidia blessing; growth is spectacular, so is the leverage"
+  },
+  "APLD": {
+   "t": "APLD",
+   "n": "Applied Digital",
+   "theme": "AI infra / datacenters",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 30.71,
+   "buy": 29.48,
+   "stop": 24.17,
+   "sell": 38.32,
+   "why": "Entry $29.48 · Stop $24.17 · Target $38.32 — HPC datacenter conversion story with CoreWeave/hyperscaler leases (P/E n/a · fwd P/E n/a · net income -$192M TTM · Strong Buy, target $73.36)",
+   "bull": [
+    "Ellendale campus leased; Strong Buy consensus",
+    "Wall St consensus Strong Buy, avg target $73.36 (138.9% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "Lossmaking (-$192M); dilution history; -8.3% today on AI-infra profit taking",
+    "Not yet profitable (-$192M net income TTM) — conviction capped, size small",
+    "Speculative: use the wide stop, risk ≤1% of the $4k account"
+   ],
+   "v": [
+    "P/E n/a · fwd P/E n/a · net income -$192M TTM · Strong Buy, target $73.36",
+    "Last close $30.71 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run APLD for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $24.17; thesis break: Lossmaking (-$192M)",
+   "thesis": "HPC datacenter conversion story with CoreWeave/hyperscaler leases"
+  },
+  "NBIS": {
+   "t": "NBIS",
+   "n": "Nebius Group",
+   "theme": "AI infra / neocloud",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 195.19,
+   "buy": 187.38,
+   "stop": 164.89,
+   "sell": 244.21,
+   "why": "Entry $187.38 · Stop $164.89 · Target $244.21 — Ex-Yandex AI cloud scaling revenue triple digits, already net-income positive (P/E 60.98 · fwd P/E n/a · net income $817M TTM · Buy, target $244.21)",
+   "bull": [
+    "$817M TTM net income; Microsoft-class customers signed",
+    "Wall St consensus Buy, avg target $244.21 (25.1% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "-8.4% today; neocloud pricing competition; 61x trailing",
+    "Valuation: 60.98x trailing / n/ax forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 60.98 · fwd P/E n/a · net income $817M TTM · Buy, target $244.21",
+    "Last close $195.19 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run NBIS for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $164.89; thesis break: -8.4% today",
+   "thesis": "Ex-Yandex AI cloud scaling revenue triple digits, already net-income positive"
+  },
+  "TSM": {
+   "t": "TSM",
+   "n": "Taiwan Semiconductor",
+   "theme": "AI infra / semis",
+   "type": "Core",
+   "conv": 5,
+   "p": 432.57,
+   "buy": 415.27,
+   "stop": 369.59,
+   "sell": 487.56,
+   "why": "Entry $415.27 · Stop $369.59 · Target $487.56 — The monopoly foundry for every AI chip that matters, at 22.8x forward (P/E 33.33 · fwd P/E 22.77 · net income $59.7B TTM · Strong Buy, target $487.56)",
+   "bull": [
+    "N2 node fully booked; price hikes sticking; insider cluster buy filed Jun 29",
+    "Wall St consensus Strong Buy, avg target $487.56 (12.7% vs last close)",
+    "AI capex supercycle: hyperscaler datacenter spend still rising into 2027 despite this week's chip wobble"
+   ],
+   "bear": [
+    "Taiwan-strait geopolitics is THE tail risk; Iran escalation reminds markets tail risks price fast",
+    "Valuation: 33.33x trailing / 22.77x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 33.33 · fwd P/E 22.77 · net income $59.7B TTM · Strong Buy, target $487.56",
+    "Last close $432.57 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run TSM for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $369.59; thesis break: Taiwan-strait geopolitics is THE tail risk",
+   "thesis": "The monopoly foundry for every AI chip that matters, at 22.8x forward"
+  },
+  "META": {
+   "t": "META",
+   "n": "Meta Platforms",
+   "theme": "Consumer / internet",
+   "type": "Core",
+   "conv": 5,
+   "p": 615.58,
+   "buy": 590.96,
+   "stop": 525.95,
+   "sell": 828.17,
+   "why": "Entry $590.96 · Stop $525.95 · Target $828.17 — AI-driven ad engine at 18.8x forward — cheapest Mag7 growth per dollar (P/E 22.39 · fwd P/E 18.75 · net income $70.6B TTM · Strong Buy, target $828.17)",
+   "bull": [
+    "Ad pricing power from AI targeting; Strong Buy, +35% to target",
+    "Wall St consensus Strong Buy, avg target $828.17 (34.5% vs last close)",
+    "Leading-sector exposure (tech/energy/industrials led H1-26); rotation is broadening the market"
+   ],
+   "bear": [
+    "Superintelligence lab spend is a black box; EU regulatory drag",
+    "Valuation: 22.39x trailing / 18.75x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 22.39 · fwd P/E 18.75 · net income $70.6B TTM · Strong Buy, target $828.17",
+    "Last close $615.58 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run META for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $525.95; thesis break: Superintelligence lab spend is a black box",
+   "thesis": "AI-driven ad engine at 18.8x forward — cheapest Mag7 growth per dollar"
+  },
+  "LEU": {
+   "t": "LEU",
+   "n": "Centrus Energy",
+   "theme": "Uranium / nuclear",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 165.64,
+   "buy": 159.01,
+   "stop": 139.93,
+   "sell": 274.36,
+   "why": "Entry $159.01 · Stop $139.93 · Target $274.36 — Only US-licensed HALEU enricher — strategic asset as Russia supply is legislated out (P/E 58.22 · fwd P/E 63.38 · net income $61M TTM · Buy, target $274.36)",
+   "bull": [
+    "DOE enrichment contracts expanding; profitable ($61M TTM); +66% to target",
+    "Wall St consensus Buy, avg target $274.36 (65.6% vs last close)",
+    "Nuclear renaissance: bipartisan support, fuel-cycle onshoring, hyperscaler PPAs"
+   ],
+   "bear": [
+    "Execution/scale-up risk on centrifuge cascades; policy-dependent revenue",
+    "Valuation: 58.22x trailing / 63.38x forward — multiple-compression risk if rates rise"
+   ],
+   "v": [
+    "P/E 58.22 · fwd P/E 63.38 · net income $61M TTM · Buy, target $274.36",
+    "Last close $165.64 (2026-07-08) — levels sized off ~4% pullback support",
+    "Eden deep-dive: run LEU for WACC/DCF/EBITDA/peer check → eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a daily close below $139.93; thesis break: Execution/scale-up risk on centrifuge cascades",
+   "thesis": "Only US-licensed HALEU enricher — strategic asset as Russia supply is legislated out"
   }
+ }
 }

@@ -1,21 +1,21 @@
 {
-  "asof": "2026-07-07",
-  "vix": 15.57,
-  "y10": 4.46,
-  "y2": 4.14,
-  "ff": 3.63,
-  "spVs200": 0.91,
-  "brent": 72.07,
-  "note": "Risk-on tape: Dow closed above 53,000 for the first time (Jul 6) on revived AI-optimism, S&P 500 (7,537) and Nasdaq (26,121) both higher, VIX pinned near cycle lows at 15.57. Curve is mildly positive (10Y-2Y +0.32%), not inverted. Fed on hold at 3.50-3.75% after a soft June jobs report (+57k payrolls, unemployment 4.2%) reduced near-term hike odds; futures price gradual drift toward ~4% by year-end. HY credit spreads remain tight (2.75% OAS) — no distress signal. Sector rotation choppy day-to-day (financials/XLF strong on stress-test buybacks, tech/XLK volatile on chip profit-taking) but YTD leadership still broad (Energy, Materials, Industrials, Staples all +12-21%, Tech +11%).",
-  "checklist": [
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false
-  ]
+ "asof": "2026-07-08",
+ "vix": 18.6,
+ "y10": 4.58,
+ "y2": 4.14,
+ "ff": 3.63,
+ "spVs200": 8.8,
+ "brent": 78.7,
+ "note": "Risk tone: risk-off. US strikes on 80+ Iran targets after Hormuz tanker attacks; Iran oil-sale waiver revoked. Brent +6% to ~$78.7 intraday (was ~$72.9 Mon); VIX +15% to 18.6; 10Y backed up to ~4.58 on oil-inflation worries, 2Y ~4.14 \u2014 curve normal. Chips heavy again (Samsung/DeepSeek efficiency fears; memory complex >20% off highs) while the Dow printed a record Monday \u2014 rotation broadening beyond AI mega-caps. Fed on hold at 3.50-3.75% (effective 3.63%), hawkish lean, FOMC minutes today. S&P 7,504 ~+8.8% above its 200DMA (~6,895). June payrolls soft (57K, unemployment 4.2% on falling participation). H1-26 leaders: tech +33%, energy +21%, industrials +20%.",
+ "checklist": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  true,
+  true
+ ]
 }
