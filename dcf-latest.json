@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-08",
+ "asof": "2026-07-09",
  "method": "Reverse DCF: solve FCF growth g such that PV of 10y FCF + terminal (g_term 2.5%) at 10% discount, plus cash, equals last close. Profitable positive-FCF names only. Excluded: pre-revenue/negative-FCF story names (OKLO, SMR, IONQ, RGTI, CRWV, NBIS, ASTS, HTZ, APLD, TE, OPEN) and banks/insurers (GS, JPM, SOFI) where reverse-DCF is meaningless. TTM FCF/shares/cash from stockanalysis.com, 2026-07-08.",
  "names": [
   {
@@ -8,12 +8,12 @@
    "fcf": 72916000000,
    "shares": 7428434704,
    "cash": 78228000000,
-   "price": 388.84,
+   "price": 382.11,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 16.6,
-   "note": "Market implies modest FCF growth — capex burden masks true earnings power"
+   "implied": 16.4,
+   "note": "Market implies modest FCF growth \u2014 capex burden masks true earnings power"
   },
   {
    "t": "NVDA",
@@ -21,12 +21,12 @@
    "fcf": 119076000000,
    "shares": 24220525225,
    "cash": 53172000000,
-   "price": 196.93,
+   "price": 201.01,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 17,
-   "note": "Priced for continued hyper-growth off a $119B FCF base — demanding but not absurd for the AI standard"
+   "implied": 17.3,
+   "note": "Priced for continued hyper-growth off a $119B FCF base \u2014 demanding but not absurd for the AI standard"
   },
   {
    "t": "MU",
@@ -34,12 +34,12 @@
    "fcf": 26172000000,
    "shares": 1129393151,
    "cash": 26022000000,
-   "price": 938.38,
+   "price": 941.24,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 17,
-   "note": "Cycle-peak FCF makes implied growth look low — normalize before trusting it"
+   "implied": 17.0,
+   "note": "Cycle-peak FCF makes implied growth look low \u2014 normalize before trusting it"
   },
   {
    "t": "NOW",
@@ -47,11 +47,11 @@
    "fcf": 4633000000,
    "shares": 1031308000,
    "cash": 5182000000,
-   "price": 110.73,
+   "price": 106.43,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 9.9,
+   "implied": 9.4,
    "note": "Implied growth well below actual 20%+ cRPO growth post de-rate"
   },
   {
@@ -60,12 +60,12 @@
    "fcf": 11818000000,
    "shares": 50697182,
    "cash": 5664000000,
-   "price": 1813.61,
+   "price": 1794.15,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": -6.4,
-   "note": "FCF includes fintech funding flows — treat implied g as indicative only"
+   "implied": -6.5,
+   "note": "FCF includes fintech funding flows \u2014 treat implied g as indicative only"
   },
   {
    "t": "NFLX",
@@ -73,11 +73,11 @@
    "fcf": 11894206000,
    "shares": 4210798528,
    "cash": 12288450000,
-   "price": 76.18,
+   "price": 75.59,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 11.2,
+   "implied": 11.1,
    "note": "Post-split; ads-tier ramp not in TTM FCF yet"
   },
   {
@@ -86,11 +86,11 @@
    "fcf": 10230650095,
    "shares": 385400000,
    "cash": 9650115210,
-   "price": 1747.28,
+   "price": 1771.23,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 23.8,
+   "implied": 24.0,
    "note": "Backlog into 2028 supports the implied path"
   },
   {
@@ -99,11 +99,11 @@
    "fcf": 2281200000,
    "shares": 384108816,
    "cash": 2500500000,
-   "price": 305.58,
+   "price": 312.2,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 20.3,
+   "implied": 20.6,
    "note": "High implied growth = the AI thermal story is fully priced"
   },
   {
@@ -112,11 +112,11 @@
    "fcf": 3776000000,
    "shares": 388300000,
    "cash": 751000000,
-   "price": 395.68,
+   "price": 399.56,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 17.3,
+   "implied": 17.4,
    "note": "Electrification backlog vs. macro-cyclical history"
   },
   {
@@ -125,12 +125,12 @@
    "fcf": 1803000000,
    "shares": 337182468,
    "cash": 658000000,
-   "price": 155.73,
+   "price": 152.32,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 12.6,
-   "note": "Merchant power FCF is volatile — implied g overstated at cycle strength"
+   "implied": 12.3,
+   "note": "Merchant power FCF is volatile \u2014 implied g overstated at cycle strength"
   },
   {
    "t": "FSLR",
@@ -138,12 +138,12 @@
    "fcf": 1667783000,
    "shares": 107453363,
    "cash": 2426561000,
-   "price": 227.72,
+   "price": 224.3,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 2,
-   "note": "Low implied growth vs. booked-through-2029 pipeline — value case"
+   "implied": 1.8,
+   "note": "Low implied growth vs. booked-through-2029 pipeline \u2014 value case"
   },
   {
    "t": "LULU",
@@ -151,12 +151,12 @@
    "fcf": 1279952000,
    "shares": 113553918,
    "cash": 1514729000,
-   "price": 115.07,
+   "price": 113.16,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": -3.3,
-   "note": "Market implies near-zero growth — the de-rate is the opportunity if comps stabilize"
+   "implied": -3.6,
+   "note": "Market implies near-zero growth \u2014 the de-rate is the opportunity if comps stabilize"
   },
   {
    "t": "FISV",
@@ -164,12 +164,12 @@
    "fcf": 4127000000,
    "shares": 533253986,
    "cash": 829000000,
-   "price": 52.71,
+   "price": 50.6,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": -7.9,
-   "note": "Single-digit implied growth for a business still compounding — insider buys agree"
+   "implied": -8.5,
+   "note": "Single-digit implied growth for a business still compounding \u2014 insider buys agree"
   },
   {
    "t": "CEG",
@@ -177,11 +177,11 @@
    "fcf": 1123000000,
    "shares": 357102017,
    "cash": 864000000,
-   "price": 239.71,
+   "price": 244.52,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 25.9,
+   "implied": 26.2,
    "note": "Nuclear PPA upside not in TTM FCF; implied g misleadingly high"
   }
  ]

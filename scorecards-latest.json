@@ -1,197 +1,197 @@
 {
- "asof": "2026-07-08",
- "method": "Composite: valuation (fwd P/E vs growth), profitability (TTM net income), analyst conviction (rating + target upside), theme strength (H1-26 sector leadership). Grades A–D, score 0–100. Data: stockanalysis.com, 2026-07-08. Not financial advice.",
+ "asof": "2026-07-09",
+ "method": "Composite of momentum, analyst rating/target upside, profitability and theme durability (0\u2013100).",
  "names": [
   {
    "t": "MU",
    "n": "Micron",
-   "sector": "Technology",
+   "sector": "Semis",
    "grade": "A",
    "score": 92,
    "tier": "top",
-   "note": "6.5x forward with HBM sold out — best risk/reward in mega-cap semis"
+   "note": "Strong Buy; target $1486.00"
   },
   {
    "t": "MSFT",
    "n": "Microsoft",
-   "sector": "Technology",
+   "sector": "Software",
    "grade": "A",
    "score": 91,
    "tier": "top",
-   "note": "21x forward, $72.9B FCF, Azure AI annuity — quality at a fair price"
+   "note": "Strong Buy; target $559.93"
   },
   {
    "t": "NVDA",
    "n": "Nvidia",
-   "sector": "Technology",
+   "sector": "Semis",
    "grade": "A",
    "score": 90,
    "tier": "top",
-   "note": "AI compute standard; 19.8x forward is reasonable for 50%+ growth"
+   "note": "Strong Buy; target $301.62"
   },
   {
    "t": "TSM",
-   "n": "Taiwan Semiconductor",
-   "sector": "Technology",
+   "n": "TSMC",
+   "sector": "Semis",
    "grade": "A",
    "score": 90,
    "tier": "top",
-   "note": "Monopoly foundry, 22.8x forward, insider buying"
+   "note": "Strong Buy; target $490.34"
   },
   {
    "t": "META",
    "n": "Meta Platforms",
-   "sector": "Communication",
-   "grade": "A-",
-   "score": 88,
+   "sector": "Software",
+   "grade": "A",
+   "score": 89,
    "tier": "top",
-   "note": "18.8x forward, Strong Buy, AI ad flywheel"
-  },
-  {
-   "t": "ASML",
-   "n": "ASML",
-   "sector": "Technology",
-   "grade": "A-",
-   "score": 86,
-   "tier": "top",
-   "note": "EUV monopoly; today's -4.3% dip improves entry"
-  },
-  {
-   "t": "V",
-   "n": "Visa",
-   "sector": "Financials",
-   "grade": "A-",
-   "score": 86,
-   "tier": "top",
-   "note": "Toll-road economics, 25x forward, Strong Buy"
+   "note": "Strong Buy; target $827.91"
   },
   {
    "t": "AVGO",
    "n": "Broadcom",
-   "sector": "Technology",
+   "sector": "Semis",
+   "grade": "A",
+   "score": 88,
+   "tier": "top",
+   "note": "Strong Buy; target $523.73"
+  },
+  {
+   "t": "ASML",
+   "n": "ASML",
+   "sector": "Semi equip",
+   "grade": "A-",
+   "score": 87,
+   "tier": "top",
+   "note": "Strong Buy; target $1830.83"
+  },
+  {
+   "t": "AMAT",
+   "n": "Applied Materials",
+   "sector": "Semi equip",
+   "grade": "A-",
+   "score": 86,
+   "tier": "top",
+   "note": "Strong Buy; target $586.63"
+  },
+  {
+   "t": "AMD",
+   "n": "Advanced Micro Devices",
+   "sector": "Semis",
    "grade": "A-",
    "score": 85,
    "tier": "top",
-   "note": "Custom ASIC + software mix; 23.6x forward"
+   "note": "Strong Buy; target $512.27"
   },
   {
-   "t": "VST",
-   "n": "Vistra",
-   "sector": "Utilities",
+   "t": "NOW",
+   "n": "ServiceNow",
+   "sector": "Software",
    "grade": "A-",
    "score": 85,
    "tier": "top",
-   "note": "AI power supercycle leader; Strong Buy, +43% upside to target"
+   "note": "Strong Buy; target $141.12"
   },
   {
-   "t": "LLY",
-   "n": "Eli Lilly",
-   "sector": "Healthcare",
+   "t": "VRT",
+   "n": "Vertiv",
+   "sector": "Industrials",
+   "grade": "A-",
+   "score": 84,
+   "tier": "top",
+   "note": "Strong Buy; target $377.00"
+  },
+  {
+   "t": "AMZN",
+   "n": "Amazon",
+   "sector": "Consumer",
+   "grade": "A-",
+   "score": 84,
+   "tier": "top",
+   "note": "Strong Buy; target $312.91"
+  },
+  {
+   "t": "COHR",
+   "n": "Coherent",
+   "sector": "Semis",
    "grade": "B+",
    "score": 83,
    "tier": "top",
-   "note": "GLP-1 dominance but at consensus target — hold zone"
+   "note": "Buy; target $387.36"
   },
   {
    "t": "MELI",
    "n": "MercadoLibre",
-   "sector": "Consumer",
+   "sector": "Consumer / LatAm",
    "grade": "B+",
-   "score": 83,
+   "score": 82,
    "tier": "top",
-   "note": "LatAm compounder; 44.5x forward earned by execution"
+   "note": "Buy; target $2208.63"
   },
   {
    "t": "ETN",
    "n": "Eaton",
    "sector": "Industrials",
    "grade": "B+",
-   "score": 82,
+   "score": 81,
    "tier": "top",
-   "note": "Electrification backlog; watch 28x forward into any macro slowdown"
-  },
-  {
-   "t": "NFLX",
-   "n": "Netflix",
-   "sector": "Communication",
-   "grade": "B+",
-   "score": 82,
-   "tier": "top",
-   "note": "Ads tier scaling; +49% to target post-split"
-  },
-  {
-   "t": "FISV",
-   "n": "Fiserv",
-   "sector": "Financials",
-   "grade": "B+",
-   "score": 80,
-   "tier": "top",
-   "note": "8.9x trailing with 6-insider cluster buy — value with a catalyst"
-  },
-  {
-   "t": "XOM",
-   "n": "ExxonMobil",
-   "sector": "Energy",
-   "grade": "B+",
-   "score": 80,
-   "tier": "top",
-   "note": "11.4x forward; Hormuz risk premium optionality"
+   "note": "Buy; target $455.79"
   }
  ],
  "worst": [
   {
+   "t": "UA",
+   "n": "Under Armour",
+   "sector": "Consumer",
+   "grade": "F",
+   "score": 34,
+   "tier": "worst",
+   "note": "Negative FCF / weak fundamentals or rating"
+  },
+  {
    "t": "OPEN",
    "n": "Opendoor",
-   "sector": "Real Estate",
-   "grade": "D",
-   "score": 25,
+   "sector": "Real estate",
+   "grade": "F",
+   "score": 38,
    "tier": "worst",
-   "note": "Burned $1.39B TTM; target = price; meme rallies are exits not entries"
+   "note": "Negative FCF / weak fundamentals or rating"
   },
   {
    "t": "HTZ",
    "n": "Hertz",
    "sector": "Consumer",
-   "grade": "D+",
-   "score": 30,
+   "grade": "F",
+   "score": 39,
    "tier": "worst",
-   "note": "-$637M TTM, heavy debt; $2.10 equity is a levered option"
-  },
-  {
-   "t": "UA",
-   "n": "Under Armour",
-   "sector": "Consumer",
-   "grade": "D+",
-   "score": 32,
-   "tier": "worst",
-   "note": "Lossmaking turnaround with no analyst target — show-me story"
+   "note": "Negative FCF / weak fundamentals or rating"
   },
   {
    "t": "SMR",
    "n": "NuScale Power",
-   "sector": "Utilities",
-   "grade": "C-",
-   "score": 38,
+   "sector": "Nuclear",
+   "grade": "D",
+   "score": 42,
    "tier": "worst",
-   "note": "Pre-revenue SMR story; Hold consensus despite +71% target"
+   "note": "Negative FCF / weak fundamentals or rating"
   },
   {
    "t": "OSCR",
    "n": "Oscar Health",
    "sector": "Healthcare",
-   "grade": "C-",
-   "score": 40,
+   "grade": "D",
+   "score": 44,
    "tier": "worst",
-   "note": "Consensus target 27% below price; ACA subsidy risk existential"
+   "note": "Negative FCF / weak fundamentals or rating"
   },
   {
-   "t": "CRWV",
-   "n": "CoreWeave",
-   "sector": "Technology",
-   "grade": "C",
-   "score": 45,
+   "t": "TE",
+   "n": "TerraPower/T1 Energy",
+   "sector": "Renewables",
+   "grade": "D",
+   "score": 46,
    "tier": "worst",
-   "note": "Great growth, terrible financing: -$1.59B FCF-ish burn, GPU depreciation treadmill"
+   "note": "Negative FCF / weak fundamentals or rating"
   }
  ]
 }

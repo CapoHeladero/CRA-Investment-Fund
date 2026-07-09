@@ -1,12 +1,12 @@
 {
- "asof": "2026-07-08",
- "vix": 18.6,
+ "asof": "2026-07-09",
+ "vix": 18.08,
  "y10": 4.58,
- "y2": 4.14,
+ "y2": 4.21,
  "ff": 3.63,
- "spVs200": 8.8,
- "brent": 78.7,
- "note": "Risk tone: risk-off. US strikes on 80+ Iran targets after Hormuz tanker attacks; Iran oil-sale waiver revoked. Brent +6% to ~$78.7 intraday (was ~$72.9 Mon); VIX +15% to 18.6; 10Y backed up to ~4.58 on oil-inflation worries, 2Y ~4.14 \u2014 curve normal. Chips heavy again (Samsung/DeepSeek efficiency fears; memory complex >20% off highs) while the Dow printed a record Monday \u2014 rotation broadening beyond AI mega-caps. Fed on hold at 3.50-3.75% (effective 3.63%), hawkish lean, FOMC minutes today. S&P 7,504 ~+8.8% above its 200DMA (~6,895). June payrolls soft (57K, unemployment 4.2% on falling participation). H1-26 leaders: tech +33%, energy +21%, industrials +20%.",
+ "spVs200": 8.5,
+ "brent": 78.19,
+ "note": "Risk-off tilt: oil spike on renewed Iran/Hormuz strikes lifted energy and yields; tech/semis sold off intraweek then stabilized. S&P 7,482.71 (-0.28% Jul 8), Nasdaq +0.2%, Dow -1.09%. Curve positive (10Y 4.58% > 2Y 4.21%).",
  "checklist": [
   false,
   false,
@@ -19,13 +19,13 @@
   true
  ],
  "whatsnew": [
-  "Book broadened to 35 names across 13 sectors. NEW to the concentrated book vs yesterday: AMZN, ANET, AVGO, BWXT, FISV, JPM, KTOS, LEU, LLY, META, MSFT, NOW, ORCL, PLTR, SLB, TLN, TSM, XOM.",
-  "Rotated OUT of the top book (now tracked in watchlist dossiers): AGX, AMD, APLD, ASTS, CAVA, CRWD, CRWV, GS, HTZ, LULU, NCLH, OSCR, SMR, SOFI, UEC.",
-  "Analyst signal: NVDA added to Wolfe Research's Alpha List, replacing MU; a veteran analyst doubled her Micron 2026 price target after record earnings/guidance.",
-  "AI-power still widest upside: CEG consensus target ~$368 (+40%), VST implied ~+47%.",
-  "Macro shift vs yesterday: Iran ceasefire declared over -> fresh strikes; Brent +5% above $76 (WTI >$72); chips heavy again (MU -4.7%, SMH -3%). Risk-off, VIX 18.6.",
-  "Recession checklist 2/9 lit (geopolitical shock + AI-leadership distribution), up from 0/9 on Jul 6.",
-  "Live insider cluster: FISV six insiders bought the June dip ~$49.55; now $52.71 at ~6.5x forward.",
-  "Watchlist vs yesterday: curated ideas added TSM, MSFT, META, LEU, ETN, NOW (dropped CRWD, PANW, GS, FSLR); new saved-ticker dossiers FISV, TSM, META, LEU \u2014 33 dossiers total."
+  "Book: ADDED AMD, COHR, AMAT (AI accelerators / optics / semi-equip on fresh bank PT raises); REMOVED UNH (target below price), ENPH and RGTI (weak risk-reward / quantum froth).",
+  "Politician buys: Sen. Sheldon Whitehouse (D-RI) bought Micron (MU ~$1,214) and Coherent (COHR ~$407) on Jun 25 \u2014 corroborates the memory/AI-optics theme.",
+  "Analyst moves: Goldman raised AMD PT to $640 (Meta MI400 ~$60B deal); Morgan Stanley hiked AMAT to $647; Raymond James lifted COHR to $435 (Strong Buy).",
+  "Tape: Energy was the only decisively green sector (+2.4%) as Brent spiked +5% to ~$78 on Iran / Strait of Hormuz; chips rotated down (SMH -3%), VIX back to ~18.",
+  "AI-power/memory still widest upside: MU target +57%, CEG +46%, VST +46%.",
+  "Semi capital rotated into equipment (AMAT/KLAC/LRCX breakouts) over pure designers; AMD now trades slightly above consensus target.",
+  "Recession checklist steady at 2/9 lit (geopolitical shock + AI-leadership distribution).",
+  "Watchlist vs yesterday: curated ideas ADDED COHR, AMAT (dropped CCJ, ETN); new saved-ticker dossiers LYFT, XOM, SLB, JPM \u2014 39 dossiers total."
  ]
 }

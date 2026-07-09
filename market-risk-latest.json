@@ -1,46 +1,41 @@
 {
-  "asof": "2026-07-08",
-  "scope": "whole-market",
-  "items": [
-    {
-      "sev": "high",
-      "title": "Iran / Strait of Hormuz escalation",
-      "detail": "US struck 80+ targets in Iran overnight after attacks on three commercial vessels; Iranian oil-export waivers revoked. Brent +3% to ~$76.50 with the SPR at its weakest since 1983. Roughly a fifth of world oil transits the strait — any move toward closure is an inflation shock the Fed can't ease into."
-    },
-    {
-      "sev": "high",
-      "title": "Memory/semis in a bear market within the AI trade",
-      "detail": "MU, Samsung, SK Hynix and the memory ETF are >20% off highs; semis have lost ~$1.5T of market value since Jun 25. Samsung's 19x profit jump and Micron's +346% y/y revenue were sold — when blowout numbers get sold, the market is repricing the cycle top, not the quarter. No bottom-fishing on day two."
-    },
-    {
-      "sev": "high",
-      "title": "AI-capex concentration",
-      "detail": "Overnight selloff was explicitly attributed to stretched AI valuations and demand doubts. Q2 hyperscaler capex guidance remains the single swing factor for Tech and the adjacent power/industrial trades — AI-heavy books carry correlated exposure across chips, cooling, and generation names."
-    },
-    {
-      "sev": "med",
-      "title": "Rates backing up on oil",
-      "detail": "10Y at 4.56%, a one-month high, as the oil spike feeds inflation expectations. Higher discount rates pressure exactly the long-duration growth names that dominate this tape; a 10Y above 4.75% would force a broader de-rate."
-    },
-    {
-      "sev": "med",
-      "title": "Vol regime shift",
-      "detail": "VIX +15.5% in a session, 15.57 → 18.63. Yesterday's complacency warning is triggering: hedges are no longer cheap, and low-vol-regime unwinds tend to run further than the first headline. Respect stops; don't add size into rising vol."
-    },
-    {
-      "sev": "med",
-      "title": "FOMC minutes + inflation optics",
-      "detail": "Minutes due today with the Fed on hold at 3.50-3.75%. An oil-driven CPI impulse narrows the path to easing while growth data (June payrolls +57k) is already soft — the stagflation-lite combination the tape handles worst."
-    },
-    {
-      "sev": "low",
-      "title": "Credit still calm",
-      "detail": "HY spreads were tight (~2.75% OAS) at last check and the curve is positive (+0.42%). Zero of nine recession-checklist items triggered. Until credit confirms, this is a headline correction, not a cycle turn."
-    },
-    {
-      "sev": "low",
-      "title": "Q2 earnings season starts next week",
-      "detail": "Banks kick off mid-July. Q1's pattern — beats rewarded less, misses punished disproportionately — argues against carrying oversized single-name positions into prints, especially in AI-linked names where the capex question hangs over every call."
-    }
-  ]
+ "asof": "2026-07-09",
+ "scope": "whole-market",
+ "items": [
+  {
+   "sev": "high",
+   "title": "Iran / Strait of Hormuz escalation",
+   "detail": "US resumed strikes on Iran after ceasefire declared 'over'; Brent +5% to ~$78. Supply-shock and inflation risk if Hormuz traffic is threatened."
+  },
+  {
+   "sev": "high",
+   "title": "Semis rotation / memory volatility",
+   "detail": "SMH fell >3% intraweek (MU -4.7% at one point) on DeepSeek in-house-chip fears; leadership churn under a still-up tape."
+  },
+  {
+   "sev": "high",
+   "title": "AI-capex concentration",
+   "detail": "Mega-cap AI names drive index returns; any hyperscaler capex guide-down would hit NVDA/AVGO/VRT/power names together."
+  },
+  {
+   "sev": "med",
+   "title": "Rates backing up on oil",
+   "detail": "10Y 4.58%, 2Y 4.21%; higher oil re-lights inflation optics and pressures long-duration/high-multiple tech."
+  },
+  {
+   "sev": "med",
+   "title": "Q2 earnings season begins",
+   "detail": "Big banks kick off mid-July; guidance on NII, credit and AI-capex sets the next leg."
+  },
+  {
+   "sev": "med",
+   "title": "Volatility regime",
+   "detail": "VIX ~18 but jumpy (+12% on Jul 8); event-driven spikes likely around Middle East headlines."
+  },
+  {
+   "sev": "low",
+   "title": "Credit still calm",
+   "detail": "HY spreads contained (<5% OAS); no funding stress despite geopolitics."
+  }
+ ]
 }

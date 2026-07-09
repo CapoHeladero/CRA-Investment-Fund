@@ -1,158 +1,66 @@
 {
- "asof": "2026-07-08",
+ "asof": "2026-07-09",
  "clusters": [
-  {
-   "t": "LILA",
-   "n": "Liberty Latin America",
-   "buyers": 5,
-   "total": 140345259,
-   "buys": 5,
-   "note": "Largest cluster buy of the month (~$140.3M incl. 10% owner) — filed Jun 26"
-  },
-  {
-   "t": "FISV",
-   "n": "Fiserv",
-   "buyers": 6,
-   "total": 1723401,
-   "buys": 6,
-   "note": "Six insiders bought the June dip at ~$49.55 — stock now $52.71; on CR's watchlist"
-  },
-  {
-   "t": "KMX",
-   "n": "CarMax",
-   "buyers": 5,
-   "total": 1268037,
-   "buys": 5,
-   "note": "Five insiders at ~$52.67 after the guidance-cut washout"
-  },
-  {
-   "t": "ADSK",
-   "n": "Autodesk",
-   "buyers": 4,
-   "total": 2165173,
-   "buys": 4,
-   "note": "Four insiders ~$208 — software insiders rarely buy; notable"
-  },
-  {
-   "t": "WBX",
-   "n": "Wallbox",
-   "buyers": 4,
-   "total": 5458016,
-   "buys": 4,
-   "note": "Four directors bought ~$1.36M each at $2.72 — EV-charging microcap, high risk"
-  }
- ],
- "watchable": [
-  {
-   "t": "TSM",
-   "n": "Taiwan Semiconductor",
-   "buyers": 2,
-   "total": 446600,
-   "note": "Small but rare — TSM insiders bought Jun 29 at ~$74.43 (local shares)"
-  },
-  {
-   "t": "HDSN",
-   "n": "Hudson Technologies",
-   "buyers": 1,
-   "total": 4477207,
-   "note": "Hartree Partners (10% owner) added $4.5M at $5.86"
-  },
   {
    "t": "YPF",
    "n": "YPF Sociedad Anonima",
    "buyers": 2,
-   "total": 532930,
-   "note": "Argentine energy officers buying at $45.49"
+   "total": 532930.0,
+   "buys": 2,
+   "note": "Argentine integrated energy \u2014 insider adds into the oil bid (Jul 2)"
   },
   {
-   "t": "LOVE",
-   "n": "Lovesac",
+   "t": "CREX",
+   "n": "Creative Realities",
    "buyers": 2,
-   "total": 465428,
-   "note": "Two insiders at $14.79 in beaten-down consumer"
+   "total": 799999.0,
+   "buys": 2,
+   "note": "Small-cap digital signage; +29% cluster add (Jun 30)"
+  }
+ ],
+ "watchable": [
+  {
+   "t": "SWZ",
+   "n": "Swiss Helvetia Fund (CEF)",
+   "buyers": 2,
+   "total": 252926.0,
+   "note": "Closed-end fund NAV-discount buying \u2014 low signal"
+  },
+  {
+   "t": "FTECX",
+   "n": "First Trust Enhanced Private Credit",
+   "buyers": 2,
+   "total": 1899980.0,
+   "note": "CEF seed/insider adds"
   }
  ],
  "politicians": [
   {
-   "who": "Lloyd Doggett",
+   "who": "Sheldon Whitehouse",
    "party": "D",
-   "t": "HD",
-   "n": "Home Depot",
+   "t": "MU",
+   "n": "Micron",
    "type": "BUY",
-   "size": "1K–15K",
-   "note": "Filed Jul 7, traded Jun 18 at ~$334"
+   "size": "1K\u201315K",
+   "note": "Bought Jun 25 ~$1,213.56 \u2014 aligns with our top memory pick"
   },
   {
-   "who": "Lloyd Doggett",
+   "who": "Sheldon Whitehouse",
    "party": "D",
-   "t": "IBM",
-   "n": "IBM",
+   "t": "COHR",
+   "n": "Coherent",
    "type": "BUY",
-   "size": "1K–15K",
-   "note": "Traded Jun 10 ~$272; BofA raised IBM target to $330 this week"
+   "size": "15K\u201350K",
+   "note": "Bought Jun 25 ~$407.25 \u2014 AI optical transceivers; new book add"
   },
   {
-   "who": "Lloyd Doggett",
-   "party": "D",
-   "t": "JNJ",
-   "n": "Johnson & Johnson",
-   "type": "BUY",
-   "size": "1K–15K",
-   "note": "Traded Jun 9 at ~$237"
-  },
-  {
-   "who": "Gil Cisneros",
-   "party": "D",
-   "t": "AMD",
-   "n": "AMD",
-   "type": "BUY",
-   "size": "1K–15K",
-   "note": "Traded Jun 5 at ~$466 — before this week's chip pullback"
-  },
-  {
-   "who": "Gil Cisneros",
-   "party": "D",
-   "t": "ACN",
-   "n": "Accenture",
-   "type": "BUY",
-   "size": "1K–15K",
-   "note": "Traded Jun 16 at ~$166"
-  },
-  {
-   "who": "Ann Wagner",
+   "who": "Maria Elvira Salazar",
    "party": "R",
-   "t": "KKR-PE",
-   "n": "KKR Private Equity Conglomerate",
+   "t": "BEP",
+   "n": "Brookfield Renewable",
    "type": "BUY",
-   "size": "250K–500K",
-   "note": "Large private-equity fund allocation, filed Jul 3"
-  },
-  {
-   "who": "Dan Meuser",
-   "party": "R",
-   "t": "NVDA",
-   "n": "Nvidia",
-   "type": "SELL",
-   "size": "1K–15K",
-   "note": "Spouse sold May 27 at ~$212.60 — above current $196.93"
-  },
-  {
-   "who": "Dan Meuser",
-   "party": "R",
-   "t": "SPACEX",
-   "n": "SpaceX (private)",
-   "type": "BUY",
-   "size": "15K–50K",
-   "note": "Child account bought private SpaceX exposure, filed Jul 3"
-  },
-  {
-   "who": "Shelley Moore Capito",
-   "party": "R",
-   "t": "C",
-   "n": "Citigroup",
-   "type": "SELL",
-   "size": "1K–15K",
-   "note": "Spouse sold Jun 16 at ~$143"
+   "size": "15K\u201350K",
+   "note": "Multiple adds early June ~$36.6 \u2014 renewables/AI-power read"
   }
  ]
 }
