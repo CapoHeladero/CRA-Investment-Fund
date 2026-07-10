@@ -1,41 +1,36 @@
 {
- "asof": "2026-07-09",
+ "asof": "2026-07-10",
  "scope": "whole-market",
  "items": [
   {
-   "sev": "high",
-   "title": "Iran / Strait of Hormuz escalation",
-   "detail": "US resumed strikes on Iran after ceasefire declared 'over'; Brent +5% to ~$78. Supply-shock and inflation risk if Hormuz traffic is threatened."
-  },
-  {
-   "sev": "high",
-   "title": "Semis rotation / memory volatility",
-   "detail": "SMH fell >3% intraweek (MU -4.7% at one point) on DeepSeek in-house-chip fears; leadership churn under a still-up tape."
-  },
-  {
-   "sev": "high",
-   "title": "AI-capex concentration",
-   "detail": "Mega-cap AI names drive index returns; any hyperscaler capex guide-down would hit NVDA/AVGO/VRT/power names together."
+   "sev": "med",
+   "title": "Middle East / Strait of Hormuz",
+   "detail": "Renewed US-Iran strikes kept a geopolitical bid under oil; Brent whipsawed ~$73-79 intraweek. De-escalation lowered it Jul 9 but supply risk remains live."
   },
   {
    "sev": "med",
-   "title": "Rates backing up on oil",
-   "detail": "10Y 4.58%, 2Y 4.21%; higher oil re-lights inflation optics and pressures long-duration/high-multiple tech."
+   "title": "AI-leadership concentration",
+   "detail": "Index gains still driven by a narrow set of semis/AI names (SMH +2.5% carried the tape). A single guide-down from NVDA/MU/AVGO could reprice the complex."
   },
   {
    "sev": "med",
-   "title": "Q2 earnings season begins",
-   "detail": "Big banks kick off mid-July; guidance on NII, credit and AI-capex sets the next leg."
-  },
-  {
-   "sev": "med",
-   "title": "Volatility regime",
-   "detail": "VIX ~18 but jumpy (+12% on Jul 8); event-driven spikes likely around Middle East headlines."
+   "title": "Rates / possible Fed hike",
+   "detail": "10Y 4.56%, futures price ~64% odds of a hike by year-end with fed funds 3.63%. A hawkish surprise pressures long-duration/high-multiple software."
   },
   {
    "sev": "low",
-   "title": "Credit still calm",
-   "detail": "HY spreads contained (<5% OAS); no funding stress despite geopolitics."
+   "title": "Valuation / thin risk premium",
+   "detail": "S&P ~8.7% above its 200DMA with VIX 16.9 \u2014 complacency leaves little cushion for a shock."
+  },
+  {
+   "sev": "low",
+   "title": "Energy-price pass-through",
+   "detail": "Any re-spike in Brent would lift headline inflation and complicate the Fed path, a headwind for consumer and rate-sensitive sectors."
+  },
+  {
+   "sev": "low",
+   "title": "Curve positive but flat",
+   "detail": "10Y-2Y only ~+0.41pp; not inverted, but a flat curve limits margin tailwinds for banks if cuts return."
   }
  ]
 }

@@ -1,62 +1,60 @@
 {
- "asof": "2026-07-09",
- "method": "One dossier per saved watchlist ticker UNION curated ideas; last close from stockanalysis.com; not advice.",
+ "asof": "2026-07-10",
+ "method": "One dossier per saved watchlist ticker UNION curated ideas; p=Jul 9 close; conviction from analyst rating capped at 3 for negative-NI/story names.",
  "dossiers": {
   "LYFT": {
    "t": "LYFT",
    "n": "Lyft",
-   "theme": "Rideshare #2 / FCF turn",
-   "type": "Speculative",
+   "theme": "Ridesharing",
+   "type": "Value",
    "conv": 4,
-   "p": 15.07,
-   "buy": 14.47,
-   "stop": 11.87,
+   "p": 15.74,
+   "buy": 15.11,
+   "stop": 13.6,
    "sell": 19.04,
-   "why": "Rideshare #2 / FCF turn. Last close $15.07; Buy, target $19.04.",
+   "why": "Profitable ridesharing #2; FCF inflection.",
    "bull": [
-    "Buy consensus, analyst target $19.04 (26.3% upside)",
-    "Rideshare #2 / FCF turn \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "FCF inflection",
+    "Rider growth",
+    "Buyback"
    ],
    "bear": [
-    "Rotation/valuation risk in consumer if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Uber dominance",
+    "Pricing pressure"
    ],
    "v": [
-    "Buy \u00b7 target $19.04",
-    "Last close $15.07 (2026-07-09)",
-    "Eden deep-dive: run LYFT \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run LYFT \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/LYFT"
    ],
-   "inv": "Invalidated on a daily close below $11.87",
-   "thesis": "Lyft: Rideshare #2 / FCF turn. Buy near support $14.47, stop $11.87, first target $19.04."
+   "inv": "Value setup; levels off Jul 9 close",
+   "thesis": "Profitable ridesharing #2; FCF inflection."
   },
   "XOM": {
    "t": "XOM",
-   "n": "Exxon Mobil",
-   "theme": "Integrated oil / gas",
-   "type": "Core",
+   "n": "ExxonMobil",
+   "theme": "Integrated oil",
+   "type": "Value",
    "conv": 4,
-   "p": 140.27,
-   "buy": 134.66,
-   "stop": 119.85,
-   "sell": 169.26,
-   "why": "Integrated oil / gas. Last close $140.27; Buy, target $169.26.",
+   "p": 137.46,
+   "buy": 131.96,
+   "stop": 118.76,
+   "sell": 168.1,
+   "why": "Guyana barrels + buybacks; oil hedge.",
    "bull": [
-    "Buy consensus, analyst target $169.26 (20.7% upside)",
-    "Integrated oil / gas \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Guyana barrels",
+    "Cash returns",
+    "Oil hedge"
    ],
    "bear": [
-    "Rotation/valuation risk in energy if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Oil downside",
+    "Transition risk"
    ],
    "v": [
-    "Buy \u00b7 target $169.26",
-    "Last close $140.27 (2026-07-09)",
-    "Eden deep-dive: run XOM \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run XOM \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/XOM"
    ],
-   "inv": "Invalidated on a daily close below $119.85",
-   "thesis": "Exxon Mobil: Integrated oil / gas. Buy near support $134.66, stop $119.85, first target $169.26."
+   "inv": "Value setup; levels off Jul 9 close",
+   "thesis": "Guyana barrels + buybacks; oil hedge."
   },
   "SLB": {
    "t": "SLB",
@@ -64,83 +62,80 @@
    "theme": "Oilfield services",
    "type": "Value",
    "conv": 4,
-   "p": 47.43,
-   "buy": 45.53,
-   "stop": 40.98,
+   "p": 47.24,
+   "buy": 45.35,
+   "stop": 40.82,
    "sell": 61.79,
-   "why": "Oilfield services. Last close $47.43; Buy, target $61.79.",
+   "why": "International/offshore cycle + digital margins; +31% upside.",
    "bull": [
-    "Buy consensus, analyst target $61.79 (30.3% upside)",
-    "Oilfield services \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Offshore cycle",
+    "Digital margins",
+    "Cash returns"
    ],
    "bear": [
-    "Rotation/valuation risk in energy if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Oil capex sensitivity",
+    "NAM softness"
    ],
    "v": [
-    "Buy \u00b7 target $61.79",
-    "Last close $47.43 (2026-07-09)",
-    "Eden deep-dive: run SLB \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run SLB \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/SLB"
    ],
-   "inv": "Invalidated on a daily close below $40.98",
-   "thesis": "SLB: Oilfield services. Buy near support $45.53, stop $40.98, first target $61.79."
+   "inv": "Value setup; levels off Jul 9 close",
+   "thesis": "International/offshore cycle + digital margins; +31% upside."
   },
   "JPM": {
    "t": "JPM",
-   "n": "JPMorgan Chase",
+   "n": "JPMorgan",
    "theme": "Money-center bank",
    "type": "Core",
    "conv": 4,
-   "p": 333.65,
-   "buy": 320.3,
-   "stop": 285.07,
+   "p": 335.47,
+   "buy": 322.05,
+   "stop": 286.62,
    "sell": 351.81,
-   "why": "Money-center bank. Last close $333.65; Buy, target $351.81.",
+   "why": "Fortress bank; NII + trading strength.",
    "bull": [
-    "Buy consensus, analyst target $351.81 (5.4% upside)",
-    "Money-center bank \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "NII resilience",
+    "Trading/IB",
+    "Buybacks"
    ],
    "bear": [
-    "Rotation/valuation risk in financials if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Credit normalization",
+    "NIM if cuts"
    ],
    "v": [
-    "Buy \u00b7 target $351.81",
-    "Last close $333.65 (2026-07-09)",
-    "Eden deep-dive: run JPM \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run JPM \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/JPM"
    ],
-   "inv": "Invalidated on a daily close below $285.07",
-   "thesis": "JPMorgan Chase: Money-center bank. Buy near support $320.30, stop $285.07, first target $351.81."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "Fortress bank; NII + trading strength."
   },
   "NOW": {
    "t": "NOW",
    "n": "ServiceNow",
-   "theme": "Enterprise AI workflow",
-   "type": "Momentum",
-   "conv": 5,
-   "p": 106.43,
-   "buy": 102.17,
-   "stop": 89.91,
-   "sell": 141.12,
-   "why": "Enterprise AI workflow. Last close $106.43; Strong Buy, target $141.12.",
+   "theme": "Enterprise AI",
+   "type": "Core",
+   "conv": 4,
+   "p": 108.84,
+   "buy": 104.49,
+   "stop": 93.0,
+   "sell": 140.73,
+   "why": "AI workflow; 20%+ cRPO, de-rated.",
    "bull": [
-    "Strong Buy consensus, analyst target $141.12 (32.6% upside)",
-    "Enterprise AI workflow \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Now Assist attach",
+    "cRPO 20%+",
+    "Quality"
    ],
    "bear": [
-    "Rotation/valuation risk in software if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "High multiple",
+    "IT budgets"
    ],
    "v": [
-    "Strong Buy \u00b7 target $141.12",
-    "Last close $106.43 (2026-07-09)",
-    "Eden deep-dive: run NOW \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run NOW \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/NOW"
    ],
-   "inv": "Invalidated on a daily close below $89.91",
-   "thesis": "ServiceNow: Enterprise AI workflow. Buy near support $102.17, stop $89.91, first target $141.12."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "AI workflow; 20%+ cRPO, de-rated."
   },
   "MU": {
    "t": "MU",
@@ -148,84 +143,80 @@
    "theme": "AI memory / HBM",
    "type": "Momentum",
    "conv": 5,
-   "p": 941.24,
-   "buy": 903.59,
-   "stop": 795.16,
+   "p": 991.64,
+   "buy": 951.97,
+   "stop": 837.73,
    "sell": 1486.0,
-   "why": "AI memory / HBM. Last close $941.24; Strong Buy, target $1486.00.",
+   "why": "HBM sold out into 2027; memory pricing rising; Whitehouse bought it.",
    "bull": [
-    "Strong Buy consensus, analyst target $1486.00 (57.9% upside)",
-    "AI memory / HBM \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "HBM pricing up",
+    "Cycle turning",
+    "Insider/political buys"
    ],
    "bear": [
-    "Rotation/valuation risk in semis if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Cyclical peak FCF",
+    "Capex intensity"
    ],
    "v": [
-    "Strong Buy \u00b7 target $1486.00",
-    "Last close $941.24 (2026-07-09)",
-    "Eden deep-dive: run MU \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run MU \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/MU"
    ],
-   "inv": "Invalidated on a daily close below $795.16",
-   "thesis": "Micron: AI memory / HBM. Buy near support $903.59, stop $795.16, first target $1486.00."
+   "inv": "Momentum setup; levels off Jul 9 close",
+   "thesis": "HBM sold out into 2027; memory pricing rising; Whitehouse bought it."
   },
   "FISV": {
    "t": "FISV",
    "n": "Fiserv",
-   "theme": "Payments / merchant acquiring",
+   "theme": "Payments",
    "type": "Value",
-   "conv": 3,
-   "p": 50.6,
-   "buy": 48.58,
-   "stop": 43.72,
-   "sell": 68.85,
-   "why": "Payments / merchant acquiring. Last close $50.60; Hold, target $68.85.",
+   "conv": 4,
+   "p": 51.65,
+   "buy": 49.58,
+   "stop": 44.62,
+   "sell": 68.48,
+   "why": "Clover growth; de-rated, insider buying.",
    "bull": [
-    "Hold consensus, analyst target $68.85 (36.1% upside)",
-    "Payments / merchant acquiring \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Clover growth",
+    "FCF compounding",
+    "Insider buys"
    ],
    "bear": [
-    "Rotation/valuation risk in fintech if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Merchant competition",
+    "Guidance credibility"
    ],
    "v": [
-    "Hold \u00b7 target $68.85",
-    "Last close $50.60 (2026-07-09)",
-    "Eden deep-dive: run FISV \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run FISV \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/FISV"
    ],
-   "inv": "Invalidated on a daily close below $43.72",
-   "thesis": "Fiserv: Payments / merchant acquiring. Buy near support $48.58, stop $43.72, first target $68.85."
+   "inv": "Value setup; levels off Jul 9 close",
+   "thesis": "Clover growth; de-rated, insider buying."
   },
   "SYM": {
    "t": "SYM",
    "n": "Symbotic",
-   "theme": "Warehouse robotics/AI",
+   "theme": "Warehouse automation",
    "type": "Speculative",
    "conv": 3,
-   "p": 40.27,
-   "buy": 38.66,
-   "stop": 31.7,
+   "p": 43.15,
+   "buy": 41.42,
+   "stop": 33.96,
    "sell": 65.67,
-   "why": "Warehouse robotics/AI. Last close $40.27; Buy, target $65.67.",
+   "why": "Warehouse automation backlog (Walmart).",
    "bull": [
-    "Buy consensus, analyst target $65.67 (63.1% upside)",
-    "Warehouse robotics/AI \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Walmart backlog",
+    "Automation demand",
+    "Recurring"
    ],
    "bear": [
-    "Rotation/valuation risk in industrials if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Negative NI (cap conv 3)",
+    "Customer concentration"
    ],
    "v": [
-    "Buy \u00b7 target $65.67",
-    "Last close $40.27 (2026-07-09)",
-    "Eden deep-dive: run SYM \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run SYM \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/SYM"
    ],
-   "inv": "Invalidated on a daily close below $31.70",
-   "thesis": "Symbotic: Warehouse robotics/AI. Buy near support $38.66, stop $31.70, first target $65.67."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "Warehouse automation backlog (Walmart)."
   },
   "MSFT": {
    "t": "MSFT",
@@ -233,225 +224,215 @@
    "theme": "AI software / cloud",
    "type": "Core",
    "conv": 5,
-   "p": 382.11,
-   "buy": 366.83,
-   "stop": 326.48,
+   "p": 384.36,
+   "buy": 368.99,
+   "stop": 328.4,
    "sell": 559.93,
-   "why": "AI software / cloud. Last close $382.11; Strong Buy, target $559.93.",
+   "why": "Azure AI + Copilot; ~46% implied upside.",
    "bull": [
-    "Strong Buy consensus, analyst target $559.93 (46.5% upside)",
-    "AI software / cloud \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Azure AI growth",
+    "Copilot attach",
+    "Enterprise moat"
    ],
    "bear": [
-    "Rotation/valuation risk in software if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Capex weighs FCF",
+    "OpenAI dependency"
    ],
    "v": [
-    "Strong Buy \u00b7 target $559.93",
-    "Last close $382.11 (2026-07-09)",
-    "Eden deep-dive: run MSFT \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run MSFT \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/MSFT"
    ],
-   "inv": "Invalidated on a daily close below $326.48",
-   "thesis": "Microsoft: AI software / cloud. Buy near support $366.83, stop $326.48, first target $559.93."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "Azure AI + Copilot; ~46% implied upside."
   },
   "MELI": {
    "t": "MELI",
    "n": "MercadoLibre",
-   "theme": "LatAm e-commerce + fintech",
+   "theme": "LatAm e-comm + fintech",
    "type": "Core",
    "conv": 4,
-   "p": 1794.15,
-   "buy": 1722.38,
-   "stop": 1532.92,
+   "p": 1807.83,
+   "buy": 1735.52,
+   "stop": 1544.61,
    "sell": 2208.63,
-   "why": "LatAm e-commerce + fintech. Last close $1794.15; Buy, target $2208.63.",
+   "why": "LatAm commerce + Mercado Pago fintech.",
    "bull": [
-    "Buy consensus, analyst target $2208.63 (23.1% upside)",
-    "LatAm e-commerce + fintech \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Fintech monetization",
+    "Logistics moat",
+    "Digitization"
    ],
    "bear": [
-    "Rotation/valuation risk in consumer / latam if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "FX/Argentina risk",
+    "Credit book risk"
    ],
    "v": [
-    "Buy \u00b7 target $2208.63",
-    "Last close $1794.15 (2026-07-09)",
-    "Eden deep-dive: run MELI \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run MELI \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/MELI"
    ],
-   "inv": "Invalidated on a daily close below $1532.92",
-   "thesis": "MercadoLibre: LatAm e-commerce + fintech. Buy near support $1722.38, stop $1532.92, first target $2208.63."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "LatAm commerce + Mercado Pago fintech."
   },
   "HTZ": {
    "t": "HTZ",
    "n": "Hertz",
-   "theme": "Fleet turnaround",
+   "theme": "Car rental",
    "type": "Speculative",
    "conv": 3,
-   "p": 1.96,
-   "buy": 1.88,
-   "stop": 1.54,
-   "sell": 2.5,
-   "why": "Fleet turnaround. Last close $1.96; Hold, target $2.50.",
+   "p": 2.17,
+   "buy": 2.08,
+   "stop": 1.71,
+   "sell": 2.82,
+   "why": "Levered rental turnaround; loss-making.",
    "bull": [
-    "Hold consensus, analyst target $2.50 (27.6% upside)",
-    "Fleet turnaround \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Fleet reset",
+    "Demand recovery",
+    "EV normalization"
    ],
    "bear": [
-    "Rotation/valuation risk in consumer if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Loss-making (cap conv 3)",
+    "High leverage"
    ],
    "v": [
-    "Hold \u00b7 target $2.50",
-    "Last close $1.96 (2026-07-09)",
-    "Eden deep-dive: run HTZ \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run HTZ \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/HTZ"
    ],
-   "inv": "Invalidated on a daily close below $1.54",
-   "thesis": "Hertz: Fleet turnaround. Buy near support $1.88, stop $1.54, first target $2.50."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "Levered rental turnaround; loss-making."
   },
   "GS": {
    "t": "GS",
    "n": "Goldman Sachs",
    "theme": "Investment bank",
-   "type": "Momentum",
-   "conv": 3,
-   "p": 1025.71,
-   "buy": 984.68,
-   "stop": 866.52,
-   "sell": 1161.92,
-   "why": "Investment bank. Last close $1025.71; Hold, target $1009.70.",
+   "type": "Core",
+   "conv": 4,
+   "p": 1055.97,
+   "buy": 1013.73,
+   "stop": 902.22,
+   "sell": 1246.04,
+   "why": "IB/trading rebound; target near price \u2014 patience.",
    "bull": [
-    "Hold consensus, analyst target $1009.70 (-1.6% upside)",
-    "Investment bank \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "IB rebound",
+    "Trading strength",
+    "Buybacks"
    ],
    "bear": [
-    "Rotation/valuation risk in financials if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Target near price",
+    "IB cyclicality"
    ],
    "v": [
-    "Hold \u00b7 target $1009.70",
-    "Last close $1025.71 (2026-07-09)",
-    "Eden deep-dive: run GS \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run GS \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/GS"
    ],
-   "inv": "Invalidated on a daily close below $866.52",
-   "thesis": "Goldman Sachs: Investment bank. Buy near support $984.68, stop $866.52, first target $1161.92."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "IB/trading rebound; target near price \u2014 patience."
   },
   "FSLR": {
    "t": "FSLR",
    "n": "First Solar",
-   "theme": "US solar / IRA",
+   "theme": "US solar",
    "type": "Value",
    "conv": 4,
-   "p": 224.3,
-   "buy": 215.33,
-   "stop": 193.8,
-   "sell": 248.3,
-   "why": "US solar / IRA. Last close $224.30; Buy, target $248.30.",
+   "p": 228.5,
+   "buy": 219.36,
+   "stop": 197.42,
+   "sell": 251.26,
+   "why": "US thin-film; booked to 2029.",
    "bull": [
-    "Buy consensus, analyst target $248.30 (10.7% upside)",
-    "US solar / IRA \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Backlog to 2029",
+    "IRA credits",
+    "Domestic premium"
    ],
    "bear": [
-    "Rotation/valuation risk in renewables if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Policy risk",
+    "ASP pressure"
    ],
    "v": [
-    "Buy \u00b7 target $248.30",
-    "Last close $224.30 (2026-07-09)",
-    "Eden deep-dive: run FSLR \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run FSLR \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/FSLR"
    ],
-   "inv": "Invalidated on a daily close below $193.80",
-   "thesis": "First Solar: US solar / IRA. Buy near support $215.33, stop $193.80, first target $248.30."
+   "inv": "Value setup; levels off Jul 9 close",
+   "thesis": "US thin-film; booked to 2029."
   },
   "ETN": {
    "t": "ETN",
    "n": "Eaton",
-   "theme": "Electrification / grid",
-   "type": "Momentum",
+   "theme": "Electrification",
+   "type": "Core",
    "conv": 4,
-   "p": 399.56,
-   "buy": 383.58,
-   "stop": 337.55,
+   "p": 405.83,
+   "buy": 389.6,
+   "stop": 346.74,
    "sell": 455.79,
-   "why": "Electrification / grid. Last close $399.56; Buy, target $455.79.",
+   "why": "Electrical infra for datacenters + reshoring.",
    "bull": [
-    "Buy consensus, analyst target $455.79 (14.1% upside)",
-    "Electrification / grid \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "DC electrical backlog",
+    "Reshoring capex",
+    "Margin expansion"
    ],
    "bear": [
-    "Rotation/valuation risk in industrials if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Cyclical end-markets",
+    "Rich vs history"
    ],
    "v": [
-    "Buy \u00b7 target $455.79",
-    "Last close $399.56 (2026-07-09)",
-    "Eden deep-dive: run ETN \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run ETN \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/ETN"
    ],
-   "inv": "Invalidated on a daily close below $337.55",
-   "thesis": "Eaton: Electrification / grid. Buy near support $383.58, stop $337.55, first target $455.79."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "Electrical infra for datacenters + reshoring."
   },
   "VST": {
    "t": "VST",
    "n": "Vistra",
-   "theme": "AI-power / merchant + nuclear",
+   "theme": "AI-power / merchant",
    "type": "Momentum",
    "conv": 5,
-   "p": 152.32,
-   "buy": 146.23,
-   "stop": 128.68,
+   "p": 157.98,
+   "buy": 151.66,
+   "stop": 133.46,
    "sell": 222.89,
-   "why": "AI-power / merchant + nuclear. Last close $152.32; Strong Buy, target $222.89.",
+   "why": "Merchant + nuclear power into datacenter demand.",
    "bull": [
-    "Strong Buy consensus, analyst target $222.89 (46.3% upside)",
-    "AI-power / merchant + nuclear \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Datacenter PPAs",
+    "Nuclear fleet value",
+    "Buybacks"
    ],
    "bear": [
-    "Rotation/valuation risk in power if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Merchant volatility",
+    "Weather/commodity"
    ],
    "v": [
-    "Strong Buy \u00b7 target $222.89",
-    "Last close $152.32 (2026-07-09)",
-    "Eden deep-dive: run VST \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run VST \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/VST"
    ],
-   "inv": "Invalidated on a daily close below $128.68",
-   "thesis": "Vistra: AI-power / merchant + nuclear. Buy near support $146.23, stop $128.68, first target $222.89."
+   "inv": "Momentum setup; levels off Jul 9 close",
+   "thesis": "Merchant + nuclear power into datacenter demand."
   },
   "OSCR": {
    "t": "OSCR",
    "n": "Oscar Health",
-   "theme": "Tech-driven health insurer",
-   "type": "Value",
+   "theme": "Insurtech",
+   "type": "Speculative",
    "conv": 3,
-   "p": 30.96,
-   "buy": 29.72,
-   "stop": 26.75,
-   "sell": 35.07,
-   "why": "Tech-driven health insurer. Last close $30.96; Hold, target $22.60.",
+   "p": 31.2,
+   "buy": 29.95,
+   "stop": 24.56,
+   "sell": 40.56,
+   "why": "Insurtech growth but target below price now.",
    "bull": [
-    "Hold consensus, analyst target $22.60 (-27.0% upside)",
-    "Tech-driven health insurer \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Membership growth",
+    "MLR improving",
+    "ACA tailwind"
    ],
    "bear": [
-    "Rotation/valuation risk in healthcare if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Target below price (cap conv 3)",
+    "MLR volatility"
    ],
    "v": [
-    "Hold \u00b7 target $22.60",
-    "Last close $30.96 (2026-07-09)",
-    "Eden deep-dive: run OSCR \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run OSCR \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/OSCR"
    ],
-   "inv": "Invalidated on a daily close below $26.75",
-   "thesis": "Oscar Health: Tech-driven health insurer. Buy near support $29.72, stop $26.75, first target $35.07."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "Insurtech growth but target below price now."
   },
   "NVDA": {
    "t": "NVDA",
@@ -459,453 +440,431 @@
    "theme": "AI infra / semis",
    "type": "Core",
    "conv": 5,
-   "p": 201.01,
-   "buy": 192.97,
-   "stop": 171.74,
+   "p": 202.78,
+   "buy": 194.67,
+   "stop": 173.26,
    "sell": 301.62,
-   "why": "AI infra / semis. Last close $201.01; Strong Buy, target $301.62.",
+   "why": "AI compute standard; Rubin cycle extends the lead.",
    "bull": [
-    "Strong Buy consensus, analyst target $301.62 (50.1% upside)",
-    "AI infra / semis \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "DC capex accelerating",
+    "CUDA + networking moat",
+    "Rubin ramp"
    ],
    "bear": [
-    "Rotation/valuation risk in semis if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "No room for a miss",
+    "China limits"
    ],
    "v": [
-    "Strong Buy \u00b7 target $301.62",
-    "Last close $201.01 (2026-07-09)",
-    "Eden deep-dive: run NVDA \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run NVDA \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/NVDA"
    ],
-   "inv": "Invalidated on a daily close below $171.74",
-   "thesis": "Nvidia: AI infra / semis. Buy near support $192.97, stop $171.74, first target $301.62."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "AI compute standard; Rubin cycle extends the lead."
   },
   "NFLX": {
    "t": "NFLX",
    "n": "Netflix",
-   "theme": "Streaming / ads tier",
+   "theme": "Streaming",
    "type": "Momentum",
    "conv": 4,
-   "p": 75.59,
-   "buy": 72.57,
-   "stop": 63.86,
-   "sell": 113.49,
-   "why": "Streaming / ads tier. Last close $75.59; Buy, target $113.49.",
+   "p": 75.47,
+   "buy": 72.45,
+   "stop": 63.76,
+   "sell": 113.15,
+   "why": "Ads tier + password monetization ramp.",
    "bull": [
-    "Buy consensus, analyst target $113.49 (50.1% upside)",
-    "Streaming / ads tier \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Ads ramp",
+    "Pricing power",
+    "FCF growth"
    ],
    "bear": [
-    "Rotation/valuation risk in consumer if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Content spend",
+    "Competition"
    ],
    "v": [
-    "Buy \u00b7 target $113.49",
-    "Last close $75.59 (2026-07-09)",
-    "Eden deep-dive: run NFLX \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run NFLX \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/NFLX"
    ],
-   "inv": "Invalidated on a daily close below $63.86",
-   "thesis": "Netflix: Streaming / ads tier. Buy near support $72.57, stop $63.86, first target $113.49."
+   "inv": "Momentum setup; levels off Jul 9 close",
+   "thesis": "Ads tier + password monetization ramp."
   },
   "NCLH": {
    "t": "NCLH",
    "n": "Norwegian Cruise",
-   "theme": "Cruise recovery",
+   "theme": "Cruise",
    "type": "Value",
    "conv": 4,
-   "p": 18.47,
-   "buy": 17.73,
-   "stop": 15.96,
-   "sell": 21.56,
-   "why": "Cruise recovery. Last close $18.47; Buy, target $21.56.",
+   "p": 19.76,
+   "buy": 18.97,
+   "stop": 17.07,
+   "sell": 21.64,
+   "why": "Cruise demand strong; deleveraging.",
    "bull": [
-    "Buy consensus, analyst target $21.56 (16.7% upside)",
-    "Cruise recovery \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Strong bookings",
+    "Deleveraging",
+    "Yield growth"
    ],
    "bear": [
-    "Rotation/valuation risk in consumer if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "High leverage",
+    "Fuel/demand cyclicality"
    ],
    "v": [
-    "Buy \u00b7 target $21.56",
-    "Last close $18.47 (2026-07-09)",
-    "Eden deep-dive: run NCLH \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run NCLH \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/NCLH"
    ],
-   "inv": "Invalidated on a daily close below $15.96",
-   "thesis": "Norwegian Cruise: Cruise recovery. Buy near support $17.73, stop $15.96, first target $21.56."
+   "inv": "Value setup; levels off Jul 9 close",
+   "thesis": "Cruise demand strong; deleveraging."
   },
   "CRWD": {
    "t": "CRWD",
    "n": "CrowdStrike",
-   "theme": "Endpoint / Falcon platform",
-   "type": "Speculative",
+   "theme": "Cybersecurity",
+   "type": "Momentum",
    "conv": 3,
-   "p": 188.4,
-   "buy": 180.86,
-   "stop": 148.31,
-   "sell": 235.12,
-   "why": "Endpoint / Falcon platform. Last close $188.40; Buy, target $182.99.",
+   "p": 198.4,
+   "buy": 190.46,
+   "stop": 167.6,
+   "sell": 234.11,
+   "why": "Falcon platform consolidation; strong ARR.",
    "bull": [
-    "Buy consensus, analyst target $182.99 (-2.9% upside)",
-    "Endpoint / Falcon platform \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Platform consolidation",
+    "ARR growth",
+    "Module attach"
    ],
    "bear": [
-    "Rotation/valuation risk in cyber if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Negative GAAP NI (cap conv 3)",
+    "Competition/SBC"
    ],
    "v": [
-    "Buy \u00b7 target $182.99",
-    "Last close $188.40 (2026-07-09)",
-    "Eden deep-dive: run CRWD \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run CRWD \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/CRWD"
    ],
-   "inv": "Invalidated on a daily close below $148.31",
-   "thesis": "CrowdStrike: Endpoint / Falcon platform. Buy near support $180.86, stop $148.31, first target $235.12."
+   "inv": "Momentum setup; levels off Jul 9 close",
+   "thesis": "Falcon platform consolidation; strong ARR."
   },
   "CCJ": {
    "t": "CCJ",
    "n": "Cameco",
-   "theme": "Nuclear fuel cycle",
-   "type": "Momentum",
+   "theme": "Uranium",
+   "type": "Core",
    "conv": 4,
-   "p": 94.73,
-   "buy": 90.94,
-   "stop": 80.03,
-   "sell": 132.39,
-   "why": "Nuclear fuel cycle. Last close $94.73; Buy, target $132.39.",
+   "p": 95.74,
+   "buy": 91.91,
+   "stop": 81.8,
+   "sell": 132.61,
+   "why": "Uranium deficit + reactor restarts.",
    "bull": [
-    "Buy consensus, analyst target $132.39 (39.8% upside)",
-    "Nuclear fuel cycle \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Supply deficit",
+    "Long-term contracts",
+    "Westinghouse stake"
    ],
    "bear": [
-    "Rotation/valuation risk in uranium if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Uranium volatility",
+    "Ramp risk"
    ],
    "v": [
-    "Buy \u00b7 target $132.39",
-    "Last close $94.73 (2026-07-09)",
-    "Eden deep-dive: run CCJ \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run CCJ \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/CCJ"
    ],
-   "inv": "Invalidated on a daily close below $80.03",
-   "thesis": "Cameco: Nuclear fuel cycle. Buy near support $90.94, stop $80.03, first target $132.39."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "Uranium deficit + reactor restarts."
   },
   "VRT": {
    "t": "VRT",
    "n": "Vertiv",
-   "theme": "AI datacenter thermal/power",
+   "theme": "AI datacenter thermal",
    "type": "Momentum",
-   "conv": 5,
-   "p": 312.2,
-   "buy": 299.71,
-   "stop": 263.74,
+   "conv": 4,
+   "p": 323.92,
+   "buy": 310.96,
+   "stop": 273.64,
    "sell": 377.0,
-   "why": "AI datacenter thermal/power. Last close $312.20; Strong Buy, target $377.00.",
+   "why": "Liquid cooling for AI datacenters.",
    "bull": [
-    "Strong Buy consensus, analyst target $377.00 (20.8% upside)",
-    "AI datacenter thermal/power \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Liquid cooling demand",
+    "Backlog growth",
+    "AI DC buildout"
    ],
    "bear": [
-    "Rotation/valuation risk in industrials if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Rich implied ~21%",
+    "Cyclical capex"
    ],
    "v": [
-    "Strong Buy \u00b7 target $377.00",
-    "Last close $312.20 (2026-07-09)",
-    "Eden deep-dive: run VRT \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run VRT \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/VRT"
    ],
-   "inv": "Invalidated on a daily close below $263.74",
-   "thesis": "Vertiv: AI datacenter thermal/power. Buy near support $299.71, stop $263.74, first target $377.00."
+   "inv": "Momentum setup; levels off Jul 9 close",
+   "thesis": "Liquid cooling for AI datacenters."
   },
   "SOFI": {
    "t": "SOFI",
    "n": "SoFi",
-   "theme": "Digital bank",
-   "type": "Value",
+   "theme": "Fintech",
+   "type": "Momentum",
    "conv": 3,
-   "p": 17.38,
-   "buy": 16.68,
-   "stop": 15.01,
-   "sell": 20.9,
-   "why": "Digital bank. Last close $17.38; Hold, target $20.90.",
+   "p": 18.62,
+   "buy": 17.88,
+   "stop": 15.73,
+   "sell": 21.1,
+   "why": "Fintech member growth + bank charter.",
    "bull": [
-    "Hold consensus, analyst target $20.90 (20.3% upside)",
-    "Digital bank \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Member growth",
+    "Bank charter",
+    "Fee income"
    ],
    "bear": [
-    "Rotation/valuation risk in fintech if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Small NI (cap conv 3)",
+    "Credit risk"
    ],
    "v": [
-    "Hold \u00b7 target $20.90",
-    "Last close $17.38 (2026-07-09)",
-    "Eden deep-dive: run SOFI \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run SOFI \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/SOFI"
    ],
-   "inv": "Invalidated on a daily close below $15.01",
-   "thesis": "SoFi: Digital bank. Buy near support $16.68, stop $15.01, first target $20.90."
+   "inv": "Momentum setup; levels off Jul 9 close",
+   "thesis": "Fintech member growth + bank charter."
   },
   "SMCI": {
    "t": "SMCI",
    "n": "Super Micro",
-   "theme": "AI server systems",
-   "type": "Momentum",
+   "theme": "AI servers",
+   "type": "Speculative",
    "conv": 3,
-   "p": 27.04,
-   "buy": 25.96,
-   "stop": 22.84,
+   "p": 28.24,
+   "buy": 27.11,
+   "stop": 22.23,
    "sell": 37.25,
-   "why": "AI server systems. Last close $27.04; Hold, target $37.25.",
+   "why": "AI-server momentum; governance overhang.",
    "bull": [
-    "Hold consensus, analyst target $37.25 (37.8% upside)",
-    "AI server systems \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "AI-server demand",
+    "Liquid cooling",
+    "Revenue growth"
    ],
    "bear": [
-    "Rotation/valuation risk in servers if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Governance/margin (cap conv 3)",
+    "Volatility"
    ],
    "v": [
-    "Hold \u00b7 target $37.25",
-    "Last close $27.04 (2026-07-09)",
-    "Eden deep-dive: run SMCI \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run SMCI \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/SMCI"
    ],
-   "inv": "Invalidated on a daily close below $22.84",
-   "thesis": "Super Micro: AI server systems. Buy near support $25.96, stop $22.84, first target $37.25."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "AI-server momentum; governance overhang."
   },
   "LULU": {
    "t": "LULU",
    "n": "Lululemon",
-   "theme": "Athletic apparel / de-rate",
+   "theme": "Athletic apparel",
    "type": "Value",
    "conv": 3,
-   "p": 113.16,
-   "buy": 108.63,
-   "stop": 97.77,
+   "p": 116.51,
+   "buy": 111.85,
+   "stop": 100.66,
    "sell": 130.65,
-   "why": "Athletic apparel / de-rate. Last close $113.16; Hold, target $130.65.",
+   "why": "De-rated; turnaround optionality if comps stabilize.",
    "bull": [
-    "Hold consensus, analyst target $130.65 (15.5% upside)",
-    "Athletic apparel / de-rate \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "De-rate priced in",
+    "Brand equity",
+    "Intl growth"
    ],
    "bear": [
-    "Rotation/valuation risk in consumer if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Comp weakness",
+    "US saturation"
    ],
    "v": [
-    "Hold \u00b7 target $130.65",
-    "Last close $113.16 (2026-07-09)",
-    "Eden deep-dive: run LULU \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run LULU \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/LULU"
    ],
-   "inv": "Invalidated on a daily close below $97.77",
-   "thesis": "Lululemon: Athletic apparel / de-rate. Buy near support $108.63, stop $97.77, first target $130.65."
+   "inv": "Value setup; levels off Jul 9 close",
+   "thesis": "De-rated; turnaround optionality if comps stabilize."
   },
   "UA": {
    "t": "UA",
    "n": "Under Armour",
    "theme": "Apparel turnaround",
    "type": "Speculative",
-   "conv": 2,
-   "p": 6.32,
-   "buy": 6.07,
-   "stop": 4.98,
-   "sell": 8.2,
-   "why": "Apparel turnaround. Last close $6.32; n/a, target $8.20.",
+   "conv": 3,
+   "p": 6.45,
+   "buy": 6.19,
+   "stop": 5.08,
+   "sell": 8.38,
+   "why": "Turnaround unproven; spec only.",
    "bull": [
-    "n/a consensus, analyst target $8.20 (29.7% upside)",
-    "Apparel turnaround \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Cost cuts",
+    "Brand reset",
+    "Low bar"
    ],
    "bear": [
-    "Rotation/valuation risk in consumer if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "No consensus upside (cap conv 3)",
+    "Turnaround unproven"
    ],
    "v": [
-    "n/a \u00b7 target $8.20",
-    "Last close $6.32 (2026-07-09)",
-    "Eden deep-dive: run UA \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run UA \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/UA"
    ],
-   "inv": "Invalidated on a daily close below $4.98",
-   "thesis": "Under Armour: Apparel turnaround. Buy near support $6.07, stop $4.98, first target $8.20."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "Turnaround unproven; spec only."
   },
   "OPEN": {
    "t": "OPEN",
    "n": "Opendoor",
-   "theme": "iBuying",
+   "theme": "iBuyer real estate",
    "type": "Speculative",
    "conv": 3,
-   "p": 4.72,
-   "buy": 4.53,
-   "stop": 3.71,
-   "sell": 4.82,
-   "why": "iBuying. Last close $4.72; Hold, target $4.82.",
+   "p": 5.3,
+   "buy": 5.09,
+   "stop": 4.17,
+   "sell": 6.89,
+   "why": "iBuyer; deep losses; lottery ticket.",
    "bull": [
-    "Hold consensus, analyst target $4.82 (2.1% upside)",
-    "iBuying \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Housing turnover optionality",
+    "Cost cuts",
+    "Short squeeze"
    ],
    "bear": [
-    "Rotation/valuation risk in real estate if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Deep losses (cap conv 3)",
+    "Rate-sensitive"
    ],
    "v": [
-    "Hold \u00b7 target $4.82",
-    "Last close $4.72 (2026-07-09)",
-    "Eden deep-dive: run OPEN \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run OPEN \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/OPEN"
    ],
-   "inv": "Invalidated on a daily close below $3.71",
-   "thesis": "Opendoor: iBuying. Buy near support $4.53, stop $3.71, first target $4.82."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "iBuyer; deep losses; lottery ticket."
   },
   "ASML": {
    "t": "ASML",
    "n": "ASML",
-   "theme": "EUV litho monopoly",
+   "theme": "EUV litho",
    "type": "Core",
    "conv": 5,
-   "p": 1771.23,
-   "buy": 1700.38,
-   "stop": 1513.34,
-   "sell": 1830.83,
-   "why": "EUV litho monopoly. Last close $1771.23; Strong Buy, target $1830.83.",
+   "p": 1804.25,
+   "buy": 1732.08,
+   "stop": 1541.55,
+   "sell": 2129.01,
+   "why": "Sole EUV supplier; backlog into 2028.",
    "bull": [
-    "Strong Buy consensus, analyst target $1830.83 (3.4% upside)",
-    "EUV litho monopoly \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "High-NA adoption",
+    "Backlog visibility",
+    "2nm demand"
    ],
    "bear": [
-    "Rotation/valuation risk in semi equip if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Order lumpiness",
+    "China restrictions"
    ],
    "v": [
-    "Strong Buy \u00b7 target $1830.83",
-    "Last close $1771.23 (2026-07-09)",
-    "Eden deep-dive: run ASML \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run ASML \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/ASML"
    ],
-   "inv": "Invalidated on a daily close below $1513.34",
-   "thesis": "ASML: EUV litho monopoly. Buy near support $1700.38, stop $1513.34, first target $1830.83."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "Sole EUV supplier; backlog into 2028."
   },
   "CEG": {
    "t": "CEG",
    "n": "Constellation Energy",
-   "theme": "AI-power / nuclear PPAs",
-   "type": "Momentum",
+   "theme": "AI-power / nuclear",
+   "type": "Core",
    "conv": 4,
-   "p": 244.52,
-   "buy": 234.74,
-   "stop": 206.57,
+   "p": 250.74,
+   "buy": 240.71,
+   "stop": 214.23,
    "sell": 357.81,
-   "why": "AI-power / nuclear PPAs. Last close $244.52; Buy, target $357.81.",
+   "why": "Largest US nuclear fleet; hyperscaler PPAs.",
    "bull": [
-    "Buy consensus, analyst target $357.81 (46.3% upside)",
-    "AI-power / nuclear PPAs \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "PPA pricing power",
+    "Clean baseload scarcity",
+    "Uprates"
    ],
    "bear": [
-    "Rotation/valuation risk in power if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Reverse-DCF implies ~27%",
+    "Outage risk"
    ],
    "v": [
-    "Buy \u00b7 target $357.81",
-    "Last close $244.52 (2026-07-09)",
-    "Eden deep-dive: run CEG \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run CEG \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/CEG"
    ],
-   "inv": "Invalidated on a daily close below $206.57",
-   "thesis": "Constellation Energy: AI-power / nuclear PPAs. Buy near support $234.74, stop $206.57, first target $357.81."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "Largest US nuclear fleet; hyperscaler PPAs."
   },
   "SMR": {
    "t": "SMR",
    "n": "NuScale Power",
-   "theme": "SMR pre-revenue",
+   "theme": "SMR nuclear",
    "type": "Speculative",
    "conv": 3,
-   "p": 8.76,
-   "buy": 8.41,
-   "stop": 6.9,
-   "sell": 10.93,
-   "why": "SMR pre-revenue. Last close $8.76; Hold, target $15.36.",
+   "p": 9.03,
+   "buy": 8.67,
+   "stop": 7.11,
+   "sell": 11.74,
+   "why": "SMR optionality; pre-revenue.",
    "bull": [
-    "Hold consensus, analyst target $15.36 (75.3% upside)",
-    "SMR pre-revenue \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "SMR pipeline",
+    "DOE support",
+    "First-mover"
    ],
    "bear": [
-    "Rotation/valuation risk in nuclear if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Pre-revenue (cap conv 3)",
+    "Dilution"
    ],
    "v": [
-    "Hold \u00b7 target $15.36",
-    "Last close $8.76 (2026-07-09)",
-    "Eden deep-dive: run SMR \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run SMR \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/SMR"
    ],
-   "inv": "Invalidated on a daily close below $6.90",
-   "thesis": "NuScale Power: SMR pre-revenue. Buy near support $8.41, stop $6.90, first target $10.93."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "SMR optionality; pre-revenue."
   },
   "TE": {
    "t": "TE",
-   "n": "TerraPower/T1 Energy",
-   "theme": "Solar/storage story",
+   "n": "T1 Energy",
+   "theme": "Solar/energy storage",
    "type": "Speculative",
    "conv": 3,
-   "p": 7.35,
-   "buy": 7.06,
-   "stop": 5.79,
+   "p": 7.26,
+   "buy": 6.97,
+   "stop": 5.72,
    "sell": 10.07,
-   "why": "Solar/storage story. Last close $7.35; Strong Buy, target $10.07.",
+   "why": "Solar/storage small-cap; speculative.",
    "bull": [
-    "Strong Buy consensus, analyst target $10.07 (37.0% upside)",
-    "Solar/storage story \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Storage demand",
+    "US content",
+    "Low base"
    ],
    "bear": [
-    "Rotation/valuation risk in renewables if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Loss-making (cap conv 3)",
+    "Liquidity"
    ],
    "v": [
-    "Strong Buy \u00b7 target $10.07",
-    "Last close $7.35 (2026-07-09)",
-    "Eden deep-dive: run TE \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run TE \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/TE"
    ],
-   "inv": "Invalidated on a daily close below $5.79",
-   "thesis": "TerraPower/T1 Energy: Solar/storage story. Buy near support $7.06, stop $5.79, first target $10.07."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "Solar/storage small-cap; speculative."
   },
   "CRWV": {
    "t": "CRWV",
    "n": "CoreWeave",
-   "theme": "GPU cloud",
+   "theme": "AI cloud (GPU)",
    "type": "Speculative",
    "conv": 3,
-   "p": 90.0,
-   "buy": 86.4,
-   "stop": 70.85,
+   "p": 89.7,
+   "buy": 86.11,
+   "stop": 70.61,
    "sell": 142.29,
-   "why": "GPU cloud. Last close $90.00; Buy, target $142.29.",
+   "why": "GPU cloud hyper-growth; heavy losses/capex.",
    "bull": [
-    "Buy consensus, analyst target $142.29 (58.1% upside)",
-    "GPU cloud \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "GPU demand",
+    "Backlog",
+    "Hyperscaler contracts"
    ],
    "bear": [
-    "Rotation/valuation risk in ai infra if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Heavy losses/capex (cap conv 3)",
+    "Customer concentration"
    ],
    "v": [
-    "Buy \u00b7 target $142.29",
-    "Last close $90.00 (2026-07-09)",
-    "Eden deep-dive: run CRWV \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run CRWV \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/CRWV"
    ],
-   "inv": "Invalidated on a daily close below $70.85",
-   "thesis": "CoreWeave: GPU cloud. Buy near support $86.40, stop $70.85, first target $142.29."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "GPU cloud hyper-growth; heavy losses/capex."
   },
   "APLD": {
    "t": "APLD",
@@ -913,196 +872,161 @@
    "theme": "AI datacenter REIT-like",
    "type": "Speculative",
    "conv": 3,
-   "p": 31.44,
-   "buy": 30.18,
-   "stop": 24.75,
-   "sell": 39.23,
-   "why": "AI datacenter REIT-like. Last close $31.44; Strong Buy, target $73.36.",
+   "p": 32.29,
+   "buy": 31.0,
+   "stop": 25.42,
+   "sell": 41.98,
+   "why": "AI datacenter buildout; +127% to target but pre-profit.",
    "bull": [
-    "Strong Buy consensus, analyst target $73.36 (133.3% upside)",
-    "AI datacenter REIT-like \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "Datacenter leasing",
+    "AI demand",
+    "Capacity ramp"
    ],
    "bear": [
-    "Rotation/valuation risk in ai infra if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk",
-    "Negative TTM net income \u2014 story valuation; capped conviction"
+    "Pre-profit (cap conv 3)",
+    "Financing risk"
    ],
    "v": [
-    "Strong Buy \u00b7 target $73.36",
-    "Last close $31.44 (2026-07-09)",
-    "Eden deep-dive: run APLD \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run APLD \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/APLD"
    ],
-   "inv": "Invalidated on a daily close below $24.75",
-   "thesis": "Applied Digital: AI datacenter REIT-like. Buy near support $30.18, stop $24.75, first target $39.23."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "AI datacenter buildout; +127% to target but pre-profit."
   },
   "NBIS": {
    "t": "NBIS",
    "n": "Nebius",
-   "theme": "GPU cloud / EU",
+   "theme": "AI cloud",
    "type": "Speculative",
-   "conv": 4,
-   "p": 206.48,
-   "buy": 198.22,
-   "stop": 162.54,
+   "conv": 3,
+   "p": 216.2,
+   "buy": 207.55,
+   "stop": 170.19,
    "sell": 244.21,
-   "why": "GPU cloud / EU. Last close $206.48; Buy, target $244.21.",
+   "why": "AI cloud growth; story premium.",
    "bull": [
-    "Buy consensus, analyst target $244.21 (18.3% upside)",
-    "GPU cloud / EU \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "AI cloud growth",
+    "GPU access",
+    "Europe base"
    ],
    "bear": [
-    "Rotation/valuation risk in ai infra if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Loss-making (cap conv 3)",
+    "Story premium"
    ],
    "v": [
-    "Buy \u00b7 target $244.21",
-    "Last close $206.48 (2026-07-09)",
-    "Eden deep-dive: run NBIS \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run NBIS \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/NBIS"
    ],
-   "inv": "Invalidated on a daily close below $162.54",
-   "thesis": "Nebius: GPU cloud / EU. Buy near support $198.22, stop $162.54, first target $244.21."
+   "inv": "Speculative setup; levels off Jul 9 close",
+   "thesis": "AI cloud growth; story premium."
   },
-  "TSM": {
-   "t": "TSM",
-   "n": "TSMC",
-   "theme": "AI infra / foundry",
+  "ORCL": {
+   "t": "ORCL",
+   "n": "Oracle",
+   "theme": "AI cloud / OCI",
    "type": "Core",
-   "conv": 5,
-   "p": 438.21,
-   "buy": 420.68,
-   "stop": 374.41,
-   "sell": 490.34,
-   "why": "AI infra / foundry. Last close $438.21; Strong Buy, target $490.34.",
+   "conv": 4,
+   "p": 144.22,
+   "buy": 138.45,
+   "stop": 123.22,
+   "sell": 170.18,
+   "why": "OCI backlog exploding; +75% to consensus.",
    "bull": [
-    "Strong Buy consensus, analyst target $490.34 (11.9% upside)",
-    "AI infra / foundry \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "OCI sold out",
+    "RPO backlog surge",
+    "Multi-cloud DB"
    ],
    "bear": [
-    "Rotation/valuation risk in semis if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Debt/capex to fund DCs",
+    "Execution risk"
    ],
    "v": [
-    "Strong Buy \u00b7 target $490.34",
-    "Last close $438.21 (2026-07-09)",
-    "Eden deep-dive: run TSM \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run ORCL \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/ORCL"
    ],
-   "inv": "Invalidated on a daily close below $374.41",
-   "thesis": "TSMC: AI infra / foundry. Buy near support $420.68, stop $374.41, first target $490.34."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "OCI backlog exploding; +75% to consensus."
+  },
+  "GEV": {
+   "t": "GEV",
+   "n": "GE Vernova",
+   "theme": "AI-power / grid",
+   "type": "Core",
+   "conv": 4,
+   "p": 1075.26,
+   "buy": 1032.25,
+   "stop": 918.7,
+   "sell": 1222.63,
+   "why": "Gas + nuclear turbines and grid gear \u2014 AI-power picks-and-shovels.",
+   "bull": [
+    "Turbine backlog to 2028",
+    "Grid gear shortage",
+    "Nuclear optionality"
+   ],
+   "bear": [
+    "Cyclical power capex",
+    "Ramp execution"
+   ],
+   "v": [
+    "Eden deep-dive: run GEV \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/GEV"
+   ],
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "Gas + nuclear turbines and grid gear \u2014 AI-power picks-and-shovels."
   },
   "META": {
    "t": "META",
-   "n": "Meta Platforms",
-   "theme": "AI advertising / compute",
+   "n": "Meta",
+   "theme": "AI advertising",
    "type": "Core",
    "conv": 5,
-   "p": 604.96,
-   "buy": 580.76,
-   "stop": 516.88,
+   "p": 631.48,
+   "buy": 606.22,
+   "stop": 539.54,
    "sell": 827.91,
-   "why": "AI advertising / compute. Last close $604.96; Strong Buy, target $827.91.",
+   "why": "AI-driven ad efficiency + owned compute.",
    "bull": [
-    "Strong Buy consensus, analyst target $827.91 (36.9% upside)",
-    "AI advertising / compute \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "AI ad ROI",
+    "Cost discipline",
+    "Owned compute"
    ],
    "bear": [
-    "Rotation/valuation risk in software if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "AI capex ramp",
+    "Reality Labs burn"
    ],
    "v": [
-    "Strong Buy \u00b7 target $827.91",
-    "Last close $604.96 (2026-07-09)",
-    "Eden deep-dive: run META \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run META \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/META"
    ],
-   "inv": "Invalidated on a daily close below $516.88",
-   "thesis": "Meta Platforms: AI advertising / compute. Buy near support $580.76, stop $516.88, first target $827.91."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "AI-driven ad efficiency + owned compute."
   },
-  "LEU": {
-   "t": "LEU",
-   "n": "Centrus Energy",
-   "theme": "HALEU enrichment",
-   "type": "Momentum",
+  "AMZN": {
+   "t": "AMZN",
+   "n": "Amazon",
+   "theme": "E-comm + AWS AI",
+   "type": "Core",
    "conv": 4,
-   "p": 166.47,
-   "buy": 159.81,
-   "stop": 140.63,
-   "sell": 188.58,
-   "why": "HALEU enrichment. Last close $166.47; Buy, target $274.36.",
+   "p": 247.04,
+   "buy": 237.16,
+   "stop": 211.07,
+   "sell": 312.91,
+   "why": "AWS AI reacceleration + retail margins.",
    "bull": [
-    "Buy consensus, analyst target $274.36 (64.8% upside)",
-    "HALEU enrichment \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
+    "AWS AI growth",
+    "Retail margins",
+    "Ads"
    ],
    "bear": [
-    "Rotation/valuation risk in uranium if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
+    "Capex intensity",
+    "Consumer softness"
    ],
    "v": [
-    "Buy \u00b7 target $274.36",
-    "Last close $166.47 (2026-07-09)",
-    "Eden deep-dive: run LEU \u2192 eden-dashboard.streamlit.app"
+    "Eden deep-dive: run AMZN \u2192 eden-dashboard.streamlit.app",
+    "stockanalysis.com/stocks/AMZN"
    ],
-   "inv": "Invalidated on a daily close below $140.63",
-   "thesis": "Centrus Energy: HALEU enrichment. Buy near support $159.81, stop $140.63, first target $188.58."
-  },
-  "COHR": {
-   "t": "COHR",
-   "n": "Coherent",
-   "theme": "AI optical transceivers",
-   "type": "Momentum",
-   "conv": 4,
-   "p": 317.05,
-   "buy": 304.37,
-   "stop": 267.85,
-   "sell": 387.36,
-   "why": "AI optical transceivers. Last close $317.05; Buy, target $387.36.",
-   "bull": [
-    "Buy consensus, analyst target $387.36 (22.2% upside)",
-    "AI optical transceivers \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
-   ],
-   "bear": [
-    "Rotation/valuation risk in semis if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
-   ],
-   "v": [
-    "Buy \u00b7 target $387.36",
-    "Last close $317.05 (2026-07-09)",
-    "Eden deep-dive: run COHR \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "Invalidated on a daily close below $267.85",
-   "thesis": "Coherent: AI optical transceivers. Buy near support $304.37, stop $267.85, first target $387.36."
-  },
-  "AMAT": {
-   "t": "AMAT",
-   "n": "Applied Materials",
-   "theme": "Semi capital equipment",
-   "type": "Momentum",
-   "conv": 5,
-   "p": 570.5,
-   "buy": 547.68,
-   "stop": 481.96,
-   "sell": 586.63,
-   "why": "Semi capital equipment. Last close $570.50; Strong Buy, target $586.63.",
-   "bull": [
-    "Strong Buy consensus, analyst target $586.63 (2.8% upside)",
-    "Semi capital equipment \u2014 structural demand driver",
-    "Clear technical level structure for entry/exit"
-   ],
-   "bear": [
-    "Rotation/valuation risk in semi equip if the AI trade wobbles",
-    "Levels can gap on macro (oil, rates) \u2014 size to 1\u20132% risk"
-   ],
-   "v": [
-    "Strong Buy \u00b7 target $586.63",
-    "Last close $570.50 (2026-07-09)",
-    "Eden deep-dive: run AMAT \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "Invalidated on a daily close below $481.96",
-   "thesis": "Applied Materials: Semi capital equipment. Buy near support $547.68, stop $481.96, first target $586.63."
+   "inv": "Core setup; levels off Jul 9 close",
+   "thesis": "AWS AI reacceleration + retail margins."
   }
  }
 }

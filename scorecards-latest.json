@@ -1,7 +1,16 @@
 {
- "asof": "2026-07-09",
- "method": "Composite of momentum, analyst rating/target upside, profitability and theme durability (0\u2013100).",
+ "asof": "2026-07-10",
+ "method": "Composite of consensus upside, analyst rating, FCF/quality and momentum; A=best risk-adjusted, D=avoid. Upside from stockanalysis.com targets vs Jul 9 close.",
  "names": [
+  {
+   "t": "ORCL",
+   "n": "Oracle",
+   "sector": "Tech",
+   "grade": "A",
+   "score": 92,
+   "tier": "top",
+   "note": "Consensus upside 74.63%"
+  },
   {
    "t": "MU",
    "n": "Micron",
@@ -9,189 +18,180 @@
    "grade": "A",
    "score": 92,
    "tier": "top",
-   "note": "Strong Buy; target $1486.00"
+   "note": "Consensus upside 49.85%"
   },
   {
    "t": "MSFT",
    "n": "Microsoft",
-   "sector": "Software",
+   "sector": "Tech",
    "grade": "A",
-   "score": 91,
+   "score": 92,
    "tier": "top",
-   "note": "Strong Buy; target $559.93"
+   "note": "Consensus upside 45.68%"
   },
   {
    "t": "NVDA",
    "n": "Nvidia",
    "sector": "Semis",
    "grade": "A",
-   "score": 90,
+   "score": 92,
    "tier": "top",
-   "note": "Strong Buy; target $301.62"
+   "note": "Consensus upside 48.74%"
   },
   {
-   "t": "TSM",
-   "n": "TSMC",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 90,
+   "t": "CEG",
+   "n": "Constellation Energy",
+   "sector": "Utilities",
+   "grade": "A-",
+   "score": 88,
    "tier": "top",
-   "note": "Strong Buy; target $490.34"
+   "note": "Consensus upside 42.7%"
+  },
+  {
+   "t": "VST",
+   "n": "Vistra",
+   "sector": "Utilities",
+   "grade": "A-",
+   "score": 88,
+   "tier": "top",
+   "note": "Consensus upside 41.09%"
   },
   {
    "t": "META",
-   "n": "Meta Platforms",
-   "sector": "Software",
-   "grade": "A",
-   "score": 89,
+   "n": "Meta",
+   "sector": "Tech",
+   "grade": "A-",
+   "score": 88,
    "tier": "top",
-   "note": "Strong Buy; target $827.91"
+   "note": "Consensus upside 31.11%"
   },
   {
    "t": "AVGO",
    "n": "Broadcom",
    "sector": "Semis",
-   "grade": "A",
+   "grade": "A-",
    "score": 88,
    "tier": "top",
-   "note": "Strong Buy; target $523.73"
+   "note": "Consensus upside 30.57%"
   },
   {
-   "t": "ASML",
-   "n": "ASML",
-   "sector": "Semi equip",
+   "t": "SLB",
+   "n": "SLB",
+   "sector": "Energy",
    "grade": "A-",
-   "score": 87,
+   "score": 88,
    "tier": "top",
-   "note": "Strong Buy; target $1830.83"
+   "note": "Consensus upside 30.8%"
   },
   {
-   "t": "AMAT",
-   "n": "Applied Materials",
-   "sector": "Semi equip",
+   "t": "ZS",
+   "n": "Zscaler",
+   "sector": "Cyber",
    "grade": "A-",
-   "score": 86,
+   "score": 88,
    "tier": "top",
-   "note": "Strong Buy; target $586.63"
+   "note": "Consensus upside 30.9%"
   },
   {
-   "t": "AMD",
-   "n": "Advanced Micro Devices",
+   "t": "TSM",
+   "n": "TSMC",
    "sector": "Semis",
-   "grade": "A-",
-   "score": 85,
+   "grade": "B",
+   "score": 75,
    "tier": "top",
-   "note": "Strong Buy; target $512.27"
-  },
-  {
-   "t": "NOW",
-   "n": "ServiceNow",
-   "sector": "Software",
-   "grade": "A-",
-   "score": 85,
-   "tier": "top",
-   "note": "Strong Buy; target $141.12"
-  },
-  {
-   "t": "VRT",
-   "n": "Vertiv",
-   "sector": "Industrials",
-   "grade": "A-",
-   "score": 84,
-   "tier": "top",
-   "note": "Strong Buy; target $377.00"
+   "note": "Consensus upside 12.22%"
   },
   {
    "t": "AMZN",
    "n": "Amazon",
    "sector": "Consumer",
-   "grade": "A-",
-   "score": 84,
-   "tier": "top",
-   "note": "Strong Buy; target $312.91"
-  },
-  {
-   "t": "COHR",
-   "n": "Coherent",
-   "sector": "Semis",
-   "grade": "B+",
-   "score": 83,
-   "tier": "top",
-   "note": "Buy; target $387.36"
-  },
-  {
-   "t": "MELI",
-   "n": "MercadoLibre",
-   "sector": "Consumer / LatAm",
    "grade": "B+",
    "score": 82,
    "tier": "top",
-   "note": "Buy; target $2208.63"
+   "note": "Consensus upside 26.66%"
   },
   {
-   "t": "ETN",
-   "n": "Eaton",
-   "sector": "Industrials",
+   "t": "XOM",
+   "n": "ExxonMobil",
+   "sector": "Energy",
    "grade": "B+",
-   "score": 81,
+   "score": 82,
    "tier": "top",
-   "note": "Buy; target $455.79"
+   "note": "Consensus upside 22.29%"
+  },
+  {
+   "t": "BWXT",
+   "n": "BWX Technologies",
+   "sector": "Nuclear",
+   "grade": "B+",
+   "score": 82,
+   "tier": "top",
+   "note": "Consensus upside 27.7%"
+  },
+  {
+   "t": "AMAT",
+   "n": "Applied Materials",
+   "sector": "Semis",
+   "grade": "C+",
+   "score": 65,
+   "tier": "top",
+   "note": "Consensus upside 1.55%"
   }
  ],
  "worst": [
-  {
-   "t": "UA",
-   "n": "Under Armour",
-   "sector": "Consumer",
-   "grade": "F",
-   "score": 34,
-   "tier": "worst",
-   "note": "Negative FCF / weak fundamentals or rating"
-  },
-  {
-   "t": "OPEN",
-   "n": "Opendoor",
-   "sector": "Real estate",
-   "grade": "F",
-   "score": 38,
-   "tier": "worst",
-   "note": "Negative FCF / weak fundamentals or rating"
-  },
-  {
-   "t": "HTZ",
-   "n": "Hertz",
-   "sector": "Consumer",
-   "grade": "F",
-   "score": 39,
-   "tier": "worst",
-   "note": "Negative FCF / weak fundamentals or rating"
-  },
-  {
-   "t": "SMR",
-   "n": "NuScale Power",
-   "sector": "Nuclear",
-   "grade": "D",
-   "score": 42,
-   "tier": "worst",
-   "note": "Negative FCF / weak fundamentals or rating"
-  },
   {
    "t": "OSCR",
    "n": "Oscar Health",
    "sector": "Healthcare",
    "grade": "D",
-   "score": 44,
+   "score": 35,
    "tier": "worst",
-   "note": "Negative FCF / weak fundamentals or rating"
+   "note": "Target below price (-28%); Hold; negative net income"
   },
   {
-   "t": "TE",
-   "n": "TerraPower/T1 Energy",
-   "sector": "Renewables",
+   "t": "OPEN",
+   "n": "Opendoor",
+   "sector": "Real Estate",
    "grade": "D",
-   "score": 46,
+   "score": 35,
    "tier": "worst",
-   "note": "Negative FCF / weak fundamentals or rating"
+   "note": "Target below price; deep-loss iBuyer; spec"
+  },
+  {
+   "t": "UA",
+   "n": "Under Armour",
+   "sector": "Consumer",
+   "grade": "C-",
+   "score": 48,
+   "tier": "worst",
+   "note": "No consensus upside; turnaround unproven"
+  },
+  {
+   "t": "HTZ",
+   "n": "Hertz",
+   "sector": "Consumer",
+   "grade": "D",
+   "score": 35,
+   "tier": "worst",
+   "note": "Levered, loss-making; -$637M NI"
+  },
+  {
+   "t": "SMCI",
+   "n": "Super Micro",
+   "sector": "Hardware",
+   "grade": "C-",
+   "score": 48,
+   "tier": "worst",
+   "note": "Volatile; margin/governance overhang despite momentum"
+  },
+  {
+   "t": "PANW",
+   "n": "Palo Alto Networks",
+   "sector": "Cyber",
+   "grade": "C-",
+   "score": 48,
+   "tier": "worst",
+   "note": "Target slipped below price after run \u2014 removed from book"
   }
  ]
 }

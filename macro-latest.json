@@ -1,12 +1,12 @@
 {
- "asof": "2026-07-09",
- "vix": 18.08,
- "y10": 4.58,
- "y2": 4.21,
+ "asof": "2026-07-10",
+ "vix": 16.9,
+ "y10": 4.56,
+ "y2": 4.15,
  "ff": 3.63,
- "spVs200": 8.5,
- "brent": 78.19,
- "note": "Risk-off tilt: oil spike on renewed Iran/Hormuz strikes lifted energy and yields; tech/semis sold off intraweek then stabilized. S&P 7,482.71 (-0.28% Jul 8), Nasdaq +0.2%, Dow -1.09%. Curve positive (10Y 4.58% > 2Y 4.21%).",
+ "spVs200": 8.7,
+ "brent": 76.97,
+ "note": "Risk-on snapback: oil slid (Brent ~$77) as Iran/Hormuz fears eased intraday; semis led (SMH +2.5%, MU +4.5%). S&P 7,543.64 (+0.81% Jul 9), Nasdaq higher, chips reclaimed leadership. Curve positive (10Y 4.56% > 2Y 4.15%); Fed on hold at 3.63% with market pricing a possible hike into year-end.",
  "checklist": [
   false,
   false,
@@ -16,16 +16,17 @@
   false,
   false,
   true,
-  true
+  false
  ],
  "whatsnew": [
-  "Book: ADDED AMD, COHR, AMAT (AI accelerators / optics / semi-equip on fresh bank PT raises); REMOVED UNH (target below price), ENPH and RGTI (weak risk-reward / quantum froth).",
-  "Politician buys: Sen. Sheldon Whitehouse (D-RI) bought Micron (MU ~$1,214) and Coherent (COHR ~$407) on Jun 25 \u2014 corroborates the memory/AI-optics theme.",
-  "Analyst moves: Goldman raised AMD PT to $640 (Meta MI400 ~$60B deal); Morgan Stanley hiked AMAT to $647; Raymond James lifted COHR to $435 (Strong Buy).",
-  "Tape: Energy was the only decisively green sector (+2.4%) as Brent spiked +5% to ~$78 on Iran / Strait of Hormuz; chips rotated down (SMH -3%), VIX back to ~18.",
-  "AI-power/memory still widest upside: MU target +57%, CEG +46%, VST +46%.",
-  "Semi capital rotated into equipment (AMAT/KLAC/LRCX breakouts) over pure designers; AMD now trades slightly above consensus target.",
-  "Recession checklist steady at 2/9 lit (geopolitical shock + AI-leadership distribution).",
-  "Watchlist vs yesterday: curated ideas ADDED COHR, AMAT (dropped CCJ, ETN); new saved-ticker dossiers LYFT, XOM, SLB, JPM \u2014 39 dossiers total."
+  "Book: ADDED GEV (GE Vernova \u2014 grid + gas/nuclear turbines, the AI-power picks-and-shovels play); REMOVED PANW (consensus target slipped below the last close after the run \u2014 negative risk/reward).",
+  "Insider cluster: 5 insiders bought ~$140M of Liberty Latin America (LILA ~$8.90) \u2014 largest new cluster of the week; LatAm cable/telecom value signal.",
+  "Politician buys: Sen. John Fetterman (D-PA) bought regulated utilities NiSource (NI) and Eversource (ES) and sold Cheniere (LNG) \u2014 reinforces the AI-power/grid demand theme.",
+  "Politician buys: Rep. John McGuire (R-VA) bought SpaceX (private) \u2014 corroborates the small-launch/space book (RKLB).",
+  "Tape: risk-on snapback \u2014 S&P +0.81% to 7,543.64, VIX back to 16.9, SMH +2.5% led by MU +4.5% as oil slid; chips reclaimed leadership from energy.",
+  "Analyst upside: biggest implied upside stays AI-cloud/power/memory \u2014 ORCL +74.6%, MU +49.9%, MSFT +45.7%, CEG +42.7%, VST +41.1% to consensus.",
+  "Reverse-DCF: market implies ~26.6% FCF growth for CEG and ~24.3% for ASML (fully priced); FISV (-8.2%) and LULU (-3.1%) imply near-zero growth \u2014 value setups.",
+  "Recession checklist steady at 1/9 lit (geopolitical shock only); curve positive, VIX low, S&P ~8.7% over its 200DMA.",
+  "Watchlist vs yesterday: 34 saved-ticker dossiers (roster unchanged \u2014 none added/dropped); curated ideas refreshed to today's closes; conviction trimmed on OSCR (target now below price) and OPEN (spec)."
  ]
 }
