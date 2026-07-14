@@ -1,197 +1,197 @@
 {
- "asof": "2026-07-10",
- "method": "Composite of consensus upside, analyst rating, FCF/quality and momentum; A=best risk-adjusted, D=avoid. Upside from stockanalysis.com targets vs Jul 9 close.",
+ "asof": "2026-07-14",
+ "method": "Qualitative composite of momentum, theme durability, FCF quality and catalyst flow; letter grade + 0-100 score. Not a recommendation.",
  "names": [
   {
-   "t": "ORCL",
-   "n": "Oracle",
-   "sector": "Tech",
+   "t": "NVDA",
+   "n": "Nvidia",
+   "sector": "AI semis",
    "grade": "A",
-   "score": 92,
+   "score": 93,
    "tier": "top",
-   "note": "Consensus upside 74.63%"
-  },
-  {
-   "t": "MU",
-   "n": "Micron",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 92,
-   "tier": "top",
-   "note": "Consensus upside 49.85%"
+   "note": "AI compute standard; FCF ~$119B."
   },
   {
    "t": "MSFT",
    "n": "Microsoft",
-   "sector": "Tech",
+   "sector": "Software",
    "grade": "A",
-   "score": 92,
+   "score": 91,
    "tier": "top",
-   "note": "Consensus upside 45.68%"
+   "note": "Azure AI + Copilot; durable FCF."
   },
   {
-   "t": "NVDA",
-   "n": "Nvidia",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 92,
+   "t": "GOOGL",
+   "n": "Alphabet",
+   "sector": "Software",
+   "grade": "A-",
+   "score": 89,
    "tier": "top",
-   "note": "Consensus upside 48.74%"
+   "note": "Gemini + TPU; fair multiple."
   },
   {
-   "t": "CEG",
-   "n": "Constellation Energy",
-   "sector": "Utilities",
+   "t": "AAPL",
+   "n": "Apple",
+   "sector": "Consumer/AI",
    "grade": "A-",
    "score": 88,
    "tier": "top",
-   "note": "Consensus upside 42.7%"
-  },
-  {
-   "t": "VST",
-   "n": "Vistra",
-   "sector": "Utilities",
-   "grade": "A-",
-   "score": 88,
-   "tier": "top",
-   "note": "Consensus upside 41.09%"
+   "note": "52-wk high; on-device AI cycle."
   },
   {
    "t": "META",
    "n": "Meta",
-   "sector": "Tech",
+   "sector": "Software",
    "grade": "A-",
    "score": 88,
    "tier": "top",
-   "note": "Consensus upside 31.11%"
+   "note": "Ad AI + cash-rich compute build."
   },
   {
-   "t": "AVGO",
-   "n": "Broadcom",
-   "sector": "Semis",
+   "t": "CEG",
+   "n": "Constellation",
+   "sector": "AI power",
    "grade": "A-",
-   "score": 88,
+   "score": 87,
    "tier": "top",
-   "note": "Consensus upside 30.57%"
+   "note": "Nuclear scarcity; Boozman buy."
   },
   {
-   "t": "SLB",
-   "n": "SLB",
-   "sector": "Energy",
-   "grade": "A-",
-   "score": 88,
+   "t": "GEV",
+   "n": "GE Vernova",
+   "sector": "AI power",
+   "grade": "B+",
+   "score": 85,
    "tier": "top",
-   "note": "Consensus upside 30.8%"
+   "note": "Grid + turbine backlog."
   },
   {
-   "t": "ZS",
-   "n": "Zscaler",
-   "sector": "Cyber",
-   "grade": "A-",
-   "score": 88,
+   "t": "VRT",
+   "n": "Vertiv",
+   "sector": "AI power",
+   "grade": "B+",
+   "score": 84,
    "tier": "top",
-   "note": "Consensus upside 30.9%"
+   "note": "Liquid-cooling picks-and-shovels."
+  },
+  {
+   "t": "AMD",
+   "n": "AMD",
+   "sector": "AI semis",
+   "grade": "B+",
+   "score": 84,
+   "tier": "top",
+   "note": "Goldman PT $640; MI ramp."
   },
   {
    "t": "TSM",
    "n": "TSMC",
-   "sector": "Semis",
-   "grade": "B",
-   "score": 75,
+   "sector": "AI semis",
+   "grade": "A-",
+   "score": 88,
    "tier": "top",
-   "note": "Consensus upside 12.22%"
+   "note": "Leading-edge monopoly; McCaul buy."
   },
   {
-   "t": "AMZN",
-   "n": "Amazon",
-   "sector": "Consumer",
+   "t": "CRWD",
+   "n": "CrowdStrike",
+   "sector": "Cyber",
+   "grade": "B+",
+   "score": 83,
+   "tier": "top",
+   "note": "Platform consolidation."
+  },
+  {
+   "t": "NET",
+   "n": "Cloudflare",
+   "sector": "Cyber",
    "grade": "B+",
    "score": 82,
    "tier": "top",
-   "note": "Consensus upside 26.66%"
+   "note": "Breakout; Scotiabank $300."
   },
   {
-   "t": "XOM",
-   "n": "ExxonMobil",
-   "sector": "Energy",
+   "t": "MELI",
+   "n": "MercadoLibre",
+   "sector": "LatAm",
+   "grade": "B+",
+   "score": 83,
+   "tier": "top",
+   "note": "Commerce+fintech flywheel; cheap on FCF."
+  },
+  {
+   "t": "CCJ",
+   "n": "Cameco",
+   "sector": "Uranium",
    "grade": "B+",
    "score": 82,
    "tier": "top",
-   "note": "Consensus upside 22.29%"
+   "note": "Supply deficit + Westinghouse."
   },
   {
-   "t": "BWXT",
-   "n": "BWX Technologies",
-   "sector": "Nuclear",
+   "t": "VST",
+   "n": "Vistra",
+   "sector": "AI power",
    "grade": "B+",
-   "score": 82,
+   "score": 83,
    "tier": "top",
-   "note": "Consensus upside 27.7%"
-  },
-  {
-   "t": "AMAT",
-   "n": "Applied Materials",
-   "sector": "Semis",
-   "grade": "C+",
-   "score": 65,
-   "tier": "top",
-   "note": "Consensus upside 1.55%"
+   "note": "Merchant power + nuclear."
   }
  ],
  "worst": [
   {
-   "t": "OSCR",
-   "n": "Oscar Health",
-   "sector": "Healthcare",
-   "grade": "D",
-   "score": 35,
+   "t": "MU",
+   "n": "Micron",
+   "sector": "Memory",
+   "grade": "C",
+   "score": 52,
    "tier": "worst",
-   "note": "Target below price (-28%); Hold; negative net income"
+   "note": "SK Hynix warning flags memory oversupply; momentum broke."
   },
   {
-   "t": "OPEN",
-   "n": "Opendoor",
-   "sector": "Real Estate",
-   "grade": "D",
-   "score": 35,
+   "t": "FISV",
+   "n": "Fiserv",
+   "sector": "Fintech",
+   "grade": "C-",
+   "score": 45,
    "tier": "worst",
-   "note": "Target below price; deep-loss iBuyer; spec"
+   "note": "Reverse-DCF implies ~-8% growth; no momentum."
+  },
+  {
+   "t": "LULU",
+   "n": "Lululemon",
+   "sector": "Consumer",
+   "grade": "C-",
+   "score": 44,
+   "tier": "worst",
+   "note": "Growth stall; implied ~-3%."
   },
   {
    "t": "UA",
    "n": "Under Armour",
    "sector": "Consumer",
-   "grade": "C-",
-   "score": 48,
+   "grade": "D",
+   "score": 33,
    "tier": "worst",
-   "note": "No consensus upside; turnaround unproven"
+   "note": "Structural share loss; turnaround unproven."
   },
   {
    "t": "HTZ",
    "n": "Hertz",
-   "sector": "Consumer",
+   "sector": "Autos",
    "grade": "D",
+   "score": 28,
+   "tier": "worst",
+   "note": "Balance-sheet distress; $1.83 penny risk."
+  },
+  {
+   "t": "OPEN",
+   "n": "Opendoor",
+   "sector": "Housing",
+   "grade": "D+",
    "score": 35,
    "tier": "worst",
-   "note": "Levered, loss-making; -$637M NI"
-  },
-  {
-   "t": "SMCI",
-   "n": "Super Micro",
-   "sector": "Hardware",
-   "grade": "C-",
-   "score": 48,
-   "tier": "worst",
-   "note": "Volatile; margin/governance overhang despite momentum"
-  },
-  {
-   "t": "PANW",
-   "n": "Palo Alto Networks",
-   "sector": "Cyber",
-   "grade": "C-",
-   "score": 48,
-   "tier": "worst",
-   "note": "Target slipped below price after run \u2014 removed from book"
+   "note": "Rate-sensitive, cash-burn; speculative."
   }
  ]
 }

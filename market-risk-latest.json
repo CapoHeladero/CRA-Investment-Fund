@@ -1,36 +1,41 @@
 {
- "asof": "2026-07-10",
+ "asof": "2026-07-14",
  "scope": "whole-market",
  "items": [
   {
-   "sev": "med",
-   "title": "Middle East / Strait of Hormuz",
-   "detail": "Renewed US-Iran strikes kept a geopolitical bid under oil; Brent whipsawed ~$73-79 intraweek. De-escalation lowered it Jul 9 but supply risk remains live."
+   "sev": "high",
+   "title": "Iran / Strait of Hormuz escalation",
+   "detail": "Trump reinstated an Iranian shipping blockade Jul 13; Brent +3.7% to ~$78.85. ~20% of global oil/gas transits Hormuz \u2014 sustained disruption is the market's top tail risk and an inflation re-acceleration path."
   },
   {
    "sev": "med",
-   "title": "AI-leadership concentration",
-   "detail": "Index gains still driven by a narrow set of semis/AI names (SMH +2.5% carried the tape). A single guide-down from NVDA/MU/AVGO could reprice the complex."
+   "title": "Memory-chip oversupply",
+   "detail": "SK Hynix -15% on a profit warning dragged MU/STX/SNDK. A memory-cycle rollover would hit the semis complex even as AI-logic holds."
   },
   {
    "sev": "med",
-   "title": "Rates / possible Fed hike",
-   "detail": "10Y 4.56%, futures price ~64% odds of a hike by year-end with fed funds 3.63%. A hawkish surprise pressures long-duration/high-multiple software."
+   "title": "AI-capex concentration",
+   "detail": "Index leadership and earnings growth are concentrated in a handful of AI-capex names; any hyperscaler capex pause would hit NVDA/AVGO/VRT/power names together."
+  },
+  {
+   "sev": "med",
+   "title": "Elevated valuations",
+   "detail": "S&P ~8.3% above its 200DMA with VIX ~17. Little cushion for a growth or geopolitical shock."
+  },
+  {
+   "sev": "med",
+   "title": "Fed on hold with a tightening bias",
+   "detail": "Target 3.50-3.75%, held a 4th straight meeting; July 28-29 expected hold but officials keep the option to hike if inflation persists. Today's cool CPI (3.5%) eases this near-term."
   },
   {
    "sev": "low",
-   "title": "Valuation / thin risk premium",
-   "detail": "S&P ~8.7% above its 200DMA with VIX 16.9 \u2014 complacency leaves little cushion for a shock."
+   "title": "Q2 bank-earnings kickoff",
+   "detail": "JPM, GS, BAC report this week; credit-cost normalization or weak guidance could sour financials sentiment."
   },
   {
    "sev": "low",
-   "title": "Energy-price pass-through",
-   "detail": "Any re-spike in Brent would lift headline inflation and complicate the Fed path, a headwind for consumer and rate-sensitive sectors."
-  },
-  {
-   "sev": "low",
-   "title": "Curve positive but flat",
-   "detail": "10Y-2Y only ~+0.41pp; not inverted, but a flat curve limits margin tailwinds for banks if cuts return."
+   "title": "Low-VIX complacency",
+   "detail": "VIX ~17 into a geopolitical flare-up suggests limited hedging; volatility could gap on Hormuz headlines."
   }
  ]
 }

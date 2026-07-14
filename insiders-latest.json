@@ -1,83 +1,93 @@
 {
- "asof": "2026-07-10",
+ "asof": "2026-07-14",
  "clusters": [
+  {
+   "t": "UUUU",
+   "n": "Energy Fuels",
+   "buyers": 2,
+   "total": 1018700,
+   "buys": 2,
+   "note": "US uranium + rare-earth; new cluster near $13.05 \u2014 reinforces uranium theme."
+  },
   {
    "t": "LILA",
    "n": "Liberty Latin America",
    "buyers": 5,
-   "total": 140345259.0,
+   "total": 140345259,
    "buys": 5,
-   "note": "5 insiders bought ~$140M ~$8.90 (Jun 26) \u2014 largest new cluster of the week; LatAm cable/telecom deep-value"
+   "note": "Largest recent cluster (~$140M) near $8.90; LatAm cable/telecom deep-value signal."
   },
   {
-   "t": "YPF",
-   "n": "YPF Sociedad Anonima",
-   "buyers": 2,
-   "total": 532930.0,
-   "buys": 2,
-   "note": "Argentine integrated energy \u2014 insiders keep adding into the oil bid (Jul 2)"
+   "t": "GLOO",
+   "n": "Gloo",
+   "buyers": 4,
+   "total": 9514464,
+   "buys": 4,
+   "note": "4-insider cluster ~$3.35; small-cap, speculative."
   },
   {
-   "t": "CREX",
-   "n": "Creative Realities",
+   "t": "IPX",
+   "n": "IperionX",
    "buyers": 2,
-   "total": 799999.0,
+   "total": 4949802,
    "buys": 2,
-   "note": "Small-cap digital signage; +29% cluster add (Jun 30) \u2014 speculative"
+   "note": "Titanium/critical-materials cluster ~$3.95."
   }
  ],
  "watchable": [
   {
-   "t": "COE",
-   "n": "51Talk Online Education",
-   "buyers": 1,
-   "total": 23487344.0,
-   "note": "CEO bought ~$23M ~$16.26 (Jun 29) \u2014 single but large insider add"
-  },
-  {
-   "t": "FTECX",
-   "n": "First Trust Enhanced Private Credit",
+   "t": "YPF",
+   "n": "YPF SA",
    "buyers": 2,
-   "total": 1899980.0,
-   "note": "CEF seed/insider adds \u2014 low signal"
+   "total": 532930,
+   "note": "Argentina energy; LatAm reform read-through near $45."
   }
  ],
  "politicians": [
   {
-   "who": "John Fetterman",
-   "party": "D",
-   "t": "NI",
-   "n": "NiSource",
-   "type": "BUY",
-   "size": "1K-15K",
-   "note": "Bought Jun 16 (filed Jul 10) \u2014 regulated utility; AI-power/grid read"
-  },
-  {
-   "who": "John Fetterman",
-   "party": "D",
-   "t": "ES",
-   "n": "Eversource Energy",
-   "type": "BUY",
-   "size": "1K-15K",
-   "note": "Bought Jun 16 \u2014 regulated utility; also sold Cheniere (LNG)"
-  },
-  {
-   "who": "John McGuire",
+   "who": "John Boozman",
    "party": "R",
-   "t": "SPACEX",
+   "t": "CEG",
+   "n": "Constellation Energy",
+   "type": "BUY",
+   "size": "1K-15K",
+   "note": "Nuclear/AI-power @ $253.76 \u2014 corroborates CEG in book."
+  },
+  {
+   "who": "Michael McCaul (spouse)",
+   "party": "R",
+   "t": "TSM",
+   "n": "Taiwan Semiconductor",
+   "type": "BUY",
+   "size": "15K-50K",
+   "note": "Semis @ ~$462 \u2014 corroborates TSM in book."
+  },
+  {
+   "who": "Michael McCaul (spouse)",
+   "party": "R",
+   "t": "MELI",
+   "n": "MercadoLibre",
+   "type": "BUY",
+   "size": "15K-50K",
+   "note": "LatAm @ ~$1,660 \u2014 corroborates MELI in book."
+  },
+  {
+   "who": "John James (spouse)",
+   "party": "R",
+   "t": "SpaceX",
    "n": "SpaceX (private)",
    "type": "BUY",
-   "size": "1K-15K",
-   "note": "Spouse bought Jun 15 \u2014 space theme, corroborates RKLB"
+   "size": "15K-50K",
+   "note": "Space \u2014 read-through to RKLB."
   },
   {
-   "who": "Sheldon Whitehouse",
+   "who": "Rick Larsen",
    "party": "D",
-   "t": "AAPL",
-   "n": "Apple",
-   "type": "SELL",
-   "size": "15K-50K",
-   "note": "Sold ~$293 (Jun 24) \u2014 trimming Apple; had bought MU/COHR prior week"
+   "t": "APH",
+   "n": "Amphenol",
+   "type": "BUY",
+   "size": "1K-15K",
+   "note": "AI connectivity/interconnect @ $158.22 (filed Jul 8)."
   }
  ]
 }

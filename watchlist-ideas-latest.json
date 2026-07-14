@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-10",
+ "asof": "2026-07-14",
  "method": "Curated momentum/quality setups; p=Jul 9 close (stockanalysis.com); buy~4% below close, stop below support by type, sell=analyst target when +4%..+70% upside else ~+18% (spec +30%).",
  "ideas": [
   {
@@ -8,10 +8,10 @@
    "theme": "AI memory / HBM",
    "type": "Momentum",
    "conv": 5,
-   "p": 991.64,
-   "buy": 951.97,
-   "stop": 837.73,
-   "sell": 1486.0,
+   "p": 937.0,
+   "buy": 899.52,
+   "stop": 805.82,
+   "sell": 1143.14,
    "why": "HBM sold out into 2027; memory pricing rising; Whitehouse bought it.",
    "bull": [
     "HBM pricing up",
@@ -26,7 +26,7 @@
     "Eden deep-dive: run MU \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/MU"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "HBM sold out into 2027; memory pricing rising; Whitehouse bought it."
   },
   {
@@ -35,10 +35,10 @@
    "theme": "AI cloud / OCI",
    "type": "Core",
    "conv": 4,
-   "p": 144.22,
-   "buy": 138.45,
-   "stop": 123.22,
-   "sell": 170.18,
+   "p": 131.54,
+   "buy": 126.28,
+   "stop": 115.76,
+   "sell": 155.22,
    "why": "OCI backlog exploding; +75% to consensus.",
    "bull": [
     "OCI sold out",
@@ -53,7 +53,7 @@
     "Eden deep-dive: run ORCL \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/ORCL"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "OCI backlog exploding; +75% to consensus."
   },
   {
@@ -62,10 +62,10 @@
    "theme": "AI software / cloud",
    "type": "Core",
    "conv": 5,
-   "p": 384.36,
-   "buy": 368.99,
-   "stop": 328.4,
-   "sell": 559.93,
+   "p": 390.99,
+   "buy": 375.35,
+   "stop": 344.07,
+   "sell": 461.37,
    "why": "Azure AI + Copilot; ~46% implied upside.",
    "bull": [
     "Azure AI growth",
@@ -80,7 +80,7 @@
     "Eden deep-dive: run MSFT \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/MSFT"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Azure AI + Copilot; ~46% implied upside."
   },
   {
@@ -89,10 +89,10 @@
    "theme": "AI-power / nuclear",
    "type": "Core",
    "conv": 4,
-   "p": 250.74,
-   "buy": 240.71,
-   "stop": 214.23,
-   "sell": 357.81,
+   "p": 257.57,
+   "buy": 247.27,
+   "stop": 226.66,
+   "sell": 303.93,
    "why": "Largest US nuclear fleet; hyperscaler PPAs.",
    "bull": [
     "PPA pricing power",
@@ -107,7 +107,7 @@
     "Eden deep-dive: run CEG \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/CEG"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Largest US nuclear fleet; hyperscaler PPAs."
   },
   {
@@ -116,10 +116,10 @@
    "theme": "AI-power / merchant",
    "type": "Momentum",
    "conv": 5,
-   "p": 157.98,
-   "buy": 151.66,
-   "stop": 133.46,
-   "sell": 222.89,
+   "p": 158.12,
+   "buy": 151.8,
+   "stop": 135.98,
+   "sell": 192.91,
    "why": "Merchant + nuclear power into datacenter demand.",
    "bull": [
     "Datacenter PPAs",
@@ -134,7 +134,7 @@
     "Eden deep-dive: run VST \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/VST"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Merchant + nuclear power into datacenter demand."
   },
   {
@@ -143,10 +143,10 @@
    "theme": "AI-power / grid",
    "type": "Core",
    "conv": 4,
-   "p": 1075.26,
-   "buy": 1032.25,
-   "stop": 918.7,
-   "sell": 1222.63,
+   "p": 1042.6,
+   "buy": 1000.9,
+   "stop": 917.49,
+   "sell": 1230.27,
    "why": "Gas + nuclear turbines and grid gear \u2014 AI-power picks-and-shovels.",
    "bull": [
     "Turbine backlog to 2028",
@@ -161,7 +161,7 @@
     "Eden deep-dive: run GEV \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/GEV"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Gas + nuclear turbines and grid gear \u2014 AI-power picks-and-shovels."
   },
   {
@@ -170,10 +170,10 @@
    "theme": "LatAm e-comm + fintech",
    "type": "Core",
    "conv": 4,
-   "p": 1807.83,
-   "buy": 1735.52,
-   "stop": 1544.61,
-   "sell": 2208.63,
+   "p": 1867.3,
+   "buy": 1792.61,
+   "stop": 1643.22,
+   "sell": 2203.41,
    "why": "LatAm commerce + Mercado Pago fintech.",
    "bull": [
     "Fintech monetization",
@@ -188,7 +188,7 @@
     "Eden deep-dive: run MELI \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/MELI"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "LatAm commerce + Mercado Pago fintech."
   },
   {
@@ -197,10 +197,10 @@
    "theme": "AI advertising",
    "type": "Core",
    "conv": 5,
-   "p": 631.48,
-   "buy": 606.22,
-   "stop": 539.54,
-   "sell": 827.91,
+   "p": 656.73,
+   "buy": 630.46,
+   "stop": 577.92,
+   "sell": 774.94,
    "why": "AI-driven ad efficiency + owned compute.",
    "bull": [
     "AI ad ROI",
@@ -215,7 +215,7 @@
     "Eden deep-dive: run META \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/META"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AI-driven ad efficiency + owned compute."
   },
   {
@@ -224,10 +224,10 @@
    "theme": "Cybersecurity",
    "type": "Momentum",
    "conv": 3,
-   "p": 198.4,
-   "buy": 190.46,
-   "stop": 167.6,
-   "sell": 234.11,
+   "p": 187.91,
+   "buy": 180.39,
+   "stop": 161.6,
+   "sell": 229.25,
    "why": "Falcon platform consolidation; strong ARR.",
    "bull": [
     "Platform consolidation",
@@ -242,7 +242,7 @@
     "Eden deep-dive: run CRWD \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/CRWD"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Falcon platform consolidation; strong ARR."
   },
   {
@@ -251,10 +251,10 @@
    "theme": "Oilfield services",
    "type": "Value",
    "conv": 4,
-   "p": 47.24,
-   "buy": 45.35,
-   "stop": 40.82,
-   "sell": 61.79,
+   "p": 47.36,
+   "buy": 45.47,
+   "stop": 42.15,
+   "sell": 55.88,
    "why": "International/offshore cycle + digital margins; +31% upside.",
    "bull": [
     "Offshore cycle",
@@ -269,7 +269,7 @@
     "Eden deep-dive: run SLB \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/SLB"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "International/offshore cycle + digital margins; +31% upside."
   },
   {
@@ -278,10 +278,10 @@
    "theme": "Streaming",
    "type": "Momentum",
    "conv": 4,
-   "p": 75.47,
-   "buy": 72.45,
-   "stop": 63.76,
-   "sell": 113.15,
+   "p": 73.83,
+   "buy": 70.88,
+   "stop": 63.49,
+   "sell": 90.07,
    "why": "Ads tier + password monetization ramp.",
    "bull": [
     "Ads ramp",
@@ -296,7 +296,7 @@
     "Eden deep-dive: run NFLX \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/NFLX"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Ads tier + password monetization ramp."
   },
   {
@@ -305,10 +305,10 @@
    "theme": "E-comm + AWS AI",
    "type": "Core",
    "conv": 4,
-   "p": 247.04,
-   "buy": 237.16,
-   "stop": 211.07,
-   "sell": 312.91,
+   "p": 247.31,
+   "buy": 237.42,
+   "stop": 217.63,
+   "sell": 291.83,
    "why": "AWS AI reacceleration + retail margins.",
    "bull": [
     "AWS AI growth",
@@ -323,7 +323,7 @@
     "Eden deep-dive: run AMZN \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/AMZN"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AWS AI reacceleration + retail margins."
   }
  ]

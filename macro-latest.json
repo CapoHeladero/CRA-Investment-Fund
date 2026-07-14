@@ -1,12 +1,12 @@
 {
- "asof": "2026-07-10",
+ "asof": "2026-07-14",
  "vix": 16.9,
  "y10": 4.56,
- "y2": 4.15,
+ "y2": 4.21,
  "ff": 3.63,
- "spVs200": 8.7,
- "brent": 76.97,
- "note": "Risk-on snapback: oil slid (Brent ~$77) as Iran/Hormuz fears eased intraday; semis led (SMH +2.5%, MU +4.5%). S&P 7,543.64 (+0.81% Jul 9), Nasdaq higher, chips reclaimed leadership. Curve positive (10Y 4.56% > 2Y 4.15%); Fed on hold at 3.63% with market pricing a possible hike into year-end.",
+ "spVs200": 8.3,
+ "brent": 78.85,
+ "note": "Risk-off start to the week: S&P 7,515.34 (-0.79% Jul 13), Nasdaq 25,873.18 (-1.55%), Dow 52,498.64 (-0.26%) as Trump reinstated an Iran/Hormuz shipping blockade and Brent jumped ~3.7% to ~$78.85. Memory chips led the drop (SK Hynix -15% on a profit warning) while AI-logic names held. BUT June CPI out this morning cooled sharply (headline 3.5% y/y vs 3.8% est; core 2.6%), a dovish offset. Curve positive (10Y 4.56% > 2Y 4.21%); Fed on hold at 3.50-3.75% with a July 28-29 meeting expected to hold. Q2 bank earnings (JPM, GS, BAC) begin today.",
  "checklist": [
   false,
   false,
@@ -19,14 +19,15 @@
   false
  ],
  "whatsnew": [
-  "Book: ADDED GEV (GE Vernova \u2014 grid + gas/nuclear turbines, the AI-power picks-and-shovels play); REMOVED PANW (consensus target slipped below the last close after the run \u2014 negative risk/reward).",
-  "Insider cluster: 5 insiders bought ~$140M of Liberty Latin America (LILA ~$8.90) \u2014 largest new cluster of the week; LatAm cable/telecom value signal.",
-  "Politician buys: Sen. John Fetterman (D-PA) bought regulated utilities NiSource (NI) and Eversource (ES) and sold Cheniere (LNG) \u2014 reinforces the AI-power/grid demand theme.",
-  "Politician buys: Rep. John McGuire (R-VA) bought SpaceX (private) \u2014 corroborates the small-launch/space book (RKLB).",
-  "Tape: risk-on snapback \u2014 S&P +0.81% to 7,543.64, VIX back to 16.9, SMH +2.5% led by MU +4.5% as oil slid; chips reclaimed leadership from energy.",
-  "Analyst upside: biggest implied upside stays AI-cloud/power/memory \u2014 ORCL +74.6%, MU +49.9%, MSFT +45.7%, CEG +42.7%, VST +41.1% to consensus.",
-  "Reverse-DCF: market implies ~26.6% FCF growth for CEG and ~24.3% for ASML (fully priced); FISV (-8.2%) and LULU (-3.1%) imply near-zero growth \u2014 value setups.",
-  "Recession checklist steady at 1/9 lit (geopolitical shock only); curve positive, VIX low, S&P ~8.7% over its 200DMA.",
-  "Watchlist vs yesterday: 34 saved-ticker dossiers (roster unchanged \u2014 none added/dropped); curated ideas refreshed to today's closes; conviction trimmed on OSCR (target now below price) and OPEN (spec)."
+  "Book: ADDED AAPL (52-wk high, Citi PT $365, on-device AI) and GOOGL (Gemini/TPU) as mega-cap AI breakouts; ADDED NET (Cloudflare \u2014 Scotiabank upgrade to $300) and CRWD, rotating cyber out of ZS; ADDED UUUU (Energy Fuels \u2014 insider cluster buy) in uranium.",
+  "Book: REMOVED ZS (rotated to CRWD/NET), COHR (keep ANET for AI networking), KTOS (keep RKLB for space), LEU (rotated to UUUU/CCJ in uranium), and FISV (reverse-DCF implies ~-8% growth \u2014 no momentum).",
+  "Macro: June CPI (released 8:30am ET today) cooled hard \u2014 headline -0.4% m/m, 3.5% y/y vs 3.8% est; core flat, 2.6% y/y. Biggest monthly drop in 6+ years, energy-led. Dovish surprise offsets some geopolitical risk.",
+  "Tape: risk-off Mon Jul 13 \u2014 S&P -0.79% to 7,515.34, Nasdaq -1.55%, on Trump's Iran/Hormuz shipping blockade; Brent +3.7% to ~$78.85. Memory chips crushed (SK Hynix -15% on profit warning; MU/STX/SNDK lower) while AI-logic held.",
+  "Insider cluster: Energy Fuels (UUUU ~$13.05) saw a 2-insider buy this week \u2014 new US-uranium signal; Liberty Latin America (LILA ~$8.90) 5-insider ~$140M cluster still in window.",
+  "Politician buys: Sen. John Boozman (R-AR) bought Constellation (CEG @ $253.76) + a software ETF; Rep. Michael McCaul (spouse) bought TSM (@ $462) and MercadoLibre (MELI ~$1,660) \u2014 corroborates the semis + LatAm book; Rep. John James (spouse) bought SpaceX (private) \u2014 space/RKLB read-through.",
+  "Analyst moves: Goldman lifted AMD to $640; Morgan Stanley KLAC to $274; Citi AAPL to $365; Scotiabank Cloudflare (NET) to $300.",
+  "Reverse-DCF: market implies richest FCF growth for CEG (~27%) and ASML (~24%); FISV (~-8%), LULU (~-3%) and FSLR (~2%) imply near-zero growth \u2014 value screens.",
+  "Recession checklist steady at 1/9 lit (geopolitical shock only); curve positive (10Y 4.56% > 2Y 4.21%), Fed on hold 3.50-3.75%, S&P ~8.3% over its 200DMA.",
+  "Watchlist vs yesterday: 38 saved-ticker dossiers (roster unchanged \u2014 none added/dropped); all levels refreshed to Jul 13 closes; conviction held (OSCR/OPEN remain capped spec)."
  ]
 }

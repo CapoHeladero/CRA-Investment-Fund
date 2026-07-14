@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-10",
+ "asof": "2026-07-14",
  "method": "One dossier per saved watchlist ticker UNION curated ideas; p=Jul 9 close; conviction from analyst rating capped at 3 for negative-NI/story names.",
  "dossiers": {
   "LYFT": {
@@ -8,10 +8,10 @@
    "theme": "Ridesharing",
    "type": "Value",
    "conv": 4,
-   "p": 15.74,
-   "buy": 15.11,
-   "stop": 13.6,
-   "sell": 19.04,
+   "p": 15.67,
+   "buy": 15.04,
+   "stop": 13.95,
+   "sell": 18.49,
    "why": "Profitable ridesharing #2; FCF inflection.",
    "bull": [
     "FCF inflection",
@@ -26,7 +26,7 @@
     "Eden deep-dive: run LYFT \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/LYFT"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Profitable ridesharing #2; FCF inflection."
   },
   "XOM": {
@@ -35,10 +35,10 @@
    "theme": "Integrated oil",
    "type": "Value",
    "conv": 4,
-   "p": 137.46,
-   "buy": 131.96,
-   "stop": 118.76,
-   "sell": 168.1,
+   "p": 144.51,
+   "buy": 138.73,
+   "stop": 128.61,
+   "sell": 170.52,
    "why": "Guyana barrels + buybacks; oil hedge.",
    "bull": [
     "Guyana barrels",
@@ -53,7 +53,7 @@
     "Eden deep-dive: run XOM \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/XOM"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Guyana barrels + buybacks; oil hedge."
   },
   "SLB": {
@@ -62,10 +62,10 @@
    "theme": "Oilfield services",
    "type": "Value",
    "conv": 4,
-   "p": 47.24,
-   "buy": 45.35,
-   "stop": 40.82,
-   "sell": 61.79,
+   "p": 47.36,
+   "buy": 45.47,
+   "stop": 42.15,
+   "sell": 55.88,
    "why": "International/offshore cycle + digital margins; +31% upside.",
    "bull": [
     "Offshore cycle",
@@ -80,7 +80,7 @@
     "Eden deep-dive: run SLB \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/SLB"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "International/offshore cycle + digital margins; +31% upside."
   },
   "JPM": {
@@ -89,10 +89,10 @@
    "theme": "Money-center bank",
    "type": "Core",
    "conv": 4,
-   "p": 335.47,
-   "buy": 322.05,
-   "stop": 286.62,
-   "sell": 351.81,
+   "p": 334.53,
+   "buy": 321.15,
+   "stop": 294.39,
+   "sell": 394.75,
    "why": "Fortress bank; NII + trading strength.",
    "bull": [
     "NII resilience",
@@ -107,7 +107,7 @@
     "Eden deep-dive: run JPM \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/JPM"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Fortress bank; NII + trading strength."
   },
   "NOW": {
@@ -116,10 +116,10 @@
    "theme": "Enterprise AI",
    "type": "Core",
    "conv": 4,
-   "p": 108.84,
-   "buy": 104.49,
-   "stop": 93.0,
-   "sell": 140.73,
+   "p": 111.26,
+   "buy": 106.81,
+   "stop": 97.91,
+   "sell": 131.29,
    "why": "AI workflow; 20%+ cRPO, de-rated.",
    "bull": [
     "Now Assist attach",
@@ -134,7 +134,7 @@
     "Eden deep-dive: run NOW \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/NOW"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AI workflow; 20%+ cRPO, de-rated."
   },
   "MU": {
@@ -143,10 +143,10 @@
    "theme": "AI memory / HBM",
    "type": "Momentum",
    "conv": 5,
-   "p": 991.64,
-   "buy": 951.97,
-   "stop": 837.73,
-   "sell": 1486.0,
+   "p": 937.0,
+   "buy": 899.52,
+   "stop": 805.82,
+   "sell": 1143.14,
    "why": "HBM sold out into 2027; memory pricing rising; Whitehouse bought it.",
    "bull": [
     "HBM pricing up",
@@ -161,7 +161,7 @@
     "Eden deep-dive: run MU \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/MU"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "HBM sold out into 2027; memory pricing rising; Whitehouse bought it."
   },
   "FISV": {
@@ -170,10 +170,10 @@
    "theme": "Payments",
    "type": "Value",
    "conv": 4,
-   "p": 51.65,
-   "buy": 49.58,
-   "stop": 44.62,
-   "sell": 68.48,
+   "p": 51.18,
+   "buy": 49.13,
+   "stop": 45.55,
+   "sell": 60.39,
    "why": "Clover growth; de-rated, insider buying.",
    "bull": [
     "Clover growth",
@@ -188,7 +188,7 @@
     "Eden deep-dive: run FISV \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/FISV"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Clover growth; de-rated, insider buying."
   },
   "SYM": {
@@ -197,10 +197,10 @@
    "theme": "Warehouse automation",
    "type": "Speculative",
    "conv": 3,
-   "p": 43.15,
-   "buy": 41.42,
-   "stop": 33.96,
-   "sell": 65.67,
+   "p": 42.43,
+   "buy": 40.73,
+   "stop": 33.94,
+   "sell": 55.16,
    "why": "Warehouse automation backlog (Walmart).",
    "bull": [
     "Walmart backlog",
@@ -215,7 +215,7 @@
     "Eden deep-dive: run SYM \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/SYM"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Warehouse automation backlog (Walmart)."
   },
   "MSFT": {
@@ -224,10 +224,10 @@
    "theme": "AI software / cloud",
    "type": "Core",
    "conv": 5,
-   "p": 384.36,
-   "buy": 368.99,
-   "stop": 328.4,
-   "sell": 559.93,
+   "p": 390.99,
+   "buy": 375.35,
+   "stop": 344.07,
+   "sell": 461.37,
    "why": "Azure AI + Copilot; ~46% implied upside.",
    "bull": [
     "Azure AI growth",
@@ -242,7 +242,7 @@
     "Eden deep-dive: run MSFT \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/MSFT"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Azure AI + Copilot; ~46% implied upside."
   },
   "MELI": {
@@ -251,10 +251,10 @@
    "theme": "LatAm e-comm + fintech",
    "type": "Core",
    "conv": 4,
-   "p": 1807.83,
-   "buy": 1735.52,
-   "stop": 1544.61,
-   "sell": 2208.63,
+   "p": 1867.3,
+   "buy": 1792.61,
+   "stop": 1643.22,
+   "sell": 2203.41,
    "why": "LatAm commerce + Mercado Pago fintech.",
    "bull": [
     "Fintech monetization",
@@ -269,7 +269,7 @@
     "Eden deep-dive: run MELI \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/MELI"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "LatAm commerce + Mercado Pago fintech."
   },
   "HTZ": {
@@ -278,10 +278,10 @@
    "theme": "Car rental",
    "type": "Speculative",
    "conv": 3,
-   "p": 2.17,
-   "buy": 2.08,
-   "stop": 1.71,
-   "sell": 2.82,
+   "p": 1.83,
+   "buy": 1.76,
+   "stop": 1.46,
+   "sell": 2.38,
    "why": "Levered rental turnaround; loss-making.",
    "bull": [
     "Fleet reset",
@@ -296,7 +296,7 @@
     "Eden deep-dive: run HTZ \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/HTZ"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Levered rental turnaround; loss-making."
   },
   "GS": {
@@ -305,10 +305,10 @@
    "theme": "Investment bank",
    "type": "Core",
    "conv": 4,
-   "p": 1055.97,
-   "buy": 1013.73,
-   "stop": 902.22,
-   "sell": 1246.04,
+   "p": 1045.91,
+   "buy": 1004.07,
+   "stop": 920.4,
+   "sell": 1234.17,
    "why": "IB/trading rebound; target near price \u2014 patience.",
    "bull": [
     "IB rebound",
@@ -323,7 +323,7 @@
     "Eden deep-dive: run GS \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/GS"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "IB/trading rebound; target near price \u2014 patience."
   },
   "FSLR": {
@@ -332,10 +332,10 @@
    "theme": "US solar",
    "type": "Value",
    "conv": 4,
-   "p": 228.5,
-   "buy": 219.36,
-   "stop": 197.42,
-   "sell": 251.26,
+   "p": 221.03,
+   "buy": 212.19,
+   "stop": 196.72,
+   "sell": 260.82,
    "why": "US thin-film; booked to 2029.",
    "bull": [
     "Backlog to 2029",
@@ -350,7 +350,7 @@
     "Eden deep-dive: run FSLR \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/FSLR"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "US thin-film; booked to 2029."
   },
   "ETN": {
@@ -359,10 +359,10 @@
    "theme": "Electrification",
    "type": "Core",
    "conv": 4,
-   "p": 405.83,
-   "buy": 389.6,
-   "stop": 346.74,
-   "sell": 455.79,
+   "p": 402.85,
+   "buy": 386.74,
+   "stop": 354.51,
+   "sell": 475.36,
    "why": "Electrical infra for datacenters + reshoring.",
    "bull": [
     "DC electrical backlog",
@@ -377,7 +377,7 @@
     "Eden deep-dive: run ETN \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/ETN"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Electrical infra for datacenters + reshoring."
   },
   "VST": {
@@ -386,10 +386,10 @@
    "theme": "AI-power / merchant",
    "type": "Momentum",
    "conv": 5,
-   "p": 157.98,
-   "buy": 151.66,
-   "stop": 133.46,
-   "sell": 222.89,
+   "p": 158.12,
+   "buy": 151.8,
+   "stop": 135.98,
+   "sell": 192.91,
    "why": "Merchant + nuclear power into datacenter demand.",
    "bull": [
     "Datacenter PPAs",
@@ -404,7 +404,7 @@
     "Eden deep-dive: run VST \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/VST"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Merchant + nuclear power into datacenter demand."
   },
   "OSCR": {
@@ -413,10 +413,10 @@
    "theme": "Insurtech",
    "type": "Speculative",
    "conv": 3,
-   "p": 31.2,
-   "buy": 29.95,
-   "stop": 24.56,
-   "sell": 40.56,
+   "p": 31.6,
+   "buy": 30.34,
+   "stop": 25.28,
+   "sell": 41.08,
    "why": "Insurtech growth but target below price now.",
    "bull": [
     "Membership growth",
@@ -431,7 +431,7 @@
     "Eden deep-dive: run OSCR \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/OSCR"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Insurtech growth but target below price now."
   },
   "NVDA": {
@@ -440,10 +440,10 @@
    "theme": "AI infra / semis",
    "type": "Core",
    "conv": 5,
-   "p": 202.78,
-   "buy": 194.67,
-   "stop": 173.26,
-   "sell": 301.62,
+   "p": 203.53,
+   "buy": 195.39,
+   "stop": 179.11,
+   "sell": 240.17,
    "why": "AI compute standard; Rubin cycle extends the lead.",
    "bull": [
     "DC capex accelerating",
@@ -458,7 +458,7 @@
     "Eden deep-dive: run NVDA \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/NVDA"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AI compute standard; Rubin cycle extends the lead."
   },
   "NFLX": {
@@ -467,10 +467,10 @@
    "theme": "Streaming",
    "type": "Momentum",
    "conv": 4,
-   "p": 75.47,
-   "buy": 72.45,
-   "stop": 63.76,
-   "sell": 113.15,
+   "p": 73.83,
+   "buy": 70.88,
+   "stop": 63.49,
+   "sell": 90.07,
    "why": "Ads tier + password monetization ramp.",
    "bull": [
     "Ads ramp",
@@ -485,7 +485,7 @@
     "Eden deep-dive: run NFLX \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/NFLX"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Ads tier + password monetization ramp."
   },
   "NCLH": {
@@ -494,10 +494,10 @@
    "theme": "Cruise",
    "type": "Value",
    "conv": 4,
-   "p": 19.76,
-   "buy": 18.97,
-   "stop": 17.07,
-   "sell": 21.64,
+   "p": 19.63,
+   "buy": 18.84,
+   "stop": 17.47,
+   "sell": 23.16,
    "why": "Cruise demand strong; deleveraging.",
    "bull": [
     "Strong bookings",
@@ -512,7 +512,7 @@
     "Eden deep-dive: run NCLH \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/NCLH"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Cruise demand strong; deleveraging."
   },
   "CRWD": {
@@ -521,10 +521,10 @@
    "theme": "Cybersecurity",
    "type": "Momentum",
    "conv": 3,
-   "p": 198.4,
-   "buy": 190.46,
-   "stop": 167.6,
-   "sell": 234.11,
+   "p": 187.91,
+   "buy": 180.39,
+   "stop": 161.6,
+   "sell": 229.25,
    "why": "Falcon platform consolidation; strong ARR.",
    "bull": [
     "Platform consolidation",
@@ -539,7 +539,7 @@
     "Eden deep-dive: run CRWD \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/CRWD"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Falcon platform consolidation; strong ARR."
   },
   "CCJ": {
@@ -548,10 +548,10 @@
    "theme": "Uranium",
    "type": "Core",
    "conv": 4,
-   "p": 95.74,
-   "buy": 91.91,
-   "stop": 81.8,
-   "sell": 132.61,
+   "p": 90.2,
+   "buy": 86.59,
+   "stop": 79.38,
+   "sell": 106.44,
    "why": "Uranium deficit + reactor restarts.",
    "bull": [
     "Supply deficit",
@@ -566,7 +566,7 @@
     "Eden deep-dive: run CCJ \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/CCJ"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Uranium deficit + reactor restarts."
   },
   "VRT": {
@@ -575,10 +575,10 @@
    "theme": "AI datacenter thermal",
    "type": "Momentum",
    "conv": 4,
-   "p": 323.92,
-   "buy": 310.96,
-   "stop": 273.64,
-   "sell": 377.0,
+   "p": 305.87,
+   "buy": 293.64,
+   "stop": 263.05,
+   "sell": 373.16,
    "why": "Liquid cooling for AI datacenters.",
    "bull": [
     "Liquid cooling demand",
@@ -593,7 +593,7 @@
     "Eden deep-dive: run VRT \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/VRT"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Liquid cooling for AI datacenters."
   },
   "SOFI": {
@@ -602,10 +602,10 @@
    "theme": "Fintech",
    "type": "Momentum",
    "conv": 3,
-   "p": 18.62,
-   "buy": 17.88,
-   "stop": 15.73,
-   "sell": 21.1,
+   "p": 18.13,
+   "buy": 17.4,
+   "stop": 15.59,
+   "sell": 22.12,
    "why": "Fintech member growth + bank charter.",
    "bull": [
     "Member growth",
@@ -620,7 +620,7 @@
     "Eden deep-dive: run SOFI \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/SOFI"
    ],
-   "inv": "Momentum setup; levels off Jul 9 close",
+   "inv": "Momentum setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Fintech member growth + bank charter."
   },
   "SMCI": {
@@ -629,10 +629,10 @@
    "theme": "AI servers",
    "type": "Speculative",
    "conv": 3,
-   "p": 28.24,
-   "buy": 27.11,
-   "stop": 22.23,
-   "sell": 37.25,
+   "p": 27.66,
+   "buy": 26.55,
+   "stop": 22.13,
+   "sell": 35.96,
    "why": "AI-server momentum; governance overhang.",
    "bull": [
     "AI-server demand",
@@ -647,7 +647,7 @@
     "Eden deep-dive: run SMCI \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/SMCI"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AI-server momentum; governance overhang."
   },
   "LULU": {
@@ -656,10 +656,10 @@
    "theme": "Athletic apparel",
    "type": "Value",
    "conv": 3,
-   "p": 116.51,
-   "buy": 111.85,
-   "stop": 100.66,
-   "sell": 130.65,
+   "p": 120.3,
+   "buy": 115.49,
+   "stop": 107.07,
+   "sell": 141.95,
    "why": "De-rated; turnaround optionality if comps stabilize.",
    "bull": [
     "De-rate priced in",
@@ -674,7 +674,7 @@
     "Eden deep-dive: run LULU \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/LULU"
    ],
-   "inv": "Value setup; levels off Jul 9 close",
+   "inv": "Value setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "De-rated; turnaround optionality if comps stabilize."
   },
   "UA": {
@@ -683,10 +683,10 @@
    "theme": "Apparel turnaround",
    "type": "Speculative",
    "conv": 3,
-   "p": 6.45,
-   "buy": 6.19,
-   "stop": 5.08,
-   "sell": 8.38,
+   "p": 6.61,
+   "buy": 6.35,
+   "stop": 5.29,
+   "sell": 8.59,
    "why": "Turnaround unproven; spec only.",
    "bull": [
     "Cost cuts",
@@ -701,7 +701,7 @@
     "Eden deep-dive: run UA \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/UA"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Turnaround unproven; spec only."
   },
   "OPEN": {
@@ -710,10 +710,10 @@
    "theme": "iBuyer real estate",
    "type": "Speculative",
    "conv": 3,
-   "p": 5.3,
-   "buy": 5.09,
-   "stop": 4.17,
-   "sell": 6.89,
+   "p": 4.49,
+   "buy": 4.31,
+   "stop": 3.59,
+   "sell": 5.83,
    "why": "iBuyer; deep losses; lottery ticket.",
    "bull": [
     "Housing turnover optionality",
@@ -728,7 +728,7 @@
     "Eden deep-dive: run OPEN \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/OPEN"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "iBuyer; deep losses; lottery ticket."
   },
   "ASML": {
@@ -737,10 +737,10 @@
    "theme": "EUV litho",
    "type": "Core",
    "conv": 5,
-   "p": 1804.25,
-   "buy": 1732.08,
-   "stop": 1541.55,
-   "sell": 2129.01,
+   "p": 1726.04,
+   "buy": 1657.0,
+   "stop": 1518.92,
+   "sell": 2036.73,
    "why": "Sole EUV supplier; backlog into 2028.",
    "bull": [
     "High-NA adoption",
@@ -755,7 +755,7 @@
     "Eden deep-dive: run ASML \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/ASML"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Sole EUV supplier; backlog into 2028."
   },
   "CEG": {
@@ -764,10 +764,10 @@
    "theme": "AI-power / nuclear",
    "type": "Core",
    "conv": 4,
-   "p": 250.74,
-   "buy": 240.71,
-   "stop": 214.23,
-   "sell": 357.81,
+   "p": 257.57,
+   "buy": 247.27,
+   "stop": 226.66,
+   "sell": 303.93,
    "why": "Largest US nuclear fleet; hyperscaler PPAs.",
    "bull": [
     "PPA pricing power",
@@ -782,7 +782,7 @@
     "Eden deep-dive: run CEG \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/CEG"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Largest US nuclear fleet; hyperscaler PPAs."
   },
   "SMR": {
@@ -791,10 +791,10 @@
    "theme": "SMR nuclear",
    "type": "Speculative",
    "conv": 3,
-   "p": 9.03,
-   "buy": 8.67,
-   "stop": 7.11,
-   "sell": 11.74,
+   "p": 8.35,
+   "buy": 8.02,
+   "stop": 6.68,
+   "sell": 10.86,
    "why": "SMR optionality; pre-revenue.",
    "bull": [
     "SMR pipeline",
@@ -809,7 +809,7 @@
     "Eden deep-dive: run SMR \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/SMR"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "SMR optionality; pre-revenue."
   },
   "TE": {
@@ -818,10 +818,10 @@
    "theme": "Solar/energy storage",
    "type": "Speculative",
    "conv": 3,
-   "p": 7.26,
-   "buy": 6.97,
-   "stop": 5.72,
-   "sell": 10.07,
+   "p": 6.55,
+   "buy": 6.29,
+   "stop": 5.24,
+   "sell": 8.52,
    "why": "Solar/storage small-cap; speculative.",
    "bull": [
     "Storage demand",
@@ -836,7 +836,7 @@
     "Eden deep-dive: run TE \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/TE"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Solar/storage small-cap; speculative."
   },
   "CRWV": {
@@ -845,10 +845,10 @@
    "theme": "AI cloud (GPU)",
    "type": "Speculative",
    "conv": 3,
-   "p": 89.7,
-   "buy": 86.11,
-   "stop": 70.61,
-   "sell": 142.29,
+   "p": 83.31,
+   "buy": 79.98,
+   "stop": 66.65,
+   "sell": 108.3,
    "why": "GPU cloud hyper-growth; heavy losses/capex.",
    "bull": [
     "GPU demand",
@@ -863,7 +863,7 @@
     "Eden deep-dive: run CRWV \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/CRWV"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "GPU cloud hyper-growth; heavy losses/capex."
   },
   "APLD": {
@@ -872,10 +872,10 @@
    "theme": "AI datacenter REIT-like",
    "type": "Speculative",
    "conv": 3,
-   "p": 32.29,
-   "buy": 31.0,
-   "stop": 25.42,
-   "sell": 41.98,
+   "p": 28.84,
+   "buy": 27.69,
+   "stop": 23.07,
+   "sell": 37.49,
    "why": "AI datacenter buildout; +127% to target but pre-profit.",
    "bull": [
     "Datacenter leasing",
@@ -890,7 +890,7 @@
     "Eden deep-dive: run APLD \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/APLD"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AI datacenter buildout; +127% to target but pre-profit."
   },
   "NBIS": {
@@ -899,10 +899,10 @@
    "theme": "AI cloud",
    "type": "Speculative",
    "conv": 3,
-   "p": 216.2,
-   "buy": 207.55,
-   "stop": 170.19,
-   "sell": 244.21,
+   "p": 210.51,
+   "buy": 202.09,
+   "stop": 168.41,
+   "sell": 273.66,
    "why": "AI cloud growth; story premium.",
    "bull": [
     "AI cloud growth",
@@ -917,7 +917,7 @@
     "Eden deep-dive: run NBIS \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/NBIS"
    ],
-   "inv": "Speculative setup; levels off Jul 9 close",
+   "inv": "Speculative setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AI cloud growth; story premium."
   },
   "ORCL": {
@@ -926,10 +926,10 @@
    "theme": "AI cloud / OCI",
    "type": "Core",
    "conv": 4,
-   "p": 144.22,
-   "buy": 138.45,
-   "stop": 123.22,
-   "sell": 170.18,
+   "p": 131.54,
+   "buy": 126.28,
+   "stop": 115.76,
+   "sell": 155.22,
    "why": "OCI backlog exploding; +75% to consensus.",
    "bull": [
     "OCI sold out",
@@ -944,7 +944,7 @@
     "Eden deep-dive: run ORCL \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/ORCL"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "OCI backlog exploding; +75% to consensus."
   },
   "GEV": {
@@ -953,10 +953,10 @@
    "theme": "AI-power / grid",
    "type": "Core",
    "conv": 4,
-   "p": 1075.26,
-   "buy": 1032.25,
-   "stop": 918.7,
-   "sell": 1222.63,
+   "p": 1042.6,
+   "buy": 1000.9,
+   "stop": 917.49,
+   "sell": 1230.27,
    "why": "Gas + nuclear turbines and grid gear \u2014 AI-power picks-and-shovels.",
    "bull": [
     "Turbine backlog to 2028",
@@ -971,7 +971,7 @@
     "Eden deep-dive: run GEV \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/GEV"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "Gas + nuclear turbines and grid gear \u2014 AI-power picks-and-shovels."
   },
   "META": {
@@ -980,10 +980,10 @@
    "theme": "AI advertising",
    "type": "Core",
    "conv": 5,
-   "p": 631.48,
-   "buy": 606.22,
-   "stop": 539.54,
-   "sell": 827.91,
+   "p": 656.73,
+   "buy": 630.46,
+   "stop": 577.92,
+   "sell": 774.94,
    "why": "AI-driven ad efficiency + owned compute.",
    "bull": [
     "AI ad ROI",
@@ -998,7 +998,7 @@
     "Eden deep-dive: run META \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/META"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AI-driven ad efficiency + owned compute."
   },
   "AMZN": {
@@ -1007,10 +1007,10 @@
    "theme": "E-comm + AWS AI",
    "type": "Core",
    "conv": 4,
-   "p": 247.04,
-   "buy": 237.16,
-   "stop": 211.07,
-   "sell": 312.91,
+   "p": 247.31,
+   "buy": 237.42,
+   "stop": 217.63,
+   "sell": 291.83,
    "why": "AWS AI reacceleration + retail margins.",
    "bull": [
     "AWS AI growth",
@@ -1025,7 +1025,7 @@
     "Eden deep-dive: run AMZN \u2192 eden-dashboard.streamlit.app",
     "stockanalysis.com/stocks/AMZN"
    ],
-   "inv": "Core setup; levels off Jul 9 close",
+   "inv": "Core setup; levels off 2026-07-14 (Jul 13) close",
    "thesis": "AWS AI reacceleration + retail margins."
   }
  }
