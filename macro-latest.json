@@ -1,12 +1,12 @@
 {
- "asof": "2026-07-14",
- "vix": 16.9,
- "y10": 4.56,
- "y2": 4.21,
+ "asof": "2026-07-16",
+ "vix": 15.67,
+ "y10": 4.57,
+ "y2": 4.14,
  "ff": 3.63,
- "spVs200": 8.3,
- "brent": 78.85,
- "note": "Risk-off start to the week: S&P 7,515.34 (-0.79% Jul 13), Nasdaq 25,873.18 (-1.55%), Dow 52,498.64 (-0.26%) as Trump reinstated an Iran/Hormuz shipping blockade and Brent jumped ~3.7% to ~$78.85. Memory chips led the drop (SK Hynix -15% on a profit warning) while AI-logic names held. BUT June CPI out this morning cooled sharply (headline 3.5% y/y vs 3.8% est; core 2.6%), a dovish offset. Curve positive (10Y 4.56% > 2Y 4.21%); Fed on hold at 3.50-3.75% with a July 28-29 meeting expected to hold. Q2 bank earnings (JPM, GS, BAC) begin today.",
+ "spVs200": 1.3,
+ "brent": 84.95,
+ "note": "Risk-on despite the war tape: S&P 7,572.40 (+0.38% Jul 15), Nasdaq 26,269.23 (+0.62%), Dow 52,658.64 (+0.29%); AAPL record high. June PPI fell 0.3% m/m (gasoline -12%) \u2014 disinflation intact. Two-sided rates: Fed on hold 3.50-3.75% into Jul 28-29, yet some desks price ~60% Sept-hike odds. 10Y 4.57% > 2Y 4.14% (curve positive). Brent ~$84.95 on US-Iran escalation/Hormuz blockade. S&P ~1.3% above its 200DMA (200DMA ~7,472 per investing.com technicals). Memory chips corrected hard (MU -8.5%, WDC -9.8%) on CXMT China IPO; AI-logic and megacaps absorbed it. VIX 15.67 = notable complacency vs headlines.",
  "checklist": [
   false,
   false,
@@ -19,15 +19,14 @@
   false
  ],
  "whatsnew": [
-  "Book: ADDED AAPL (52-wk high, Citi PT $365, on-device AI) and GOOGL (Gemini/TPU) as mega-cap AI breakouts; ADDED NET (Cloudflare \u2014 Scotiabank upgrade to $300) and CRWD, rotating cyber out of ZS; ADDED UUUU (Energy Fuels \u2014 insider cluster buy) in uranium.",
-  "Book: REMOVED ZS (rotated to CRWD/NET), COHR (keep ANET for AI networking), KTOS (keep RKLB for space), LEU (rotated to UUUU/CCJ in uranium), and FISV (reverse-DCF implies ~-8% growth \u2014 no momentum).",
-  "Macro: June CPI (released 8:30am ET today) cooled hard \u2014 headline -0.4% m/m, 3.5% y/y vs 3.8% est; core flat, 2.6% y/y. Biggest monthly drop in 6+ years, energy-led. Dovish surprise offsets some geopolitical risk.",
-  "Tape: risk-off Mon Jul 13 \u2014 S&P -0.79% to 7,515.34, Nasdaq -1.55%, on Trump's Iran/Hormuz shipping blockade; Brent +3.7% to ~$78.85. Memory chips crushed (SK Hynix -15% on profit warning; MU/STX/SNDK lower) while AI-logic held.",
-  "Insider cluster: Energy Fuels (UUUU ~$13.05) saw a 2-insider buy this week \u2014 new US-uranium signal; Liberty Latin America (LILA ~$8.90) 5-insider ~$140M cluster still in window.",
-  "Politician buys: Sen. John Boozman (R-AR) bought Constellation (CEG @ $253.76) + a software ETF; Rep. Michael McCaul (spouse) bought TSM (@ $462) and MercadoLibre (MELI ~$1,660) \u2014 corroborates the semis + LatAm book; Rep. John James (spouse) bought SpaceX (private) \u2014 space/RKLB read-through.",
-  "Analyst moves: Goldman lifted AMD to $640; Morgan Stanley KLAC to $274; Citi AAPL to $365; Scotiabank Cloudflare (NET) to $300.",
-  "Reverse-DCF: market implies richest FCF growth for CEG (~27%) and ASML (~24%); FISV (~-8%), LULU (~-3%) and FSLR (~2%) imply near-zero growth \u2014 value screens.",
-  "Recession checklist steady at 1/9 lit (geopolitical shock only); curve positive (10Y 4.56% > 2Y 4.21%), Fed on hold 3.50-3.75%, S&P ~8.3% over its 200DMA.",
-  "Watchlist vs yesterday: 38 saved-ticker dossiers (roster unchanged \u2014 none added/dropped); all levels refreshed to Jul 13 closes; conviction held (OSCR/OPEN remain capped spec)."
+  "Book: ADDED GS (blowout Q2, +7.7% Jul 14; PT raises to $1,145-1,325), OKTA (+31.6%/month breakout), CAVA (Morgan Stanley upgrade OW $90 + 2-insider cluster), KMX (5-insider $1.27M cluster at $52.67, now 58.94) and EXE (2-insider cluster, nat gas).",
+  "Book: REMOVED IONQ (quantum spec trimmed \u2014 stays in watchlist dossiers), NET (rotated to OKTA on momentum), PLTR (priciest software; flat tape), AMAT (semicap consolidated into ASML after its guidance raise) and TLN (stale quote \u2014 dossier retained).",
+  "Macro: ASML raised 2026 guidance a SECOND time (\u20ac43-45B sales, 54-56% GM) with Q2 \u20ac9.3B/\u20ac2.9B beat; TSMC Q2 prints TODAY (June rev +68% y/y).",
+  "Tape: S&P +0.38% to 7,572.40, Nasdaq +0.62%, AAPL record 327.50 (+4%); but memory wrecked \u2014 MU -8.5%, WDC -9.8%, SNDK -8.9%, Dell -14% on CXMT China-IPO fears and AI-hardware giveback.",
+  "Geopolitics: US reinstated naval blockade of Iranian ports; strikes traded near Strait of Hormuz; Brent ~$84.95 (third straight gain). VIX still only 15.67.",
+  "Insiders: UUUU CEO $968K buy at $13.08; MELI 2-insider $1.19M at $1,646; KMX 5-buyer cluster; ADSK 4-buyer $2.17M; congressional trackers show NVDA/SNOW/MSFT trending.",
+  "Banks: JPM Q2 profit +41% (BofA PT $408); GS +7.7% with street PTs to $1,325; MS raised fair-value targets \u2014 financials joined leadership.",
+  "Fed: on hold 3.50-3.75% into Jul 28-29 FOMC; June PPI -0.3% m/m (cooling), but some desks price ~60% odds of a September HIKE \u2014 two-sided rate risk.",
+  "Watchlist vs yesterday: curated ideas rotated hard to momentum-with-catalysts \u2014 ADDED ASML, GS, JPM, CAVA, KMX, OKTA, AAPL, TSM; DROPPED ORCL, MSFT, GEV, META, CRWD, SLB, NFLX, AMZN (all remain in book/dossiers). Dossiers 38\u219243 (added AAPL, TSM, KMX, CAVA, OKTA; none removed); conviction: GS 4\u21925, MU 5\u21924 (momentum break), rest held."
  ]
 }

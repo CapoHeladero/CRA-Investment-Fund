@@ -1,41 +1,41 @@
 {
- "asof": "2026-07-14",
+ "asof": "2026-07-16",
  "scope": "whole-market",
  "items": [
   {
    "sev": "high",
-   "title": "Iran / Strait of Hormuz escalation",
-   "detail": "Trump reinstated an Iranian shipping blockade Jul 13; Brent +3.7% to ~$78.85. ~20% of global oil/gas transits Hormuz \u2014 sustained disruption is the market's top tail risk and an inflation re-acceleration path."
+   "title": "US-Iran conflict / Strait of Hormuz",
+   "detail": "US reinstated naval blockade of Iranian ports; strikes traded overnight; Iran threatens regional energy exports. Brent ~$84.95, third straight gain. Energy-shock risk to the disinflation story."
+  },
+  {
+   "sev": "high",
+   "title": "Memory-chip correction spreading",
+   "detail": "MU -8.5%, WDC -9.8%, SNDK -8.9%, Dell -14% (Jul 15) on CXMT's planned $8.55B IPO and CoreWeave hedging memory costs. If memory pricing tops, a chunk of 2026 AI earnings-revision fuel goes with it."
   },
   {
    "sev": "med",
-   "title": "Memory-chip oversupply",
-   "detail": "SK Hynix -15% on a profit warning dragged MU/STX/SNDK. A memory-cycle rollover would hit the semis complex even as AI-logic holds."
+   "title": "Two-sided Fed risk into Jul 28-29 FOMC",
+   "detail": "June PPI -0.3% m/m says disinflation; yet some desks price ~60% odds of a September HIKE. Rates 3.50-3.75%, 10Y 4.57%. A hawkish surprise hits long-duration tech hardest."
   },
   {
    "sev": "med",
-   "title": "AI-capex concentration",
-   "detail": "Index leadership and earnings growth are concentrated in a handful of AI-capex names; any hyperscaler capex pause would hit NVDA/AVGO/VRT/power names together."
+   "title": "VIX 15.67 complacency vs war headlines",
+   "detail": "Vol this low while a naval blockade is active leaves the tape unhedged against escalation gaps."
   },
   {
    "sev": "med",
-   "title": "Elevated valuations",
-   "detail": "S&P ~8.3% above its 200DMA with VIX ~17. Little cushion for a growth or geopolitical shock."
-  },
-  {
-   "sev": "med",
-   "title": "Fed on hold with a tightening bias",
-   "detail": "Target 3.50-3.75%, held a 4th straight meeting; July 28-29 expected hold but officials keep the option to hike if inflation persists. Today's cool CPI (3.5%) eases this near-term."
+   "title": "Concentration: Mag-7 + AAPL record high",
+   "detail": "NVDA alone 7.46% of S&P; leadership narrowed again as megacaps absorbed the chip selloff. Breadth beneath (41 small-cap 52wk highs) is selective, not broad."
   },
   {
    "sev": "low",
-   "title": "Q2 bank-earnings kickoff",
-   "detail": "JPM, GS, BAC report this week; credit-cost normalization or weak guidance could sour financials sentiment."
+   "title": "Earnings-season event risk",
+   "detail": "TSMC prints today Jul 16; SLB Jul 17; heavy tech guides ahead. ASML's beat-and-raise set a high bar for semicap."
   },
   {
    "sev": "low",
-   "title": "Low-VIX complacency",
-   "detail": "VIX ~17 into a geopolitical flare-up suggests limited hedging; volatility could gap on Hormuz headlines."
+   "title": "Space/IPO sentiment wobble",
+   "detail": "SpaceX (SPCX) traded below its IPO price for the first time this week \u2014 a sentiment tell for speculative growth supply."
   }
  ]
 }

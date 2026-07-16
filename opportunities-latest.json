@@ -5,26 +5,25 @@
   "theme": "AI infra / semis",
   "type": "Core",
   "size": "~7% of book",
-  "a": "2026-07-14",
-  "why": "The AI compute standard; Blackwell/Rubin ramp on a ~$119B FCF base.",
+  "a": "2026-07-15",
+  "why": "AI compute standard; closed 212.50 (+0.3%) while memory sold off \u2014 logic held.",
   "bull": [
-   "DC capex still accelerating",
-   "CUDA + networking moat",
-   "Rubin cycle extends lead"
+   "$119B TTM FCF; ecosystem moat",
+   "AI-capex supercycle intact; $500B genAI chip revenue projected 2026",
+   "Held firm through the July memory shakeout"
   ],
   "bear": [
-   "Customer-capex concentration",
-   "China export limits",
-   "No room for a miss"
+   "June drawdown ~11% shows crowding risk",
+   "Any hyperscaler capex pause hits hard"
   ],
   "v": [
-   "DC revenue trajectory",
-   "Hyperscaler capex commentary"
+   "Watch hyperscaler capex commentary",
+   "Eden deep-dive: run NVDA \u2192 eden-dashboard.streamlit.app"
   ],
-  "inv": "Own the platform, size for volatility",
-  "entry": 196.41,
-  "stop": 175.04,
-  "target": 258.48
+  "inv": "Q3 guidance",
+  "entry": 205.1,
+  "stop": 182.5,
+  "target": 270.7
  },
  {
   "t": "TSM",
@@ -32,26 +31,25 @@
   "theme": "AI infra / semis",
   "type": "Core",
   "size": "~6% of book",
-  "a": "2026-07-14",
-  "why": "Sole leading-edge foundry; 2nm ramp and pricing power. McCaul (spouse) bought it.",
+  "a": "2026-07-15",
+  "why": "Q2 earnings TODAY (Jul 16); June revenue +68% y/y; closed 419.48.",
   "bull": [
-   "Leading-edge monopoly",
-   "AI/HPC mix lifts margin",
-   "Pricing power"
+   "Sole leading-edge foundry for every AI chip",
+   "Q2 consensus $39.5-40.2B rev, EPS ~$3.83 (+55%)",
+   "Fresh 2-insider buy cluster on file"
   ],
   "bear": [
-   "Taiwan geopolitical risk",
-   "Capex intensity",
-   "FX"
+   "Taiwan geopolitical tail risk",
+   "Earnings-day volatility both ways"
   ],
   "v": [
-   "2nm ramp + utilization",
-   "AI demand commentary"
+   "Read today's Q2 release + H2 guide",
+   "Eden deep-dive: run TSM \u2192 eden-dashboard.streamlit.app"
   ],
-  "inv": "Core AI toll-road",
-  "entry": 406.82,
-  "stop": 362.56,
-  "target": 535.41
+  "inv": "Q2 print today",
+  "entry": 404.8,
+  "stop": 360.3,
+  "target": 534.3
  },
  {
   "t": "AVGO",
@@ -59,26 +57,24 @@
   "theme": "AI infra / semis",
   "type": "Core",
   "size": "~5% of book",
-  "a": "2026-07-14",
-  "why": "Custom-ASIC + networking; hyperscaler XPU pipeline compounding.",
+  "a": "2026-07-15",
+  "why": "Custom-ASIC #2 in AI; 394.28 (+1.3%) on a mixed chip day.",
   "bull": [
-   "Custom-silicon design wins",
-   "Networking share",
-   "Software (VMware) cash"
+   "Hyperscaler custom-silicon pipeline",
+   "Software (VMware) margin ballast",
+   "Named in 'mega bull case' AI trio this week"
   ],
   "bear": [
-   "Customer concentration",
-   "Cyclicality",
-   "Integration"
+   "ASIC orders are lumpy",
+   "Premium multiple"
   ],
   "v": [
-   "ASIC backlog",
-   "AI revenue mix"
+   "Track hyperscaler ASIC award news"
   ],
-  "inv": "Own the ASIC/networking layer",
-  "entry": 370.61,
-  "stop": 330.28,
-  "target": 487.74
+  "inv": "AI rev updates",
+  "entry": 380.5,
+  "stop": 338.6,
+  "target": 502.3
  },
  {
   "t": "MU",
@@ -86,80 +82,50 @@
   "theme": "AI memory / HBM",
   "type": "Momentum",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "HBM sold out into 2027, but memory names hit hard on SK Hynix profit-warning selloff.",
+  "a": "2026-07-15",
+  "why": "-8.5% Jul 15 on CXMT China-IPO fears; fundamentals blowout: $41.46B sales, EPS $25.11, ~$50B next-Q guide.",
   "bull": [
-   "HBM pricing strength",
-   "AI memory demand",
-   "Cycle leverage"
+   "Best-ever demand visibility per mgmt; +184% YTD even after dip",
+   "HBM sold out; guide keeps rising",
+   "Dip = first real entry since May"
   ],
   "bear": [
-   "SK Hynix warning flags memory oversupply",
-   "Cyclical peak-FCF risk",
-   "Capex intensity"
+   "CXMT $8.55B IPO signals China memory push",
+   "CoreWeave hedging memory costs = price-top signal",
+   "Cycle risk: memory peaks end violently"
   ],
   "v": [
-   "HBM pricing/allocation",
-   "DRAM inventory"
+   "Watch HBM contract-price data monthly",
+   "Eden deep-dive: run MU \u2192 eden-dashboard.streamlit.app"
   ],
-  "inv": "Momentum with a wider stop after the selloff",
-  "entry": 899.52,
-  "stop": 796.45,
-  "target": 1264.95
+  "inv": "HBM pricing",
+  "entry": 868.1,
+  "stop": 768.3,
+  "target": 1154.6
  },
  {
   "t": "AMD",
-  "n": "Advanced Micro Devices",
+  "n": "AMD",
   "theme": "AI infra / semis",
   "type": "Momentum",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "MI accelerators + agentic-AI CPU; Goldman lifted target to $640.",
+  "a": "2026-07-15",
+  "why": "-3.6% in chip-sector giveback; MI-series still #2 GPU merchant silicon.",
   "bull": [
-   "Goldman PT $640",
-   "MI/data-center ramp",
-   "Server CPU share gains"
+   "GPU alternative every hyperscaler wants",
+   "Server-CPU share gains continue"
   ],
   "bear": [
-   "Nvidia dominance",
-   "Execution risk",
-   "Rich multiple"
+   "Dragged by China-competition headlines",
+   "Executes behind NVDA on software"
   ],
   "v": [
-   "MI attach + DC guide",
-   "Bank PT revisions"
+   "Track MI shipment/guide commentary"
   ],
-  "inv": "Momentum add on strength",
-  "entry": 513.01,
-  "stop": 454.23,
-  "target": 721.43
- },
- {
-  "t": "AMAT",
-  "n": "Applied Materials",
-  "theme": "Semicap",
-  "type": "Core",
-  "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Front-end equipment leveraged to leading-edge + advanced packaging.",
-  "bull": [
-   "WFE upcycle",
-   "Advanced-packaging demand",
-   "Buybacks"
-  ],
-  "bear": [
-   "China exposure",
-   "Memory-capex swings",
-   "Cyclicality"
-  ],
-  "v": [
-   "WFE guide",
-   "Leading-edge orders"
-  ],
-  "inv": "Own the picks-and-shovels",
-  "entry": 555.25,
-  "stop": 494.84,
-  "target": 730.75
+  "inv": "Data-center rev",
+  "entry": 510.0,
+  "stop": 451.4,
+  "target": 678.3
  },
  {
   "t": "ASML",
@@ -167,26 +133,25 @@
   "theme": "Semicap",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "EUV/High-NA monopoly underpinning every advanced node.",
+  "a": "2026-07-15",
+  "why": "RAISED 2026 guidance 2nd time Jul 15: sales \u20ac43-45B (was \u20ac36-40B), GM 54-56%; Q2 \u20ac9.3B sales, \u20ac2.9B NI; closed 1815.31 (+2.2%).",
   "bull": [
-   "Litho monopoly",
-   "High-NA adoption",
-   "Backlog visibility"
+   "EUV monopoly; guidance raised twice in a year",
+   "AI litho intensity rising every node",
+   "Q2 beat + big raise while sector wobbled"
   ],
   "bear": [
-   "Lumpy orders",
-   "China restrictions",
-   "Rich multiple"
+   "Bookings no longer disclosed quarterly \u2014 less visibility",
+   "China export-control overhang"
   ],
   "v": [
-   "High-NA bookings",
-   "2nm capacity"
+   "Re-read Q2 deck for backlog color",
+   "Eden deep-dive: run ASML \u2192 eden-dashboard.streamlit.app"
   ],
-  "inv": "Structural monopoly, buy pullbacks",
-  "entry": 1665.63,
-  "stop": 1484.39,
-  "target": 2192.07
+  "inv": "2027 framing",
+  "entry": 1751.8,
+  "stop": 1559.1,
+  "target": 2312.4
  },
  {
   "t": "MSFT",
@@ -194,26 +159,23 @@
   "theme": "Software / AI apps",
   "type": "Core",
   "size": "~6% of book",
-  "a": "2026-07-14",
-  "why": "Copilot + Azure AI on a ~$73B FCF base; broadest enterprise AI distribution.",
+  "a": "2026-07-15",
+  "why": "+2.8% to 395.63; mega-cap AI apps leadership on cooling-inflation tape.",
   "bull": [
-   "Azure AI growth",
-   "Copilot monetization",
-   "FCF durability"
+   "Azure AI + Copilot monetization compounding",
+   "$72.9B TTM FCF; fortress balance sheet"
   ],
   "bear": [
-   "Capex drag on FCF",
-   "OpenAI dependence",
-   "Law-of-large-numbers"
+   "Capex burden compresses near-term FCF",
+   "Copilot seat-growth scrutiny"
   ],
   "v": [
-   "Azure growth + backlog",
-   "Capex trajectory"
+   "Azure growth rate next print"
   ],
-  "inv": "Core compounder",
-  "entry": 377.31,
-  "stop": 336.25,
-  "target": 496.56
+  "inv": "FY-Q guidance",
+  "entry": 381.8,
+  "stop": 339.8,
+  "target": 504.0
  },
  {
   "t": "NOW",
@@ -221,53 +183,22 @@
   "theme": "Software / AI apps",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Agentic-AI workflow layer; Pro-Plus attach lifting NRR.",
+  "a": "2026-07-15",
+  "why": "Reverse-DCF implies ~10% growth vs 20%+ actual cRPO \u2014 cheap AI-workflow compounding.",
   "bull": [
-   "Agentic AI attach",
-   "Enterprise workflow moat",
-   "Durable growth"
+   "Agentic-AI workflow leader",
+   "Implied growth well below delivered"
   ],
   "bear": [
-   "Macro IT-budget risk",
-   "Rich multiple",
-   "Seat-based headwind"
+   "Enterprise seat-based model faces AI pricing shift"
   ],
   "v": [
-   "Pro-Plus attach",
-   "cRPO growth"
+   "cRPO growth next print"
   ],
-  "inv": "Own the workflow platform",
-  "entry": 107.37,
-  "stop": 95.68,
-  "target": 141.3
- },
- {
-  "t": "PLTR",
-  "n": "Palantir",
-  "theme": "Software / AI apps",
-  "type": "Momentum",
-  "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "AIP land-and-expand; US-commercial acceleration, but priced for perfection.",
-  "bull": [
-   "AIP commercial ramp",
-   "Gov backlog",
-   "Operating leverage"
-  ],
-  "bear": [
-   "Extreme valuation",
-   "Stock-comp",
-   "Deal lumpiness"
-  ],
-  "v": [
-   "US-commercial growth",
-   "Net-new logos"
-  ],
-  "inv": "Momentum, tight risk",
-  "entry": 124.84,
-  "stop": 110.53,
-  "target": 175.55
+  "inv": "cRPO",
+  "entry": 101.1,
+  "stop": 90.0,
+  "target": 133.5
  },
  {
   "t": "ORCL",
@@ -275,80 +206,47 @@
   "theme": "Software / AI apps",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "OCI capacity sold out; RPO exploding on AI-training demand.",
+  "a": "2026-07-15",
+  "why": "OCI AI-training demand; 132.49 (+small) on tech-led day.",
   "bull": [
-   "OCI backlog surge",
-   "Multicloud DB",
-   "AI-training contracts"
+   "OCI backlog from AI training deals",
+   "DB moat + cloud re-acceleration"
   ],
   "bear": [
-   "Capex/financing strain",
-   "Execution",
-   "Margin dilution"
+   "Capex-heavy AI buildout pressures FCF",
+   "Backlog concentration in few AI customers"
   ],
   "v": [
-   "RPO + OCI capacity",
-   "Capex funding"
+   "RPO trajectory next print"
   ],
-  "inv": "AI-cloud second source",
-  "entry": 126.94,
-  "stop": 113.12,
-  "target": 167.06
- },
- {
-  "t": "ANET",
-  "n": "Arista Networks",
-  "theme": "AI networking",
-  "type": "Core",
-  "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Ethernet-for-AI back-end scale-out; hyperscaler design wins.",
-  "bull": [
-   "AI back-end Ethernet",
-   "Hyperscaler wins",
-   "High margins"
-  ],
-  "bear": [
-   "Customer concentration",
-   "InfiniBand competition",
-   "Cyclicality"
-  ],
-  "v": [
-   "AI cluster orders",
-   "400/800G ramp"
-  ],
-  "inv": "Own AI networking",
-  "entry": 174.81,
-  "stop": 155.79,
-  "target": 230.06
+  "inv": "RPO",
+  "entry": 127.9,
+  "stop": 113.8,
+  "target": 168.8
  },
  {
   "t": "META",
-  "n": "Meta Platforms",
+  "n": "Meta",
   "theme": "Software / AI apps",
   "type": "Core",
   "size": "~5% of book",
-  "a": "2026-07-14",
-  "why": "AI-driven ad engagement funding a massive compute build.",
+  "a": "2026-07-15",
+  "why": "+3.1% to 681.31; ad engine + Llama flywheel.",
   "bull": [
-   "Ad AI-ranking gains",
-   "Reels/engagement",
-   "Llama/open-model reach"
+   "Best-in-class AI ad targeting ROI",
+   "Reels/AI agents monetizing"
   ],
   "bear": [
-   "Reality Labs burn",
-   "Capex surge",
-   "Regulation"
+   "Regulatory overhang both sides of Atlantic",
+   "Metaverse capex drag"
   ],
   "v": [
-   "Ad revenue + capex guide",
-   "AI engagement metrics"
+   "Ad-price growth next print"
   ],
-  "inv": "Cash-rich AI compounder",
-  "entry": 633.74,
-  "stop": 564.79,
-  "target": 834.05
+  "inv": "Ad rev",
+  "entry": 657.5,
+  "stop": 585.2,
+  "target": 867.9
  },
  {
   "t": "GOOGL",
@@ -356,26 +254,47 @@
   "theme": "Software / AI apps",
   "type": "Core",
   "size": "~5% of book",
-  "a": "2026-07-14",
-  "why": "Gemini + Search + Cloud; TPU vertical integration underappreciated.",
+  "a": "2026-07-15",
+  "why": "+3.2% to 370.92; Gemini + TPU vertical stack.",
   "bull": [
-   "Gemini monetization",
-   "Cloud acceleration",
-   "TPU cost edge"
+   "TPU = only credible NVDA alternative at scale",
+   "Search AI-mode monetizing without cannibalizing"
   ],
   "bear": [
-   "Search-disruption fear",
-   "Antitrust",
-   "Capex"
+   "Antitrust remedies pending",
+   "AI answers vs paid-click cannibalization risk"
   ],
   "v": [
-   "Cloud growth",
-   "Search resilience"
+   "Cloud margin next print"
   ],
-  "inv": "Broad AI exposure at a fair multiple",
-  "entry": 340.17,
-  "stop": 303.16,
-  "target": 447.69
+  "inv": "Cloud margin",
+  "entry": 357.9,
+  "stop": 318.5,
+  "target": 472.4
+ },
+ {
+  "t": "ANET",
+  "n": "Arista",
+  "theme": "AI networking",
+  "type": "Core",
+  "size": "~4% of book",
+  "a": "2026-07-15",
+  "why": "AI back-end networking share leader; 171.92 on a mixed tech day.",
+  "bull": [
+   "800G upgrade cycle ahead",
+   "Hyperscaler capex tailwind"
+  ],
+  "bear": [
+   "Whitebox/NVDA Spectrum-X competition",
+   "Customer concentration"
+  ],
+  "v": [
+   "AI-networking rev disclosure"
+  ],
+  "inv": "AI rev",
+  "entry": 165.9,
+  "stop": 147.7,
+  "target": 219.0
  },
  {
   "t": "CRWD",
@@ -383,53 +302,50 @@
   "theme": "Cyber",
   "type": "Momentum",
   "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "Falcon platform consolidation; module attach driving NRR.",
+  "a": "2026-07-15",
+  "why": "206.77; consolidation within cyber leadership.",
   "bull": [
-   "Platform consolidation",
-   "Module attach",
-   "AI-SOC lead"
+   "Platform consolidation winner",
+   "AI-SOC (Charlotte) attach rising"
   ],
   "bear": [
-   "Rich multiple",
-   "Outage-trust overhang",
-   "Competition"
+   "Premium multiple vs peers",
+   "Federal spend timing"
   ],
   "v": [
-   "Net-new ARR",
-   "Module attach"
+   "ARR growth next print"
   ],
-  "inv": "Momentum leader in cyber",
-  "entry": 180.39,
-  "stop": 159.72,
-  "target": 253.68
+  "inv": "ARR",
+  "entry": 199.5,
+  "stop": 176.6,
+  "target": 265.3
  },
  {
-  "t": "NET",
-  "n": "Cloudflare",
-  "theme": "Cyber / AI edge",
+  "t": "OKTA",
+  "n": "Okta",
+  "theme": "Cyber / identity",
   "type": "Momentum",
   "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "Breakout to 52-wk highs; Scotiabank upgrade to $300 on AI-edge/inference.",
+  "a": "2026-07-15",
+  "why": "NEW: +31.6% past month (vs S&P +1.9%) \u2014 identity-security breakout; closed 150.86.",
   "bull": [
-   "AI-inference at edge",
-   "Scotiabank PT $300",
-   "Developer platform"
+   "Strongest 1-month momentum in large-cap software",
+   "Identity = control point for AI-agent security",
+   "Turnaround execution showing in numbers"
   ],
   "bear": [
-   "Valuation",
-   "Margin profile",
-   "Competition"
+   "-2.4% Jul 15 pullback day; extended short-term",
+   "Past breach history still colors the story",
+   "MSFT Entra competition"
   ],
   "v": [
-   "Workers-AI adoption",
-   "Large-customer growth"
+   "Confirm breakout holds on any market dip",
+   "Eden deep-dive: run OKTA \u2192 eden-dashboard.streamlit.app"
   ],
-  "inv": "Momentum breakout",
-  "entry": 258.75,
-  "stop": 229.1,
-  "target": 363.87
+  "inv": "NRR next print",
+  "entry": 145.6,
+  "stop": 128.9,
+  "target": 193.6
  },
  {
   "t": "VST",
@@ -437,80 +353,47 @@
   "theme": "AI power",
   "type": "Momentum",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Merchant power + nuclear leveraged to datacenter demand.",
+  "a": "2026-07-15",
+  "why": "160.23 (+); merchant power + data-center PPAs.",
   "bull": [
-   "Datacenter PPAs",
-   "Nuclear fleet",
-   "Buybacks"
+   "Data-center power deals repricing fleet",
+   "Buyback machine"
   ],
   "bear": [
-   "Power-price volatility",
-   "Rate/hedge risk",
-   "Regulatory"
+   "Merchant power FCF volatile",
+   "Reverse-DCF shows story partly priced"
   ],
   "v": [
-   "Data-center contracts",
-   "Capacity prices"
+   "New PPA announcements"
   ],
-  "inv": "Own the electron",
-  "entry": 151.8,
-  "stop": 134.4,
-  "target": 213.46
+  "inv": "PPAs",
+  "entry": 154.6,
+  "stop": 136.8,
+  "target": 205.6
  },
  {
   "t": "CEG",
-  "n": "Constellation Energy",
+  "n": "Constellation",
   "theme": "AI power / nuclear",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Largest US nuclear fleet; AI PPAs. Sen. Boozman bought it.",
+  "a": "2026-07-15",
+  "why": "257.61; largest US nuclear fleet; hyperscaler PPA pipeline.",
   "bull": [
-   "Nuclear PPAs",
-   "Clean-baseload scarcity",
-   "Boozman buy"
+   "Nuclear PPAs at premium power prices",
+   "DOE $17.5B nuclear supply-chain loan tailwind"
   ],
   "bear": [
-   "Priced for high growth",
-   "Regulatory",
-   "Outage risk"
+   "Reverse-DCF implies ~27% growth \u2014 priced richly",
+   "Regulatory/outage risk"
   ],
   "v": [
-   "PPA signings",
-   "Capacity revenue"
+   "Next hyperscaler PPA print"
   ],
-  "inv": "Scarcity asset for AI power",
-  "entry": 248.56,
-  "stop": 221.51,
-  "target": 327.11
- },
- {
-  "t": "TLN",
-  "n": "Talen Energy",
-  "theme": "AI power / nuclear",
-  "type": "Momentum",
-  "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "Nuclear-adjacent datacenter campus optionality.",
-  "bull": [
-   "Datacenter co-location",
-   "Nuclear baseload",
-   "M&A optionality"
-  ],
-  "bear": [
-   "Single-asset concentration",
-   "Regulatory (behind-meter)",
-   "Volatility"
-  ],
-  "v": [
-   "Co-lo deals",
-   "FERC rulings"
-  ],
-  "inv": "High-beta power play",
-  "entry": 380.5,
-  "stop": 336.9,
-  "target": 535.07
+  "inv": "PPAs",
+  "entry": 248.6,
+  "stop": 221.3,
+  "target": 328.2
  },
  {
   "t": "CCJ",
@@ -518,26 +401,25 @@
   "theme": "Uranium",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Tier-1 uranium + Westinghouse; structural supply deficit.",
+  "a": "2026-07-15",
+  "why": "90.98; Cigar Lake RESUMED production Jul 14 after 2-week mill outage; analyst consensus Buy, avg target 132.07 (+45%).",
   "bull": [
-   "Supply deficit",
-   "Westinghouse stake",
-   "Long-term contracting"
+   "Westinghouse + fuel-cycle vertical integration",
+   "DOE $17.5B loan for 10 AP1000s = demand signal",
+   "Truist initiated Buy $129; RBC raised to C$175"
   ],
   "bear": [
-   "Uranium-price swings",
-   "Production risk",
-   "Sentiment"
+   "Barclays trimmed PT to $104 Equal Weight",
+   "PE ~85 \u2014 priced for uranium bull continuing"
   ],
   "v": [
-   "Contract book",
-   "Spot uranium"
+   "Q2 earnings Jul 31",
+   "Eden deep-dive: run CCJ \u2192 eden-dashboard.streamlit.app"
   ],
-  "inv": "Core uranium exposure",
-  "entry": 87.04,
-  "stop": 77.57,
-  "target": 114.55
+  "inv": "Jul 31 print",
+  "entry": 87.8,
+  "stop": 78.1,
+  "target": 115.9
  },
  {
   "t": "UUUU",
@@ -545,26 +427,23 @@
   "theme": "Uranium / rare earths",
   "type": "Speculative",
   "size": "~2% of book",
-  "a": "2026-07-14",
-  "why": "Insider cluster buy this week; US uranium + rare-earth optionality.",
+  "a": "2026-07-15",
+  "why": "12.67 (-4.2% Jul 15); CEO Ross Bhappu bought $968K at $13.08 on Jul 7 (+41% to his stake) \u2014 2-insider cluster.",
   "bull": [
-   "Insider cluster buy",
-   "US uranium restart",
-   "Rare-earth upside"
+   "CEO buying seven figures with conviction",
+   "Only US integrated uranium + REE play"
   ],
   "bear": [
-   "Pre-scale cash burn",
-   "Commodity beta",
-   "Dilution risk"
+   "Not yet consistently profitable \u2014 sized as spec",
+   "Uranium spot volatility"
   ],
   "v": [
-   "Production restart",
-   "Rare-earth offtake"
+   "Follow Form 4s for more insider adds"
   ],
-  "inv": "Speculative uranium, small size",
-  "entry": 12.4,
-  "stop": 10.44,
-  "target": 19.58
+  "inv": "Insider follow-through",
+  "entry": 12.2,
+  "stop": 10.2,
+  "target": 19.3
  },
  {
   "t": "BWXT",
@@ -572,26 +451,22 @@
   "theme": "Nuclear tech",
   "type": "Core",
   "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "Naval-nuclear monopoly + SMR component tailwind.",
+  "a": "2026-07-15",
+  "why": "178.18; naval reactors + AP1000 supply chain; DOE $17.5B loan program benefits long-lead component makers.",
   "bull": [
-   "Naval-nuclear moat",
-   "SMR components",
-   "Defense backlog"
+   "Sole-source naval nuclear franchise",
+   "SMR/AP1000 component backlog building"
   ],
   "bear": [
-   "Program timing",
-   "Margin mix",
-   "Concentration"
+   "Government contract timing lumpy"
   ],
   "v": [
-   "Backlog + SMR orders",
-   "Navy funding"
+   "Backlog next print"
   ],
-  "inv": "Defensive nuclear compounder",
-  "entry": 170.94,
-  "stop": 152.34,
-  "target": 224.97
+  "inv": "Backlog",
+  "entry": 171.9,
+  "stop": 153.0,
+  "target": 226.9
  },
  {
   "t": "VRT",
@@ -599,26 +474,23 @@
   "theme": "AI power / thermal",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Datacenter power + liquid-cooling picks-and-shovels.",
+  "a": "2026-07-15",
+  "why": "304.57; liquid-cooling attach on every AI datacenter.",
   "bull": [
-   "Liquid-cooling demand",
-   "Backlog growth",
-   "Margin expansion"
+   "Cooling content per rack rising",
+   "Backlog strength"
   ],
   "bear": [
-   "Cyclicality",
-   "Supply-chain",
-   "Rich multiple"
+   "Reverse-DCF ~20% implied \u2014 story priced",
+   "Competition from ETN/nVent"
   ],
   "v": [
-   "Order growth",
-   "Cooling attach"
+   "Orders growth next print"
   ],
-  "inv": "Own datacenter thermal",
-  "entry": 295.16,
-  "stop": 263.05,
-  "target": 388.45
+  "inv": "Orders",
+  "entry": 293.9,
+  "stop": 261.6,
+  "target": 387.9
  },
  {
   "t": "ETN",
@@ -626,26 +498,22 @@
   "theme": "Electrification",
   "type": "Core",
   "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "Electrical infrastructure for datacenters + reshoring.",
+  "a": "2026-07-15",
+  "why": "412.86; grid + datacenter electrical content.",
   "bull": [
-   "Datacenter electrical demand",
-   "Reshoring backlog",
-   "Margin gains"
+   "Multi-year electrification backlog",
+   "Data-center segment compounding"
   ],
   "bear": [
-   "Cyclicality",
-   "Valuation",
-   "Input costs"
+   "Cyclical history at premium multiple"
   ],
   "v": [
-   "Orders + backlog",
-   "DC content"
+   "Backlog/organic growth"
   ],
-  "inv": "Electrification compounder",
-  "entry": 388.75,
-  "stop": 346.45,
-  "target": 511.62
+  "inv": "Organic growth",
+  "entry": 398.4,
+  "stop": 354.6,
+  "target": 525.9
  },
  {
   "t": "GEV",
@@ -653,26 +521,23 @@
   "theme": "AI power / grid",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "Grid + gas/nuclear turbines; the AI-power picks-and-shovels play.",
+  "a": "2026-07-15",
+  "why": "1055.28; gas turbines sold out years out; grid equipment scarcity.",
   "bull": [
-   "Grid-equipment shortage",
-   "Gas-turbine backlog",
-   "Nuclear optionality"
+   "Turbine slots scarce = pricing power",
+   "Electrification supercycle core holding"
   ],
   "bear": [
-   "Execution/warranty",
-   "Cyclicality",
-   "Rich multiple"
+   "Wind segment drag",
+   "Big run already"
   ],
   "v": [
-   "Orders + pricing",
-   "Grid backlog"
+   "Orders/backlog next print"
   ],
-  "inv": "Own AI-power infrastructure",
-  "entry": 1006.11,
-  "stop": 896.64,
-  "target": 1324.1
+  "inv": "Backlog",
+  "entry": 1018.3,
+  "stop": 906.3,
+  "target": 1344.2
  },
  {
   "t": "RKLB",
@@ -680,80 +545,96 @@
   "theme": "Space",
   "type": "Speculative",
   "size": "~2% of book",
-  "a": "2026-07-14",
-  "why": "Neutron cadence + space-systems; SpaceX buys corroborate the theme.",
+  "a": "2026-07-15",
+  "why": "75.72 (-3.9%); Neutron path + launch cadence; note SpaceX (SPCX) fell below IPO price this week \u2014 sector sentiment mixed.",
   "bull": [
-   "Neutron progress",
-   "Space-systems growth",
-   "Launch cadence"
+   "Only credible small/medium-launch #2",
+   "Space-systems rev diversification"
   ],
   "bear": [
-   "Pre-profit",
-   "Launch risk",
-   "Dilution"
+   "Neutron schedule risk",
+   "Sector sentiment soft (SPCX below IPO)"
   ],
   "v": [
-   "Neutron milestones",
-   "Backlog"
+   "Neutron milestone dates"
   ],
-  "inv": "Speculative space, small size",
-  "entry": 72.89,
-  "stop": 61.38,
-  "target": 115.09
+  "inv": "Neutron",
+  "entry": 73.1,
+  "stop": 61.4,
+  "target": 115.5
  },
  {
   "t": "XOM",
-  "n": "Exxon Mobil",
+  "n": "ExxonMobil",
   "theme": "Energy",
   "type": "Value",
   "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "Cheap free-cash energy with an oil risk-premium bid on Hormuz tensions.",
+  "a": "2026-07-15",
+  "why": "144.51; Brent ~$85 on Hormuz blockade \u2014 integrated majors cash-gush at these prices.",
   "bull": [
-   "Hormuz risk-premium",
-   "Low-cost barrels",
-   "Buybacks/dividend"
+   "Hormuz risk premium supports crude",
+   "Guyana barrels lowest-cost growth"
   ],
   "bear": [
-   "Oil-price cyclicality",
-   "Energy-transition",
-   "Capex"
+   "De-escalation would deflate crude fast",
+   "Windfall already reflected in tape"
   ],
   "v": [
-   "FCF + shareholder returns",
-   "Guyana volumes"
+   "Track Strait of Hormuz headlines"
   ],
-  "inv": "Value + geopolitical hedge",
-  "entry": 140.17,
-  "stop": 127.17,
-  "target": 176.3
+  "inv": "Crude tape",
+  "entry": 139.5,
+  "stop": 124.2,
+  "target": 184.1
  },
  {
   "t": "SLB",
-  "n": "Schlumberger",
+  "n": "SLB",
   "theme": "Energy services",
   "type": "Value",
   "size": "~2% of book",
-  "a": "2026-07-14",
-  "why": "Global oilfield-services leader; digital + international upcycle.",
+  "a": "2026-07-15",
+  "why": "47.55; international/offshore cycle; earnings Friday.",
   "bull": [
-   "International upcycle",
-   "Digital margins",
-   "FCF"
+   "International capex cycle multi-year",
+   "Digital segment margin mix"
   ],
   "bear": [
-   "Oil-price beta",
-   "Activity swings",
-   "N.Am softness"
+   "NAM softness",
+   "Oil-price dependency"
   ],
   "v": [
-   "International revenue",
-   "Margin trajectory"
+   "Q2 earnings Jul 17"
   ],
-  "inv": "Value energy-services",
-  "entry": 45.94,
-  "stop": 41.68,
-  "target": 57.78
+  "inv": "Q2 print",
+  "entry": 45.9,
+  "stop": 40.9,
+  "target": 60.6
+ },
+ {
+  "t": "EXE",
+  "n": "Expand Energy",
+  "theme": "Energy / nat gas",
+  "type": "Momentum",
+  "size": "~2% of book",
+  "a": "2026-07-14",
+  "why": "NEW: 2-insider cluster bought ~$561K at ~$93.48; largest US nat-gas producer; last verified close 87.81 (Jul 14).",
+  "bull": [
+   "Insiders buying above market",
+   "LNG export + AI-power gas demand"
+  ],
+  "bear": [
+   "Gas price volatility",
+   "Quote from Jul 14 \u2014 re-check before orders"
+  ],
+  "v": [
+   "Q2 earnings Jul 28",
+   "Eden deep-dive: run EXE \u2192 eden-dashboard.streamlit.app"
+  ],
+  "inv": "Jul 28 print",
+  "entry": 84.7,
+  "stop": 75.0,
+  "target": 112.7
  },
  {
   "t": "JPM",
@@ -761,26 +642,48 @@
   "theme": "Financials",
   "type": "Value",
   "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "Best-in-class bank into Q2 earnings; excess capital + buybacks.",
+  "a": "2026-07-15",
+  "why": "346.91; Q2 profits +41% y/y; BofA PT to $408; multiple Overweight reiterations.",
   "bull": [
-   "NII resilience",
-   "Fortress balance sheet",
-   "Buybacks"
+   "Blowout Q2; scale-tech moat in banking",
+   "Capital-markets rebound accruing"
   ],
   "bear": [
-   "Credit-cost normalization",
-   "Regulatory",
-   "Macro"
+   "Priced near record; rate-cut NII risk"
   ],
   "v": [
-   "Q2 earnings + NII guide",
-   "Credit trends"
+   "NII guidance updates"
   ],
-  "inv": "Own the quality bank",
-  "entry": 324.49,
-  "stop": 294.39,
-  "target": 408.13
+  "inv": "NII guide",
+  "entry": 334.8,
+  "stop": 298.0,
+  "target": 441.9
+ },
+ {
+  "t": "GS",
+  "n": "Goldman Sachs",
+  "theme": "Financials",
+  "type": "Core",
+  "size": "~3% of book",
+  "a": "2026-07-15",
+  "why": "NEW: +7.7% Jul 14 on blowout Q2; PT raises: Barclays $1,245, Wells $1,325, MS $1,145; closed 1152.07.",
+  "bull": [
+   "Deal/underwriting flow accelerating hard",
+   "Street-high targets 8-15% above price",
+   "Earnings momentum best among majors"
+  ],
+  "bear": [
+   "Capital-markets revenue is cyclical",
+   "One-quarter extrapolation risk"
+  ],
+  "v": [
+   "Track ECM/DCM pipeline data",
+   "Eden deep-dive: run GS \u2192 eden-dashboard.streamlit.app"
+  ],
+  "inv": "Pipeline",
+  "entry": 1111.7,
+  "stop": 989.4,
+  "target": 1467.4
  },
  {
   "t": "LLY",
@@ -788,26 +691,23 @@
   "theme": "Healthcare",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "GLP-1 franchise + oral orforglipron optionality.",
+  "a": "2026-07-15",
+  "why": "1156.63; GLP-1 franchise; healthcare was worst sector last week \u2014 quality on sale.",
   "bull": [
-   "Incretin demand",
-   "Oral pipeline",
-   "Pricing power"
+   "Orforglipron oral GLP-1 optionality",
+   "Demand still supply-capped"
   ],
   "bear": [
-   "Competition (NVO)",
-   "Supply constraints",
-   "Valuation"
+   "Sector-wide policy pressure",
+   "CVS/formulary skirmishes"
   ],
   "v": [
-   "Script trends",
-   "Oral data/launch"
+   "Script trends weekly"
   ],
-  "inv": "Core healthcare growth",
-  "entry": 1140.5,
-  "stop": 1016.41,
-  "target": 1500.97
+  "inv": "Scripts",
+  "entry": 1116.1,
+  "stop": 993.3,
+  "target": 1473.3
  },
  {
   "t": "AMZN",
@@ -815,26 +715,23 @@
   "theme": "Consumer / cloud",
   "type": "Core",
   "size": "~5% of book",
-  "a": "2026-07-14",
-  "why": "AWS AI re-acceleration + retail-margin expansion.",
+  "a": "2026-07-15",
+  "why": "+3.0% to 254.96; AWS AI + retail margin story.",
   "bull": [
-   "AWS AI growth",
-   "Retail margin",
-   "Ads + Trainium"
+   "AWS re-acceleration with AI workloads",
+   "Ads compounding at scale"
   ],
   "bear": [
    "Capex intensity",
-   "Consumer softness",
-   "Regulation"
+   "Consumer softness would bite retail"
   ],
   "v": [
-   "AWS growth",
-   "Margin trajectory"
+   "AWS growth next print"
   ],
-  "inv": "Core cloud + consumer",
-  "entry": 238.65,
-  "stop": 212.69,
-  "target": 314.08
+  "inv": "AWS",
+  "entry": 246.0,
+  "stop": 218.9,
+  "target": 324.7
  },
  {
   "t": "MELI",
@@ -842,26 +739,77 @@
   "theme": "Consumer / LatAm",
   "type": "Core",
   "size": "~4% of book",
-  "a": "2026-07-14",
-  "why": "LatAm e-commerce + fintech flywheel. McCaul (spouse) bought it.",
+  "a": "2026-07-15",
+  "why": "1841.50; 2-insider cluster bought ~$1.19M at ~$1,646 (+15% stake) \u2014 rare insider signal in a compounder.",
   "bull": [
-   "Commerce + fintech flywheel",
-   "Credit growth",
-   "McCaul buy"
+   "Insiders buying size into weakness",
+   "LatAm e-comm + fintech duopoly economics"
   ],
   "bear": [
-   "LatAm FX/macro",
-   "Credit risk",
-   "Competition"
+   "FX/Argentina macro swings",
+   "Fintech credit-book risk"
   ],
   "v": [
-   "GMV + credit book",
-   "Take-rate"
+   "Credit-book NPLs next print",
+   "Eden deep-dive: run MELI \u2192 eden-dashboard.streamlit.app"
   ],
-  "inv": "Own LatAm digital",
-  "entry": 1801.94,
-  "stop": 1605.88,
-  "target": 2371.47
+  "inv": "NPLs",
+  "entry": 1777.0,
+  "stop": 1581.5,
+  "target": 2345.6
+ },
+ {
+  "t": "CAVA",
+  "n": "CAVA Group",
+  "theme": "Consumer",
+  "type": "Speculative",
+  "size": "~2% of book",
+  "a": "2026-07-15",
+  "why": "NEW: Morgan Stanley upgraded to Overweight, PT $90 (+29%) Jul 15; 2-insider cluster bought ~$662K at ~$77.83; closed 69.65 (+).",
+  "bull": [
+   "MS upgrade + insider cluster same week",
+   "Unit-growth story with Chipotle-like economics",
+   "Stock de-rated hard \u2014 expectations reset"
+  ],
+  "bear": [
+   "Insiders underwater from $77.83 entry",
+   "Restaurant traffic macro-sensitive",
+   "Still expensive on near-term earnings"
+  ],
+  "v": [
+   "Comp-sales trajectory next print",
+   "Eden deep-dive: run CAVA \u2192 eden-dashboard.streamlit.app"
+  ],
+  "inv": "Comps",
+  "entry": 67.2,
+  "stop": 56.4,
+  "target": 106.2
+ },
+ {
+  "t": "KMX",
+  "n": "CarMax",
+  "theme": "Consumer / value",
+  "type": "Value",
+  "size": "~2% of book",
+  "a": "2026-07-15",
+  "why": "NEW: 5-insider cluster bought ~$1.27M avg ~$52.67 in late June; stock already 58.94 \u2014 insiders early and right.",
+  "bull": [
+   "Biggest insider cluster on the tape (5 buyers)",
+   "Used-car cycle turning with rate relief",
+   "Omnichannel share gains"
+  ],
+  "bear": [
+   "Consumer credit stress in subprime",
+   "EPS still cyclically depressed"
+  ],
+  "v": [
+   "CAF loan-loss trends next print",
+   "Eden deep-dive: run KMX \u2192 eden-dashboard.streamlit.app"
+  ],
+  "inv": "Credit trends",
+  "entry": 56.9,
+  "stop": 50.6,
+  "target": 75.1
  },
  {
   "t": "FSLR",
@@ -869,26 +817,24 @@
   "theme": "Renewables",
   "type": "Momentum",
   "size": "~3% of book",
-  "a": "2026-07-14",
-  "why": "US-made thin-film with IRA tailwinds and full backlog.",
+  "a": "2026-07-15",
+  "why": "223.82; Deutsche Bank flagged forgotten-solar buying opportunity; reverse-DCF implies just ~2% growth vs booked-through-2029 pipeline.",
   "bull": [
-   "Domestic-content premium",
-   "Booked backlog",
-   "Margin"
+   "Bookings visibility through 2029",
+   "IRA domestic-content moat",
+   "Value: near-zero implied growth"
   ],
   "bear": [
-   "Policy risk",
-   "ASP pressure",
-   "Execution"
+   "Policy decision pending flagged by DB",
+   "Module ASP pressure"
   ],
   "v": [
-   "Bookings + ASPs",
-   "Policy news"
+   "Policy ruling watch"
   ],
-  "inv": "Momentum solar",
-  "entry": 212.19,
-  "stop": 187.88,
-  "target": 298.39
+  "inv": "Policy",
+  "entry": 216.0,
+  "stop": 191.2,
+  "target": 287.3
  },
  {
   "t": "AAPL",
@@ -896,52 +842,23 @@
   "theme": "Consumer / AI",
   "type": "Core",
   "size": "~5% of book",
-  "a": "2026-07-14",
-  "why": "52-week high on on-device AI; Citi lifted target to $365.",
+  "a": "2026-07-15",
+  "why": "RECORD HIGH 327.50 (+4.0% Jul 15); on-device AI upgrade cycle thesis playing out.",
   "bull": [
-   "On-device AI cycle",
-   "Services growth",
-   "Citi PT $365"
+   "All-time high on volume \u2014 momentum confirmed",
+   "Services margin compounding",
+   "On-device AI = multi-year upgrade cycle"
   ],
   "bear": [
-   "China demand",
-   "AI-feature lag",
-   "Valuation"
+   "Premium multiple for single-digit growth",
+   "China demand cyclicality"
   ],
   "v": [
-   "iPhone AI upgrade cycle",
-   "Services revenue"
+   "iPhone cycle data monthly"
   ],
-  "inv": "Mega-cap AI re-rating",
-  "entry": 306.2,
-  "stop": 272.89,
-  "target": 402.98
- },
- {
-  "t": "IONQ",
-  "n": "IonQ",
-  "theme": "Quantum",
-  "type": "Speculative",
-  "size": "~2% of book",
-  "a": "2026-07-14",
-  "why": "Trapped-ion quantum leader; long-dated optionality, pre-revenue-scale.",
-  "bull": [
-   "Quantum roadmap",
-   "Gov/enterprise pilots",
-   "First-mover"
-  ],
-  "bear": [
-   "Pre-scale revenue",
-   "Cash burn",
-   "Timeline risk"
-  ],
-  "v": [
-   "Bookings",
-   "Technical milestones"
-  ],
-  "inv": "Speculative quantum, small size",
-  "entry": 36.94,
-  "stop": 31.1,
-  "target": 58.32
+  "inv": "Cycle data",
+  "entry": 316.0,
+  "stop": 281.2,
+  "target": 417.1
  }
 ]
