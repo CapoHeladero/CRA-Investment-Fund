@@ -1,41 +1,41 @@
 {
- "asof": "2026-07-16",
+ "asof": "2026-07-17",
  "scope": "whole-market",
  "items": [
   {
    "sev": "high",
-   "title": "US-Iran conflict / Strait of Hormuz",
-   "detail": "US reinstated naval blockade of Iranian ports; strikes traded overnight; Iran threatens regional energy exports. Brent ~$84.95, third straight gain. Energy-shock risk to the disinflation story."
+   "title": "Semiconductor correction broadening",
+   "detail": "TSMC beat (+77% y/y profit) yet ADRs fell ~5% pre-market on capex-vs-margin worry; memory (SK Hynix, SanDisk) down ~7%; Nasdaq -1.47% Jul 16. AI-hardware carries the index's earnings-revision fuel \u2014 a topping tape there pressures the whole market."
   },
   {
    "sev": "high",
-   "title": "Memory-chip correction spreading",
-   "detail": "MU -8.5%, WDC -9.8%, SNDK -8.9%, Dell -14% (Jul 15) on CXMT's planned $8.55B IPO and CoreWeave hedging memory costs. If memory pricing tops, a chunk of 2026 AI earnings-revision fuel goes with it."
+   "title": "US-Gulf tension / oil",
+   "detail": "Rising Gulf/Iran tension kept Brent ~$84.63 and pressured stocks early. An energy-price shock would threaten the disinflation story into the Jul 28-29 FOMC."
   },
   {
    "sev": "med",
-   "title": "Two-sided Fed risk into Jul 28-29 FOMC",
-   "detail": "June PPI -0.3% m/m says disinflation; yet some desks price ~60% odds of a September HIKE. Rates 3.50-3.75%, 10Y 4.57%. A hawkish surprise hits long-duration tech hardest."
+   "title": "Earnings-reaction risk",
+   "detail": "Netflix fell ~10% pre-market Jul 17 on its print; even beats (TSMC, GS) sold off. Guidance bars are high \u2014 SLB reports today."
   },
   {
    "sev": "med",
-   "title": "VIX 15.67 complacency vs war headlines",
-   "detail": "Vol this low while a naval blockade is active leaves the tape unhedged against escalation gaps."
+   "title": "Narrow leadership / megacap concentration",
+   "detail": "Alphabet -4.6% and the chip basket led lower while defensives (NKE, IBM) held. Breadth is selective; the index leans on a few names."
   },
   {
    "sev": "med",
-   "title": "Concentration: Mag-7 + AAPL record high",
-   "detail": "NVDA alone 7.46% of S&P; leadership narrowed again as megacaps absorbed the chip selloff. Breadth beneath (41 small-cap 52wk highs) is selective, not broad."
+   "title": "Two-sided Fed into Jul 28-29",
+   "detail": "June PPI -0.3% m/m says disinflation, yet some desks still flag hike risk. 10Y ~4.55%, curve positive. A hawkish surprise hits long-duration software hardest."
   },
   {
    "sev": "low",
-   "title": "Earnings-season event risk",
-   "detail": "TSMC prints today Jul 16; SLB Jul 17; heavy tech guides ahead. ASML's beat-and-raise set a high bar for semicap."
+   "title": "VIX low vs headline load",
+   "detail": "VIX 16.31 with a naval-tension backdrop and a heavy earnings week leaves the tape lightly hedged against gap risk."
   },
   {
    "sev": "low",
-   "title": "Space/IPO sentiment wobble",
-   "detail": "SpaceX (SPCX) traded below its IPO price for the first time this week \u2014 a sentiment tell for speculative growth supply."
+   "title": "Story-name froth",
+   "detail": "Speculative AI-power/space/SMR names (SMR, TE, APLD, OPEN, HTZ) remain thin-fundamental and prone to sharp drawdowns if risk appetite fades."
   }
  ]
 }

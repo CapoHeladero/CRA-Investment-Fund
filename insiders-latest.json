@@ -1,136 +1,92 @@
 {
- "asof": "2026-07-16",
+ "asof": "2026-07-17",
  "clusters": [
   {
-   "t": "KMX",
-   "n": "CarMax",
-   "buyers": 5,
-   "total": 1268037.0,
-   "buys": 24074.0,
-   "note": "5 insiders ~$1.27M avg $52.67 late June; stock now 58.94 \u2014 insiders early and right (openinsider)."
-  },
-  {
-   "t": "ADSK",
-   "n": "Autodesk",
-   "buyers": 4,
-   "total": 2165173.0,
-   "buys": 10395.0,
-   "note": "4 insiders ~$2.17M avg $208.29 \u2014 design-software conviction at the money (price 209.30)."
+   "t": "NTSK",
+   "n": "Netskope",
+   "buyers": 2,
+   "total": 7531396.0,
+   "buys": 612798.0,
+   "note": "2 x 10% holders (Iconiq, W. Griffith) ~$3.77M each at $12.29 on Jul 10; last 13.50 \u2014 fresh SASE cluster (openinsider)."
   },
   {
    "t": "GLOO",
    "n": "Gloo Holdings",
    "buyers": 4,
-   "total": 6000000.0,
-   "buys": 1846153.0,
-   "note": "4 buyers incl. Pat Gelsinger ($500K) + CEO Scott Beck ($3.5M) at $3.25 \u2014 small-cap faith-tech, illiquid."
-  },
-  {
-   "t": "MTDR",
-   "n": "Matador Resources",
-   "buyers": 3,
-   "total": 159255.0,
-   "buys": 3000.0,
-   "note": "3 insiders at $53.09 \u2014 modest size, consistent with E&P value."
-  },
-  {
-   "t": "MELI",
-   "n": "MercadoLibre",
-   "buyers": 2,
-   "total": 1193556.0,
-   "buys": 725.0,
-   "note": "2 insiders ~$1.19M at $1,646.28 (+15% stake) \u2014 rare buy signal in a mega-compounder; now 1841.50."
-  },
-  {
-   "t": "CAVA",
-   "n": "CAVA Group",
-   "buyers": 2,
-   "total": 661550.0,
-   "buys": 8500.0,
-   "note": "2 insiders ~$662K at $77.83 (+75% stake chg); MS upgraded next week \u2014 stock 69.65, insiders underwater."
-  },
-  {
-   "t": "EXE",
-   "n": "Expand Energy",
-   "buyers": 2,
-   "total": 560880.0,
-   "buys": 6000.0,
-   "note": "2 insiders ~$561K at $93.48, above the 87.81 tape \u2014 nat-gas conviction."
+   "total": 9051828.0,
+   "buys": 2775729.0,
+   "note": "4 buyers ~$9.05M at $3.26 (Jul 10) incl. a foundation \u2014 micro-cap, speculative signal."
   },
   {
    "t": "UUUU",
    "n": "Energy Fuels",
    "buyers": 2,
-   "total": 967920.0,
-   "buys": 74000.0,
-   "note": "CEO Ross Bhappu $968K at $13.08 Jul 7 (+41% to stake) \u2014 strongest single-name signal this week."
-  },
-  {
-   "t": "TSM",
-   "n": "Taiwan Semiconductor",
-   "buyers": 2,
-   "total": 446580.0,
-   "buys": 6000.0,
-   "note": "2-insider cluster on openinsider at odd unit price ($74.43 \u2014 likely local-share basis); directionally notable into today's Q2 print."
+   "total": 1018700.0,
+   "buys": 78000.0,
+   "note": "2 insiders ~$1.02M at $13.06 (Jul 8); uranium/REE \u2014 repeat insider buying."
   }
  ],
  "watchable": [
   {
-   "t": "NTSK",
-   "n": "Netskope",
+   "t": "IPX",
+   "n": "IperionX",
    "buyers": 2,
-   "total": 14432130.0,
-   "note": "Iconiq entities $7.2M x2 at $11.82 post-IPO \u2014 cyber, watch for follow-through."
+   "total": 4949802.0,
+   "note": "2 buyers ~$4.95M at $3.95 (Jul 10) \u2014 US titanium/critical-metals."
   },
   {
-   "t": "GGAL",
-   "n": "Grupo Galicia",
-   "buyers": 1,
-   "total": 2092470.0,
-   "note": "Director +$2.09M at $5.19 (+18% stake) \u2014 Argentina financials torque."
-  },
-  {
-   "t": "ENR",
-   "n": "Energizer",
-   "buyers": 1,
-   "total": 1642224.0,
-   "note": "10% owner Aqua Capital adding at $20.53."
-  },
-  {
-   "t": "AVO",
-   "n": "Mission Produce",
-   "buyers": 1,
-   "total": 31967762.0,
-   "note": "10% owner bought ~$32M across 3 filings at $12.73-13.41 \u2014 aggressive accumulation."
+   "t": "VIRC",
+   "n": "Virco Mfg",
+   "buyers": 2,
+   "total": 109700.0,
+   "note": "2 insiders ~$110K at $6.05 (Jul 15) \u2014 small-cap furniture."
   }
  ],
  "politicians": [
   {
-   "who": "Quiver trending",
-   "party": "\u2014",
-   "t": "NVDA",
-   "n": "Nvidia",
-   "type": "interest",
-   "size": "n/a",
-   "note": "NVDA, SNOW, MSFT top congressional-trading trackers this week (Quiver)."
-  },
-  {
-   "who": "Nancy Pelosi",
-   "party": "D",
-   "t": "NVDA",
-   "n": "Nvidia",
-   "type": "buy (calls exercised)",
-   "size": "$250K-500K",
-   "note": "Jan 2026 disclosure: exercised 50 NVDA calls (strike $80) into 5,000 sh; also GOOGL + AMZN exercises; trimmed AAPL/NVDA shares \u2014 $69M repositioning."
-  },
-  {
-   "who": "Rep. Lisa McClain",
+   "who": "Kevin Hern",
    "party": "R",
-   "t": "ASML",
-   "n": "ASML",
-   "type": "buy",
-   "size": "1K-15K",
-   "note": "Disclosed Oct 2025 (traded Sep 25) at $949.55 \u2014 dated but corroborates semicap; also AMZN, AAPL buys."
+   "t": "XOM",
+   "n": "Exxon Mobil",
+   "type": "Buy",
+   "size": "$100K-250K",
+   "note": "Joint purchase at $137.09 (Jul 2) \u2014 reinforces energy book."
+  },
+  {
+   "who": "Kevin Hern",
+   "party": "R",
+   "t": "HON",
+   "n": "Honeywell",
+   "type": "Buy",
+   "size": "$15K-50K",
+   "note": "Aerospace buy (Jun 29)."
+  },
+  {
+   "who": "Thomas Kean Jr",
+   "party": "R",
+   "t": "EQT",
+   "n": "EQT Corp",
+   "type": "Buy",
+   "size": "$1K-15K",
+   "note": "Nat-gas buy at $55.26 (Jun 1) \u2014 new book add."
+  },
+  {
+   "who": "Jonathan Jackson",
+   "party": "D",
+   "t": "HLT",
+   "n": "Hilton",
+   "type": "Buy",
+   "size": "$1K-15K",
+   "note": "Spouse buy at $347.11 (Jun 15)."
+  },
+  {
+   "who": "Jonathan Jackson",
+   "party": "D",
+   "t": "MSGE",
+   "n": "MSG Entertainment",
+   "type": "Buy",
+   "size": "$1K-15K",
+   "note": "Spouse buy at $154.38 (Jun 15)."
   }
  ]
 }

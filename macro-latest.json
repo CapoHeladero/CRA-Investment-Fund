@@ -1,12 +1,12 @@
 {
- "asof": "2026-07-16",
- "vix": 15.67,
- "y10": 4.57,
+ "asof": "2026-07-17",
+ "vix": 16.31,
+ "y10": 4.55,
  "y2": 4.14,
  "ff": 3.63,
- "spVs200": 1.3,
- "brent": 84.95,
- "note": "Risk-on despite the war tape: S&P 7,572.40 (+0.38% Jul 15), Nasdaq 26,269.23 (+0.62%), Dow 52,658.64 (+0.29%); AAPL record high. June PPI fell 0.3% m/m (gasoline -12%) \u2014 disinflation intact. Two-sided rates: Fed on hold 3.50-3.75% into Jul 28-29, yet some desks price ~60% Sept-hike odds. 10Y 4.57% > 2Y 4.14% (curve positive). Brent ~$84.95 on US-Iran escalation/Hormuz blockade. S&P ~1.3% above its 200DMA (200DMA ~7,472 per investing.com technicals). Memory chips corrected hard (MU -8.5%, WDC -9.8%) on CXMT China IPO; AI-logic and megacaps absorbed it. VIX 15.67 = notable complacency vs headlines.",
+ "spVs200": 0.83,
+ "brent": 84.63,
+ "note": "Risk-off tilt: S&P 7,533.77 (-0.51% Jul 16), Nasdaq 25,881.95 (-1.47%), Dow 52,552.97 (-0.20%). Semis led the drop \u2014 Alphabet -4.64%, Caterpillar -4.15%, and Goldman gave back -5.02% after its blowout print. TSMC beat big (EPS NT$27.25, rev +36% y/y, profit +77%) but ADRs fell ~5% pre-market on capex-vs-margin worry; memory stayed weak (SK Hynix, SanDisk -7%). Fed on hold 3.50-3.75% into Jul 28-29. 10Y ~4.55% > 2Y ~4.14% (curve positive). Brent ~$84.63 on Gulf tension. S&P ~0.83% above its 200DMA (~7,472). VIX 16.31 (+4%) \u2014 still low vs the war/earnings tape. Netflix fell ~10% pre-market Jul 17 on earnings; SLB reports today.",
  "checklist": [
   false,
   false,
@@ -19,14 +19,14 @@
   false
  ],
  "whatsnew": [
-  "Book: ADDED GS (blowout Q2, +7.7% Jul 14; PT raises to $1,145-1,325), OKTA (+31.6%/month breakout), CAVA (Morgan Stanley upgrade OW $90 + 2-insider cluster), KMX (5-insider $1.27M cluster at $52.67, now 58.94) and EXE (2-insider cluster, nat gas).",
-  "Book: REMOVED IONQ (quantum spec trimmed \u2014 stays in watchlist dossiers), NET (rotated to OKTA on momentum), PLTR (priciest software; flat tape), AMAT (semicap consolidated into ASML after its guidance raise) and TLN (stale quote \u2014 dossier retained).",
-  "Macro: ASML raised 2026 guidance a SECOND time (\u20ac43-45B sales, 54-56% GM) with Q2 \u20ac9.3B/\u20ac2.9B beat; TSMC Q2 prints TODAY (June rev +68% y/y).",
-  "Tape: S&P +0.38% to 7,572.40, Nasdaq +0.62%, AAPL record 327.50 (+4%); but memory wrecked \u2014 MU -8.5%, WDC -9.8%, SNDK -8.9%, Dell -14% on CXMT China-IPO fears and AI-hardware giveback.",
-  "Geopolitics: US reinstated naval blockade of Iranian ports; strikes traded near Strait of Hormuz; Brent ~$84.95 (third straight gain). VIX still only 15.67.",
-  "Insiders: UUUU CEO $968K buy at $13.08; MELI 2-insider $1.19M at $1,646; KMX 5-buyer cluster; ADSK 4-buyer $2.17M; congressional trackers show NVDA/SNOW/MSFT trending.",
-  "Banks: JPM Q2 profit +41% (BofA PT $408); GS +7.7% with street PTs to $1,325; MS raised fair-value targets \u2014 financials joined leadership.",
-  "Fed: on hold 3.50-3.75% into Jul 28-29 FOMC; June PPI -0.3% m/m (cooling), but some desks price ~60% odds of a September HIKE \u2014 two-sided rate risk.",
-  "Watchlist vs yesterday: curated ideas rotated hard to momentum-with-catalysts \u2014 ADDED ASML, GS, JPM, CAVA, KMX, OKTA, AAPL, TSM; DROPPED ORCL, MSFT, GEV, META, CRWD, SLB, NFLX, AMZN (all remain in book/dossiers). Dossiers 38\u219243 (added AAPL, TSM, KMX, CAVA, OKTA; none removed); conviction: GS 4\u21925, MU 5\u21924 (momentum break), rest held."
+  "Book: ADDED NTSK (Netskope \u2014 2-buyer 10% insider cluster ~$3.77M each at $12.29) and EQT (Rep. Kean Jr buy; AI-power nat-gas demand).",
+  "Book: REMOVED ORCL (weak software, flat tape) and EXE (consolidated nat-gas exposure into EQT after the congressional buy).",
+  "Tape: broad risk-off \u2014 S&P -0.51% to 7,533.77, Nasdaq -1.47%; chips led lower (Alphabet -4.6%, CAT -4.2%), GS gave back -5% after its beat.",
+  "Semis: TSMC beat (profit +77% y/y) but ADR -5% pre-market on capex-margin worry; memory (SK Hynix, SanDisk) down ~7% \u2014 the correction persists.",
+  "Earnings: Netflix -~10% pre-market Jul 17 on its print (now ~$74 vs 52w high $128); SLB reports today Jul 17.",
+  "Analysts: OKTA upgraded OW to $171 (Capital One), PANW OW to $421, BlackRock OW to $1,364 (JPMorgan), Flex Buy to $150; AEP downgraded to Neutral at Goldman.",
+  "Insiders/Congress: NTSK 2-buyer cluster ~$7.5M; UUUU repeat insider buys; Rep. Hern bought XOM ($100-250K) + Honeywell; Rep. Kean Jr bought EQT; Rep. Jackson bought HLT/MSGE.",
+  "Fed/rates: on hold 3.50-3.75% into Jul 28-29; 10Y eased to ~4.55%; curve still positive; Brent ~$84.63 on Gulf tension.",
+  "Watchlist vs yesterday: 46 dossiers (34 saved tickers + 12 curated). Curated ideas \u2014 kept OKTA, CAVA, KMX, ASML, VST, CEG, MELI; ADDED ANET, BWXT, GEV, EQT, NTSK; DROPPED GS, JPM, AAPL, TSM, MU (all still in the book). Conviction: NFLX cut to 2 (earnings -10%), MU held 3, GS held 4."
  ]
 }

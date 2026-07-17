@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-16",
+ "asof": "2026-07-17",
  "method": "Qualitative composite of momentum, theme durability, FCF quality and catalyst flow; letter grade + 0-100 score. Not a recommendation.",
  "names": [
   {
@@ -9,7 +9,16 @@
    "grade": "A",
    "score": 93.0,
    "tier": "top",
-   "note": "AI compute standard; held +0.3% through memory rout."
+   "note": "Held better than memory through the Jul 16 chip slide."
+  },
+  {
+   "t": "ASML",
+   "n": "ASML",
+   "sector": "Semicap",
+   "grade": "A",
+   "score": 92.0,
+   "tier": "top",
+   "note": "Guidance raised 2nd time (\u20ac43-45B); best-supported implied path."
   },
   {
    "t": "MSFT",
@@ -18,180 +27,162 @@
    "grade": "A",
    "score": 91.0,
    "tier": "top",
-   "note": "+2.8% Jul 15; Azure AI + Copilot; durable FCF."
+   "note": "Azure AI + Copilot; durable $73B FCF."
   },
   {
-   "t": "ASML",
-   "n": "ASML",
-   "sector": "Semicap",
-   "grade": "A",
-   "score": 91.0,
-   "tier": "top",
-   "note": "2026 guidance raised 2nd time: \u20ac43-45B sales, 54-56% GM."
-  },
-  {
-   "t": "AAPL",
-   "n": "Apple",
-   "sector": "Consumer/AI",
-   "grade": "A-",
-   "score": 90.0,
-   "tier": "top",
-   "note": "Record high 327.50 (+4.0%); on-device AI cycle confirmed."
-  },
-  {
-   "t": "GOOGL",
-   "n": "Alphabet",
-   "sector": "Software",
+   "t": "AVGO",
+   "n": "Broadcom",
+   "sector": "AI semis",
    "grade": "A-",
    "score": 89.0,
    "tier": "top",
-   "note": "+3.2%; Gemini + TPU vertical stack."
+   "note": "Custom-silicon + VMware software ballast."
   },
   {
-   "t": "GS",
-   "n": "Goldman Sachs",
-   "sector": "Financials",
+   "t": "GEV",
+   "n": "GE Vernova",
+   "sector": "Power",
    "grade": "A-",
    "score": 88.0,
    "tier": "top",
-   "note": "Blowout Q2 (+7.7% Jul 14); Wells PT $1,325."
+   "note": "Grid + turbine backlog for AI power."
   },
   {
-   "t": "TSM",
-   "n": "TSMC",
-   "sector": "AI semis",
-   "grade": "A-",
-   "score": 88.0,
-   "tier": "top",
-   "note": "June rev +68% y/y; Q2 print today."
-  },
-  {
-   "t": "META",
-   "n": "Meta",
-   "sector": "Software",
+   "t": "CEG",
+   "n": "Constellation",
+   "sector": "Nuclear",
    "grade": "A-",
    "score": 87.0,
    "tier": "top",
-   "note": "+3.1%; AI ad engine compounding."
+   "note": "Baseload scarcity; PPAs to hyperscalers."
   },
   {
-   "t": "JPM",
-   "n": "JPMorgan",
-   "sector": "Financials",
-   "grade": "B+",
-   "score": 85.0,
+   "t": "LLY",
+   "n": "Eli Lilly",
+   "sector": "Healthcare",
+   "grade": "A-",
+   "score": 87.0,
    "tier": "top",
-   "note": "Q2 profit +41%; BofA PT $408."
-  },
-  {
-   "t": "CCJ",
-   "n": "Cameco",
-   "sector": "Uranium",
-   "grade": "B+",
-   "score": 84.0,
-   "tier": "top",
-   "note": "Cigar Lake resumed; consensus target 132.07 (+45%)."
+   "note": "GLP-1 franchise + oral pipeline."
   },
   {
    "t": "OKTA",
    "n": "Okta",
    "sector": "Cyber",
    "grade": "B+",
-   "score": 83.0,
+   "score": 85.0,
    "tier": "top",
-   "note": "+31.6% past month \u2014 cleanest software breakout."
+   "note": "Capital One upgrade OW $171; momentum breakout."
   },
   {
-   "t": "GEV",
-   "n": "GE Vernova",
-   "sector": "AI power",
+   "t": "JPM",
+   "n": "JPMorgan",
+   "sector": "Financials",
+   "grade": "B+",
+   "score": 84.0,
+   "tier": "top",
+   "note": "Q2 profit +41%; fortress balance sheet."
+  },
+  {
+   "t": "CAVA",
+   "n": "CAVA",
+   "sector": "Consumer",
    "grade": "B+",
    "score": 83.0,
    "tier": "top",
-   "note": "Turbine scarcity; grid supercycle."
+   "note": "MS upgrade OW $90 + insider cluster."
   },
   {
-   "t": "MELI",
-   "n": "MercadoLibre",
-   "sector": "Consumer/LatAm",
+   "t": "ANET",
+   "n": "Arista",
+   "sector": "AI networking",
+   "grade": "B+",
+   "score": 83.0,
+   "tier": "top",
+   "note": "AI-cluster Ethernet share gains."
+  },
+  {
+   "t": "VST",
+   "n": "Vistra",
+   "sector": "Power",
    "grade": "B+",
    "score": 82.0,
    "tier": "top",
-   "note": "Insider cluster at $1,646; LatAm duopoly."
+   "note": "AI-power demand; buybacks."
   },
   {
    "t": "AMZN",
    "n": "Amazon",
-   "sector": "Consumer/cloud",
+   "sector": "Cloud/consumer",
    "grade": "B+",
    "score": 82.0,
    "tier": "top",
-   "note": "+3.0%; AWS AI reacceleration."
+   "note": "AWS reaccel + ads leverage."
   },
   {
-   "t": "KMX",
-   "n": "CarMax",
-   "sector": "Consumer",
+   "t": "CCJ",
+   "n": "Cameco",
+   "sector": "Uranium",
    "grade": "B",
-   "score": 78.0,
+   "score": 80.0,
    "tier": "top",
-   "note": "5-insider cluster; cycle-turn value."
+   "note": "Uranium deficit + contracting cycle."
   }
  ],
  "worst": [
+  {
+   "t": "NFLX",
+   "n": "Netflix",
+   "sector": "Streaming",
+   "grade": "C-",
+   "score": 42.0,
+   "tier": "worst",
+   "note": "-~10% pre-market on earnings; downtrend from 52w high $128."
+  },
+  {
+   "t": "HTZ",
+   "n": "Hertz",
+   "sector": "Autos",
+   "grade": "D",
+   "score": 28.0,
+   "tier": "worst",
+   "note": "~$1.87; negative FCF, dilution risk \u2014 story name."
+  },
+  {
+   "t": "OPEN",
+   "n": "Opendoor",
+   "sector": "RE tech",
+   "grade": "D+",
+   "score": 34.0,
+   "tier": "worst",
+   "note": "Unprofitable iBuyer; housing-cycle risk."
+  },
+  {
+   "t": "UA",
+   "n": "Under Armour",
+   "sector": "Consumer",
+   "grade": "D+",
+   "score": 36.0,
+   "tier": "worst",
+   "note": "Weak revenue trend; turnaround unproven."
+  },
+  {
+   "t": "OSCR",
+   "n": "Oscar Health",
+   "sector": "Insurtech",
+   "grade": "C-",
+   "score": 44.0,
+   "tier": "worst",
+   "note": "Unprofitable; MLR/regulatory risk."
+  },
   {
    "t": "MU",
    "n": "Micron",
    "sector": "Memory",
    "grade": "C+",
-   "score": 58.0,
+   "score": 55.0,
    "tier": "worst",
-   "note": "-8.5% on CXMT China IPO fears; fundamentals stellar but momentum broken \u2014 controversial name, not a broken one."
-  },
-  {
-   "t": "SMCI",
-   "n": "Supermicro",
-   "sector": "AI hardware",
-   "grade": "C",
-   "score": 48.0,
-   "tier": "worst",
-   "note": "AI-hardware giveback (Dell -14% Jul 15); low-margin assembly."
-  },
-  {
-   "t": "INTC",
-   "n": "Intel",
-   "sector": "Semis",
-   "grade": "C",
-   "score": 47.0,
-   "tier": "worst",
-   "note": "-4.6% Jul 15; share loss both ends."
-  },
-  {
-   "t": "LULU",
-   "n": "Lululemon",
-   "sector": "Consumer",
-   "grade": "C-",
-   "score": 44.0,
-   "tier": "worst",
-   "note": "Growth stall; implied ~-3% growth."
-  },
-  {
-   "t": "HTZ",
-   "n": "Hertz",
-   "sector": "Consumer",
-   "grade": "D",
-   "score": 30.0,
-   "tier": "worst",
-   "note": "Balance-sheet stress; spec only."
-  },
-  {
-   "t": "OPEN",
-   "n": "Opendoor",
-   "sector": "Real estate",
-   "grade": "D",
-   "score": 28.0,
-   "tier": "worst",
-   "note": "Housing model unproven through cycles."
+   "note": "Momentum broke on CXMT oversupply fear; -8%+ days."
   }
  ]
 }
