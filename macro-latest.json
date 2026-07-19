@@ -1,16 +1,16 @@
 {
  "asof": "2026-07-17",
- "vix": 16.31,
+ "vix": 18.03,
  "y10": 4.55,
- "y2": 4.14,
+ "y2": 4.18,
  "ff": 3.63,
- "spVs200": 0.83,
- "brent": 84.63,
- "note": "Risk-off tilt: S&P 7,533.77 (-0.51% Jul 16), Nasdaq 25,881.95 (-1.47%), Dow 52,552.97 (-0.20%). Semis led the drop \u2014 Alphabet -4.64%, Caterpillar -4.15%, and Goldman gave back -5.02% after its blowout print. TSMC beat big (EPS NT$27.25, rev +36% y/y, profit +77%) but ADRs fell ~5% pre-market on capex-vs-margin worry; memory stayed weak (SK Hynix, SanDisk -7%). Fed on hold 3.50-3.75% into Jul 28-29. 10Y ~4.55% > 2Y ~4.14% (curve positive). Brent ~$84.63 on Gulf tension. S&P ~0.83% above its 200DMA (~7,472). VIX 16.31 (+4%) \u2014 still low vs the war/earnings tape. Netflix fell ~10% pre-market Jul 17 on earnings; SLB reports today.",
+ "spVs200": -0.19,
+ "brent": 88.1,
+ "note": "Risk-off week, and the character changed on Friday. S&P 500 -1.01% to 7,457.69, Nasdaq -1.4% to 25,520.24, Dow -0.77% to 52,146.42 \u2014 the S&P closed below its 200-day moving average (7,472.59) for the first time since Apr 8. The driver is a genuine loss of faith in the AI-chip trade rather than a macro shock: SOXX fell 4.5% on Jul 16 and TSMC's blowout print (profit +77% y/y, revenue +36%) could not hold the ADR up. JPMorgan flagged the widening split between chipmakers and the hyperscalers funding them as 'somewhat unsustainable'. Meanwhile the Gulf war escalated \u2014 Kuwait said Iran struck a power and desalination plant, US Central Command completed a sixth consecutive night of strikes, and Hormuz crossings fell about 52% week-on-week. Brent jumped 4.6% to $88.10, up more than 14% on the week, and XLE (+1.42%) was the leading sector while refining margins hit records. Rates were calm: 10Y 4.55%, 2Y 4.18%, curve positively sloped at +0.37, Fed on hold at 3.50-3.75% into Jul 28-29. VIX 18.03, up ~20% on the week but still below 20 \u2014 complacency is fading, not gone.",
  "checklist": [
   false,
   false,
-  false,
+  true,
   false,
   false,
   false,
@@ -19,14 +19,14 @@
   false
  ],
  "whatsnew": [
-  "Book: ADDED NTSK (Netskope \u2014 2-buyer 10% insider cluster ~$3.77M each at $12.29) and EQT (Rep. Kean Jr buy; AI-power nat-gas demand).",
-  "Book: REMOVED ORCL (weak software, flat tape) and EXE (consolidated nat-gas exposure into EQT after the congressional buy).",
-  "Tape: broad risk-off \u2014 S&P -0.51% to 7,533.77, Nasdaq -1.47%; chips led lower (Alphabet -4.6%, CAT -4.2%), GS gave back -5% after its beat.",
-  "Semis: TSMC beat (profit +77% y/y) but ADR -5% pre-market on capex-margin worry; memory (SK Hynix, SanDisk) down ~7% \u2014 the correction persists.",
-  "Earnings: Netflix -~10% pre-market Jul 17 on its print (now ~$74 vs 52w high $128); SLB reports today Jul 17.",
-  "Analysts: OKTA upgraded OW to $171 (Capital One), PANW OW to $421, BlackRock OW to $1,364 (JPMorgan), Flex Buy to $150; AEP downgraded to Neutral at Goldman.",
-  "Insiders/Congress: NTSK 2-buyer cluster ~$7.5M; UUUU repeat insider buys; Rep. Hern bought XOM ($100-250K) + Honeywell; Rep. Kean Jr bought EQT; Rep. Jackson bought HLT/MSGE.",
-  "Fed/rates: on hold 3.50-3.75% into Jul 28-29; 10Y eased to ~4.55%; curve still positive; Brent ~$84.63 on Gulf tension.",
-  "Watchlist vs yesterday: 46 dossiers (34 saved tickers + 12 curated). Curated ideas \u2014 kept OKTA, CAVA, KMX, ASML, VST, CEG, MELI; ADDED ANET, BWXT, GEV, EQT, NTSK; DROPPED GS, JPM, AAPL, TSM, MU (all still in the book). Conviction: NFLX cut to 2 (earnings -10%), MU held 3, GS held 4."
+  "Book: ADDED VLO and MPC (refiners \u2014 the 3-2-1 crack spread hit a record ~$64.58/bbl on Jul 8 and both rose while the S&P fell 1%), JEF (Sumitomo Mitsui's $318.7M open-market buy) and ELV (same-day CEO + director cluster buy).",
+  "Book: REMOVED KMX, SLB, NOW and FSLR \u2014 auto retail and enterprise software kept de-rating, and energy exposure is now expressed through refiners and XOM/EQT rather than oil services.",
+  "Tape: S&P 500 -1.01% to 7,457.69, Nasdaq -1.4% to 25,520.24, Dow -0.77% to 52,146.42. The index closed BELOW its 200-day (7,472.59) for the first time since Apr 8.",
+  "Semis: the AI-chip trade cracked \u2014 SOXX -4.5% on Jul 16, and TSMC's +77% y/y profit beat could not stop the ADR falling. JPMorgan called the chip-versus-hyperscaler divergence 'somewhat unsustainable'.",
+  "Energy: Brent +4.6% to $88.10 after Kuwait said Iran hit a power and desalination plant; oil is up more than 14% on the week and Hormuz crossings fell ~52% w/w. Refiners, not producers, are the winners.",
+  "Insiders: Sumitomo Mitsui bought $318.7M of Jefferies at $53.96 (+222% to its stake, board seat attached) \u2014 the single loudest insider print of the week. Elevance's CEO and a director both bought on Jul 17.",
+  "Congress: Rep. Cleo Fields (D-LA) disclosed three NVDA buys at $192.53; Rep. Crenshaw bought a 3x oil ETF and trimmed GOOGL, AMZN and AAPL.",
+  "Analysts: HSBC upgraded AAPL to Buy ($366), KeyBanc raised AMD to $725 from $530, JPMorgan took EMR and MMM to Overweight, BofA cut FRVO to $36 while upgrading it to Buy.",
+  "Watchlist vs yesterday: 49 dossiers (35 saved tickers + 14 curated/carried). Curated ideas now 12 \u2014 ADDED VLO, MPC, JEF, ELV, XOM; DROPPED OKTA, KMX, ASML, VST, MELI (all except KMX still covered). Dossiers ADDED VLO, MPC, JEF, ELV; REMOVED KMX. Conviction: NFLX cut to 2, GS cut to 3 after giving back its earnings pop, XOM raised to 5, CCJ held at 4."
  ]
 }

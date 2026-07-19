@@ -2,91 +2,137 @@
  "asof": "2026-07-17",
  "clusters": [
   {
+   "t": "ELV",
+   "n": "Elevance Health",
+   "buyers": 2,
+   "total": 1368280,
+   "buys": 2,
+   "note": "CEO Gail Boudreaux bought 2,725 sh at $367.79 (~$1.00M, +2% to her stake) and director Ramiro G. Peru bought 1,000 sh at $366.05 \u2014 both traded Jul 17 and filed the same day."
+  },
+  {
    "t": "NTSK",
    "n": "Netskope",
    "buyers": 2,
-   "total": 7531396.0,
-   "buys": 612798.0,
-   "note": "2 x 10% holders (Iconiq, W. Griffith) ~$3.77M each at $12.29 on Jul 10; last 13.50 \u2014 fresh SASE cluster (openinsider)."
+   "total": 7531396,
+   "buys": 2,
+   "note": "Iconiq Strategic Partners VIII and director/10% holder William J.G. Griffith each bought 306,399 sh at $12.29 on Jul 10."
   },
   {
-   "t": "GLOO",
-   "n": "Gloo Holdings",
-   "buyers": 4,
-   "total": 9051828.0,
-   "buys": 2775729.0,
-   "note": "4 buyers ~$9.05M at $3.26 (Jul 10) incl. a foundation \u2014 micro-cap, speculative signal."
+   "t": "GABC",
+   "n": "German American Bancorp",
+   "buyers": 5,
+   "total": 95000,
+   "buys": 5,
+   "note": "Five directors (Kelly, Seger, Bawel, Ryan, Stokes) all bought at $47.84 on Jul 16 \u2014 small dollars but a textbook board-wide cluster."
   },
   {
-   "t": "UUUU",
-   "n": "Energy Fuels",
+   "t": "ENR",
+   "n": "Energizer Holdings",
+   "buyers": 1,
+   "total": 4912158,
+   "buys": 3,
+   "note": "Aqua Capital added three times between Jul 9 and Jul 15 at $20.21-$20.72 \u2014 persistent accumulation rather than a one-off."
+  },
+  {
+   "t": "CRDF",
+   "n": "Cardiff Oncology",
    "buyers": 2,
-   "total": 1018700.0,
-   "buys": 78000.0,
-   "note": "2 insiders ~$1.02M at $13.06 (Jul 8); uranium/REE \u2014 repeat insider buying."
+   "total": 1050000,
+   "buys": 2,
+   "note": "Director Gary Pace ($1.00M) and CEO Mani Mohindru ($50K) both bought at $1.46 on Jul 14."
   }
  ],
  "watchable": [
   {
-   "t": "IPX",
-   "n": "IperionX",
-   "buyers": 2,
-   "total": 4949802.0,
-   "note": "2 buyers ~$4.95M at $3.95 (Jul 10) \u2014 US titanium/critical-metals."
+   "t": "JEF",
+   "n": "Jefferies Financial",
+   "buyers": 1,
+   "total": 318717006,
+   "note": "Sumitomo Mitsui Financial Group bought 5,906,542 shares at $53.96 on Jul 15 \u2014 a $318.7M open-market purchase that lifted its stake +222% to 8,566,379 shares, with a board seat for SMFG's Deputy President. The largest single insider print of the week by a wide margin."
   },
   {
-   "t": "VIRC",
-   "n": "Virco Mfg",
-   "buyers": 2,
-   "total": 109700.0,
-   "note": "2 insiders ~$110K at $6.05 (Jul 15) \u2014 small-cap furniture."
+   "t": "STDN",
+   "n": "Standard Nuclear",
+   "buyers": 1,
+   "total": 19132440,
+   "note": "Decisive Point Group bought 1,275,496 sh at $15.00 on Jul 16 \u2014 fresh capital into the nuclear-fuel theme."
+  },
+  {
+   "t": "CMC",
+   "n": "Commercial Metals",
+   "buyers": 1,
+   "total": 504499,
+   "note": "CEO Peter Matt bought 8,230 sh at $61.30 on Jul 10, +5% to his stake. Steel/infrastructure read-through."
+  },
+  {
+   "t": "TSM",
+   "n": "Taiwan Semiconductor",
+   "buyers": 1,
+   "total": 3730,
+   "note": "Controller Chen Chih-Ho made a small open-market purchase on Jul 16, the day after the earnings beat and the ADR selloff."
+  },
+  {
+   "t": "FIS",
+   "n": "Fidelity National Information Services",
+   "buyers": 1,
+   "total": 57367,
+   "note": "Director Jeffrey Goldstein bought 1,386 sh at $41.39 on Jul 15, +9% to his holding, in a badly beaten-up payments name."
   }
  ],
  "politicians": [
   {
-   "who": "Kevin Hern",
-   "party": "R",
-   "t": "XOM",
-   "n": "Exxon Mobil",
-   "type": "Buy",
-   "size": "$100K-250K",
-   "note": "Joint purchase at $137.09 (Jul 2) \u2014 reinforces energy book."
+   "who": "Cleo Fields",
+   "party": "Democrat",
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "type": "BUY",
+   "size": "1K-15K x3",
+   "note": "Three separate NVDA purchases traded Jun 26 at $192.53, all disclosed Jul 17. NVDA closed Jul 17 at $202.81, so the disclosure lands with the stock above his fill."
   },
   {
-   "who": "Kevin Hern",
-   "party": "R",
-   "t": "HON",
-   "n": "Honeywell",
-   "type": "Buy",
-   "size": "$15K-50K",
-   "note": "Aerospace buy (Jun 29)."
+   "who": "Dan Crenshaw",
+   "party": "Republican",
+   "t": "USOU",
+   "n": "United States 3x Oil ETF",
+   "type": "BUY",
+   "size": "1K-15K",
+   "note": "Leveraged long oil, traded Jun 1 and disclosed Jul 17 \u2014 ahead of Brent's run to $88.10."
   },
   {
    "who": "Thomas Kean Jr",
-   "party": "R",
+   "party": "Republican",
    "t": "EQT",
    "n": "EQT Corp",
-   "type": "Buy",
-   "size": "$1K-15K",
-   "note": "Nat-gas buy at $55.26 (Jun 1) \u2014 new book add."
+   "type": "BUY",
+   "size": "1K-15K",
+   "note": "Bought Jun 1 at $55.26, disclosed Jul 16. EQT closed Jul 17 at $49.56, below his fill."
   },
   {
    "who": "Jonathan Jackson",
-   "party": "D",
+   "party": "Democrat",
    "t": "HLT",
-   "n": "Hilton",
-   "type": "Buy",
-   "size": "$1K-15K",
-   "note": "Spouse buy at $347.11 (Jun 15)."
+   "n": "Hilton Worldwide",
+   "type": "BUY",
+   "size": "1K-15K",
+   "note": "Spouse account, traded Jun 15 at $347.11, disclosed Jul 16. Paired with a Madison Square Garden Entertainment buy at $154.38."
   },
   {
-   "who": "Jonathan Jackson",
-   "party": "D",
-   "t": "MSGE",
-   "n": "MSG Entertainment",
-   "type": "Buy",
-   "size": "$1K-15K",
-   "note": "Spouse buy at $154.38 (Jun 15)."
+   "who": "Dan Crenshaw",
+   "party": "Republican",
+   "t": "GOOGL",
+   "n": "Alphabet",
+   "type": "SELL",
+   "size": "1K-15K",
+   "note": "Sold Jun 1 at $372.58 along with AMZN at $261.26 and AAPL at $306.31 \u2014 a broad big-tech trim, disclosed Jul 17."
+  },
+  {
+   "who": "Nicole Malliotakis",
+   "party": "Republican",
+   "t": "TBILL",
+   "n": "US Treasury Bills",
+   "type": "BUY",
+   "size": "100K-250K",
+   "note": "The largest disclosed buy of the day was cash, not equity."
   }
  ]
 }

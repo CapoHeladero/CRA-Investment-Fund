@@ -1,141 +1,169 @@
 {
  "asof": "2026-07-17",
- "method": "12 curated momentum/quality setups; levels as in dossiers. Not advice.",
+ "method": "Curated momentum and quality setups drawn from this run's insider, congressional, analyst and price-action work. p is the Jul 17 close from stockanalysis.com. buy is ~4% below the close at support; stop is set by type (core -11%, value -10%, momentum -12%, speculative -18% from the buy); sell is a ~18% objective from the buy (~30% for speculative). stockanalysis.com's fundamentals API returned 404 this run, so analyst price targets were not available and percentage rules were used throughout \u2014 noted for transparency.",
  "ideas": [
   {
-   "t": "OKTA",
-   "n": "Okta",
-   "theme": "Cyber",
-   "type": "Momentum",
-   "conv": 4,
-   "p": 147.74,
-   "buy": 141.83,
-   "stop": 124.81,
-   "sell": 174.33,
-   "why": "Capital One upgrade OW to $171; +31%/mo breakout.",
+   "t": "VLO",
+   "n": "Valero Energy",
+   "theme": "Refining",
+   "type": "Value",
+   "conv": 5,
+   "p": 309.6,
+   "buy": 297.3,
+   "stop": 267.5,
+   "sell": 350.8,
+   "why": "Record 3-2-1 crack spreads and up 3.1% on a day the S&P fell 1%.",
    "bull": [
-    "Upgrade + momentum",
-    "Improving FCF",
-    "Identity demand"
+    "Nymex 3-2-1 crack hit a record $64.58/bbl on Jul 8",
+    "Refining margins have nearly tripled in 2026",
+    "Up more than 80% YTD and still making highs"
    ],
    "bear": [
-    "Competitive market",
-    "Past guide-cut history"
+    "Crack spreads mean-revert violently",
+    "A Hormuz de-escalation compresses the whole trade"
    ],
    "v": [
-    "Upgrade + momentum",
-    "Eden deep-dive: run OKTA \u2192 eden-dashboard.streamlit.app"
+    "stockanalysis.com/stocks/vlo",
+    "Eden deep-dive: run VLO \u2192 eden-dashboard.streamlit.app"
    ],
-   "inv": "See catalysts",
-   "thesis": "Identity re-rate with upgrade flow."
+   "inv": "MPC, PSX",
+   "thesis": "The Gulf war made refined products scarce, not crude. Valero converts that scarcity into cash faster than any producer, and reverse-DCF puts its implied growth at just 8.9% \u2014 the lowest in the book."
+  },
+  {
+   "t": "MPC",
+   "n": "Marathon Petroleum",
+   "theme": "Refining",
+   "type": "Value",
+   "conv": 5,
+   "p": 312.6,
+   "buy": 300.1,
+   "stop": 270.1,
+   "sell": 354.1,
+   "why": "Largest US refiner; +2.2% Friday, +80% YTD on the same crack-spread engine.",
+   "bull": [
+    "Biggest US refining footprint",
+    "MPLX midstream cash flow underpins the dividend",
+    "$5.7B TTM FCF against a $312 share price"
+   ],
+   "bear": [
+    "$34.3B total debt versus $2.2B cash",
+    "Margin cycle can roll over in a quarter"
+   ],
+   "v": [
+    "stockanalysis.com/stocks/mpc",
+    "Eden deep-dive: run MPC \u2192 eden-dashboard.streamlit.app"
+   ],
+   "inv": "VLO, PSX",
+   "thesis": "Same trade as Valero with more leverage \u2014 both operating and financial. Implied growth 9.1%."
+  },
+  {
+   "t": "JEF",
+   "n": "Jefferies Financial",
+   "theme": "Investment banking",
+   "type": "Value",
+   "conv": 4,
+   "p": 54.9,
+   "buy": 52.7,
+   "stop": 47.4,
+   "sell": 62.2,
+   "why": "Sumitomo Mitsui bought $318.7M of stock at $53.96 on Jul 15, lifting its stake +222%.",
+   "bull": [
+    "SMFG now holds 8,566,379 shares and gets a board seat",
+    "Largest single insider print of the week across the whole market",
+    "Capital markets cycle turning up"
+   ],
+   "bear": [
+    "Purchase price adjusts over a two-month reference period",
+    "Smaller and more volatile than GS or JPM"
+   ],
+   "v": [
+    "stockanalysis.com/stocks/jef",
+    "Eden deep-dive: run JEF \u2192 eden-dashboard.streamlit.app"
+   ],
+   "inv": "GS, MS",
+   "thesis": "When a strategic partner buys a fifth of a billion dollars of stock in the open market and takes a board seat, that is a different signal from a director buying $20,000."
+  },
+  {
+   "t": "ELV",
+   "n": "Elevance Health",
+   "theme": "Managed care",
+   "type": "Value",
+   "conv": 4,
+   "p": 373.1,
+   "buy": 358.2,
+   "stop": 322.4,
+   "sell": 422.7,
+   "why": "CEO bought ~$1.0M and a director bought $366K \u2014 both on Jul 17, same day.",
+   "bull": [
+    "CEO Gail Boudreaux added 2,725 sh at $367.79, +2% to her stake",
+    "Director Ramiro Peru bought 1,000 sh at $366.05 the same day",
+    "$201.1B TTM revenue against a ~$80B market cap"
+   ],
+   "bear": [
+    "Managed care has been broken all year on medical cost trend",
+    "Loss ratios still running hot",
+    "Insurer accounting \u2014 excluded from the reverse-DCF"
+   ],
+   "v": [
+    "stockanalysis.com/stocks/elv",
+    "Eden deep-dive: run ELV \u2192 eden-dashboard.streamlit.app"
+   ],
+   "inv": "UNH, CI",
+   "thesis": "Same-day buying by the CEO and a board member in a sector everyone has given up on is the classic setup. It is also the classic value trap, so size it small."
+  },
+  {
+   "t": "XOM",
+   "n": "Exxon Mobil",
+   "theme": "Energy major",
+   "type": "Core",
+   "conv": 5,
+   "p": 147.4,
+   "buy": 141.5,
+   "stop": 125.9,
+   "sell": 166.9,
+   "why": "Rose ~1% while the S&P fell 1% \u2014 Brent $88.10 and a Hormuz blockade.",
+   "bull": [
+    "$18.8B TTM FCF",
+    "Guyana and Permian low-cost barrels",
+    "Rep. Hern bought $100-250K"
+   ],
+   "bear": [
+    "$88 Brent already prices a lot of war premium",
+    "A ceasefire reverses this fast"
+   ],
+   "v": [
+    "stockanalysis.com/stocks/xom",
+    "Eden deep-dive: run XOM \u2192 eden-dashboard.streamlit.app"
+   ],
+   "inv": "CVX, COP",
+   "thesis": "The most liquid way to own the geopolitical bid. Implied growth 15.5% flatters a commodity business at a cyclical high."
   },
   {
    "t": "CAVA",
    "n": "CAVA Group",
-   "theme": "Consumer",
+   "theme": "Consumer / restaurants",
    "type": "Momentum",
    "conv": 4,
-   "p": 68.1,
-   "buy": 65.38,
-   "stop": 57.53,
-   "sell": 80.36,
-   "why": "MS upgrade OW $90 + insider cluster.",
+   "p": 68.8,
+   "buy": 66.1,
+   "stop": 58.2,
+   "sell": 78.0,
+   "why": "Traffic-led comps and best-in-class unit economics \u2014 rare in restaurants right now.",
    "bull": [
-    "Unit growth + SSS",
-    "Category leadership",
-    "Analyst + insider support"
+    "New-unit returns among the best in the group",
+    "Comps driven by traffic, not price",
+    "Long runway on store count"
    ],
    "bear": [
-    "Rich multiple",
-    "Discretionary risk"
+    "High multiple for a restaurant",
+    "Consumer spending is softening"
    ],
    "v": [
-    "Unit growth + SSS",
+    "stockanalysis.com/stocks/cava",
     "Eden deep-dive: run CAVA \u2192 eden-dashboard.streamlit.app"
    ],
-   "inv": "See catalysts",
-   "thesis": "Fast-casual growth with catalysts."
-  },
-  {
-   "t": "KMX",
-   "n": "CarMax",
-   "theme": "Consumer",
-   "type": "Value",
-   "conv": 3,
-   "p": 58.47,
-   "buy": 56.13,
-   "stop": 50.52,
-   "sell": 68.99,
-   "why": "5-insider $1.27M cluster at $52.67; last 58.47.",
-   "bull": [
-    "Insiders early and right",
-    "Margin recovery",
-    "Financing income"
-   ],
-   "bear": [
-    "Consumer-credit sensitivity",
-    "Used-price deflation"
-   ],
-   "v": [
-    "Insiders early and right",
-    "Eden deep-dive: run KMX \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "See catalysts",
-   "thesis": "Insider-backed used-car recovery."
-  },
-  {
-   "t": "GEV",
-   "n": "GE Vernova",
-   "theme": "Electrification / power",
-   "type": "Momentum",
-   "conv": 4,
-   "p": 1036.22,
-   "buy": 994.77,
-   "stop": 875.4,
-   "sell": 1222.74,
-   "why": "Grid + gas turbines for AI power.",
-   "bull": [
-    "Grid + turbine demand",
-    "Backlog growth",
-    "AI-power tailwind"
-   ],
-   "bear": [
-    "Turbine-ramp execution",
-    "High expectations"
-   ],
-   "v": [
-    "Grid + turbine demand",
-    "Eden deep-dive: run GEV \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "See catalysts",
-   "thesis": "Electrification backlog compounder."
-  },
-  {
-   "t": "ASML",
-   "n": "ASML",
-   "theme": "AI infra / semis",
-   "type": "Momentum",
-   "conv": 5,
-   "p": 1784.87,
-   "buy": 1713.48,
-   "stop": 1507.86,
-   "sell": 2106.15,
-   "why": "Guidance raised 2nd time (\u20ac43-45B).",
-   "bull": [
-    "EUV/High-NA monopoly",
-    "Beat-and-raise Q2",
-    "Multi-year backlog"
-   ],
-   "bear": [
-    "China export controls",
-    "Lumpy orders"
-   ],
-   "v": [
-    "EUV/High-NA monopoly",
-    "Eden deep-dive: run ASML \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "See catalysts",
-   "thesis": "EUV monopoly with beat-and-raise."
+   "inv": "SG, WING",
+   "thesis": "A genuine unit-growth story that has nothing to do with AI or oil \u2014 useful diversification when leadership is this narrow."
   },
   {
    "t": "ANET",
@@ -143,188 +171,162 @@
    "theme": "AI networking",
    "type": "Momentum",
    "conv": 4,
-   "p": 168.56,
-   "buy": 161.82,
+   "p": 168.6,
+   "buy": 161.9,
    "stop": 142.4,
-   "sell": 198.9,
-   "why": "AI back-end Ethernet leader.",
+   "sell": 191.0,
+   "why": "Flat on Friday while the semis around it fell 4.5% \u2014 relative strength worth noting.",
    "bull": [
-    "AI Ethernet share",
-    "Cloud-titan customers",
-    "High-margin EOS"
+    "Ethernet displacing InfiniBand in AI back-ends",
+    "$5.3B TTM FCF, no meaningful debt",
+    "$12.4B cash"
    ],
    "bear": [
-    "Customer concentration",
-    "Whitebox competition"
+    "Customer concentration in two hyperscalers",
+    "Premium multiple in a de-rating group"
    ],
    "v": [
-    "AI Ethernet share",
+    "stockanalysis.com/stocks/anet",
     "Eden deep-dive: run ANET \u2192 eden-dashboard.streamlit.app"
    ],
-   "inv": "See catalysts",
-   "thesis": "AI-cluster networking share gainer."
-  },
-  {
-   "t": "VST",
-   "n": "Vistra",
-   "theme": "AI power / nuclear",
-   "type": "Momentum",
-   "conv": 4,
-   "p": 152.56,
-   "buy": 146.46,
-   "stop": 128.88,
-   "sell": 180.02,
-   "why": "Merchant power + nuclear.",
-   "bull": [
-    "AI-datacenter power demand",
-    "Nuclear + gas fleet",
-    "Buybacks"
-   ],
-   "bear": [
-    "Merchant-price volatility",
-    "Cycle-strength FCF"
-   ],
-   "v": [
-    "AI-datacenter power demand",
-    "Eden deep-dive: run VST \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "See catalysts",
-   "thesis": "AI-power demand proxy."
-  },
-  {
-   "t": "CEG",
-   "n": "Constellation Energy",
-   "theme": "AI power / nuclear",
-   "type": "Momentum",
-   "conv": 4,
-   "p": 251.77,
-   "buy": 241.7,
-   "stop": 212.7,
-   "sell": 297.09,
-   "why": "Largest US nuclear fleet.",
-   "bull": [
-    "Nuclear PPAs to hyperscalers",
-    "Baseload scarcity",
-    "Reverse-DCF ~27% g"
-   ],
-   "bear": [
-    "Implied g high",
-    "PPA timing"
-   ],
-   "v": [
-    "Nuclear PPAs to hyperscalers",
-    "Eden deep-dive: run CEG \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "See catalysts",
-   "thesis": "Clean-baseload scarcity value."
-  },
-  {
-   "t": "MELI",
-   "n": "MercadoLibre",
-   "theme": "Consumer / LatAm",
-   "type": "Momentum",
-   "conv": 4,
-   "p": 1857.42,
-   "buy": 1783.12,
-   "stop": 1569.15,
-   "sell": 2191.76,
-   "why": "LatAm e-comm + fintech; insiders bought $1.19M.",
-   "bull": [
-    "Marketplace dominance",
-    "Mercado Pago growth",
-    "Insider buying"
-   ],
-   "bear": [
-    "FX/LatAm macro",
-    "Credit-book risk"
-   ],
-   "v": [
-    "Marketplace dominance",
-    "Eden deep-dive: run MELI \u2192 eden-dashboard.streamlit.app"
-   ],
-   "inv": "See catalysts",
-   "thesis": "Dominant LatAm platform."
+   "inv": "AVGO, CSCO",
+   "thesis": "If the AI trade survives in a narrower form, the network is the last piece to get cut. Implied growth 16.5% is modest for the quality."
   },
   {
    "t": "BWXT",
    "n": "BWX Technologies",
-   "theme": "Nuclear / defense",
+   "theme": "Nuclear / defence",
    "type": "Momentum",
    "conv": 4,
-   "p": 173.74,
-   "buy": 166.79,
-   "stop": 146.78,
-   "sell": 205.01,
-   "why": "Naval + SMR nuclear components.",
+   "p": 171.2,
+   "buy": 164.3,
+   "stop": 144.6,
+   "sell": 193.9,
+   "why": "Naval reactors and SMR components \u2014 revenue today, not a 2032 story.",
    "bull": [
-    "Naval reactor moat",
-    "SMR/microreactor optionality",
-    "Defense budget"
+    "Sole-source naval propulsion contracts",
+    "SMR component backlog building",
+    "Defence budget insulation from the cycle"
    ],
    "bear": [
-    "Lumpy program timing",
-    "Rich multiple"
+    "Government contracting is lumpy",
+    "Rich multiple for an industrial"
    ],
    "v": [
-    "Naval reactor moat",
+    "stockanalysis.com/stocks/bwxt",
     "Eden deep-dive: run BWXT \u2192 eden-dashboard.streamlit.app"
    ],
-   "inv": "See catalysts",
-   "thesis": "Sole-source naval + SMR optionality."
+   "inv": "SMR, GEV",
+   "thesis": "The nuclear theme without the pre-revenue risk. Decisive Point's $19.1M buy into Standard Nuclear on Jul 16 says capital is still flowing into the fuel cycle."
+  },
+  {
+   "t": "GEV",
+   "n": "GE Vernova",
+   "theme": "Power equipment",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 1057.8,
+   "buy": 1015.5,
+   "stop": 893.7,
+   "sell": 1198.3,
+   "why": "Gas turbines are sold out for years \u2014 the genuine bottleneck in adding generation.",
+   "bull": [
+    "Turbine slots booked into the late 2020s",
+    "Grid equipment backlog",
+    "Nuclear services optionality"
+   ],
+   "bear": [
+    "Very high expectations embedded in the price",
+    "Offshore wind losses still bleeding"
+   ],
+   "v": [
+    "stockanalysis.com/stocks/gev",
+    "Eden deep-dive: run GEV \u2192 eden-dashboard.streamlit.app"
+   ],
+   "inv": "ETN, VRT",
+   "thesis": "You cannot build a data centre without power, and you cannot build power without turbines. The constraint is physical."
   },
   {
    "t": "EQT",
    "n": "EQT Corp",
-   "theme": "Energy / nat gas",
+   "theme": "Nat gas / AI power",
    "type": "Value",
    "conv": 3,
-   "p": 49.4,
-   "buy": 47.42,
-   "stop": 42.68,
-   "sell": 58.29,
-   "why": "Rep. Kean Jr bought; AI-power gas demand.",
+   "p": 49.6,
+   "buy": 47.6,
+   "stop": 42.8,
+   "sell": 56.1,
+   "why": "Rep. Thomas Kean Jr bought Jun 1 at $55.26; the stock closed Jul 17 at $49.56, below his fill.",
    "bull": [
-    "Low-cost Appalachia",
-    "LNG + datacenter gas",
-    "Congressional buy"
+    "Congressional buy disclosed Jul 16",
+    "Appalachian scale, low breakevens",
+    "LNG and data-centre demand pull"
    ],
    "bear": [
-    "Gas-price volatility",
-    "Weather demand"
+    "Gas price is weather-dependent",
+    "Basis differentials can crush realisations"
    ],
    "v": [
-    "Low-cost Appalachia",
+    "stockanalysis.com/stocks/eqt",
     "Eden deep-dive: run EQT \u2192 eden-dashboard.streamlit.app"
    ],
-   "inv": "See catalysts",
-   "thesis": "Largest US gas producer into LNG/AI demand."
+   "inv": "AR, CTRA",
+   "thesis": "Gas is the swing fuel for data-centre load. Buying below where a disclosed congressional buyer filled is a reasonable place to start."
   },
   {
    "t": "NTSK",
    "n": "Netskope",
-   "theme": "Cyber",
+   "theme": "Cyber / SASE",
    "type": "Speculative",
    "conv": 3,
-   "p": 13.5,
-   "buy": 12.96,
-   "stop": 10.63,
-   "sell": 17.55,
-   "why": "2-buyer 10% insider cluster ~$3.77M each at $12.29.",
+   "p": 13.6,
+   "buy": 13.0,
+   "stop": 10.7,
+   "sell": 17.0,
+   "why": "Two 10% holders each bought ~$3.77M at $12.29 on Jul 10 \u2014 an unusually clean cluster.",
    "bull": [
-    "SASE/SSE growth",
-    "Fresh insider cluster",
-    "Cloud-security tailwind"
+    "Iconiq and director Griffith each bought 306,399 sh",
+    "SASE is a structural share-gainer",
+    "Small float amplifies any re-rating"
    ],
    "bear": [
-    "Unprofitable \u2014 story name",
-    "Crowded SASE field"
+    "Unprofitable \u2014 conviction capped at 3",
+    "Thin trading, wide spreads",
+    "Lock-up supply risk ahead"
    ],
    "v": [
-    "SASE/SSE growth",
+    "stockanalysis.com/stocks/ntsk",
     "Eden deep-dive: run NTSK \u2192 eden-dashboard.streamlit.app"
    ],
-   "inv": "See catalysts",
-   "thesis": "Insider-backed SASE growth."
+   "inv": "ZS, PANW",
+   "thesis": "The cleanest two-buyer insider cluster in the book, but it is a story stock until the P&L says otherwise."
+  },
+  {
+   "t": "CEG",
+   "n": "Constellation Energy",
+   "theme": "Nuclear power",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 252.4,
+   "buy": 242.3,
+   "stop": 213.2,
+   "sell": 285.9,
+   "why": "Largest US nuclear fleet; the utility that trades like a growth stock.",
+   "bull": [
+    "Nuclear PPAs signed with hyperscalers",
+    "Crane restart optionality",
+    "Capacity price tailwind in PJM"
+   ],
+   "bear": [
+    "Priced for a great deal of AI demand",
+    "Regulatory headline risk on co-location"
+   ],
+   "v": [
+    "stockanalysis.com/stocks/ceg",
+    "Eden deep-dive: run CEG \u2192 eden-dashboard.streamlit.app"
+   ],
+   "inv": "VST, NRG",
+   "thesis": "If AI power demand is real, this is the purest listed expression. If it is not, this is an expensive utility."
   }
  ]
 }

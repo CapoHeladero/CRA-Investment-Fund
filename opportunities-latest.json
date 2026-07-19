@@ -1,445 +1,405 @@
 [
  {
   "t": "NVDA",
-  "n": "Nvidia",
+  "n": "NVIDIA",
   "theme": "AI infra / semis",
   "type": "Core",
   "size": "~7% of book",
   "a": "2026-07-17",
-  "why": "AI compute standard; held better than memory in the Jul 16 chip slide. Last 207.40.",
+  "why": "Still the compute standard; Rep. Cleo Fields (D-LA) disclosed three NVDA buys at $192.53 on Jul 17.",
   "bull": [
-   "$119B TTM FCF; ecosystem moat",
-   "AI-capex supercycle intact into 2026",
-   "Logic held while memory corrected"
+   "Blackwell/Rubin cycle still supply-constrained",
+   "Hyperscaler capex tracking ~$725B in 2026",
+   "Net cash balance sheet, ~24.5B shares, $119B TTM FCF"
   ],
   "bear": [
-   "Crowding: ~7.5% of S&P, drawdown risk",
-   "Any hyperscaler capex pause hits hard"
+   "Chip complex de-rating hard on AI-capex doubt",
+   "Any hyperscaler capex trim hits estimates first"
   ],
   "v": [
-   "Watch hyperscaler capex commentary",
-   "Eden deep-dive: run NVDA \u2192 eden-dashboard.streamlit.app"
+   "openinsider.com",
+   "capitoltrades.com"
   ],
-  "inv": "Q3 guidance",
-  "entry": 204.29,
-  "stop": 181.82,
-  "target": 261.49
+  "inv": "AMD, AVGO",
+  "entry": 196.7,
+  "stop": 175.1,
+  "target": 232.1
  },
  {
   "t": "TSM",
   "n": "Taiwan Semiconductor",
-  "theme": "AI infra / semis",
+  "theme": "Semis foundry",
   "type": "Core",
-  "size": "~6% of book",
+  "size": "~5% of book",
   "a": "2026-07-17",
-  "why": "Q2 beat (EPS NT$27.25, rev +36% y/y) but ADR sold ~5% on capex-margin worry. Last 409.74.",
+  "why": "Q2 profit +77% y/y and revenue +36%, yet the ADR sold off with the group \u2014 earnings are not the problem, sentiment is.",
   "bull": [
-   "Sole leading-edge foundry for every AI chip",
-   "77% y/y profit growth; June rev +68%",
-   "Selloff on guidance-caution, not demand"
+   "Effective monopoly on leading-edge AI logic",
+   "Pricing power on N3/N2",
+   "Controller bought stock on Jul 16"
   ],
   "bear": [
-   "Taiwan geopolitical tail risk",
-   "Capex ramp may pressure near-term margins"
+   "Capex-vs-margin worry pressured the ADR ~5%",
+   "Taiwan Strait geopolitical premium"
   ],
   "v": [
-   "Read H2 gross-margin guide",
-   "Eden deep-dive: run TSM \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/tsm"
   ],
-  "inv": "H2 margin guide",
-  "entry": 403.59,
-  "stop": 359.2,
-  "target": 516.6
+  "inv": "ASML, AVGO",
+  "entry": 386.4,
+  "stop": 343.9,
+  "target": 456.0
  },
  {
   "t": "AVGO",
   "n": "Broadcom",
-  "theme": "AI infra / semis",
+  "theme": "AI networking / custom ASIC",
   "type": "Core",
   "size": "~5% of book",
   "a": "2026-07-17",
-  "why": "Custom-silicon + networking leader; last 374.45.",
+  "why": "Custom accelerator + networking franchise is the second leg of AI infra and less headline-sensitive than merchant GPUs.",
   "bull": [
-   "Custom AI ASIC pipeline (hyperscaler XPUs)",
-   "Software (VMware) steadies FCF",
-   "Networking share gains vs merchant"
+   "$32.8B TTM FCF",
+   "Custom XPU pipeline with multiple hyperscalers",
+   "VMware software annuity"
   ],
   "bear": [
-   "Rich multiple; concentration in few customers",
-   "Cyclical VMware renewals"
+   "High leverage: ~$64.9B total debt",
+   "Concentrated customer base"
   ],
   "v": [
-   "Track XPU design wins",
-   "Eden deep-dive: run AVGO \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/avgo"
   ],
-  "inv": "Next print",
-  "entry": 368.83,
-  "stop": 328.26,
-  "target": 472.1
+  "inv": "MRVL, ANET",
+  "entry": 359.7,
+  "stop": 320.1,
+  "target": 424.5
  },
  {
   "t": "MU",
   "n": "Micron",
-  "theme": "AI infra / semis",
+  "theme": "Memory / HBM",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "HBM leverage but memory tape weak; last 853.20 vs 52w high 1255.",
+  "why": "HBM remains the tightest link in the AI chain, but memory was the weakest corner of last week's tape.",
   "bull": [
-   "HBM3E sold out; AI memory demand",
-   "Pricing power at cycle strength",
-   "Data-center DRAM mix rising"
+   "HBM sold out well into next year",
+   "Pricing cycle still favourable",
+   "Leverage to AI server bill-of-materials"
   ],
   "bear": [
-   "CXMT China IPO/oversupply fear",
-   "-8%+ single-day moves; cycle-peak FCF"
+   "Memory peers (SK Hynix, SanDisk) fell ~7% last week",
+   "Deeply cyclical \u2014 cycle turns fast"
   ],
   "v": [
-   "Watch DRAM spot pricing",
-   "Eden deep-dive: run MU \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/mu"
   ],
-  "inv": "Memory pricing",
-  "entry": 840.4,
-  "stop": 739.55,
-  "target": 1092.52
+  "inv": "SK Hynix, SNDK",
+  "entry": 823.5,
+  "stop": 724.7,
+  "target": 1004.6
  },
  {
   "t": "AMD",
   "n": "AMD",
-  "theme": "AI infra / semis",
+  "theme": "AI accelerators",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "MI-series ramp; Goldman reset PT this week. Last 500.94.",
+  "why": "KeyBanc raised its target to $725 from $530; the Advancing AI event on Jul 22 is a near-term catalyst.",
   "bull": [
-   "MI400 roadmap vs Nvidia",
-   "Server CPU share gains",
-   "EPYC + Instinct attach"
+   "MI-series share gains at hyperscalers",
+   "KeyBanc PT $725",
+   "Advancing AI event Jul 22"
   ],
   "bear": [
-   "Second-source discount to NVDA",
-   "Execution risk on software stack"
+   "Stock ~17% off its peak",
+   "Execution gap vs NVDA software stack"
   ],
   "v": [
-   "Track MI400 traction",
-   "Eden deep-dive: run AMD \u2192 eden-dashboard.streamlit.app"
+   "tradingkey.com AMD forecast"
   ],
-  "inv": "MI400 ramp",
-  "entry": 493.43,
-  "stop": 434.22,
-  "target": 641.46
+  "inv": "NVDA, AVGO",
+  "entry": 480.9,
+  "stop": 423.2,
+  "target": 586.7
  },
  {
   "t": "ASML",
   "n": "ASML",
-  "theme": "AI infra / semis",
-  "type": "Momentum",
+  "theme": "Semicap",
+  "type": "Core",
   "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Guidance raised a 2nd time (\u20ac43-45B, 54-56% GM); last 1784.87.",
+  "why": "The single chokepoint for EUV; orders lead the cycle, so weakness here would be the real warning sign.",
   "bull": [
    "EUV/High-NA monopoly",
-   "Beat-and-raise Q2 (\u20ac9.3B/\u20ac2.9B)",
-   "Backlog visibility multi-year"
+   "EUR10.0B TTM FCF",
+   "Order book leads wafer-fab equipment cycle"
   ],
   "bear": [
-   "China export-control overhang",
-   "Lumpy order timing"
+   "Semicap de-rates violently on capex doubt",
+   "China export-control exposure"
   ],
   "v": [
-   "Track High-NA shipments",
-   "Eden deep-dive: run ASML \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/asml"
   ],
-  "inv": "Bookings",
-  "entry": 1758.1,
-  "stop": 1547.13,
-  "target": 2285.53
+  "inv": "AMAT, LRCX",
+  "entry": 1695.2,
+  "stop": 1508.7,
+  "target": 2000.3
  },
  {
   "t": "MSFT",
   "n": "Microsoft",
-  "theme": "Software",
+  "theme": "Software / cloud",
   "type": "Core",
   "size": "~6% of book",
   "a": "2026-07-17",
-  "why": "Azure AI + Copilot; durable FCF. Last 401.10.",
+  "why": "Azure plus Copilot monetisation; the most defensible of the big AI spenders.",
   "bull": [
-   "$73B TTM FCF; Azure AI growth",
-   "Copilot monetization ramp",
-   "Enterprise lock-in"
+   "$72.9B TTM FCF",
+   "Enterprise switching costs",
+   "OpenAI relationship"
   ],
   "bear": [
-   "Heavy AI capex compresses near-term FCF",
-   "Cloud growth decel risk"
+   "Hyperscalers being punished for capex, not rewarded",
+   "Capex-to-FCF ratio still rising"
   ],
   "v": [
-   "Watch Azure growth + capex",
-   "Eden deep-dive: run MSFT \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/msft"
   ],
-  "inv": "Azure print",
-  "entry": 395.08,
-  "stop": 351.62,
-  "target": 505.7
+  "inv": "GOOGL, AMZN",
+  "entry": 382.0,
+  "stop": 340.0,
+  "target": 450.8
  },
  {
   "t": "META",
   "n": "Meta Platforms",
-  "theme": "Software",
+  "theme": "AI / advertising",
   "type": "Core",
-  "size": "~4% of book",
+  "size": "~5% of book",
   "a": "2026-07-17",
-  "why": "AI-driven ad engagement; last 664.54.",
+  "why": "Ad engine funds the AI build; fell 2.8% Friday with the tape.",
   "bull": [
-   "AI recommendation lift to ad ROI",
-   "Reality Labs optionality",
-   "Massive FCF + buybacks"
+   "$48.3B TTM FCF",
+   "Ad targeting improving from AI ranking",
+   "Buyback capacity"
   ],
   "bear": [
-   "Capex surge on AI infra",
-   "Reg/antitrust overhang"
+   "Capex among the largest of the hyperscalers",
+   "Reality Labs still a drag"
   ],
   "v": [
-   "Track ad pricing + capex",
-   "Eden deep-dive: run META \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/meta"
   ],
-  "inv": "Ad revenue",
-  "entry": 654.57,
-  "stop": 582.57,
-  "target": 837.85
+  "inv": "GOOGL",
+  "entry": 626.6,
+  "stop": 557.7,
+  "target": 739.4
  },
  {
   "t": "GOOGL",
   "n": "Alphabet",
-  "theme": "Software",
+  "theme": "AI / search / cloud",
   "type": "Core",
-  "size": "~4% of book",
+  "size": "~5% of book",
   "a": "2026-07-17",
-  "why": "Cloud + Gemini; but stock fell 4.6% Jul 16 on chip-basket selling. Last 354.46.",
+  "why": "TPU stack plus Gemini; Rep. Crenshaw sold, but the FCF is the argument.",
   "bull": [
-   "Search + Cloud + Gemini stack",
+   "$64.4B TTM FCF and $126.8B cash",
    "TPU vertical integration",
-   "Strong FCF, cheap vs peers"
+   "Cloud backlog"
   ],
   "bear": [
-   "AI-search disruption to core query mix",
-   "Antitrust remedies pending"
+   "Fell 4.6% on Jul 16",
+   "Search disruption risk from AI answers"
   ],
   "v": [
-   "Watch Cloud margin + Gemini",
-   "Eden deep-dive: run GOOGL \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/googl"
   ],
-  "inv": "Cloud growth",
-  "entry": 349.14,
-  "stop": 310.73,
-  "target": 446.9
- },
- {
-  "t": "NOW",
-  "n": "ServiceNow",
-  "theme": "Software",
-  "type": "Momentum",
-  "size": "~3% of book",
-  "a": "2026-07-17",
-  "why": "Post-split ~$104, near 52w low despite 20%+ cRPO. Last 104.01.",
-  "bull": [
-   "AI workflow attach (Now Assist)",
-   "20%+ subscription/cRPO growth",
-   "Sticky enterprise platform"
-  ],
-  "bear": [
-   "De-rated hard; momentum broken",
-   "Long-duration multiple vs rates"
-  ],
-  "v": [
-   "Watch cRPO + Now Assist ACV",
-   "Eden deep-dive: run NOW \u2192 eden-dashboard.streamlit.app"
-  ],
-  "inv": "cRPO",
-  "entry": 102.45,
-  "stop": 90.16,
-  "target": 133.19
+  "inv": "MSFT, META",
+  "entry": 336.4,
+  "stop": 299.4,
+  "target": 396.9
  },
  {
   "t": "ANET",
   "n": "Arista Networks",
   "theme": "AI networking",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "AI back-end Ethernet leader; last 168.56.",
+  "why": "Ethernet is winning the AI back-end fabric argument; held flat Friday while semis fell.",
   "bull": [
-   "Ethernet share for AI clusters",
-   "Cloud-titan customers scaling",
-   "High-margin software (EOS)"
+   "$5.3B TTM FCF, no meaningful debt",
+   "Ethernet displacing InfiniBand",
+   "Hyperscaler design wins"
   ],
   "bear": [
-   "Customer concentration (Meta/MSFT)",
-   "Whitebox competition"
+   "Customer concentration in two hyperscalers",
+   "Premium multiple"
   ],
   "v": [
-   "Track AI Ethernet ports",
-   "Eden deep-dive: run ANET \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/anet"
   ],
-  "inv": "AI orders",
-  "entry": 166.03,
-  "stop": 146.11,
-  "target": 215.84
+  "inv": "AVGO, CSCO",
+  "entry": 163.6,
+  "stop": 143.9,
+  "target": 199.5
  },
  {
   "t": "VRT",
   "n": "Vertiv",
-  "theme": "AI power/cooling",
+  "theme": "Data-centre power & cooling",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "AI thermal/power; last 294.11.",
+  "why": "The physical bottleneck for AI build-outs \u2014 power and thermal, not silicon.",
   "bull": [
-   "Liquid-cooling + power for AI racks",
-   "Backlog visibility strong",
-   "Reverse-DCF implies ~20% g"
+   "Liquid cooling attach rate rising",
+   "Backlog visibility into 2027",
+   "Picks-and-shovels, not chip-cycle"
   ],
   "bear": [
-   "Story fully priced",
-   "Cyclical data-center capex"
+   "Fell 1.6% Friday with AI complex",
+   "Margin pressure from mix"
   ],
   "v": [
-   "Track book-to-bill",
-   "Eden deep-dive: run VRT \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/vrt"
   ],
-  "inv": "Bookings",
-  "entry": 289.7,
-  "stop": 254.94,
-  "target": 376.61
+  "inv": "ETN, GEV",
+  "entry": 280.9,
+  "stop": 247.2,
+  "target": 342.7
  },
  {
   "t": "CRWD",
   "n": "CrowdStrike",
-  "theme": "Cyber",
+  "theme": "Cybersecurity",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Platform cyber leader; last 203.76.",
+  "why": "Security spend is the least discretionary line in an enterprise budget.",
   "bull": [
+   "$1.5B TTM FCF",
    "Falcon platform consolidation",
-   "ARR + net-retention strong",
-   "AI-SOC modules"
+   "Net retention above peers"
   ],
   "bear": [
-   "Premium multiple",
-   "Post-outage trust rebuild"
+   "Software multiples compressing broadly",
+   "High valuation vs growth"
   ],
   "v": [
-   "Track net-new ARR",
-   "Eden deep-dive: run CRWD \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/crwd"
   ],
-  "inv": "ARR",
-  "entry": 200.7,
-  "stop": 176.62,
-  "target": 260.91
+  "inv": "PANW, ZS",
+  "entry": 197.0,
+  "stop": 173.3,
+  "target": 240.3
  },
  {
   "t": "OKTA",
   "n": "Okta",
-  "theme": "Cyber",
+  "theme": "Identity / cyber",
   "type": "Momentum",
   "size": "~3% of book",
   "a": "2026-07-17",
-  "why": "Identity; Capital One upgrade OW to $171 this week. Last 147.74.",
+  "why": "Identity is the control plane for AI agents; carried an Overweight/$171 call into the week.",
   "bull": [
-   "Identity-security demand + upgrades",
-   "+31%/month momentum breakout",
-   "Improving FCF margins"
+   "Agent identity is a new TAM",
+   "Overweight rating with $171 target",
+   "Improving profitability"
   ],
   "bear": [
-   "Competitive identity market",
-   "Execution after past guide cuts"
+   "Enterprise software de-rating",
+   "Competition from Microsoft Entra"
   ],
   "v": [
-   "Track RPO + upgrades",
-   "Eden deep-dive: run OKTA \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/okta"
   ],
-  "inv": "RPO",
-  "entry": 145.52,
-  "stop": 128.06,
-  "target": 189.18
+  "inv": "CRWD, CYBR",
+  "entry": 144.9,
+  "stop": 127.5,
+  "target": 176.7
  },
  {
   "t": "NTSK",
   "n": "Netskope",
-  "theme": "Cyber",
+  "theme": "Cyber / SASE",
   "type": "Speculative",
   "size": "~2% of book",
   "a": "2026-07-17",
-  "why": "Netskope: 2-buyer 10% insider cluster ~$3.77M each at $12.29 (Jul 10); last 13.50.",
+  "why": "Two 10% holders each bought ~$3.77M at $12.29 on Jul 10 \u2014 an unusually clean insider cluster.",
   "bull": [
-   "SASE/SSE secure-access growth",
-   "Fresh large insider cluster buy",
-   "Cloud-security secular tailwind"
+   "Iconiq and Griffith each bought ~$3.77M",
+   "SASE is a structural share-gainer",
+   "Recent IPO float still small"
   ],
   "bear": [
-   "Recent IPO, unprofitable \u2014 story name",
-   "Crowded SASE field vs PANW/ZS"
+   "Unprofitable \u2014 conviction capped",
+   "Thin trading, wide spreads",
+   "Lock-up supply risk"
   ],
   "v": [
-   "Confirm ARR trajectory",
-   "Eden deep-dive: run NTSK \u2192 eden-dashboard.streamlit.app"
+   "openinsider.com"
   ],
-  "inv": "First prints",
-  "entry": 13.3,
-  "stop": 10.91,
-  "target": 19.29
+  "inv": "ZS, PANW",
+  "entry": 13.2,
+  "stop": 10.8,
+  "target": 17.1
  },
  {
   "t": "VST",
   "n": "Vistra",
-  "theme": "AI power / nuclear",
+  "theme": "AI power / IPP",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Merchant power + nuclear; last 152.56.",
+  "why": "Merchant power is the cleanest way to own AI electricity demand.",
   "bull": [
-   "Power demand from AI datacenters",
-   "Nuclear + gas fleet",
+   "Data-centre PPA pipeline",
+   "Nuclear fleet in PJM",
    "Buybacks"
   ],
   "bear": [
-   "Merchant power price volatility",
-   "Cycle-strength FCF"
+   "Power names are crowded",
+   "Regulatory risk on co-location deals"
   ],
   "v": [
-   "Track PPA signings",
-   "Eden deep-dive: run VST \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/vst"
   ],
-  "inv": "PPAs",
-  "entry": 150.27,
-  "stop": 132.24,
-  "target": 195.35
+  "inv": "CEG, NRG",
+  "entry": 150.8,
+  "stop": 132.7,
+  "target": 183.9
  },
  {
   "t": "CEG",
   "n": "Constellation Energy",
-  "theme": "AI power / nuclear",
+  "theme": "Nuclear power",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Largest US nuclear fleet; last 251.77.",
+  "why": "Largest US nuclear fleet; the utility that trades like a growth stock.",
   "bull": [
-   "Nuclear PPAs to hyperscalers",
-   "Clean-baseload scarcity value",
-   "Reverse-DCF implies ~27% g"
+   "Nuclear PPAs with hyperscalers",
+   "Crane restart optionality",
+   "Capacity price tailwind"
   ],
   "bear": [
-   "Implied growth misleadingly high",
-   "Regulatory/PPA timing"
+   "Priced for a lot of AI demand",
+   "Rate/regulatory headline risk"
   ],
   "v": [
-   "Track data-center PPAs",
-   "Eden deep-dive: run CEG \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/ceg"
   ],
-  "inv": "PPAs",
-  "entry": 247.99,
-  "stop": 218.23,
-  "target": 322.39
+  "inv": "VST, NRG",
+  "entry": 244.8,
+  "stop": 215.4,
+  "target": 298.7
  },
  {
   "t": "CCJ",
@@ -448,128 +408,123 @@
   "type": "Value",
   "size": "~3% of book",
   "a": "2026-07-17",
-  "why": "Top-tier uranium miner; last 87.36.",
+  "why": "Fuel for the nuclear build; long-term contracting cycle is intact.",
   "bull": [
-   "Uranium supply deficit",
-   "Tier-1 assets (McArthur/Cigar)",
-   "Utility contracting cycle"
+   "Tier-1 supply and Westinghouse stake",
+   "Contracting at higher floors",
+   "Fell ~2% Friday, better entry"
   ],
   "bear": [
-   "U3O8 price volatility",
-   "Production ramp risk"
+   "Uranium spot is volatile",
+   "Project execution history is mixed"
   ],
   "v": [
-   "Track U3O8 spot + contracts",
-   "Eden deep-dive: run CCJ \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/ccj"
   ],
-  "inv": "U3O8",
-  "entry": 86.05,
-  "stop": 77.44,
-  "target": 104.98
+  "inv": "UUUU, NXE",
+  "entry": 83.1,
+  "stop": 74.7,
+  "target": 96.3
  },
  {
   "t": "UUUU",
   "n": "Energy Fuels",
-  "theme": "Uranium",
+  "theme": "Uranium / rare earths",
   "type": "Speculative",
   "size": "~2% of book",
   "a": "2026-07-17",
-  "why": "Energy Fuels: continued CEO/insider buys (~$1.0M at $13.06, Jul 8). Last 11.67.",
+  "why": "US-domiciled uranium plus rare-earth separation \u2014 dual policy tailwind.",
   "bull": [
-   "US uranium + rare-earths optionality",
    "Repeat insider buying",
-   "Domestic-supply policy tailwind"
+   "Only US producer separating heavy REEs",
+   "Policy support for domestic supply"
   ],
   "bear": [
-   "Small-cap, volatile, thin FCF",
-   "U3O8 price dependent"
+   "Pre-scale, cash-burning \u2014 conviction capped",
+   "Rare-earth pricing is opaque"
   ],
   "v": [
-   "Track REE + uranium output",
-   "Eden deep-dive: run UUUU \u2192 eden-dashboard.streamlit.app"
+   "openinsider.com"
   ],
-  "inv": "Output",
-  "entry": 11.49,
-  "stop": 9.42,
-  "target": 16.66
+  "inv": "CCJ, MP",
+  "entry": 11.1,
+  "stop": 9.1,
+  "target": 14.5
  },
  {
   "t": "BWXT",
   "n": "BWX Technologies",
-  "theme": "Nuclear / defense",
+  "theme": "Nuclear / defence",
   "type": "Momentum",
   "size": "~3% of book",
   "a": "2026-07-17",
-  "why": "Naval + SMR nuclear components; last 173.74.",
+  "why": "Naval reactors plus SMR components \u2014 revenue today, not a 2032 story.",
   "bull": [
-   "Naval reactor sole-source moat",
-   "SMR + microreactor optionality",
-   "Defense budget tailwind"
+   "Sole-source naval propulsion",
+   "SMR component backlog",
+   "Defence budget insulation"
   ],
   "bear": [
-   "Program timing lumpy",
-   "Rich multiple"
+   "Government contracting lumpiness",
+   "Rich multiple for an industrial"
   ],
   "v": [
-   "Track defense backlog",
-   "Eden deep-dive: run BWXT \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/bwxt"
   ],
-  "inv": "Backlog",
-  "entry": 171.13,
-  "stop": 150.59,
-  "target": 222.47
+  "inv": "SMR, GEV",
+  "entry": 166.0,
+  "stop": 146.1,
+  "target": 202.6
  },
  {
   "t": "ETN",
   "n": "Eaton",
-  "theme": "Electrification",
+  "theme": "Electrical / industrials",
   "type": "Core",
   "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Electrical + data-center power; last 396.27.",
+  "why": "Electrification arms dealer: grid, data centre and industrial in one.",
   "bull": [
-   "Datacenter + electrification backlog",
-   "Pricing power",
-   "Reshoring capex"
+   "Data-centre electrical backlog",
+   "Broad end-market diversification",
+   "Pricing power"
   ],
   "bear": [
-   "Macro-cyclical end markets",
-   "Rich vs history"
+   "Industrial cycle sensitivity",
+   "Already a consensus long"
   ],
   "v": [
-   "Track orders/backlog",
-   "Eden deep-dive: run ETN \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/etn"
   ],
-  "inv": "Orders",
-  "entry": 390.33,
-  "stop": 347.39,
-  "target": 499.62
+  "inv": "VRT, GEV",
+  "entry": 388.0,
+  "stop": 345.3,
+  "target": 457.8
  },
  {
   "t": "GEV",
   "n": "GE Vernova",
-  "theme": "Electrification / power",
+  "theme": "Power equipment",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "GE Vernova grid + gas turbines; last 1036.22.",
+  "why": "Gas turbines are sold out for years \u2014 the hard bottleneck in adding generation.",
   "bull": [
-   "Grid + gas-turbine demand for AI power",
-   "Electrification supercycle",
-   "Backlog growth"
+   "Turbine slots booked into the late 2020s",
+   "Grid equipment backlog",
+   "Nuclear optionality"
   ],
   "bear": [
-   "Execution on turbine ramp",
-   "High expectations priced"
+   "Very high expectations embedded",
+   "Offshore wind losses linger"
   ],
   "v": [
-   "Track turbine orders",
-   "Eden deep-dive: run GEV \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/gev"
   ],
-  "inv": "Orders",
-  "entry": 1020.68,
-  "stop": 898.2,
-  "target": 1326.88
+  "inv": "ETN, VRT",
+  "entry": 1026.1,
+  "stop": 903.0,
+  "target": 1251.8
  },
  {
   "t": "RKLB",
@@ -578,102 +533,124 @@
   "type": "Speculative",
   "size": "~2% of book",
   "a": "2026-07-17",
-  "why": "Rocket Lab; last 67.35.",
+  "why": "Neutron is the binary \u2014 the small-launch business funds the option.",
   "bull": [
-   "Neutron reusable rocket cadence",
-   "Space-systems backlog",
-   "Launch demand"
+   "Electron cadence at record levels",
+   "Neutron first flight approaching",
+   "Space Systems revenue base"
   ],
   "bear": [
-   "Neutron timeline slippage risk",
-   "Pre-profit, dilution risk"
+   "Not consistently profitable \u2014 conviction capped",
+   "Neutron slip risk is the whole thesis"
   ],
   "v": [
-   "Track Neutron milestones",
-   "Eden deep-dive: run RKLB \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/rklb"
   ],
-  "inv": "Neutron",
-  "entry": 66.34,
-  "stop": 54.4,
-  "target": 96.19
+  "inv": "ASTS, LUNR",
+  "entry": 65.6,
+  "stop": 53.8,
+  "target": 85.3
  },
  {
   "t": "XOM",
   "n": "Exxon Mobil",
-  "theme": "Energy",
+  "theme": "Energy major",
   "type": "Core",
   "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Integrated major; Rep. Hern bought $100-250K (Jul 2). Last 145.95.",
+  "why": "Rose ~1% Friday while the market fell \u2014 Brent at $88.10 and a Hormuz blockade give it the tape.",
   "bull": [
-   "Low-cost Permian + Guyana",
-   "Buybacks + dividend",
-   "Brent ~$85 supports FCF"
+   "$18.8B TTM FCF",
+   "Guyana and Permian low-cost barrels",
+   "Rep. Hern bought $100-250K"
   ],
   "bear": [
-   "Oil-price cyclicality",
-   "Energy-transition demand risk"
+   "Oil at $88 already prices a lot of war premium",
+   "A ceasefire would reverse the move fast"
   ],
   "v": [
-   "Track Guyana volumes",
-   "Eden deep-dive: run XOM \u2192 eden-dashboard.streamlit.app"
+   "capitoltrades.com"
   ],
-  "inv": "Production",
-  "entry": 143.76,
-  "stop": 127.95,
-  "target": 184.01
- },
- {
-  "t": "SLB",
-  "n": "SLB",
-  "theme": "Energy",
-  "type": "Value",
-  "size": "~3% of book",
-  "a": "2026-07-17",
-  "why": "Oilfield-services leader; reports Jul 17. Last 47.08.",
-  "bull": [
-   "Intl + offshore upcycle",
-   "Digital + production tech",
-   "Cheap vs history"
-  ],
-  "bear": [
-   "Capex-cycle dependent",
-   "NAM softness"
-  ],
-  "v": [
-   "Read Q2 print today",
-   "Eden deep-dive: run SLB \u2192 eden-dashboard.streamlit.app"
-  ],
-  "inv": "Q2 today",
-  "entry": 46.37,
-  "stop": 41.73,
-  "target": 56.57
+  "inv": "CVX, COP",
+  "entry": 142.9,
+  "stop": 127.2,
+  "target": 168.7
  },
  {
   "t": "EQT",
   "n": "EQT Corp",
-  "theme": "Energy / nat gas",
+  "theme": "Nat gas / AI power",
   "type": "Value",
   "size": "~3% of book",
   "a": "2026-07-17",
-  "why": "Rep. Kean Jr bought (Jun 1); AI-power gas demand. Last 49.40.",
+  "why": "Rep. Thomas Kean Jr (R-NJ) bought on Jun 1 at $55.26; gas is the swing fuel for data-centre load.",
   "bull": [
-   "Largest US nat-gas producer",
-   "LNG + AI-datacenter gas demand",
-   "Low-cost Appalachia"
+   "Congressional buy disclosed Jul 16",
+   "Appalachian scale and low breakevens",
+   "LNG and data-centre demand pull"
   ],
   "bear": [
-   "Nat-gas price volatility",
-   "Weather-driven demand"
+   "Gas price is weather-dependent",
+   "Basis differentials can crush realisations"
   ],
   "v": [
-   "Track gas strip + LNG",
-   "Eden deep-dive: run EQT \u2192 eden-dashboard.streamlit.app"
+   "capitoltrades.com"
   ],
-  "inv": "Gas prices",
-  "entry": 48.66,
-  "stop": 43.79,
-  "target": 59.37
+  "inv": "AR, CTRA",
+  "entry": 48.1,
+  "stop": 43.3,
+  "target": 55.8
+ },
+ {
+  "t": "VLO",
+  "n": "Valero Energy",
+  "theme": "Refining",
+  "type": "Value",
+  "size": "~4% of book",
+  "a": "2026-07-17",
+  "why": "NEW. The 3-2-1 crack spread hit a record ~$64.58/bbl on Jul 8; VLO rose 3.1% Friday while the S&P fell 1%.",
+  "bull": [
+   "Refining margins have nearly tripled in 2026",
+   "Record crack spreads on shortage of refining capacity",
+   "Up more than 80% YTD and still making highs"
+  ],
+  "bear": [
+   "Crack spreads mean-revert violently",
+   "A Hormuz de-escalation compresses the whole trade"
+  ],
+  "v": [
+   "247wallst.com refining",
+   "stockanalysis.com/stocks/vlo"
+  ],
+  "inv": "MPC, PSX",
+  "entry": 300.4,
+  "stop": 270.3,
+  "target": 348.4
+ },
+ {
+  "t": "MPC",
+  "n": "Marathon Petroleum",
+  "theme": "Refining",
+  "type": "Value",
+  "size": "~4% of book",
+  "a": "2026-07-17",
+  "why": "NEW. Largest US refiner; rose 2.2% Friday. The winners of this oil shock are refiners, not producers.",
+  "bull": [
+   "Up more than 80% YTD on crack spreads",
+   "MPLX midstream cash flow underpin",
+   "$5.7B TTM FCF"
+  ],
+  "bear": [
+   "Highly cyclical margin business",
+   "$34.3B total debt"
+  ],
+  "v": [
+   "247wallst.com refining"
+  ],
+  "inv": "VLO, PSX",
+  "entry": 303.2,
+  "stop": 272.9,
+  "target": 351.7
  },
  {
   "t": "JPM",
@@ -682,50 +659,75 @@
   "type": "Core",
   "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Q2 profit +41%; last 343.15.",
+  "why": "The quality bank; fell only 0.6% in a 1% down tape.",
   "bull": [
    "Fortress balance sheet",
-   "NII + trading strength",
-   "Buybacks"
+   "Rate curve now positively sloped (+0.37)",
+   "Capital markets recovery"
   ],
   "bear": [
-   "Credit-cycle sensitivity",
-   "Rate-path dependent"
+   "Credit normalisation ahead",
+   "Excluded from DCF \u2014 bank accounting"
   ],
   "v": [
-   "Track NII guide",
-   "Eden deep-dive: run JPM \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/jpm"
   ],
-  "inv": "NII",
-  "entry": 338.0,
-  "stop": 300.82,
-  "target": 432.64
+  "inv": "GS, BAC",
+  "entry": 330.9,
+  "stop": 294.5,
+  "target": 390.4
  },
  {
   "t": "GS",
   "n": "Goldman Sachs",
-  "theme": "Financials",
+  "theme": "Investment banking",
   "type": "Value",
   "size": "~3% of book",
   "a": "2026-07-17",
-  "why": "Blowout Q2; but gave back -5% Jul 16 with tape. Last 1095.46.",
+  "why": "Gave back 5% after its blowout print \u2014 the fade, not the fundamentals, is the opportunity.",
   "bull": [
-   "Record IB + trading; PTs to ~$1,300",
-   "Buyback + dividend",
-   "Deal-pipeline recovery"
+   "Blowout Q2 already reported",
+   "M&A and IPO pipeline reopening",
+   "Buyback capacity"
   ],
   "bear": [
-   "Pulled back sharply from highs",
-   "Trading-revenue cyclicality"
+   "Gave back the entire earnings pop",
+   "Earnings are inherently volatile"
   ],
   "v": [
-   "Track IB backlog",
-   "Eden deep-dive: run GS \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/gs"
   ],
-  "inv": "IB pipeline",
-  "entry": 1079.03,
-  "stop": 971.13,
-  "target": 1316.42
+  "inv": "JPM, MS",
+  "entry": 1033.3,
+  "stop": 929.9,
+  "target": 1198.6
+ },
+ {
+  "t": "JEF",
+  "n": "Jefferies Financial",
+  "theme": "Investment banking",
+  "type": "Value",
+  "size": "~3% of book",
+  "a": "2026-07-17",
+  "why": "NEW. Sumitomo Mitsui bought 5,906,542 shares for $318.7M at $53.96 on Jul 15 \u2014 a +222% increase in its stake, with a board seat attached.",
+  "bull": [
+   "SMFG now holds 8,566,379 shares after a $318.7M open-market buy",
+   "Deepening SMFG partnership; takeover speculation persists",
+   "Capital markets cycle turning up"
+  ],
+  "bear": [
+   "The buy price is subject to a two-month reference-period adjustment",
+   "Smaller and more volatile than GS or JPM",
+   "Excluded from DCF \u2014 negative FCF, bank accounting"
+  ],
+  "v": [
+   "openinsider.com",
+   "investing.com SMFG/JEF"
+  ],
+  "inv": "GS, MS",
+  "entry": 53.2,
+  "stop": 47.9,
+  "target": 61.7
  },
  {
   "t": "LLY",
@@ -734,179 +736,149 @@
   "type": "Core",
   "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "GLP-1 franchise; last 1169.17.",
+  "why": "Incretin franchise remains the largest earnings engine in large-cap pharma.",
   "bull": [
-   "Zepbound/Mounjaro demand",
-   "Oral GLP-1 (orforglipron) pipeline",
-   "Pricing power"
+   "$11.8B TTM FCF",
+   "Orforglipron oral pipeline",
+   "Manufacturing capacity build-out"
   ],
   "bear": [
-   "Supply/competition (NVO)",
-   "Very high multiple"
+   "Compounding and competitive pricing pressure",
+   "Very high multiple for pharma"
   ],
   "v": [
-   "Track oral GLP-1 data",
-   "Eden deep-dive: run LLY \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/lly"
   ],
-  "inv": "Pipeline",
-  "entry": 1151.63,
-  "stop": 1024.95,
-  "target": 1474.09
+  "inv": "NVO, VKTX",
+  "entry": 1143.7,
+  "stop": 1017.9,
+  "target": 1349.6
+ },
+ {
+  "t": "ELV",
+  "n": "Elevance Health",
+  "theme": "Managed care",
+  "type": "Value",
+  "size": "~3% of book",
+  "a": "2026-07-17",
+  "why": "NEW. CEO Gail Boudreaux bought 2,725 shares at $367.79 and director Ramiro Peru bought 1,000 at $366.05 \u2014 both on Jul 17. A same-day two-buyer cluster at the top of the house.",
+  "bull": [
+   "CEO added ~$1.0M, +2% to her stake, on Jul 17",
+   "Director bought the same day at $366.05",
+   "$201.1B TTM revenue, ~$80B market cap"
+  ],
+  "bear": [
+   "Managed care has been a broken sector all year on cost trend",
+   "Medical loss ratios still running hot",
+   "Excluded from DCF \u2014 insurer accounting"
+  ],
+  "v": [
+   "openinsider.com",
+   "fool.com ELV filing"
+  ],
+  "inv": "UNH, CI",
+  "entry": 361.9,
+  "stop": 325.7,
+  "target": 419.8
  },
  {
   "t": "AMZN",
   "n": "Amazon",
-  "theme": "Consumer / cloud",
+  "theme": "Cloud / consumer",
   "type": "Core",
   "size": "~5% of book",
   "a": "2026-07-17",
-  "why": "AWS + retail + ads; last 249.89.",
+  "why": "AWS reacceleration plus retail margin expansion; Rep. Crenshaw sold, insiders elsewhere are buying.",
   "bull": [
-   "AWS AI reacceleration",
-   "Ads high-margin growth",
-   "Retail-margin expansion"
+   "AWS backlog and Trainium ramp",
+   "$143.1B cash",
+   "Advertising is now a major profit pool"
   ],
   "bear": [
-   "Capex intensity",
-   "Consumer-spend sensitivity"
+   "TTM free cash flow is negative on capex \u2014 excluded from DCF",
+   "$209.9B total debt"
   ],
   "v": [
-   "Track AWS growth",
-   "Eden deep-dive: run AMZN \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/amzn"
   ],
-  "inv": "AWS growth",
-  "entry": 246.14,
-  "stop": 219.06,
-  "target": 315.06
+  "inv": "MSFT, GOOGL",
+  "entry": 239.8,
+  "stop": 213.4,
+  "target": 283.0
  },
  {
   "t": "MELI",
   "n": "MercadoLibre",
-  "theme": "Consumer / LatAm",
+  "theme": "LatAm e-commerce / fintech",
   "type": "Momentum",
-  "size": "~3% of book",
+  "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "LatAm e-comm + fintech; insiders bought $1.19M. Last 1857.42.",
+  "why": "The dominant LatAm platform; fell 2.3% Friday with growth names.",
   "bull": [
-   "Dominant LatAm marketplace",
-   "Mercado Pago fintech growth",
-   "Insider buying"
+   "E-commerce plus credit plus payments flywheel",
+   "Argentina and Mexico expansion",
+   "Structural share gains"
   ],
   "bear": [
-   "FX/LatAm macro risk",
-   "Credit-book risk"
+   "FX and country risk",
+   "Credit book losses in a downturn"
   ],
   "v": [
-   "Track GMV + credit",
-   "Eden deep-dive: run MELI \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/meli"
   ],
-  "inv": "GMV",
-  "entry": 1829.56,
-  "stop": 1610.01,
-  "target": 2378.43
+  "inv": "NU, GLOB",
+  "entry": 1759.5,
+  "stop": 1548.4,
+  "target": 2146.6
  },
  {
   "t": "CAVA",
   "n": "CAVA Group",
-  "theme": "Consumer",
+  "theme": "Consumer / restaurants",
   "type": "Momentum",
-  "size": "~2% of book",
-  "a": "2026-07-17",
-  "why": "Fast-casual growth; MS upgrade OW $90 + insider cluster. Last 68.10.",
-  "bull": [
-   "Unit growth + same-store sales",
-   "Category leadership",
-   "Insider + analyst support"
-  ],
-  "bear": [
-   "Rich restaurant multiple",
-   "Consumer-discretionary risk"
-  ],
-  "v": [
-   "Track unit growth + SSS",
-   "Eden deep-dive: run CAVA \u2192 eden-dashboard.streamlit.app"
-  ],
-  "inv": "SSS",
-  "entry": 67.08,
-  "stop": 59.03,
-  "target": 87.2
- },
- {
-  "t": "KMX",
-  "n": "CarMax",
-  "theme": "Consumer",
-  "type": "Value",
-  "size": "~2% of book",
-  "a": "2026-07-17",
-  "why": "CarMax: 5-insider $1.27M cluster at $52.67; last 58.47.",
-  "bull": [
-   "Insiders early and right",
-   "Used-car margin recovery",
-   "Financing income"
-  ],
-  "bear": [
-   "Consumer-credit sensitivity",
-   "Used-price deflation"
-  ],
-  "v": [
-   "Track units + GPU",
-   "Eden deep-dive: run KMX \u2192 eden-dashboard.streamlit.app"
-  ],
-  "inv": "Comps",
-  "entry": 57.59,
-  "stop": 51.83,
-  "target": 70.26
- },
- {
-  "t": "FSLR",
-  "n": "First Solar",
-  "theme": "Renewables",
-  "type": "Value",
   "size": "~3% of book",
   "a": "2026-07-17",
-  "why": "US solar with booked pipeline; last 211.93.",
+  "why": "Unit growth story with real same-store traffic \u2014 rare in restaurants right now.",
   "bull": [
-   "Booked through ~2029",
-   "IRA/domestic-content edge",
-   "Reverse-DCF implies ~1% g (cheap)"
+   "Best-in-class new-unit economics",
+   "Traffic-led comps",
+   "Long runway on store count"
   ],
   "bear": [
-   "Policy-change risk",
-   "ASP pressure long-term"
+   "High multiple for a restaurant",
+   "Consumer spending is softening"
   ],
   "v": [
-   "Track bookings + ASPs",
-   "Eden deep-dive: run FSLR \u2192 eden-dashboard.streamlit.app"
+   "stockanalysis.com/stocks/cava"
   ],
-  "inv": "Bookings",
-  "entry": 208.75,
-  "stop": 187.88,
-  "target": 254.67
+  "inv": "SG, WING",
+  "entry": 66.8,
+  "stop": 58.8,
+  "target": 81.5
  },
  {
   "t": "AAPL",
   "n": "Apple",
-  "theme": "Megacap",
+  "theme": "Consumer tech",
   "type": "Core",
   "size": "~4% of book",
   "a": "2026-07-17",
-  "why": "Record high last week; last 333.26.",
+  "why": "HSBC upgraded to Buy with a $366 target on Jul 17; held up (+0.1%) in a down tape.",
   "bull": [
-   "Services + installed-base moat",
-   "Buybacks + cash",
-   "AI-features cycle"
+   "HSBC upgrade to Buy, $366 target",
+   "$129.2B TTM FCF",
+   "Services margin mix"
   ],
   "bear": [
-   "China demand risk",
-   "Hardware-cycle maturity"
+   "AI strategy still lags peers",
+   "China demand risk"
   ],
   "v": [
-   "Track Services + iPhone",
-   "Eden deep-dive: run AAPL \u2192 eden-dashboard.streamlit.app"
+   "247wallst.com analyst calls"
   ],
-  "inv": "Services",
-  "entry": 328.26,
-  "stop": 292.15,
-  "target": 420.17
+  "inv": "MSFT, GOOGL",
+  "entry": 323.7,
+  "stop": 288.1,
+  "target": 382.0
  }
 ]

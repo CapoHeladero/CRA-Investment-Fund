@@ -1,188 +1,197 @@
 {
  "asof": "2026-07-17",
- "method": "Qualitative composite of momentum, theme durability, FCF quality and catalyst flow; letter grade + 0-100 score. Not a recommendation.",
+ "method": "Composite 0-100: business quality, free-cash-flow durability, balance sheet, insider/institutional signal, and how the name traded through the Jul 13-17 risk-off week. Prices are Jul 17 closes.",
  "names": [
   {
-   "t": "NVDA",
-   "n": "Nvidia",
-   "sector": "AI semis",
-   "grade": "A",
-   "score": 93.0,
-   "tier": "top",
-   "note": "Held better than memory through the Jul 16 chip slide."
-  },
-  {
-   "t": "ASML",
-   "n": "ASML",
-   "sector": "Semicap",
+   "t": "VLO",
+   "n": "Valero Energy",
+   "sector": "Refining",
    "grade": "A",
    "score": 92.0,
    "tier": "top",
-   "note": "Guidance raised 2nd time (\u20ac43-45B); best-supported implied path."
+   "note": "Record 3-2-1 crack spreads; +3.1% on a -1.0% day."
+  },
+  {
+   "t": "MPC",
+   "n": "Marathon Petroleum",
+   "sector": "Refining",
+   "grade": "A",
+   "score": 90.0,
+   "tier": "top",
+   "note": "Largest US refiner, +2.2% Friday, +80% YTD."
   },
   {
    "t": "MSFT",
    "n": "Microsoft",
    "sector": "Software",
    "grade": "A",
-   "score": 91.0,
+   "score": 89.0,
    "tier": "top",
-   "note": "Azure AI + Copilot; durable $73B FCF."
+   "note": "$72.9B TTM FCF; most defensible of the big AI spenders."
+  },
+  {
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "sector": "Semis",
+   "grade": "A",
+   "score": 88.0,
+   "tier": "top",
+   "note": "$119.1B TTM FCF, net cash; congressional buying at $192.53."
+  },
+  {
+   "t": "GOOGL",
+   "n": "Alphabet",
+   "sector": "Software",
+   "grade": "A",
+   "score": 87.0,
+   "tier": "top",
+   "note": "$64.4B FCF, $126.8B cash; sold off 4.6% on Jul 16."
+  },
+  {
+   "t": "XOM",
+   "n": "Exxon Mobil",
+   "sector": "Energy",
+   "grade": "A",
+   "score": 86.0,
+   "tier": "top",
+   "note": "Up on a down day; Brent $88.10 and a Hormuz blockade."
   },
   {
    "t": "AVGO",
    "n": "Broadcom",
-   "sector": "AI semis",
-   "grade": "A-",
-   "score": 89.0,
+   "sector": "Semis",
+   "grade": "A",
+   "score": 85.0,
    "tier": "top",
-   "note": "Custom-silicon + VMware software ballast."
+   "note": "$32.8B FCF; custom ASIC franchise. Debt is the caveat."
   },
   {
-   "t": "GEV",
-   "n": "GE Vernova",
-   "sector": "Power",
-   "grade": "A-",
-   "score": 88.0,
+   "t": "META",
+   "n": "Meta Platforms",
+   "sector": "Software",
+   "grade": "A",
+   "score": 84.0,
    "tier": "top",
-   "note": "Grid + turbine backlog for AI power."
+   "note": "$48.3B FCF funds the AI build internally."
   },
   {
-   "t": "CEG",
-   "n": "Constellation",
-   "sector": "Nuclear",
-   "grade": "A-",
-   "score": 87.0,
+   "t": "ELV",
+   "n": "Elevance Health",
+   "sector": "Healthcare",
+   "grade": "B",
+   "score": 82.0,
    "tier": "top",
-   "note": "Baseload scarcity; PPAs to hyperscalers."
+   "note": "Same-day CEO + director cluster buy on Jul 17."
+  },
+  {
+   "t": "TSM",
+   "n": "Taiwan Semiconductor",
+   "sector": "Semis",
+   "grade": "A",
+   "score": 82.0,
+   "tier": "top",
+   "note": "Profit +77% y/y; ADR fell anyway. Fundamentals intact."
+  },
+  {
+   "t": "JEF",
+   "n": "Jefferies Financial",
+   "sector": "Financials",
+   "grade": "B",
+   "score": 81.0,
+   "tier": "top",
+   "note": "SMFG's $318.7M buy at $53.96 is the week's loudest signal."
+  },
+  {
+   "t": "AAPL",
+   "n": "Apple",
+   "sector": "Consumer tech",
+   "grade": "A",
+   "score": 80.0,
+   "tier": "top",
+   "note": "$129.2B FCF; HSBC upgrade to Buy, $366 target."
+  },
+  {
+   "t": "ANET",
+   "n": "Arista Networks",
+   "sector": "AI networking",
+   "grade": "B",
+   "score": 79.0,
+   "tier": "top",
+   "note": "Flat Friday while semis fell; no meaningful debt."
   },
   {
    "t": "LLY",
    "n": "Eli Lilly",
    "sector": "Healthcare",
-   "grade": "A-",
-   "score": 87.0,
-   "tier": "top",
-   "note": "GLP-1 franchise + oral pipeline."
-  },
-  {
-   "t": "OKTA",
-   "n": "Okta",
-   "sector": "Cyber",
-   "grade": "B+",
-   "score": 85.0,
-   "tier": "top",
-   "note": "Capital One upgrade OW $171; momentum breakout."
-  },
-  {
-   "t": "JPM",
-   "n": "JPMorgan",
-   "sector": "Financials",
-   "grade": "B+",
-   "score": 84.0,
-   "tier": "top",
-   "note": "Q2 profit +41%; fortress balance sheet."
-  },
-  {
-   "t": "CAVA",
-   "n": "CAVA",
-   "sector": "Consumer",
-   "grade": "B+",
-   "score": 83.0,
-   "tier": "top",
-   "note": "MS upgrade OW $90 + insider cluster."
-  },
-  {
-   "t": "ANET",
-   "n": "Arista",
-   "sector": "AI networking",
-   "grade": "B+",
-   "score": 83.0,
-   "tier": "top",
-   "note": "AI-cluster Ethernet share gains."
-  },
-  {
-   "t": "VST",
-   "n": "Vistra",
-   "sector": "Power",
-   "grade": "B+",
-   "score": 82.0,
-   "tier": "top",
-   "note": "AI-power demand; buybacks."
-  },
-  {
-   "t": "AMZN",
-   "n": "Amazon",
-   "sector": "Cloud/consumer",
-   "grade": "B+",
-   "score": 82.0,
-   "tier": "top",
-   "note": "AWS reaccel + ads leverage."
-  },
-  {
-   "t": "CCJ",
-   "n": "Cameco",
-   "sector": "Uranium",
    "grade": "B",
-   "score": 80.0,
+   "score": 78.0,
    "tier": "top",
-   "note": "Uranium deficit + contracting cycle."
+   "note": "Incretin franchise; multiple is the whole risk."
+  },
+  {
+   "t": "ETN",
+   "n": "Eaton",
+   "sector": "Industrials",
+   "grade": "B",
+   "score": 77.0,
+   "tier": "top",
+   "note": "Electrification backlog, diversified end markets."
   }
  ],
  "worst": [
   {
-   "t": "NFLX",
-   "n": "Netflix",
-   "sector": "Streaming",
-   "grade": "C-",
-   "score": 42.0,
-   "tier": "worst",
-   "note": "-~10% pre-market on earnings; downtrend from 52w high $128."
-  },
-  {
    "t": "HTZ",
-   "n": "Hertz",
-   "sector": "Autos",
-   "grade": "D",
-   "score": 28.0,
+   "n": "Hertz Global",
+   "sector": "Consumer",
+   "grade": "F",
+   "score": 16.0,
    "tier": "worst",
-   "note": "~$1.87; negative FCF, dilution risk \u2014 story name."
+   "note": "$1.80 and -3.7% Friday. Balance sheet, not a business."
   },
   {
    "t": "OPEN",
    "n": "Opendoor",
-   "sector": "RE tech",
-   "grade": "D+",
-   "score": 34.0,
+   "sector": "Real estate",
+   "grade": "F",
+   "score": 21.0,
    "tier": "worst",
-   "note": "Unprofitable iBuyer; housing-cycle risk."
+   "note": "$4.50; inventory model breaks in a slow housing tape."
   },
   {
    "t": "UA",
    "n": "Under Armour",
    "sector": "Consumer",
-   "grade": "D+",
-   "score": 36.0,
+   "grade": "D",
+   "score": 26.0,
    "tier": "worst",
-   "note": "Weak revenue trend; turnaround unproven."
+   "note": "$7.28; brand still unfixed after years of resets."
   },
   {
-   "t": "OSCR",
-   "n": "Oscar Health",
-   "sector": "Insurtech",
-   "grade": "C-",
-   "score": 44.0,
+   "t": "TE",
+   "n": "T1 Energy",
+   "sector": "Renewables",
+   "grade": "D",
+   "score": 28.0,
    "tier": "worst",
-   "note": "Unprofitable; MLR/regulatory risk."
+   "note": "$5.84; cash burn against a hostile solar policy backdrop."
   },
   {
-   "t": "MU",
-   "n": "Micron",
-   "sector": "Memory",
-   "grade": "C+",
-   "score": 55.0,
+   "t": "NFLX",
+   "n": "Netflix",
+   "sector": "Media",
+   "grade": "C",
+   "score": 38.0,
    "tier": "worst",
-   "note": "Momentum broke on CXMT oversupply fear; -8%+ days."
+   "note": "-7.3% Friday, now $68.95 versus a 52-week high of $128."
+  },
+  {
+   "t": "SMCI",
+   "n": "Super Micro",
+   "sector": "AI hardware",
+   "grade": "C",
+   "score": 40.0,
+   "tier": "worst",
+   "note": "$24.18; commodity margins and a governance history."
   }
  ]
 }

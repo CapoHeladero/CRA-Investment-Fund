@@ -4,38 +4,38 @@
  "items": [
   {
    "sev": "high",
-   "title": "Semiconductor correction broadening",
-   "detail": "TSMC beat (+77% y/y profit) yet ADRs fell ~5% pre-market on capex-vs-margin worry; memory (SK Hynix, SanDisk) down ~7%; Nasdaq -1.47% Jul 16. AI-hardware carries the index's earnings-revision fuel \u2014 a topping tape there pressures the whole market."
+   "title": "AI-capex faith is breaking, not the AI economy",
+   "detail": "SOXX -4.5% on Jul 16 and TSMC's +77% y/y profit beat still could not hold the ADR. Amazon, Alphabet, Meta and Microsoft are on track for as much as $725B of capex this year, and investors are now punishing the spenders while the chipmakers de-rate too. JPMorgan calls the divergence 'somewhat unsustainable'. This is the single largest factor in the index."
   },
   {
    "sev": "high",
-   "title": "US-Gulf tension / oil",
-   "detail": "Rising Gulf/Iran tension kept Brent ~$84.63 and pressured stocks early. An energy-price shock would threaten the disinflation story into the Jul 28-29 FOMC."
+   "title": "Gulf war escalation and the Strait of Hormuz",
+   "detail": "Kuwait says Iran struck a power and desalination plant; US Central Command has completed six consecutive nights of strikes; Iran hit US bases in Bahrain, Jordan, Kuwait, Oman, Qatar and Syria. Hormuz crossings fell ~52% week-on-week per Kpler. Brent +4.6% to $88.10 and +14% on the week. A closure would be a genuine supply shock, and the interim peace deal now looks fragile."
   },
   {
    "sev": "med",
-   "title": "Earnings-reaction risk",
-   "detail": "Netflix fell ~10% pre-market Jul 17 on its print; even beats (TSMC, GS) sold off. Guidance bars are high \u2014 SLB reports today."
+   "title": "S&P 500 closed below its 200-day moving average",
+   "detail": "7,457.69 versus a 200-day of 7,472.59 \u2014 the first close below it since Apr 8, and the index also lost its 50-day. One close is not a trend, but it removes the technical support that has underpinned every dip since spring."
   },
   {
    "sev": "med",
-   "title": "Narrow leadership / megacap concentration",
-   "detail": "Alphabet -4.6% and the chip basket led lower while defensives (NKE, IBM) held. Breadth is selective; the index leans on a few names."
+   "title": "Volatility is waking up",
+   "detail": "VIX 18.03, up roughly 20% over the week. Still below the 20 'fear' threshold and well below the 25 that would flag a real regime change, but the speed of the move says complacency is evaporating."
   },
   {
    "sev": "med",
-   "title": "Two-sided Fed into Jul 28-29",
-   "detail": "June PPI -0.3% m/m says disinflation, yet some desks still flag hike risk. 10Y ~4.55%, curve positive. A hawkish surprise hits long-duration software hardest."
+   "title": "Oil is now an inflation input again",
+   "detail": "Brent at $88.10 with record refining margins feeds straight into headline CPI. That matters into the Jul 28-29 FOMC, where the Fed is expected to hold at 3.50-3.75%. An energy-led inflation print would take rate cuts off the table."
   },
   {
    "sev": "low",
-   "title": "VIX low vs headline load",
-   "detail": "VIX 16.31 with a naval-tension backdrop and a heavy earnings week leaves the tape lightly hedged against gap risk."
+   "title": "Yield curve is positively sloped",
+   "detail": "10Y 4.55% versus 2Y 4.18%, a +0.37 spread. No inversion signal, and the Fed is on hold rather than hiking. Rates are not the problem right now."
   },
   {
    "sev": "low",
-   "title": "Story-name froth",
-   "detail": "Speculative AI-power/space/SMR names (SMR, TE, APLD, OPEN, HTZ) remain thin-fundamental and prone to sharp drawdowns if risk appetite fades."
+   "title": "Leadership has narrowed to energy",
+   "detail": "XLE +1.42% was the leading sector on Jul 17 while everything AI-adjacent fell. Narrow, commodity-driven leadership is less durable than broad participation, and it reverses instantly on a ceasefire headline."
   }
  ]
 }
