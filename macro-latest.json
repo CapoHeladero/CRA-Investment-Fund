@@ -1,32 +1,32 @@
 {
- "asof": "2026-07-17",
- "vix": 18.03,
+ "asof": "2026-07-20",
+ "vix": 18.8,
  "y10": 4.55,
  "y2": 4.18,
- "ff": 3.63,
- "spVs200": -0.19,
- "brent": 88.1,
- "note": "Risk-off week, and the character changed on Friday. S&P 500 -1.01% to 7,457.69, Nasdaq -1.4% to 25,520.24, Dow -0.77% to 52,146.42 \u2014 the S&P closed below its 200-day moving average (7,472.59) for the first time since Apr 8. The driver is a genuine loss of faith in the AI-chip trade rather than a macro shock: SOXX fell 4.5% on Jul 16 and TSMC's blowout print (profit +77% y/y, revenue +36%) could not hold the ADR up. JPMorgan flagged the widening split between chipmakers and the hyperscalers funding them as 'somewhat unsustainable'. Meanwhile the Gulf war escalated \u2014 Kuwait said Iran struck a power and desalination plant, US Central Command completed a sixth consecutive night of strikes, and Hormuz crossings fell about 52% week-on-week. Brent jumped 4.6% to $88.10, up more than 14% on the week, and XLE (+1.42%) was the leading sector while refining margins hit records. Rates were calm: 10Y 4.55%, 2Y 4.18%, curve positively sloped at +0.37, Fed on hold at 3.50-3.75% into Jul 28-29. VIX 18.03, up ~20% on the week but still below 20 \u2014 complacency is fading, not gone.",
+ "ff": 3.6,
+ "spVs200": 0.1,
+ "brent": 90.8,
+ "note": "S&P 500 7,475.69 (-1.0% Fri), Nasdaq 25,520.24 (-1.4%), Dow 52,146.42 (-0.8%) - first losing week in three. VIX 18.77 (+12.2%). Curve positive at +37bp. Fed on hold at 3.50-3.75% under Chair Warsh with the 28-29 Jul meeting priced ~80% no-change, though 9 of 19 dots still show a 2026 hike. Brent $90.79 on Hormuz disruption. Leadership has rotated out of semis into energy, banks, healthcare and rails.",
  "checklist": [
   false,
   false,
+  false,
+  false,
+  false,
+  false,
+  false,
   true,
-  false,
-  false,
-  false,
-  false,
-  true,
-  false
+  true
  ],
  "whatsnew": [
-  "Book: ADDED VLO and MPC (refiners \u2014 the 3-2-1 crack spread hit a record ~$64.58/bbl on Jul 8 and both rose while the S&P fell 1%), JEF (Sumitomo Mitsui's $318.7M open-market buy) and ELV (same-day CEO + director cluster buy).",
-  "Book: REMOVED KMX, SLB, NOW and FSLR \u2014 auto retail and enterprise software kept de-rating, and energy exposure is now expressed through refiners and XOM/EQT rather than oil services.",
-  "Tape: S&P 500 -1.01% to 7,457.69, Nasdaq -1.4% to 25,520.24, Dow -0.77% to 52,146.42. The index closed BELOW its 200-day (7,472.59) for the first time since Apr 8.",
-  "Semis: the AI-chip trade cracked \u2014 SOXX -4.5% on Jul 16, and TSMC's +77% y/y profit beat could not stop the ADR falling. JPMorgan called the chip-versus-hyperscaler divergence 'somewhat unsustainable'.",
-  "Energy: Brent +4.6% to $88.10 after Kuwait said Iran hit a power and desalination plant; oil is up more than 14% on the week and Hormuz crossings fell ~52% w/w. Refiners, not producers, are the winners.",
-  "Insiders: Sumitomo Mitsui bought $318.7M of Jefferies at $53.96 (+222% to its stake, board seat attached) \u2014 the single loudest insider print of the week. Elevance's CEO and a director both bought on Jul 17.",
-  "Congress: Rep. Cleo Fields (D-LA) disclosed three NVDA buys at $192.53; Rep. Crenshaw bought a 3x oil ETF and trimmed GOOGL, AMZN and AAPL.",
-  "Analysts: HSBC upgraded AAPL to Buy ($366), KeyBanc raised AMD to $725 from $530, JPMorgan took EMR and MMM to Overweight, BofA cut FRVO to $36 while upgrading it to Buy.",
-  "Watchlist vs yesterday: 49 dossiers (35 saved tickers + 14 curated/carried). Curated ideas now 12 \u2014 ADDED VLO, MPC, JEF, ELV, XOM; DROPPED OKTA, KMX, ASML, VST, MELI (all except KMX still covered). Dossiers ADDED VLO, MPC, JEF, ELV; REMOVED KMX. Conviction: NFLX cut to 2, GS cut to 3 after giving back its earnings pop, XOM raised to 5, CCJ held at 4."
+  "Brent broke $90 (+3.0% to $90.79) as US-Iran strikes cut Strait of Hormuz transits to 4 vessels from 8 - the dominant macro variable today.",
+  "Book ADDED: NOW, PLTR, IONQ, FSLR, SLB, UNH. RETIRED: AMD (upside cut to 6%), OKTA and NTSK (below/near consensus target), VLO, MPC and AAPL (all now trade above their average analyst target), AMZN, CAVA.",
+  "Insider standout: a Jefferies (JEF) director bought $318.7M at $53.96 - by far the largest single insider purchase on the weekly tape.",
+  "Elevance (ELV) CEO bought $1.37M in the open market at $367.32-367.79; reverse-DCF implies -7.2% growth, the deepest value gap in the book.",
+  "New cluster buys: Energy Fuels (UUUU) 2 buyers at $13.06, IperionX (IPX) $4.95M at $3.95, Gloo (GLOO) 4 buyers at $3.26.",
+  "Rotation confirmed: 296 new 52-week highs led by rails, banks and healthcare (UNH made a new high) while the semis index sits about 20% below its June peak.",
+  "Rep. Cleo Fields disclosed three NVDA buys at $192.53; Rep. Crenshaw disclosed a leveraged long-oil ETF position traded 1 Jun, ahead of the Hormuz spike.",
+  "S&P 500 closed 7,475.69 - only 0.1% above its 7,464.61 200-day average and below its 50-day since 17 Jul. The primary trend is on the line.",
+  "Watchlist vs yesterday: 40 dossiers (35 saved tickers + 5 curated adds JEF/ELV/UNH/GEV/TSM). Curated ideas ADDED SLB, JPM, GS, UNH, CCJ, VST, ETN, MELI, TSM; DROPPED VLO, MPC, CAVA, ANET, BWXT, EQT, NTSK. Conviction UP: NFLX 2->5, NOW 3->5, CEG 4->5, CCJ 4->5, MU/VRT/SLB/SMCI/NBIS 3->4; DOWN: CRWD 4->2 and OKTA 4->2 (both below consensus target), XOM 5->3, JPM 4->3, NVDA 5->4."
  ]
 }

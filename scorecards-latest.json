@@ -1,197 +1,197 @@
 {
- "asof": "2026-07-17",
- "method": "Composite 0-100: business quality, free-cash-flow durability, balance sheet, insider/institutional signal, and how the name traded through the Jul 13-17 risk-off week. Prices are Jul 17 closes.",
+ "asof": "2026-07-20",
+ "method": "Composite of valuation vs growth, FCF quality, consensus-target distance and insider/flow confirmation. Score 0-100.",
  "names": [
   {
-   "t": "VLO",
-   "n": "Valero Energy",
-   "sector": "Refining",
+   "t": "TSM",
+   "n": "TSMC",
+   "sector": "Semis",
    "grade": "A",
    "score": 92.0,
    "tier": "top",
-   "note": "Record 3-2-1 crack spreads; +3.1% on a -1.0% day."
+   "note": "26.6x trailing, 30.6% revenue growth, sole-source leading-edge foundry."
   },
   {
-   "t": "MPC",
-   "n": "Marathon Petroleum",
-   "sector": "Refining",
-   "grade": "A",
-   "score": 90.0,
-   "tier": "top",
-   "note": "Largest US refiner, +2.2% Friday, +80% YTD."
-  },
-  {
-   "t": "MSFT",
-   "n": "Microsoft",
-   "sector": "Software",
-   "grade": "A",
-   "score": 89.0,
-   "tier": "top",
-   "note": "$72.9B TTM FCF; most defensible of the big AI spenders."
-  },
-  {
-   "t": "NVDA",
-   "n": "NVIDIA",
+   "t": "MU",
+   "n": "Micron Technology",
    "sector": "Semis",
    "grade": "A",
-   "score": 88.0,
+   "score": 91.0,
    "tier": "top",
-   "note": "$119.1B TTM FCF, net cash; congressional buying at $192.53."
+   "note": "Forward PE 5.9x on +167% revenue growth; HBM sold out."
   },
   {
    "t": "GOOGL",
    "n": "Alphabet",
    "sector": "Software",
    "grade": "A",
+   "score": 90.0,
+   "tier": "top",
+   "note": "Own model + own silicon + cloud; 26.5x with 17.5% growth."
+  },
+  {
+   "t": "MSFT",
+   "n": "Microsoft",
+   "sector": "Software",
+   "grade": "A-",
+   "score": 88.0,
+   "tier": "top",
+   "note": "23.5x trailing is the cheapest megacap software multiple in three years."
+  },
+  {
+   "t": "JPM",
+   "n": "JPMorgan Chase",
+   "sector": "Financials",
+   "grade": "A-",
    "score": 87.0,
    "tier": "top",
-   "note": "$64.4B FCF, $126.8B cash; sold off 4.6% on Jul 16."
-  },
-  {
-   "t": "XOM",
-   "n": "Exxon Mobil",
-   "sector": "Energy",
-   "grade": "A",
-   "score": 86.0,
-   "tier": "top",
-   "note": "Up on a down day; Brent $88.10 and a Hormuz blockade."
-  },
-  {
-   "t": "AVGO",
-   "n": "Broadcom",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 85.0,
-   "tier": "top",
-   "note": "$32.8B FCF; custom ASIC franchise. Debt is the caveat."
-  },
-  {
-   "t": "META",
-   "n": "Meta Platforms",
-   "sector": "Software",
-   "grade": "A",
-   "score": 84.0,
-   "tier": "top",
-   "note": "$48.3B FCF funds the AI build internally."
+   "note": "Beat again this week; best-in-class ROTCE."
   },
   {
    "t": "ELV",
    "n": "Elevance Health",
    "sector": "Healthcare",
-   "grade": "B",
-   "score": 82.0,
+   "grade": "A-",
+   "score": 86.0,
    "tier": "top",
-   "note": "Same-day CEO + director cluster buy on Jul 17."
+   "note": "CEO open-market buy; reverse-DCF implies negative growth from here."
   },
   {
-   "t": "TSM",
-   "n": "Taiwan Semiconductor",
+   "t": "CEG",
+   "n": "Constellation Energy",
+   "sector": "Utilities",
+   "grade": "B+",
+   "score": 84.0,
+   "tier": "top",
+   "note": "Nuclear PPAs to hyperscalers with 41.8% upside to consensus."
+  },
+  {
+   "t": "NVDA",
+   "n": "NVIDIA",
    "sector": "Semis",
-   "grade": "A",
-   "score": 82.0,
+   "grade": "B+",
+   "score": 83.0,
    "tier": "top",
-   "note": "Profit +77% y/y; ADR fell anyway. Fundamentals intact."
+   "note": "Still the standard, but $4.9T cap needs 17.4% FCF CAGR for a decade to justify."
   },
   {
-   "t": "JEF",
-   "n": "Jefferies Financial",
-   "sector": "Financials",
-   "grade": "B",
+   "t": "GEV",
+   "n": "GE Vernova",
+   "sector": "Industrials",
+   "grade": "B+",
+   "score": 82.0,
+   "tier": "top",
+   "note": "Turbine backlog sold out into the 2030s."
+  },
+  {
+   "t": "XOM",
+   "n": "Exxon Mobil",
+   "sector": "Energy",
+   "grade": "B+",
+   "score": 82.0,
+   "tier": "top",
+   "note": "Brent >$90 and the lowest breakevens among the majors."
+  },
+  {
+   "t": "UNH",
+   "n": "UnitedHealth Group",
+   "sector": "Healthcare",
+   "grade": "B+",
    "score": 81.0,
    "tier": "top",
-   "note": "SMFG's $318.7M buy at $53.96 is the week's loudest signal."
-  },
-  {
-   "t": "AAPL",
-   "n": "Apple",
-   "sector": "Consumer tech",
-   "grade": "A",
-   "score": 80.0,
-   "tier": "top",
-   "note": "$129.2B FCF; HSBC upgrade to Buy, $366 target."
-  },
-  {
-   "t": "ANET",
-   "n": "Arista Networks",
-   "sector": "AI networking",
-   "grade": "B",
-   "score": 79.0,
-   "tier": "top",
-   "note": "Flat Friday while semis fell; no meaningful debt."
-  },
-  {
-   "t": "LLY",
-   "n": "Eli Lilly",
-   "sector": "Healthcare",
-   "grade": "B",
-   "score": 78.0,
-   "tier": "top",
-   "note": "Incretin franchise; multiple is the whole risk."
+   "note": "New 52-week high; reverse-DCF implies only 3.8% growth."
   },
   {
    "t": "ETN",
    "n": "Eaton",
    "sector": "Industrials",
    "grade": "B",
+   "score": 79.0,
+   "tier": "top",
+   "note": "Electrification pure-play, but 39x trailing is full."
+  },
+  {
+   "t": "CCJ",
+   "n": "Cameco",
+   "sector": "Uranium",
+   "grade": "B",
    "score": 77.0,
    "tier": "top",
-   "note": "Electrification backlog, diversified end markets."
+   "note": "Structural Western supply deficit; 80x trailing is the price of admission."
+  },
+  {
+   "t": "JEF",
+   "n": "Jefferies Financial",
+   "sector": "Financials",
+   "grade": "B",
+   "score": 76.0,
+   "tier": "top",
+   "note": "$318.7M director buy is the loudest insider signal on the tape."
+  },
+  {
+   "t": "MELI",
+   "n": "MercadoLibre",
+   "sector": "Consumer/LatAm",
+   "grade": "B",
+   "score": 75.0,
+   "tier": "top",
+   "note": "42% revenue growth; FX and LatAm rates are the recurring drag."
   }
  ],
  "worst": [
   {
-   "t": "HTZ",
-   "n": "Hertz Global",
+   "t": "AAPL",
+   "n": "Apple",
    "sector": "Consumer",
-   "grade": "F",
-   "score": 16.0,
+   "grade": "C-",
+   "score": 42.0,
    "tier": "worst",
-   "note": "$1.80 and -3.7% Friday. Balance sheet, not a business."
+   "note": "Trades 4.6% ABOVE consensus target at 40.5x with low-single-digit growth."
+  },
+  {
+   "t": "OKTA",
+   "n": "Okta",
+   "sector": "Cyber",
+   "grade": "C-",
+   "score": 41.0,
+   "tier": "worst",
+   "note": "108x trailing and 17% BELOW the average analyst target."
+  },
+  {
+   "t": "PANW",
+   "n": "Palo Alto Networks",
+   "sector": "Cyber",
+   "grade": "C",
+   "score": 45.0,
+   "tier": "worst",
+   "note": "347x trailing; 9.3% below consensus target."
+  },
+  {
+   "t": "OSCR",
+   "n": "Oscar Health",
+   "sector": "Healthcare",
+   "grade": "D+",
+   "score": 35.0,
+   "tier": "worst",
+   "note": "Unprofitable, and 18% below consensus target."
   },
   {
    "t": "OPEN",
-   "n": "Opendoor",
-   "sector": "Real estate",
-   "grade": "F",
-   "score": 21.0,
-   "tier": "worst",
-   "note": "$4.50; inventory model breaks in a slow housing tape."
-  },
-  {
-   "t": "UA",
-   "n": "Under Armour",
-   "sector": "Consumer",
+   "n": "Opendoor Technologies",
+   "sector": "Real Estate",
    "grade": "D",
-   "score": 26.0,
+   "score": 30.0,
    "tier": "worst",
-   "note": "$7.28; brand still unfixed after years of resets."
+   "note": "Revenue -23%, unprofitable, only 8% upside to a low consensus target."
   },
   {
-   "t": "TE",
-   "n": "T1 Energy",
-   "sector": "Renewables",
+   "t": "SMR",
+   "n": "NuScale Power",
+   "sector": "Nuclear",
    "grade": "D",
-   "score": 28.0,
+   "score": 32.0,
    "tier": "worst",
-   "note": "$5.84; cash burn against a hostile solar policy backdrop."
-  },
-  {
-   "t": "NFLX",
-   "n": "Netflix",
-   "sector": "Media",
-   "grade": "C",
-   "score": 38.0,
-   "tier": "worst",
-   "note": "-7.3% Friday, now $68.95 versus a 52-week high of $128."
-  },
-  {
-   "t": "SMCI",
-   "n": "Super Micro",
-   "sector": "AI hardware",
-   "grade": "C",
-   "score": 40.0,
-   "tier": "worst",
-   "note": "$24.18; commodity margins and a governance history."
+   "note": "Revenue -62% to $18.7M; a pure narrative on an SMR that is not yet commercial."
   }
  ]
 }

@@ -1,41 +1,41 @@
 {
- "asof": "2026-07-17",
+ "asof": "2026-07-20",
  "scope": "whole-market",
  "items": [
   {
    "sev": "high",
-   "title": "AI-capex faith is breaking, not the AI economy",
-   "detail": "SOXX -4.5% on Jul 16 and TSMC's +77% y/y profit beat still could not hold the ADR. Amazon, Alphabet, Meta and Microsoft are on track for as much as $725B of capex this year, and investors are now punishing the spenders while the chipmakers de-rate too. JPMorgan calls the divergence 'somewhat unsustainable'. This is the single largest factor in the index."
+   "title": "Strait of Hormuz supply shock",
+   "detail": "Brent +3.0% to $90.79 with transits down to 4 vessels from 8. Roughly a fifth of seaborne crude moves through this chokepoint; a sustained closure is the single largest tail risk in the market right now."
   },
   {
    "sev": "high",
-   "title": "Gulf war escalation and the Strait of Hormuz",
-   "detail": "Kuwait says Iran struck a power and desalination plant; US Central Command has completed six consecutive nights of strikes; Iran hit US bases in Bahrain, Jordan, Kuwait, Oman, Qatar and Syria. Hormuz crossings fell ~52% week-on-week per Kpler. Brent +4.6% to $88.10 and +14% on the week. A closure would be a genuine supply shock, and the interim peace deal now looks fragile."
+   "title": "Semiconductor derating is not finished",
+   "detail": "The semis index has shed more than 20% from its June peak in three weeks. Micron -17%, Intel -21%. The debate has shifted from AI potential to capex monetisation timing, with investment growing roughly 46% faster than sales."
   },
   {
    "sev": "med",
-   "title": "S&P 500 closed below its 200-day moving average",
-   "detail": "7,457.69 versus a 200-day of 7,472.59 \u2014 the first close below it since Apr 8, and the index also lost its 50-day. One close is not a trend, but it removes the technical support that has underpinned every dip since spring."
+   "title": "S&P 500 sitting on its 200-day average",
+   "detail": "Close of 7,475.69 versus a 7,464.61 200-day - a 0.1% cushion. The index has been below its 50-day since 17 Jul. A decisive break would flip the primary trend."
   },
   {
    "sev": "med",
-   "title": "Volatility is waking up",
-   "detail": "VIX 18.03, up roughly 20% over the week. Still below the 20 'fear' threshold and well below the 25 that would flag a real regime change, but the speed of the move says complacency is evaporating."
+   "title": "Energy-driven inflation re-acceleration",
+   "detail": "With crude up roughly 12% on the week, the Fed's July MPR already flags energy as a supply shock keeping inflation above target. Nine of nineteen FOMC dots show a hike by year-end."
   },
   {
    "sev": "med",
-   "title": "Oil is now an inflation input again",
-   "detail": "Brent at $88.10 with record refining margins feeds straight into headline CPI. That matters into the Jul 28-29 FOMC, where the Fed is expected to hold at 3.50-3.75%. An energy-led inflation print would take rate cuts off the table."
+   "title": "Guidance matters more than beats",
+   "detail": "Netflix beat on EPS and fell about 9% on cautious forward commentary. With two-thirds of reporters beating, the reaction function has moved entirely to outlook - crowded growth names carry asymmetric downside into prints."
   },
   {
    "sev": "low",
-   "title": "Yield curve is positively sloped",
-   "detail": "10Y 4.55% versus 2Y 4.18%, a +0.37 spread. No inversion signal, and the Fed is on hold rather than hiking. Rates are not the problem right now."
+   "title": "Leadership rotation to defensives and old economy",
+   "detail": "296 new 52-week highs on Friday led by rail transport, banks and healthcare (UNH, USB, CSX). Broadening breadth is healthy, but the names doing the leading are not the ones carrying index weight."
   },
   {
    "sev": "low",
-   "title": "Leadership has narrowed to energy",
-   "detail": "XLE +1.42% was the leading sector on Jul 17 while everything AI-adjacent fell. Narrow, commodity-driven leadership is less durable than broad participation, and it reverses instantly on a ceasefire headline."
+   "title": "Crowded above-target quality names",
+   "detail": "AAPL, VLO, MPC, PANW, CRWD, OKTA and OSCR all trade above or near their average analyst targets. Consensus upside has been exhausted; these depend on estimate revisions rather than multiple expansion."
   }
  ]
 }
