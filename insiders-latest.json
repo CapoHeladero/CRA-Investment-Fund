@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-20",
+ "asof": "2026-07-21",
  "clusters": [
   {
    "t": "ELV",
@@ -7,15 +7,15 @@
    "buyers": 2,
    "total": 1368280,
    "buys": 2,
-   "note": "Filed 17 Jul: cluster incl. Pres/CEO buying at $367.32-$367.79, +3,725 sh. Stock $373.11."
+   "note": "Filed 17 Jul: Pres/CEO among 2 buyers at $367.32-367.79, +3,725 sh. Stock now 382.23."
   },
   {
    "t": "GLOO",
    "n": "Gloo Holdings",
    "buyers": 4,
-   "total": 9051828,
+   "total": 8999995,
    "buys": 4,
-   "note": "Four buyers took stakes up +82% at $3.26 (traded 10 Jul). Microcap - size accordingly."
+   "note": "Four buyers took stakes +82% at $3.25 (traded 10 Jul). Microcap - size accordingly."
   },
   {
    "t": "IPX",
@@ -23,7 +23,7 @@
    "buyers": 2,
    "total": 4949802,
    "buys": 2,
-   "note": "Two buyers, 1.25M shares at $3.95 (10 Jul). Titanium/critical-minerals reshoring."
+   "note": "Two buyers, 1.25M sh at $3.95 (10 Jul). Titanium / critical-minerals reshoring."
   },
   {
    "t": "UUUU",
@@ -31,15 +31,15 @@
    "buyers": 2,
    "total": 1018700,
    "buys": 2,
-   "note": "78,000 sh at $13.06 on 8 Jul, +16% to holdings. Uranium + rare earths. Now $11.49."
+   "note": "78,000 sh at $13.06 (8 Jul), +16% to holdings. Uranium + rare earth. Now 11.74."
   },
   {
-   "t": "VIRC",
-   "n": "Virco Manufacturing",
-   "buyers": 2,
-   "total": 109700,
+   "t": "ENR",
+   "n": "Energizer Holdings",
+   "buyers": 1,
+   "total": 3678588,
    "buys": 2,
-   "note": "Small but +1% cluster at $6.05 (15 Jul). Microcap furniture."
+   "note": "10% holder Aqua Capital added twice at $20.21 and $20.72 (14-15 Jul)."
   }
  ],
  "watchable": [
@@ -48,35 +48,21 @@
    "n": "Jefferies Financial",
    "buyers": 1,
    "total": 318717006,
-   "note": "Director bought $318.7M at $53.96 - by far the largest single insider purchase on the weekly tape. Stock $54.87."
-  },
-  {
-   "t": "NTSK",
-   "n": "Netskope",
-   "buyers": 2,
-   "total": 7531396,
-   "note": "10% holder plus a director each bought ~$3.77M at $12.29. Stock now $13.59."
+   "note": "Sumitomo Mitsui (director-linked) bought $318.7M at $53.96 - by far the largest single insider purchase on the weekly tape. Stock now 55.18."
   },
   {
    "t": "STDN",
    "n": "Standard Nuclear",
    "buyers": 1,
    "total": 19132440,
-   "note": "10% holder bought $19.1M at $15.00 - nuclear fuel private-to-public story."
+   "note": "10% holder Decisive Point bought $19.1M at $15.00 - nuclear-fuel private-to-public story."
   },
   {
-   "t": "ENR",
-   "n": "Energizer Holdings",
+   "t": "COE",
+   "n": "51Talk Online Education",
    "buyers": 1,
-   "total": 3678588,
-   "note": "10% holder added twice at $20.21 and $20.72."
-  },
-  {
-   "t": "LILA",
-   "n": "Liberty Latin America",
-   "buyers": 1,
-   "total": 1006711,
-   "note": "Exec chairman buy filed this week. Note share-class pricing differs across LILA/LILAK - verify class before acting."
+   "total": 8480293,
+   "note": "CEO/10% holder bought $8.48M at $17.12 (9 Jul)."
   },
   {
    "t": "BOT",
@@ -84,9 +70,34 @@
    "buyers": 1,
    "total": 9999988,
    "note": "President/10% holder bought $10.0M at $36.71."
+  },
+  {
+   "t": "CBIO",
+   "n": "Crescent Biopharma",
+   "buyers": 1,
+   "total": 12375025,
+   "note": "Fairmount Funds (Dir/10%) bought $12.4M at $14.50 (16 Jul)."
   }
  ],
  "politicians": [
+  {
+   "who": "William Timmons",
+   "party": "Republican",
+   "t": "SPCX",
+   "n": "SpaceX (private)",
+   "type": "BUY",
+   "size": "$50K-100K",
+   "note": "Disclosed a $50-100K SpaceX stake traded 15 Jun - large relative to typical House filings."
+  },
+  {
+   "who": "Dan Newhouse (spouse)",
+   "party": "Republican",
+   "t": "APH",
+   "n": "Amphenol",
+   "type": "BUY",
+   "size": "$1K-15K",
+   "note": "Part of a broad spouse-account rebalance filed this week; also bought ACN, sold AMD/GOOGL/ADBE."
+  },
   {
    "who": "Cleo Fields",
    "party": "Democrat",
@@ -94,52 +105,16 @@
    "n": "NVIDIA",
    "type": "BUY",
    "size": "$1K-15K x3",
-   "note": "Three separate NVDA buys traded 26 Jun at $192.53, published 17 Jul. Stock now $202.81."
+   "note": "Three NVDA buys traded 26 Jun at $192.53, published 17 Jul. Stock now 203.28."
   },
   {
    "who": "Dan Crenshaw",
    "party": "Republican",
    "t": "USOU",
-   "n": "United States 3x Oil ETF",
+   "n": "US 3x Oil ETF",
    "type": "BUY",
    "size": "$1K-15K",
    "note": "Leveraged long oil, traded 1 Jun, published 17 Jul - ahead of the Hormuz spike."
-  },
-  {
-   "who": "Dan Crenshaw",
-   "party": "Republican",
-   "t": "META",
-   "n": "Meta Platforms",
-   "type": "BUY",
-   "size": "$1K-15K",
-   "note": "Traded 28 Apr, published 17 Jul (79-day filing lag)."
-  },
-  {
-   "who": "Thomas Kean Jr",
-   "party": "Republican",
-   "t": "EQT",
-   "n": "EQT Corporation",
-   "type": "BUY",
-   "size": "$1K-15K",
-   "note": "Natgas buy at $55.26 traded 1 Jun. EQT now $49.56."
-  },
-  {
-   "who": "Jonathan Jackson",
-   "party": "Democrat",
-   "t": "HLT",
-   "n": "Hilton Worldwide",
-   "type": "BUY",
-   "size": "$1K-15K",
-   "note": "Spouse account, traded 15 Jun at $347.11."
-  },
-  {
-   "who": "Nicole Malliotakis",
-   "party": "Republican",
-   "t": "N/A",
-   "n": "US Treasury Bills",
-   "type": "BUY",
-   "size": "$100K-250K",
-   "note": "Largest disclosed buy of the week was cash-equivalent, not equity."
   }
  ]
 }

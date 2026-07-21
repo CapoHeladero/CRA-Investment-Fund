@@ -1,330 +1,240 @@
 {
- "asof": "2026-07-20",
- "method": "Curated momentum/quality setups; levels off last close (Fri 17 Jul 2026), targets from consensus where upside is +4% to +70%.",
+ "asof": "2026-07-21",
+ "method": "Curated momentum/quality setups. buy ~4% below last close near support; stop by type; sell = analyst target (capped) or technical. All levels numeric, sell>buy>stop.",
  "ideas": [
   {
-   "t": "XOM",
-   "n": "Exxon Mobil",
-   "theme": "Integrated energy",
-   "type": "Value",
-   "conv": 3,
-   "p": 147.4,
-   "buy": 141.5,
-   "stop": 127.3,
-   "sell": 166.9,
-   "why": "Brent above $90 on Hormuz risk. Guyana and Permian barrels at the lowest breakevens in the majors.",
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "theme": "AI infrastructure",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 203.28,
+   "buy": 195.1,
+   "stop": 171.7,
+   "sell": 301.6,
+   "why": "NVIDIA: AI infrastructure. Accumulate near 195.1, risk defined at 171.7, first target 301.6.",
    "bull": [
-    "Integrated energy demand is the dominant multi-year driver.",
-    "Consensus analyst target 166.9 vs 147.4 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "AI infrastructure demand is a durable multi-year driver.",
+    "Consensus analyst target 301.6 vs 203.3 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
-    "stockanalysis.com/stocks/xom/",
-    "Eden deep-dive: run XOM -> eden-dashboard.streamlit.app"
+    "stockanalysis.com/stocks/nvda/",
+    "Eden deep-dive: run NVDA -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 127.3, or if the integrated energy thesis breaks.",
-   "thesis": "Exxon Mobil - Integrated energy. Accumulate near 141.5, risk defined at 127.3, first target 166.9."
+   "inv": "Invalidated on a close below 171.7, or if the AI infrastructure thesis breaks.",
+   "thesis": "NVIDIA - AI infrastructure. Accumulate near 195.1, risk at 171.7, first target 301.6."
   },
   {
-   "t": "SLB",
-   "n": "SLB",
-   "theme": "Oilfield services",
-   "type": "Value",
-   "conv": 4,
-   "p": 47.0,
-   "buy": 45.1,
-   "stop": 40.6,
-   "sell": 61.0,
-   "why": "International and offshore services recovery; 17.6x forward with 30% upside to consensus target.",
+   "t": "MU",
+   "n": "Micron",
+   "theme": "HBM / memory",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 865.46,
+   "buy": 830.8,
+   "stop": 731.1,
+   "sell": 1254.9,
+   "why": "Micron: HBM / memory. Accumulate near 830.8, risk defined at 731.1, first target 1254.9.",
    "bull": [
-    "Oilfield services demand is the dominant multi-year driver.",
-    "Consensus analyst target 61.0 vs 47.0 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "HBM / memory demand is a durable multi-year driver.",
+    "Consensus analyst target 1486.0 vs 865.5 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
-    "stockanalysis.com/stocks/slb/",
-    "Eden deep-dive: run SLB -> eden-dashboard.streamlit.app"
+    "stockanalysis.com/stocks/mu/",
+    "Eden deep-dive: run MU -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 40.6, or if the oilfield services thesis breaks.",
-   "thesis": "SLB - Oilfield services. Accumulate near 45.1, risk defined at 40.6, first target 61.0."
+   "inv": "Invalidated on a close below 731.1, or if the HBM / memory thesis breaks.",
+   "thesis": "Micron - HBM / memory. Accumulate near 830.8, risk at 731.1, first target 1254.9."
   },
   {
-   "t": "JPM",
-   "n": "JPMorgan Chase",
-   "theme": "Money-center bank",
-   "type": "Core",
-   "conv": 3,
-   "p": 341.1,
-   "buy": 327.5,
-   "stop": 291.4,
-   "sell": 367.4,
-   "why": "Beat again this week; best-in-class ROTCE and a fortress balance sheet as rates stay higher for longer.",
+   "t": "MSFT",
+   "n": "Microsoft",
+   "theme": "AI software / cloud",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 402.29,
+   "buy": 386.2,
+   "stop": 339.9,
+   "sell": 557.8,
+   "why": "Microsoft: AI software / cloud. Accumulate near 386.2, risk defined at 339.9, first target 557.8.",
    "bull": [
-    "Money-center bank demand is the dominant multi-year driver.",
-    "Consensus analyst target 367.4 vs 341.1 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "AI software / cloud demand is a durable multi-year driver.",
+    "Consensus analyst target 557.8 vs 402.3 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
-    "stockanalysis.com/stocks/jpm/",
-    "Eden deep-dive: run JPM -> eden-dashboard.streamlit.app"
+    "stockanalysis.com/stocks/msft/",
+    "Eden deep-dive: run MSFT -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 291.4, or if the money-center bank thesis breaks.",
-   "thesis": "JPMorgan Chase - Money-center bank. Accumulate near 327.5, risk defined at 291.4, first target 367.4."
+   "inv": "Invalidated on a close below 339.9, or if the AI software / cloud thesis breaks.",
+   "thesis": "Microsoft - AI software / cloud. Accumulate near 386.2, risk at 339.9, first target 557.8."
   },
   {
-   "t": "GS",
-   "n": "Goldman Sachs",
-   "theme": "Investment bank",
-   "type": "Core",
-   "conv": 3,
-   "p": 1065.2,
-   "buy": 1022.6,
-   "stop": 910.1,
-   "sell": 1112.8,
-   "why": "Advisory and trading both firing; capital markets reopening is the cleanest cyclical in financials.",
+   "t": "GOOGL",
+   "n": "Alphabet",
+   "theme": "Search / cloud / AI",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 351.99,
+   "buy": 337.9,
+   "stop": 297.4,
+   "sell": 433.5,
+   "why": "Alphabet: Search / cloud / AI. Accumulate near 337.9, risk defined at 297.4, first target 433.5.",
    "bull": [
-    "Investment bank demand is the dominant multi-year driver.",
-    "Consensus analyst target 1112.8 vs 1065.2 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "Search / cloud / AI demand is a durable multi-year driver.",
+    "Consensus analyst target 433.5 vs 352.0 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
-    "stockanalysis.com/stocks/gs/",
-    "Eden deep-dive: run GS -> eden-dashboard.streamlit.app"
+    "stockanalysis.com/stocks/googl/",
+    "Eden deep-dive: run GOOGL -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 910.1, or if the investment bank thesis breaks.",
-   "thesis": "Goldman Sachs - Investment bank. Accumulate near 1022.6, risk defined at 910.1, first target 1112.8."
-  },
-  {
-   "t": "JEF",
-   "n": "Jefferies Financial",
-   "theme": "Investment bank",
-   "type": "Value",
-   "conv": 3,
-   "p": 54.9,
-   "buy": 52.7,
-   "stop": 47.4,
-   "sell": 61.3,
-   "why": "A director bought $318.7M of stock last week - the single largest insider purchase on the tape.",
-   "bull": [
-    "Investment bank demand is the dominant multi-year driver.",
-    "Consensus analyst target 61.3 vs 54.9 last close.",
-    "Balance sheet and cash generation support the current buildout."
-   ],
-   "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
-   ],
-   "v": [
-    "stockanalysis.com/stocks/jef/",
-    "Eden deep-dive: run JEF -> eden-dashboard.streamlit.app"
-   ],
-   "inv": "Invalidated on a close below 47.4, or if the investment bank thesis breaks.",
-   "thesis": "Jefferies Financial - Investment bank. Accumulate near 52.7, risk defined at 47.4, first target 61.3."
-  },
-  {
-   "t": "ELV",
-   "n": "Elevance Health",
-   "theme": "Managed care",
-   "type": "Value",
-   "conv": 4,
-   "p": 373.1,
-   "buy": 358.2,
-   "stop": 322.4,
-   "sell": 449.1,
-   "why": "CEO bought $1.37M in the open market on 17 Jul; reverse-DCF implies negative growth - deep value setup.",
-   "bull": [
-    "Managed care demand is the dominant multi-year driver.",
-    "Consensus analyst target 449.1 vs 373.1 last close.",
-    "Balance sheet and cash generation support the current buildout."
-   ],
-   "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
-   ],
-   "v": [
-    "stockanalysis.com/stocks/elv/",
-    "Eden deep-dive: run ELV -> eden-dashboard.streamlit.app"
-   ],
-   "inv": "Invalidated on a close below 322.4, or if the managed care thesis breaks.",
-   "thesis": "Elevance Health - Managed care. Accumulate near 358.2, risk defined at 322.4, first target 449.1."
-  },
-  {
-   "t": "UNH",
-   "n": "UnitedHealth Group",
-   "theme": "Managed care",
-   "type": "Value",
-   "conv": 3,
-   "p": 426.1,
-   "buy": 409.0,
-   "stop": 368.1,
-   "sell": 471.6,
-   "why": "Made a new 52-week high on Friday as money rotated to defensives; reverse-DCF implies only 3.8% growth.",
-   "bull": [
-    "Managed care demand is the dominant multi-year driver.",
-    "Consensus analyst target 471.6 vs 426.1 last close.",
-    "Balance sheet and cash generation support the current buildout."
-   ],
-   "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
-   ],
-   "v": [
-    "stockanalysis.com/stocks/unh/",
-    "Eden deep-dive: run UNH -> eden-dashboard.streamlit.app"
-   ],
-   "inv": "Invalidated on a close below 368.1, or if the managed care thesis breaks.",
-   "thesis": "UnitedHealth Group - Managed care. Accumulate near 409.0, risk defined at 368.1, first target 471.6."
+   "inv": "Invalidated on a close below 297.4, or if the Search / cloud / AI thesis breaks.",
+   "thesis": "Alphabet - Search / cloud / AI. Accumulate near 337.9, risk at 297.4, first target 433.5."
   },
   {
    "t": "CCJ",
    "n": "Cameco",
-   "theme": "Uranium fuel cycle",
+   "theme": "Uranium",
    "type": "Core",
-   "conv": 5,
-   "p": 85.6,
-   "buy": 82.2,
-   "stop": 73.2,
+   "conv": 4,
+   "p": 84.85,
+   "buy": 81.5,
+   "stop": 72.5,
    "sell": 132.0,
-   "why": "Western uranium supply is structurally short; Cameco also owns 49% of Westinghouse.",
+   "why": "Cameco: Uranium. Accumulate near 81.5, risk defined at 72.5, first target 132.0.",
    "bull": [
-    "Uranium fuel cycle demand is the dominant multi-year driver.",
-    "Consensus analyst target 132.0 vs 85.6 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "Uranium demand is a durable multi-year driver.",
+    "Consensus analyst target 132.0 vs 84.8 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
     "stockanalysis.com/stocks/ccj/",
     "Eden deep-dive: run CCJ -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 73.2, or if the uranium fuel cycle thesis breaks.",
-   "thesis": "Cameco - Uranium fuel cycle. Accumulate near 82.2, risk defined at 73.2, first target 132.0."
+   "inv": "Invalidated on a close below 72.5, or if the Uranium thesis breaks.",
+   "thesis": "Cameco - Uranium. Accumulate near 81.5, risk at 72.5, first target 132.0."
   },
   {
    "t": "VST",
    "n": "Vistra",
-   "theme": "AI power / merchant gen",
+   "theme": "Power / AI demand",
    "type": "Momentum",
-   "conv": 4,
-   "p": 155.4,
-   "buy": 149.2,
-   "stop": 131.3,
+   "conv": 5,
+   "p": 157.99,
+   "buy": 151.7,
+   "stop": 133.5,
    "sell": 222.9,
-   "why": "Merchant generation with the tightest PJM capacity market in a decade; forward PE 17.2x.",
+   "why": "Vistra: Power / AI demand. Accumulate near 151.7, risk defined at 133.5, first target 222.9.",
    "bull": [
-    "AI power / merchant gen demand is the dominant multi-year driver.",
-    "Consensus analyst target 222.9 vs 155.4 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "Power / AI demand demand is a durable multi-year driver.",
+    "Consensus analyst target 222.9 vs 158.0 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
     "stockanalysis.com/stocks/vst/",
     "Eden deep-dive: run VST -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 131.3, or if the ai power / merchant gen thesis breaks.",
-   "thesis": "Vistra - AI power / merchant gen. Accumulate near 149.2, risk defined at 131.3, first target 222.9."
+   "inv": "Invalidated on a close below 133.5, or if the Power / AI demand thesis breaks.",
+   "thesis": "Vistra - Power / AI demand. Accumulate near 151.7, risk at 133.5, first target 222.9."
   },
   {
    "t": "CEG",
    "n": "Constellation Energy",
-   "theme": "AI power / nuclear",
-   "type": "Core",
-   "conv": 5,
-   "p": 252.4,
-   "buy": 242.3,
-   "stop": 215.6,
+   "theme": "Nuclear power / AI demand",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 253.5,
+   "buy": 243.4,
+   "stop": 214.2,
    "sell": 357.8,
-   "why": "Nuclear PPAs to hyperscalers; regulated-style cashflow with an AI-demand call option attached.",
+   "why": "Constellation Energy: Nuclear power / AI demand. Accumulate near 243.4, risk defined at 214.2, first target 357.8.",
    "bull": [
-    "AI power / nuclear demand is the dominant multi-year driver.",
-    "Consensus analyst target 357.8 vs 252.4 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "Nuclear power / AI demand demand is a durable multi-year driver.",
+    "Consensus analyst target 357.8 vs 253.5 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
     "stockanalysis.com/stocks/ceg/",
     "Eden deep-dive: run CEG -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 215.6, or if the ai power / nuclear thesis breaks.",
-   "thesis": "Constellation Energy - AI power / nuclear. Accumulate near 242.3, risk defined at 215.6, first target 357.8."
+   "inv": "Invalidated on a close below 214.2, or if the Nuclear power / AI demand thesis breaks.",
+   "thesis": "Constellation Energy - Nuclear power / AI demand. Accumulate near 243.4, risk at 214.2, first target 357.8."
   },
   {
    "t": "GEV",
    "n": "GE Vernova",
-   "theme": "Grid + turbines",
-   "type": "Core",
-   "conv": 3,
-   "p": 1057.8,
-   "buy": 1015.5,
-   "stop": 903.8,
+   "theme": "Grid / power equipment",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 1079.18,
+   "buy": 1036.0,
+   "stop": 911.7,
    "sell": 1221.5,
-   "why": "Gas turbine backlog sold out into the 2030s; grid equipment is the true AI bottleneck.",
+   "why": "GE Vernova: Grid / power equipment. Accumulate near 1036.0, risk defined at 911.7, first target 1221.5.",
    "bull": [
-    "Grid + turbines demand is the dominant multi-year driver.",
-    "Consensus analyst target 1221.5 vs 1057.8 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "Grid / power equipment demand is a durable multi-year driver.",
+    "Consensus analyst target 1221.5 vs 1079.2 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
     "stockanalysis.com/stocks/gev/",
     "Eden deep-dive: run GEV -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 903.8, or if the grid + turbines thesis breaks.",
-   "thesis": "GE Vernova - Grid + turbines. Accumulate near 1015.5, risk defined at 903.8, first target 1221.5."
+   "inv": "Invalidated on a close below 911.7, or if the Grid / power equipment thesis breaks.",
+   "thesis": "GE Vernova - Grid / power equipment. Accumulate near 1036.0, risk at 911.7, first target 1221.5."
   },
   {
    "t": "ETN",
    "n": "Eaton",
-   "theme": "Electrification",
+   "theme": "Electrical / grid",
    "type": "Core",
-   "conv": 3,
-   "p": 400.0,
-   "buy": 384.0,
-   "stop": 341.8,
+   "conv": 4,
+   "p": 401.41,
+   "buy": 385.4,
+   "stop": 343.0,
    "sell": 455.8,
-   "why": "Electrical infrastructure for data centers, reshoring and grid; 12.7% growth with pricing power.",
+   "why": "Eaton: Electrical / grid. Accumulate near 385.4, risk defined at 343.0, first target 455.8.",
    "bull": [
-    "Electrification demand is the dominant multi-year driver.",
-    "Consensus analyst target 455.8 vs 400.0 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "Electrical / grid demand is a durable multi-year driver.",
+    "Consensus analyst target 455.8 vs 401.4 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
     "stockanalysis.com/stocks/etn/",
     "Eden deep-dive: run ETN -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 341.8, or if the electrification thesis breaks.",
-   "thesis": "Eaton - Electrification. Accumulate near 384.0, risk defined at 341.8, first target 455.8."
+   "inv": "Invalidated on a close below 343.0, or if the Electrical / grid thesis breaks.",
+   "thesis": "Eaton - Electrical / grid. Accumulate near 385.4, risk at 343.0, first target 455.8."
   },
   {
    "t": "MELI",
@@ -332,53 +242,129 @@
    "theme": "LatAm e-commerce",
    "type": "Core",
    "conv": 4,
-   "p": 1813.9,
-   "buy": 1741.4,
-   "stop": 1549.8,
+   "p": 1832.42,
+   "buy": 1759.1,
+   "stop": 1565.6,
    "sell": 2206.5,
-   "why": "LatAm e-commerce plus fintech flywheel; 42% revenue growth, currency is the recurring risk.",
+   "why": "MercadoLibre: LatAm e-commerce. Accumulate near 1759.1, risk defined at 1565.6, first target 2206.5.",
    "bull": [
-    "LatAm e-commerce demand is the dominant multi-year driver.",
-    "Consensus analyst target 2206.5 vs 1813.9 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "LatAm e-commerce demand is a durable multi-year driver.",
+    "Consensus analyst target 2206.5 vs 1832.4 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "Cyclical or policy exposure can override company-level execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
     "stockanalysis.com/stocks/meli/",
     "Eden deep-dive: run MELI -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 1549.8, or if the latam e-commerce thesis breaks.",
-   "thesis": "MercadoLibre - LatAm e-commerce. Accumulate near 1741.4, risk defined at 1549.8, first target 2206.5."
+   "inv": "Invalidated on a close below 1565.6, or if the LatAm e-commerce thesis breaks.",
+   "thesis": "MercadoLibre - LatAm e-commerce. Accumulate near 1759.1, risk at 1565.6, first target 2206.5."
   },
   {
    "t": "TSM",
-   "n": "TSMC",
-   "theme": "AI infrastructure",
-   "type": "Core",
-   "conv": 4,
-   "p": 398.4,
-   "buy": 382.4,
-   "stop": 340.4,
-   "sell": 520.4,
-   "why": "Sole-source foundry for every leading AI chip; 26.6x trailing with 30.6% revenue growth is the cheapest way to own the buildout.",
+   "n": "TSMC (ADR)",
+   "theme": "Foundry / AI chips",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 402.3,
+   "buy": 386.2,
+   "stop": 339.9,
+   "sell": 522.8,
+   "why": "TSMC (ADR): Foundry / AI chips. Accumulate near 386.2, risk defined at 339.9, first target 522.8.",
    "bull": [
-    "AI infrastructure demand is the dominant multi-year driver.",
-    "Consensus analyst target 520.4 vs 398.4 last close.",
-    "Balance sheet and cash generation support the current buildout."
+    "Foundry / AI chips demand is a durable multi-year driver.",
+    "Consensus analyst target 522.8 vs 402.3 last close.",
+    "Cash generation / balance sheet support the setup."
    ],
    "bear": [
-    "A broad AI-capex derating would hit this regardless of company execution.",
-    "Brent above $90 on Hormuz risk raises input costs and pressures multiples market-wide."
+    "Cyclical / macro exposure can override company execution."
    ],
    "v": [
     "stockanalysis.com/stocks/tsm/",
     "Eden deep-dive: run TSM -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 340.4, or if the ai infrastructure thesis breaks.",
-   "thesis": "TSMC - AI infrastructure. Accumulate near 382.4, risk defined at 340.4, first target 520.4."
+   "inv": "Invalidated on a close below 339.9, or if the Foundry / AI chips thesis breaks.",
+   "thesis": "TSMC (ADR) - Foundry / AI chips. Accumulate near 386.2, risk at 339.9, first target 522.8."
+  },
+  {
+   "t": "AVGO",
+   "n": "Broadcom",
+   "theme": "Custom AI silicon",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 378.16,
+   "buy": 363.0,
+   "stop": 319.4,
+   "sell": 523.7,
+   "why": "Broadcom: Custom AI silicon. Accumulate near 363.0, risk defined at 319.4, first target 523.7.",
+   "bull": [
+    "Custom AI silicon demand is a durable multi-year driver.",
+    "Consensus analyst target 523.7 vs 378.2 last close.",
+    "Cash generation / balance sheet support the setup."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/avgo/",
+    "Eden deep-dive: run AVGO -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below 319.4, or if the Custom AI silicon thesis breaks.",
+   "thesis": "Broadcom - Custom AI silicon. Accumulate near 363.0, risk at 319.4, first target 523.7."
+  },
+  {
+   "t": "META",
+   "n": "Meta Platforms",
+   "theme": "Social / AI",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 645.85,
+   "buy": 620.0,
+   "stop": 545.6,
+   "sell": 822.7,
+   "why": "Meta Platforms: Social / AI. Accumulate near 620.0, risk defined at 545.6, first target 822.7.",
+   "bull": [
+    "Social / AI demand is a durable multi-year driver.",
+    "Consensus analyst target 822.7 vs 645.9 last close.",
+    "Cash generation / balance sheet support the setup."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/meta/",
+    "Eden deep-dive: run META -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below 545.6, or if the Social / AI thesis breaks.",
+   "thesis": "Meta Platforms - Social / AI. Accumulate near 620.0, risk at 545.6, first target 822.7."
+  },
+  {
+   "t": "NU",
+   "n": "Nu Holdings",
+   "theme": "LatAm fintech",
+   "type": "Core",
+   "conv": 4,
+   "p": 13.99,
+   "buy": 13.4,
+   "stop": 11.9,
+   "sell": 17.9,
+   "why": "Nu Holdings: LatAm fintech. Accumulate near 13.4, risk defined at 11.9, first target 17.9.",
+   "bull": [
+    "LatAm fintech demand is a durable multi-year driver.",
+    "Consensus analyst target 17.9 vs 14.0 last close.",
+    "Cash generation / balance sheet support the setup."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/nu/",
+    "Eden deep-dive: run NU -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below 11.9, or if the LatAm fintech thesis breaks.",
+   "thesis": "Nu Holdings - LatAm fintech. Accumulate near 13.4, risk at 11.9, first target 17.9."
   }
  ]
 }

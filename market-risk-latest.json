@@ -1,41 +1,36 @@
 {
- "asof": "2026-07-20",
+ "asof": "2026-07-21",
  "scope": "whole-market",
  "items": [
   {
    "sev": "high",
-   "title": "Strait of Hormuz supply shock",
-   "detail": "Brent +3.0% to $90.79 with transits down to 4 vessels from 8. Roughly a fifth of seaborne crude moves through this chokepoint; a sustained closure is the single largest tail risk in the market right now."
-  },
-  {
-   "sev": "high",
-   "title": "Semiconductor derating is not finished",
-   "detail": "The semis index has shed more than 20% from its June peak in three weeks. Micron -17%, Intel -21%. The debate has shifted from AI potential to capex monetisation timing, with investment growing roughly 46% faster than sales."
+   "title": "Strait of Hormuz / Iran escalation",
+   "detail": "US-Iran exchanges continue; Iran says the ceasefire has collapsed and reports intercepting vessels near Hormuz. Brent whipsawed to ~$87.72 after spiking near $91 last week. An oil shock is the single biggest macro swing factor."
   },
   {
    "sev": "med",
-   "title": "S&P 500 sitting on its 200-day average",
-   "detail": "Close of 7,475.69 versus a 7,464.61 200-day - a 0.1% cushion. The index has been below its 50-day since 17 Jul. A decisive break would flip the primary trend."
+   "title": "S&P 500 slipped below its 200-day average",
+   "detail": "Index closed 7,443.28 vs a 7,465.82 200-day and has been under its 50-day since 17 Jul. A decisive break would flip the primary trend from up to neutral/down."
   },
   {
    "sev": "med",
-   "title": "Energy-driven inflation re-acceleration",
-   "detail": "With crude up roughly 12% on the week, the Fed's July MPR already flags energy as a supply shock keeping inflation above target. Nine of nineteen FOMC dots show a hike by year-end."
+   "title": "Narrow, rotating leadership",
+   "detail": "The semis index sits ~20% below its late-June peak even after Monday's bounce; leadership has been rotating through energy, banks, healthcare and rails. Breadth, not breakout, is carrying the tape."
   },
   {
    "sev": "med",
-   "title": "Guidance matters more than beats",
-   "detail": "Netflix beat on EPS and fell about 9% on cautious forward commentary. With two-thirds of reporters beating, the reaction function has moved entirely to outlook - crowded growth names carry asymmetric downside into prints."
+   "title": "Healthcare earnings headwind",
+   "detail": "Managed care is the only S&P sector with a year-over-year earnings decline as GLP-1 driven utilization lifts medical-loss ratios - a real risk for UNH/ELV/OSCR despite insider buying."
   },
   {
    "sev": "low",
-   "title": "Leadership rotation to defensives and old economy",
-   "detail": "296 new 52-week highs on Friday led by rail transport, banks and healthcare (UNH, USB, CSX). Broadening breadth is healthy, but the names doing the leading are not the ones carrying index weight."
+   "title": "Fed on hold, but dots still split",
+   "detail": "Funds rate 3.50-3.75%; 28-29 Jul meeting ~80% priced for no change, yet a minority of dots still show a 2026 hike. Sticky energy-led inflation keeps a hawkish tail alive."
   },
   {
    "sev": "low",
-   "title": "Crowded above-target quality names",
-   "detail": "AAPL, VLO, MPC, PANW, CRWD, OKTA and OSCR all trade above or near their average analyst targets. Consensus upside has been exhausted; these depend on estimate revisions rather than multiple expansion."
+   "title": "AI-capex concentration",
+   "detail": "A handful of AI names still drive index-level FCF and sentiment. Any single hyperscaler capex guide-down could de-rate the whole complex regardless of individual execution."
   }
  ]
 }

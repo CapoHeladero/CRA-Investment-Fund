@@ -1,5 +1,5 @@
 {
- "asof": "2026-07-20",
+ "asof": "2026-07-21",
  "method": "Reverse-DCF by bisection: solve for the 10-yr FCF growth rate that makes (PV of 10 yrs + terminal at 2.5% / 10% discount + net cash) / shares equal the last close. Excludes pre-revenue and negative-FCF story names (Oklo, NuScale, IonQ, Rigetti, D-Wave, CoreWeave, Nebius, AST, Hertz) and banks/insurers, where FCF-based DCF is not meaningful.",
  "names": [
   {
@@ -8,7 +8,7 @@
    "fcf": 119.08,
    "shares": 24.22,
    "cash": 53.17,
-   "price": 202.8,
+   "price": 203.28,
    "disc": 10,
    "term": 2.5,
    "years": 10,
@@ -21,11 +21,11 @@
    "fcf": 72.92,
    "shares": 7.43,
    "cash": 78.23,
-   "price": 393.8,
+   "price": 402.29,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 16.8,
+   "implied": 17.1,
    "note": "16.8% implied on a business compounding high-teens; among the fairest megacap setups."
   },
   {
@@ -34,11 +34,11 @@
    "fcf": 64.43,
    "shares": 12.2,
    "cash": 126.84,
-   "price": 346.8,
+   "price": 351.99,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 23.6,
+   "implied": 23.8,
    "note": "23.6% implied is the highest bar of the megacaps despite the cheapest headline PE - capex is the reason."
   },
   {
@@ -47,11 +47,11 @@
    "fcf": 32.76,
    "shares": 4.76,
    "cash": 19.63,
-   "price": 370.8,
+   "price": 378.16,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 21.1,
+   "implied": 21.4,
    "note": "21.1% implied; the ASIC ramp has to keep beating for this to clear."
   },
   {
@@ -60,11 +60,11 @@
    "fcf": 35.28,
    "shares": 4.669,
    "cash": 110.58,
-   "price": 398.4,
+   "price": 402.3,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 20.1,
+   "implied": 20.2,
    "note": "20.1% implied on ADR-equivalent share count. Demanding, but 30.6% revenue growth is running ahead of it."
   },
   {
@@ -73,11 +73,11 @@
    "fcf": 11.49,
    "shares": 0.387,
    "cash": 8.65,
-   "price": 1747.6,
+   "price": 1739.02,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 22.3,
+   "implied": 22.2,
    "note": "22.3% implied - the market is pricing an uninterrupted EUV supercycle."
   },
   {
@@ -86,11 +86,11 @@
    "fcf": 18.79,
    "shares": 4.14,
    "cash": 8.44,
-   "price": 147.4,
+   "price": 148.36,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 14.1,
+   "implied": 14.2,
    "note": "14.1% implied on a commodity business; assumes Brent stays near war-premium levels. Treat as rich."
   },
   {
@@ -99,11 +99,11 @@
    "fcf": 13.78,
    "shares": 1.98,
    "cash": 5.33,
-   "price": 187.4,
+   "price": 189.71,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 11.6,
+   "implied": 11.7,
    "note": "11.6% implied - the least demanding of the majors here."
   },
   {
@@ -112,11 +112,11 @@
    "fcf": 11.82,
    "shares": 0.892,
    "cash": 5.28,
-   "price": 1179.1,
+   "price": 1146.9,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 28.2,
+   "implied": 27.8,
    "note": "28.2% implied is the most demanding number in this table; the GLPu franchise has to keep compounding near 50%."
   },
   {
@@ -125,11 +125,11 @@
    "fcf": 23.62,
    "shares": 0.908,
    "cash": 31.47,
-   "price": 426.1,
+   "price": 421.55,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 3.8,
+   "implied": 3.7,
    "note": "Only 3.8% implied growth after the derating - the clearest value gap in the table."
   },
   {
@@ -138,11 +138,11 @@
    "fcf": 6.29,
    "shares": 0.217,
    "cash": 37.51,
-   "price": 373.1,
+   "price": 382.23,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": -7.2,
+   "implied": -6.5,
    "note": "Negative 7.2% implied. The market is pricing structural decline; the CEO bought in the open market against that."
   },
   {
@@ -151,11 +151,11 @@
    "fcf": 11.82,
    "shares": 0.051,
    "cash": 5.66,
-   "price": 1813.9,
+   "price": 1832.42,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": -6.4,
+   "implied": -6.1,
    "note": "Negative 6.4% implied on 42% actual revenue growth - the largest disconnect in the table."
   },
   {
@@ -164,11 +164,11 @@
    "fcf": 3.78,
    "shares": 0.388,
    "cash": 0.75,
-   "price": 400,
+   "price": 401.41,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 17.4,
+   "implied": 17.5,
    "note": "17.4% implied on a 12.7% grower; multiple is doing a lot of the work."
   },
   {
@@ -177,11 +177,11 @@
    "fcf": 11.15,
    "shares": 4.16,
    "cash": 9.13,
-   "price": 69,
+   "price": 67.6,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 10.7,
+   "implied": 10.4,
    "note": "10.7% implied after the guidance-driven selloff; reasonable for a mid-teens grower."
   },
   {
@@ -190,11 +190,11 @@
    "fcf": 26.17,
    "shares": 1.13,
    "cash": 26.02,
-   "price": 849,
+   "price": 865.46,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": 15.6,
+   "implied": 15.8,
    "note": "15.6% implied. If memory pricing holds even half of the current cycle, this is conservative."
   },
   {
@@ -203,11 +203,11 @@
    "fcf": 1.28,
    "shares": 0.114,
    "cash": 1.51,
-   "price": 116.3,
+   "price": 116.67,
    "disc": 10,
    "term": 2.5,
    "years": 10,
-   "implied": -3.1,
+   "implied": -3,
    "note": "Negative 3.1% implied - the market has written off growth entirely."
   }
  ]

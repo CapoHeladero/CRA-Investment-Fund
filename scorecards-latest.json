@@ -1,197 +1,188 @@
 {
- "asof": "2026-07-20",
- "method": "Composite of valuation vs growth, FCF quality, consensus-target distance and insider/flow confirmation. Score 0-100.",
+ "asof": "2026-07-21",
+ "method": "Composite of analyst rating + consensus upside to target - penalty for unprofitable story names. Score is relative, not advice.",
  "names": [
   {
-   "t": "TSM",
-   "n": "TSMC",
+   "t": "NVDA",
+   "n": "NVIDIA",
    "sector": "Semis",
    "grade": "A",
-   "score": 92.0,
+   "score": 95,
    "tier": "top",
-   "note": "26.6x trailing, 30.6% revenue growth, sole-source leading-edge foundry."
+   "note": "Strong Buy; target 301.6 vs 203.3."
   },
   {
    "t": "MU",
-   "n": "Micron Technology",
+   "n": "Micron",
    "sector": "Semis",
    "grade": "A",
-   "score": 91.0,
+   "score": 95,
    "tier": "top",
-   "note": "Forward PE 5.9x on +167% revenue growth; HBM sold out."
+   "note": "Strong Buy; target 1486.0 vs 865.5."
   },
   {
-   "t": "GOOGL",
-   "n": "Alphabet",
-   "sector": "Software",
+   "t": "VST",
+   "n": "Vistra",
+   "sector": "Power",
    "grade": "A",
-   "score": 90.0,
+   "score": 94.6,
    "tier": "top",
-   "note": "Own model + own silicon + cloud; 26.5x with 17.5% growth."
+   "note": "Strong Buy; target 222.9 vs 158.0."
   },
   {
    "t": "MSFT",
    "n": "Microsoft",
    "sector": "Software",
-   "grade": "A-",
+   "grade": "A",
+   "score": 93.2,
+   "tier": "top",
+   "note": "Strong Buy; target 557.8 vs 402.3."
+  },
+  {
+   "t": "AVGO",
+   "n": "Broadcom",
+   "sector": "Semis",
+   "grade": "A",
+   "score": 93.1,
+   "tier": "top",
+   "note": "Strong Buy; target 523.7 vs 378.2."
+  },
+  {
+   "t": "NOW",
+   "n": "ServiceNow",
+   "sector": "Software",
+   "grade": "A",
+   "score": 91.2,
+   "tier": "top",
+   "note": "Strong Buy; target 141.6 vs 104.7."
+  },
+  {
+   "t": "VRT",
+   "n": "Vertiv",
+   "sector": "Industrials",
+   "grade": "A",
+   "score": 88.2,
+   "tier": "top",
+   "note": "Strong Buy; target 380.0 vs 291.7."
+  },
+  {
+   "t": "TSM",
+   "n": "TSMC (ADR)",
+   "sector": "Semis",
+   "grade": "A",
    "score": 88.0,
    "tier": "top",
-   "note": "23.5x trailing is the cheapest megacap software multiple in three years."
+   "note": "Strong Buy; target 522.8 vs 402.3."
   },
   {
-   "t": "JPM",
-   "n": "JPMorgan Chase",
-   "sector": "Financials",
-   "grade": "A-",
-   "score": 87.0,
+   "t": "IONQ",
+   "n": "IonQ",
+   "sector": "Quantum",
+   "grade": "A",
+   "score": 87,
    "tier": "top",
-   "note": "Beat again this week; best-in-class ROTCE."
+   "note": "Strong Buy; target 69.1 vs 34.2."
   },
   {
-   "t": "ELV",
-   "n": "Elevance Health",
-   "sector": "Healthcare",
-   "grade": "A-",
-   "score": 86.0,
-   "tier": "top",
-   "note": "CEO open-market buy; reverse-DCF implies negative growth from here."
-  },
-  {
-   "t": "CEG",
-   "n": "Constellation Energy",
-   "sector": "Utilities",
-   "grade": "B+",
-   "score": 84.0,
-   "tier": "top",
-   "note": "Nuclear PPAs to hyperscalers with 41.8% upside to consensus."
-  },
-  {
-   "t": "NVDA",
-   "n": "NVIDIA",
-   "sector": "Semis",
-   "grade": "B+",
-   "score": 83.0,
-   "tier": "top",
-   "note": "Still the standard, but $4.9T cap needs 17.4% FCF CAGR for a decade to justify."
-  },
-  {
-   "t": "GEV",
-   "n": "GE Vernova",
-   "sector": "Industrials",
-   "grade": "B+",
-   "score": 82.0,
-   "tier": "top",
-   "note": "Turbine backlog sold out into the 2030s."
-  },
-  {
-   "t": "XOM",
-   "n": "Exxon Mobil",
-   "sector": "Energy",
-   "grade": "B+",
-   "score": 82.0,
-   "tier": "top",
-   "note": "Brent >$90 and the lowest breakevens among the majors."
-  },
-  {
-   "t": "UNH",
-   "n": "UnitedHealth Group",
-   "sector": "Healthcare",
-   "grade": "B+",
-   "score": 81.0,
-   "tier": "top",
-   "note": "New 52-week high; reverse-DCF implies only 3.8% growth."
-  },
-  {
-   "t": "ETN",
-   "n": "Eaton",
-   "sector": "Industrials",
-   "grade": "B",
-   "score": 79.0,
-   "tier": "top",
-   "note": "Electrification pure-play, but 39x trailing is full."
-  },
-  {
-   "t": "CCJ",
-   "n": "Cameco",
+   "t": "UUUU",
+   "n": "Energy Fuels",
    "sector": "Uranium",
-   "grade": "B",
-   "score": 77.0,
+   "grade": "A",
+   "score": 87,
    "tier": "top",
-   "note": "Structural Western supply deficit; 80x trailing is the price of admission."
+   "note": "Strong Buy; target 26.1 vs 11.7."
   },
   {
-   "t": "JEF",
-   "n": "Jefferies Financial",
-   "sector": "Financials",
-   "grade": "B",
-   "score": 76.0,
+   "t": "TE",
+   "n": "T1 Energy",
+   "sector": "Renewables",
+   "grade": "A",
+   "score": 87,
    "tier": "top",
-   "note": "$318.7M director buy is the loudest insider signal on the tape."
+   "note": "Strong Buy; target 10.1 vs 6.0."
   },
   {
-   "t": "MELI",
-   "n": "MercadoLibre",
-   "sector": "Consumer/LatAm",
-   "grade": "B",
-   "score": 75.0,
+   "t": "APLD",
+   "n": "Applied Digital",
+   "sector": "Software",
+   "grade": "A",
+   "score": 87,
    "tier": "top",
-   "note": "42% revenue growth; FX and LatAm rates are the recurring drag."
+   "note": "Strong Buy; target 76.7 vs 27.9."
+  },
+  {
+   "t": "META",
+   "n": "Meta Platforms",
+   "sector": "Software",
+   "grade": "A",
+   "score": 86.4,
+   "tier": "top",
+   "note": "Strong Buy; target 822.7 vs 645.9."
+  },
+  {
+   "t": "ORCL",
+   "n": "Oracle",
+   "sector": "Software",
+   "grade": "A",
+   "score": 85,
+   "tier": "top",
+   "note": "Buy; target 249.2 vs 121.4."
   }
  ],
  "worst": [
   {
-   "t": "AAPL",
-   "n": "Apple",
-   "sector": "Consumer",
-   "grade": "C-",
-   "score": 42.0,
+   "t": "SKHY",
+   "n": "SK Hynix (ADR)",
+   "sector": "Semis",
+   "grade": "C+",
+   "score": 52,
    "tier": "worst",
-   "note": "Trades 4.6% ABOVE consensus target at 40.5x with low-single-digit growth."
+   "note": "Story / weak setup; small size only."
   },
   {
    "t": "OKTA",
    "n": "Okta",
    "sector": "Cyber",
-   "grade": "C-",
-   "score": 41.0,
+   "grade": "C+",
+   "score": 50.4,
    "tier": "worst",
-   "note": "108x trailing and 17% BELOW the average analyst target."
+   "note": "Trades above avg target - no consensus upside."
   },
   {
-   "t": "PANW",
-   "n": "Palo Alto Networks",
+   "t": "CRWD",
+   "n": "CrowdStrike",
    "sector": "Cyber",
    "grade": "C",
-   "score": 45.0,
+   "score": 48.6,
    "tier": "worst",
-   "note": "347x trailing; 9.3% below consensus target."
+   "note": "Trades above avg target - no consensus upside."
+  },
+  {
+   "t": "OPEN",
+   "n": "Opendoor",
+   "sector": "Consumer/LatAm",
+   "grade": "C",
+   "score": 47.9,
+   "tier": "worst",
+   "note": "Story / weak setup; small size only."
+  },
+  {
+   "t": "UA",
+   "n": "Under Armour",
+   "sector": "Consumer/LatAm",
+   "grade": "C",
+   "score": 42,
+   "tier": "worst",
+   "note": "Story / weak setup; small size only."
   },
   {
    "t": "OSCR",
    "n": "Oscar Health",
    "sector": "Healthcare",
-   "grade": "D+",
-   "score": 35.0,
+   "grade": "C",
+   "score": 31.1,
    "tier": "worst",
-   "note": "Unprofitable, and 18% below consensus target."
-  },
-  {
-   "t": "OPEN",
-   "n": "Opendoor Technologies",
-   "sector": "Real Estate",
-   "grade": "D",
-   "score": 30.0,
-   "tier": "worst",
-   "note": "Revenue -23%, unprofitable, only 8% upside to a low consensus target."
-  },
-  {
-   "t": "SMR",
-   "n": "NuScale Power",
-   "sector": "Nuclear",
-   "grade": "D",
-   "score": 32.0,
-   "tier": "worst",
-   "note": "Revenue -62% to $18.7M; a pure narrative on an SMR that is not yet commercial."
+   "note": "Trades above avg target - no consensus upside."
   }
  ]
 }
