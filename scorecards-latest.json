@@ -9,7 +9,7 @@
    "grade": "A",
    "score": 95,
    "tier": "top",
-   "note": "Strong Buy; target 301.6 vs 203.3."
+   "note": "Strong Buy; target 301.6 vs 207.3."
   },
   {
    "t": "MU",
@@ -18,61 +18,43 @@
    "grade": "A",
    "score": 95,
    "tier": "top",
-   "note": "Strong Buy; target 1486.0 vs 865.5."
-  },
-  {
-   "t": "VST",
-   "n": "Vistra",
-   "sector": "Power",
-   "grade": "A",
-   "score": 94.6,
-   "tier": "top",
-   "note": "Strong Buy; target 222.9 vs 158.0."
+   "note": "Strong Buy; target 1486.0 vs 970.8."
   },
   {
    "t": "MSFT",
    "n": "Microsoft",
    "sector": "Software",
    "grade": "A",
-   "score": 93.2,
+   "score": 94.1,
    "tier": "top",
-   "note": "Strong Buy; target 557.8 vs 402.3."
-  },
-  {
-   "t": "AVGO",
-   "n": "Broadcom",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 93.1,
-   "tier": "top",
-   "note": "Strong Buy; target 523.7 vs 378.2."
+   "note": "Strong Buy; target 557.8 vs 397.8."
   },
   {
    "t": "NOW",
    "n": "ServiceNow",
    "sector": "Software",
    "grade": "A",
-   "score": 91.2,
+   "score": 93.3,
    "tier": "top",
-   "note": "Strong Buy; target 141.6 vs 104.7."
+   "note": "Strong Buy; target 141.6 vs 102.1."
   },
   {
-   "t": "VRT",
-   "n": "Vertiv",
-   "sector": "Industrials",
+   "t": "VST",
+   "n": "Vistra",
+   "sector": "Power",
    "grade": "A",
-   "score": 88.2,
+   "score": 92.4,
    "tier": "top",
-   "note": "Strong Buy; target 380.0 vs 291.7."
+   "note": "Strong Buy; target 222.9 vs 162.3."
   },
   {
-   "t": "TSM",
-   "n": "TSMC (ADR)",
+   "t": "AVGO",
+   "n": "Broadcom",
    "sector": "Semis",
    "grade": "A",
-   "score": 88.0,
+   "score": 91.3,
    "tier": "top",
-   "note": "Strong Buy; target 522.8 vs 402.3."
+   "note": "Strong Buy; target 523.7 vs 386.5."
   },
   {
    "t": "IONQ",
@@ -81,7 +63,7 @@
    "grade": "A",
    "score": 87,
    "tier": "top",
-   "note": "Strong Buy; target 69.1 vs 34.2."
+   "note": "Strong Buy; target 69.1 vs 35.5."
   },
   {
    "t": "UUUU",
@@ -90,7 +72,7 @@
    "grade": "A",
    "score": 87,
    "tier": "top",
-   "note": "Strong Buy; target 26.1 vs 11.7."
+   "note": "Strong Buy; target 26.1 vs 12.3."
   },
   {
    "t": "TE",
@@ -99,7 +81,7 @@
    "grade": "A",
    "score": 87,
    "tier": "top",
-   "note": "Strong Buy; target 10.1 vs 6.0."
+   "note": "Strong Buy; target 10.1 vs 6.1."
   },
   {
    "t": "APLD",
@@ -108,16 +90,16 @@
    "grade": "A",
    "score": 87,
    "tier": "top",
-   "note": "Strong Buy; target 76.7 vs 27.9."
+   "note": "Strong Buy; target 76.7 vs 30.1."
   },
   {
    "t": "META",
    "n": "Meta Platforms",
    "sector": "Software",
    "grade": "A",
-   "score": 86.4,
+   "score": 86.7,
    "tier": "top",
-   "note": "Strong Buy; target 822.7 vs 645.9."
+   "note": "Strong Buy; target 822.7 vs 643.8."
   },
   {
    "t": "ORCL",
@@ -126,7 +108,25 @@
    "grade": "A",
    "score": 85,
    "tier": "top",
-   "note": "Buy; target 249.2 vs 121.4."
+   "note": "Buy; target 249.2 vs 127.0."
+  },
+  {
+   "t": "CCJ",
+   "n": "Cameco",
+   "sector": "Uranium",
+   "grade": "A",
+   "score": 85,
+   "tier": "top",
+   "note": "Buy; target 132.0 vs 88.7."
+  },
+  {
+   "t": "LEU",
+   "n": "Centrus Energy",
+   "sector": "Uranium",
+   "grade": "A",
+   "score": 85,
+   "tier": "top",
+   "note": "Buy; target 264.7 vs 171.2."
   }
  ],
  "worst": [
@@ -140,20 +140,20 @@
    "note": "Story / weak setup; small size only."
   },
   {
-   "t": "OKTA",
-   "n": "Okta",
-   "sector": "Cyber",
+   "t": "SOFI",
+   "n": "SoFi",
+   "sector": "Financials",
    "grade": "C+",
-   "score": 50.4,
+   "score": 52.0,
    "tier": "worst",
-   "note": "Trades above avg target - no consensus upside."
+   "note": "Story / weak setup; small size only."
   },
   {
    "t": "CRWD",
    "n": "CrowdStrike",
    "sector": "Cyber",
-   "grade": "C",
-   "score": 48.6,
+   "grade": "C+",
+   "score": 50.8,
    "tier": "worst",
    "note": "Trades above avg target - no consensus upside."
   },
@@ -162,7 +162,7 @@
    "n": "Opendoor",
    "sector": "Consumer/LatAm",
    "grade": "C",
-   "score": 47.9,
+   "score": 47.4,
    "tier": "worst",
    "note": "Story / weak setup; small size only."
   },
@@ -180,7 +180,7 @@
    "n": "Oscar Health",
    "sector": "Healthcare",
    "grade": "C",
-   "score": 31.1,
+   "score": 29.2,
    "tier": "worst",
    "note": "Trades above avg target - no consensus upside."
   }

@@ -6,10 +6,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "NVIDIA: AI infrastructure. Levels set off the 203.3 last close; target from current consensus.",
+  "why": "NVIDIA: AI infrastructure. Levels set off the 207.3 last close; target from current consensus.",
   "bull": [
    "AI infrastructure demand is a durable multi-year driver.",
-   "Consensus analyst target 301.6 vs 203.3 last close.",
+   "Consensus analyst target 301.6 vs 207.3 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -20,9 +20,9 @@
    "stockanalysis.com/stocks/nvda/",
    "Eden deep-dive: run NVDA -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 171.7 on volume, or if the AI infrastructure narrative breaks.",
-  "entry": 195.1,
-  "stop": 171.7,
+  "inv": "Thesis void on a close below 175.1 on volume, or if the AI infrastructure narrative breaks.",
+  "entry": 199.0,
+  "stop": 175.1,
   "target": 301.6
  },
  {
@@ -32,10 +32,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "TSMC (ADR): Foundry / AI chips. Levels set off the 402.3 last close; target from current consensus.",
+  "why": "TSMC (ADR): Foundry / AI chips. Levels set off the 424.6 last close; target from current consensus.",
   "bull": [
    "Foundry / AI chips demand is a durable multi-year driver.",
-   "Consensus analyst target 522.8 vs 402.3 last close.",
+   "Consensus analyst target 522.8 vs 424.6 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -46,9 +46,9 @@
    "stockanalysis.com/stocks/tsm/",
    "Eden deep-dive: run TSM -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 339.9 on volume, or if the Foundry / AI chips narrative breaks.",
-  "entry": 386.2,
-  "stop": 339.9,
+  "inv": "Thesis void on a close below 358.7 on volume, or if the Foundry / AI chips narrative breaks.",
+  "entry": 407.6,
+  "stop": 358.7,
   "target": 522.8
  },
  {
@@ -58,10 +58,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Broadcom: Custom AI silicon. Levels set off the 378.2 last close; target from current consensus.",
+  "why": "Broadcom: Custom AI silicon. Levels set off the 386.5 last close; target from current consensus.",
   "bull": [
    "Custom AI silicon demand is a durable multi-year driver.",
-   "Consensus analyst target 523.7 vs 378.2 last close.",
+   "Consensus analyst target 523.7 vs 386.5 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -72,9 +72,9 @@
    "stockanalysis.com/stocks/avgo/",
    "Eden deep-dive: run AVGO -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 319.4 on volume, or if the Custom AI silicon narrative breaks.",
-  "entry": 363.0,
-  "stop": 319.4,
+  "inv": "Thesis void on a close below 326.5 on volume, or if the Custom AI silicon narrative breaks.",
+  "entry": 371.0,
+  "stop": 326.5,
   "target": 523.7
  },
  {
@@ -84,10 +84,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Micron: HBM / memory. Levels set off the 865.5 last close; target from current consensus.",
+  "why": "Micron: HBM / memory. Levels set off the 970.8 last close; target from current consensus.",
   "bull": [
    "HBM / memory demand is a durable multi-year driver.",
-   "Consensus analyst target 1486.0 vs 865.5 last close.",
+   "Consensus analyst target 1486.0 vs 970.8 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -98,10 +98,10 @@
    "stockanalysis.com/stocks/mu/",
    "Eden deep-dive: run MU -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 731.1 on volume, or if the HBM / memory narrative breaks.",
-  "entry": 830.8,
-  "stop": 731.1,
-  "target": 1254.9
+  "inv": "Thesis void on a close below 820.2 on volume, or if the HBM / memory narrative breaks.",
+  "entry": 932.0,
+  "stop": 820.2,
+  "target": 1486.0
  },
  {
   "t": "ASML",
@@ -110,10 +110,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "ASML (ADR): Litho / semi-equip. Levels set off the 1739.0 last close; target from current consensus.",
+  "why": "ASML (ADR): Litho / semi-equip. Levels set off the 1801.5 last close; target from current consensus.",
   "bull": [
    "Litho / semi-equip demand is a durable multi-year driver.",
-   "Consensus analyst target 2118.0 vs 1739.0 last close.",
+   "Consensus analyst target 2118.0 vs 1801.5 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -124,9 +124,9 @@
    "stockanalysis.com/stocks/asml/",
    "Eden deep-dive: run ASML -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 1469.2 on volume, or if the Litho / semi-equip narrative breaks.",
-  "entry": 1669.5,
-  "stop": 1469.2,
+  "inv": "Thesis void on a close below 1521.9 on volume, or if the Litho / semi-equip narrative breaks.",
+  "entry": 1729.4,
+  "stop": 1521.9,
   "target": 2118.0
  },
  {
@@ -136,10 +136,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Applied Materials: Semi-equipment. Levels set off the 525.7 last close; target from current consensus.",
+  "why": "Applied Materials: Semi-equipment. Levels set off the 564.5 last close; target from current consensus.",
   "bull": [
    "Semi-equipment demand is a durable multi-year driver.",
-   "Consensus analyst target 623.1 vs 525.7 last close.",
+   "Consensus analyst target 623.1 vs 564.5 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -150,9 +150,9 @@
    "stockanalysis.com/stocks/amat/",
    "Eden deep-dive: run AMAT -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 444.1 on volume, or if the Semi-equipment narrative breaks.",
-  "entry": 504.7,
-  "stop": 444.1,
+  "inv": "Thesis void on a close below 477.0 on volume, or if the Semi-equipment narrative breaks.",
+  "entry": 542.0,
+  "stop": 477.0,
   "target": 623.1
  },
  {
@@ -162,10 +162,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Microsoft: AI software / cloud. Levels set off the 402.3 last close; target from current consensus.",
+  "why": "Microsoft: AI software / cloud. Levels set off the 397.8 last close; target from current consensus.",
   "bull": [
    "AI software / cloud demand is a durable multi-year driver.",
-   "Consensus analyst target 557.8 vs 402.3 last close.",
+   "Consensus analyst target 557.8 vs 397.8 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -176,9 +176,9 @@
    "stockanalysis.com/stocks/msft/",
    "Eden deep-dive: run MSFT -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 339.9 on volume, or if the AI software / cloud narrative breaks.",
-  "entry": 386.2,
-  "stop": 339.9,
+  "inv": "Thesis void on a close below 336.0 on volume, or if the AI software / cloud narrative breaks.",
+  "entry": 381.8,
+  "stop": 336.0,
   "target": 557.8
  },
  {
@@ -188,10 +188,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Alphabet: Search / cloud / AI. Levels set off the 352.0 last close; target from current consensus.",
+  "why": "Alphabet: Search / cloud / AI. Levels set off the 347.1 last close; target from current consensus.",
   "bull": [
    "Search / cloud / AI demand is a durable multi-year driver.",
-   "Consensus analyst target 433.5 vs 352.0 last close.",
+   "Consensus analyst target 433.5 vs 347.1 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -202,9 +202,9 @@
    "stockanalysis.com/stocks/googl/",
    "Eden deep-dive: run GOOGL -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 297.4 on volume, or if the Search / cloud / AI narrative breaks.",
-  "entry": 337.9,
-  "stop": 297.4,
+  "inv": "Thesis void on a close below 293.3 on volume, or if the Search / cloud / AI narrative breaks.",
+  "entry": 333.3,
+  "stop": 293.3,
   "target": 433.5
  },
  {
@@ -214,10 +214,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "ServiceNow: Enterprise AI workflow. Levels set off the 104.7 last close; target from current consensus.",
+  "why": "ServiceNow: Enterprise AI workflow. Levels set off the 102.1 last close; target from current consensus.",
   "bull": [
    "Enterprise AI workflow demand is a durable multi-year driver.",
-   "Consensus analyst target 141.6 vs 104.7 last close.",
+   "Consensus analyst target 141.6 vs 102.1 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -228,9 +228,9 @@
    "stockanalysis.com/stocks/now/",
    "Eden deep-dive: run NOW -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 88.4 on volume, or if the Enterprise AI workflow narrative breaks.",
-  "entry": 100.5,
-  "stop": 88.4,
+  "inv": "Thesis void on a close below 86.2 on volume, or if the Enterprise AI workflow narrative breaks.",
+  "entry": 98.0,
+  "stop": 86.2,
   "target": 141.6
  },
  {
@@ -240,10 +240,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Meta Platforms: Social / AI. Levels set off the 645.9 last close; target from current consensus.",
+  "why": "Meta Platforms: Social / AI. Levels set off the 643.8 last close; target from current consensus.",
   "bull": [
    "Social / AI demand is a durable multi-year driver.",
-   "Consensus analyst target 822.7 vs 645.9 last close.",
+   "Consensus analyst target 822.7 vs 643.8 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -254,9 +254,9 @@
    "stockanalysis.com/stocks/meta/",
    "Eden deep-dive: run META -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 545.6 on volume, or if the Social / AI narrative breaks.",
-  "entry": 620.0,
-  "stop": 545.6,
+  "inv": "Thesis void on a close below 543.9 on volume, or if the Social / AI narrative breaks.",
+  "entry": 618.1,
+  "stop": 543.9,
   "target": 822.7
  },
  {
@@ -266,10 +266,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Palantir: AI deployment. Levels set off the 134.8 last close; target from current consensus.",
+  "why": "Palantir: AI deployment. Levels set off the 132.7 last close; target from current consensus.",
   "bull": [
    "AI deployment demand is a durable multi-year driver.",
-   "Consensus analyst target 183.1 vs 134.8 last close.",
+   "Consensus analyst target 183.1 vs 132.7 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -280,9 +280,9 @@
    "stockanalysis.com/stocks/pltr/",
    "Eden deep-dive: run PLTR -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 114.0 on volume, or if the AI deployment narrative breaks.",
-  "entry": 129.5,
-  "stop": 114.0,
+  "inv": "Thesis void on a close below 112.1 on volume, or if the AI deployment narrative breaks.",
+  "entry": 127.4,
+  "stop": 112.1,
   "target": 183.1
  },
  {
@@ -292,10 +292,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Constellation Energy: Nuclear power / AI demand. Levels set off the 253.5 last close; target from current consensus.",
+  "why": "Constellation Energy: Nuclear power / AI demand. Levels set off the 262.2 last close; target from current consensus.",
   "bull": [
    "Nuclear power / AI demand demand is a durable multi-year driver.",
-   "Consensus analyst target 357.8 vs 253.5 last close.",
+   "Consensus analyst target 357.8 vs 262.2 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -306,9 +306,9 @@
    "stockanalysis.com/stocks/ceg/",
    "Eden deep-dive: run CEG -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 214.2 on volume, or if the Nuclear power / AI demand narrative breaks.",
-  "entry": 243.4,
-  "stop": 214.2,
+  "inv": "Thesis void on a close below 221.5 on volume, or if the Nuclear power / AI demand narrative breaks.",
+  "entry": 251.7,
+  "stop": 221.5,
   "target": 357.8
  },
  {
@@ -318,10 +318,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Vistra: Power / AI demand. Levels set off the 158.0 last close; target from current consensus.",
+  "why": "Vistra: Power / AI demand. Levels set off the 162.3 last close; target from current consensus.",
   "bull": [
    "Power / AI demand demand is a durable multi-year driver.",
-   "Consensus analyst target 222.9 vs 158.0 last close.",
+   "Consensus analyst target 222.9 vs 162.3 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -332,9 +332,9 @@
    "stockanalysis.com/stocks/vst/",
    "Eden deep-dive: run VST -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 133.5 on volume, or if the Power / AI demand narrative breaks.",
-  "entry": 151.7,
-  "stop": 133.5,
+  "inv": "Thesis void on a close below 137.1 on volume, or if the Power / AI demand narrative breaks.",
+  "entry": 155.8,
+  "stop": 137.1,
   "target": 222.9
  },
  {
@@ -344,10 +344,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "GE Vernova: Grid / power equipment. Levels set off the 1079.2 last close; target from current consensus.",
+  "why": "GE Vernova: Grid / power equipment. Levels set off the 1078.8 last close; target from current consensus.",
   "bull": [
    "Grid / power equipment demand is a durable multi-year driver.",
-   "Consensus analyst target 1221.5 vs 1079.2 last close.",
+   "Consensus analyst target 1221.5 vs 1078.8 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -358,9 +358,9 @@
    "stockanalysis.com/stocks/gev/",
    "Eden deep-dive: run GEV -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 911.7 on volume, or if the Grid / power equipment narrative breaks.",
-  "entry": 1036.0,
-  "stop": 911.7,
+  "inv": "Thesis void on a close below 911.4 on volume, or if the Grid / power equipment narrative breaks.",
+  "entry": 1035.7,
+  "stop": 911.4,
   "target": 1221.5
  },
  {
@@ -370,10 +370,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "Cameco: Uranium. Levels set off the 84.8 last close; target from current consensus.",
+  "why": "Cameco: Uranium. Levels set off the 88.7 last close; target from current consensus.",
   "bull": [
    "Uranium demand is a durable multi-year driver.",
-   "Consensus analyst target 132.0 vs 84.8 last close.",
+   "Consensus analyst target 132.0 vs 88.7 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -384,9 +384,9 @@
    "stockanalysis.com/stocks/ccj/",
    "Eden deep-dive: run CCJ -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 72.5 on volume, or if the Uranium narrative breaks.",
-  "entry": 81.5,
-  "stop": 72.5,
+  "inv": "Thesis void on a close below 75.7 on volume, or if the Uranium narrative breaks.",
+  "entry": 85.1,
+  "stop": 75.7,
   "target": 132.0
  },
  {
@@ -396,10 +396,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "BWX Technologies: Nuclear components. Levels set off the 169.6 last close; target from current consensus.",
+  "why": "BWX Technologies: Nuclear components. Levels set off the 173.1 last close; target from current consensus.",
   "bull": [
    "Nuclear components demand is a durable multi-year driver.",
-   "Consensus analyst target 238.8 vs 169.6 last close.",
+   "Consensus analyst target 238.8 vs 173.1 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -410,9 +410,9 @@
    "stockanalysis.com/stocks/bwxt/",
    "Eden deep-dive: run BWXT -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 144.9 on volume, or if the Nuclear components narrative breaks.",
-  "entry": 162.8,
-  "stop": 144.9,
+  "inv": "Thesis void on a close below 147.9 on volume, or if the Nuclear components narrative breaks.",
+  "entry": 166.2,
+  "stop": 147.9,
   "target": 238.8
  },
  {
@@ -422,10 +422,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "Centrus Energy: Enrichment / HALEU. Levels set off the 156.4 last close; target from current consensus.",
+  "why": "Centrus Energy: Enrichment / HALEU. Levels set off the 171.2 last close; target from current consensus.",
   "bull": [
    "Enrichment / HALEU demand is a durable multi-year driver.",
-   "Consensus analyst target 264.7 vs 156.4 last close.",
+   "Consensus analyst target 264.7 vs 171.2 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -436,9 +436,9 @@
    "stockanalysis.com/stocks/leu/",
    "Eden deep-dive: run LEU -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 133.6 on volume, or if the Enrichment / HALEU narrative breaks.",
-  "entry": 150.1,
-  "stop": 133.6,
+  "inv": "Thesis void on a close below 146.3 on volume, or if the Enrichment / HALEU narrative breaks.",
+  "entry": 164.4,
+  "stop": 146.3,
   "target": 264.7
  },
  {
@@ -448,10 +448,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "First Solar: Solar. Levels set off the 205.3 last close; target from current consensus.",
+  "why": "First Solar: Solar. Levels set off the 206.1 last close; target from current consensus.",
   "bull": [
    "Solar demand is a durable multi-year driver.",
-   "Consensus analyst target 254.3 vs 205.3 last close.",
+   "Consensus analyst target 254.3 vs 206.1 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -462,9 +462,9 @@
    "stockanalysis.com/stocks/fslr/",
    "Eden deep-dive: run FSLR -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 175.4 on volume, or if the Solar narrative breaks.",
-  "entry": 197.1,
-  "stop": 175.4,
+  "inv": "Thesis void on a close below 176.0 on volume, or if the Solar narrative breaks.",
+  "entry": 197.8,
+  "stop": 176.0,
   "target": 254.3
  },
  {
@@ -474,10 +474,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Exxon Mobil: Integrated energy. Levels set off the 148.4 last close; target from current consensus.",
+  "why": "Exxon Mobil: Integrated energy. Levels set off the 151.7 last close; target from current consensus.",
   "bull": [
    "Integrated energy demand is a durable multi-year driver.",
-   "Consensus analyst target 166.9 vs 148.4 last close.",
+   "Consensus analyst target 166.9 vs 151.7 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -488,9 +488,9 @@
    "stockanalysis.com/stocks/xom/",
    "Eden deep-dive: run XOM -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 128.2 on volume, or if the Integrated energy narrative breaks.",
-  "entry": 142.4,
-  "stop": 128.2,
+  "inv": "Thesis void on a close below 131.0 on volume, or if the Integrated energy narrative breaks.",
+  "entry": 145.6,
+  "stop": 131.0,
   "target": 166.9
  },
  {
@@ -500,10 +500,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "SLB: Oil services. Levels set off the 46.4 last close; target from current consensus.",
+  "why": "SLB: Oil services. Levels set off the 46.6 last close; target from current consensus.",
   "bull": [
    "Oil services demand is a durable multi-year driver.",
-   "Consensus analyst target 61.0 vs 46.4 last close.",
+   "Consensus analyst target 61.0 vs 46.6 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -514,9 +514,9 @@
    "stockanalysis.com/stocks/slb/",
    "Eden deep-dive: run SLB -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 40.1 on volume, or if the Oil services narrative breaks.",
-  "entry": 44.5,
-  "stop": 40.1,
+  "inv": "Thesis void on a close below 40.2 on volume, or if the Oil services narrative breaks.",
+  "entry": 44.7,
+  "stop": 40.2,
   "target": 61.0
  },
  {
@@ -526,10 +526,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "EQT Corp: Natural gas. Levels set off the 49.0 last close; target from current consensus.",
+  "why": "EQT Corp: Natural gas. Levels set off the 49.8 last close; target from current consensus.",
   "bull": [
    "Natural gas demand is a durable multi-year driver.",
-   "Consensus analyst target 67.2 vs 49.0 last close.",
+   "Consensus analyst target 67.2 vs 49.8 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -540,9 +540,9 @@
    "stockanalysis.com/stocks/eqt/",
    "Eden deep-dive: run EQT -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 42.4 on volume, or if the Natural gas narrative breaks.",
-  "entry": 47.1,
-  "stop": 42.4,
+  "inv": "Thesis void on a close below 43.0 on volume, or if the Natural gas narrative breaks.",
+  "entry": 47.8,
+  "stop": 43.0,
   "target": 67.2
  },
  {
@@ -552,10 +552,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "JPMorgan: Money-center bank. Levels set off the 338.9 last close; target from current consensus.",
+  "why": "JPMorgan: Money-center bank. Levels set off the 345.2 last close; target from current consensus.",
   "bull": [
    "Money-center bank demand is a durable multi-year driver.",
-   "Consensus analyst target 369.7 vs 338.9 last close.",
+   "Consensus analyst target 369.7 vs 345.2 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -566,9 +566,9 @@
    "stockanalysis.com/stocks/jpm/",
    "Eden deep-dive: run JPM -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 292.8 on volume, or if the Money-center bank narrative breaks.",
-  "entry": 325.3,
-  "stop": 292.8,
+  "inv": "Thesis void on a close below 298.3 on volume, or if the Money-center bank narrative breaks.",
+  "entry": 331.4,
+  "stop": 298.3,
   "target": 369.7
  },
  {
@@ -578,10 +578,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Goldman Sachs: Investment bank. Levels set off the 1055.0 last close; target from current consensus.",
+  "why": "Goldman Sachs: Investment bank. Levels set off the 1085.6 last close; target from current consensus.",
   "bull": [
    "Investment bank demand is a durable multi-year driver.",
-   "Consensus analyst target 1134.4 vs 1055.0 last close.",
+   "Consensus analyst target 1134.4 vs 1085.6 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -592,9 +592,9 @@
    "stockanalysis.com/stocks/gs/",
    "Eden deep-dive: run GS -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 911.5 on volume, or if the Investment bank narrative breaks.",
-  "entry": 1012.8,
-  "stop": 911.5,
+  "inv": "Thesis void on a close below 937.9 on volume, or if the Investment bank narrative breaks.",
+  "entry": 1042.1,
+  "stop": 937.9,
   "target": 1134.4
  },
  {
@@ -604,10 +604,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Jefferies: Investment bank. Levels set off the 55.2 last close; target from current consensus.",
+  "why": "Jefferies: Investment bank. Levels set off the 56.7 last close; target from current consensus.",
   "bull": [
    "Investment bank demand is a durable multi-year driver.",
-   "Consensus analyst target 61.3 vs 55.2 last close.",
+   "Consensus analyst target 61.3 vs 56.7 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -618,9 +618,9 @@
    "stockanalysis.com/stocks/jef/",
    "Eden deep-dive: run JEF -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 47.7 on volume, or if the Investment bank narrative breaks.",
-  "entry": 53.0,
-  "stop": 47.7,
+  "inv": "Thesis void on a close below 49.1 on volume, or if the Investment bank narrative breaks.",
+  "entry": 54.5,
+  "stop": 49.1,
   "target": 61.3
  },
  {
@@ -630,10 +630,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Eli Lilly: GLP-1 / pharma. Levels set off the 1146.9 last close; target from current consensus.",
+  "why": "Eli Lilly: GLP-1 / pharma. Levels set off the 1175.4 last close; target from current consensus.",
   "bull": [
    "GLP-1 / pharma demand is a durable multi-year driver.",
-   "Consensus analyst target 1270.4 vs 1146.9 last close.",
+   "Consensus analyst target 1270.4 vs 1175.4 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -644,9 +644,9 @@
    "stockanalysis.com/stocks/lly/",
    "Eden deep-dive: run LLY -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 990.9 on volume, or if the GLP-1 / pharma narrative breaks.",
-  "entry": 1101.0,
-  "stop": 990.9,
+  "inv": "Thesis void on a close below 1015.6 on volume, or if the GLP-1 / pharma narrative breaks.",
+  "entry": 1128.4,
+  "stop": 1015.6,
   "target": 1270.4
  },
  {
@@ -656,10 +656,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "UnitedHealth: Managed care. Levels set off the 421.6 last close; target from current consensus.",
+  "why": "UnitedHealth: Managed care. Levels set off the 436.4 last close; target from current consensus.",
   "bull": [
    "Managed care demand is a durable multi-year driver.",
-   "Consensus analyst target 473.3 vs 421.6 last close.",
+   "Consensus analyst target 473.3 vs 436.4 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -670,9 +670,9 @@
    "stockanalysis.com/stocks/unh/",
    "Eden deep-dive: run UNH -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 364.2 on volume, or if the Managed care narrative breaks.",
-  "entry": 404.7,
-  "stop": 364.2,
+  "inv": "Thesis void on a close below 377.0 on volume, or if the Managed care narrative breaks.",
+  "entry": 418.9,
+  "stop": 377.0,
   "target": 473.3
  },
  {
@@ -682,10 +682,10 @@
   "type": "Value",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "Elevance Health: Managed care. Levels set off the 382.2 last close; target from current consensus.",
+  "why": "Elevance Health: Managed care. Levels set off the 393.4 last close; target from current consensus.",
   "bull": [
    "Managed care demand is a durable multi-year driver.",
-   "Consensus analyst target 449.1 vs 382.2 last close.",
+   "Consensus analyst target 449.1 vs 393.4 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -696,9 +696,9 @@
    "stockanalysis.com/stocks/elv/",
    "Eden deep-dive: run ELV -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 330.2 on volume, or if the Managed care narrative breaks.",
-  "entry": 366.9,
-  "stop": 330.2,
+  "inv": "Thesis void on a close below 339.9 on volume, or if the Managed care narrative breaks.",
+  "entry": 377.7,
+  "stop": 339.9,
   "target": 449.1
  },
  {
@@ -708,10 +708,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "MercadoLibre: LatAm e-commerce. Levels set off the 1832.4 last close; target from current consensus.",
+  "why": "MercadoLibre: LatAm e-commerce. Levels set off the 1822.7 last close; target from current consensus.",
   "bull": [
    "LatAm e-commerce demand is a durable multi-year driver.",
-   "Consensus analyst target 2206.5 vs 1832.4 last close.",
+   "Consensus analyst target 2206.5 vs 1822.7 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -722,9 +722,9 @@
    "stockanalysis.com/stocks/meli/",
    "Eden deep-dive: run MELI -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 1565.6 on volume, or if the LatAm e-commerce narrative breaks.",
-  "entry": 1759.1,
-  "stop": 1565.6,
+  "inv": "Thesis void on a close below 1557.2 on volume, or if the LatAm e-commerce narrative breaks.",
+  "entry": 1749.7,
+  "stop": 1557.2,
   "target": 2206.5
  },
  {
@@ -734,10 +734,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "Nu Holdings: LatAm fintech. Levels set off the 14.0 last close; target from current consensus.",
+  "why": "Nu Holdings: LatAm fintech. Levels set off the 14.4 last close; target from current consensus.",
   "bull": [
    "LatAm fintech demand is a durable multi-year driver.",
-   "Consensus analyst target 17.9 vs 14.0 last close.",
+   "Consensus analyst target 17.9 vs 14.4 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -748,9 +748,9 @@
    "stockanalysis.com/stocks/nu/",
    "Eden deep-dive: run NU -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 11.9 on volume, or if the LatAm fintech narrative breaks.",
-  "entry": 13.4,
-  "stop": 11.9,
+  "inv": "Thesis void on a close below 12.3 on volume, or if the LatAm fintech narrative breaks.",
+  "entry": 13.8,
+  "stop": 12.3,
   "target": 17.9
  },
  {
@@ -760,10 +760,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "Eaton: Electrical / grid. Levels set off the 401.4 last close; target from current consensus.",
+  "why": "Eaton: Electrical / grid. Levels set off the 402.9 last close; target from current consensus.",
   "bull": [
    "Electrical / grid demand is a durable multi-year driver.",
-   "Consensus analyst target 455.8 vs 401.4 last close.",
+   "Consensus analyst target 455.8 vs 402.9 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -774,9 +774,9 @@
    "stockanalysis.com/stocks/etn/",
    "Eden deep-dive: run ETN -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 343.0 on volume, or if the Electrical / grid narrative breaks.",
-  "entry": 385.4,
-  "stop": 343.0,
+  "inv": "Thesis void on a close below 344.3 on volume, or if the Electrical / grid narrative breaks.",
+  "entry": 386.8,
+  "stop": 344.3,
   "target": 455.8
  },
  {
@@ -786,10 +786,10 @@
   "type": "Momentum",
   "size": "~4% of book",
   "a": "2026-07-21",
-  "why": "GE Aerospace: Aerospace engines. Levels set off the 341.3 last close; target from current consensus.",
+  "why": "GE Aerospace: Aerospace engines. Levels set off the 340.7 last close; target from current consensus.",
   "bull": [
    "Aerospace engines demand is a durable multi-year driver.",
-   "Consensus analyst target 403.6 vs 341.3 last close.",
+   "Consensus analyst target 403.6 vs 340.7 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -800,9 +800,9 @@
    "stockanalysis.com/stocks/ge/",
    "Eden deep-dive: run GE -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 288.3 on volume, or if the Aerospace engines narrative breaks.",
-  "entry": 327.6,
-  "stop": 288.3,
+  "inv": "Thesis void on a close below 287.8 on volume, or if the Aerospace engines narrative breaks.",
+  "entry": 327.1,
+  "stop": 287.8,
   "target": 403.6
  },
  {
@@ -812,10 +812,10 @@
   "type": "Core",
   "size": "~3% of book",
   "a": "2026-07-21",
-  "why": "Palo Alto Networks: Cybersecurity. Levels set off the 348.7 last close; target from current consensus.",
+  "why": "Palo Alto Networks: Cybersecurity. Levels set off the 342.1 last close; target from current consensus.",
   "bull": [
    "Cybersecurity demand is a durable multi-year driver.",
-   "Consensus analyst target 325.4 vs 348.7 last close.",
+   "Consensus analyst target 325.4 vs 342.1 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -827,10 +827,10 @@
    "stockanalysis.com/stocks/panw/",
    "Eden deep-dive: run PANW -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 297.9 on volume, or if the Cybersecurity narrative breaks.",
-  "entry": 334.7,
-  "stop": 297.9,
-  "target": 411.4
+  "inv": "Thesis void on a close below 292.4 on volume, or if the Cybersecurity narrative breaks.",
+  "entry": 328.5,
+  "stop": 292.4,
+  "target": 403.7
  },
  {
   "t": "RKLB",
@@ -839,10 +839,10 @@
   "type": "Speculative",
   "size": "~2% of book",
   "a": "2026-07-21",
-  "why": "Rocket Lab: Space launch. Levels set off the 65.7 last close; target from current consensus.",
+  "why": "Rocket Lab: Space launch. Levels set off the 69.1 last close; target from current consensus.",
   "bull": [
    "Space launch demand is a durable multi-year driver.",
-   "Consensus analyst target 116.6 vs 65.7 last close.",
+   "Consensus analyst target 116.6 vs 69.1 last close.",
    "Cash generation and balance sheet support the current setup."
   ],
   "bear": [
@@ -854,9 +854,9 @@
    "stockanalysis.com/stocks/rklb/",
    "Eden deep-dive: run RKLB -> eden-dashboard.streamlit.app"
   ],
-  "inv": "Thesis void on a close below 51.7 on volume, or if the Space launch narrative breaks.",
-  "entry": 63.1,
-  "stop": 51.7,
-  "target": 85.5
+  "inv": "Thesis void on a close below 54.4 on volume, or if the Space launch narrative breaks.",
+  "entry": 66.4,
+  "stop": 54.4,
+  "target": 116.6
  }
 ]

@@ -1,6 +1,6 @@
 {
  "asof": "2026-07-21",
- "method": "Curated momentum/quality setups. buy ~4% below last close near support; stop by type; sell = analyst target (capped) or technical. All levels numeric, sell>buy>stop.",
+ "method": "Curated momentum/quality setups. p = latest price (Yahoo Finance). buy ~4% below near support; stop by type; sell = analyst target (capped) or technical. All levels numeric, sell>buy>stop.",
  "ideas": [
   {
    "t": "NVDA",
@@ -8,14 +8,14 @@
    "theme": "AI infrastructure",
    "type": "Momentum",
    "conv": 5,
-   "p": 203.28,
-   "buy": 195.1,
-   "stop": 171.7,
+   "p": 207.29,
+   "buy": 199.0,
+   "stop": 175.1,
    "sell": 301.6,
-   "why": "NVIDIA: AI infrastructure. Accumulate near 195.1, risk defined at 171.7, first target 301.6.",
+   "why": "NVIDIA: AI infrastructure. Accumulate near 199.0, risk defined at 175.1, first target 301.6.",
    "bull": [
     "AI infrastructure demand is a durable multi-year driver.",
-    "Consensus analyst target 301.6 vs 203.3 last close.",
+    "Consensus analyst target 301.6 vs 207.3 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -25,8 +25,8 @@
     "stockanalysis.com/stocks/nvda/",
     "Eden deep-dive: run NVDA -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 171.7, or if the AI infrastructure thesis breaks.",
-   "thesis": "NVIDIA - AI infrastructure. Accumulate near 195.1, risk at 171.7, first target 301.6."
+   "inv": "Invalidated on a close below 175.1, or if the AI infrastructure thesis breaks.",
+   "thesis": "NVIDIA - AI infrastructure. Accumulate near 199.0, risk at 175.1, first target 301.6."
   },
   {
    "t": "MU",
@@ -34,14 +34,14 @@
    "theme": "HBM / memory",
    "type": "Momentum",
    "conv": 5,
-   "p": 865.46,
-   "buy": 830.8,
-   "stop": 731.1,
-   "sell": 1254.9,
-   "why": "Micron: HBM / memory. Accumulate near 830.8, risk defined at 731.1, first target 1254.9.",
+   "p": 970.82,
+   "buy": 932.0,
+   "stop": 820.2,
+   "sell": 1486.0,
+   "why": "Micron: HBM / memory. Accumulate near 932.0, risk defined at 820.2, first target 1486.0.",
    "bull": [
     "HBM / memory demand is a durable multi-year driver.",
-    "Consensus analyst target 1486.0 vs 865.5 last close.",
+    "Consensus analyst target 1486.0 vs 970.8 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -51,8 +51,8 @@
     "stockanalysis.com/stocks/mu/",
     "Eden deep-dive: run MU -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 731.1, or if the HBM / memory thesis breaks.",
-   "thesis": "Micron - HBM / memory. Accumulate near 830.8, risk at 731.1, first target 1254.9."
+   "inv": "Invalidated on a close below 820.2, or if the HBM / memory thesis breaks.",
+   "thesis": "Micron - HBM / memory. Accumulate near 932.0, risk at 820.2, first target 1486.0."
   },
   {
    "t": "MSFT",
@@ -60,14 +60,14 @@
    "theme": "AI software / cloud",
    "type": "Momentum",
    "conv": 5,
-   "p": 402.29,
-   "buy": 386.2,
-   "stop": 339.9,
+   "p": 397.75,
+   "buy": 381.8,
+   "stop": 336.0,
    "sell": 557.8,
-   "why": "Microsoft: AI software / cloud. Accumulate near 386.2, risk defined at 339.9, first target 557.8.",
+   "why": "Microsoft: AI software / cloud. Accumulate near 381.8, risk defined at 336.0, first target 557.8.",
    "bull": [
     "AI software / cloud demand is a durable multi-year driver.",
-    "Consensus analyst target 557.8 vs 402.3 last close.",
+    "Consensus analyst target 557.8 vs 397.8 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -77,8 +77,8 @@
     "stockanalysis.com/stocks/msft/",
     "Eden deep-dive: run MSFT -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 339.9, or if the AI software / cloud thesis breaks.",
-   "thesis": "Microsoft - AI software / cloud. Accumulate near 386.2, risk at 339.9, first target 557.8."
+   "inv": "Invalidated on a close below 336.0, or if the AI software / cloud thesis breaks.",
+   "thesis": "Microsoft - AI software / cloud. Accumulate near 381.8, risk at 336.0, first target 557.8."
   },
   {
    "t": "GOOGL",
@@ -86,14 +86,14 @@
    "theme": "Search / cloud / AI",
    "type": "Momentum",
    "conv": 5,
-   "p": 351.99,
-   "buy": 337.9,
-   "stop": 297.4,
+   "p": 347.15,
+   "buy": 333.3,
+   "stop": 293.3,
    "sell": 433.5,
-   "why": "Alphabet: Search / cloud / AI. Accumulate near 337.9, risk defined at 297.4, first target 433.5.",
+   "why": "Alphabet: Search / cloud / AI. Accumulate near 333.3, risk defined at 293.3, first target 433.5.",
    "bull": [
     "Search / cloud / AI demand is a durable multi-year driver.",
-    "Consensus analyst target 433.5 vs 352.0 last close.",
+    "Consensus analyst target 433.5 vs 347.1 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -103,8 +103,8 @@
     "stockanalysis.com/stocks/googl/",
     "Eden deep-dive: run GOOGL -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 297.4, or if the Search / cloud / AI thesis breaks.",
-   "thesis": "Alphabet - Search / cloud / AI. Accumulate near 337.9, risk at 297.4, first target 433.5."
+   "inv": "Invalidated on a close below 293.3, or if the Search / cloud / AI thesis breaks.",
+   "thesis": "Alphabet - Search / cloud / AI. Accumulate near 333.3, risk at 293.3, first target 433.5."
   },
   {
    "t": "CCJ",
@@ -112,14 +112,14 @@
    "theme": "Uranium",
    "type": "Core",
    "conv": 4,
-   "p": 84.85,
-   "buy": 81.5,
-   "stop": 72.5,
+   "p": 88.68,
+   "buy": 85.1,
+   "stop": 75.7,
    "sell": 132.0,
-   "why": "Cameco: Uranium. Accumulate near 81.5, risk defined at 72.5, first target 132.0.",
+   "why": "Cameco: Uranium. Accumulate near 85.1, risk defined at 75.7, first target 132.0.",
    "bull": [
     "Uranium demand is a durable multi-year driver.",
-    "Consensus analyst target 132.0 vs 84.8 last close.",
+    "Consensus analyst target 132.0 vs 88.7 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -129,8 +129,8 @@
     "stockanalysis.com/stocks/ccj/",
     "Eden deep-dive: run CCJ -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 72.5, or if the Uranium thesis breaks.",
-   "thesis": "Cameco - Uranium. Accumulate near 81.5, risk at 72.5, first target 132.0."
+   "inv": "Invalidated on a close below 75.7, or if the Uranium thesis breaks.",
+   "thesis": "Cameco - Uranium. Accumulate near 85.1, risk at 75.7, first target 132.0."
   },
   {
    "t": "VST",
@@ -138,14 +138,14 @@
    "theme": "Power / AI demand",
    "type": "Momentum",
    "conv": 5,
-   "p": 157.99,
-   "buy": 151.7,
-   "stop": 133.5,
+   "p": 162.33,
+   "buy": 155.8,
+   "stop": 137.1,
    "sell": 222.9,
-   "why": "Vistra: Power / AI demand. Accumulate near 151.7, risk defined at 133.5, first target 222.9.",
+   "why": "Vistra: Power / AI demand. Accumulate near 155.8, risk defined at 137.1, first target 222.9.",
    "bull": [
     "Power / AI demand demand is a durable multi-year driver.",
-    "Consensus analyst target 222.9 vs 158.0 last close.",
+    "Consensus analyst target 222.9 vs 162.3 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -155,8 +155,8 @@
     "stockanalysis.com/stocks/vst/",
     "Eden deep-dive: run VST -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 133.5, or if the Power / AI demand thesis breaks.",
-   "thesis": "Vistra - Power / AI demand. Accumulate near 151.7, risk at 133.5, first target 222.9."
+   "inv": "Invalidated on a close below 137.1, or if the Power / AI demand thesis breaks.",
+   "thesis": "Vistra - Power / AI demand. Accumulate near 155.8, risk at 137.1, first target 222.9."
   },
   {
    "t": "CEG",
@@ -164,14 +164,14 @@
    "theme": "Nuclear power / AI demand",
    "type": "Momentum",
    "conv": 4,
-   "p": 253.5,
-   "buy": 243.4,
-   "stop": 214.2,
+   "p": 262.22,
+   "buy": 251.7,
+   "stop": 221.5,
    "sell": 357.8,
-   "why": "Constellation Energy: Nuclear power / AI demand. Accumulate near 243.4, risk defined at 214.2, first target 357.8.",
+   "why": "Constellation Energy: Nuclear power / AI demand. Accumulate near 251.7, risk defined at 221.5, first target 357.8.",
    "bull": [
     "Nuclear power / AI demand demand is a durable multi-year driver.",
-    "Consensus analyst target 357.8 vs 253.5 last close.",
+    "Consensus analyst target 357.8 vs 262.2 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -181,8 +181,8 @@
     "stockanalysis.com/stocks/ceg/",
     "Eden deep-dive: run CEG -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 214.2, or if the Nuclear power / AI demand thesis breaks.",
-   "thesis": "Constellation Energy - Nuclear power / AI demand. Accumulate near 243.4, risk at 214.2, first target 357.8."
+   "inv": "Invalidated on a close below 221.5, or if the Nuclear power / AI demand thesis breaks.",
+   "thesis": "Constellation Energy - Nuclear power / AI demand. Accumulate near 251.7, risk at 221.5, first target 357.8."
   },
   {
    "t": "GEV",
@@ -190,14 +190,14 @@
    "theme": "Grid / power equipment",
    "type": "Momentum",
    "conv": 4,
-   "p": 1079.18,
-   "buy": 1036.0,
-   "stop": 911.7,
+   "p": 1078.81,
+   "buy": 1035.7,
+   "stop": 911.4,
    "sell": 1221.5,
-   "why": "GE Vernova: Grid / power equipment. Accumulate near 1036.0, risk defined at 911.7, first target 1221.5.",
+   "why": "GE Vernova: Grid / power equipment. Accumulate near 1035.7, risk defined at 911.4, first target 1221.5.",
    "bull": [
     "Grid / power equipment demand is a durable multi-year driver.",
-    "Consensus analyst target 1221.5 vs 1079.2 last close.",
+    "Consensus analyst target 1221.5 vs 1078.8 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -207,8 +207,8 @@
     "stockanalysis.com/stocks/gev/",
     "Eden deep-dive: run GEV -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 911.7, or if the Grid / power equipment thesis breaks.",
-   "thesis": "GE Vernova - Grid / power equipment. Accumulate near 1036.0, risk at 911.7, first target 1221.5."
+   "inv": "Invalidated on a close below 911.4, or if the Grid / power equipment thesis breaks.",
+   "thesis": "GE Vernova - Grid / power equipment. Accumulate near 1035.7, risk at 911.4, first target 1221.5."
   },
   {
    "t": "ETN",
@@ -216,14 +216,14 @@
    "theme": "Electrical / grid",
    "type": "Core",
    "conv": 4,
-   "p": 401.41,
-   "buy": 385.4,
-   "stop": 343.0,
+   "p": 402.95,
+   "buy": 386.8,
+   "stop": 344.3,
    "sell": 455.8,
-   "why": "Eaton: Electrical / grid. Accumulate near 385.4, risk defined at 343.0, first target 455.8.",
+   "why": "Eaton: Electrical / grid. Accumulate near 386.8, risk defined at 344.3, first target 455.8.",
    "bull": [
     "Electrical / grid demand is a durable multi-year driver.",
-    "Consensus analyst target 455.8 vs 401.4 last close.",
+    "Consensus analyst target 455.8 vs 402.9 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -233,8 +233,8 @@
     "stockanalysis.com/stocks/etn/",
     "Eden deep-dive: run ETN -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 343.0, or if the Electrical / grid thesis breaks.",
-   "thesis": "Eaton - Electrical / grid. Accumulate near 385.4, risk at 343.0, first target 455.8."
+   "inv": "Invalidated on a close below 344.3, or if the Electrical / grid thesis breaks.",
+   "thesis": "Eaton - Electrical / grid. Accumulate near 386.8, risk at 344.3, first target 455.8."
   },
   {
    "t": "MELI",
@@ -242,14 +242,14 @@
    "theme": "LatAm e-commerce",
    "type": "Core",
    "conv": 4,
-   "p": 1832.42,
-   "buy": 1759.1,
-   "stop": 1565.6,
+   "p": 1822.65,
+   "buy": 1749.7,
+   "stop": 1557.2,
    "sell": 2206.5,
-   "why": "MercadoLibre: LatAm e-commerce. Accumulate near 1759.1, risk defined at 1565.6, first target 2206.5.",
+   "why": "MercadoLibre: LatAm e-commerce. Accumulate near 1749.7, risk defined at 1557.2, first target 2206.5.",
    "bull": [
     "LatAm e-commerce demand is a durable multi-year driver.",
-    "Consensus analyst target 2206.5 vs 1832.4 last close.",
+    "Consensus analyst target 2206.5 vs 1822.7 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -259,8 +259,8 @@
     "stockanalysis.com/stocks/meli/",
     "Eden deep-dive: run MELI -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 1565.6, or if the LatAm e-commerce thesis breaks.",
-   "thesis": "MercadoLibre - LatAm e-commerce. Accumulate near 1759.1, risk at 1565.6, first target 2206.5."
+   "inv": "Invalidated on a close below 1557.2, or if the LatAm e-commerce thesis breaks.",
+   "thesis": "MercadoLibre - LatAm e-commerce. Accumulate near 1749.7, risk at 1557.2, first target 2206.5."
   },
   {
    "t": "TSM",
@@ -268,14 +268,14 @@
    "theme": "Foundry / AI chips",
    "type": "Momentum",
    "conv": 5,
-   "p": 402.3,
-   "buy": 386.2,
-   "stop": 339.9,
+   "p": 424.61,
+   "buy": 407.6,
+   "stop": 358.7,
    "sell": 522.8,
-   "why": "TSMC (ADR): Foundry / AI chips. Accumulate near 386.2, risk defined at 339.9, first target 522.8.",
+   "why": "TSMC (ADR): Foundry / AI chips. Accumulate near 407.6, risk defined at 358.7, first target 522.8.",
    "bull": [
     "Foundry / AI chips demand is a durable multi-year driver.",
-    "Consensus analyst target 522.8 vs 402.3 last close.",
+    "Consensus analyst target 522.8 vs 424.6 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -285,8 +285,8 @@
     "stockanalysis.com/stocks/tsm/",
     "Eden deep-dive: run TSM -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 339.9, or if the Foundry / AI chips thesis breaks.",
-   "thesis": "TSMC (ADR) - Foundry / AI chips. Accumulate near 386.2, risk at 339.9, first target 522.8."
+   "inv": "Invalidated on a close below 358.7, or if the Foundry / AI chips thesis breaks.",
+   "thesis": "TSMC (ADR) - Foundry / AI chips. Accumulate near 407.6, risk at 358.7, first target 522.8."
   },
   {
    "t": "AVGO",
@@ -294,14 +294,14 @@
    "theme": "Custom AI silicon",
    "type": "Momentum",
    "conv": 5,
-   "p": 378.16,
-   "buy": 363.0,
-   "stop": 319.4,
+   "p": 386.5,
+   "buy": 371.0,
+   "stop": 326.5,
    "sell": 523.7,
-   "why": "Broadcom: Custom AI silicon. Accumulate near 363.0, risk defined at 319.4, first target 523.7.",
+   "why": "Broadcom: Custom AI silicon. Accumulate near 371.0, risk defined at 326.5, first target 523.7.",
    "bull": [
     "Custom AI silicon demand is a durable multi-year driver.",
-    "Consensus analyst target 523.7 vs 378.2 last close.",
+    "Consensus analyst target 523.7 vs 386.5 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -311,8 +311,8 @@
     "stockanalysis.com/stocks/avgo/",
     "Eden deep-dive: run AVGO -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 319.4, or if the Custom AI silicon thesis breaks.",
-   "thesis": "Broadcom - Custom AI silicon. Accumulate near 363.0, risk at 319.4, first target 523.7."
+   "inv": "Invalidated on a close below 326.5, or if the Custom AI silicon thesis breaks.",
+   "thesis": "Broadcom - Custom AI silicon. Accumulate near 371.0, risk at 326.5, first target 523.7."
   },
   {
    "t": "META",
@@ -320,14 +320,14 @@
    "theme": "Social / AI",
    "type": "Momentum",
    "conv": 5,
-   "p": 645.85,
-   "buy": 620.0,
-   "stop": 545.6,
+   "p": 643.81,
+   "buy": 618.1,
+   "stop": 543.9,
    "sell": 822.7,
-   "why": "Meta Platforms: Social / AI. Accumulate near 620.0, risk defined at 545.6, first target 822.7.",
+   "why": "Meta Platforms: Social / AI. Accumulate near 618.1, risk defined at 543.9, first target 822.7.",
    "bull": [
     "Social / AI demand is a durable multi-year driver.",
-    "Consensus analyst target 822.7 vs 645.9 last close.",
+    "Consensus analyst target 822.7 vs 643.8 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -337,8 +337,8 @@
     "stockanalysis.com/stocks/meta/",
     "Eden deep-dive: run META -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 545.6, or if the Social / AI thesis breaks.",
-   "thesis": "Meta Platforms - Social / AI. Accumulate near 620.0, risk at 545.6, first target 822.7."
+   "inv": "Invalidated on a close below 543.9, or if the Social / AI thesis breaks.",
+   "thesis": "Meta Platforms - Social / AI. Accumulate near 618.1, risk at 543.9, first target 822.7."
   },
   {
    "t": "NU",
@@ -346,14 +346,14 @@
    "theme": "LatAm fintech",
    "type": "Core",
    "conv": 4,
-   "p": 13.99,
-   "buy": 13.4,
-   "stop": 11.9,
+   "p": 14.39,
+   "buy": 13.8,
+   "stop": 12.3,
    "sell": 17.9,
-   "why": "Nu Holdings: LatAm fintech. Accumulate near 13.4, risk defined at 11.9, first target 17.9.",
+   "why": "Nu Holdings: LatAm fintech. Accumulate near 13.8, risk defined at 12.3, first target 17.9.",
    "bull": [
     "LatAm fintech demand is a durable multi-year driver.",
-    "Consensus analyst target 17.9 vs 14.0 last close.",
+    "Consensus analyst target 17.9 vs 14.4 last close.",
     "Cash generation / balance sheet support the setup."
    ],
    "bear": [
@@ -363,8 +363,8 @@
     "stockanalysis.com/stocks/nu/",
     "Eden deep-dive: run NU -> eden-dashboard.streamlit.app"
    ],
-   "inv": "Invalidated on a close below 11.9, or if the LatAm fintech thesis breaks.",
-   "thesis": "Nu Holdings - LatAm fintech. Accumulate near 13.4, risk at 11.9, first target 17.9."
+   "inv": "Invalidated on a close below 12.3, or if the LatAm fintech thesis breaks.",
+   "thesis": "Nu Holdings - LatAm fintech. Accumulate near 13.8, risk at 12.3, first target 17.9."
   }
  ]
 }
