@@ -1,120 +1,114 @@
 {
- "asof": "2026-07-21",
+ "asof": "2026-08-06",
  "clusters": [
   {
-   "t": "ELV",
-   "n": "Elevance Health",
-   "buyers": 2,
-   "total": 1368280,
-   "buys": 2,
-   "note": "Filed 17 Jul: Pres/CEO among 2 buyers at $367.32-367.79, +3,725 sh. Stock now 382.23."
-  },
-  {
-   "t": "GLOO",
-   "n": "Gloo Holdings",
+   "t": "BSX",
+   "n": "Boston Scientific",
    "buyers": 4,
-   "total": 8999995,
-   "buys": 4,
-   "note": "Four buyers took stakes +82% at $3.25 (traded 10 Jul). Microcap - size accordingly."
+   "total": 9839694,
+   "buys": "4 insiders",
+   "note": "Big new 4-buyer medtech cluster ~$9.84M at ~$48.66 (trades Aug 3) - large-cap insider conviction."
   },
   {
-   "t": "IPX",
-   "n": "IperionX",
-   "buyers": 2,
-   "total": 4949802,
-   "buys": 2,
-   "note": "Two buyers, 1.25M sh at $3.95 (10 Jul). Titanium / critical-minerals reshoring."
+   "t": "GBFH",
+   "n": "GBank Financial Holdings",
+   "buyers": 5,
+   "total": 2029198,
+   "buys": "5 insiders",
+   "note": "5-insider bank cluster ~$2.03M at ~$24.02 (Aug 4)."
   },
   {
-   "t": "UUUU",
-   "n": "Energy Fuels",
-   "buyers": 2,
-   "total": 1018700,
-   "buys": 2,
-   "note": "78,000 sh at $13.06 (8 Jul), +16% to holdings. Uranium + rare earth. Now 11.74."
+   "t": "TSCO",
+   "n": "Tractor Supply",
+   "buyers": 3,
+   "total": 652395,
+   "buys": "3 insiders",
+   "note": "3-buyer retail cluster ~$0.65M at ~$32.12 (Aug 4)."
   },
   {
-   "t": "ENR",
-   "n": "Energizer Holdings",
-   "buyers": 1,
-   "total": 3678588,
-   "buys": 2,
-   "note": "10% holder Aqua Capital added twice at $20.21 and $20.72 (14-15 Jul)."
+   "t": "GSHD",
+   "n": "Goosehead Insurance",
+   "buyers": 7,
+   "total": 12214734,
+   "buys": "7 insiders",
+   "note": "Cluster expanded to 7 buyers ~$12.2M at ~$57.61 - conviction building."
+  },
+  {
+   "t": "JMKE",
+   "n": "Jersey Mike's Subs",
+   "buyers": 5,
+   "total": 1024995,
+   "buys": "5 insiders",
+   "note": "5-buyer restaurant cluster ~$1.02M at ~$23.00 (Jul 31)."
+  },
+  {
+   "t": "ACI",
+   "n": "Albertsons Companies",
+   "buyers": 3,
+   "total": 2515543,
+   "buys": "3 insiders",
+   "note": "3-buyer grocery cluster ~$2.52M at ~$11.49 (Jul 31)."
   }
  ],
  "watchable": [
   {
-   "t": "JEF",
-   "n": "Jefferies Financial",
-   "buyers": 1,
-   "total": 318717006,
-   "note": "Sumitomo Mitsui (director-linked) bought $318.7M at $53.96 - by far the largest single insider purchase on the weekly tape. Stock now 55.18."
+   "t": "ORN",
+   "n": "Orion Group Holdings",
+   "buyers": 4,
+   "total": 320841,
+   "note": "4-buyer infrastructure/marine-construction cluster ~$0.32M at ~$9.72."
   },
   {
-   "t": "STDN",
-   "n": "Standard Nuclear",
-   "buyers": 1,
-   "total": 19132440,
-   "note": "10% holder Decisive Point bought $19.1M at $15.00 - nuclear-fuel private-to-public story."
+   "t": "VFC",
+   "n": "VF Corp",
+   "buyers": 2,
+   "total": 1007762,
+   "note": "2-buyer apparel cluster ~$1.01M at ~$16.02 - turnaround interest."
   },
   {
-   "t": "COE",
-   "n": "51Talk Online Education",
-   "buyers": 1,
-   "total": 8480293,
-   "note": "CEO/10% holder bought $8.48M at $17.12 (9 Jul)."
-  },
-  {
-   "t": "BOT",
-   "n": "Robostrategy",
-   "buyers": 1,
-   "total": 9999988,
-   "note": "President/10% holder bought $10.0M at $36.71."
-  },
-  {
-   "t": "CBIO",
-   "n": "Crescent Biopharma",
-   "buyers": 1,
-   "total": 12375025,
-   "note": "Fairmount Funds (Dir/10%) bought $12.4M at $14.50 (16 Jul)."
+   "t": "SCTX",
+   "n": "Scribe Therapeutics",
+   "buyers": 6,
+   "total": 71344746,
+   "note": "Carryover: huge 6-buyer gene-editing cluster ~$71.3M at ~$15.08."
   }
  ],
  "politicians": [
   {
-   "who": "William Timmons",
-   "party": "Republican",
-   "t": "SPCX",
-   "n": "SpaceX (private)",
-   "type": "BUY",
-   "size": "$50K-100K",
-   "note": "Disclosed a $50-100K SpaceX stake traded 15 Jun - large relative to typical House filings."
-  },
-  {
-   "who": "Dan Newhouse (spouse)",
-   "party": "Republican",
-   "t": "APH",
-   "n": "Amphenol",
+   "who": "Julie Johnson",
+   "party": "D",
+   "t": "BA",
+   "n": "Boeing",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "Part of a broad spouse-account rebalance filed this week; also bought ACN, sold AMD/GOOGL/ADBE."
+   "note": "House Democrat (TX) disclosed Aug 6 buying Boeing at ~$205.38 - part of a broad basket."
+  },
+  {
+   "who": "Julie Johnson",
+   "party": "D",
+   "t": "EQIX",
+   "n": "Equinix",
+   "type": "BUY",
+   "size": "$1K-15K",
+   "note": "Same Aug 6 basket: data-center REIT (AI-infra) at ~$803.28."
+  },
+  {
+   "who": "Julie Johnson",
+   "party": "D",
+   "t": "DE",
+   "n": "Deere & Co",
+   "type": "BUY",
+   "size": "$1K-15K",
+   "note": "Same basket: industrials/ag at ~$459.82; basket also included ADBE, HON, FISV and utilities AEE/CMS/SRE."
   },
   {
    "who": "Cleo Fields",
-   "party": "Democrat",
-   "t": "NVDA",
-   "n": "NVIDIA",
-   "type": "BUY",
-   "size": "$1K-15K x3",
-   "note": "Three NVDA buys traded 26 Jun at $192.53, published 17 Jul. Stock now 203.28."
-  },
-  {
-   "who": "Dan Crenshaw",
-   "party": "Republican",
-   "t": "USOU",
-   "n": "US 3x Oil ETF",
+   "party": "D",
+   "t": "TSM",
+   "n": "TSMC (ADR)",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "Leveraged long oil, traded 1 Jun, published 17 Jul - ahead of the Hormuz spike."
+   "note": "Carryover: House Democrat (LA) buy in TSMC."
   }
  ]
 }

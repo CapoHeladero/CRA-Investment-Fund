@@ -1,188 +1,29 @@
 {
- "asof": "2026-07-21",
- "method": "Composite of analyst rating + consensus upside to target - penalty for unprofitable story names. Score is relative, not advice.",
+ "asof": "2026-08-06",
+ "method": "Composite grade (0-100) blending momentum, fundamentals/FCF, franchise quality and catalyst risk. Top = highest-conviction; worst = weakest/riskiest.",
  "names": [
-  {
-   "t": "NVDA",
-   "n": "NVIDIA",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 95,
-   "tier": "top",
-   "note": "Strong Buy; target 301.6 vs 207.3."
-  },
-  {
-   "t": "MU",
-   "n": "Micron",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 95,
-   "tier": "top",
-   "note": "Strong Buy; target 1486.0 vs 970.8."
-  },
-  {
-   "t": "MSFT",
-   "n": "Microsoft",
-   "sector": "Software",
-   "grade": "A",
-   "score": 94.1,
-   "tier": "top",
-   "note": "Strong Buy; target 557.8 vs 397.8."
-  },
-  {
-   "t": "NOW",
-   "n": "ServiceNow",
-   "sector": "Software",
-   "grade": "A",
-   "score": 93.3,
-   "tier": "top",
-   "note": "Strong Buy; target 141.6 vs 102.1."
-  },
-  {
-   "t": "VST",
-   "n": "Vistra",
-   "sector": "Power",
-   "grade": "A",
-   "score": 92.4,
-   "tier": "top",
-   "note": "Strong Buy; target 222.9 vs 162.3."
-  },
-  {
-   "t": "AVGO",
-   "n": "Broadcom",
-   "sector": "Semis",
-   "grade": "A",
-   "score": 91.3,
-   "tier": "top",
-   "note": "Strong Buy; target 523.7 vs 386.5."
-  },
-  {
-   "t": "IONQ",
-   "n": "IonQ",
-   "sector": "Quantum",
-   "grade": "A",
-   "score": 87,
-   "tier": "top",
-   "note": "Strong Buy; target 69.1 vs 35.5."
-  },
-  {
-   "t": "UUUU",
-   "n": "Energy Fuels",
-   "sector": "Uranium",
-   "grade": "A",
-   "score": 87,
-   "tier": "top",
-   "note": "Strong Buy; target 26.1 vs 12.3."
-  },
-  {
-   "t": "TE",
-   "n": "T1 Energy",
-   "sector": "Renewables",
-   "grade": "A",
-   "score": 87,
-   "tier": "top",
-   "note": "Strong Buy; target 10.1 vs 6.1."
-  },
-  {
-   "t": "APLD",
-   "n": "Applied Digital",
-   "sector": "Software",
-   "grade": "A",
-   "score": 87,
-   "tier": "top",
-   "note": "Strong Buy; target 76.7 vs 30.1."
-  },
-  {
-   "t": "META",
-   "n": "Meta Platforms",
-   "sector": "Software",
-   "grade": "A",
-   "score": 86.7,
-   "tier": "top",
-   "note": "Strong Buy; target 822.7 vs 643.8."
-  },
-  {
-   "t": "ORCL",
-   "n": "Oracle",
-   "sector": "Software",
-   "grade": "A",
-   "score": 85,
-   "tier": "top",
-   "note": "Buy; target 249.2 vs 127.0."
-  },
-  {
-   "t": "CCJ",
-   "n": "Cameco",
-   "sector": "Uranium",
-   "grade": "A",
-   "score": 85,
-   "tier": "top",
-   "note": "Buy; target 132.0 vs 88.7."
-  },
-  {
-   "t": "LEU",
-   "n": "Centrus Energy",
-   "sector": "Uranium",
-   "grade": "A",
-   "score": 85,
-   "tier": "top",
-   "note": "Buy; target 264.7 vs 171.2."
-  }
+  {"t":"NVDA","n":"NVIDIA","sector":"Semis","grade":"A","score":93.0,"tier":"top","note":"AI-infra bellwether back above $220; still the demand anchor."},
+  {"t":"AMD","n":"Advanced Micro Devices","sector":"Semis","grade":"A","score":91.0,"tier":"top","note":"Q2 data-center rev +107%; Q3 guide $12.7-13.3B - momentum + earnings."},
+  {"t":"PLTR","n":"Palantir","sector":"Software","grade":"A","score":90.0,"tier":"top","note":"+29% on +93% rev and raised guide; best momentum in software."},
+  {"t":"MSFT","n":"Microsoft","sector":"Software","grade":"A","score":90.0,"tier":"top","note":"Copilot/Azure compounder; steady FCF and franchise quality."},
+  {"t":"AVGO","n":"Broadcom","sector":"Semis","grade":"A","score":89.0,"tier":"top","note":"Custom-silicon + networking; core AI-infra beneficiary."},
+  {"t":"GEV","n":"GE Vernova","sector":"AI-Power","grade":"A","score":89.0,"tier":"top","note":"Grid/turbine order book riding the data-center power build."},
+  {"t":"CEG","n":"Constellation Energy","sector":"AI-Power","grade":"A","score":88.0,"tier":"top","note":"Nuclear baseload with data-center PPAs; clean power scarcity bid."},
+  {"t":"MU","n":"Micron","sector":"Semis","grade":"A","score":87.0,"tier":"top","note":"HBM tightness; huge FCF - the memory leg of AI."},
+  {"t":"JPM","n":"JPMorgan","sector":"Financials","grade":"A","score":86.0,"tier":"top","note":"Best-in-class bank; benefits from steep-ish curve and capital-markets thaw."},
+  {"t":"GS","n":"Goldman Sachs","sector":"Financials","grade":"A","score":85.0,"tier":"top","note":"Capital-markets/M&A rebound; record book."},
+  {"t":"LLY","n":"Eli Lilly","sector":"Healthcare","grade":"A","score":85.0,"tier":"top","note":"GLP-1 franchise still the healthcare growth engine."},
+  {"t":"BSX","n":"Boston Scientific","sector":"Healthcare","grade":"A","score":84.0,"tier":"top","note":"Double-digit grower + fresh 4-insider $9.8M cluster."},
+  {"t":"MELI","n":"MercadoLibre","sector":"Consumer/LatAm","grade":"A","score":84.0,"tier":"top","note":"LatAm e-commerce + fintech flywheel; premium grower."},
+  {"t":"ETN","n":"Eaton","sector":"Industrials","grade":"A","score":83.0,"tier":"top","note":"Electrification/datacenter demand; Evercore upgrade to $502."},
+  {"t":"VRT","n":"Vertiv","sector":"AI-Power","grade":"B","score":82.0,"tier":"top","note":"Data-center power/cooling; high beta to the AI-capex cycle."}
  ],
  "worst": [
-  {
-   "t": "SKHY",
-   "n": "SK Hynix (ADR)",
-   "sector": "Semis",
-   "grade": "C+",
-   "score": 52,
-   "tier": "worst",
-   "note": "Story / weak setup; small size only."
-  },
-  {
-   "t": "SOFI",
-   "n": "SoFi",
-   "sector": "Financials",
-   "grade": "C+",
-   "score": 52.0,
-   "tier": "worst",
-   "note": "Story / weak setup; small size only."
-  },
-  {
-   "t": "CRWD",
-   "n": "CrowdStrike",
-   "sector": "Cyber",
-   "grade": "C+",
-   "score": 50.8,
-   "tier": "worst",
-   "note": "Trades above avg target - no consensus upside."
-  },
-  {
-   "t": "OPEN",
-   "n": "Opendoor",
-   "sector": "Consumer/LatAm",
-   "grade": "C",
-   "score": 47.4,
-   "tier": "worst",
-   "note": "Story / weak setup; small size only."
-  },
-  {
-   "t": "UA",
-   "n": "Under Armour",
-   "sector": "Consumer/LatAm",
-   "grade": "C",
-   "score": 42,
-   "tier": "worst",
-   "note": "Story / weak setup; small size only."
-  },
-  {
-   "t": "OSCR",
-   "n": "Oscar Health",
-   "sector": "Healthcare",
-   "grade": "C",
-   "score": 29.2,
-   "tier": "worst",
-   "note": "Trades above avg target - no consensus upside."
-  }
+  {"t":"OPEN","n":"Opendoor","sector":"Consumer","grade":"D","score":28.0,"tier":"worst","note":"iBuying model still cash-burning; rate-sensitive and dilutive."},
+  {"t":"HTZ","n":"Hertz","sector":"Consumer","grade":"D","score":30.0,"tier":"worst","note":"Fleet/leverage overhang; speculative penny-range name."},
+  {"t":"UA","n":"Under Armour","sector":"Consumer","grade":"D","score":34.0,"tier":"worst","note":"Brand turnaround unproven; share losses persist."},
+  {"t":"SMR","n":"NuScale Power","sector":"AI-Power","grade":"C","score":40.0,"tier":"worst","note":"Pre-revenue SMR story; years from commercial cash flow."},
+  {"t":"TE","n":"TE (low-priced spec)","sector":"Speculative","grade":"C","score":41.0,"tier":"worst","note":"Low-priced speculative name; thin fundamentals."},
+  {"t":"NCLH","n":"Norwegian Cruise","sector":"Consumer","grade":"C","score":45.0,"tier":"worst","note":"Leveraged cyclical; fuel and demand sensitivity."}
  ]
 }

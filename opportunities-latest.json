@@ -5,858 +5,334 @@
   "theme": "AI infrastructure",
   "type": "Momentum",
   "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "NVIDIA: AI infrastructure. Levels set off the 207.3 last close; target from current consensus.",
+  "a": "2026-08-06",
+  "why": "NVIDIA: AI-infra bellwether; every hyperscaler capex cycle still routes through it, though the AI-capex-concentration debate hangs over the whole complex.",
   "bull": [
-   "AI infrastructure demand is a durable multi-year driver.",
-   "Consensus analyst target 301.6 vs 207.3 last close.",
-   "Cash generation and balance sheet support the current setup."
+   "AI infrastructure exposure with a durable multi-year driver.",
+   "Levels set off today's ~222.57 last close; first upside target ~267.08.",
+   "Cash generation / franchise strength support the setup."
   ],
   "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
+   "A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.",
+   "Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."
   ],
-  "v": [
-   "stockanalysis.com/stocks/nvda/",
-   "Eden deep-dive: run NVDA -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 175.1 on volume, or if the AI infrastructure narrative breaks.",
-  "entry": 199.0,
-  "stop": 175.1,
-  "target": 301.6
+  "v": ["stockanalysis.com/stocks/nvda/","Eden deep-dive: run NVDA -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~178.06 on volume, or if the AI infrastructure thesis breaks.",
+  "entry": 218.12,"stop": 198.09,"target": 267.08
  },
  {
-  "t": "TSM",
-  "n": "TSMC (ADR)",
-  "theme": "Foundry / AI chips",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "TSMC (ADR): Foundry / AI chips. Levels set off the 424.6 last close; target from current consensus.",
-  "bull": [
-   "Foundry / AI chips demand is a durable multi-year driver.",
-   "Consensus analyst target 522.8 vs 424.6 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/tsm/",
-   "Eden deep-dive: run TSM -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 358.7 on volume, or if the Foundry / AI chips narrative breaks.",
-  "entry": 407.6,
-  "stop": 358.7,
-  "target": 522.8
+  "t": "TSM","n": "TSMC (ADR)","theme": "Semiconductors","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "TSMC (ADR): The sole leading-edge foundry; AI/HPC demand keeps utilization full. A House Democrat (Cleo Fields) bought TSM this week.",
+  "bull": ["Semiconductors exposure with a durable multi-year driver.","Levels set off today's ~417.94 last close; first upside target ~501.53.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/tsm/","Eden deep-dive: run TSM -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~334.35 on volume, or if the Semiconductors thesis breaks.",
+  "entry": 409.58,"stop": 371.97,"target": 501.53
  },
  {
-  "t": "AVGO",
-  "n": "Broadcom",
-  "theme": "Custom AI silicon",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Broadcom: Custom AI silicon. Levels set off the 386.5 last close; target from current consensus.",
-  "bull": [
-   "Custom AI silicon demand is a durable multi-year driver.",
-   "Consensus analyst target 523.7 vs 386.5 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/avgo/",
-   "Eden deep-dive: run AVGO -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 326.5 on volume, or if the Custom AI silicon narrative breaks.",
-  "entry": 371.0,
-  "stop": 326.5,
-  "target": 523.7
+  "t": "AVGO","n": "Broadcom","theme": "AI infrastructure","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "Broadcom: Custom AI silicon (XPUs) + networking; the picks-and-shovels play on hyperscaler build-outs.",
+  "bull": ["AI infrastructure exposure with a durable multi-year driver.","Levels set off today's ~419.17 last close; first upside target ~503.0.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/avgo/","Eden deep-dive: run AVGO -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~335.34 on volume, or if the AI infrastructure thesis breaks.",
+  "entry": 410.79,"stop": 373.06,"target": 503.0
  },
  {
-  "t": "MU",
-  "n": "Micron",
-  "theme": "HBM / memory",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Micron: HBM / memory. Levels set off the 970.8 last close; target from current consensus.",
-  "bull": [
-   "HBM / memory demand is a durable multi-year driver.",
-   "Consensus analyst target 1486.0 vs 970.8 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/mu/",
-   "Eden deep-dive: run MU -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 820.2 on volume, or if the HBM / memory narrative breaks.",
-  "entry": 932.0,
-  "stop": 820.2,
-  "target": 1486.0
+  "t": "MU","n": "Micron","theme": "Semiconductors","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "Micron: HBM memory is the tightest link in the AI supply chain; earnings power still expanding.",
+  "bull": ["Semiconductors exposure with a durable multi-year driver.","Levels set off today's ~850.0 last close; first upside target ~1020.0.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/mu/","Eden deep-dive: run MU -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~680.0 on volume, or if the Semiconductors thesis breaks.",
+  "entry": 833.0,"stop": 756.5,"target": 1020.0
  },
  {
-  "t": "ASML",
-  "n": "ASML (ADR)",
-  "theme": "Litho / semi-equip",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "ASML (ADR): Litho / semi-equip. Levels set off the 1801.5 last close; target from current consensus.",
-  "bull": [
-   "Litho / semi-equip demand is a durable multi-year driver.",
-   "Consensus analyst target 2118.0 vs 1801.5 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/asml/",
-   "Eden deep-dive: run ASML -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 1521.9 on volume, or if the Litho / semi-equip narrative breaks.",
-  "entry": 1729.4,
-  "stop": 1521.9,
-  "target": 2118.0
+  "t": "ASML","n": "ASML (ADR)","theme": "Semiconductors","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "ASML (ADR): EUV monopoly gates every advanced node; China chip-equipment localization is the watch-item.",
+  "bull": ["Semiconductors exposure with a durable multi-year driver.","Levels set off today's ~1694.12 last close; first upside target ~2032.94.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/asml/","Eden deep-dive: run ASML -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~1355.3 on volume, or if the Semiconductors thesis breaks.",
+  "entry": 1660.24,"stop": 1507.77,"target": 2032.94
  },
  {
-  "t": "AMAT",
-  "n": "Applied Materials",
-  "theme": "Semi-equipment",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Applied Materials: Semi-equipment. Levels set off the 564.5 last close; target from current consensus.",
-  "bull": [
-   "Semi-equipment demand is a durable multi-year driver.",
-   "Consensus analyst target 623.1 vs 564.5 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/amat/",
-   "Eden deep-dive: run AMAT -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 477.0 on volume, or if the Semi-equipment narrative breaks.",
-  "entry": 542.0,
-  "stop": 477.0,
-  "target": 623.1
+  "t": "AMAT","n": "Applied Materials","theme": "Semiconductors","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "Applied Materials: Broad wafer-fab-equipment franchise levered to the whole fab build-out.",
+  "bull": ["Semiconductors exposure with a durable multi-year driver.","Levels set off today's ~527.53 last close; first upside target ~633.04.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/amat/","Eden deep-dive: run AMAT -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~422.02 on volume, or if the Semiconductors thesis breaks.",
+  "entry": 516.98,"stop": 469.5,"target": 633.04
  },
  {
-  "t": "MSFT",
-  "n": "Microsoft",
-  "theme": "AI software / cloud",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Microsoft: AI software / cloud. Levels set off the 397.8 last close; target from current consensus.",
-  "bull": [
-   "AI software / cloud demand is a durable multi-year driver.",
-   "Consensus analyst target 557.8 vs 397.8 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/msft/",
-   "Eden deep-dive: run MSFT -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 336.0 on volume, or if the AI software / cloud narrative breaks.",
-  "entry": 381.8,
-  "stop": 336.0,
-  "target": 557.8
+  "t": "AMD","n": "Advanced Micro Devices","theme": "Semiconductors","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "AMD: #2 AI accelerator (MI-series) + server CPUs. Q2 just crushed it - data-center revenue +107% YoY to $6.72B and a Q3 guide of $12.7-13.3B; management sees data-center sales doubling again in 2027.",
+  "bull": ["AI-accelerator + server-CPU share gains give a multi-year earnings ramp.","Levels set off today's ~480.73 last close; first upside target ~576.88.","Fresh Goldman ($640) and doubled Bernstein targets signal institutional conviction."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/amd/","Eden deep-dive: run AMD -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~384.58 on volume, or if the Semiconductors thesis breaks.",
+  "entry": 471.12,"stop": 427.85,"target": 576.88
  },
  {
-  "t": "GOOGL",
-  "n": "Alphabet",
-  "theme": "Search / cloud / AI",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Alphabet: Search / cloud / AI. Levels set off the 347.1 last close; target from current consensus.",
-  "bull": [
-   "Search / cloud / AI demand is a durable multi-year driver.",
-   "Consensus analyst target 433.5 vs 347.1 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/googl/",
-   "Eden deep-dive: run GOOGL -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 293.3 on volume, or if the Search / cloud / AI narrative breaks.",
-  "entry": 333.3,
-  "stop": 293.3,
-  "target": 433.5
+  "t": "MSFT","n": "Microsoft","theme": "Software / AI","type": "Core","size": "~4% of book","a": "2026-08-06",
+  "why": "Microsoft: Azure + Copilot monetization; the cloud/AI franchise keeps the shares near record highs with steady free cash flow.",
+  "bull": ["Software / AI exposure with a durable multi-year driver.","Levels set off today's ~492.86 last close; first upside target ~591.43.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/msft/","Eden deep-dive: run MSFT -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~394.29 on volume, or if the Software / AI thesis breaks.",
+  "entry": 483.0,"stop": 438.65,"target": 591.43
  },
  {
-  "t": "NOW",
-  "n": "ServiceNow",
-  "theme": "Enterprise AI workflow",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "ServiceNow: Enterprise AI workflow. Levels set off the 102.1 last close; target from current consensus.",
-  "bull": [
-   "Enterprise AI workflow demand is a durable multi-year driver.",
-   "Consensus analyst target 141.6 vs 102.1 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/now/",
-   "Eden deep-dive: run NOW -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 86.2 on volume, or if the Enterprise AI workflow narrative breaks.",
-  "entry": 98.0,
-  "stop": 86.2,
-  "target": 141.6
+  "t": "GOOGL","n": "Alphabet","theme": "Software / AI","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "Alphabet: Search + Cloud + Gemini re-rating; the shares broke out to new highs even as capex guidance rises.",
+  "bull": ["Software / AI exposure with a durable multi-year driver.","Levels set off today's ~362.35 last close; first upside target ~434.82.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/googl/","Eden deep-dive: run GOOGL -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~289.88 on volume, or if the Software / AI thesis breaks.",
+  "entry": 355.1,"stop": 322.49,"target": 434.82
  },
  {
-  "t": "META",
-  "n": "Meta Platforms",
-  "theme": "Social / AI",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Meta Platforms: Social / AI. Levels set off the 643.8 last close; target from current consensus.",
-  "bull": [
-   "Social / AI demand is a durable multi-year driver.",
-   "Consensus analyst target 822.7 vs 643.8 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/meta/",
-   "Eden deep-dive: run META -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 543.9 on volume, or if the Social / AI narrative breaks.",
-  "entry": 618.1,
-  "stop": 543.9,
-  "target": 822.7
+  "t": "NOW","n": "ServiceNow","theme": "Software / AI","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "ServiceNow: Enterprise workflow + agentic AI; strong recent print reaffirmed durable growth.",
+  "bull": ["Software / AI exposure with a durable multi-year driver.","Levels set off today's ~113.2 last close; first upside target ~135.84.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/now/","Eden deep-dive: run NOW -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~90.56 on volume, or if the Software / AI thesis breaks.",
+  "entry": 110.94,"stop": 100.75,"target": 135.84
  },
  {
-  "t": "PLTR",
-  "n": "Palantir",
-  "theme": "AI deployment",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Palantir: AI deployment. Levels set off the 132.7 last close; target from current consensus.",
-  "bull": [
-   "AI deployment demand is a durable multi-year driver.",
-   "Consensus analyst target 183.1 vs 132.7 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/pltr/",
-   "Eden deep-dive: run PLTR -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 112.1 on volume, or if the AI deployment narrative breaks.",
-  "entry": 127.4,
-  "stop": 112.1,
-  "target": 183.1
+  "t": "SNOW","n": "Snowflake","theme": "Software / AI","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "Snowflake: data-cloud platform riding AI-driven query demand; Wells Fargo set a Street-high $500 target.",
+  "bull": ["AI/data-cloud demand is re-accelerating consumption and net revenue retention.","Levels set off today's ~315.53 last close; first upside target ~378.64.","Wells Fargo Street-high $500 PT signals fresh institutional conviction."],
+  "bear": ["Rich multiple leaves no room for a consumption-growth stumble.","A broad AI-software derating would compress the valuation regardless of execution."],
+  "v": ["stockanalysis.com/stocks/snow/","Eden deep-dive: run SNOW -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~252.42 on volume, or if the Software / AI thesis breaks.",
+  "entry": 309.22,"stop": 280.82,"target": 378.64
  },
  {
-  "t": "CEG",
-  "n": "Constellation Energy",
-  "theme": "Nuclear power / AI demand",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Constellation Energy: Nuclear power / AI demand. Levels set off the 262.2 last close; target from current consensus.",
-  "bull": [
-   "Nuclear power / AI demand demand is a durable multi-year driver.",
-   "Consensus analyst target 357.8 vs 262.2 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/ceg/",
-   "Eden deep-dive: run CEG -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 221.5 on volume, or if the Nuclear power / AI demand narrative breaks.",
-  "entry": 251.7,
-  "stop": 221.5,
-  "target": 357.8
+  "t": "META","n": "Meta Platforms","theme": "Software / AI","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "Meta Platforms: Ad engine funds a huge AI build; 2026 capex of $125-145B is the swing factor and the market's chief worry.",
+  "bull": ["Software / AI exposure with a durable multi-year driver.","Levels set off today's ~591.89 last close; first upside target ~710.27.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/meta/","Eden deep-dive: run META -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~473.51 on volume, or if the Software / AI thesis breaks.",
+  "entry": 580.05,"stop": 526.78,"target": 710.27
  },
  {
-  "t": "VST",
-  "n": "Vistra",
-  "theme": "Power / AI demand",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Vistra: Power / AI demand. Levels set off the 162.3 last close; target from current consensus.",
-  "bull": [
-   "Power / AI demand demand is a durable multi-year driver.",
-   "Consensus analyst target 222.9 vs 162.3 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/vst/",
-   "Eden deep-dive: run VST -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 137.1 on volume, or if the Power / AI demand narrative breaks.",
-  "entry": 155.8,
-  "stop": 137.1,
-  "target": 222.9
+  "t": "PLTR","n": "Palantir","theme": "Software / AI","type": "Momentum","size": "~2% of book","a": "2026-08-06",
+  "why": "Palantir: blew out Q2 (+93% revenue) and raised full-year guidance to ~$8.15B; the stock jumped ~29%. Commercial AIP adoption is the growth engine - though the multiple leaves little room for error.",
+  "bull": ["Software / AI exposure with a durable multi-year driver.","Levels set off today's ~154.62 last close; first upside target ~185.54.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/pltr/","Eden deep-dive: run PLTR -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~123.7 on volume, or if the Software / AI thesis breaks.",
+  "entry": 151.53,"stop": 137.61,"target": 185.54
  },
  {
-  "t": "GEV",
-  "n": "GE Vernova",
-  "theme": "Grid / power equipment",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "GE Vernova: Grid / power equipment. Levels set off the 1078.8 last close; target from current consensus.",
-  "bull": [
-   "Grid / power equipment demand is a durable multi-year driver.",
-   "Consensus analyst target 1221.5 vs 1078.8 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/gev/",
-   "Eden deep-dive: run GEV -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 911.4 on volume, or if the Grid / power equipment narrative breaks.",
-  "entry": 1035.7,
-  "stop": 911.4,
-  "target": 1221.5
+  "t": "CEG","n": "Constellation Energy","theme": "AI power / nuclear","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "Constellation Energy: Largest US nuclear fleet; datacenter power-purchase demand underwrites the cash flows.",
+  "bull": ["AI power / nuclear exposure with a durable multi-year driver.","Levels set off today's ~273.03 last close; first upside target ~327.64.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/ceg/","Eden deep-dive: run CEG -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~218.42 on volume, or if the AI power / nuclear thesis breaks.",
+  "entry": 267.57,"stop": 243.0,"target": 327.64
  },
  {
-  "t": "CCJ",
-  "n": "Cameco",
-  "theme": "Uranium",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "Cameco: Uranium. Levels set off the 88.7 last close; target from current consensus.",
-  "bull": [
-   "Uranium demand is a durable multi-year driver.",
-   "Consensus analyst target 132.0 vs 88.7 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/ccj/",
-   "Eden deep-dive: run CCJ -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 75.7 on volume, or if the Uranium narrative breaks.",
-  "entry": 85.1,
-  "stop": 75.7,
-  "target": 132.0
+  "t": "VST","n": "Vistra","theme": "AI power","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "Vistra: Merchant power + nuclear levered to surging datacenter electricity demand.",
+  "bull": ["AI power exposure with a durable multi-year driver.","Levels set off today's ~141.85 last close; first upside target ~170.22.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/vst/","Eden deep-dive: run VST -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~113.48 on volume, or if the AI power thesis breaks.",
+  "entry": 139.01,"stop": 126.25,"target": 170.22
  },
  {
-  "t": "BWXT",
-  "n": "BWX Technologies",
-  "theme": "Nuclear components",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "BWX Technologies: Nuclear components. Levels set off the 173.1 last close; target from current consensus.",
-  "bull": [
-   "Nuclear components demand is a durable multi-year driver.",
-   "Consensus analyst target 238.8 vs 173.1 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/bwxt/",
-   "Eden deep-dive: run BWXT -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 147.9 on volume, or if the Nuclear components narrative breaks.",
-  "entry": 166.2,
-  "stop": 147.9,
-  "target": 238.8
+  "t": "GEV","n": "GE Vernova","theme": "AI power / grid","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "GE Vernova: Grid + gas + wind equipment for the electrification build; multiple PT raises post-earnings.",
+  "bull": ["AI power / grid exposure with a durable multi-year driver.","Levels set off today's ~1023.19 last close; first upside target ~1227.83.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/gev/","Eden deep-dive: run GEV -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~818.55 on volume, or if the AI power / grid thesis breaks.",
+  "entry": 1002.73,"stop": 910.64,"target": 1227.83
  },
  {
-  "t": "LEU",
-  "n": "Centrus Energy",
-  "theme": "Enrichment / HALEU",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "Centrus Energy: Enrichment / HALEU. Levels set off the 171.2 last close; target from current consensus.",
-  "bull": [
-   "Enrichment / HALEU demand is a durable multi-year driver.",
-   "Consensus analyst target 264.7 vs 171.2 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/leu/",
-   "Eden deep-dive: run LEU -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 146.3 on volume, or if the Enrichment / HALEU narrative breaks.",
-  "entry": 164.4,
-  "stop": 146.3,
-  "target": 264.7
+  "t": "CCJ","n": "Cameco","theme": "Uranium","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "Cameco: Top-tier uranium miner; nuclear restart + AI-power demand tightens the fuel market.",
+  "bull": ["Uranium exposure with a durable multi-year driver.","Levels set off today's ~93.9 last close; first upside target ~112.68.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/ccj/","Eden deep-dive: run CCJ -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~75.12 on volume, or if the Uranium thesis breaks.",
+  "entry": 92.02,"stop": 83.57,"target": 112.68
  },
  {
-  "t": "FSLR",
-  "n": "First Solar",
-  "theme": "Solar",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "First Solar: Solar. Levels set off the 206.1 last close; target from current consensus.",
-  "bull": [
-   "Solar demand is a durable multi-year driver.",
-   "Consensus analyst target 254.3 vs 206.1 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/fslr/",
-   "Eden deep-dive: run FSLR -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 176.0 on volume, or if the Solar narrative breaks.",
-  "entry": 197.8,
-  "stop": 176.0,
-  "target": 254.3
+  "t": "BWXT","n": "BWX Technologies","theme": "Nuclear","type": "Momentum","size": "~2% of book","a": "2026-08-06",
+  "why": "BWX Technologies: Naval reactors + SMR components; defense-grade nuclear with real backlog.",
+  "bull": ["Nuclear exposure with a durable multi-year driver.","Levels set off today's ~169.74 last close; first upside target ~203.69.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/bwxt/","Eden deep-dive: run BWXT -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~135.79 on volume, or if the Nuclear thesis breaks.",
+  "entry": 166.35,"stop": 151.07,"target": 203.69
  },
  {
-  "t": "XOM",
-  "n": "Exxon Mobil",
-  "theme": "Integrated energy",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Exxon Mobil: Integrated energy. Levels set off the 151.7 last close; target from current consensus.",
-  "bull": [
-   "Integrated energy demand is a durable multi-year driver.",
-   "Consensus analyst target 166.9 vs 151.7 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/xom/",
-   "Eden deep-dive: run XOM -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 131.0 on volume, or if the Integrated energy narrative breaks.",
-  "entry": 145.6,
-  "stop": 131.0,
-  "target": 166.9
+  "t": "FSLR","n": "First Solar","theme": "Renewables","type": "Value","size": "~2% of book","a": "2026-08-06",
+  "why": "First Solar: US-made thin-film solar with policy tailwinds and a full order book.",
+  "bull": ["Renewables exposure with a durable multi-year driver.","Levels set off today's ~240.79 last close; first upside target ~288.95.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/fslr/","Eden deep-dive: run FSLR -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~192.63 on volume, or if the Renewables thesis breaks.",
+  "entry": 235.97,"stop": 214.3,"target": 288.95
  },
  {
-  "t": "SLB",
-  "n": "SLB",
-  "theme": "Oil services",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "SLB: Oil services. Levels set off the 46.6 last close; target from current consensus.",
-  "bull": [
-   "Oil services demand is a durable multi-year driver.",
-   "Consensus analyst target 61.0 vs 46.6 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/slb/",
-   "Eden deep-dive: run SLB -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 40.2 on volume, or if the Oil services narrative breaks.",
-  "entry": 44.7,
-  "stop": 40.2,
-  "target": 61.0
+  "t": "XOM","n": "Exxon Mobil","theme": "Energy","type": "Value","size": "~2% of book","a": "2026-08-06",
+  "why": "Exxon Mobil: integrated major and free-cash machine. Brent eased to ~$79 (from ~$88) on Hormuz shipping hopes - a mild headwind, but the dividend/buyback engine and low-cost barrels keep the thesis intact.",
+  "bull": ["Energy exposure with a durable multi-year driver.","Levels set off today's ~153.06 last close; first upside target ~183.67.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/xom/","Eden deep-dive: run XOM -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~122.45 on volume, or if the Energy thesis breaks.",
+  "entry": 150.0,"stop": 136.22,"target": 183.67
  },
  {
-  "t": "EQT",
-  "n": "EQT Corp",
-  "theme": "Natural gas",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "EQT Corp: Natural gas. Levels set off the 49.8 last close; target from current consensus.",
-  "bull": [
-   "Natural gas demand is a durable multi-year driver.",
-   "Consensus analyst target 67.2 vs 49.8 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/eqt/",
-   "Eden deep-dive: run EQT -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 43.0 on volume, or if the Natural gas narrative breaks.",
-  "entry": 47.8,
-  "stop": 43.0,
-  "target": 67.2
+  "t": "EQT","n": "EQT Corp","theme": "Natural gas","type": "Value","size": "~2% of book","a": "2026-08-06",
+  "why": "EQT Corp: Largest US natgas producer; datacenter + LNG demand is the multi-year story.",
+  "bull": ["Natural gas exposure with a durable multi-year driver.","Levels set off today's ~51.55 last close; first upside target ~61.86.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/eqt/","Eden deep-dive: run EQT -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~41.24 on volume, or if the Natural gas thesis breaks.",
+  "entry": 50.52,"stop": 45.88,"target": 61.86
  },
  {
-  "t": "JPM",
-  "n": "JPMorgan",
-  "theme": "Money-center bank",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "JPMorgan: Money-center bank. Levels set off the 345.2 last close; target from current consensus.",
-  "bull": [
-   "Money-center bank demand is a durable multi-year driver.",
-   "Consensus analyst target 369.7 vs 345.2 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/jpm/",
-   "Eden deep-dive: run JPM -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 298.3 on volume, or if the Money-center bank narrative breaks.",
-  "entry": 331.4,
-  "stop": 298.3,
-  "target": 369.7
+  "t": "JPM","n": "JPMorgan","theme": "Financials","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "JPMorgan: Best-in-class megabank; strong credit and NII keep it near record highs.",
+  "bull": ["Financials exposure with a durable multi-year driver.","Levels set off today's ~359.82 last close; first upside target ~431.78.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/jpm/","Eden deep-dive: run JPM -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~287.86 on volume, or if the Financials thesis breaks.",
+  "entry": 352.62,"stop": 320.24,"target": 431.78
  },
  {
-  "t": "GS",
-  "n": "Goldman Sachs",
-  "theme": "Investment bank",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Goldman Sachs: Investment bank. Levels set off the 1085.6 last close; target from current consensus.",
-  "bull": [
-   "Investment bank demand is a durable multi-year driver.",
-   "Consensus analyst target 1134.4 vs 1085.6 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/gs/",
-   "Eden deep-dive: run GS -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 937.9 on volume, or if the Investment bank narrative breaks.",
-  "entry": 1042.1,
-  "stop": 937.9,
-  "target": 1134.4
+  "t": "GS","n": "Goldman Sachs","theme": "Financials","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "Goldman Sachs: trading + investment-banking rebound driving a record book; capital-markets activity re-accelerating.",
+  "bull": ["Financials exposure with a durable multi-year driver.","Levels set off today's ~1061.1 last close; first upside target ~1273.32.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/gs/","Eden deep-dive: run GS -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~848.88 on volume, or if the Financials thesis breaks.",
+  "entry": 1039.88,"stop": 944.38,"target": 1273.32
  },
  {
-  "t": "JEF",
-  "n": "Jefferies",
-  "theme": "Investment bank",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Jefferies: Investment bank. Levels set off the 56.7 last close; target from current consensus.",
-  "bull": [
-   "Investment bank demand is a durable multi-year driver.",
-   "Consensus analyst target 61.3 vs 56.7 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/jef/",
-   "Eden deep-dive: run JEF -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 49.1 on volume, or if the Investment bank narrative breaks.",
-  "entry": 54.5,
-  "stop": 49.1,
-  "target": 61.3
+  "t": "LLY","n": "Eli Lilly","theme": "Healthcare","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "Eli Lilly: GLP-1 franchise (Zepbound/Mounjaro) remains pharma's dominant growth engine, with oral candidates extending the runway.",
+  "bull": ["Healthcare exposure with a durable multi-year driver.","Levels set off today's ~1190.39 last close; first upside target ~1428.47.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/lly/","Eden deep-dive: run LLY -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~952.31 on volume, or if the Healthcare thesis breaks.",
+  "entry": 1166.58,"stop": 1059.45,"target": 1428.47
  },
  {
-  "t": "LLY",
-  "n": "Eli Lilly",
-  "theme": "GLP-1 / pharma",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Eli Lilly: GLP-1 / pharma. Levels set off the 1175.4 last close; target from current consensus.",
-  "bull": [
-   "GLP-1 / pharma demand is a durable multi-year driver.",
-   "Consensus analyst target 1270.4 vs 1175.4 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/lly/",
-   "Eden deep-dive: run LLY -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 1015.6 on volume, or if the GLP-1 / pharma narrative breaks.",
-  "entry": 1128.4,
-  "stop": 1015.6,
-  "target": 1270.4
+  "t": "UNH","n": "UnitedHealth","theme": "Healthcare","type": "Value","size": "~2% of book","a": "2026-08-06",
+  "why": "UnitedHealth: Managed-care leader; cheap after the derating, JPMorgan Overweight with a $516 target.",
+  "bull": ["Healthcare exposure with a durable multi-year driver.","Levels set off today's ~408.2 last close; first upside target ~489.84.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/unh/","Eden deep-dive: run UNH -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~326.56 on volume, or if the Healthcare thesis breaks.",
+  "entry": 400.04,"stop": 363.3,"target": 489.84
  },
  {
-  "t": "UNH",
-  "n": "UnitedHealth",
-  "theme": "Managed care",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "UnitedHealth: Managed care. Levels set off the 436.4 last close; target from current consensus.",
-  "bull": [
-   "Managed care demand is a durable multi-year driver.",
-   "Consensus analyst target 473.3 vs 436.4 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/unh/",
-   "Eden deep-dive: run UNH -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 377.0 on volume, or if the Managed care narrative breaks.",
-  "entry": 418.9,
-  "stop": 377.0,
-  "target": 473.3
+  "t": "MELI","n": "MercadoLibre","theme": "Consumer / LatAm","type": "Momentum","size": "~3% of book","a": "2026-08-06",
+  "why": "MercadoLibre: LatAm e-commerce + fintech flywheel; the region's dominant digital-commerce platform.",
+  "bull": ["Consumer / LatAm exposure with a durable multi-year driver.","Levels set off today's ~1806.0 last close; first upside target ~2167.2.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/meli/","Eden deep-dive: run MELI -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~1444.8 on volume, or if the Consumer / LatAm thesis breaks.",
+  "entry": 1769.88,"stop": 1607.34,"target": 2167.2
  },
  {
-  "t": "ELV",
-  "n": "Elevance Health",
-  "theme": "Managed care",
-  "type": "Value",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "Elevance Health: Managed care. Levels set off the 393.4 last close; target from current consensus.",
-  "bull": [
-   "Managed care demand is a durable multi-year driver.",
-   "Consensus analyst target 449.1 vs 393.4 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/elv/",
-   "Eden deep-dive: run ELV -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 339.9 on volume, or if the Managed care narrative breaks.",
-  "entry": 377.7,
-  "stop": 339.9,
-  "target": 449.1
+  "t": "NU","n": "Nu Holdings","theme": "Consumer / LatAm","type": "Momentum","size": "~2% of book","a": "2026-08-06",
+  "why": "Nu Holdings: Digital bank scaling across Brazil/Mexico/Colombia; huge unbanked TAM.",
+  "bull": ["Consumer / LatAm exposure with a durable multi-year driver.","Levels set off today's ~14.34 last close; first upside target ~17.21.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/nu/","Eden deep-dive: run NU -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~11.47 on volume, or if the Consumer / LatAm thesis breaks.",
+  "entry": 14.05,"stop": 12.76,"target": 17.21
  },
  {
-  "t": "MELI",
-  "n": "MercadoLibre",
-  "theme": "LatAm e-commerce",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "MercadoLibre: LatAm e-commerce. Levels set off the 1822.7 last close; target from current consensus.",
-  "bull": [
-   "LatAm e-commerce demand is a durable multi-year driver.",
-   "Consensus analyst target 2206.5 vs 1822.7 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/meli/",
-   "Eden deep-dive: run MELI -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 1557.2 on volume, or if the LatAm e-commerce narrative breaks.",
-  "entry": 1749.7,
-  "stop": 1557.2,
-  "target": 2206.5
+  "t": "ETN","n": "Eaton","theme": "Industrials","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "Eaton: Electrical equipment levered to datacenter power + electrification capex.",
+  "bull": ["Industrials exposure with a durable multi-year driver.","Levels set off today's ~444.49 last close; first upside target ~533.39.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/etn/","Eden deep-dive: run ETN -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~355.59 on volume, or if the Industrials thesis breaks.",
+  "entry": 435.6,"stop": 395.6,"target": 533.39
  },
  {
-  "t": "NU",
-  "n": "Nu Holdings",
-  "theme": "LatAm fintech",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "Nu Holdings: LatAm fintech. Levels set off the 14.4 last close; target from current consensus.",
-  "bull": [
-   "LatAm fintech demand is a durable multi-year driver.",
-   "Consensus analyst target 17.9 vs 14.4 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/nu/",
-   "Eden deep-dive: run NU -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 12.3 on volume, or if the LatAm fintech narrative breaks.",
-  "entry": 13.8,
-  "stop": 12.3,
-  "target": 17.9
+  "t": "GE","n": "GE Aerospace","theme": "Industrials","type": "Momentum","size": "~2% of book","a": "2026-08-06",
+  "why": "GE Aerospace: Jet-engine aftermarket cash machine riding the aerospace up-cycle.",
+  "bull": ["Industrials exposure with a durable multi-year driver.","Levels set off today's ~385.0 last close; first upside target ~462.0.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/ge/","Eden deep-dive: run GE -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~308.0 on volume, or if the Industrials thesis breaks.",
+  "entry": 377.3,"stop": 342.65,"target": 462.0
  },
  {
-  "t": "ETN",
-  "n": "Eaton",
-  "theme": "Electrical / grid",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "Eaton: Electrical / grid. Levels set off the 402.9 last close; target from current consensus.",
-  "bull": [
-   "Electrical / grid demand is a durable multi-year driver.",
-   "Consensus analyst target 455.8 vs 402.9 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/etn/",
-   "Eden deep-dive: run ETN -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 344.3 on volume, or if the Electrical / grid narrative breaks.",
-  "entry": 386.8,
-  "stop": 344.3,
-  "target": 455.8
+  "t": "PANW","n": "Palo Alto Networks","theme": "Cybersecurity","type": "Momentum","size": "~2% of book","a": "2026-08-06",
+  "why": "Palo Alto Networks: Platformization strategy consolidating security spend; durable secular grower.",
+  "bull": ["Cybersecurity exposure with a durable multi-year driver.","Levels set off today's ~350.15 last close; first upside target ~420.18.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/panw/","Eden deep-dive: run PANW -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~280.12 on volume, or if the Cybersecurity thesis breaks.",
+  "entry": 343.15,"stop": 311.63,"target": 420.18
  },
  {
-  "t": "GE",
-  "n": "GE Aerospace",
-  "theme": "Aerospace engines",
-  "type": "Momentum",
-  "size": "~4% of book",
-  "a": "2026-07-21",
-  "why": "GE Aerospace: Aerospace engines. Levels set off the 340.7 last close; target from current consensus.",
-  "bull": [
-   "Aerospace engines demand is a durable multi-year driver.",
-   "Consensus analyst target 403.6 vs 340.7 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/ge/",
-   "Eden deep-dive: run GE -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 287.8 on volume, or if the Aerospace engines narrative breaks.",
-  "entry": 327.1,
-  "stop": 287.8,
-  "target": 403.6
+  "t": "RKLB","n": "Rocket Lab","theme": "Space","type": "Speculative","size": "~1% of book","a": "2026-08-06",
+  "why": "Rocket Lab: Small-launch + Neutron ramp; a high-beta way to play the space build-out.",
+  "bull": ["Space exposure with a durable multi-year driver.","Levels set off today's ~77.2 last close; first upside target ~92.64.","Cash generation / franchise strength support the setup."],
+  "bear": ["A broad risk-off move - led now by AI-capex/'circular-financing' fear - would hit this regardless of execution.","Near-term swing factors: the July jobs report (Fri Aug 7) and a rotation out of mega-cap tech can whip the tape; a broad AI-capex derating would pressure this regardless of company execution."],
+  "v": ["stockanalysis.com/stocks/rklb/","Eden deep-dive: run RKLB -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~61.76 on volume, or if the Space thesis breaks.",
+  "entry": 75.66,"stop": 68.71,"target": 92.64
  },
  {
-  "t": "PANW",
-  "n": "Palo Alto Networks",
-  "theme": "Cybersecurity",
-  "type": "Core",
-  "size": "~3% of book",
-  "a": "2026-07-21",
-  "why": "Palo Alto Networks: Cybersecurity. Levels set off the 342.1 last close; target from current consensus.",
-  "bull": [
-   "Cybersecurity demand is a durable multi-year driver.",
-   "Consensus analyst target 325.4 vs 342.1 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "Trades near/above the average analyst target (325.4) - limited consensus upside.",
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/panw/",
-   "Eden deep-dive: run PANW -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 292.4 on volume, or if the Cybersecurity narrative breaks.",
-  "entry": 328.5,
-  "stop": 292.4,
-  "target": 403.7
+  "t": "ISRG","n": "Intuitive Surgical","theme": "Healthcare / medtech","type": "Core","size": "~3% of book","a": "2026-08-06",
+  "why": "Intuitive Surgical: da Vinci + Ion robotic-surgery near-monopoly; recurring instrument revenue compounds.",
+  "bull": ["Razor-and-blade model: procedure growth drives high-margin recurring revenue.","Levels set off today's ~376.42 last close; first upside target ~451.7.","Defensive medtech compounder as a hedge to AI-capex risk."],
+  "bear": ["Premium multiple leaves little room for a procedure-growth miss.","Big medtech typically de-rates when rates back up or capital budgets tighten."],
+  "v": ["stockanalysis.com/stocks/isrg/","Eden deep-dive: run ISRG -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~301.14 on volume, or if the Healthcare / medtech thesis breaks.",
+  "entry": 368.89,"stop": 335.01,"target": 451.7
  },
  {
-  "t": "RKLB",
-  "n": "Rocket Lab",
-  "theme": "Space launch",
-  "type": "Speculative",
-  "size": "~2% of book",
-  "a": "2026-07-21",
-  "why": "Rocket Lab: Space launch. Levels set off the 69.1 last close; target from current consensus.",
-  "bull": [
-   "Space launch demand is a durable multi-year driver.",
-   "Consensus analyst target 116.6 vs 69.1 last close.",
-   "Cash generation and balance sheet support the current setup."
-  ],
-  "bear": [
-   "Story / not yet consistently profitable - size small and honor the stop.",
-   "A broad risk-off move would hit this regardless of company execution.",
-   "Brent volatility on Strait-of-Hormuz risk keeps the whole tape jumpy."
-  ],
-  "v": [
-   "stockanalysis.com/stocks/rklb/",
-   "Eden deep-dive: run RKLB -> eden-dashboard.streamlit.app"
-  ],
-  "inv": "Thesis void on a close below 54.4 on volume, or if the Space launch narrative breaks.",
-  "entry": 66.4,
-  "stop": 54.4,
-  "target": 116.6
+  "t": "STX","n": "Seagate Technology","theme": "AI storage","type": "Momentum","size": "~2% of book","a": "2026-08-06",
+  "why": "Seagate Technology: HDD near-duopoly riding an AI-storage capacity boom; cloud customers reserving drives through 2028. Barclays lifted its target to $1,250 (JPMorgan $1,240).",
+  "bull": ["AI-storage capacity reservations give multi-year revenue visibility through 2028.","Levels set off today's ~835.64 last close; first upside target ~1002.77.","Fresh Barclays ($1,250) and JPMorgan ($1,240) target raises."],
+  "bear": ["HDD demand is cyclical; any hyperscaler capex pause hits orders fast.","The stock has already run hard, pricing in a lot of the AI-storage optimism."],
+  "v": ["stockanalysis.com/stocks/stx/","Eden deep-dive: run STX -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~668.51 on volume, or if the AI storage thesis breaks.",
+  "entry": 818.93,"stop": 743.72,"target": 1002.77
+ },
+ {
+  "t": "ANET","n": "Arista Networks","theme": "AI networking","type": "Momentum","size": "~2% of book","a": "2026-08-06",
+  "why": "Arista Networks: high-speed datacenter Ethernet for AI clusters; a BNP 'top idea' and up ~23% in a month to fresh highs.",
+  "bull": ["Ethernet is winning share as the AI-cluster networking fabric.","Levels set off today's ~194.0 last close; first upside target ~232.8.","BNP flags it a 'top idea' into 2027; momentum + fresh highs."],
+  "bear": ["Customer concentration (a few hyperscalers) makes orders lumpy.","A broad AI-capex derating would compress the premium multiple."],
+  "v": ["stockanalysis.com/stocks/anet/","Eden deep-dive: run ANET -> eden-dashboard.streamlit.app"],
+  "inv": "Thesis void on a close below ~155.2 on volume, or if the AI networking thesis breaks.",
+  "entry": 190.12,"stop": 172.66,"target": 232.8
+ },
+ {
+  "t": "BSX","n": "Boston Scientific","theme": "Healthcare / MedTech","type": "Quality compounder","size": "~15% of book","a": "2026-08-06",
+  "why": "Fresh 4-insider open-market cluster (~$9.8M @ ~$48.66, filed Aug 3) on a steady double-digit-grower in electrophysiology and structural heart; a rare large-cap insider vote of confidence.",
+  "bull": ["FARAPULSE pulsed-field ablation still taking share in a huge AFib market","Durable low-teens organic revenue growth with expanding margins","Insider cluster buy signals management sees value at these levels"],
+  "bear": ["Premium ~30x forward multiple leaves little room for a miss","Med-device demand sensitive to hospital capex and staffing","FX and tariff drag on imported components"],
+  "v": ["FARAPULSE / WATCHMAN franchise","Insider cluster buy Aug 3"],
+  "inv": "Broad medtech / defensive-growth exposure with an insider tailwind.",
+  "entry": 48.69,"stop": 44.22,"target": 59.62
+ },
+ {
+  "t": "BA","n": "Boeing","theme": "Industrials / Aerospace","type": "Turnaround / re-rating","size": "~12% of book","a": "2026-08-06",
+  "why": "Upgrade cluster this week (BNP Paribas to Outperform, JPMorgan target to $290, Goldman to $260, RBC to $265) plus a fresh Rep. Julie Johnson (D-TX) disclosed buy; 737/787 rate ramp and a rebuilt backlog drive the FCF-recovery story.",
+  "bull": ["Production rates on 737 MAX and 787 stepping higher into 2027","Multi-year record commercial backlog + defense franchise","Wall-Street upgrade wave lifting estimates and targets"],
+  "bear": ["Execution/quality and FAA oversight risk remains the swing factor","Still negative-to-thin free cash flow until rates normalize","Heavy debt load limits margin for error"],
+  "v": ["737/787 rate ramp","Bank upgrade wave Aug 3-4","Rep. Johnson disclosed buy"],
+  "inv": "Aerospace-recovery and defense exposure on an improving analyst tape.",
+  "entry": 234.71,"stop": 213.16,"target": 292.19
  }
 ]
