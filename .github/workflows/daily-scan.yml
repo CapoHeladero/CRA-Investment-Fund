@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: cra-publish
+  cancel-in-progress: false
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -15,10 +19,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '20'
 
@@ -39,7 +46,17 @@ jobs:
           git add results/
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Daily scan: $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "Daily scan: $(date -u +%Y-%m-%d)"
+          # Retry so a competing commit (e.g. the daily feeds push) can't fail the run
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying in 10s..."
+            sleep 10
+          done
+          echo "::error::Could not push scan results after 5 attempts"
+          exit 1

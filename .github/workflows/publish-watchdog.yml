@@ -1,0 +1,68 @@
+name: Publish watchdog
+
+# Safety net: if the live GitHub Pages site falls behind what is committed on
+# main (e.g. a Pages deploy failed because a hosted runner was unavailable),
+# re-trigger a deploy automatically instead of letting the site go stale.
+
+on:
+  schedule:
+    - cron: '15 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cra-publish
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Compare live site against main
+        id: chk
+        run: |
+          REPO_ASOF=$(node -p "require('./macro-latest.json').asof" 2>/dev/null || echo "unknown")
+          LIVE_JSON=$(curl -fsSL "https://cristianrebo.github.io/CRA-Investment-Fund/macro-latest.json?cb=$(date +%s)" 2>/dev/null || echo '{}')
+          LIVE_ASOF=$(printf '%s' "$LIVE_JSON" | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{try{console.log(JSON.parse(s).asof||'unknown')}catch(e){console.log('unknown')}})")
+          echo "repo=$REPO_ASOF  live=$LIVE_ASOF"
+          echo "repo_asof=$REPO_ASOF" >> "$GITHUB_OUTPUT"
+          echo "live_asof=$LIVE_ASOF" >> "$GITHUB_OUTPUT"
+          if [ "$REPO_ASOF" != "unknown" ] && [ "$REPO_ASOF" != "$LIVE_ASOF" ]; then
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::Live site is stale (live=$LIVE_ASOF, repo=$REPO_ASOF) - re-triggering deploy"
+          else
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Re-trigger Pages deploy
+        if: steps.chk.outputs.stale == 'true'
+        run: |
+          git config user.name "CRA Publish Watchdog"
+          git config user.email "watchdog@cra-fund.bot"
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .pages-refresh
+          git add .pages-refresh
+          git commit -m "Watchdog: re-trigger Pages deploy (live=${{ steps.chk.outputs.live_asof }}, repo=${{ steps.chk.outputs.repo_asof }})"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Re-trigger pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Attempt $attempt failed; retrying in 10s..."
+            sleep 10
+          done
+          echo "::error::Watchdog could not push refresh commit"
+          exit 1
+
+      - name: Site is current
+        if: steps.chk.outputs.stale != 'true'
+        run: echo "Live site matches main (${{ steps.chk.outputs.repo_asof }}) - nothing to do."
