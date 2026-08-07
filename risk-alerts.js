@@ -67,8 +67,9 @@
   sec.innerHTML=
     '<div class="card"><div class="card-h">Risk &amp; alerts</div>'+
     '<div class="card-sub">Portfolio risk, watchlist buy triggers and upcoming earnings — pulled live from your book and Finnhub.</div>'+
-    '<div class="f2" style="max-width:520px"><div><label class="lbl">Account size ($)</label><input type="number" id="ra-acct" step="100"></div>'+
+    '<div class="f2" style="max-width:520px"><div><label class="lbl">Capital deposited ($)</label><input type="number" id="ra-acct" step="100"></div>'+
     '<div style="display:flex;align-items:flex-end"><button type="button" id="ra-refresh">Refresh data</button></div></div>'+
+    '<div class="muted" style="font-size:11.5px;margin-top:6px">Cash you funded the account with — NOT including unrealised gains. Cash = this minus what you actually paid for open positions (cost basis).</div>'+
     '<div id="ra-msg" class="muted" style="margin-top:8px"></div></div>'+
     '<div class="card"><div class="card-h">Portfolio risk</div><div id="ra-port"></div></div>'+
     '<div class="card"><div class="card-h">Watchlist — buy triggers</div><div class="card-sub">Sorted by closest to your target-buy. Green = at or below your buy level.</div><div id="ra-watch"><div class="muted">Click "Refresh data".</div></div></div>'+
@@ -99,24 +100,34 @@
   function renderPort(){
     var pos=gp(), A=acct(); var el=$('ra-port');
     if(!pos.length){ el.innerHTML='<div class="muted">No open positions yet. Add positions in the Positions tab to see exposure, sector concentration and cash. (This is where the 1–2% rule and over-concentration checks live.)</div>'; return; }
-    var invested=0, value=0, bySec={}, riskTotal=0;
-    pos.forEach(function(p){ var px=(p.current&&p.current>0)?p.current:p.entry; var v=(p.shares||0)*px; invested+=(p.shares||0)*p.entry; value+=v; var s=sect(p.ticker); bySec[s]=(bySec[s]||0)+v; if(p.stop&&p.entry){ riskTotal+=Math.abs(p.entry-p.stop)*(p.shares||0); } });
-    var cashPct=Math.max(0,(A-value)/A*100);
+    var costBasis=0, value=0, bySec={}, riskTotal=0;
+    pos.forEach(function(p){ var px=(p.current&&p.current>0)?p.current:p.entry; var v=(p.shares||0)*px; costBasis+=(p.shares||0)*p.entry; value+=v; var s=sect(p.ticker); bySec[s]=(bySec[s]||0)+v; if(p.stop&&p.entry){ riskTotal+=Math.abs(p.entry-p.stop)*(p.shares||0); } });
+    // Cash = capital funded MINUS what was actually paid (cost basis). Using
+    // market value here double-counted unrealised gains and understated cash.
+    var cash=Math.max(0, A-costBasis);
+    var pnl=value-costBasis;
+    // Equity = idle cash + positions marked to market. Every exposure/risk %
+    // below is measured against equity, so unrealised P&L can't distort them.
+    var equity=cash+value; var D=equity>0?equity:(A||1);
+    var cashPct=cash/D*100;
     var rows=pos.slice().sort(function(a,b){return ((b.shares||0)*((b.current||b.entry)))-((a.shares||0)*((a.current||a.entry)));}).map(function(p){
-      var px=(p.current&&p.current>0)?p.current:p.entry; var v=(p.shares||0)*px; var w=v/A*100;
+      var px=(p.current&&p.current>0)?p.current:p.entry; var v=(p.shares||0)*px; var w=v/D*100;
       var rk=(p.stop&&p.entry)?Math.abs(p.entry-p.stop)*(p.shares||0):null;
       var warn=w>20?' style="color:var(--neg);font-weight:600"':'';
-      return '<tr><td>'+p.ticker+'</td><td>'+sect(p.ticker)+'</td><td class="ta-r">'+money(v)+'</td><td class="ta-r"'+warn+'>'+w.toFixed(1)+'%</td><td class="ta-r">'+(rk!=null?money(rk)+' ('+(rk/A*100).toFixed(1)+'%)':'set stop')+'</td></tr>';
+      return '<tr><td>'+p.ticker+'</td><td>'+sect(p.ticker)+'</td><td class="ta-r">'+money(v)+'</td><td class="ta-r"'+warn+'>'+w.toFixed(1)+'%</td><td class="ta-r">'+(rk!=null?money(rk)+' ('+(rk/D*100).toFixed(1)+'%)':'set stop')+'</td></tr>';
     }).join('');
-    var secRows=Object.keys(bySec).sort(function(a,b){return bySec[b]-bySec[a];}).map(function(s){var w=bySec[s]/A*100;var warn=w>40?' style="color:var(--neg);font-weight:600"':'';return '<span'+warn+'>'+s+' '+w.toFixed(0)+'%</span>';}).join(' · ');
+    var secRows=Object.keys(bySec).sort(function(a,b){return bySec[b]-bySec[a];}).map(function(s){var w=bySec[s]/D*100;var warn=w>40?' style="color:var(--neg);font-weight:600"':'';return '<span'+warn+'>'+s+' '+w.toFixed(0)+'%</span>';}).join(' · ');
     var flags=[]; if(cashPct<10) flags.push('Cash below 10% — thin buffer');
-    pos.forEach(function(p){var px=(p.current&&p.current>0)?p.current:p.entry;if((p.shares||0)*px/A>20)flags.push(p.ticker+' is >20% of book');});
-    Object.keys(bySec).forEach(function(s){if(bySec[s]/A*100>40)flags.push(s+' sector >40% of book');});
-    if(riskTotal/A*100>6) flags.push('Total open risk '+(riskTotal/A*100).toFixed(1)+'% — above ~6% guideline');
+    pos.forEach(function(p){var px=(p.current&&p.current>0)?p.current:p.entry;if((p.shares||0)*px/D>20)flags.push(p.ticker+' is >20% of book');});
+    Object.keys(bySec).forEach(function(s){if(bySec[s]/D*100>40)flags.push(s+' sector >40% of book');});
+    if(riskTotal/D*100>6) flags.push('Total open risk '+(riskTotal/D*100).toFixed(1)+'% — above ~6% guideline');
+    if(costBasis>A) flags.push('Cost basis '+money(costBasis)+' exceeds capital deposited '+money(A)+' — check the capital figure above');
     el.innerHTML='<div style="display:flex;flex-wrap:wrap;gap:18px;margin-bottom:12px">'+
-      '<div><div class="lbl">Invested</div><div style="font-size:18px;font-weight:600">'+money(value)+'</div></div>'+
-      '<div><div class="lbl">Cash</div><div style="font-size:18px;font-weight:600">'+cashPct.toFixed(0)+'%</div></div>'+
-      '<div><div class="lbl">Open risk ($/%)</div><div style="font-size:18px;font-weight:600">'+(riskTotal>0?money(riskTotal)+' / '+(riskTotal/A*100).toFixed(1)+'%':'—')+'</div></div>'+
+      '<div><div class="lbl">Cost basis</div><div style="font-size:18px;font-weight:600">'+money(costBasis)+'</div></div>'+
+      '<div><div class="lbl">Market value</div><div style="font-size:18px;font-weight:600">'+money(value)+' <span style="font-size:12.5px;color:'+(pnl>=0?'var(--pos)':'var(--neg)')+'">'+(pnl>=0?'+':'-')+money(Math.abs(pnl))+'</span></div></div>'+
+      '<div><div class="lbl">Cash</div><div style="font-size:18px;font-weight:600">'+money(cash)+' <span style="font-size:12.5px;color:var(--text-tert)">'+cashPct.toFixed(0)+'%</span></div></div>'+
+      '<div><div class="lbl">Equity</div><div style="font-size:18px;font-weight:600">'+money(equity)+'</div></div>'+
+      '<div><div class="lbl">Open risk ($/%)</div><div style="font-size:18px;font-weight:600">'+(riskTotal>0?money(riskTotal)+' / '+(riskTotal/D*100).toFixed(1)+'%':'—')+'</div></div>'+
       '<div><div class="lbl">Positions</div><div style="font-size:18px;font-weight:600">'+pos.length+'</div></div></div>'+
       '<table class="t"><thead><tr><th>Ticker</th><th>Sector</th><th class="ta-r">Value</th><th class="ta-r">% of book</th><th class="ta-r">$ at risk</th></tr></thead><tbody>'+rows+'</tbody></table>'+
       '<div style="margin-top:10px;font-size:12.5px;color:var(--text-tert)">Sector mix: '+secRows+'</div>'+
