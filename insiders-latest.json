@@ -1,114 +1,98 @@
 {
- "asof": "2026-08-06",
+ "asof": "2026-08-08",
  "clusters": [
   {
    "t": "BSX",
    "n": "Boston Scientific",
    "buyers": 4,
-   "total": 9839694,
-   "buys": "4 insiders",
-   "note": "Big new 4-buyer medtech cluster ~$9.84M at ~$48.66 (trades Aug 3) - large-cap insider conviction."
+   "total": 9.94,
+   "buys": 4,
+   "note": "Four insiders bought ~$9.94M near $48.65 (filed Aug 5) - a steady double-digit grower in electrophysiology; already in the book."
   },
   {
-   "t": "GBFH",
-   "n": "GBank Financial Holdings",
-   "buyers": 5,
-   "total": 2029198,
-   "buys": "5 insiders",
-   "note": "5-insider bank cluster ~$2.03M at ~$24.02 (Aug 4)."
+   "t": "ACI",
+   "n": "Albertsons",
+   "buyers": 3,
+   "total": 2.52,
+   "buys": 3,
+   "note": "Three insiders bought ~$2.5M near $11.49 (Jul 31) - defensive grocer, deep-value insider signal."
   },
   {
    "t": "TSCO",
    "n": "Tractor Supply",
    "buyers": 3,
-   "total": 652395,
-   "buys": "3 insiders",
-   "note": "3-buyer retail cluster ~$0.65M at ~$32.12 (Aug 4)."
+   "total": 0.65,
+   "buys": 3,
+   "note": "Three insiders bought ~$0.65M near $32.12 (Aug 4) - rural-retail defensive with insider conviction."
   },
   {
-   "t": "GSHD",
-   "n": "Goosehead Insurance",
-   "buyers": 7,
-   "total": 12214734,
-   "buys": "7 insiders",
-   "note": "Cluster expanded to 7 buyers ~$12.2M at ~$57.61 - conviction building."
-  },
-  {
-   "t": "JMKE",
-   "n": "Jersey Mike's Subs",
+   "t": "GBFH",
+   "n": "GBank Financial Holdings",
    "buyers": 5,
-   "total": 1024995,
-   "buys": "5 insiders",
-   "note": "5-buyer restaurant cluster ~$1.02M at ~$23.00 (Jul 31)."
-  },
-  {
-   "t": "ACI",
-   "n": "Albertsons Companies",
-   "buyers": 3,
-   "total": 2515543,
-   "buys": "3 insiders",
-   "note": "3-buyer grocery cluster ~$2.52M at ~$11.49 (Jul 31)."
+   "total": 2.55,
+   "buys": 5,
+   "note": "Five insiders bought ~$2.55M near $23.34 (Aug 5) - small-cap bank cluster."
   }
  ],
  "watchable": [
   {
-   "t": "ORN",
-   "n": "Orion Group Holdings",
-   "buyers": 4,
-   "total": 320841,
-   "note": "4-buyer infrastructure/marine-construction cluster ~$0.32M at ~$9.72."
+   "t": "UUUU",
+   "n": "Energy Fuels",
+   "buyers": 2,
+   "total": 1.02,
+   "note": "Two insiders bought ~$1.0M near $13.06 - uranium/rare-earth angle into a tight fuel market."
   },
   {
    "t": "VFC",
    "n": "VF Corp",
    "buyers": 2,
-   "total": 1007762,
-   "note": "2-buyer apparel cluster ~$1.01M at ~$16.02 - turnaround interest."
+   "total": 1.01,
+   "note": "Two insiders bought ~$1.0M near $16.02 - apparel turnaround bet."
   },
   {
-   "t": "SCTX",
-   "n": "Scribe Therapeutics",
-   "buyers": 6,
-   "total": 71344746,
-   "note": "Carryover: huge 6-buyer gene-editing cluster ~$71.3M at ~$15.08."
+   "t": "RBKB",
+   "n": "Rhinebeck Bancorp",
+   "buyers": 4,
+   "total": 0.72,
+   "note": "Four-insider small-bank cluster near $11.98."
   }
  ],
  "politicians": [
   {
-   "who": "Julie Johnson",
-   "party": "D",
-   "t": "BA",
-   "n": "Boeing",
+   "who": "David Taylor",
+   "party": "R",
+   "t": "GOOGL",
+   "n": "Alphabet",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "House Democrat (TX) disclosed Aug 6 buying Boeing at ~$205.38 - part of a broad basket."
+   "note": "House OH; part of a late-July tech basket (also AVGO, MSFT, KR), disclosed Aug 7."
   },
   {
-   "who": "Julie Johnson",
-   "party": "D",
-   "t": "EQIX",
-   "n": "Equinix",
+   "who": "David Taylor",
+   "party": "R",
+   "t": "AVGO",
+   "n": "Broadcom",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "Same Aug 6 basket: data-center REIT (AI-infra) at ~$803.28."
+   "note": "House OH; AI-silicon name bought ~$381.92, disclosed Aug 7."
   },
   {
-   "who": "Julie Johnson",
-   "party": "D",
-   "t": "DE",
-   "n": "Deere & Co",
+   "who": "David Taylor",
+   "party": "R",
+   "t": "MSFT",
+   "n": "Microsoft",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "Same basket: industrials/ag at ~$459.82; basket also included ADBE, HON, FISV and utilities AEE/CMS/SRE."
+   "note": "House OH; mega-cap cloud/AI, disclosed Aug 7."
   },
   {
-   "who": "Cleo Fields",
+   "who": "Gary Peters",
    "party": "D",
-   "t": "TSM",
-   "n": "TSMC (ADR)",
+   "t": "O",
+   "n": "Realty Income",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "Carryover: House Democrat (LA) buy in TSMC."
+   "note": "Senate MI; monthly-dividend REIT bought ~$64.72, disclosed Aug 7."
   }
  ]
 }

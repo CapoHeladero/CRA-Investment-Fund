@@ -1,49 +1,1172 @@
 {
- "asof": "2026-08-06",
- "method": "One dossier per saved watchlist ticker plus curated ideas; p = last close, levels refreshed daily. buy near support, stop by type, sell at analyst target.",
+ "asof": "2026-08-08",
+ "method": "One dossier per saved watchlist ticker + curated ideas; levels off the last close, conviction capped at 3 for not-yet-profitable story names.",
  "dossiers": {
-  "SKHY": {"t":"SKHY","n":"SK Hynix (ADR)","theme":"Semiconductors","type":"Momentum","conv":4,"p":140.22,"buy":134.61,"stop":118.46,"sell":185.41,"why":"SK Hynix (ADR): Semiconductors. Accumulate near ~134.61, risk defined at ~118.46, first target ~185.41.","bull":["Semiconductors exposure with a defined-risk setup off today's ~140.22 close.","Buy zone ~134.61; first target ~185.41.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/skhy/","Eden deep-dive: run SKHY -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 126.48, or if the Semiconductors thesis breaks.","thesis":"SK Hynix (ADR) - Semiconductors. Buy near ~134.61, risk to ~118.46, first target ~185.41 (levels off today's ~140.22 close)."},
-  "OKTA": {"t":"OKTA","n":"Okta","theme":"Cybersecurity","type":"Value","conv":3,"p":142.93,"buy":137.21,"stop":123.49,"sell":167.48,"why":"Okta: Cybersecurity. Accumulate near ~137.21, risk defined at ~123.49, first target ~167.48.","bull":["Cybersecurity exposure with a defined-risk setup off today's ~142.93 close.","Buy zone ~137.21; first target ~167.48.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/okta/","Eden deep-dive: run OKTA -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 127.74, or if the Cybersecurity thesis breaks.","thesis":"Okta - Cybersecurity. Buy near ~137.21, risk to ~123.49, first target ~167.48 (levels off today's ~142.93 close)."},
-  "LYFT": {"t":"LYFT","n":"Lyft","theme":"Consumer / mobility","type":"Value","conv":3,"p":16.3,"buy":15.65,"stop":14.09,"sell":18.71,"why":"Lyft: Consumer / mobility. Accumulate near ~15.65, risk defined at ~14.09, first target ~18.71.","bull":["Consumer / mobility exposure with a defined-risk setup off today's ~16.3 close.","Buy zone ~15.65; first target ~18.71.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/lyft/","Eden deep-dive: run LYFT -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 14.27, or if the Consumer / mobility thesis breaks.","thesis":"Lyft - Consumer / mobility. Buy near ~15.65, risk to ~14.09, first target ~18.71 (levels off today's ~16.3 close)."},
-  "XOM": {"t":"XOM","n":"Exxon Mobil","theme":"Energy","type":"Value","conv":4,"p":153.06,"buy":146.94,"stop":132.25,"sell":183.42,"why":"Exxon Mobil: Energy. Accumulate near ~146.94, risk defined at ~132.25, first target ~183.42.","bull":["Energy exposure with a defined-risk setup off today's ~153.06 close.","Buy zone ~146.94; first target ~183.42.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/xom/","Eden deep-dive: run XOM -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 139.9, or if the Energy thesis breaks.","thesis":"Exxon Mobil - Energy. Buy near ~146.94, risk to ~132.25, first target ~183.42 (levels off today's ~153.06 close)."},
-  "SLB": {"t":"SLB","n":"Schlumberger","theme":"Energy services","type":"Value","conv":3,"p":50.925,"buy":48.89,"stop":44.0,"sell":58.52,"why":"Schlumberger: Energy services. Accumulate near ~48.89, risk defined at ~44.0, first target ~58.52.","bull":["Energy services exposure with a defined-risk setup off today's ~50.925 close.","Buy zone ~48.89; first target ~58.52.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/slb/","Eden deep-dive: run SLB -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 44.63, or if the Energy services thesis breaks.","thesis":"Schlumberger - Energy services. Buy near ~48.89, risk to ~44.0, first target ~58.52 (levels off today's ~50.925 close)."},
-  "JPM": {"t":"JPM","n":"JPMorgan","theme":"Financials","type":"Core","conv":4,"p":359.82,"buy":345.43,"stop":307.43,"sell":422.15,"why":"JPMorgan: Financials. Accumulate near ~345.43, risk defined at ~307.43, first target ~422.15.","bull":["Financials exposure with a defined-risk setup off today's ~359.82 close.","Buy zone ~345.43; first target ~422.15.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/jpm/","Eden deep-dive: run JPM -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 313.09, or if the Financials thesis breaks.","thesis":"JPMorgan - Financials. Buy near ~345.43, risk to ~307.43, first target ~422.15 (levels off today's ~359.82 close)."},
-  "NOW": {"t":"NOW","n":"ServiceNow","theme":"Software / AI","type":"Momentum","conv":4,"p":113.2,"buy":108.67,"stop":95.63,"sell":143.49,"why":"ServiceNow: Software / AI. Accumulate near ~108.67, risk defined at ~95.63, first target ~143.49.","bull":["Software / AI exposure with a defined-risk setup off today's ~113.2 close.","Buy zone ~108.67; first target ~143.49.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/now/","Eden deep-dive: run NOW -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 97.88, or if the Software / AI thesis breaks.","thesis":"ServiceNow - Software / AI. Buy near ~108.67, risk to ~95.63, first target ~143.49 (levels off today's ~113.2 close)."},
-  "MU": {"t":"MU","n":"Micron","theme":"Semiconductors","type":"Momentum","conv":5,"p":850.0,"buy":816.0,"stop":718.08,"sell":1061.71,"why":"Micron: Semiconductors. Accumulate near ~816.0, risk defined at ~718.08, first target ~1061.71.","bull":["Semiconductors exposure with a defined-risk setup off today's ~850.0 close.","Buy zone ~816.0; first target ~1061.71.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/mu/","Eden deep-dive: run MU -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 724.27, or if the Semiconductors thesis breaks.","thesis":"Micron - Semiconductors. Buy near ~816.0, risk to ~718.08, first target ~1061.71 (levels off today's ~850.0 close)."},
-  "FISV": {"t":"FISV","n":"Fiserv","theme":"Fintech","type":"Value","conv":3,"p":50.94,"buy":48.9,"stop":44.01,"sell":63.65,"why":"Fiserv: Fintech. Accumulate near ~48.9, risk defined at ~44.01, first target ~63.65.","bull":["Fintech exposure with a defined-risk setup off today's ~50.94 close.","Buy zone ~48.9; first target ~63.65.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/fisv/","Eden deep-dive: run FISV -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 48.55, or if the Fintech thesis breaks.","thesis":"Fiserv - Fintech. Buy near ~48.9, risk to ~44.01, first target ~63.65 (levels off today's ~50.94 close)."},
-  "SYM": {"t":"SYM","n":"Symbotic","theme":"Warehouse automation","type":"Speculative","conv":3,"p":43.4,"buy":41.66,"stop":34.16,"sell":55.96,"why":"Symbotic: Warehouse automation. Accumulate near ~41.66, risk defined at ~34.16, first target ~55.96.","bull":["Warehouse automation exposure with a defined-risk setup off today's ~43.4 close.","Buy zone ~41.66; first target ~55.96.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/sym/","Eden deep-dive: run SYM -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 35.3, or if the Warehouse automation thesis breaks.","thesis":"Symbotic - Warehouse automation. Buy near ~41.66, risk to ~34.16, first target ~55.96 (levels off today's ~43.4 close)."},
-  "MSFT": {"t":"MSFT","n":"Microsoft","theme":"Software / AI","type":"Core","conv":5,"p":492.86,"buy":473.15,"stop":421.1,"sell":557.66,"why":"Microsoft: Software / AI. Accumulate near ~473.15, risk defined at ~421.1, first target ~557.66.","bull":["Software / AI exposure with a defined-risk setup off today's ~492.86 close.","Buy zone ~473.15; first target ~557.66.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/msft/","Eden deep-dive: run MSFT -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 413.6, or if the Software / AI thesis breaks.","thesis":"Microsoft - Software / AI. Buy near ~473.15, risk to ~421.1, first target ~557.66 (levels off today's ~492.86 close)."},
-  "MELI": {"t":"MELI","n":"MercadoLibre","theme":"Consumer / LatAm","type":"Momentum","conv":4,"p":1806.0,"buy":1733.76,"stop":1525.71,"sell":2422.56,"why":"MercadoLibre: Consumer / LatAm. Accumulate near ~1733.76, risk defined at ~1525.71, first target ~2422.56.","bull":["Consumer / LatAm exposure with a defined-risk setup off today's ~1806.0 close.","Buy zone ~1733.76; first target ~2422.56.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/meli/","Eden deep-dive: run MELI -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 1652.6, or if the Consumer / LatAm thesis breaks.","thesis":"MercadoLibre - Consumer / LatAm. Buy near ~1733.76, risk to ~1525.71, first target ~2422.56 (levels off today's ~1806.0 close)."},
-  "HTZ": {"t":"HTZ","n":"Hertz","theme":"Consumer / autos","type":"Speculative","conv":2,"p":1.68,"buy":1.61,"stop":1.32,"sell":2.06,"why":"Hertz: Consumer / autos. Accumulate near ~1.61, risk defined at ~1.32, first target ~2.06.","bull":["Consumer / autos exposure with a defined-risk setup off today's ~1.68 close.","Buy zone ~1.61; first target ~2.06.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/htz/","Eden deep-dive: run HTZ -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 1.3, or if the Consumer / autos thesis breaks.","thesis":"Hertz - Consumer / autos. Buy near ~1.61, risk to ~1.32, first target ~2.06 (levels off today's ~1.68 close)."},
-  "GS": {"t":"GS","n":"Goldman Sachs","theme":"Financials","type":"Core","conv":4,"p":1061.1,"buy":1018.66,"stop":906.61,"sell":1222.06,"why":"Goldman Sachs: Financials. Accumulate near ~1018.66, risk defined at ~906.61, first target ~1222.06.","bull":["Financials exposure with a defined-risk setup off today's ~1061.1 close.","Buy zone ~1018.66; first target ~1222.06.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/gs/","Eden deep-dive: run GS -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 906.36, or if the Financials thesis breaks.","thesis":"Goldman Sachs - Financials. Buy near ~1018.66, risk to ~906.61, first target ~1222.06 (levels off today's ~1061.1 close)."},
-  "FSLR": {"t":"FSLR","n":"First Solar","theme":"Renewables","type":"Value","conv":4,"p":240.79,"buy":231.16,"stop":208.04,"sell":284.13,"why":"First Solar: Renewables. Accumulate near ~231.16, risk defined at ~208.04, first target ~284.13.","bull":["Renewables exposure with a defined-risk setup off today's ~240.79 close.","Buy zone ~231.16; first target ~284.13.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/fslr/","Eden deep-dive: run FSLR -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 189.93, or if the Renewables thesis breaks.","thesis":"First Solar - Renewables. Buy near ~231.16, risk to ~208.04, first target ~284.13 (levels off today's ~240.79 close)."},
-  "ETN": {"t":"ETN","n":"Eaton","theme":"Industrials","type":"Core","conv":4,"p":444.49,"buy":426.71,"stop":379.77,"sell":498.24,"why":"Eaton: Industrials. Accumulate near ~426.71, risk defined at ~379.77, first target ~498.24.","bull":["Industrials exposure with a defined-risk setup off today's ~444.49 close.","Buy zone ~426.71; first target ~498.24.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/etn/","Eden deep-dive: run ETN -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 369.53, or if the Industrials thesis breaks.","thesis":"Eaton - Industrials. Buy near ~426.71, risk to ~379.77, first target ~498.24 (levels off today's ~444.49 close)."},
-  "VST": {"t":"VST","n":"Vistra","theme":"AI power","type":"Momentum","conv":4,"p":141.85,"buy":136.18,"stop":119.84,"sell":191.17,"why":"Vistra: AI power. Accumulate near ~136.18, risk defined at ~119.84, first target ~191.17.","bull":["AI power exposure with a defined-risk setup off today's ~141.85 close.","Buy zone ~136.18; first target ~191.17.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/vst/","Eden deep-dive: run VST -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 130.41, or if the AI power thesis breaks.","thesis":"Vistra - AI power. Buy near ~136.18, risk to ~119.84, first target ~191.17 (levels off today's ~141.85 close)."},
-  "OSCR": {"t":"OSCR","n":"Oscar Health","theme":"Healthcare","type":"Speculative","conv":3,"p":27.14,"buy":26.05,"stop":21.36,"sell":40.59,"why":"Oscar Health: Healthcare. Accumulate near ~26.05, risk defined at ~21.36, first target ~40.59.","bull":["Healthcare exposure with a defined-risk setup off today's ~27.14 close.","Buy zone ~26.05; first target ~40.59.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/oscr/","Eden deep-dive: run OSCR -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 25.6, or if the Healthcare thesis breaks.","thesis":"Oscar Health - Healthcare. Buy near ~26.05, risk to ~21.36, first target ~40.59 (levels off today's ~27.14 close)."},
-  "NVDA": {"t":"NVDA","n":"NVIDIA","theme":"AI infrastructure","type":"Momentum","conv":5,"p":222.57,"buy":213.67,"stop":188.03,"sell":258.97,"why":"NVIDIA: AI infrastructure. Accumulate near ~213.67, risk defined at ~188.03, first target ~258.97.","bull":["AI infrastructure exposure with a defined-risk setup off today's ~222.57 close.","Buy zone ~213.67; first target ~258.97.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/nvda/","Eden deep-dive: run NVDA -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 176.66, or if the AI infrastructure thesis breaks.","thesis":"NVIDIA - AI infrastructure. Buy near ~213.67, risk to ~188.03, first target ~258.97 (levels off today's ~222.57 close)."},
-  "NFLX": {"t":"NFLX","n":"Netflix","theme":"Media / streaming","type":"Core","conv":4,"p":74.33,"buy":71.36,"stop":63.51,"sell":86.05,"why":"Netflix: Media / streaming. Accumulate near ~71.36, risk defined at ~63.51, first target ~86.05.","bull":["Media / streaming exposure with a defined-risk setup off today's ~74.33 close.","Buy zone ~71.36; first target ~86.05.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/nflx/","Eden deep-dive: run NFLX -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 63.82, or if the Media / streaming thesis breaks.","thesis":"Netflix - Media / streaming. Buy near ~71.36, risk to ~63.51, first target ~86.05 (levels off today's ~74.33 close)."},
-  "NCLH": {"t":"NCLH","n":"Norwegian Cruise Line","theme":"Travel","type":"Value","conv":3,"p":19.98,"buy":19.18,"stop":17.26,"sell":21.87,"why":"Norwegian Cruise Line: Travel. Accumulate near ~19.18, risk defined at ~17.26, first target ~21.87.","bull":["Travel exposure with a defined-risk setup off today's ~19.98 close.","Buy zone ~19.18; first target ~21.87.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/nclh/","Eden deep-dive: run NCLH -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 16.68, or if the Travel thesis breaks.","thesis":"Norwegian Cruise Line - Travel. Buy near ~19.18, risk to ~17.26, first target ~21.87 (levels off today's ~19.98 close)."},
-  "CRWD": {"t":"CRWD","n":"CrowdStrike","theme":"Cybersecurity","type":"Momentum","conv":4,"p":205.51,"buy":197.29,"stop":173.62,"sell":246.21,"why":"CrowdStrike: Cybersecurity. Accumulate near ~197.29, risk defined at ~173.62, first target ~246.21.","bull":["Cybersecurity exposure with a defined-risk setup off today's ~205.51 close.","Buy zone ~197.29; first target ~246.21.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/crwd/","Eden deep-dive: run CRWD -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 167.96, or if the Cybersecurity thesis breaks.","thesis":"CrowdStrike - Cybersecurity. Buy near ~197.29, risk to ~173.62, first target ~246.21 (levels off today's ~205.51 close)."},
-  "CCJ": {"t":"CCJ","n":"Cameco","theme":"Uranium","type":"Core","conv":4,"p":93.9,"buy":90.14,"stop":80.22,"sell":103.66,"why":"Cameco: Uranium. Accumulate near ~90.14, risk defined at ~80.22, first target ~103.66.","bull":["Uranium exposure with a defined-risk setup off today's ~93.9 close.","Buy zone ~90.14; first target ~103.66.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/ccj/","Eden deep-dive: run CCJ -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 76.88, or if the Uranium thesis breaks.","thesis":"Cameco - Uranium. Buy near ~90.14, risk to ~80.22, first target ~103.66 (levels off today's ~93.9 close)."},
-  "VRT": {"t":"VRT","n":"Vertiv","theme":"AI power / cooling","type":"Momentum","conv":4,"p":274.94,"buy":263.94,"stop":232.27,"sell":311.63,"why":"Vertiv: AI power / cooling. Accumulate near ~263.94, risk defined at ~232.27, first target ~311.63.","bull":["AI power / cooling exposure with a defined-risk setup off today's ~274.94 close.","Buy zone ~263.94; first target ~311.63.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/vrt/","Eden deep-dive: run VRT -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 212.58, or if the AI power / cooling thesis breaks.","thesis":"Vertiv - AI power / cooling. Buy near ~263.94, risk to ~232.27, first target ~311.63 (levels off today's ~274.94 close)."},
-  "SOFI": {"t":"SOFI","n":"SoFi","theme":"Fintech","type":"Speculative","conv":3,"p":18.25,"buy":17.52,"stop":14.37,"sell":21.2,"why":"SoFi: Fintech. Accumulate near ~17.52, risk defined at ~14.37, first target ~21.2.","bull":["Fintech exposure with a defined-risk setup off today's ~18.25 close.","Buy zone ~17.52; first target ~21.2.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/sofi/","Eden deep-dive: run SOFI -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 13.37, or if the Fintech thesis breaks.","thesis":"SoFi - Fintech. Buy near ~17.52, risk to ~14.37, first target ~21.2 (levels off today's ~18.25 close)."},
-  "SMCI": {"t":"SMCI","n":"Super Micro","theme":"AI hardware","type":"Speculative","conv":3,"p":29.545,"buy":28.36,"stop":23.26,"sell":36.92,"why":"Super Micro: AI hardware. Accumulate near ~28.36, risk defined at ~23.26, first target ~36.92.","bull":["AI hardware exposure with a defined-risk setup off today's ~29.545 close.","Buy zone ~28.36; first target ~36.92.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/smci/","Eden deep-dive: run SMCI -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 23.29, or if the AI hardware thesis breaks.","thesis":"Super Micro - AI hardware. Buy near ~28.36, risk to ~23.26, first target ~36.92 (levels off today's ~29.545 close)."},
-  "LULU": {"t":"LULU","n":"Lululemon","theme":"Consumer","type":"Value","conv":3,"p":123.29,"buy":118.36,"stop":106.52,"sell":140.27,"why":"Lululemon: Consumer. Accumulate near ~118.36, risk defined at ~106.52, first target ~140.27.","bull":["Consumer exposure with a defined-risk setup off today's ~123.29 close.","Buy zone ~118.36; first target ~140.27.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/lulu/","Eden deep-dive: run LULU -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 106.98, or if the Consumer thesis breaks.","thesis":"Lululemon - Consumer. Buy near ~118.36, risk to ~106.52, first target ~140.27 (levels off today's ~123.29 close)."},
-  "UA": {"t":"UA","n":"Under Armour","theme":"Consumer","type":"Speculative","conv":2,"p":6.54,"buy":6.28,"stop":5.15,"sell":8.44,"why":"Under Armour: Consumer. Accumulate near ~6.28, risk defined at ~5.15, first target ~8.44.","bull":["Consumer exposure with a defined-risk setup off today's ~6.54 close.","Buy zone ~6.28; first target ~8.44.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/ua/","Eden deep-dive: run UA -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 5.32, or if the Consumer thesis breaks.","thesis":"Under Armour - Consumer. Buy near ~6.28, risk to ~5.15, first target ~8.44 (levels off today's ~6.54 close)."},
-  "OPEN": {"t":"OPEN","n":"Opendoor","theme":"Real estate tech","type":"Speculative","conv":2,"p":3.53,"buy":3.39,"stop":2.78,"sell":4.9,"why":"Opendoor: Real estate tech. Accumulate near ~3.39, risk defined at ~2.78, first target ~4.9.","bull":["Real estate tech exposure with a defined-risk setup off today's ~3.53 close.","Buy zone ~3.39; first target ~4.9.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/open/","Eden deep-dive: run OPEN -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 3.09, or if the Real estate tech thesis breaks.","thesis":"Opendoor - Real estate tech. Buy near ~3.39, risk to ~2.78, first target ~4.9 (levels off today's ~3.53 close)."},
-  "ASML": {"t":"ASML","n":"ASML (ADR)","theme":"Semiconductors","type":"Momentum","conv":5,"p":1694.12,"buy":1626.36,"stop":1431.2,"sell":2101.41,"why":"ASML (ADR): Semiconductors. Accumulate near ~1626.36, risk defined at ~1431.2, first target ~2101.41.","bull":["Semiconductors exposure with a defined-risk setup off today's ~1694.12 close.","Buy zone ~1626.36; first target ~2101.41.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/asml/","Eden deep-dive: run ASML -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 1433.52, or if the Semiconductors thesis breaks.","thesis":"ASML (ADR) - Semiconductors. Buy near ~1626.36, risk to ~1431.2, first target ~2101.41 (levels off today's ~1694.12 close)."},
-  "CEG": {"t":"CEG","n":"Constellation Energy","theme":"AI power / nuclear","type":"Momentum","conv":4,"p":273.03,"buy":262.11,"stop":230.66,"sell":338.95,"why":"Constellation Energy: AI power / nuclear. Accumulate near ~262.11, risk defined at ~230.66, first target ~338.95.","bull":["AI power / nuclear exposure with a defined-risk setup off today's ~273.03 close.","Buy zone ~262.11; first target ~338.95.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/ceg/","Eden deep-dive: run CEG -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 231.22, or if the AI power / nuclear thesis breaks.","thesis":"Constellation Energy - AI power / nuclear. Buy near ~262.11, risk to ~230.66, first target ~338.95 (levels off today's ~273.03 close)."},
-  "SMR": {"t":"SMR","n":"NuScale Power","theme":"AI power / SMR","type":"Speculative","conv":2,"p":9.52,"buy":9.14,"stop":7.49,"sell":10.95,"why":"NuScale Power: AI power / SMR. Accumulate near ~9.14, risk defined at ~7.49, first target ~10.95.","bull":["AI power / SMR exposure with a defined-risk setup off today's ~9.52 close.","Buy zone ~9.14; first target ~10.95.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/smr/","Eden deep-dive: run SMR -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 6.9, or if the AI power / SMR thesis breaks.","thesis":"NuScale Power - AI power / SMR. Buy near ~9.14, risk to ~7.49, first target ~10.95 (levels off today's ~9.52 close)."},
-  "TE": {"t":"TE","n":"T1 Energy","theme":"Solar / energy","type":"Speculative","conv":2,"p":5.41,"buy":5.19,"stop":4.26,"sell":7.03,"why":"T1 Energy: Solar / energy. Accumulate near ~5.19, risk defined at ~4.26, first target ~7.03.","bull":["Solar / energy exposure with a defined-risk setup off today's ~5.41 close.","Buy zone ~5.19; first target ~7.03.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/te/","Eden deep-dive: run TE -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 3.42, or if the Solar / energy thesis breaks.","thesis":"T1 Energy - Solar / energy. Buy near ~5.19, risk to ~4.26, first target ~7.03 (levels off today's ~5.41 close)."},
-  "CRWV": {"t":"CRWV","n":"CoreWeave","theme":"AI cloud","type":"Speculative","conv":3,"p":86.84,"buy":83.37,"stop":68.36,"sell":93.3,"why":"CoreWeave: AI cloud. Accumulate near ~83.37, risk defined at ~68.36, first target ~93.3.","bull":["AI cloud exposure with a defined-risk setup off today's ~86.84 close.","Buy zone ~83.37; first target ~93.3.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/crwv/","Eden deep-dive: run CRWV -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 58.85, or if the AI cloud thesis breaks.","thesis":"CoreWeave - AI cloud. Buy near ~83.37, risk to ~68.36, first target ~93.3 (levels off today's ~86.84 close)."},
-  "APLD": {"t":"APLD","n":"Applied Digital","theme":"AI datacenter","type":"Speculative","conv":3,"p":28.92,"buy":27.76,"stop":22.76,"sell":35.61,"why":"Applied Digital: AI datacenter. Accumulate near ~27.76, risk defined at ~22.76, first target ~35.61.","bull":["AI datacenter exposure with a defined-risk setup off today's ~28.92 close.","Buy zone ~27.76; first target ~35.61.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/apld/","Eden deep-dive: run APLD -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 22.46, or if the AI datacenter thesis breaks.","thesis":"Applied Digital - AI datacenter. Buy near ~27.76, risk to ~22.76, first target ~35.61 (levels off today's ~28.92 close)."},
-  "NBIS": {"t":"NBIS","n":"Nebius","theme":"AI cloud","type":"Speculative","conv":3,"p":205.06,"buy":196.86,"stop":161.43,"sell":247.53,"why":"Nebius: AI cloud. Accumulate near ~196.86, risk defined at ~161.43, first target ~247.53.","bull":["AI cloud exposure with a defined-risk setup off today's ~205.06 close.","Buy zone ~196.86; first target ~247.53.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","Story / pre-profit or turnaround name - negative or thin net income; conviction capped and position kept small."],"v":["stockanalysis.com/stocks/nbis/","Eden deep-dive: run NBIS -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 156.14, or if the AI cloud thesis breaks.","thesis":"Nebius - AI cloud. Buy near ~196.86, risk to ~161.43, first target ~247.53 (levels off today's ~205.06 close)."},
-  "AMD": {"t":"AMD","n":"Advanced Micro Devices","theme":"Semiconductors","type":"Momentum","conv":4,"p":480.73,"buy":461.5,"stop":406.12,"sell":640.0,"why":"#2 AI accelerator + data-center CPUs; Goldman reset PT to $640, Bernstein doubled its target.","bull":["MI-series accelerator ramp + server-CPU share gains","Goldman $640 / doubled Bernstein target signal conviction","AI-capex cycle still routing spend to the #2 vendor"],"bear":["Trails NVDA in accelerator share and software moat","Premium multiple leaves no room for an earnings miss"],"v":["stockanalysis.com/stocks/amd/","Eden deep-dive: run AMD -> eden-dashboard.streamlit.app"],"inv":"Close below 414.3 on volume voids the setup.","thesis":"Own the clear #2 in AI compute into a broadening accelerator TAM; buy near support ~$457, risk to ~$414, target Goldman's $640."},
-  "AVGO": {"t":"AVGO","n":"Broadcom","theme":"AI infrastructure","type":"Momentum","conv":5,"p":419.17,"buy":402.4,"stop":354.11,"sell":502.17,"why":"Broadcom: AI infrastructure. Accumulate near ~402.4, risk defined at ~354.11, first target ~502.17.","bull":["AI infrastructure exposure with a defined-risk setup off today's ~419.17 close.","Buy zone ~402.4; first target ~502.17.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/avgo/","Eden deep-dive: run AVGO -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 342.57, or if the AI infrastructure thesis breaks.","thesis":"Broadcom - AI infrastructure. Buy near ~402.4, risk to ~354.11, first target ~502.17 (levels off today's ~419.17 close)."},
-  "PLTR": {"t":"PLTR","n":"Palantir","theme":"AI software / analytics","type":"Momentum","conv":4,"why":"Blew out Q2 (+93% revenue) and raised full-year guide to ~$8.15B; stock jumped ~29%. Commercial AIP adoption is the growth engine.","bull":["US commercial revenue inflecting on AIP adoption","Raised guidance and accelerating growth","Government backlog provides a stable base"],"bear":["Extreme valuation - prices in years of growth","Momentum unwind risk if any quarter disappoints"],"v":["AIP commercial ramp","Q2 +93% rev / raised guide","Eden deep-dive: run PLTR -> eden-dashboard.streamlit.app"],"inv":"High-beta AI-software momentum exposure.","thesis":"Own the AI-software momentum leader after a guide-raising blowout, sized small given the rich multiple.","p":154.62,"buy":148.44,"stop":130.63,"sell":182.45},
-  "GEV": {"t":"GEV","n":"GE Vernova","theme":"AI power / grid","type":"Momentum","conv":4,"p":1023.19,"buy":982.26,"stop":864.39,"sell":1277.47,"why":"GE Vernova: AI power / grid. Accumulate near ~982.26, risk defined at ~864.39, first target ~1277.47.","bull":["AI power / grid exposure with a defined-risk setup off today's ~1023.19 close.","Buy zone ~982.26; first target ~1277.47.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/gev/","Eden deep-dive: run GEV -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 871.46, or if the AI power / grid thesis breaks.","thesis":"GE Vernova - AI power / grid. Buy near ~982.26, risk to ~864.39, first target ~1277.47 (levels off today's ~1023.19 close)."},
-  "BSX": {"t":"BSX","n":"Boston Scientific","theme":"Healthcare / MedTech","type":"Core","conv":4,"why":"Steady double-digit grower with a fresh 4-insider ~$9.8M open-market cluster (Aug 3) - a rare large-cap insider vote of confidence.","bull":["FARAPULSE pulsed-field ablation gaining AFib share","Durable low-teens organic growth, expanding margins","Insider cluster buy at ~$48.66"],"bear":["~30x forward leaves little room for a miss","Hospital-capex and FX/tariff sensitivity"],"v":["FARAPULSE / WATCHMAN","Insider cluster Aug 3","Eden deep-dive: run BSX -> eden-dashboard.streamlit.app"],"inv":"Defensive-growth medtech with an insider tailwind.","thesis":"Quality compounder where insiders just bought in size; buy near support.","p":49.685,"buy":47.7,"stop":42.45,"sell":58.63},
-  "LLY": {"t":"LLY","n":"Eli Lilly","theme":"Healthcare / GLP-1","type":"Core","conv":5,"why":"GLP-1 (Mounjaro/Zepbound) franchise remains the dominant healthcare growth story with oral candidates extending the runway.","bull":["Massive, under-penetrated obesity/diabetes market","Oral GLP-1 pipeline widens the moat","Pricing power and manufacturing scale-up"],"bear":["Premium multiple; competition from Novo and new entrants","Supply/manufacturing execution risk"],"v":["Mounjaro/Zepbound ramp","Oral GLP-1 readouts","Eden deep-dive: run LLY -> eden-dashboard.streamlit.app"],"inv":"Large-cap healthcare growth anchor.","thesis":"Core GLP-1 compounder; accumulate on pullbacks toward support.","p":1190.39,"buy":1142.77,"stop":1017.07,"sell":1404.66},
-  "ANET": {"t":"ANET","n":"Arista Networks","theme":"AI networking","type":"Momentum","conv":4,"p":194.0,"buy":186.24,"stop":163.89,"sell":232.65,"why":"Arista Networks: AI networking. Accumulate near ~186.24, risk defined at ~163.89, first target ~232.65.","bull":["AI networking exposure with a defined-risk setup off today's ~194.0 close.","Buy zone ~186.24; first target ~232.65.","Levels refreshed on today's close (2026-08-06)."],"bear":["Cyclical / macro exposure can override company execution.","A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."],"v":["stockanalysis.com/stocks/anet/","Eden deep-dive: run ANET -> eden-dashboard.streamlit.app"],"inv":"Invalidated on a close below 158.71, or if the AI networking thesis breaks.","thesis":"Arista Networks - AI networking. Buy near ~186.24, risk to ~163.89, first target ~232.65 (levels off today's ~194.0 close)."}
+  "SKHY": {
+   "t": "SKHY",
+   "n": "SK Hynix (ADR)",
+   "theme": "Semiconductors",
+   "type": "Momentum",
+   "conv": 3,
+   "p": 137.91,
+   "buy": 132.39,
+   "stop": 121.36,
+   "sell": 162.73,
+   "why": "SK Hynix (ADR): Semiconductors. Accumulate near ~132.39, risk defined at ~121.36, first target ~162.73.",
+   "bull": [
+    "Semiconductors exposure with a defined-risk setup off the ~137.91 last close.",
+    "Buy zone ~132.39; first target ~162.73.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/skhy/",
+    "Eden deep-dive: run SKHY -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~121.36, or if the Semiconductors thesis breaks.",
+   "thesis": "SK Hynix (ADR) - Semiconductors. Buy near ~132.39, risk to ~121.36, first target ~162.73 (levels off the ~137.91 close)."
+  },
+  "OKTA": {
+   "t": "OKTA",
+   "n": "Okta",
+   "theme": "Cybersecurity",
+   "type": "Value",
+   "conv": 3,
+   "p": 148.32,
+   "buy": 142.39,
+   "stop": 133.49,
+   "sell": 175.02,
+   "why": "Okta: Cybersecurity. Accumulate near ~142.39, risk defined at ~133.49, first target ~175.02.",
+   "bull": [
+    "Cybersecurity exposure with a defined-risk setup off the ~148.32 last close.",
+    "Buy zone ~142.39; first target ~175.02.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/okta/",
+    "Eden deep-dive: run OKTA -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~133.49, or if the Cybersecurity thesis breaks.",
+   "thesis": "Okta - Cybersecurity. Buy near ~142.39, risk to ~133.49, first target ~175.02 (levels off the ~148.32 close)."
+  },
+  "LYFT": {
+   "t": "LYFT",
+   "n": "Lyft",
+   "theme": "Consumer / mobility",
+   "type": "Value",
+   "conv": 3,
+   "p": 17.46,
+   "buy": 16.76,
+   "stop": 15.71,
+   "sell": 20.6,
+   "why": "Lyft: Consumer / mobility. Accumulate near ~16.76, risk defined at ~15.71, first target ~20.6.",
+   "bull": [
+    "Consumer / mobility exposure with a defined-risk setup off the ~17.46 last close.",
+    "Buy zone ~16.76; first target ~20.6.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/lyft/",
+    "Eden deep-dive: run LYFT -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~15.71, or if the Consumer / mobility thesis breaks.",
+   "thesis": "Lyft - Consumer / mobility. Buy near ~16.76, risk to ~15.71, first target ~20.6 (levels off the ~17.46 close)."
+  },
+  "XOM": {
+   "t": "XOM",
+   "n": "Exxon Mobil",
+   "theme": "Energy",
+   "type": "Value",
+   "conv": 4,
+   "p": 153.04,
+   "buy": 146.92,
+   "stop": 137.74,
+   "sell": 180.59,
+   "why": "Exxon Mobil: Energy. Accumulate near ~146.92, risk defined at ~137.74, first target ~180.59.",
+   "bull": [
+    "Energy exposure with a defined-risk setup off the ~153.04 last close.",
+    "Buy zone ~146.92; first target ~180.59.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/xom/",
+    "Eden deep-dive: run XOM -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~137.74, or if the Energy thesis breaks.",
+   "thesis": "Exxon Mobil - Energy. Buy near ~146.92, risk to ~137.74, first target ~180.59 (levels off the ~153.04 close)."
+  },
+  "SLB": {
+   "t": "SLB",
+   "n": "Schlumberger",
+   "theme": "Energy services",
+   "type": "Value",
+   "conv": 3,
+   "p": 50.53,
+   "buy": 48.51,
+   "stop": 45.48,
+   "sell": 59.63,
+   "why": "Schlumberger: Energy services. Accumulate near ~48.51, risk defined at ~45.48, first target ~59.63.",
+   "bull": [
+    "Energy services exposure with a defined-risk setup off the ~50.53 last close.",
+    "Buy zone ~48.51; first target ~59.63.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/slb/",
+    "Eden deep-dive: run SLB -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~45.48, or if the Energy services thesis breaks.",
+   "thesis": "Schlumberger - Energy services. Buy near ~48.51, risk to ~45.48, first target ~59.63 (levels off the ~50.53 close)."
+  },
+  "JPM": {
+   "t": "JPM",
+   "n": "JPMorgan",
+   "theme": "Financials",
+   "type": "Core",
+   "conv": 4,
+   "p": 357.52,
+   "buy": 343.22,
+   "stop": 318.19,
+   "sell": 421.87,
+   "why": "JPMorgan: Financials. Accumulate near ~343.22, risk defined at ~318.19, first target ~421.87.",
+   "bull": [
+    "Financials exposure with a defined-risk setup off the ~357.52 last close.",
+    "Buy zone ~343.22; first target ~421.87.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/jpm/",
+    "Eden deep-dive: run JPM -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~318.19, or if the Financials thesis breaks.",
+   "thesis": "JPMorgan - Financials. Buy near ~343.22, risk to ~318.19, first target ~421.87 (levels off the ~357.52 close)."
+  },
+  "NOW": {
+   "t": "NOW",
+   "n": "ServiceNow",
+   "theme": "Software / AI",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 124.88,
+   "buy": 119.88,
+   "stop": 109.89,
+   "sell": 147.36,
+   "why": "ServiceNow: Software / AI. Accumulate near ~119.88, risk defined at ~109.89, first target ~147.36.",
+   "bull": [
+    "Software / AI exposure with a defined-risk setup off the ~124.88 last close.",
+    "Buy zone ~119.88; first target ~147.36.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/now/",
+    "Eden deep-dive: run NOW -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~109.89, or if the Software / AI thesis breaks.",
+   "thesis": "ServiceNow - Software / AI. Buy near ~119.88, risk to ~109.89, first target ~147.36 (levels off the ~124.88 close)."
+  },
+  "MU": {
+   "t": "MU",
+   "n": "Micron",
+   "theme": "Semiconductors",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 877.57,
+   "buy": 842.47,
+   "stop": 772.26,
+   "sell": 1035.53,
+   "why": "Micron: Semiconductors. Accumulate near ~842.47, risk defined at ~772.26, first target ~1035.53.",
+   "bull": [
+    "Semiconductors exposure with a defined-risk setup off the ~877.57 last close.",
+    "Buy zone ~842.47; first target ~1035.53.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/mu/",
+    "Eden deep-dive: run MU -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~772.26, or if the Semiconductors thesis breaks.",
+   "thesis": "Micron - Semiconductors. Buy near ~842.47, risk to ~772.26, first target ~1035.53 (levels off the ~877.57 close)."
+  },
+  "FISV": {
+   "t": "FISV",
+   "n": "Fiserv",
+   "theme": "Fintech",
+   "type": "Value",
+   "conv": 3,
+   "p": 52.41,
+   "buy": 50.31,
+   "stop": 47.17,
+   "sell": 61.84,
+   "why": "Fiserv: Fintech. Accumulate near ~50.31, risk defined at ~47.17, first target ~61.84.",
+   "bull": [
+    "Fintech exposure with a defined-risk setup off the ~52.41 last close.",
+    "Buy zone ~50.31; first target ~61.84.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/fisv/",
+    "Eden deep-dive: run FISV -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~47.17, or if the Fintech thesis breaks.",
+   "thesis": "Fiserv - Fintech. Buy near ~50.31, risk to ~47.17, first target ~61.84 (levels off the ~52.41 close)."
+  },
+  "SYM": {
+   "t": "SYM",
+   "n": "Symbotic",
+   "theme": "Warehouse automation",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 40.18,
+   "buy": 38.57,
+   "stop": 32.95,
+   "sell": 52.23,
+   "why": "Symbotic: Warehouse automation. Accumulate near ~38.57, risk defined at ~32.95, first target ~52.23.",
+   "bull": [
+    "Warehouse automation exposure with a defined-risk setup off the ~40.18 last close.",
+    "Buy zone ~38.57; first target ~52.23.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/sym/",
+    "Eden deep-dive: run SYM -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~32.95, or if the Warehouse automation thesis breaks.",
+   "thesis": "Symbotic - Warehouse automation. Buy near ~38.57, risk to ~32.95, first target ~52.23 (levels off the ~40.18 close)."
+  },
+  "MSFT": {
+   "t": "MSFT",
+   "n": "Microsoft",
+   "theme": "Software / AI",
+   "type": "Core",
+   "conv": 5,
+   "p": 499.99,
+   "buy": 479.99,
+   "stop": 444.99,
+   "sell": 589.99,
+   "why": "Microsoft: Software / AI. Accumulate near ~479.99, risk defined at ~444.99, first target ~589.99.",
+   "bull": [
+    "Software / AI exposure with a defined-risk setup off the ~499.99 last close.",
+    "Buy zone ~479.99; first target ~589.99.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/msft/",
+    "Eden deep-dive: run MSFT -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~444.99, or if the Software / AI thesis breaks.",
+   "thesis": "Microsoft - Software / AI. Buy near ~479.99, risk to ~444.99, first target ~589.99 (levels off the ~499.99 close)."
+  },
+  "MELI": {
+   "t": "MELI",
+   "n": "MercadoLibre",
+   "theme": "Consumer / LatAm",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 1820.69,
+   "buy": 1747.86,
+   "stop": 1602.21,
+   "sell": 2148.41,
+   "why": "MercadoLibre: Consumer / LatAm. Accumulate near ~1747.86, risk defined at ~1602.21, first target ~2148.41.",
+   "bull": [
+    "Consumer / LatAm exposure with a defined-risk setup off the ~1820.69 last close.",
+    "Buy zone ~1747.86; first target ~2148.41.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/meli/",
+    "Eden deep-dive: run MELI -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~1602.21, or if the Consumer / LatAm thesis breaks.",
+   "thesis": "MercadoLibre - Consumer / LatAm. Buy near ~1747.86, risk to ~1602.21, first target ~2148.41 (levels off the ~1820.69 close)."
+  },
+  "HTZ": {
+   "t": "HTZ",
+   "n": "Hertz",
+   "theme": "Consumer / autos",
+   "type": "Speculative",
+   "conv": 2,
+   "p": 2.27,
+   "buy": 2.18,
+   "stop": 1.86,
+   "sell": 2.95,
+   "why": "Hertz: Consumer / autos. Accumulate near ~2.18, risk defined at ~1.86, first target ~2.95.",
+   "bull": [
+    "Consumer / autos exposure with a defined-risk setup off the ~2.27 last close.",
+    "Buy zone ~2.18; first target ~2.95.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/htz/",
+    "Eden deep-dive: run HTZ -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~1.86, or if the Consumer / autos thesis breaks.",
+   "thesis": "Hertz - Consumer / autos. Buy near ~2.18, risk to ~1.86, first target ~2.95 (levels off the ~2.27 close)."
+  },
+  "GS": {
+   "t": "GS",
+   "n": "Goldman Sachs",
+   "theme": "Financials",
+   "type": "Core",
+   "conv": 4,
+   "p": 1039.61,
+   "buy": 998.03,
+   "stop": 925.25,
+   "sell": 1226.74,
+   "why": "Goldman Sachs: Financials. Accumulate near ~998.03, risk defined at ~925.25, first target ~1226.74.",
+   "bull": [
+    "Financials exposure with a defined-risk setup off the ~1039.61 last close.",
+    "Buy zone ~998.03; first target ~1226.74.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/gs/",
+    "Eden deep-dive: run GS -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~925.25, or if the Financials thesis breaks.",
+   "thesis": "Goldman Sachs - Financials. Buy near ~998.03, risk to ~925.25, first target ~1226.74 (levels off the ~1039.61 close)."
+  },
+  "FSLR": {
+   "t": "FSLR",
+   "n": "First Solar",
+   "theme": "Renewables",
+   "type": "Value",
+   "conv": 4,
+   "p": 250.05,
+   "buy": 240.05,
+   "stop": 225.05,
+   "sell": 295.06,
+   "why": "First Solar: Renewables. Accumulate near ~240.05, risk defined at ~225.05, first target ~295.06.",
+   "bull": [
+    "Renewables exposure with a defined-risk setup off the ~250.05 last close.",
+    "Buy zone ~240.05; first target ~295.06.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/fslr/",
+    "Eden deep-dive: run FSLR -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~225.05, or if the Renewables thesis breaks.",
+   "thesis": "First Solar - Renewables. Buy near ~240.05, risk to ~225.05, first target ~295.06 (levels off the ~250.05 close)."
+  },
+  "ETN": {
+   "t": "ETN",
+   "n": "Eaton",
+   "theme": "Industrials",
+   "type": "Core",
+   "conv": 4,
+   "p": 448.68,
+   "buy": 430.73,
+   "stop": 399.33,
+   "sell": 529.44,
+   "why": "Eaton: Industrials. Accumulate near ~430.73, risk defined at ~399.33, first target ~529.44.",
+   "bull": [
+    "Industrials exposure with a defined-risk setup off the ~448.68 last close.",
+    "Buy zone ~430.73; first target ~529.44.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/etn/",
+    "Eden deep-dive: run ETN -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~399.33, or if the Industrials thesis breaks.",
+   "thesis": "Eaton - Industrials. Buy near ~430.73, risk to ~399.33, first target ~529.44 (levels off the ~448.68 close)."
+  },
+  "VST": {
+   "t": "VST",
+   "n": "Vistra",
+   "theme": "AI power",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 140.59,
+   "buy": 134.97,
+   "stop": 123.72,
+   "sell": 165.9,
+   "why": "Vistra: AI power. Accumulate near ~134.97, risk defined at ~123.72, first target ~165.9.",
+   "bull": [
+    "AI power exposure with a defined-risk setup off the ~140.59 last close.",
+    "Buy zone ~134.97; first target ~165.9.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/vst/",
+    "Eden deep-dive: run VST -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~123.72, or if the AI power thesis breaks.",
+   "thesis": "Vistra - AI power. Buy near ~134.97, risk to ~123.72, first target ~165.9 (levels off the ~140.59 close)."
+  },
+  "OSCR": {
+   "t": "OSCR",
+   "n": "Oscar Health",
+   "theme": "Healthcare",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 27.9,
+   "buy": 26.78,
+   "stop": 22.88,
+   "sell": 36.27,
+   "why": "Oscar Health: Healthcare. Accumulate near ~26.78, risk defined at ~22.88, first target ~36.27.",
+   "bull": [
+    "Healthcare exposure with a defined-risk setup off the ~27.9 last close.",
+    "Buy zone ~26.78; first target ~36.27.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/oscr/",
+    "Eden deep-dive: run OSCR -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~22.88, or if the Healthcare thesis breaks.",
+   "thesis": "Oscar Health - Healthcare. Buy near ~26.78, risk to ~22.88, first target ~36.27 (levels off the ~27.9 close)."
+  },
+  "NVDA": {
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "theme": "AI infrastructure",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 223.96,
+   "buy": 215.0,
+   "stop": 197.08,
+   "sell": 264.27,
+   "why": "NVIDIA: AI infrastructure. Accumulate near ~215.0, risk defined at ~197.08, first target ~264.27.",
+   "bull": [
+    "AI infrastructure exposure with a defined-risk setup off the ~223.96 last close.",
+    "Buy zone ~215.0; first target ~264.27.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/nvda/",
+    "Eden deep-dive: run NVDA -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~197.08, or if the AI infrastructure thesis breaks.",
+   "thesis": "NVIDIA - AI infrastructure. Buy near ~215.0, risk to ~197.08, first target ~264.27 (levels off the ~223.96 close)."
+  },
+  "NFLX": {
+   "t": "NFLX",
+   "n": "Netflix",
+   "theme": "Media / streaming",
+   "type": "Core",
+   "conv": 4,
+   "p": 74.14,
+   "buy": 71.17,
+   "stop": 65.98,
+   "sell": 87.49,
+   "why": "Netflix: Media / streaming. Accumulate near ~71.17, risk defined at ~65.98, first target ~87.49.",
+   "bull": [
+    "Media / streaming exposure with a defined-risk setup off the ~74.14 last close.",
+    "Buy zone ~71.17; first target ~87.49.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/nflx/",
+    "Eden deep-dive: run NFLX -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~65.98, or if the Media / streaming thesis breaks.",
+   "thesis": "Netflix - Media / streaming. Buy near ~71.17, risk to ~65.98, first target ~87.49 (levels off the ~74.14 close)."
+  },
+  "NCLH": {
+   "t": "NCLH",
+   "n": "Norwegian Cruise Line",
+   "theme": "Travel",
+   "type": "Value",
+   "conv": 3,
+   "p": 19.25,
+   "buy": 18.48,
+   "stop": 17.32,
+   "sell": 22.71,
+   "why": "Norwegian Cruise Line: Travel. Accumulate near ~18.48, risk defined at ~17.32, first target ~22.71.",
+   "bull": [
+    "Travel exposure with a defined-risk setup off the ~19.25 last close.",
+    "Buy zone ~18.48; first target ~22.71.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/nclh/",
+    "Eden deep-dive: run NCLH -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~17.32, or if the Travel thesis breaks.",
+   "thesis": "Norwegian Cruise Line - Travel. Buy near ~18.48, risk to ~17.32, first target ~22.71 (levels off the ~19.25 close)."
+  },
+  "CRWD": {
+   "t": "CRWD",
+   "n": "CrowdStrike",
+   "theme": "Cybersecurity",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 214.42,
+   "buy": 205.84,
+   "stop": 188.69,
+   "sell": 253.02,
+   "why": "CrowdStrike: Cybersecurity. Accumulate near ~205.84, risk defined at ~188.69, first target ~253.02.",
+   "bull": [
+    "Cybersecurity exposure with a defined-risk setup off the ~214.42 last close.",
+    "Buy zone ~205.84; first target ~253.02.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/crwd/",
+    "Eden deep-dive: run CRWD -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~188.69, or if the Cybersecurity thesis breaks.",
+   "thesis": "CrowdStrike - Cybersecurity. Buy near ~205.84, risk to ~188.69, first target ~253.02 (levels off the ~214.42 close)."
+  },
+  "CCJ": {
+   "t": "CCJ",
+   "n": "Cameco",
+   "theme": "Uranium",
+   "type": "Core",
+   "conv": 4,
+   "p": 97.39,
+   "buy": 93.49,
+   "stop": 86.68,
+   "sell": 114.92,
+   "why": "Cameco: Uranium. Accumulate near ~93.49, risk defined at ~86.68, first target ~114.92.",
+   "bull": [
+    "Uranium exposure with a defined-risk setup off the ~97.39 last close.",
+    "Buy zone ~93.49; first target ~114.92.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/ccj/",
+    "Eden deep-dive: run CCJ -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~86.68, or if the Uranium thesis breaks.",
+   "thesis": "Cameco - Uranium. Buy near ~93.49, risk to ~86.68, first target ~114.92 (levels off the ~97.39 close)."
+  },
+  "VRT": {
+   "t": "VRT",
+   "n": "Vertiv",
+   "theme": "AI power / cooling",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 272.4,
+   "buy": 261.5,
+   "stop": 239.71,
+   "sell": 321.43,
+   "why": "Vertiv: AI power / cooling. Accumulate near ~261.5, risk defined at ~239.71, first target ~321.43.",
+   "bull": [
+    "AI power / cooling exposure with a defined-risk setup off the ~272.4 last close.",
+    "Buy zone ~261.5; first target ~321.43.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/vrt/",
+    "Eden deep-dive: run VRT -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~239.71, or if the AI power / cooling thesis breaks.",
+   "thesis": "Vertiv - AI power / cooling. Buy near ~261.5, risk to ~239.71, first target ~321.43 (levels off the ~272.4 close)."
+  },
+  "SOFI": {
+   "t": "SOFI",
+   "n": "SoFi",
+   "theme": "Fintech",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 18.38,
+   "buy": 17.64,
+   "stop": 15.07,
+   "sell": 23.89,
+   "why": "SoFi: Fintech. Accumulate near ~17.64, risk defined at ~15.07, first target ~23.89.",
+   "bull": [
+    "Fintech exposure with a defined-risk setup off the ~18.38 last close.",
+    "Buy zone ~17.64; first target ~23.89.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/sofi/",
+    "Eden deep-dive: run SOFI -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~15.07, or if the Fintech thesis breaks.",
+   "thesis": "SoFi - Fintech. Buy near ~17.64, risk to ~15.07, first target ~23.89 (levels off the ~18.38 close)."
+  },
+  "SMCI": {
+   "t": "SMCI",
+   "n": "Super Micro",
+   "theme": "AI hardware",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 31.13,
+   "buy": 29.88,
+   "stop": 25.53,
+   "sell": 40.47,
+   "why": "Super Micro: AI hardware. Accumulate near ~29.88, risk defined at ~25.53, first target ~40.47.",
+   "bull": [
+    "AI hardware exposure with a defined-risk setup off the ~31.13 last close.",
+    "Buy zone ~29.88; first target ~40.47.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/smci/",
+    "Eden deep-dive: run SMCI -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~25.53, or if the AI hardware thesis breaks.",
+   "thesis": "Super Micro - AI hardware. Buy near ~29.88, risk to ~25.53, first target ~40.47 (levels off the ~31.13 close)."
+  },
+  "LULU": {
+   "t": "LULU",
+   "n": "Lululemon",
+   "theme": "Consumer",
+   "type": "Value",
+   "conv": 3,
+   "p": 128.58,
+   "buy": 123.44,
+   "stop": 115.72,
+   "sell": 151.72,
+   "why": "Lululemon: Consumer. Accumulate near ~123.44, risk defined at ~115.72, first target ~151.72.",
+   "bull": [
+    "Consumer exposure with a defined-risk setup off the ~128.58 last close.",
+    "Buy zone ~123.44; first target ~151.72.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/lulu/",
+    "Eden deep-dive: run LULU -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~115.72, or if the Consumer thesis breaks.",
+   "thesis": "Lululemon - Consumer. Buy near ~123.44, risk to ~115.72, first target ~151.72 (levels off the ~128.58 close)."
+  },
+  "UA": {
+   "t": "UA",
+   "n": "Under Armour",
+   "theme": "Consumer",
+   "type": "Speculative",
+   "conv": 2,
+   "p": 5.93,
+   "buy": 5.69,
+   "stop": 4.86,
+   "sell": 7.71,
+   "why": "Under Armour: Consumer. Accumulate near ~5.69, risk defined at ~4.86, first target ~7.71.",
+   "bull": [
+    "Consumer exposure with a defined-risk setup off the ~5.93 last close.",
+    "Buy zone ~5.69; first target ~7.71.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/ua/",
+    "Eden deep-dive: run UA -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~4.86, or if the Consumer thesis breaks.",
+   "thesis": "Under Armour - Consumer. Buy near ~5.69, risk to ~4.86, first target ~7.71 (levels off the ~5.93 close)."
+  },
+  "OPEN": {
+   "t": "OPEN",
+   "n": "Opendoor",
+   "theme": "Real estate tech",
+   "type": "Speculative",
+   "conv": 2,
+   "p": 3.48,
+   "buy": 3.35,
+   "stop": 2.86,
+   "sell": 4.53,
+   "why": "Opendoor: Real estate tech. Accumulate near ~3.35, risk defined at ~2.86, first target ~4.53.",
+   "bull": [
+    "Real estate tech exposure with a defined-risk setup off the ~3.48 last close.",
+    "Buy zone ~3.35; first target ~4.53.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/open/",
+    "Eden deep-dive: run OPEN -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~2.86, or if the Real estate tech thesis breaks.",
+   "thesis": "Opendoor - Real estate tech. Buy near ~3.35, risk to ~2.86, first target ~4.53 (levels off the ~3.48 close)."
+  },
+  "ASML": {
+   "t": "ASML",
+   "n": "ASML (ADR)",
+   "theme": "Semiconductors",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 1740.99,
+   "buy": 1671.35,
+   "stop": 1532.07,
+   "sell": 2054.37,
+   "why": "ASML (ADR): Semiconductors. Accumulate near ~1671.35, risk defined at ~1532.07, first target ~2054.37.",
+   "bull": [
+    "Semiconductors exposure with a defined-risk setup off the ~1740.99 last close.",
+    "Buy zone ~1671.35; first target ~2054.37.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/asml/",
+    "Eden deep-dive: run ASML -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~1532.07, or if the Semiconductors thesis breaks.",
+   "thesis": "ASML (ADR) - Semiconductors. Buy near ~1671.35, risk to ~1532.07, first target ~2054.37 (levels off the ~1740.99 close)."
+  },
+  "CEG": {
+   "t": "CEG",
+   "n": "Constellation Energy",
+   "theme": "AI power / nuclear",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 269.89,
+   "buy": 259.09,
+   "stop": 237.5,
+   "sell": 318.47,
+   "why": "Constellation Energy: AI power / nuclear. Accumulate near ~259.09, risk defined at ~237.5, first target ~318.47.",
+   "bull": [
+    "AI power / nuclear exposure with a defined-risk setup off the ~269.89 last close.",
+    "Buy zone ~259.09; first target ~318.47.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/ceg/",
+    "Eden deep-dive: run CEG -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~237.5, or if the AI power / nuclear thesis breaks.",
+   "thesis": "Constellation Energy - AI power / nuclear. Buy near ~259.09, risk to ~237.5, first target ~318.47 (levels off the ~269.89 close)."
+  },
+  "SMR": {
+   "t": "SMR",
+   "n": "NuScale Power",
+   "theme": "AI power / SMR",
+   "type": "Speculative",
+   "conv": 2,
+   "p": 9.82,
+   "buy": 9.43,
+   "stop": 8.05,
+   "sell": 12.77,
+   "why": "NuScale Power: AI power / SMR. Accumulate near ~9.43, risk defined at ~8.05, first target ~12.77.",
+   "bull": [
+    "AI power / SMR exposure with a defined-risk setup off the ~9.82 last close.",
+    "Buy zone ~9.43; first target ~12.77.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/smr/",
+    "Eden deep-dive: run SMR -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~8.05, or if the AI power / SMR thesis breaks.",
+   "thesis": "NuScale Power - AI power / SMR. Buy near ~9.43, risk to ~8.05, first target ~12.77 (levels off the ~9.82 close)."
+  },
+  "TE": {
+   "t": "TE",
+   "n": "T1 Energy",
+   "theme": "Solar / energy",
+   "type": "Speculative",
+   "conv": 2,
+   "p": 5.85,
+   "buy": 5.62,
+   "stop": 4.8,
+   "sell": 7.6,
+   "why": "T1 Energy: Solar / energy. Accumulate near ~5.62, risk defined at ~4.8, first target ~7.6.",
+   "bull": [
+    "Solar / energy exposure with a defined-risk setup off the ~5.85 last close.",
+    "Buy zone ~5.62; first target ~7.6.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/te/",
+    "Eden deep-dive: run TE -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~4.8, or if the Solar / energy thesis breaks.",
+   "thesis": "T1 Energy - Solar / energy. Buy near ~5.62, risk to ~4.8, first target ~7.6 (levels off the ~5.85 close)."
+  },
+  "CRWV": {
+   "t": "CRWV",
+   "n": "CoreWeave",
+   "theme": "AI cloud",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 90.67,
+   "buy": 87.04,
+   "stop": 74.35,
+   "sell": 117.87,
+   "why": "CoreWeave: AI cloud. Accumulate near ~87.04, risk defined at ~74.35, first target ~117.87.",
+   "bull": [
+    "AI cloud exposure with a defined-risk setup off the ~90.67 last close.",
+    "Buy zone ~87.04; first target ~117.87.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/crwv/",
+    "Eden deep-dive: run CRWV -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~74.35, or if the AI cloud thesis breaks.",
+   "thesis": "CoreWeave - AI cloud. Buy near ~87.04, risk to ~74.35, first target ~117.87 (levels off the ~90.67 close)."
+  },
+  "APLD": {
+   "t": "APLD",
+   "n": "Applied Digital",
+   "theme": "AI datacenter",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 29.22,
+   "buy": 28.05,
+   "stop": 23.96,
+   "sell": 37.99,
+   "why": "Applied Digital: AI datacenter. Accumulate near ~28.05, risk defined at ~23.96, first target ~37.99.",
+   "bull": [
+    "AI datacenter exposure with a defined-risk setup off the ~29.22 last close.",
+    "Buy zone ~28.05; first target ~37.99.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/apld/",
+    "Eden deep-dive: run APLD -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~23.96, or if the AI datacenter thesis breaks.",
+   "thesis": "Applied Digital - AI datacenter. Buy near ~28.05, risk to ~23.96, first target ~37.99 (levels off the ~29.22 close)."
+  },
+  "NBIS": {
+   "t": "NBIS",
+   "n": "Nebius",
+   "theme": "AI cloud",
+   "type": "Speculative",
+   "conv": 3,
+   "p": 187.97,
+   "buy": 180.45,
+   "stop": 154.14,
+   "sell": 244.36,
+   "why": "Nebius: AI cloud. Accumulate near ~180.45, risk defined at ~154.14, first target ~244.36.",
+   "bull": [
+    "AI cloud exposure with a defined-risk setup off the ~187.97 last close.",
+    "Buy zone ~180.45; first target ~244.36.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "Story/high-beta name - not yet consistently profitable; keep size small."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/nbis/",
+    "Eden deep-dive: run NBIS -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~154.14, or if the AI cloud thesis breaks.",
+   "thesis": "Nebius - AI cloud. Buy near ~180.45, risk to ~154.14, first target ~244.36 (levels off the ~187.97 close)."
+  },
+  "AMD": {
+   "t": "AMD",
+   "n": "Advanced Micro Devices",
+   "theme": "Semiconductors",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 483.36,
+   "buy": 464.03,
+   "stop": 425.36,
+   "sell": 570.36,
+   "why": "Advanced Micro Devices: Semiconductors. Accumulate near ~464.03, risk defined at ~425.36, first target ~570.36.",
+   "bull": [
+    "Semiconductors exposure with a defined-risk setup off the ~483.36 last close.",
+    "Buy zone ~464.03; first target ~570.36.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Trails NVDA in accelerator share and software moat",
+    "Premium multiple leaves no room for an earnings miss"
+   ],
+   "v": [
+    "stockanalysis.com/stocks/amd/",
+    "Eden deep-dive: run AMD -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~425.36, or if the Semiconductors thesis breaks.",
+   "thesis": "Advanced Micro Devices - Semiconductors. Buy near ~464.03, risk to ~425.36, first target ~570.36 (levels off the ~483.36 close)."
+  },
+  "AVGO": {
+   "t": "AVGO",
+   "n": "Broadcom",
+   "theme": "AI infrastructure",
+   "type": "Momentum",
+   "conv": 5,
+   "p": 427.76,
+   "buy": 410.65,
+   "stop": 376.43,
+   "sell": 504.76,
+   "why": "Broadcom: AI infrastructure. Accumulate near ~410.65, risk defined at ~376.43, first target ~504.76.",
+   "bull": [
+    "AI infrastructure exposure with a defined-risk setup off the ~427.76 last close.",
+    "Buy zone ~410.65; first target ~504.76.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/avgo/",
+    "Eden deep-dive: run AVGO -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~376.43, or if the AI infrastructure thesis breaks.",
+   "thesis": "Broadcom - AI infrastructure. Buy near ~410.65, risk to ~376.43, first target ~504.76 (levels off the ~427.76 close)."
+  },
+  "PLTR": {
+   "t": "PLTR",
+   "n": "Palantir",
+   "theme": "AI software / analytics",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 172.01,
+   "buy": 165.13,
+   "stop": 151.37,
+   "sell": 202.97,
+   "why": "Palantir: AI software / analytics. Accumulate near ~165.13, risk defined at ~151.37, first target ~202.97.",
+   "bull": [
+    "AI software / analytics exposure with a defined-risk setup off the ~172.01 last close.",
+    "Buy zone ~165.13; first target ~202.97.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Extreme valuation - prices in years of growth",
+    "Momentum unwind risk if any quarter disappoints"
+   ],
+   "v": [
+    "AIP commercial ramp",
+    "Q2 +93% rev / raised guide",
+    "Eden deep-dive: run PLTR -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~151.37, or if the AI software / analytics thesis breaks.",
+   "thesis": "Palantir - AI software / analytics. Buy near ~165.13, risk to ~151.37, first target ~202.97 (levels off the ~172.01 close)."
+  },
+  "GEV": {
+   "t": "GEV",
+   "n": "GE Vernova",
+   "theme": "AI power / grid",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 990.32,
+   "buy": 950.71,
+   "stop": 871.48,
+   "sell": 1168.58,
+   "why": "GE Vernova: AI power / grid. Accumulate near ~950.71, risk defined at ~871.48, first target ~1168.58.",
+   "bull": [
+    "AI power / grid exposure with a defined-risk setup off the ~990.32 last close.",
+    "Buy zone ~950.71; first target ~1168.58.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/gev/",
+    "Eden deep-dive: run GEV -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~871.48, or if the AI power / grid thesis breaks.",
+   "thesis": "GE Vernova - AI power / grid. Buy near ~950.71, risk to ~871.48, first target ~1168.58 (levels off the ~990.32 close)."
+  },
+  "BSX": {
+   "t": "BSX",
+   "n": "Boston Scientific",
+   "theme": "Healthcare / MedTech",
+   "type": "Core",
+   "conv": 4,
+   "p": 49.31,
+   "buy": 47.34,
+   "stop": 43.89,
+   "sell": 58.19,
+   "why": "Boston Scientific: Healthcare / MedTech. Accumulate near ~47.34, risk defined at ~43.89, first target ~58.19.",
+   "bull": [
+    "Healthcare / MedTech exposure with a defined-risk setup off the ~49.31 last close.",
+    "Buy zone ~47.34; first target ~58.19.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "~30x forward leaves little room for a miss",
+    "Hospital-capex and FX/tariff sensitivity"
+   ],
+   "v": [
+    "FARAPULSE / WATCHMAN",
+    "Insider cluster Aug 3",
+    "Eden deep-dive: run BSX -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~43.89, or if the Healthcare / MedTech thesis breaks.",
+   "thesis": "Boston Scientific - Healthcare / MedTech. Buy near ~47.34, risk to ~43.89, first target ~58.19 (levels off the ~49.31 close)."
+  },
+  "LLY": {
+   "t": "LLY",
+   "n": "Eli Lilly",
+   "theme": "Healthcare / GLP-1",
+   "type": "Core",
+   "conv": 5,
+   "p": 1185.71,
+   "buy": 1138.28,
+   "stop": 1055.28,
+   "sell": 1399.14,
+   "why": "Eli Lilly: Healthcare / GLP-1. Accumulate near ~1138.28, risk defined at ~1055.28, first target ~1399.14.",
+   "bull": [
+    "Healthcare / GLP-1 exposure with a defined-risk setup off the ~1185.71 last close.",
+    "Buy zone ~1138.28; first target ~1399.14.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Premium multiple; competition from Novo and new entrants",
+    "Supply/manufacturing execution risk"
+   ],
+   "v": [
+    "Mounjaro/Zepbound ramp",
+    "Oral GLP-1 readouts",
+    "Eden deep-dive: run LLY -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~1055.28, or if the Healthcare / GLP-1 thesis breaks.",
+   "thesis": "Eli Lilly - Healthcare / GLP-1. Buy near ~1138.28, risk to ~1055.28, first target ~1399.14 (levels off the ~1185.71 close)."
+  },
+  "ANET": {
+   "t": "ANET",
+   "n": "Arista Networks",
+   "theme": "AI networking",
+   "type": "Momentum",
+   "conv": 4,
+   "p": 188.67,
+   "buy": 181.12,
+   "stop": 166.03,
+   "sell": 222.63,
+   "why": "Arista Networks: AI networking. Accumulate near ~181.12, risk defined at ~166.03, first target ~222.63.",
+   "bull": [
+    "AI networking exposure with a defined-risk setup off the ~188.67 last close.",
+    "Buy zone ~181.12; first target ~222.63.",
+    "Levels refreshed on the Aug 7 close."
+   ],
+   "bear": [
+    "Cyclical / macro exposure can override company execution.",
+    "A market-wide AI-capex/valuation reset would pressure the multiple regardless of the fundamentals."
+   ],
+   "v": [
+    "stockanalysis.com/stocks/anet/",
+    "Eden deep-dive: run ANET -> eden-dashboard.streamlit.app"
+   ],
+   "inv": "Invalidated on a close below ~166.03, or if the AI networking thesis breaks.",
+   "thesis": "Arista Networks - AI networking. Buy near ~181.12, risk to ~166.03, first target ~222.63 (levels off the ~188.67 close)."
+  }
  }
 }

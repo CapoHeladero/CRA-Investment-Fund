@@ -1,41 +1,36 @@
 {
- "asof": "2026-08-06",
+ "asof": "2026-08-08",
  "scope": "whole-market",
  "items": [
   {
-   "sev": "high",
+   "sev": "med",
    "title": "AI-capex concentration",
-   "detail": "Index gains still lean on a handful of mega-cap AI names funding each other's capex. AMD (+107% data-center) and PLTR (+29%) show the theme is intact, but any crack in the loop drags the whole tape."
+   "detail": "Mega-cap leadership rests on an unprecedented AI-capex cycle; any 'circular-financing' or hyperscaler-spend derating would hit the whole complex at once."
   },
   {
    "sev": "med",
-   "title": "July jobs report Fri Aug 7",
-   "detail": "Consensus ~87.5K. A soft print revives Sahm-rule/labor-cooling worries; a hot one hardens the Fed's no-cut stance. Biggest near-term swing factor."
+   "title": "Labor market cooling",
+   "detail": "July payrolls fell (job losses); good for rate-cut odds now, but a fast-softening labor market is a growth/earnings risk if it continues."
   },
   {
    "sev": "med",
-   "title": "Hawkish Fed split",
-   "detail": "The Jul 29 hold was 9-3 with three dissents FOR a hike; sticky inflation keeps cuts off the table and rate risk two-sided at 3.50-3.75%."
-  },
-  {
-   "sev": "med",
-   "title": "Rotation / narrow leadership",
-   "detail": "Aug 5 saw mega-cap tech give back while Dow set a record - money rotating into industrials/materials/energy. Healthy breadth, but a leadership handoff can be choppy."
-  },
-  {
-   "sev": "med",
-   "title": "Tariff overhang",
-   "detail": "Early-August tariff headlines on major exporters remain a slow-burn margin/supply-chain risk into the back half of earnings season."
+   "title": "Rate-path repricing",
+   "detail": "2Y at 4.18% vs an effective fed funds of 3.63% and cuts priced in - a hotter CPI mid-August could snap yields higher and pressure multiples."
   },
   {
    "sev": "low",
-   "title": "Volatility complacency",
-   "detail": "VIX 15.81 into a jobs-report Friday leaves little cushion if the print or tariffs disappoint."
+   "title": "Complacency at record highs",
+   "detail": "VIX at 14.9 with indices at all-time highs leaves little cushion; positioning is stretched and pullbacks can be sharp."
   },
   {
    "sev": "low",
-   "title": "Oil easing",
-   "detail": "Brent ~$79 (down from ~$88) on Hormuz shipping hopes - a mild disinflation tailwind but a headwind for energy names."
+   "title": "Oil / geopolitics",
+   "detail": "Brent near $82 with lingering US-Iran tension; an energy spike would lift inflation and squeeze margins."
+  },
+  {
+   "sev": "low",
+   "title": "Narrow breadth",
+   "detail": "Leadership still concentrated in AI/semis and power names; a rotation out of mega-cap tech would drag the cap-weighted indices."
   }
  ]
 }

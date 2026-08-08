@@ -1,29 +1,188 @@
 {
- "asof": "2026-08-06",
- "method": "Composite grade (0-100) blending momentum, fundamentals/FCF, franchise quality and catalyst risk. Top = highest-conviction; worst = weakest/riskiest.",
+ "asof": "2026-08-08",
+ "method": "Composite of momentum, earnings trend, balance-sheet quality and reverse-DCF reasonableness; 0-100, letter grade. Top = highest-conviction quality/momentum; worst = weakest fundamentals/momentum.",
  "names": [
-  {"t":"NVDA","n":"NVIDIA","sector":"Semis","grade":"A","score":93.0,"tier":"top","note":"AI-infra bellwether back above $220; still the demand anchor."},
-  {"t":"AMD","n":"Advanced Micro Devices","sector":"Semis","grade":"A","score":91.0,"tier":"top","note":"Q2 data-center rev +107%; Q3 guide $12.7-13.3B - momentum + earnings."},
-  {"t":"PLTR","n":"Palantir","sector":"Software","grade":"A","score":90.0,"tier":"top","note":"+29% on +93% rev and raised guide; best momentum in software."},
-  {"t":"MSFT","n":"Microsoft","sector":"Software","grade":"A","score":90.0,"tier":"top","note":"Copilot/Azure compounder; steady FCF and franchise quality."},
-  {"t":"AVGO","n":"Broadcom","sector":"Semis","grade":"A","score":89.0,"tier":"top","note":"Custom-silicon + networking; core AI-infra beneficiary."},
-  {"t":"GEV","n":"GE Vernova","sector":"AI-Power","grade":"A","score":89.0,"tier":"top","note":"Grid/turbine order book riding the data-center power build."},
-  {"t":"CEG","n":"Constellation Energy","sector":"AI-Power","grade":"A","score":88.0,"tier":"top","note":"Nuclear baseload with data-center PPAs; clean power scarcity bid."},
-  {"t":"MU","n":"Micron","sector":"Semis","grade":"A","score":87.0,"tier":"top","note":"HBM tightness; huge FCF - the memory leg of AI."},
-  {"t":"JPM","n":"JPMorgan","sector":"Financials","grade":"A","score":86.0,"tier":"top","note":"Best-in-class bank; benefits from steep-ish curve and capital-markets thaw."},
-  {"t":"GS","n":"Goldman Sachs","sector":"Financials","grade":"A","score":85.0,"tier":"top","note":"Capital-markets/M&A rebound; record book."},
-  {"t":"LLY","n":"Eli Lilly","sector":"Healthcare","grade":"A","score":85.0,"tier":"top","note":"GLP-1 franchise still the healthcare growth engine."},
-  {"t":"BSX","n":"Boston Scientific","sector":"Healthcare","grade":"A","score":84.0,"tier":"top","note":"Double-digit grower + fresh 4-insider $9.8M cluster."},
-  {"t":"MELI","n":"MercadoLibre","sector":"Consumer/LatAm","grade":"A","score":84.0,"tier":"top","note":"LatAm e-commerce + fintech flywheel; premium grower."},
-  {"t":"ETN","n":"Eaton","sector":"Industrials","grade":"A","score":83.0,"tier":"top","note":"Electrification/datacenter demand; Evercore upgrade to $502."},
-  {"t":"VRT","n":"Vertiv","sector":"AI-Power","grade":"B","score":82.0,"tier":"top","note":"Data-center power/cooling; high beta to the AI-capex cycle."}
+  {
+   "t": "NVDA",
+   "n": "NVIDIA",
+   "sector": "AI infra",
+   "grade": "A+",
+   "score": 96.0,
+   "tier": "top",
+   "note": "NVIDIA: AI infra - top-tier composite."
+  },
+  {
+   "t": "MSFT",
+   "n": "Microsoft",
+   "sector": "Software/AI",
+   "grade": "A+",
+   "score": 95.0,
+   "tier": "top",
+   "note": "Microsoft: Software/AI - top-tier composite."
+  },
+  {
+   "t": "GOOGL",
+   "n": "Alphabet",
+   "sector": "Software/AI",
+   "grade": "A",
+   "score": 93.0,
+   "tier": "top",
+   "note": "Alphabet: Software/AI - top-tier composite."
+  },
+  {
+   "t": "AVGO",
+   "n": "Broadcom",
+   "sector": "AI infra",
+   "grade": "A",
+   "score": 92.0,
+   "tier": "top",
+   "note": "Broadcom: AI infra - top-tier composite."
+  },
+  {
+   "t": "PLTR",
+   "n": "Palantir",
+   "sector": "Software/AI",
+   "grade": "A",
+   "score": 90.0,
+   "tier": "top",
+   "note": "Palantir: Software/AI - top-tier composite."
+  },
+  {
+   "t": "LLY",
+   "n": "Eli Lilly",
+   "sector": "Healthcare",
+   "grade": "A",
+   "score": 91.0,
+   "tier": "top",
+   "note": "Eli Lilly: Healthcare - top-tier composite."
+  },
+  {
+   "t": "GE",
+   "n": "GE Aerospace",
+   "sector": "Industrials",
+   "grade": "A-",
+   "score": 89.0,
+   "tier": "top",
+   "note": "GE Aerospace: Industrials - top-tier composite."
+  },
+  {
+   "t": "JPM",
+   "n": "JPMorgan",
+   "sector": "Financials",
+   "grade": "A-",
+   "score": 88.0,
+   "tier": "top",
+   "note": "JPMorgan: Financials - top-tier composite."
+  },
+  {
+   "t": "MELI",
+   "n": "MercadoLibre",
+   "sector": "Consumer/LatAm",
+   "grade": "A-",
+   "score": 87.0,
+   "tier": "top",
+   "note": "MercadoLibre: Consumer/LatAm - top-tier composite."
+  },
+  {
+   "t": "CEG",
+   "n": "Constellation",
+   "sector": "AI power/nuclear",
+   "grade": "B+",
+   "score": 85.0,
+   "tier": "top",
+   "note": "Constellation: AI power/nuclear - top-tier composite."
+  },
+  {
+   "t": "ANET",
+   "n": "Arista",
+   "sector": "AI networking",
+   "grade": "B+",
+   "score": 84.0,
+   "tier": "top",
+   "note": "Arista: AI networking - top-tier composite."
+  },
+  {
+   "t": "VST",
+   "n": "Vistra",
+   "sector": "AI power",
+   "grade": "B+",
+   "score": 84.0,
+   "tier": "top",
+   "note": "Vistra: AI power - top-tier composite."
+  },
+  {
+   "t": "GS",
+   "n": "Goldman Sachs",
+   "sector": "Financials",
+   "grade": "B+",
+   "score": 83.0,
+   "tier": "top",
+   "note": "Goldman Sachs: Financials - top-tier composite."
+  },
+  {
+   "t": "NU",
+   "n": "Nu Holdings",
+   "sector": "Consumer/LatAm",
+   "grade": "B",
+   "score": 81.0,
+   "tier": "top",
+   "note": "Nu Holdings: Consumer/LatAm - top-tier composite."
+  }
  ],
  "worst": [
-  {"t":"OPEN","n":"Opendoor","sector":"Consumer","grade":"D","score":28.0,"tier":"worst","note":"iBuying model still cash-burning; rate-sensitive and dilutive."},
-  {"t":"HTZ","n":"Hertz","sector":"Consumer","grade":"D","score":30.0,"tier":"worst","note":"Fleet/leverage overhang; speculative penny-range name."},
-  {"t":"UA","n":"Under Armour","sector":"Consumer","grade":"D","score":34.0,"tier":"worst","note":"Brand turnaround unproven; share losses persist."},
-  {"t":"SMR","n":"NuScale Power","sector":"AI-Power","grade":"C","score":40.0,"tier":"worst","note":"Pre-revenue SMR story; years from commercial cash flow."},
-  {"t":"TE","n":"TE (low-priced spec)","sector":"Speculative","grade":"C","score":41.0,"tier":"worst","note":"Low-priced speculative name; thin fundamentals."},
-  {"t":"NCLH","n":"Norwegian Cruise","sector":"Consumer","grade":"C","score":45.0,"tier":"worst","note":"Leveraged cyclical; fuel and demand sensitivity."}
+  {
+   "t": "HTZ",
+   "n": "Hertz",
+   "sector": "Consumer",
+   "grade": "D-",
+   "score": 22.0,
+   "tier": "worst",
+   "note": "Hertz: Consumer - weak composite / high risk."
+  },
+  {
+   "t": "UA",
+   "n": "Under Armour",
+   "sector": "Consumer",
+   "grade": "D",
+   "score": 28.0,
+   "tier": "worst",
+   "note": "Under Armour: Consumer - weak composite / high risk."
+  },
+  {
+   "t": "OPEN",
+   "n": "Opendoor",
+   "sector": "Real estate/tech",
+   "grade": "D",
+   "score": 30.0,
+   "tier": "worst",
+   "note": "Opendoor: Real estate/tech - weak composite / high risk."
+  },
+  {
+   "t": "SMCI",
+   "n": "Super Micro",
+   "sector": "AI hardware",
+   "grade": "C-",
+   "score": 42.0,
+   "tier": "worst",
+   "note": "Super Micro: AI hardware - weak composite / high risk."
+  },
+  {
+   "t": "OSCR",
+   "n": "Oscar Health",
+   "sector": "Healthcare",
+   "grade": "C-",
+   "score": 44.0,
+   "tier": "worst",
+   "note": "Oscar Health: Healthcare - weak composite / high risk."
+  },
+  {
+   "t": "LULU",
+   "n": "Lululemon",
+   "sector": "Consumer",
+   "grade": "C",
+   "score": 48.0,
+   "tier": "worst",
+   "note": "Lululemon: Consumer - weak composite / high risk."
+  }
  ]
 }

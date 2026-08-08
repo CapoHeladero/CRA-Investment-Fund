@@ -1,12 +1,12 @@
 {
- "asof": "2026-08-06",
- "vix": 15.81,
- "y10": 4.63,
- "y2": 4.21,
+ "asof": "2026-08-08",
+ "vix": 14.9,
+ "y10": 4.6,
+ "y2": 4.18,
  "ff": 3.63,
- "spVs200": 6.0,
- "brent": 79.0,
- "note": "Risk-on tape holding near records into Thursday Aug 6. S&P 500 closed Aug 5 at 7,723.55 (-0.17%) just off Aug 4's record; Nasdaq 26,363.44 (-0.83%) as mega-cap tech gave a little back, while the Dow set a fresh record 54,349.12 (+0.49%) on the rotation into industrials, materials, energy and consumer names. VIX 15.81 (still calm). Rates eased: 10Y ~4.63%, 2Y ~4.21%, curve +42bp; Fed on hold at 3.50-3.75% after the Jul 29 9-3 vote (three hawkish dissents). Brent slipped to ~$79 on hopes of resumed Hormuz shipping. Earnings were the story: AMD's data-center revenue doubled (+107%) with a strong Q3 guide, and Palantir spiked ~29% on a +93% revenue quarter and raised outlook. Next catalyst: the July jobs report Fri Aug 7 (est ~87.5K).",
+ "spVs200": 10.3,
+ "brent": 82.0,
+ "note": "Risk-on: S&P 500 (7,757.64), Nasdaq (26,690.62) at record closes and Dow (54,036.93) higher after a soft July jobs report (job losses) lifted Fed-cut odds. VIX subdued at 14.9, credit tight, curve positively sloped (10Y 4.6% vs 2Y 4.18%). Energy and tech led the week; 85%+ of S&P Q2 reports have beaten. Data as of the Fri Aug 7 close.",
  "checklist": [
   false,
   false,
@@ -16,16 +16,16 @@
   false,
   false,
   false,
-  true
+  false
  ],
  "whatsnew": [
-  "Tape: S&P 500 7,723.55 (Aug 5, -0.17%), Nasdaq 26,363.44 (-0.83%), Dow record 54,349.12 (+0.49%). Risk-on stays intact but Aug 5 saw a small mega-cap-tech give-back after Aug 4's fresh records.",
-  "Book ADDED: BSX (~$49.7 - fresh 4-insider ~$9.8M cluster) and BA (~$240 - BNP/JPM/Goldman upgrades + a disclosed congressional buy). Book REMOVED: ELV (managed-care margin headwind; negative reverse-DCF).",
-  "Earnings: AMD Q2 crushed it - data-center revenue +107% YoY to $6.72B, Q3 guide $12.7-13.3B; PLTR jumped ~29% on +93% revenue and a raised full-year outlook.",
-  "Analyst moves: Boeing upgraded (BNP Paribas -> Outperform, JPMorgan -> $290, Goldman -> $260, RBC -> $265); Eaton -> Outperform $502 (Evercore); Ingersoll-Rand -> Buy $101 (Stifel); e.l.f. Beauty -> Outperform $113 (Bernstein); Amgen -> $400 (Wells).",
-  "Insider clusters (new this week): Boston Scientific 4 buyers ~$9.8M @ $48.66; GBank Financial 5 buyers ~$2.0M; Tractor Supply 3 buyers; Jersey Mike's 5 buyers; Goosehead expanded to 7 buyers ~$12.2M.",
-  "Congress: Rep. Julie Johnson (D-TX) disclosed a broad buy basket today - Boeing, Adobe, Deere, Equinix, Honeywell, Fiserv plus utilities (Ameren, CMS Energy, Sempra) - an AI-power + industrials tilt.",
-  "Rates/oil: 10Y 4.63%, 2Y 4.21% (curve +42bp); Brent eased to ~$79 on Strait-of-Hormuz shipping hopes; Fed on hold 3.50-3.75%. July jobs report Fri Aug 7 (est ~87.5K) is the next real test.",
-  "Watchlist vs yesterday: 36 saved tickers (set unchanged); rebuilt 43 dossiers (36 saved + 7 curated). Curated shortlist 13 -> 14 - ADDED PLTR (~$155) and BSX (~$50), DROPPED STX."
+  "Tape: S&P 500 record 7,757.64 (Fri Aug 7, +0.62%), Nasdaq record 26,690.62 (+1.3%), Dow 54,036.93 (+0.28%) - biggest weekly gain since mid-April; VIX 14.9.",
+  "Driver: July jobs report surprised to the downside (job losses); markets read it as the Fed on hold with cut odds rising - 10Y fell to ~4.6%.",
+  "Book vs yesterday: 36 names held, no adds or removes; all entry/stop/target levels refreshed to Aug 7 record-high closes (BSX/BA sizes trimmed to ~3%/~2% for consistency).",
+  "Watchlist vs yesterday: no saved tickers added or dropped (36 saved names, 43 dossiers held); curated ideas unchanged (14); conviction steady - prices refreshed to Fri Aug 7 closes (PLTR 172.01, NVDA 223.96, MU 877.57, CCJ 97.39).",
+  "New signal - insiders: fresh 4-insider ~$9.94M cluster in BSX (filed Aug 5); 3-insider clusters in ACI (~$2.5M) and TSCO; 2-insider uranium buy in UUUU.",
+  "New signal - Congress: Rep. David Taylor (R-OH) disclosed a late-July tech basket - GOOGL, AVGO, MSFT, KR; Sen. Gary Peters (D-MI) bought Realty Income (O).",
+  "Earnings/analyst: Palantir's blowout Q2 (+93% revenue, guidance raised to ~$8.15B) still driving the tape; Goldman/Morgan Stanley PT raises across AMD/NVDA/AVGO; SNOW a 52-wk-high leader (+21.7% in a month).",
+  "Theme: uranium long-term price near $90-91/lb (multi-year highs) underpins CCJ/BWXT/UUUU; nuclear-for-AI-power PPAs keep CEG/VST/GEV in focus."
  ]
 }
