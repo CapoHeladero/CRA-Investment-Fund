@@ -1,29 +1,29 @@
 {
- "asof": "2026-08-08",
+ "asof": "2026-08-10",
  "clusters": [
+  {
+   "t": "FBIN",
+   "n": "Fortune Brands Innovations",
+   "buyers": 2,
+   "total": 30.67,
+   "buys": 2,
+   "note": "Two insiders bought ~$30.67M near $47.99 (filed Aug 10) - a large open-market cluster in a home-and-security products maker; biggest new signal of the day."
+  },
+  {
+   "t": "GSHD",
+   "n": "Goosehead Insurance",
+   "buyers": 7,
+   "total": 12.21,
+   "buys": 7,
+   "note": "Seven insiders bought ~$12.21M near $64.55 (Aug 4) - a broad, high-count cluster in an insurance-distribution growth name."
+  },
   {
    "t": "BSX",
    "n": "Boston Scientific",
    "buyers": 4,
    "total": 9.94,
    "buys": 4,
-   "note": "Four insiders bought ~$9.94M near $48.65 (filed Aug 5) - a steady double-digit grower in electrophysiology; already in the book."
-  },
-  {
-   "t": "ACI",
-   "n": "Albertsons",
-   "buyers": 3,
-   "total": 2.52,
-   "buys": 3,
-   "note": "Three insiders bought ~$2.5M near $11.49 (Jul 31) - defensive grocer, deep-value insider signal."
-  },
-  {
-   "t": "TSCO",
-   "n": "Tractor Supply",
-   "buyers": 3,
-   "total": 0.65,
-   "buys": 3,
-   "note": "Three insiders bought ~$0.65M near $32.12 (Aug 4) - rural-retail defensive with insider conviction."
+   "note": "Four insiders bought ~$9.94M near $48.65 (filed Aug 7) - steady electrophysiology grower; already in the book."
   },
   {
    "t": "GBFH",
@@ -32,22 +32,53 @@
    "total": 2.55,
    "buys": 5,
    "note": "Five insiders bought ~$2.55M near $23.34 (Aug 5) - small-cap bank cluster."
+  },
+  {
+   "t": "ACI",
+   "n": "Albertsons",
+   "buyers": 3,
+   "total": 2.52,
+   "buys": 3,
+   "note": "Three insiders bought ~$2.5M near $11.49 (Aug 3) - defensive grocer, deep-value insider signal; now ~$12.13."
+  },
+  {
+   "t": "TSCO",
+   "n": "Tractor Supply",
+   "buyers": 3,
+   "total": 0.65,
+   "buys": 3,
+   "note": "Three insiders bought ~$0.65M near $32.12 (Aug 5) - rural-retail defensive; now ~$34.62."
+  },
+  {
+   "t": "ELAN",
+   "n": "Elanco Animal Health",
+   "buyers": 3,
+   "total": 0.43,
+   "buys": 3,
+   "note": "Three insiders bought ~$0.43M near $22.69 (filed Aug 10) - animal-health turnaround, smaller but fresh."
   }
  ],
  "watchable": [
+  {
+   "t": "CCB",
+   "n": "Coastal Financial",
+   "buyers": 2,
+   "total": 1.1,
+   "note": "Two insiders bought ~$1.1M near $44.11 (Aug 6) - BaaS-levered community bank; now ~$48.61."
+  },
   {
    "t": "UUUU",
    "n": "Energy Fuels",
    "buyers": 2,
    "total": 1.02,
-   "note": "Two insiders bought ~$1.0M near $13.06 - uranium/rare-earth angle into a tight fuel market."
+   "note": "Two insiders bought ~$1.0M near $13.06 - uranium/rare-earth angle into a tight fuel market; now ~$14.29."
   },
   {
    "t": "VFC",
    "n": "VF Corp",
    "buyers": 2,
    "total": 1.01,
-   "note": "Two insiders bought ~$1.0M near $16.02 - apparel turnaround bet."
+   "note": "Two insiders bought ~$1.0M near $16.02 - apparel turnaround bet; now ~$14.9."
   },
   {
    "t": "RBKB",
@@ -59,40 +90,58 @@
  ],
  "politicians": [
   {
-   "who": "David Taylor",
+   "who": "Tony Wied",
+   "party": "R",
+   "t": "NOW",
+   "n": "ServiceNow",
+   "type": "BUY",
+   "size": "$15K-50K",
+   "note": "House WI; part of a June tech basket (also ADBE, CRM, TTD, HUBS) disclosed Aug 10."
+  },
+  {
+   "who": "Tony Wied",
+   "party": "R",
+   "t": "ADBE",
+   "n": "Adobe",
+   "type": "BUY",
+   "size": "$50K-100K",
+   "note": "House WI; largest slice of the disclosed-Aug-10 tech basket, bought ~$237.88."
+  },
+  {
+   "who": "Tony Wied",
+   "party": "R",
+   "t": "CRM",
+   "n": "Salesforce",
+   "type": "BUY",
+   "size": "$15K-50K",
+   "note": "House WI; enterprise-software buy ~$175.35, disclosed Aug 10."
+  },
+  {
+   "who": "Michael Rulli",
    "party": "R",
    "t": "GOOGL",
    "n": "Alphabet",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "House OH; part of a late-July tech basket (also AVGO, MSFT, KR), disclosed Aug 7."
+   "note": "House OH; two GOOGL buys (~$343-354) in a mega-cap basket disclosed Aug 10 (also LLY, KLAC, AAPL, KO)."
   },
   {
-   "who": "David Taylor",
+   "who": "Michael Rulli",
    "party": "R",
-   "t": "AVGO",
-   "n": "Broadcom",
+   "t": "LLY",
+   "n": "Eli Lilly",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "House OH; AI-silicon name bought ~$381.92, disclosed Aug 7."
+   "note": "House OH; GLP-1 leader bought ~$1,080, disclosed Aug 10."
   },
   {
-   "who": "David Taylor",
+   "who": "Michael Rulli",
    "party": "R",
-   "t": "MSFT",
-   "n": "Microsoft",
+   "t": "KLAC",
+   "n": "KLA Corp",
    "type": "BUY",
    "size": "$1K-15K",
-   "note": "House OH; mega-cap cloud/AI, disclosed Aug 7."
-  },
-  {
-   "who": "Gary Peters",
-   "party": "D",
-   "t": "O",
-   "n": "Realty Income",
-   "type": "BUY",
-   "size": "$1K-15K",
-   "note": "Senate MI; monthly-dividend REIT bought ~$64.72, disclosed Aug 7."
+   "note": "House OH; semicap name in the same basket, disclosed Aug 10."
   }
  ]
 }

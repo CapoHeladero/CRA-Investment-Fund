@@ -1,36 +1,36 @@
 {
- "asof": "2026-08-08",
+ "asof": "2026-08-10",
  "scope": "whole-market",
  "items": [
   {
-   "sev": "med",
-   "title": "AI-capex concentration",
-   "detail": "Mega-cap leadership rests on an unprecedented AI-capex cycle; any 'circular-financing' or hyperscaler-spend derating would hit the whole complex at once."
+   "sev": "high",
+   "title": "AI-capex concentration & circular financing",
+   "detail": "NVIDIA's reported ~$500B funding vehicle with Apollo/Blackstone spotlights how much of the AI build is being financed rather than cash-funded; any crack in that plumbing would hit the whole complex at once."
   },
   {
    "sev": "med",
-   "title": "Labor market cooling",
-   "detail": "July payrolls fell (job losses); good for rate-cut odds now, but a fast-softening labor market is a growth/earnings risk if it continues."
+   "title": "Oil / Strait-of-Hormuz risk",
+   "detail": "Brent jumped to ~$84 on Hormuz/Iran headlines; a further spike would lift inflation, pressure margins and complicate the rate-cut path."
   },
   {
    "sev": "med",
    "title": "Rate-path repricing",
-   "detail": "2Y at 4.18% vs an effective fed funds of 3.63% and cuts priced in - a hotter CPI mid-August could snap yields higher and pressure multiples."
+   "detail": "2Y ~4.23% vs effective fed funds ~3.63% with cuts priced in - a hotter Aug 12 CPI could snap yields higher and pressure multiples."
+  },
+  {
+   "sev": "med",
+   "title": "Labor market cooling",
+   "detail": "July payrolls showed job losses; supportive for cut odds now, but a fast-softening labor market is a growth/earnings risk if it continues."
   },
   {
    "sev": "low",
-   "title": "Complacency at record highs",
-   "detail": "VIX at 14.9 with indices at all-time highs leaves little cushion; positioning is stretched and pullbacks can be sharp."
+   "title": "Complacency near record highs",
+   "detail": "VIX ~15.4 with indices near all-time highs leaves little cushion; positioning is stretched and pullbacks can be sharp."
   },
   {
    "sev": "low",
-   "title": "Oil / geopolitics",
-   "detail": "Brent near $82 with lingering US-Iran tension; an energy spike would lift inflation and squeeze margins."
-  },
-  {
-   "sev": "low",
-   "title": "Narrow breadth",
-   "detail": "Leadership still concentrated in AI/semis and power names; a rotation out of mega-cap tech would drag the cap-weighted indices."
+   "title": "Narrow breadth / rotation",
+   "detail": "Leadership rotating toward energy/industrials; a sustained move out of mega-cap tech would drag the cap-weighted indices even as more stocks participate."
   }
  ]
 }
