@@ -730,6 +730,70 @@ table.t .ta-r { text-align: right; }
 }
 .menu-btn { display: none; background: var(--brass); color: #04110b; border: none; padding: 6px 10px; font-size: 18px; border-radius: 3px; }
 </style>
+
+<style id="cra-score-ui">
+/* ---- 5-pillar scoring + decision UI (Opportunities Book) ---- */
+.opp-score{margin:12px 0 6px;padding:12px 14px;border:1px solid rgba(255,255,255,.09);border-radius:10px;background:rgba(255,255,255,.02)}
+.opp-score-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.opp-score-tot{font-family:var(--font-mono,ui-monospace,monospace);font-size:26px;font-weight:700;line-height:1;color:var(--brass,#34d399)}
+.opp-score-tot small{font-size:12px;color:var(--text-sec,#9a9);font-weight:400}
+.opp-score-meta{font-size:11.5px;color:var(--text-sec,#9a9);margin-left:auto;text-align:right}
+.opp-pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(184px,1fr));gap:7px 16px}
+.pil{display:flex;align-items:center;gap:8px}
+.pil-l{font-size:11px;color:var(--text-sec,#9a9);width:86px;flex:none;letter-spacing:.02em}
+.pil-bar{flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden}
+.pil-bar i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,#34d399,#7dd3fc)}
+.pil-bar.lo i{background:linear-gradient(90deg,#f59e0b,#ef4444)}
+.pil-bar.mid i{background:linear-gradient(90deg,#eab308,#34d399)}
+.pil-v{font-family:var(--font-mono,ui-monospace,monospace);font-size:11.5px;width:24px;text-align:right;color:var(--text-pri,#e7e7e7)}
+.opp-score-why{margin:10px 0 0;padding:0;list-style:none;font-size:11.5px;line-height:1.65;color:var(--text-sec,#9a9)}
+.opp-score-why li{margin-bottom:3px}
+.opp-score-why b{color:var(--text-pri,#e7e7e7);font-weight:600}
+.opp-when{margin:10px 0;padding:11px 13px;border-left:3px solid #7dd3fc;background:rgba(125,211,252,.07);border-radius:0 6px 6px 0;font-size:12.5px;line-height:1.6}
+.opp-when-label{display:block;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:#7dd3fc;margin-bottom:4px}
+.opp-levels{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.lvl{font-family:var(--font-mono,ui-monospace,monospace);font-size:11.5px;padding:4px 9px;border-radius:5px;border:1px solid rgba(255,255,255,.1)}
+.lvl b{font-weight:600}
+.lvl-buy{color:#34d399;border-color:rgba(52,211,153,.3);background:rgba(52,211,153,.07)}
+.lvl-stop{color:#f87171;border-color:rgba(248,113,113,.3);background:rgba(248,113,113,.07)}
+.lvl-tgt{color:#7dd3fc;border-color:rgba(125,211,252,.3);background:rgba(125,211,252,.07)}
+.lvl-now{color:var(--text-sec,#9a9)}
+.opp-decide{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;padding-top:11px;border-top:1px dashed rgba(255,255,255,.11)}
+.dbtn{cursor:pointer;font:inherit;font-size:12px;padding:6px 13px;border-radius:6px;border:1px solid rgba(255,255,255,.14);background:transparent;color:var(--text-sec,#9a9);transition:.15s}
+.dbtn:hover{border-color:rgba(255,255,255,.3);color:var(--text-pri,#e7e7e7)}
+.dbtn.on-acc{background:rgba(52,211,153,.16);border-color:#34d399;color:#34d399;font-weight:600}
+.dbtn.on-rej{background:rgba(248,113,113,.14);border-color:#f87171;color:#f87171;font-weight:600}
+.dbtn.on-snz{background:rgba(234,179,8,.14);border-color:#eab308;color:#eab308;font-weight:600}
+.dec-state{font-size:11.5px;color:var(--text-sec,#9a9);margin-left:auto}
+.opp-card.is-rej{opacity:.42}
+.opp-card.is-acc{border-left:3px solid #34d399}
+/* tracker */
+.trk{margin:0 0 16px;padding:14px 16px;border:1px solid rgba(52,211,153,.25);background:rgba(52,211,153,.05);border-radius:10px}
+.trk-h{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass,#34d399);margin-bottom:10px}
+.trk-h span{color:var(--text-sec,#9a9);text-transform:none;letter-spacing:0}
+.trk-tbl{width:100%;border-collapse:collapse;font-size:12px}
+.trk-tbl th{text-align:left;font-weight:500;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--text-sec,#9a9);padding:0 10px 7px 0;border-bottom:1px solid rgba(255,255,255,.09)}
+.trk-tbl td{padding:8px 10px 8px 0;border-bottom:1px solid rgba(255,255,255,.05);font-family:var(--font-mono,ui-monospace,monospace)}
+.trk-tbl td.nm{font-family:inherit}
+.up{color:#34d399}.dn{color:#f87171}
+.st{font-size:10.5px;padding:2px 8px;border-radius:20px;white-space:nowrap;font-family:inherit}
+.st-buy{background:rgba(52,211,153,.17);color:#34d399}
+.st-tgt{background:rgba(125,211,252,.17);color:#7dd3fc}
+.st-stop{background:rgba(248,113,113,.17);color:#f87171}
+.st-wait{background:rgba(255,255,255,.07);color:var(--text-sec,#9a9)}
+.trk-x{cursor:pointer;background:none;border:none;color:var(--text-sec,#9a9);font-size:14px;padding:0 4px}
+.trk-x:hover{color:#f87171}
+/* sector ranking */
+.secrank{margin:0 0 16px;padding:14px 16px;border:1px solid rgba(255,255,255,.09);border-radius:10px;background:rgba(255,255,255,.02)}
+.secrank-h{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-sec,#9a9);margin-bottom:10px}
+.secrow{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.secrow-n{font-size:12px;width:150px;flex:none;color:var(--text-pri,#e7e7e7)}
+.secrow-b{flex:1;height:7px;border-radius:4px;background:rgba(255,255,255,.07);overflow:hidden}
+.secrow-b i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#34d399,#7dd3fc)}
+.secrow-v{font-family:var(--font-mono,ui-monospace,monospace);font-size:11.5px;width:26px;text-align:right;color:var(--text-pri,#e7e7e7)}
+.secrow-t{font-size:11px;width:14px;text-align:center}
+@media(max-width:640px){.opp-score-meta{margin-left:0;text-align:left;width:100%}.secrow-n{width:110px}.pil-l{width:78px}}
+</style>
 </head>
 <body>
 <div class="app">
@@ -1835,12 +1899,127 @@ const opportunities = [
 ];
 
 const Opp = {
-  __data:null, __fresh:null, __tried:false,
-  fromFlat(flat){ const groups={},order=[]; flat.forEach(it=>{ const th=it.theme||'Daily Opportunities'; if(!groups[th]){groups[th]={theme:th,sub:'Auto-refreshed from the daily research book',ideas:[]};order.push(th);} const lv=(it.entry!=null&&it.stop!=null&&it.target!=null)?('Entry $'+it.entry+' · Stop $'+it.stop+' · Target $'+it.target+'. '):''; groups[th].ideas.push({t:it.t,n:it.n,type:it.type||'Swing',size:it.size||'',a:it.a||'',why:lv+(it.why||''),bull:it.bull||[],bear:it.bear||[],v:it.v||[],inv:it.inv||''}); }); return order.map(k=>groups[k]); },
-  loadDaily(){ fetch('macro-latest.json?cb='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(m=>{ if(m&&Array.isArray(m.whatsnew)&&m.whatsnew.length){ Opp.__whatsnew=m.whatsnew; Opp.__wnAsof=m.asof||''; Opp.render(); } }).catch(()=>{}); fetch('opportunities-latest.json?cb='+Date.now(),{cache:'no-store'}).then(r=>r.ok?Promise.all([r.json(),r.headers.get('Last-Modified')]):null).then(o=>{ if(o&&Array.isArray(o[0])&&o[0].length){ Opp.__data=Opp.fromFlat(o[0]); Opp.__fresh=o[1]; Opp.render(); } }).catch(()=>{}); },
+  __data:null, __fresh:null, __tried:false, __sec:null, __flat:null,
+  PILLARS:[['f','Fundamentals'],['v','Valuation'],['t','Technicals'],['c','Catalyst'],['s','Smart money']],
+  fromFlat(flat){
+    const groups={},order=[];
+    Opp.__flat=flat;
+    flat.forEach(it=>{
+      const th=it.theme||'Daily Opportunities';
+      if(!groups[th]){groups[th]={theme:th,sub:'Auto-refreshed from the weekly research book',ideas:[]};order.push(th);}
+      groups[th].ideas.push({t:it.t,n:it.n,type:it.type||'Swing',size:it.size||'',a:it.a||'',
+        why:it.why||'',bull:it.bull||[],bear:it.bear||[],v:it.v||[],inv:it.inv||'',
+        sc:it.sc||null, scWhy:it.scWhy||null, when:it.when||'', theme:th,
+        p:it.p!=null?it.p:null, entry:it.entry, stop:it.stop, target:it.target});
+    });
+    // rank within theme by composite score
+    order.forEach(k=>groups[k].ideas.sort((a,b)=>((b.sc&&b.sc.tot)||0)-((a.sc&&a.sc.tot)||0)));
+    return order.map(k=>groups[k]);
+  },
+  loadDaily(){
+    fetch('macro-latest.json?cb='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(m=>{
+      if(m&&Array.isArray(m.whatsnew)&&m.whatsnew.length){Opp.__whatsnew=m.whatsnew;Opp.__wnAsof=m.asof||'';Opp.render();}
+    }).catch(()=>{});
+    fetch('sector-scores-latest.json?cb='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(s=>{
+      if(s&&Array.isArray(s.sectors)&&s.sectors.length){Opp.__sec=s;Opp.render();}
+    }).catch(()=>{});
+    fetch('opportunities-latest.json?cb='+Date.now(),{cache:'no-store'}).then(r=>r.ok?Promise.all([r.json(),r.headers.get('Last-Modified')]):null).then(o=>{
+      if(o&&Array.isArray(o[0])&&o[0].length){Opp.__data=Opp.fromFlat(o[0]);Opp.__fresh=o[1];Opp.render();}
+    }).catch(()=>{});
+  },
+
+  /* ---------- decisions (localStorage: cra.decisions) ---------- */
+  decs(){ return S.get('decisions') || {}; },
+  decide(t,d){
+    const all=Opp.decs(), cur=all[t];
+    if(cur&&cur.d===d){ delete all[t]; }
+    else {
+      const idea=(Opp.__flat||[]).find(x=>x.t===t)||{};
+      all[t]={d:d, at:F.today(), p:(idea.p!=null?idea.p:null),
+              entry:idea.entry, stop:idea.stop, target:idea.target, n:idea.n||t};
+    }
+    S.set('decisions',all);
+    Opp.render();
+  },
+  undecide(t){ const all=Opp.decs(); delete all[t]; S.set('decisions',all); Opp.render(); },
+
+  status(d,now){
+    if(now==null||d.entry==null) return ['st-wait','Watching'];
+    if(d.stop!=null && now<=d.stop) return ['st-stop','Stop broken'];
+    if(d.target!=null && now>=d.target) return ['st-tgt','Target hit'];
+    if(now<=d.entry) return ['st-buy','In buy zone'];
+    return ['st-wait','Above entry'];
+  },
+
+  tracker(){
+    const all=Opp.decs(), acc=Object.keys(all).filter(t=>all[t].d==='accept');
+    if(!acc.length) return '';
+    const flat=Opp.__flat||[];
+    const rows=acc.map(t=>{
+      const d=all[t], live=flat.find(x=>x.t===t), now=live&&live.p!=null?live.p:null;
+      const mv=(now!=null&&d.p)?((now-d.p)/d.p*100):null;
+      const st=Opp.status(d,now);
+      return '<tr><td class="nm"><strong>'+F.esc(t)+'</strong> <span style="color:var(--text-sec,#9a9)">'+F.esc(d.n||'')+'</span></td>'
+        +'<td>'+(d.p!=null?('$'+F.num(d.p)):'—')+'</td>'
+        +'<td>'+(now!=null?('$'+F.num(now)):'—')+'</td>'
+        +'<td class="'+(mv==null?'':(mv>=0?'up':'dn'))+'">'+(mv==null?'—':F.pct(mv))+'</td>'
+        +'<td>'+(d.entry!=null?('$'+F.num(d.entry)):'—')+'</td>'
+        +'<td>'+(d.stop!=null?('$'+F.num(d.stop)):'—')+'</td>'
+        +'<td><span class="st '+st[0]+'">'+st[1]+'</span></td>'
+        +'<td style="color:var(--text-sec,#9a9)">'+F.esc(d.at||'')+'</td>'
+        +'<td><button class="trk-x" title="Remove" onclick="Opp.undecide(\''+t+'\')">×</button></td></tr>';
+    }).join('');
+    return '<div class="trk"><div class="trk-h">Your accepted ideas <span>· '+acc.length+' tracked · prices as of the latest weekly run</span></div>'
+      +'<div style="overflow-x:auto"><table class="trk-tbl"><thead><tr><th>Name</th><th>At accept</th><th>Now</th><th>Move</th><th>Entry</th><th>Stop</th><th>Status</th><th>Accepted</th><th></th></tr></thead><tbody>'
+      +rows+'</tbody></table></div></div>';
+  },
+
+  sectorPanel(){
+    if(!Opp.__sec) return '';
+    const s=Opp.__sec.sectors.slice().sort((a,b)=>b.score-a.score);
+    const arrow=t=>t==='up'?'<span class="up">▲</span>':(t==='down'?'<span class="dn">▼</span>':'<span style="color:var(--text-sec,#9a9)">–</span>');
+    return '<div class="secrank"><div class="secrank-h">Sector scores <span style="text-transform:none;letter-spacing:0">· '+F.esc(Opp.__sec.asof||'')+' · ranked 0–100</span></div>'
+      + s.map(x=>'<div class="secrow"><div class="secrow-n" title="'+F.esc(x.note||'')+'">'+F.esc(x.name)+'</div>'
+        +'<div class="secrow-b"><i style="width:'+Math.max(2,Math.min(100,x.score))+'%"></i></div>'
+        +'<div class="secrow-v">'+x.score+'</div><div class="secrow-t">'+arrow(x.trend)+'</div></div>').join('')
+      +'</div>';
+  },
+
+  scoreBlock(idea){
+    if(!idea.sc) return '';
+    const sc=idea.sc, cls=v=>v>=70?'':(v>=45?'mid':'lo');
+    const pil=Opp.PILLARS.map(p=>{
+      const v=sc[p[0]]!=null?sc[p[0]]:0;
+      return '<div class="pil"><span class="pil-l">'+p[1]+'</span><div class="pil-bar '+cls(v)+'"><i style="width:'+Math.max(2,Math.min(100,v))+'%"></i></div><span class="pil-v">'+v+'</span></div>';
+    }).join('');
+    const why=(idea.scWhy&&idea.scWhy.length)
+      ? '<ul class="opp-score-why">'+idea.scWhy.map((w,i)=>'<li><b>'+(Opp.PILLARS[i]?Opp.PILLARS[i][1]:'')+':</b> '+F.esc(w)+'</li>').join('')+'</ul>' : '';
+    return '<div class="opp-score"><div class="opp-score-top">'
+      +'<span class="opp-score-tot">'+(sc.tot!=null?sc.tot:'—')+'<small>/100</small></span>'
+      +'<span class="bdg bdg-brass">'+(sc.g||'')+'</span>'
+      +'<span class="opp-score-meta">'+F.esc(idea.theme||'')+'</span></div>'
+      +'<div class="opp-pillars">'+pil+'</div>'+why+'</div>';
+  },
+
+  levels(idea){
+    if(idea.entry==null) return '';
+    return '<div class="opp-levels">'
+      +(idea.p!=null?'<span class="lvl lvl-now">Now <b>$'+F.num(idea.p)+'</b></span>':'')
+      +'<span class="lvl lvl-buy">Buy ≤ <b>$'+F.num(idea.entry)+'</b></span>'
+      +'<span class="lvl lvl-stop">Stop <b>$'+F.num(idea.stop)+'</b></span>'
+      +'<span class="lvl lvl-tgt">Target <b>$'+F.num(idea.target)+'</b></span></div>';
+  },
+
   render() {
-    const el = document.getElementById('opp-list'); if(Opp.__data===null && !Opp.__tried){Opp.__tried=true; Opp.loadDaily();}
-    el.innerHTML = (Opp.__fresh?('<div style="margin:0 0 14px;padding:8px 12px;border-left:3px solid var(--brass,#34d399);background:rgba(52,211,153,.10);font-size:12.5px;color:var(--text-sec,#9a9);border-radius:4px;">⟳ Live daily book · updated '+Opp.__fresh+'</div>'):'') + ((Opp.__whatsnew&&Opp.__whatsnew.length)?('<div style="margin:0 0 16px;padding:14px 16px;border:1px solid rgba(52,211,153,.25);background:rgba(52,211,153,.06);border-radius:10px;"><div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass,#34d399);margin-bottom:8px;">What\'s new today <span style="color:var(--text-sec,#9a9);text-transform:none;letter-spacing:0;">· '+(Opp.__wnAsof||'')+' · vs yesterday</span></div><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.6;color:var(--text-sec,#9a9);">'+Opp.__whatsnew.map(function(w){return '<li style="margin-bottom:5px;">'+F.esc(w)+'</li>';}).join('')+'</ul></div>'):'') + (Opp.__data||opportunities).map((th, i) => `
+    const el = document.getElementById('opp-list');
+    if(Opp.__data===null && !Opp.__tried){Opp.__tried=true; Opp.loadDaily();}
+    const decs=Opp.decs();
+    const head = (Opp.__fresh?('<div style="margin:0 0 14px;padding:8px 12px;border-left:3px solid var(--brass,#34d399);background:rgba(52,211,153,.10);font-size:12.5px;color:var(--text-sec,#9a9);border-radius:4px;">⟳ Live weekly book · updated '+Opp.__fresh+'</div>'):'')
+      + Opp.tracker()
+      + ((Opp.__whatsnew&&Opp.__whatsnew.length)?('<div style="margin:0 0 16px;padding:14px 16px;border:1px solid rgba(52,211,153,.25);background:rgba(52,211,153,.06);border-radius:10px;"><div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass,#34d399);margin-bottom:8px;">What\'s new <span style="color:var(--text-sec,#9a9);text-transform:none;letter-spacing:0;">· '+(Opp.__wnAsof||'')+' · vs last week</span></div><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.6;color:var(--text-sec,#9a9);">'+Opp.__whatsnew.map(function(w){return '<li style="margin-bottom:5px;">'+F.esc(w)+'</li>';}).join('')+'</ul></div>'):'')
+      + Opp.sectorPanel();
+
+    el.innerHTML = head + (Opp.__data||opportunities).map((th, i) => `
       <div class="opp-theme${i === 0 ? ' open' : ''}" data-i="${i}">
         <div class="opp-theme-header" onclick="Opp.toggle(${i})">
           <div>
@@ -1850,8 +2029,12 @@ const Opp = {
           <div class="opp-theme-toggle">＋</div>
         </div>
         <div class="opp-theme-body">
-          ${th.ideas.map(idea => `
-            <div class="opp-card">
+          ${th.ideas.map(idea => {
+            const dc = decs[idea.t]; const dv = dc ? dc.d : '';
+            const cardCls = dv==='accept' ? ' is-acc' : (dv==='reject' ? ' is-rej' : '');
+            const state = dv==='accept' ? ('Accepted '+(dc.at||'')) : dv==='reject' ? ('Rejected '+(dc.at||'')) : dv==='snooze' ? ('Snoozed '+(dc.at||'')) : 'No decision yet';
+            return `
+            <div class="opp-card${cardCls}">
               <div class="opp-card-top">
                 <div><span class="opp-ticker">${idea.t}</span><span class="opp-name">${idea.n}</span></div>
                 <button class="btn-sec btn-sm" onclick="Opp.toWatch('${idea.t}', \`${F.esc(idea.a).slice(0,180)}\`)">+ Watch</button>
@@ -1860,11 +2043,14 @@ const Opp = {
                 <span class="bdg bdg-info">${idea.type}</span>
                 <span class="bdg bdg-brass">Size: ${idea.size}</span>
               </div>
+              ${Opp.scoreBlock(idea)}
+              ${Opp.levels(idea)}
               <div class="opp-angle">${idea.a}</div>
               <div class="opp-why">
                 <span class="opp-why-label">Why now</span>
                 ${idea.why}
               </div>
+              ${idea.when ? `<div class="opp-when"><span class="opp-when-label">When to buy</span>${F.esc(idea.when)}</div>` : ''}
               <div class="opp-split">
                 <div class="opp-block opp-block-bull">
                   <div class="opp-block-h">Bull case</div>
@@ -1883,8 +2069,14 @@ const Opp = {
                 <span class="opp-invalidator-label">Invalidation trigger</span>
                 ${idea.inv}
               </div>
-            </div>
-          `).join('')}
+              <div class="opp-decide">
+                <button class="dbtn${dv==='accept'?' on-acc':''}" onclick="Opp.decide('${idea.t}','accept')">✓ Accept</button>
+                <button class="dbtn${dv==='reject'?' on-rej':''}" onclick="Opp.decide('${idea.t}','reject')">✕ Reject</button>
+                <button class="dbtn${dv==='snooze'?' on-snz':''}" onclick="Opp.decide('${idea.t}','snooze')">◷ Snooze</button>
+                <span class="dec-state">${state}</span>
+              </div>
+            </div>`;
+          }).join('')}
         </div>
       </div>
     `).join('');
