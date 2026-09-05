@@ -2305,13 +2305,26 @@ const Pos = {
     this.render();
   },
   remove(i) { const l = S.get('positions') || []; l.splice(i, 1); S.set('positions', l); this.render(); },
+  async livePrice(ticker) {
+    try {
+      const r = await fetch('https://stockanalysis.com/api/quotes/s/' + encodeURIComponent(ticker), { cache: 'no-store' });
+      const j = await r.json();
+      const px = j && j.data && j.data.p;
+      return (typeof px === 'number' && px > 0) ? px : null;
+    } catch (e) { return null; }
+  },
   async refresh() {
     const list = S.get('positions') || [];
-    if (!API.key()) { alert('Add Finnhub key in Settings'); return; }
     if (!list.length) return;
-    for (const p of list) { const q = await API.quote(p.ticker); if (q && q.c) p.current = q.c; }
+    const btn = document.querySelector('[onclick="Pos.refresh()"]');
+    const label = btn ? btn.textContent : '';
+    if (btn) { btn.disabled = true; btn.textContent = '↻ Refreshing…'; }
+    let ok = 0;
+    for (const p of list) { const px = await this.livePrice(p.ticker); if (px) { p.current = px; ok++; } }
     S.set('positions', list);
+    if (btn) { btn.disabled = false; btn.textContent = label; }
     this.render();
+    if (!ok) alert('Could not fetch live prices right now — please try again in a moment.');
   },
   render() {
     const list = S.get('positions') || [];
@@ -2972,16 +2985,16 @@ window.addEventListener('DOMContentLoaded', async () => {
   Macro.initChk();
   Brief.render();
   Opp.render();
-  // Auto-refresh position prices once per day on open
-  if (API.key()) {
+  // Auto-refresh position prices once per day on open (keyless, via stockanalysis)
+  {
     const lastAuto = S.get('lastAutoRefresh');
     const now = Date.now();
     if (!lastAuto || (now - lastAuto) > 6 * 3600 * 1000) {
       const positions = S.get('positions') || [];
       if (positions.length) {
         for (const p of positions) {
-          const q = await API.quote(p.ticker);
-          if (q && q.c) p.current = q.c;
+          const px = await Pos.livePrice(p.ticker);
+          if (px) p.current = px;
         }
         S.set('positions', positions);
         S.set('lastAutoRefresh', now);
